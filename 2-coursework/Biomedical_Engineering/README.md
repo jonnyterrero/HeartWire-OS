@@ -19,4 +19,3 @@ This folder contains notes, summaries, and materials from all BME courses.
 ## Purpose
 
 Centralize BME coursework for future reference and exam prep.
-
