@@ -150,8 +150,6 @@ log/
 
 *.xls
 
-*.json
-
 datasets/
 
 data/

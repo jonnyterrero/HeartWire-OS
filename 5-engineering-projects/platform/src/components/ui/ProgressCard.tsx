@@ -4,18 +4,26 @@ interface ProgressCardProps {
   title: string;
   value: number;
   total: number;
-  color?: "blue" | "green" | "purple" | "orange";
+  color?: string;
 }
 
+const colorStyles: Record<string, string> = {
+  blue: "bg-blue-500",
+  green: "bg-emerald-500",
+  purple: "bg-purple-500",
+  orange: "bg-orange-500",
+  yellow: "bg-yellow-500",
+  cyan: "bg-cyan-500",
+  pink: "bg-pink-500",
+  indigo: "bg-indigo-500",
+  red: "bg-red-500",
+  teal: "bg-teal-500",
+  emerald: "bg-emerald-500",
+  gray: "bg-gray-500",
+};
+
 export function ProgressCard({ title, value, total, color = "blue" }: ProgressCardProps) {
-  const percentage = Math.round((value / total) * 100);
-  
-  const colorStyles = {
-    blue: "bg-blue-500",
-    green: "bg-emerald-500",
-    purple: "bg-purple-500",
-    orange: "bg-orange-500",
-  };
+  const percentage = total > 0 ? Math.round((value / total) * 100) : 0;
 
   return (
     <div className="bg-white dark:bg-darkSurface border border-gray-200 dark:border-gray-800 rounded-lg p-4 shadow-sm">
@@ -28,11 +36,10 @@ export function ProgressCard({ title, value, total, color = "blue" }: ProgressCa
       </div>
       <div className="w-full bg-gray-100 dark:bg-gray-700 rounded-full h-2 overflow-hidden">
         <div 
-          className={clsx("h-2 rounded-full transition-all duration-500", colorStyles[color])}
+          className={clsx("h-2 rounded-full transition-all duration-500", colorStyles[color] || "bg-blue-500")}
           style={{ width: `${percentage}%` }}
         />
       </div>
     </div>
   );
 }
-
