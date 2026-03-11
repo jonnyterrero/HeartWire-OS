@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import { createSupabaseServerClient } from "@/lib/supabase-server";
 import Sidebar from "@/components/layout/Sidebar";
 import "./globals.css";
@@ -22,7 +23,9 @@ export default async function RootLayout({
       <body className="flex h-screen overflow-hidden bg-slate-50 dark:bg-darkBg text-slate-900 dark:text-slate-100">
         {user ? (
           <>
-            <Sidebar />
+            <Suspense fallback={<aside className="w-64 hidden md:block" />}>
+              <Sidebar />
+            </Suspense>
             <main className="flex-1 overflow-y-auto md:ml-64 p-4 md:p-8">
               {children}
             </main>

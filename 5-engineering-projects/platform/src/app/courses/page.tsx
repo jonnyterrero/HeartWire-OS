@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import { BookOpen, Plus, Trash2, X } from "lucide-react";
 import clsx from "clsx";
 
@@ -16,12 +16,16 @@ type Course = {
   title: string;
   code: string;
   status: "NOT_STARTED" | "IN_PROGRESS" | "COMPLETED";
+  trackId?: string;
   track: { title: string; color: string };
   _count: { resources: number; tasks: number; notes: number };
 };
 
 export default function CoursesPage() {
   const router = useRouter();
+  const searchParams = useSearchParams();
+  const urlTrackId = searchParams.get("trackId");
+
   const [courses, setCourses] = useState<Course[]>([]);
   const [tracks, setTracks] = useState<Track[]>([]);
   const [isLoading, setIsLoading] = useState(true);
@@ -29,7 +33,7 @@ export default function CoursesPage() {
   const [newTitle, setNewTitle] = useState("");
   const [newCode, setNewCode] = useState("");
   const [newTrackId, setNewTrackId] = useState("");
-  const [filterTrack, setFilterTrack] = useState("ALL");
+  const [filterTrackId, setFilterTrackId] = useState<string | null>(null);
 
   useEffect(() => {
     Promise.all([
@@ -40,9 +44,19 @@ export default function CoursesPage() {
         setCourses(c);
         setTracks(t);
         if (t.length > 0) setNewTrackId(t[0].id);
+        if (urlTrackId) setFilterTrackId(urlTrackId);
       })
       .finally(() => setIsLoading(false));
-  }, []);
+  }, [urlTrackId]);
+
+  // Sync URL when filter changes (e.g. from chip click)
+  const setFilter = (id: string | null) => {
+    setFilterTrackId(id);
+    const params = new URLSearchParams(searchParams.toString());
+    if (id) params.set("trackId", id);
+    else params.delete("trackId");
+    router.replace(`/courses${params.toString() ? `?${params}` : ""}`);
+  };
 
   const addCourse = async () => {
     if (!newTitle.trim() || !newTrackId) return;
@@ -89,18 +103,34 @@ export default function CoursesPage() {
 
   const statusOptions = ["NOT_STARTED", "IN_PROGRESS", "COMPLETED"];
 
-  const filtered =
-    filterTrack === "ALL"
-      ? courses
-      : courses.filter((c) => c.track?.title === filterTrack);
+  const filtered = filterTrackId
+    ? courses.filter((c) => c.trackId === filterTrackId)
+    : courses;
+
+  const activeTrack = filterTrackId
+    ? tracks.find((t) => t.id === filterTrackId)
+    : null;
 
   return (
     <div className="max-w-6xl mx-auto">
       <div className="flex justify-between items-center mb-6">
         <div>
-          <h1 className="text-3xl font-bold text-gray-900 dark:text-white">Courses</h1>
+          <h1 className="text-3xl font-bold text-gray-900 dark:text-white">
+            {activeTrack ? activeTrack.title : "Courses"}
+          </h1>
           <p className="text-gray-500 dark:text-gray-400">
-            {courses.length} courses across {tracks.length} tracks
+            {filtered.length} courses
+            {activeTrack && (
+              <>
+                {" "}&bull;{" "}
+                <button
+                  onClick={() => setFilter(null)}
+                  className="text-blue-500 hover:underline"
+                >
+                  Show all
+                </button>
+              </>
+            )}
           </p>
         </div>
         <button
@@ -152,10 +182,10 @@ export default function CoursesPage() {
 
       <div className="flex gap-2 mb-6 flex-wrap">
         <button
-          onClick={() => setFilterTrack("ALL")}
+          onClick={() => setFilter(null)}
           className={clsx(
             "px-3 py-1.5 text-xs font-medium rounded-md transition-colors",
-            filterTrack === "ALL"
+            !filterTrackId
               ? "bg-gray-900 dark:bg-white text-white dark:text-black"
               : "bg-white dark:bg-darkSurface text-gray-600 dark:text-gray-300 border border-gray-200 dark:border-gray-800"
           )}
@@ -165,10 +195,10 @@ export default function CoursesPage() {
         {tracks.map((t) => (
           <button
             key={t.id}
-            onClick={() => setFilterTrack(t.title)}
+            onClick={() => setFilter(t.id)}
             className={clsx(
               "px-3 py-1.5 text-xs font-medium rounded-md transition-colors",
-              filterTrack === t.title
+              filterTrackId === t.id
                 ? "bg-gray-900 dark:bg-white text-white dark:text-black"
                 : "bg-white dark:bg-darkSurface text-gray-600 dark:text-gray-300 border border-gray-200 dark:border-gray-800"
             )}
