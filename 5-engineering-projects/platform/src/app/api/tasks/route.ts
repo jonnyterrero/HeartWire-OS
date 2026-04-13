@@ -10,6 +10,7 @@ export async function GET(request: Request) {
   const status = searchParams.get("status");
   const courseId = searchParams.get("courseId");
   const priority = searchParams.get("priority");
+  const includeTrack = searchParams.get("includeTrack") === "1";
 
   const tasks = await prisma.task.findMany({
     where: {
@@ -19,7 +20,9 @@ export async function GET(request: Request) {
       ...(priority && { priority }),
     },
     include: {
-      course: { select: { title: true, code: true } },
+      course: includeTrack
+        ? { select: { title: true, code: true, track: { select: { title: true, color: true } } } }
+        : { select: { title: true, code: true } },
     },
     orderBy: [{ sortOrder: "asc" }, { createdAt: "desc" }],
   });

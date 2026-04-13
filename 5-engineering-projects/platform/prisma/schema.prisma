@@ -21,6 +21,7 @@ model User {
   tasks    Task[]
   sessions StudySession[]
   notes    Note[]
+  habits   Habit[]
 
   @@map("users")
 }
@@ -118,4 +119,32 @@ model Note {
   updatedAt DateTime @updatedAt @map("updated_at")
 
   @@map("notes")
+}
+
+// ─── Habits ────────────────────────────────────────────────
+model Habit {
+  id         String   @id @default(uuid())
+  userId     String   @map("user_id")
+  user       User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  name       String
+  color      String   @default("blue")
+  targetDays Int[]    @default([0, 1, 2, 3, 4, 5, 6]) @map("target_days")
+  archived   Boolean  @default(false)
+  createdAt  DateTime @default(now()) @map("created_at")
+  updatedAt  DateTime @updatedAt @map("updated_at")
+
+  completions HabitCompletion[]
+
+  @@map("habits")
+}
+
+model HabitCompletion {
+  id            String   @id @default(uuid())
+  habitId       String   @map("habit_id")
+  habit         Habit    @relation(fields: [habitId], references: [id], onDelete: Cascade)
+  completedDate DateTime @map("completed_date") @db.Date
+  createdAt     DateTime @default(now()) @map("created_at")
+
+  @@unique([habitId, completedDate])
+  @@map("habit_completions")
 }
