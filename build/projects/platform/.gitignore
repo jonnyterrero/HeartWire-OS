@@ -1,0 +1,23 @@
+# ------------------------------
+# Platform app (Next.js + Prisma) — local gitignore
+# Scoped to build/projects/platform/.
+# Repo-wide rules (node_modules, .next, .env*, etc.) live in the root .gitignore.
+# ------------------------------
+
+# next-pwa generated service worker + workbox runtime. Rebuilt on every
+# `next build`; must never be committed.
+/public/sw.js
+/public/sw.js.map
+/public/workbox-*.js
+/public/workbox-*.js.map
+/public/worker-*.js
+/public/worker-*.js.map
+/public/fallback-*.js
+
+# Prisma generated client + migration scratch (the @prisma/client package
+# lives under node_modules and is already ignored; this just documents the
+# generated-location for future readers).
+/prisma/generated/
+
+# Local build artefacts that shouldn't leak between restarts.
+*.tsbuildinfo
