@@ -216,6 +216,72 @@ Free tier: 1 GB storage + 1 GB bandwidth/month. HeartWire OS needs:
 
 ---
 
+## 3g. Stage F — first push (executed)
+
+**Result: `031c4b8..edd8bc8  Backend-development -> Backend-development`.**
+
+The push executed in two attempts because GitHub's server-side Secret Scanning Push Protection caught a `.gitignore` bug introduced during Stage C that had been silently letting `.env` / `.env.local` / `.env.txt` files slip past the "Secrets / Credentials" rules inside `/build/`.
+
+### Attempt 1 — rejected (GH013 secret-scanning block)
+
+Commit `d740a24` reached the GitHub edge, LFS objects uploaded successfully, but the ref update was refused because the commit tree contained:
+
+- `build/projects/platform/.env.local` (flagged — live Supabase secret key)
+- `build/projects/platform/.env` (not flagged but also a secrets file)
+- `build/projects/5amclubOS/.env.txt` (not flagged — disguised `.env` file with `.txt` suffix)
+
+The LFS blobs were left as unreferenced objects on GitHub's LFS store and re-linked on attempt 2 (no re-upload needed).
+
+### Root cause — greedy `!/build/**` un-ignore rule
+
+Stage C added the following block to `.gitignore` to un-shadow the canonical `/build/` directory against the generic `build/` (Python/Node artifact) rule:
+
+```gitignore
+!/build/
+!/build/**   # <- the bug
+```
+
+The second pattern **recursively re-includes every file** under `/build/`, which silently overrode the later `.env`, `.env.local`, `.env.*.local`, `*.pem`, `*.key`, `*.crt` rules **for any file inside `/build/`**. Only 4 files were actually affected in this commit (the 3 listed above + `.env.example`, which is a legitimate template), but any future `*.pem` / key / cert added under `/build/` would have had the same exposure.
+
+### Fix (amended into `d740a24` → `edd8bc8`)
+
+1. Removed the `!/build/**` line; kept `!/build/` alone. The directory entry is un-ignored so git descends into it, and per-file rules (secrets, datasets, build artefacts) then apply normally inside it. See the comment block in `.gitignore` warning against re-adding the `**` form.
+2. Added defence-in-depth patterns for secret-disguise filenames:
+
+    ```gitignore
+    .env.txt
+    .env.bak
+    .env.old
+    .env.backup
+    ```
+
+3. `git rm --cached` removed the 3 offending files from the index (kept on disk). `build/projects/platform/.env.example` remains tracked — legitimate template.
+4. `git commit --amend --no-edit` rewrote the single local commit. Safe because HEAD was never on the remote and origin's `Backend-development` was still at its pre-restructure sha (`031c4b8`) throughout.
+5. `git push origin Backend-development` → accepted in 16 seconds (LFS blobs already present; only the ~20 KB commit diff went over the wire).
+
+### Blast-radius audit (for incident record)
+
+The Supabase secret key was **never on the remote**:
+
+- Not present in `origin/Backend-development` at any point (verified via `git cat-file -e origin/Backend-development:5-engineering-projects/platform/.env.local` → `fatal: path does not exist`).
+- Present only in the orphaned local commit `d740a24` (now unreferenced; reclaimed on next `git gc`).
+- Present in the working tree under `build/projects/platform/.env.local` (still there, still gitignored, still needed by the local dev server).
+
+**Rotation recommended but not mandatory** — the key did live on an OneDrive-synced disk for weeks, so "never left the machine" is a slight overstatement; "never left the machine via this repo" is the accurate claim. Rotate if the Supabase project touches production data.
+
+### Repo state after Stage F
+
+| Check | Value |
+| :--- | :--- |
+| Local `HEAD` | `edd8bc8` |
+| `origin/Backend-development` | `edd8bc8` (in sync) |
+| Working tree | clean |
+| `git lfs push --dry-run` | empty (nothing pending) |
+| `.env*` tracked in HEAD tree | only `build/projects/platform/.env.example` (template, no secrets) |
+| LFS objects on remote | 935 pointers / ~2.67 GB referenced |
+
+---
+
 ## 4. Duplicate-content inventory
 
 The legacy mirrors are near-exact duplicates of each other and of the old numeric tree. Before Stage D, decide which snapshot (if any) to keep:
@@ -244,13 +310,15 @@ The legacy mirrors are near-exact duplicates of each other and of the old numeri
 - [x] ~~Stage D — cleanup: delete old numeric folders and quarantine workspace mirrors.~~ ✅ done.
 - [x] ~~Rescue the 6 OneDrive stragglers.~~ ✅ moved via `Move-Item` into canonical paths as placeholders.
 - [x] ~~Stage E — configure Git LFS for binaries.~~ ✅ `.gitattributes` rewritten; `git lfs install --local` run; routing verified.
+- [x] ~~Purchase 1 × GitHub Git LFS Data Pack.~~ ✅ user purchased a 2-pack ($10/mo).
+- [x] ~~Stage F — commit + first push of the HeartWire OS restructure.~~ ✅ landed at `edd8bc8` on `Backend-development` after fixing the `!/build/**` gitignore bug (see §3g).
 - [ ] Hydrate the 6 OneDrive placeholders in File Explorer (right-click → "Always keep on this device"). Non-blocking; they are already in the correct canonical path.
-- [ ] **Purchase 1 × GitHub Git LFS Data Pack** ($5/mo) before the first push — required to host the 3.67 GB of LFS content.
+- [ ] **Rotate the Supabase key** in `build/projects/platform/.env.local` if the project touches production data. The key was never pushed to GitHub but did live on OneDrive-synced disk — rotation is best practice, not mandatory. See §3g blast-radius audit.
 - [ ] Re-point any Vercel/Netlify deployments from `5-engineering-projects/...` to `build/projects/...`. **Now required** — the old paths no longer exist.
 - [ ] Decide platform app branding (keep "5amClub Platform" or rebrand to HeartWire). Independent of the repo restructure.
 - [ ] Rename the GitHub remote from `5amClub` to `heartwire-os`.
 - [ ] Regenerate `core/wiki/Directory-Structure.md` with the live post-cleanup tree.
-- [ ] Commit the current diff as the HeartWire OS restructure PR (delete + add; similarity detection will show the renames).
+- [ ] Open a PR from `Backend-development` → `main` (or your default) once the smoke test passes; similarity detection will render the 141 renames as moves rather than delete+add.
 - [ ] Smoke-test `build/projects/platform/` — `npm install && npm run build`.
 
 ---
