@@ -130,6 +130,18 @@ log/
 
 .env.*.local
 
+# Catch common secret-disguise variants (e.g. developer renames `.env` to
+
+# `.env.txt` so an editor will open it — they must not get committed).
+
+.env.txt
+
+.env.bak
+
+.env.old
+
+.env.backup
+
 *.pem
 
 *.key
@@ -191,4 +203,78 @@ tmp/
 *.swo
 
 *~
+
+# ------------------------------
+
+# HeartWire OS — restructure overrides
+
+# ------------------------------
+
+# The global `build/` rule above targets Python/Node build artifacts, but it
+
+# also shadows the canonical top-level `/build/` directory in the HeartWire OS
+
+# taxonomy. Un-shadow the directory entry so git descends into it; per-file
+
+# rules (secrets, datasets, build artifacts) then apply normally inside it.
+
+# NOTE: do NOT use `!/build/**` here — that would recursively override the
+
+# secrets rules below and let `.env`, `.env.local`, `*.pem`, etc. sneak in.
+
+!/build/
+
+# Allow coursework spreadsheets and data files to ship (the global *.xlsx /
+
+# *.csv / *.tsv rules are for scratch datasets, not for course content).
+
+!learning/coursework/**/*.xlsx
+
+!learning/coursework/**/*.xls
+
+!learning/coursework/**/*.csv
+
+!learning/coursework/**/*.tsv
+
+!learning/self-study/**/*.xlsx
+
+!learning/self-study/**/*.csv
+
+!learning/problem-solving/**/*.xlsx
+
+!learning/problem-solving/**/*.csv
+
+!resources/**/*.csv
+
+!resources/**/*.xlsx
+
+# Legacy snapshot content is a ~11GB on-disk quarantine of pre-restructure
+
+# workspace mirrors. Keep the README and the archived scripts in version
+
+# control; do NOT commit the full mirrors (they contain nested .git repos,
+
+# large binaries, and byte-level duplicates of the canonical tree).
+
+archive/legacy-snapshots/**
+
+!archive/legacy-snapshots/
+
+!archive/legacy-snapshots/README.md
+
+!archive/legacy-snapshots/scripts/
+
+!archive/legacy-snapshots/scripts/**
+
+# Personal Obsidian vault — stays local, never pushed.
+
+/Obsidian Vault/
+
+# Terminal scratch output used by the Cursor agent runtime.
+
+/terminals/
+
+# Cursor / Claude plugin runtime state (metrics, caches) — not project content.
+
+/.claude/
 

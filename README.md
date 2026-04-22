@@ -1,31 +1,53 @@
-# 5amClub Workspace
+# HeartWire OS
 
-Welcome to your centralized digital ecosystem for learning, engineering, and growth.
+An open operating system for learning, building, and shipping — a public-facing workspace that organizes coursework, self-study, engineering projects, AI agents, automations, and long-term research into a single coherent platform.
 
-> **Mission:** To create a cohesive, extensible system that organizes academic learning, engineering projects, self-study, automation, and long-term professional growth.
+> **Mission:** Build a cohesive, extensible system that turns day-to-day learning and tinkering into a durable library of projects, notes, and tools.
 
-## 📂 Navigation
+## Top-level layout
+
+```txt
+/
+├── core/            # Mission, systems architecture, onboarding, agent rules
+├── learning/        # Study, coursework, homework/problem-solving, cheatsheets, notes
+├── build/           # Apps, projects, prototypes, hardware, experiments
+├── system/          # Automations, AI agents, integrations, data pipelines
+├── resources/       # Textbooks, papers, datasets, reference material
+└── archive/         # Deprecated content and legacy snapshots
+```
+
+## Navigation
 
 | Directory | Purpose |
 | :--- | :--- |
-| **`0-docs/`** | 📜 **Start Here**. Mission, roadmap, and system architecture. |
-| **`1-self-study/`** | 📚 Independent learning beyond university classes. |
-| **`2-coursework/`** | 🎓 University notes, organized by subject (BME, Chem, CS, Math). |
-| **`3-cheatsheets/`** | ⚡ Quick references for code, math, and engineering. |
-| **`4-homework/`** | 📝 Problem sets, solutions, and practice (Mirrors Coursework). |
-| **`5-engineering-projects/`** | 🛠️ Active engineering builds (Apps, Hardware, AI). |
-| **`6-product-dev/`** | 🚀 Startup & brand projects (HeartWire). |
-| **`7-automations/`** | 🤖 AI agents & workflow automations. |
-| **`8-resources/`** | 📖 Textbooks, papers, PDFs, and datasets. |
-| **`9-archive/`** | 🏛️ Deprecated files and history. |
+| [`core/`](core/) | Start here. Mission, architecture, onboarding, AI agent rules. |
+| [`learning/self-study/`](learning/self-study/) | Independent learning beyond university classes. |
+| [`learning/coursework/`](learning/coursework/) | University notes by subject (BME, Physics, CS, Math, etc.). |
+| [`learning/cheatsheets/`](learning/cheatsheets/) | Quick references for code, math, and engineering. |
+| [`learning/problem-solving/`](learning/problem-solving/) | Problem sets, homework, and practice. |
+| [`learning/notes/`](learning/notes/) | Free-form notes, reflections, and writing. |
+| [`build/apps/`](build/apps/) | Deployable applications. |
+| [`build/projects/`](build/projects/) | Active engineering projects (apps, health, AI, hardware). |
+| [`build/prototypes/`](build/prototypes/) | Product/brand prototypes (HeartWire, experiments in design). |
+| [`build/hardware/`](build/hardware/) | Arduino, embedded, robotic, and physical builds. |
+| [`build/experiments/`](build/experiments/) | Sandbox work and throwaway spikes. |
+| [`system/automations/`](system/automations/) | Workflows for ChatGPT, Claude, Cursor, Make.com, etc. |
+| [`system/agents/`](system/agents/) | AI agent definitions and orchestration. |
+| [`system/integrations/`](system/integrations/) | Cross-service glue (Notion, Supabase, GitHub, Zapier). |
+| [`system/pipelines/`](system/pipelines/) | Data/ingest/ETL/evaluation pipelines. |
+| [`resources/`](resources/) | Textbooks, papers, PDFs, and datasets. |
+| [`archive/`](archive/) | Deprecated files, legacy structures, and history. |
 
-## 🚀 Quick Actions
+## Quick actions
 
-- **New Note**: Create a markdown file in `2-coursework/{Subject}` or `1-self-study/{Topic}`.
-- **New Project**: Start a folder in `5-engineering-projects/` or pick an idea from `5-engineering-projects/project_ideas.md`.
-- **AI Context**: Refer to `0-docs/onboarding.md` for how to use AI agents with this repo.
+- **New note**: create a markdown file under `learning/coursework/<subject>/` or `learning/self-study/<topic>/`.
+- **New project**: start a folder under `build/projects/` (or pick an idea from the project-ideas backlog).
+- **AI context**: see [`core/onboarding.md`](core/onboarding.md) for how AI agents should navigate this repo.
 
-## 🔗 Integrations
+## Integrations
 
-Connect your external tools (Notion, ChatGPT, Claude) by configuring `7-automations/.env`.
-See `7-automations/README.md` for details.
+Configure external tools (Notion, ChatGPT, Claude, Make.com, Zapier) in `system/automations/`. See each subfolder's README for specifics.
+
+## Migration note
+
+This repo was migrated from an older numeric taxonomy (`0-docs/`, `1-self-study/` … `9-archive/`) to the HeartWire OS structure above. Old top-level folders have been removed, and the pre-restructure workspace mirrors (`5amClub/`, `5amClub-1/`) are quarantined read-only under `archive/legacy-snapshots/`. See [`core/MIGRATION-STATUS.md`](core/MIGRATION-STATUS.md) for full history and any open follow-ups.

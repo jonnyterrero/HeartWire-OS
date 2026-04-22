@@ -1,0 +1,17 @@
+N = 1000;
+dt = 0.001;
+n = 0:(N-1);
+t = n*dt;
+
+t0 = 0.3;          % step time (seconds)
+t1 = 0.6;
+A1 = 1;            % step amplitude
+A2 = 1;
+x1 = A1 * (t >= t0); % unit step scaled by A
+x2 = A2 * (t <=t1);
+plot(t, x, 'LineWidth', 2)
+xlabel('Time (s)')
+ylabel('Amplitude')
+title('Step Function')
+grid on
+
