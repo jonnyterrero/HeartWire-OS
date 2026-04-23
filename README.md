@@ -4,6 +4,8 @@ An open operating system for learning, building, and shipping — a public-facin
 
 > **Mission:** Build a cohesive, extensible system that turns day-to-day learning and tinkering into a durable library of projects, notes, and tools.
 
+**Live portfolio:** [`build/projects/HeartWire OS-portfolio/`](<build/projects/HeartWire OS-portfolio/>) is a static PWA deployed on Vercel as `HeartWire-OS` (previously `5am-club-ebon`). The Vercel project is configured with Root Directory = `build/projects/HeartWire OS-portfolio`.
+
 ## Top-level layout
 
 ```txt
@@ -27,7 +29,7 @@ An open operating system for learning, building, and shipping — a public-facin
 | [`learning/problem-solving/`](learning/problem-solving/) | Problem sets, homework, and practice. |
 | [`learning/notes/`](learning/notes/) | Free-form notes, reflections, and writing. |
 | [`build/apps/`](build/apps/) | Deployable applications. |
-| [`build/projects/`](build/projects/) | Active engineering projects (apps, health, AI, hardware). |
+| [`build/projects/`](build/projects/) | Active engineering projects (apps, health, AI, hardware). Includes the [live portfolio](<build/projects/HeartWire OS-portfolio/>). |
 | [`build/prototypes/`](build/prototypes/) | Product/brand prototypes (HeartWire, experiments in design). |
 | [`build/hardware/`](build/hardware/) | Arduino, embedded, robotic, and physical builds. |
 | [`build/experiments/`](build/experiments/) | Sandbox work and throwaway spikes. |
