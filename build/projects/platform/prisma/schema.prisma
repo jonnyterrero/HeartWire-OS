@@ -1,0 +1,150 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+// ─── User & Auth ───────────────────────────────────────────
+model User {
+  id        String   @id @default(uuid())
+  email     String   @unique
+  name      String?
+  avatarUrl String?  @map("avatar_url")
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  tracks   Track[]
+  tasks    Task[]
+  sessions StudySession[]
+  notes    Note[]
+  habits   Habit[]
+
+  @@map("users")
+}
+
+// ─── Academic Tracks ───────────────────────────────────────
+model Track {
+  id          String   @id @default(uuid())
+  title       String
+  description String?
+  color       String   @default("blue")
+  userId      String   @map("user_id")
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  createdAt   DateTime @default(now()) @map("created_at")
+  updatedAt   DateTime @updatedAt @map("updated_at")
+
+  courses Course[]
+
+  @@map("tracks")
+}
+
+// ─── Courses ───────────────────────────────────────────────
+model Course {
+  id          String   @id @default(uuid())
+  title       String
+  code        String?
+  description String?
+  status      String   @default("NOT_STARTED") // NOT_STARTED | IN_PROGRESS | COMPLETED
+  trackId     String   @map("track_id")
+  track       Track    @relation(fields: [trackId], references: [id], onDelete: Cascade)
+  createdAt   DateTime @default(now()) @map("created_at")
+  updatedAt   DateTime @updatedAt @map("updated_at")
+
+  resources Resource[]
+  notes     Note[]
+  tasks     Task[]
+
+  @@map("courses")
+}
+
+// ─── Resources ─────────────────────────────────────────────
+model Resource {
+  id          String   @id @default(uuid())
+  title       String
+  type        String   // BOOK | VIDEO | ARTICLE | COURSE
+  url         String?
+  isCompleted Boolean  @default(false) @map("is_completed")
+  courseId     String   @map("course_id")
+  course      Course   @relation(fields: [courseId], references: [id], onDelete: Cascade)
+  createdAt   DateTime @default(now()) @map("created_at")
+  updatedAt   DateTime @updatedAt @map("updated_at")
+
+  @@map("resources")
+}
+
+// ─── Tasks (Kanban) ────────────────────────────────────────
+model Task {
+  id        String    @id @default(uuid())
+  title     String
+  status    String    @default("TODO") // TODO | IN_PROGRESS | DONE
+  priority  String    @default("MEDIUM") // LOW | MEDIUM | HIGH
+  dueDate   DateTime? @map("due_date")
+  userId    String    @map("user_id")
+  user      User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  courseId   String?   @map("course_id")
+  course    Course?   @relation(fields: [courseId], references: [id], onDelete: SetNull)
+  sortOrder Int       @default(0) @map("sort_order")
+  createdAt DateTime  @default(now()) @map("created_at")
+  updatedAt DateTime  @updatedAt @map("updated_at")
+
+  @@map("tasks")
+}
+
+// ─── Study Sessions ────────────────────────────────────────
+model StudySession {
+  id       String   @id @default(uuid())
+  duration Int      // minutes
+  notes    String?
+  date     DateTime @default(now())
+  userId   String   @map("user_id")
+  user     User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("study_sessions")
+}
+
+// ─── Notes ─────────────────────────────────────────────────
+model Note {
+  id        String   @id @default(uuid())
+  title     String
+  content   String   @default("")
+  userId    String   @map("user_id")
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  courseId   String?  @map("course_id")
+  course    Course?  @relation(fields: [courseId], references: [id], onDelete: SetNull)
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  @@map("notes")
+}
+
+// ─── Habits ────────────────────────────────────────────────
+model Habit {
+  id         String   @id @default(uuid())
+  userId     String   @map("user_id")
+  user       User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  name       String
+  color      String   @default("blue")
+  targetDays Int[]    @default([0, 1, 2, 3, 4, 5, 6]) @map("target_days")
+  archived   Boolean  @default(false)
+  createdAt  DateTime @default(now()) @map("created_at")
+  updatedAt  DateTime @updatedAt @map("updated_at")
+
+  completions HabitCompletion[]
+
+  @@map("habits")
+}
+
+model HabitCompletion {
+  id            String   @id @default(uuid())
+  habitId       String   @map("habit_id")
+  habit         Habit    @relation(fields: [habitId], references: [id], onDelete: Cascade)
+  completedDate DateTime @map("completed_date") @db.Date
+  createdAt     DateTime @default(now()) @map("created_at")
+
+  @@unique([habitId, completedDate])
+  @@map("habit_completions")
+}
