@@ -270,6 +270,9 @@ archive/legacy-snapshots/**
 
 /Obsidian Vault/
 
+# Obsidian config at repo root (plugin/workspace state) — local only.
+/.obsidian/
+
 # Terminal scratch output used by the Cursor agent runtime.
 
 /terminals/
