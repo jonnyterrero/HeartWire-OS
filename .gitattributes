@@ -72,6 +72,19 @@
 *.3mf    filter=lfs diff=lfs merge=lfs -text
 *.obj    filter=lfs diff=lfs merge=lfs -text
 
+# SolidWorks Simulation / FEA (results can exceed GitHub 100MB) ---
+*.CWR    filter=lfs diff=lfs merge=lfs -text
+*.cwr    filter=lfs diff=lfs merge=lfs -text
+*.gsz    filter=lfs diff=lfs merge=lfs -text
+*.sl4    filter=lfs diff=lfs merge=lfs -text
+*.SL4    filter=lfs diff=lfs merge=lfs -text
+*.bdf    filter=lfs diff=lfs merge=lfs -text
+*.BDF    filter=lfs diff=lfs merge=lfs -text
+*.bd2    filter=lfs diff=lfs merge=lfs -text
+*.BD2    filter=lfs diff=lfs merge=lfs -text
+*.mfc    filter=lfs diff=lfs merge=lfs -text
+*.MFC    filter=lfs diff=lfs merge=lfs -text
+
 # ML / data artifacts (when not gitignored) ------------------------
 *.h5     filter=lfs diff=lfs merge=lfs -text
 *.hdf5   filter=lfs diff=lfs merge=lfs -text
