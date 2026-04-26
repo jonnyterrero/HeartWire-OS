@@ -113,6 +113,10 @@
 learning/coursework/Biomedical_Engineering/Bioengineering_Product_Design/*.png   filter=lfs diff=lfs merge=lfs -text
 learning/coursework/Biomedical_Engineering/Bioengineering_Product_Design/*.jpeg  filter=lfs diff=lfs merge=lfs -text
 
+# Course: Signals and Systems (xlsx, figures) -----------------------
+learning/coursework/Biomedical_Engineering/Signals_and_Systems/**/*.xlsx filter=lfs diff=lfs merge=lfs -text
+learning/coursework/Biomedical_Engineering/Signals_and_Systems/**/*.png  filter=lfs diff=lfs merge=lfs -text
+
 # ------------------------------------------------------------------
 # Line endings
 # ------------------------------------------------------------------

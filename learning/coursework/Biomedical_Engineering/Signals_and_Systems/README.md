@@ -2,6 +2,12 @@
 
 This folder contains notes, assignments, MATLAB code, and materials for Signals and Systems.
 
+## Layout
+
+- **`Matlab Exercises/`** — MLX exercises, practice sets, and supporting PDFs/figures
+- **`Fw_ EMG Lab/`** — EMG lab spreadsheets
+- **Root** — e.g. `Control_Systems.pdf` (course reference)
+
 ## Topics
 
 - Signal representation and analysis
