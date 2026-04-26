@@ -96,6 +96,10 @@
 *.tif    filter=lfs diff=lfs merge=lfs -text
 *.tiff   filter=lfs diff=lfs merge=lfs -text
 
+# Course: Bioengineering Product Design (larger rasters) ------------
+learning/coursework/Biomedical_Engineering/Bioengineering_Product_Design/*.png   filter=lfs diff=lfs merge=lfs -text
+learning/coursework/Biomedical_Engineering/Bioengineering_Product_Design/*.jpeg  filter=lfs diff=lfs merge=lfs -text
+
 # ------------------------------------------------------------------
 # Line endings
 # ------------------------------------------------------------------
