@@ -1,0 +1,3408 @@
+1
+00:00:00,000 --> 00:00:02,000
+All right.
+Good morning.
+
+2
+00:00:02,000 --> 00:00:08,000
+Good morning.
+So, we have some fun stuff for
+
+3
+00:00:08,000 --> 00:00:13,000
+today's lecture,
+and as far as the final is
+
+4
+00:00:13,000 --> 00:00:19,000
+concerned and so on,
+I'd like you to forget about
+
+5
+00:00:19,000 --> 00:00:23,000
+anything we do today,
+absolutely.
+
+6
+00:00:23,000 --> 00:00:31,000
+So, get your mind to become a
+blank, and forget anything you
+
+7
+00:00:31,000 --> 00:00:38,000
+hear in today's lecture.
+So, what I'm going to show you
+
+8
+00:00:38,000 --> 00:00:42,000
+today will hopefully completely
+blow your minds.
+
+9
+00:00:42,000 --> 00:00:46,000
+And I'm not talking about
+controlled substances or
+
+10
+00:00:46,000 --> 00:00:49,000
+anything.
+So what I'm going to do is show
+
+11
+00:00:49,000 --> 00:00:54,000
+you a few things that behave
+completely and spectacularly
+
+12
+00:00:54,000 --> 00:00:58,000
+differently than how you expect
+them to.
+
+13
+00:00:58,000 --> 00:01:03,000
+And, today's lecture is
+appropriately called --
+
+14
+00:01:17,000 --> 00:01:19,000
+OK.
+So, we're going to violate the
+
+15
+00:01:19,000 --> 00:01:22,000
+abstraction barrier here,
+and do some fun things.
+
+16
+00:01:22,000 --> 00:01:26,000
+And, the important thing to
+realize is that in all of 6.002,
+
+17
+00:01:26,000 --> 00:01:29,000
+we have, after all,
+based on some assumptions we
+
+18
+00:01:29,000 --> 00:01:33,000
+made at the beginning of the
+course like lumped matter
+
+19
+00:01:33,000 --> 00:01:36,000
+discipline and so on,
+we have landed ourselves in
+
+20
+00:01:36,000 --> 00:01:41,000
+this playground called the
+playground of 6.002.
+
+21
+00:01:41,000 --> 00:01:44,000
+And, within that playground,
+certain ground rules apply.
+
+22
+00:01:44,000 --> 00:01:47,000
+OK, and our entire course
+depended on those assumptions
+
+23
+00:01:47,000 --> 00:01:49,000
+being true.
+So, for example,
+
+24
+00:01:49,000 --> 00:01:53,000
+the first assumption we made
+that brought us from Maxwell's
+
+25
+00:01:53,000 --> 00:01:56,000
+equations to the lumped matter
+discipline was,
+
+26
+00:01:56,000 --> 00:01:59,000
+or rather the circuit
+abstraction, was a lumped matter
+
+27
+00:01:59,000 --> 00:02:03,000
+discipline.
+And there were three tenets of
+
+28
+00:02:03,000 --> 00:02:06,000
+the lumped matter discipline.
+One is that the rate of change
+
+29
+00:02:06,000 --> 00:02:10,000
+of flux was going to be zero
+within our circuits,
+
+30
+00:02:10,000 --> 00:02:13,000
+not inside elements,
+but in the circuit itself,
+
+31
+00:02:13,000 --> 00:02:17,000
+and second, the dq by dt was
+going to be zero outside the
+
+32
+00:02:17,000 --> 00:02:20,000
+elements, and third,
+something we did not dwell upon
+
+33
+00:02:20,000 --> 00:02:23,000
+in the course,
+but it's certainly present in
+
+34
+00:02:23,000 --> 00:02:27,000
+the course notes is that the
+speeds of signals that we are
+
+35
+00:02:27,000 --> 00:02:31,000
+going to consider are going to
+be much slower than the speed of
+
+36
+00:02:31,000 --> 00:02:36,000
+light.
+OK, so we're going to be
+
+37
+00:02:36,000 --> 00:02:45,000
+working in a realm where we are
+going to be well slower than the
+
+38
+00:02:45,000 --> 00:02:50,000
+speed of light.
+OK, so starting with that,
+
+39
+00:02:50,000 --> 00:02:58,000
+let me walk you through some
+examples and some fun stuff.
+
+40
+00:02:58,000 --> 00:03:06,000
+So, the first case is called
+the Double Take.
+
+41
+00:03:06,000 --> 00:03:11,000
+So, let me sketch out a small
+little circuit for you,
+
+42
+00:03:11,000 --> 00:03:17,000
+and take a look at the expected
+behavior, and then show you what
+
+43
+00:03:17,000 --> 00:03:22,000
+really happens in real life.
+So, the first case,
+
+44
+00:03:22,000 --> 00:03:28,000
+I have a voltage source,
+and what I'm going to do is
+
+45
+00:03:28,000 --> 00:03:33,000
+make a transition from a zero to
+a one.
+
+46
+00:03:33,000 --> 00:03:39,000
+Think of it as a step input,
+and through a Thevenin like
+
+47
+00:03:39,000 --> 00:03:45,000
+resistance, I want to feed it to
+a circuit.
+
+48
+00:03:45,000 --> 00:03:49,000
+The circuit will go to an
+inverter.
+
+49
+00:03:49,000 --> 00:03:56,000
+This node goes to an inverter,
+and goes through some other
+
+50
+00:03:56,000 --> 00:04:02,000
+circuits within our own design
+here.
+
+51
+00:04:02,000 --> 00:04:05,000
+So, again, remember,
+a step input here,
+
+52
+00:04:05,000 --> 00:04:11,000
+and this input goes through a
+Thevenin like resistance,
+
+53
+00:04:11,000 --> 00:04:15,000
+or is applied to some other
+circuit elements.
+
+54
+00:04:15,000 --> 00:04:20,000
+So, if I apply a step here,
+what do you expect?
+
+55
+00:04:20,000 --> 00:04:24,000
+You expect that,
+so let me call that VI,
+
+56
+00:04:24,000 --> 00:04:29,000
+and let me call that Vo.
+So, if I plot VI as a function
+
+57
+00:04:29,000 --> 00:04:36,000
+of time, and let's say this step
+input happens at t=0.
+
+58
+00:04:36,000 --> 00:04:44,000
+So let's say this is t=0 here,
+and let's say this is a 5V
+
+59
+00:04:44,000 --> 00:04:49,000
+step.
+So, I expect that this input
+
+60
+00:04:49,000 --> 00:04:57,000
+here is going to go to,
+VI here, is going to go to 5V
+
+61
+00:04:57,000 --> 00:05:03,000
+at t=0.
+What do I expect at Vo?
+
+62
+00:05:03,000 --> 00:05:07,000
+At Vo, based on our circuit
+abstraction, I get a step input
+
+63
+00:05:07,000 --> 00:05:09,000
+here.
+I should get a step of some
+
+64
+00:05:09,000 --> 00:05:12,000
+magnitude here,
+depending on what's connected
+
+65
+00:05:12,000 --> 00:05:16,000
+in this direction.
+And let's simply say that
+
+66
+00:05:16,000 --> 00:05:19,000
+what's connected here is an
+inverter, and maybe other
+
+67
+00:05:19,000 --> 00:05:23,000
+inverters at the other side.
+So essentially,
+
+68
+00:05:23,000 --> 00:05:26,000
+as far as this node is
+concerned, it's got some wires
+
+69
+00:05:26,000 --> 00:05:30,000
+connected to it.
+And at the end of the wires,
+
+70
+00:05:30,000 --> 00:05:32,000
+it has an open circuit,
+an open circuit,
+
+71
+00:05:32,000 --> 00:05:35,000
+for example,
+like the gate input of this
+
+72
+00:05:35,000 --> 00:05:41,000
+inverter.
+So what do you expect at V
+
+73
+00:05:41,000 --> 00:05:44,000
+nought?
+A step input here,
+
+74
+00:05:44,000 --> 00:05:49,000
+and at V nought I see an open
+circuit.
+
+75
+00:05:49,000 --> 00:05:54,000
+OK, so I expect the same step
+at V nought: 5V.
+
+76
+00:05:54,000 --> 00:06:01,000
+So, that's what we've prepared
+you for, OK?
+
+77
+00:06:01,000 --> 00:06:04,000
+But, the fun thing that we're
+going to see,
+
+78
+00:06:04,000 --> 00:06:09,000
+so this is what you expect,
+and I'll show you a little demo
+
+79
+00:06:09,000 --> 00:06:13,000
+that is going to show you
+something very different.
+
+80
+00:06:13,000 --> 00:06:16,000
+What you're going to see is not
+this.
+
+81
+00:06:16,000 --> 00:06:19,000
+OK, you're not going to be
+seeing that.
+
+82
+00:06:19,000 --> 00:06:25,000
+Rather, I'm going to show you
+something that looks like this.
+
+83
+00:06:36,000 --> 00:06:40,000
+So, at t=0, I do see Vo looking
+like a step, and approximately
+
+84
+00:06:40,000 --> 00:06:43,000
+halfway through,
+decides, ah,
+
+85
+00:06:43,000 --> 00:06:45,000
+well never mind,
+and flattens out,
+
+86
+00:06:45,000 --> 00:06:48,000
+OK, then says,
+oh, OK, and zoom,
+
+87
+00:06:48,000 --> 00:06:52,000
+it goes back up to 5V.
+So, it sort of does a bit of a
+
+88
+00:06:52,000 --> 00:06:57,000
+double take up there saying,
+hey, what's going on here?
+
+89
+00:06:57,000 --> 00:07:01,000
+And zoom, jumps up to 5V,
+and then it's five as you
+
+90
+00:07:01,000 --> 00:07:05,000
+expect.
+OK, so this is some finite
+
+91
+00:07:05,000 --> 00:07:09,000
+amount of time that looks like
+that.
+
+92
+00:07:09,000 --> 00:07:14,000
+OK, so try to understand what's
+going on.
+
+93
+00:07:14,000 --> 00:07:18,000
+So let me show you a quick
+little demo.
+
+94
+00:07:18,000 --> 00:07:24,000
+So that's the input VI.
+OK, so that's the input VI that
+
+95
+00:07:24,000 --> 00:07:30,000
+you expect, and I won't do
+anything to my circuit at this
+
+96
+00:07:30,000 --> 00:07:34,000
+point.
+And, go ahead.
+
+97
+00:07:34,000 --> 00:07:37,000
+So, let's see what happens now.
+There you go.
+
+98
+00:07:37,000 --> 00:07:41,000
+So now, I'm showing you the
+output here at Vo.
+
+99
+00:07:41,000 --> 00:07:44,000
+So at VI, there's a nice little
+step, and at Vo,
+
+100
+00:07:44,000 --> 00:07:48,000
+notice that I get something
+that behaves like this.
+
+101
+00:07:48,000 --> 00:07:52,000
+OK, and I promise you,
+nothing we've taught you in
+
+102
+00:07:52,000 --> 00:07:57,000
+6.002 prepares you for this.
+OK, and as I mentioned at the
+
+103
+00:07:57,000 --> 00:08:01,000
+beginning of this lecture,
+it would behoove you to forget
+
+104
+00:08:01,000 --> 00:08:06,000
+about everything you learn in
+today's lecture for the next two
+
+105
+00:08:06,000 --> 00:08:11,000
+weeks at least.
+So what's going on here?
+
+106
+00:08:11,000 --> 00:08:12,000
+Any ideas?
+Anybody?
+
+107
+00:08:12,000 --> 00:08:16,000
+Any thoughts?
+So what's up with my circuit
+
+108
+00:08:16,000 --> 00:08:17,000
+here?
+It says, oh,
+
+109
+00:08:17,000 --> 00:08:20,000
+OK, a step.
+It starts off and says,
+
+110
+00:08:20,000 --> 00:08:24,000
+oh, never mind,
+and then meanders along at 2.5V
+
+111
+00:08:24,000 --> 00:08:28,000
+and then says oh,
+step, yes, I remember,
+
+112
+00:08:28,000 --> 00:08:32,000
+and then boom,
+it jumps up to 5V.
+
+113
+00:08:32,000 --> 00:08:35,000
+So, any theories?
+Any guesses?
+
+114
+00:08:35,000 --> 00:08:40,000
+Any wild guesses?
+OK, so let me draw you a little
+
+115
+00:08:40,000 --> 00:08:46,000
+bit more of a detailed circuit,
+and see if you can explain
+
+116
+00:08:46,000 --> 00:08:52,000
+what's going on here.
+So, the circuit that I've drawn
+
+117
+00:08:52,000 --> 00:08:58,000
+there is not quite the circuit I
+have at least in terms of my
+
+118
+00:08:58,000 --> 00:09:02,000
+wires.
+So, what I have is something
+
+119
+00:09:02,000 --> 00:09:07,000
+that looks like this,
+VI, and this is going to step
+
+120
+00:09:07,000 --> 00:09:13,000
+to 5V.
+I do have a resistance,
+
+121
+00:09:13,000 --> 00:09:18,000
+R.
+This is Vo, this does go to an
+
+122
+00:09:18,000 --> 00:09:24,000
+inverter.
+But what is also happening is
+
+123
+00:09:24,000 --> 00:09:34,000
+that I have a long wire.
+OK, you see this guy here?
+
+124
+00:09:34,000 --> 00:09:39,000
+We had one of our union folks
+stretch out along the floor
+
+125
+00:09:39,000 --> 00:09:42,000
+here.
+We have a really long wire that
+
+126
+00:09:42,000 --> 00:09:46,000
+connects to the Vo node,
+and there's also a long
+
+127
+00:09:46,000 --> 00:09:51,000
+corresponding ground.
+So, this wire is a coaxial
+
+128
+00:09:51,000 --> 00:09:55,000
+cable that is used for Ethernet
+and such like.
+
+129
+00:09:55,000 --> 00:10:01,000
+It's got a core that carries a
+signal, and around the core is
+
+130
+00:10:01,000 --> 00:10:07,000
+shielding that is the ground.
+OK, so that goes a long way,
+
+131
+00:10:07,000 --> 00:10:10,000
+and at the end,
+it is open.
+
+132
+00:10:10,000 --> 00:10:14,000
+OK, it's an open circuit at the
+end.
+
+133
+00:10:14,000 --> 00:10:19,000
+I haven't connected anything
+out there: open circuit.
+
+134
+00:10:19,000 --> 00:10:23,000
+So, you know,
+something's happening here
+
+135
+00:10:23,000 --> 00:10:28,000
+that's making the circuit behave
+like this.
+
+136
+00:10:28,000 --> 00:10:32,000
+So, this is VI.
+At Vo --
+
+137
+00:10:48,000 --> 00:10:51,000
+So at Vo I'm getting this funny
+behavior.
+
+138
+00:10:51,000 --> 00:10:55,000
+OK, so does anybody want to
+take the next piece of clues
+
+139
+00:10:55,000 --> 00:11:00,000
+here, does anybody want to take
+a stab at guessing what might be
+
+140
+00:11:00,000 --> 00:11:02,000
+going on here?
+Yes?
+
+141
+00:11:02,000 --> 00:11:06,000
+Ah, we have a shill in the
+audience here.
+
+142
+00:11:06,000 --> 00:11:11,000
+So, the theory is that the step
+here, think of it as an
+
+143
+00:11:11,000 --> 00:11:16,000
+electromagnetic pulse that goes
+from zero to five,
+
+144
+00:11:16,000 --> 00:11:21,000
+and things in real life don't
+travel instantaneously.
+
+145
+00:11:21,000 --> 00:11:26,000
+So, there's something with a
+wave that flies down,
+
+146
+00:11:26,000 --> 00:11:32,000
+and the wave goes to the end,
+flips, and then comes back,
+
+147
+00:11:32,000 --> 00:11:38,000
+and then establishes the full
+voltage here.
+
+148
+00:11:38,000 --> 00:11:41,000
+So that is indeed at the root
+of what's going on.
+
+149
+00:11:41,000 --> 00:11:46,000
+And let me put it in layman's
+terms and then describe the
+
+150
+00:11:46,000 --> 00:11:51,000
+details of what's going on here.
+OK, so the way to view what's
+
+151
+00:11:51,000 --> 00:11:54,000
+going on is that I have this
+long wire.
+
+152
+00:11:54,000 --> 00:11:59,000
+OK, in the very first lecture,
+I started off by saying wires
+
+153
+00:11:59,000 --> 00:12:03,000
+are ideal.
+OK, ideal wires are such that I
+
+154
+00:12:03,000 --> 00:12:06,000
+can transmit signals on them.
+Wires are small so that the
+
+155
+00:12:06,000 --> 00:12:11,000
+propagation time of signals is
+inconsequential compared to the
+
+156
+00:12:11,000 --> 00:12:14,000
+rise times and fall times of the
+signals of interest.
+
+157
+00:12:14,000 --> 00:12:18,000
+By having this really long
+cable here, I have clearly
+
+158
+00:12:18,000 --> 00:12:21,000
+violated that assumption,
+which is the wires are really,
+
+159
+00:12:21,000 --> 00:12:25,000
+really long here.
+OK, and so I somehow need to
+
+160
+00:12:25,000 --> 00:12:29,000
+model what the wire is doing to
+my circuit when I don't have a
+
+161
+00:12:29,000 --> 00:12:33,000
+small wire.
+So what actually happens,
+
+162
+00:12:33,000 --> 00:12:37,000
+the way to view it is the
+following.
+
+163
+00:12:37,000 --> 00:12:42,000
+So, although this is a wire,
+to understand the mechanics of
+
+164
+00:12:42,000 --> 00:12:47,000
+what's going on,
+I really have to model it much
+
+165
+00:12:47,000 --> 00:12:49,000
+more accurately,
+OK?
+
+166
+00:12:49,000 --> 00:12:55,000
+And, the way to model a wire
+like this is that notice that
+
+167
+00:12:55,000 --> 00:13:00,000
+every small element of a wire
+has associated with it some
+
+168
+00:13:00,000 --> 00:13:04,000
+inductance.
+OK, so let's take a small
+
+169
+00:13:04,000 --> 00:13:09,000
+segment of the coax cable here.
+The coax cable is a small core
+
+170
+00:13:09,000 --> 00:13:14,000
+surrounded by a metallic shield.
+OK, that's a ground.
+
+171
+00:13:14,000 --> 00:13:18,000
+And so, when I have a wire
+surrounded by a metallic shield,
+
+172
+00:13:18,000 --> 00:13:23,000
+that also has the capacitance,
+OK, inductance and capacitance.
+
+173
+00:13:23,000 --> 00:13:27,000
+So this small segment can be
+modeled as a really small
+
+174
+00:13:27,000 --> 00:13:32,000
+inductance, and a really tiny
+capacitance.
+
+175
+00:13:32,000 --> 00:13:36,000
+Similarly, the next segment can
+be modeled as a tiny inductance
+
+176
+00:13:36,000 --> 00:13:40,000
+and a capacitance.
+There is also a resistance
+
+177
+00:13:40,000 --> 00:13:44,000
+here, but let's assume that the
+resistance is zero for our
+
+178
+00:13:44,000 --> 00:13:49,000
+model, and also the parallel
+resistance is also infinity.
+
+179
+00:13:49,000 --> 00:13:52,000
+OK, so it's an inductor,
+capacitor, and really the
+
+180
+00:13:52,000 --> 00:13:56,000
+situation that I have is not a
+pair of ideal wires,
+
+181
+00:13:56,000 --> 00:14:00,000
+but really a really,
+really small inductance,
+
+182
+00:14:00,000 --> 00:14:04,000
+and a small capacitance in
+parallel.
+
+183
+00:14:04,000 --> 00:14:08,000
+So, it's more of a set of
+distributed elements that I have
+
+184
+00:14:08,000 --> 00:14:11,000
+here.
+Notice that in my lump circuit
+
+185
+00:14:11,000 --> 00:14:15,000
+abstraction, when we talked
+about the RLC model for the wire
+
+186
+00:14:15,000 --> 00:14:18,000
+between two inverters,
+we lumped it.
+
+187
+00:14:18,000 --> 00:14:22,000
+We lumped this thing into a
+model that looked like this.
+
+188
+00:14:22,000 --> 00:14:27,000
+OK, we lumped the resistance
+into a source resistance.
+
+189
+00:14:27,000 --> 00:14:32,000
+We lumped all the inductors
+into a lumped inductor.
+
+190
+00:14:32,000 --> 00:14:36,000
+We lumped all the capacitances
+into a lumped capacitance.
+
+191
+00:14:36,000 --> 00:14:40,000
+OK, but in this situation,
+I can do this when the signal
+
+192
+00:14:40,000 --> 00:14:44,000
+speeds of interest are much,
+much, much slower than the
+
+193
+00:14:44,000 --> 00:14:48,000
+speed of light than the
+propagation speeds of
+
+194
+00:14:48,000 --> 00:14:50,000
+electromagnetic signals.
+In this case,
+
+195
+00:14:50,000 --> 00:14:54,000
+that is not quite true.
+And so, therefore,
+
+196
+00:14:54,000 --> 00:14:56,000
+we have to model it much more
+exactly.
+
+197
+00:14:56,000 --> 00:15:01,000
+We need to see what's going on.
+So, what's happening here is
+
+198
+00:15:01,000 --> 00:15:07,000
+that at t=0, I get this step.
+So, think of that as a pulse of
+
+199
+00:15:07,000 --> 00:15:11,000
+energy, and the instant it comes
+here, and instantaneously this
+
+200
+00:15:11,000 --> 00:15:14,000
+guy looks like a voltage
+divider, OK?
+
+201
+00:15:14,000 --> 00:15:18,000
+I've chosen my resistance,
+R, here to match the
+
+202
+00:15:18,000 --> 00:15:21,000
+instantaneous impedance looking
+in, which is also R.
+
+203
+00:15:21,000 --> 00:15:24,000
+I've arranged it to be that
+way.
+
+204
+00:15:24,000 --> 00:15:27,000
+So, instantaneously,
+the point at which the pulse
+
+205
+00:15:27,000 --> 00:15:31,000
+appears at this point,
+looking down here looks like
+
+206
+00:15:31,000 --> 00:15:35,000
+another resistor to this pulse.
+OK, therefore,
+
+207
+00:15:35,000 --> 00:15:38,000
+when I start out,
+I start out going up and
+
+208
+00:15:38,000 --> 00:15:41,000
+pausing at 2.5 because
+instantaneously,
+
+209
+00:15:41,000 --> 00:15:43,000
+this looks like a resistance,
+R.
+
+210
+00:15:43,000 --> 00:15:46,000
+So instantaneously,
+it's a voltage divider,
+
+211
+00:15:46,000 --> 00:15:49,000
+R, and so it's 2.5 here,
+instantaneously.
+
+212
+00:15:49,000 --> 00:15:52,000
+OK, then what happens?
+Then those little pulse
+
+213
+00:15:52,000 --> 00:15:55,000
+propagates down.
+What does it mean for a pulse
+
+214
+00:15:55,000 --> 00:15:58,000
+of energy to propagate down?
+Well, it begins sending a
+
+215
+00:15:58,000 --> 00:16:02,000
+current through the inductor,
+begins charging up the
+
+216
+00:16:02,000 --> 00:16:06,000
+capacitor, current here,
+so that's what I mean by saying
+
+217
+00:16:06,000 --> 00:16:10,000
+that the pulse of energy goes
+down.
+
+218
+00:16:10,000 --> 00:16:14,000
+OK, it's a step that sends
+current to the inductor and
+
+219
+00:16:14,000 --> 00:16:19,000
+charges of the capacitors,
+and that wave front moves out
+
+220
+00:16:19,000 --> 00:16:23,000
+here and comes all the way here.
+What happens there?
+
+221
+00:16:23,000 --> 00:16:27,000
+Well, think about it.
+Supposing you stand here,
+
+222
+00:16:27,000 --> 00:16:31,000
+and you hold a long string in
+your hand somehow,
+
+223
+00:16:31,000 --> 00:16:35,000
+and just do this Gedanken
+experiment.
+
+224
+00:16:35,000 --> 00:16:38,000
+It's not easy to do.
+And so, let's say you somehow
+
+225
+00:16:38,000 --> 00:16:41,000
+have the long string that you're
+holding onto,
+
+226
+00:16:41,000 --> 00:16:45,000
+and the string on the other
+side is not connected to
+
+227
+00:16:45,000 --> 00:16:47,000
+anything.
+OK, just imagine this
+
+228
+00:16:47,000 --> 00:16:50,000
+experiment.
+OK, and what you do is you
+
+229
+00:16:50,000 --> 00:16:54,000
+suddenly raise the string up at
+your end by about a foot.
+
+230
+00:16:54,000 --> 00:16:56,000
+What are you going to see
+happen?
+
+231
+00:16:56,000 --> 00:16:59,000
+So instantaneously,
+the string is up here,
+
+232
+00:16:59,000 --> 00:17:04,000
+but the rest of the string is
+down a foot below.
+
+233
+00:17:04,000 --> 00:17:07,000
+And then you see this wave
+propagate down the string,
+
+234
+00:17:07,000 --> 00:17:09,000
+right?
+So here's a string.
+
+235
+00:17:09,000 --> 00:17:12,000
+I lift this thing,
+and you see this wave propagate
+
+236
+00:17:12,000 --> 00:17:15,000
+all the way down,
+the one foot wave propagate all
+
+237
+00:17:15,000 --> 00:17:17,000
+the way down until you come
+here.
+
+238
+00:17:17,000 --> 00:17:20,000
+What happens here?
+So, out here,
+
+239
+00:17:20,000 --> 00:17:23,000
+the string is down here,
+the wave propagates out here
+
+240
+00:17:23,000 --> 00:17:26,000
+and pulls it up to one.
+And then what?
+
+241
+00:17:26,000 --> 00:17:29,000
+There's nothing connected
+there, so the string is zipped
+
+242
+00:17:29,000 --> 00:17:34,000
+up, but it's got the energy.
+OK, where does energy go?
+
+243
+00:17:34,000 --> 00:17:37,000
+Well, it continues going up,
+and sends a wave back.
+
+244
+00:17:37,000 --> 00:17:40,000
+OK, so just think of a string
+that you pull up like this and
+
+245
+00:17:40,000 --> 00:17:43,000
+propagates down,
+boom, hits the other end,
+
+246
+00:17:43,000 --> 00:17:46,000
+reverses, and comes back at me.
+OK, you can look at a
+
+247
+00:17:46,000 --> 00:17:48,000
+complementary situation,
+not the same as this,
+
+248
+00:17:48,000 --> 00:17:51,000
+but complementary by taking a
+string, tying it to a door,
+
+249
+00:17:51,000 --> 00:17:54,000
+and lifting it up.
+It's not the same situation.
+
+250
+00:17:54,000 --> 00:17:57,000
+It's a complementary situation
+where it's tied down.
+
+251
+00:17:57,000 --> 00:18:00,000
+Tying down a string is
+tantamount to shorting the ends
+
+252
+00:18:00,000 --> 00:18:03,000
+here.
+OK, in that case what you'll
+
+253
+00:18:03,000 --> 00:18:07,000
+see happen: as the wave goes
+down, at the end the string
+
+254
+00:18:07,000 --> 00:18:11,000
+can't move, so the wave goes and
+flips around and comes back.
+
+255
+00:18:11,000 --> 00:18:13,000
+Try it out at home.
+Take a long piece of string,
+
+256
+00:18:13,000 --> 00:18:15,000
+tie it up there,
+do this, OK?
+
+257
+00:18:15,000 --> 00:18:19,000
+And you'll see the wave go out,
+flip, and then come back at
+
+258
+00:18:19,000 --> 00:18:21,000
+you.
+So, if your friends see you
+
+259
+00:18:21,000 --> 00:18:25,000
+tying a long piece of string
+doing this, hopefully they won't
+
+260
+00:18:25,000 --> 00:18:29,000
+think you're nuts or something.
+OK, so the same way here:
+
+261
+00:18:29,000 --> 00:18:33,000
+this thing flies down,
+OK, there's no way to dissipate
+
+262
+00:18:33,000 --> 00:18:35,000
+the energy here,
+so this thing continues up.
+
+263
+00:18:35,000 --> 00:18:39,000
+And then, what I'm going to see
+happen is the wave move back.
+
+264
+00:18:39,000 --> 00:18:43,000
+OK, the wave begins to move
+back, and that's another 2.5V,
+
+265
+00:18:43,000 --> 00:18:46,000
+resulting in a net 5V at this
+terminal.
+
+266
+00:18:46,000 --> 00:18:50,000
+That wave begins to blast back,
+OK, and then when it comes back
+
+267
+00:18:50,000 --> 00:18:53,000
+here, after some amount of time,
+it raises this to 5V,
+
+268
+00:18:53,000 --> 00:18:56,000
+and that's what you see happen
+here.
+
+269
+00:18:56,000 --> 00:18:59,000
+So, this is a wave going down,
+and then after a time,
+
+270
+00:18:59,000 --> 00:19:04,000
+2t, it goes back up to 5V.
+That's a return wave.
+
+271
+00:19:04,000 --> 00:19:07,000
+It's 2t because to get down
+here is t seconds,
+
+272
+00:19:07,000 --> 00:19:12,000
+and then t seconds to come
+back, which is why we have 2t.
+
+273
+00:19:12,000 --> 00:19:15,000
+OK, that is why you see that
+pulse at 2.5.
+
+274
+00:19:15,000 --> 00:19:19,000
+OK, so I'd like to show you a
+few more things here.
+
+275
+00:19:19,000 --> 00:19:22,000
+Clearly we don't want that in
+our circuits.
+
+276
+00:19:22,000 --> 00:19:27,000
+Could someone tell me what
+problem would happen if my
+
+277
+00:19:27,000 --> 00:19:32,000
+signals looked like this in my
+digital circuits?
+
+278
+00:19:32,000 --> 00:19:39,000
+Instead of being nice little
+steps, if there was a little
+
+279
+00:19:39,000 --> 00:19:46,000
+thing in the middle and then a
+step, what's the problem with
+
+280
+00:19:46,000 --> 00:19:51,000
+signals like this?
+In digital circuits,
+
+281
+00:19:51,000 --> 00:19:54,000
+what did it violate?
+Yeah?
+
+282
+00:19:54,000 --> 00:19:59,000
+Exactly.
+This little sucker here is
+
+283
+00:19:59,000 --> 00:20:05,000
+meandering out in the forbidden
+region for all of 2T.
+
+284
+00:20:05,000 --> 00:20:10,000
+Can't do that.
+OK, can't have that.
+
+285
+00:20:10,000 --> 00:20:17,000
+Well, so we need to fix the
+problem because this is real
+
+286
+00:20:17,000 --> 00:20:20,000
+life.
+OK, but what if you and your
+
+287
+00:20:20,000 --> 00:20:23,000
+buddy were signaling each other
+but using digital signals from
+
+288
+00:20:23,000 --> 00:20:24,000
+one dorm room to another maybe a
+few hundred feet down?
+
+289
+00:20:24,000 --> 00:20:26,000
+Your circuit isn't going to
+work because the signal's going
+
+290
+00:20:26,000 --> 00:20:28,000
+to meander around in the
+forbidden region for some time.
+
+291
+00:20:28,000 --> 00:20:29,000
+So, any ideas what might you
+do?
+
+292
+00:20:29,000 --> 00:20:30,000
+Yeah?
+Put a resistor on the end.
+
+293
+00:20:30,000 --> 00:20:32,000
+OK, trick the circuit.
+So, what you can do,
+
+294
+00:20:32,000 --> 00:20:33,000
+and I'm going to show you a
+little demo here,
+
+295
+00:20:33,000 --> 00:20:35,000
+what you can do is the reason I
+got this wave propagating back,
+
+296
+00:20:35,000 --> 00:20:38,000
+was that there was nothing to
+absorb the energy.
+
+297
+00:20:38,000 --> 00:20:41,000
+So instead, what if I put
+another resistor here,
+
+298
+00:20:41,000 --> 00:20:44,000
+R?
+So, as far as a burst of energy
+
+299
+00:20:44,000 --> 00:20:46,000
+is concerned,
+it says, oh,
+
+300
+00:20:46,000 --> 00:20:50,000
+yeah, it just looks the same.
+It's R, and goes and dissipates
+
+301
+00:20:50,000 --> 00:20:53,000
+in this resistor,
+R, and guess what?
+
+302
+00:20:53,000 --> 00:20:56,000
+I don't have any wave going
+back, and I'm done.
+
+303
+00:20:56,000 --> 00:21:00,000
+So, what I'm going to find,
+then, is that out here,
+
+304
+00:21:00,000 --> 00:21:03,000
+this goes up to 5V,
+but out here,
+
+305
+00:21:03,000 --> 00:21:07,000
+I will have a signal that
+starts out and goes up to 2.5,
+
+306
+00:21:07,000 --> 00:21:11,000
+and that's it.
+OK, I lift it up,
+
+307
+00:21:11,000 --> 00:21:14,000
+it goes down,
+it goes to 2.5 because in the
+
+308
+00:21:14,000 --> 00:21:17,000
+lumped model that you've been
+dealing with,
+
+309
+00:21:17,000 --> 00:21:20,000
+it's a resistor R,
+a resistor R to ground,
+
+310
+00:21:20,000 --> 00:21:23,000
+and you're taking the
+connection here or here.
+
+311
+00:21:23,000 --> 00:21:27,000
+So, it's your standard lumped
+model, your voltage resistive
+
+312
+00:21:27,000 --> 00:21:29,000
+divider, and it just simply
+works.
+
+313
+00:21:29,000 --> 00:21:34,000
+Yeah, that's it.
+So, this is the end of the
+
+314
+00:21:34,000 --> 00:21:37,000
+cable.
+OK, if somehow you could watch
+
+315
+00:21:37,000 --> 00:21:43,000
+this and that at the same time,
+so what I'm going to do,
+
+316
+00:21:43,000 --> 00:21:47,000
+and this is a resistor,
+R, I'm just going to plug it
+
+317
+00:21:47,000 --> 00:21:51,000
+in.
+OK, if the fates are smiling at
+
+318
+00:21:51,000 --> 00:21:56,000
+me, what should you see there?
+What should happen is that the
+
+319
+00:21:56,000 --> 00:22:01,000
+second jump from 2.5 to 5 should
+simply go away.
+
+320
+00:22:01,000 --> 00:22:06,000
+It should just go to 2.5.
+Let's try that.
+
+321
+00:22:06,000 --> 00:22:10,000
+There you go.
+I take it out,
+
+322
+00:22:10,000 --> 00:22:16,000
+it jumps back up.
+OK, so all I've done here is
+
+323
+00:22:16,000 --> 00:22:24,000
+put in a resistor at the end,
+and I'm still measuring the
+
+324
+00:22:24,000 --> 00:22:30,000
+voltage here.
+So, that's one solution.
+
+325
+00:22:30,000 --> 00:22:32,000
+One solution is to put a
+resistor here.
+
+326
+00:22:32,000 --> 00:22:36,000
+So, I absorb the energy,
+and the resistance has to be
+
+327
+00:22:36,000 --> 00:22:39,000
+equal to the instantaneous
+impedance looking in.
+
+328
+00:22:39,000 --> 00:22:42,000
+And the instantaneous
+impedance, for many of these
+
+329
+00:22:42,000 --> 00:22:45,000
+cables is 50 ohms.
+It's called a characteristic
+
+330
+00:22:45,000 --> 00:22:47,000
+impedance.
+OK, you'll learn a lot more
+
+331
+00:22:47,000 --> 00:22:51,000
+about it if you take 6.014.
+That course starts out with
+
+332
+00:22:51,000 --> 00:22:56,000
+assuming that things are
+distributed in that matter.
+
+333
+00:22:56,000 --> 00:22:59,000
+OK, so if you want to design
+multi-gigahertz chips,
+
+334
+00:22:59,000 --> 00:23:04,000
+it turns out that if you have
+signals that are traveling
+
+335
+00:23:04,000 --> 00:23:08,000
+around at edge speeds in the
+0.1-1 nanosecond range,
+
+336
+00:23:08,000 --> 00:23:12,000
+remember, light travels roughly
+one nanosecond a foot.
+
+337
+00:23:12,000 --> 00:23:16,000
+And if the signals are roughly
+of interest are 0.1 nanoseconds,
+
+338
+00:23:16,000 --> 00:23:20,000
+then if the chips are one inch
+in size, right there,
+
+339
+00:23:20,000 --> 00:23:24,000
+the propagation speed of a
+signal across a chip is 0.1
+
+340
+00:23:24,000 --> 00:23:26,000
+nanoseconds.
+OK, so today,
+
+341
+00:23:26,000 --> 00:23:30,000
+we have to deal with these
+issues and try to figure out
+
+342
+00:23:30,000 --> 00:23:36,000
+what to do about them.
+OK, so that's one solution that
+
+343
+00:23:36,000 --> 00:23:40,000
+somebody pointed out.
+There is a second solution.
+
+344
+00:23:40,000 --> 00:23:43,000
+Anybody else have a second
+solution for me?
+
+345
+00:23:43,000 --> 00:23:46,000
+And then there's a third
+solution, too.
+
+346
+00:23:46,000 --> 00:23:49,000
+So it's OK.
+You can give me either the
+
+347
+00:23:49,000 --> 00:23:53,000
+second or the third solution.
+It doesn't matter.
+
+348
+00:23:53,000 --> 00:23:56,000
+Anybody?
+You have two to choose from,
+
+349
+00:23:56,000 --> 00:23:57,000
+come on.
+Yeah?
+
+350
+00:23:57,000 --> 00:24:00,000
+You can do that,
+yeah.
+
+351
+00:24:00,000 --> 00:24:05,000
+So we could define the problem
+away by saying this transition
+
+352
+00:24:05,000 --> 00:00:02,500
+is such that my high is below
+
+353
+00:24:07,000 --> 00:24:12,000
+So, once it goes above 2.5,
+who cares what it does?
+
+354
+00:24:12,000 --> 00:24:16,000
+That's a good point.
+That's solution number four,
+
+355
+00:24:16,000 --> 00:24:19,000
+and that works.
+OK, so I still need two and
+
+356
+00:24:19,000 --> 00:24:21,000
+three.
+Put a diode in there?
+
+357
+00:24:21,000 --> 00:24:26,000
+Yeah, I guess you could.
+If the diode had the same kind
+
+358
+00:24:26,000 --> 00:24:30,000
+of impedance looking in,
+it kind of may work.
+
+359
+00:24:30,000 --> 00:24:34,000
+That's solution 4.2.
+I'm still waiting for solution
+
+360
+00:24:34,000 --> 00:24:37,000
+two and three.
+Pardon?
+
+361
+00:24:37,000 --> 00:24:40,000
+Cut off the cable?
+Exactly.
+
+362
+00:24:40,000 --> 00:24:45,000
+So, the solution says,
+work on a different problem.
+
+363
+00:24:45,000 --> 00:24:49,000
+And that is solution number
+two.
+
+364
+00:24:49,000 --> 00:24:53,000
+OK, so the idea is,
+the root of all evil,
+
+365
+00:24:53,000 --> 00:24:58,000
+this long wire,
+which is why I had this thing
+
+366
+00:24:58,000 --> 00:25:02,000
+here.
+So instead, if I had short
+
+367
+00:25:02,000 --> 00:25:07,000
+wires, then what will happen is
+if it's a very small wire,
+
+368
+00:25:07,000 --> 00:25:12,000
+it'll look like this.
+And the wire's small enough.
+
+369
+00:25:12,000 --> 00:25:16,000
+I will see an itty-bitty
+thingamajig out there,
+
+370
+00:25:16,000 --> 00:25:20,000
+but not a whole lot.
+By the way, the fun thing is
+
+371
+00:25:20,000 --> 00:25:25,000
+that you can actually calculate
+the speed of light,
+
+372
+00:25:25,000 --> 00:25:28,000
+the experiment I just showed
+you.
+
+373
+00:25:28,000 --> 00:25:33,000
+Can we put that up again?
+No, the big one.
+
+374
+00:25:33,000 --> 00:25:37,000
+So, in the experiment that I
+showed you, this distance was
+
+375
+00:25:37,000 --> 00:25:39,000
+about 500 nanoseconds,
+OK?
+
+376
+00:25:39,000 --> 00:25:42,000
+This distance was 500
+nanoseconds this time interval.
+
+377
+00:25:42,000 --> 00:25:46,000
+The length of this cable is
+about 500 feet,
+
+378
+00:25:46,000 --> 00:25:50,000
+somewhere around 500 feet.
+So you can figure out the speed
+
+379
+00:25:50,000 --> 00:25:52,000
+of light.
+What's the speed of light?
+
+380
+00:25:52,000 --> 00:25:56,000
+So, this is about 500
+nanoseconds, and this cable is
+
+381
+00:25:56,000 --> 00:26:01,000
+roughly 500 feet.
+What's the speed of light?
+
+382
+00:26:01,000 --> 00:26:04,000
+Roughly a foot per nanosecond.
+So, would you believe that in
+
+383
+00:26:04,000 --> 00:26:08,000
+6.002 we've figured out the
+speed of light from a simple
+
+384
+00:26:08,000 --> 00:26:11,000
+experiment?
+All right, so let's do the next
+
+385
+00:26:11,000 --> 00:26:14,000
+experiment now.
+Let's take out the long cable,
+
+386
+00:26:14,000 --> 00:26:16,000
+and connect a short cable
+instead.
+
+387
+00:26:16,000 --> 00:26:20,000
+So, what I'm going to do is
+disconnect the long cable,
+
+388
+00:26:20,000 --> 00:26:22,000
+and instead,
+connect a small cable.
+
+389
+00:26:22,000 --> 00:26:26,000
+It's still relatively long,
+but much shorter than the 500
+
+390
+00:26:26,000 --> 00:26:28,000
+foot cable.
+So what you should see happen
+
+391
+00:26:28,000 --> 00:26:32,000
+now is that the little step
+should not be this big,
+
+392
+00:26:32,000 --> 00:26:37,000
+but much, much smaller.
+So, take a look up there.
+
+393
+00:26:37,000 --> 00:26:40,000
+There you go.
+OK, so with this thingamajig,
+
+394
+00:26:40,000 --> 00:26:43,000
+the little blip there is very
+small.
+
+395
+00:26:43,000 --> 00:26:47,000
+And of course,
+if I make it even smaller,
+
+396
+00:26:47,000 --> 00:26:52,000
+then that can virtually vanish.
+OK, so that is solution number
+
+397
+00:26:52,000 --> 00:26:54,000
+two.
+So, we've done one,
+
+398
+00:26:54,000 --> 00:26:58,000
+two, four, 4.2.
+So, what's solution number
+
+399
+00:26:58,000 --> 00:27:01,000
+three?
+One more solution.
+
+400
+00:27:01,000 --> 00:27:04,000
+Pardon?
+So, another solution we
+
+401
+00:27:04,000 --> 00:27:08,000
+mentioned is we change this
+resistance.
+
+402
+00:27:08,000 --> 00:27:11,000
+and that will work,
+if I make this very,
+
+403
+00:27:11,000 --> 00:27:16,000
+very low, then I'll get much
+closer to 5V here.
+
+404
+00:27:16,000 --> 00:27:21,000
+Yeah, that's a possibility.
+That's solution six I guess.
+
+405
+00:27:21,000 --> 00:27:24,000
+So what was solution number
+three?
+
+406
+00:27:24,000 --> 00:27:30,000
+And you all should be able to
+solve this.
+
+407
+00:27:30,000 --> 00:27:34,000
+You guys know the answer.
+OK, you folks should be able to
+
+408
+00:27:34,000 --> 00:27:35,000
+solve this.
+Yes?
+
+409
+00:27:35,000 --> 00:27:38,000
+Ah, clock.
+So, what I can do is just as
+
+410
+00:27:38,000 --> 00:27:42,000
+was pointed out,
+that I leveraged my abstraction
+
+411
+00:27:42,000 --> 00:27:45,000
+by changing my VOH and VIH
+thresholds.
+
+412
+00:27:45,000 --> 00:27:49,000
+So that'll work.
+The alternative thing is to use
+
+413
+00:27:49,000 --> 00:27:52,000
+a clock.
+A clock is a distinguished
+
+414
+00:27:52,000 --> 00:27:56,000
+signal that I send around in my
+digital circuit,
+
+415
+00:27:56,000 --> 00:28:00,000
+OK?
+So all I do is if I arrange it
+
+416
+00:28:00,000 --> 00:28:04,000
+such that my clock doesn't
+happen in this vicinity,
+
+417
+00:28:04,000 --> 00:28:10,000
+but rather, my clock happens
+late enough, then I'm going to
+
+418
+00:28:10,000 --> 00:28:15,000
+sample and look at my signals
+only on the rising and falling
+
+419
+00:28:15,000 --> 00:28:18,000
+edges of the clock,
+in which case I won't be
+
+420
+00:28:18,000 --> 00:28:23,000
+looking at the signal,
+but the signal is doing weird
+
+421
+00:28:23,000 --> 00:28:26,000
+things.
+OK, so a decent clock would
+
+422
+00:28:26,000 --> 00:28:30,000
+also solve the problem.
+OK, any last minute questions
+
+423
+00:28:30,000 --> 00:28:40,000
+before we go onto the next one?
+OK, the next problem that we're
+
+424
+00:28:40,000 --> 00:28:47,000
+going to look at is titled the
+Double Dip.
+
+425
+00:28:47,000 --> 00:28:56,000
+OK, so what I'm going to do
+here is our Vs power supply,
+
+426
+00:28:56,000 --> 00:29:06,000
+and what I'm going to do is
+feed the power supply to an
+
+427
+00:29:06,000 --> 00:29:12,000
+inverter.
+OK, so we've been doing this
+
+428
+00:29:12,000 --> 00:29:16,000
+all along; Vs,
+I feed the supply to an
+
+429
+00:29:16,000 --> 00:29:20,000
+inverter.
+And what I'm also going to do
+
+430
+00:29:20,000 --> 00:29:26,000
+is, so this is ground,
+and I'm going to feed it to,
+
+431
+00:29:26,000 --> 00:29:31,000
+so feed the power supply
+connection to a couple of
+
+432
+00:29:31,000 --> 00:29:39,000
+inverters.
+OK, and what I'm going to do is
+
+433
+00:29:39,000 --> 00:29:47,000
+apply some sort of a signal to
+this inverter,
+
+434
+00:29:47,000 --> 00:29:57,000
+and I'm going to observe,
+and I'm going to look at this
+
+435
+00:29:57,000 --> 00:30:03,000
+signal here.
+So, the abstraction should tell
+
+436
+00:30:03,000 --> 00:30:07,000
+you that here's a power supply.
+This is 5V, or whatever the
+
+437
+00:30:07,000 --> 00:30:10,000
+supply voltage is to these two
+inverters.
+
+438
+00:30:10,000 --> 00:30:14,000
+That should be fine,
+and feed some sort of input to
+
+439
+00:30:14,000 --> 00:30:18,000
+this inverter,
+OK, and the output here should
+
+440
+00:30:18,000 --> 00:30:20,000
+be simply determined by this
+input.
+
+441
+00:30:20,000 --> 00:30:25,000
+This signal can have absolutely
+no bearing on this output.
+
+442
+00:30:25,000 --> 00:30:30,000
+OK, and let's look at that and
+actually confirm it.
+
+443
+00:30:30,000 --> 00:30:35,000
+So, I build a circuit like
+this, and we look at this
+
+444
+00:30:35,000 --> 00:30:40,000
+output, and initially there
+should not be any,
+
+445
+00:30:40,000 --> 00:30:46,000
+it should simply work fine.
+OK, so it should work now,
+
+446
+00:30:46,000 --> 00:30:47,000
+right?
+OK.
+
+447
+00:30:47,000 --> 00:30:53,000
+So what you have here,
+this input here is the input
+
+448
+00:30:53,000 --> 00:30:56,000
+that I'm feeding to this
+inverter.
+
+449
+00:30:56,000 --> 00:31:02,000
+That is a straight line.
+Is that the power supply?
+
+450
+00:31:02,000 --> 00:31:06,000
+It doesn't matter?
+OK, so I believe this is the,
+
+451
+00:31:06,000 --> 00:31:10,000
+we'll check in a few minutes,
+but I suspect this is the power
+
+452
+00:31:10,000 --> 00:31:14,000
+supply, and this guy here is the
+output looking here.
+
+453
+00:31:14,000 --> 00:31:17,000
+So, the green one is the look
+here part.
+
+454
+00:31:17,000 --> 00:31:21,000
+So, there must have been a
+one-to-zero transition here,
+
+455
+00:31:21,000 --> 00:31:24,000
+and that's all fine.
+So, so far, so good.
+
+456
+00:31:24,000 --> 00:31:28,000
+OK, no problem so far.
+Now what I'm going to do is I'm
+
+457
+00:31:28,000 --> 00:31:32,000
+going to do something to the
+circuit that as far as
+
+458
+00:31:32,000 --> 00:31:35,000
+abstraction is concerned,
+it doesn't show up on the
+
+459
+00:31:35,000 --> 00:31:41,000
+circuit.
+OK, it's below the abstraction
+
+460
+00:31:41,000 --> 00:31:45,000
+layer.
+OK, I'm going to do something,
+
+461
+00:31:45,000 --> 00:31:48,000
+and suddenly,
+some things are going to
+
+462
+00:31:48,000 --> 00:31:51,000
+happen.
+Look up there.
+
+463
+00:31:51,000 --> 00:31:56,000
+The circuit hasn't changed.
+It's the same circuit.
+
+464
+00:31:56,000 --> 00:31:59,000
+I've done nothing to the
+circuit.
+
+465
+00:31:59,000 --> 00:32:05,000
+OK, look at the green output.
+I've done nothing to the
+
+466
+00:32:05,000 --> 00:32:09,000
+circuit that is visible here.
+OK, it's below the radar screen
+
+467
+00:32:09,000 --> 00:32:11,000
+here.
+It's below the abstraction
+
+468
+00:32:11,000 --> 00:32:14,000
+barrier.
+But, look at the disaster here.
+
+469
+00:32:14,000 --> 00:32:17,000
+OK, in particular,
+the spikes going up are not so
+
+470
+00:32:17,000 --> 00:32:20,000
+much of a problem.
+Because of the static
+
+471
+00:32:20,000 --> 00:32:23,000
+discipline, if I am at five or
+six or seven,
+
+472
+00:32:23,000 --> 00:32:27,000
+it doesn't matter as long as I
+am higher than VOH.
+
+473
+00:32:27,000 --> 00:32:32,000
+So as long as I'm higher than
+VOH I don't have a problem.
+
+474
+00:32:32,000 --> 00:32:34,000
+But the problems are these
+repeated dips.
+
+475
+00:32:34,000 --> 00:32:38,000
+OK, the dips are a problem
+here, which is why I labeled
+
+476
+00:32:38,000 --> 00:32:42,000
+this experiment the Double Dip.
+OK, the dips are bad because if
+
+477
+00:32:42,000 --> 00:32:46,000
+they are large enough,
+they can then group the output
+
+478
+00:32:46,000 --> 00:32:49,000
+down into the forbidden region,
+or worse yet,
+
+479
+00:32:49,000 --> 00:32:53,000
+make it look like a zero.
+OK, so you're not prepared for
+
+480
+00:32:53,000 --> 00:32:55,000
+this.
+So what I'm going to do is tell
+
+481
+00:32:55,000 --> 00:32:59,000
+you what I did to the circuit,
+and then ask you to help me
+
+482
+00:32:59,000 --> 00:33:08,000
+figure it out.
+So all I did was applied a load
+
+483
+00:33:08,000 --> 00:33:17,000
+resistance to this,
+I think of 50 ohms or some RL.
+
+484
+00:33:17,000 --> 00:33:28,000
+I just applied a load resistor.
+And this inverter here,
+
+485
+00:33:28,000 --> 00:33:38,000
+I believe, is a CMOS inverter
+that looks, OK?
+
+486
+00:33:38,000 --> 00:33:41,000
+So I have this input applied to
+this inverter,
+
+487
+00:33:41,000 --> 00:33:43,000
+and all I did is I applied an
+RL load here.
+
+488
+00:33:43,000 --> 00:33:48,000
+And notice that the load here
+should not really change what's
+
+489
+00:33:48,000 --> 00:33:50,000
+happening if this is an ideal
+inverter, OK,
+
+490
+00:33:50,000 --> 00:33:54,000
+the load here should simply
+draw some current but really
+
+491
+00:33:54,000 --> 00:33:58,000
+should not change any other
+property.
+
+492
+00:33:58,000 --> 00:34:02,000
+OK, so just remember,
+what's the signal doing?
+
+493
+00:34:02,000 --> 00:34:05,000
+The signal is high.
+This guy turns on,
+
+494
+00:34:05,000 --> 00:34:10,000
+and current flows like this.
+So, let's say I had some sort
+
+495
+00:34:10,000 --> 00:34:14,000
+of a capacitor here.
+This charges like this,
+
+496
+00:34:14,000 --> 00:34:17,000
+and when it's slow,
+the PFET is on,
+
+497
+00:34:17,000 --> 00:34:20,000
+and current flows through here
+down here.
+
+498
+00:34:20,000 --> 00:34:25,000
+And then when this goes high,
+this guy goes off,
+
+499
+00:34:25,000 --> 00:34:29,000
+and this guy turns on.
+OK, so the current flows out
+
+500
+00:34:29,000 --> 00:34:35,000
+this way and this charges
+through this guy.
+
+501
+00:34:35,000 --> 00:34:39,000
+When I turn it off,
+the P fret turns on and draws
+
+502
+00:34:39,000 --> 00:34:44,000
+current from the top.
+OK, so do we have any theories
+
+503
+00:34:44,000 --> 00:34:50,000
+as to why I'm getting that messy
+stuff, the dips and the spikes,
+
+504
+00:34:50,000 --> 00:34:56,000
+on the output of this inverter?
+So why does this inverter care
+
+505
+00:34:56,000 --> 00:34:59,000
+what the load of this inverter
+is?
+
+506
+00:34:59,000 --> 00:35:04,000
+I mean, who cares?
+So, put your thinking caps on.
+
+507
+00:35:04,000 --> 00:35:08,000
+Any theories?
+You guys did pretty well with
+
+508
+00:35:08,000 --> 00:35:11,000
+the previous one.
+And this is much easier,
+
+509
+00:35:11,000 --> 00:35:15,000
+actually.
+Need a better power supply;
+
+510
+00:35:15,000 --> 00:35:20,000
+OK, so what I'm going to do is
+I'm going to replace the power
+
+511
+00:35:20,000 --> 00:35:24,000
+supply, and instead,
+use a much bigger power supply
+
+512
+00:35:24,000 --> 00:35:28,000
+at 5V.
+A big, mongo power supply that
+
+513
+00:35:28,000 --> 00:35:31,000
+can supply 100 amps,
+and guess what,
+
+514
+00:35:31,000 --> 00:35:34,000
+I've made the changes,
+but guess what,
+
+515
+00:35:34,000 --> 00:35:41,000
+I still see the spikes.
+Good try, but it didn't work
+
+516
+00:35:41,000 --> 00:35:43,000
+out.
+Good try, good try.
+
+517
+00:35:43,000 --> 00:35:46,000
+What next?
+Any other solutions?
+
+518
+00:35:46,000 --> 00:35:50,000
+Yes?
+So dips are because of the
+
+519
+00:35:50,000 --> 00:35:56,000
+resistance, and the spikes are
+because of the inductance?
+
+520
+00:35:56,000 --> 00:36:02,000
+You're half correct.
+So, which one is it?
+
+521
+00:36:02,000 --> 00:36:07,000
+So, dips are because of
+resistances, and spikes are
+
+522
+00:36:07,000 --> 00:36:11,000
+because of inductances.
+You're half correct.
+
+523
+00:36:11,000 --> 00:36:17,000
+It turns out that both the dips
+and the spikes are because of
+
+524
+00:36:17,000 --> 00:36:21,000
+inductances.
+OK, but be that as it may,
+
+525
+00:36:21,000 --> 00:36:27,000
+let me give you the next clue
+here, and then see if you can
+
+526
+00:36:27,000 --> 00:36:33,000
+come closer to the answer.
+So, what I've done here is I've
+
+527
+00:36:33,000 --> 00:36:38,000
+made this wire really,
+really long.
+
+528
+00:36:38,000 --> 00:36:41,000
+OK, it's a really long wire,
+OK, but it's a thick wire,
+
+529
+00:36:41,000 --> 00:36:44,000
+so it's a long,
+long, thick wire.
+
+530
+00:36:44,000 --> 00:36:46,000
+So it's not the resistance.
+It's really,
+
+531
+00:36:46,000 --> 00:36:50,000
+really thick and mongo,
+and it's a long wire,
+
+532
+00:36:50,000 --> 00:36:54,000
+so a signal wire above a ground
+plane behaves like an inductor.
+
+533
+00:36:54,000 --> 00:36:57,000
+And so here,
+it has the capacitance to,
+
+534
+00:36:57,000 --> 00:36:59,000
+but in this case it's
+inductance.
+
+535
+00:36:59,000 --> 00:37:04,000
+It's inductance here.
+So, I'll give you another ten
+
+536
+00:37:04,000 --> 00:37:10,000
+seconds to think about it and
+then tell you the answer.
+
+537
+00:37:10,000 --> 00:37:15,000
+But despite the inductance
+here, it turns out if I take out
+
+538
+00:37:15,000 --> 00:37:19,000
+this resistor,
+the problem goes away.
+
+539
+00:37:19,000 --> 00:37:24,000
+Look, I take out the resistor,
+the problem goes away.
+
+540
+00:37:24,000 --> 00:37:34,000
+Yes, there is an inductor here.
+OK, I take out this resistor,
+
+541
+00:37:34,000 --> 00:37:44,000
+problem goes away.
+I put the resistor back in,
+
+542
+00:37:44,000 --> 00:37:46,000
+boom.
+Yes?
+
+543
+00:37:46,000 --> 00:37:54,000
+OK, pretty good.
+That's 86 points.
+
+544
+00:37:54,000 --> 00:38:03,000
+So here's what's going on.
+There's an inductor here,
+
+545
+00:38:03,000 --> 00:38:06,000
+and when I put a 50 ohm
+resistor here,
+
+546
+00:38:06,000 --> 00:38:10,000
+I put this resistor.
+When the PFET turns on,
+
+547
+00:38:10,000 --> 00:38:13,000
+it draws a current.
+OK, it's going to draw a
+
+548
+00:38:13,000 --> 00:38:15,000
+current.
+It draws a current;
+
+549
+00:38:15,000 --> 00:38:19,000
+remember that across an
+inductor, I have a drop.
+
+550
+00:38:19,000 --> 00:38:22,000
+And the drop relates to the
+di/dt.
+
+551
+00:38:22,000 --> 00:38:26,000
+Remember, for a capacitor,
+the current is Cdv/dt.
+
+552
+00:38:26,000 --> 00:38:29,000
+For the inductor,
+the voltage across the inductor
+
+553
+00:38:29,000 --> 00:38:33,000
+is Ldi/dt.
+So, if di/dt,
+
+554
+00:38:33,000 --> 00:38:37,000
+from switching a large current
+through the inductor every
+
+555
+00:38:37,000 --> 00:38:40,000
+cycle, OK, big di/dt,
+di/dt is large.
+
+556
+00:38:40,000 --> 00:38:44,000
+I've made it large by having a
+very small RL,
+
+557
+00:38:44,000 --> 00:38:47,000
+so, you know,
+pulling a big current through
+
+558
+00:38:47,000 --> 00:38:50,000
+every few, whatever,
+every cycle,
+
+559
+00:38:50,000 --> 00:38:53,000
+and then stopping it.
+And so therefore,
+
+560
+00:38:53,000 --> 00:38:58,000
+I'm getting these big drops
+across this inductor that relate
+
+561
+00:38:58,000 --> 00:39:00,000
+to Ldi/dt.
+In other words,
+
+562
+00:39:00,000 --> 00:39:05,000
+the power supply here is fine.
+While you guys were watching,
+
+563
+00:39:05,000 --> 00:39:08,000
+I switched to the huge,
+mongo power supply,
+
+564
+00:39:08,000 --> 00:39:12,000
+and so this voltage is fine.
+But then this voltage after the
+
+565
+00:39:12,000 --> 00:39:16,000
+wire is the problem.
+So, this voltage here doesn't
+
+566
+00:39:16,000 --> 00:39:19,000
+look like this anymore.
+Rather, it has spikes that go
+
+567
+00:39:19,000 --> 00:39:22,000
+down, for example,
+and when I switch the other
+
+568
+00:39:22,000 --> 00:39:24,000
+way, they go up.
+OK, so therefore,
+
+569
+00:39:24,000 --> 00:39:30,000
+what I end up having here is
+big spikes on this power supply.
+
+570
+00:39:30,000 --> 00:39:33,000
+And when this guy's power
+supply goes wacko,
+
+571
+00:39:33,000 --> 00:39:37,000
+then I see the spikes on its
+output as well.
+
+572
+00:39:37,000 --> 00:39:40,000
+OK, so what are the solutions
+for that?
+
+573
+00:39:40,000 --> 00:39:43,000
+Any solutions here?
+What can I do to fix the
+
+574
+00:39:43,000 --> 00:39:45,000
+problem?
+Pardon?
+
+575
+00:39:45,000 --> 00:39:46,000
+Stop using the,
+exactly.
+
+576
+00:39:46,000 --> 00:39:49,000
+When in doubt,
+do something else.
+
+577
+00:39:49,000 --> 00:39:54,000
+Build a different design.
+So what I could do is this is
+
+578
+00:39:54,000 --> 00:39:59,000
+pretty dumb, using a long wire.
+And so, no, but trust me,
+
+579
+00:39:59,000 --> 00:40:04,000
+oftentimes you go to the store
+room and they give you a big
+
+580
+00:40:04,000 --> 00:40:07,000
+roll of wire,
+and you're too lazy to cut a
+
+581
+00:40:07,000 --> 00:40:10,000
+piece out.
+Use the whole roll,
+
+582
+00:40:10,000 --> 00:40:13,000
+and use the two ends,
+and connect it in,
+
+583
+00:40:13,000 --> 00:40:15,000
+OK?
+So, if I had a much shorter
+
+584
+00:40:15,000 --> 00:40:18,000
+piece of wire,
+then that can solve my problem.
+
+585
+00:40:18,000 --> 00:40:22,000
+But again, remember,
+what's small to you may not be
+
+586
+00:40:22,000 --> 00:40:25,000
+small to the circuit.
+OK, so let's say,
+
+587
+00:40:25,000 --> 00:40:29,000
+for example,
+I'm Intel, and I'm building a
+
+588
+00:40:29,000 --> 00:40:33,000
+10 GHz Pentium 6 processor.
+OK, it's 0.1 nanosecond is my
+
+589
+00:40:33,000 --> 00:40:37,000
+cycle time.
+There, even a small,
+
+590
+00:40:37,000 --> 00:40:40,000
+itty bitty wire can be a real
+problem.
+
+591
+00:40:40,000 --> 00:40:44,000
+OK, and so therefore,
+distributing power throughout a
+
+592
+00:40:44,000 --> 00:40:47,000
+one inch chip that's clocking at
+10 GHz is a really,
+
+593
+00:40:47,000 --> 00:40:51,000
+really hard problem.
+And our own David Perreault,
+
+594
+00:40:51,000 --> 00:40:55,000
+who is doing one of our
+sections, is one of the world's
+
+595
+00:40:55,000 --> 00:40:58,000
+experts in this field.
+Distributing power,
+
+596
+00:40:58,000 --> 00:41:02,000
+something as simple as,
+how do I get 1V in a stable
+
+597
+00:41:02,000 --> 00:41:05,000
+manner to every single device on
+my chip?
+
+598
+00:41:05,000 --> 00:41:10,000
+It's a hard problem.
+OK, so now, you have to begin
+
+599
+00:41:10,000 --> 00:41:15,000
+feeding your power supply
+connections much like RC
+
+600
+00:41:15,000 --> 00:41:19,000
+circuits, OK,
+and you have to solve some hard
+
+601
+00:41:19,000 --> 00:41:25,000
+problems to be able to simply
+distribute power decently
+
+602
+00:41:25,000 --> 00:41:29,000
+throughout your circuit.
+So, what else can I do?
+
+603
+00:41:29,000 --> 00:41:32,000
+Yeah?
+Say it again?
+
+604
+00:41:32,000 --> 00:41:35,000
+Ah, I can do that.
+I could use different wires to
+
+605
+00:41:35,000 --> 00:41:39,000
+connect each of the inverters.
+That's a good point.
+
+606
+00:41:39,000 --> 00:41:44,000
+So here, the coupling happens
+because I connect the two
+
+607
+00:41:44,000 --> 00:41:48,000
+inverters way out here.
+So instead, I use a different
+
+608
+00:41:48,000 --> 00:41:50,000
+cable.
+I hadn't thought of that.
+
+609
+00:41:50,000 --> 00:41:54,000
+That's a creative solution.
+OK, so in fact,
+
+610
+00:41:54,000 --> 00:41:57,000
+if you build a chip,
+so we built this chip called
+
+611
+00:41:57,000 --> 00:42:01,000
+RAW in our group,
+and it has on the order of 10
+
+612
+00:42:01,000 --> 00:42:06,000
+million gates.
+And this chip we built with
+
+613
+00:42:06,000 --> 00:42:09,000
+IBM's technology,
+and it turns out that you don't
+
+614
+00:42:09,000 --> 00:42:14,000
+send power supply in through a
+pin and then connect that 1.5V
+
+615
+00:42:14,000 --> 00:42:18,000
+supply to all your gates.
+What you do is from that pin,
+
+616
+00:42:18,000 --> 00:42:22,000
+you then build special power
+supply buffering trees.
+
+617
+00:42:22,000 --> 00:42:25,000
+And each tree,
+each leaf of the tree drives a
+
+618
+00:42:25,000 --> 00:42:27,000
+subcircuit.
+In other words,
+
+619
+00:42:27,000 --> 00:42:31,000
+if this is a chip,
+you have lots and lots of gates
+
+620
+00:42:31,000 --> 00:42:36,000
+throughout your chip.
+What you do not do is bring in
+
+621
+00:42:36,000 --> 00:42:40,000
+a power supply like this,
+and then connect.
+
+622
+00:42:40,000 --> 00:42:45,000
+You don't do that.
+That's the worst possible thing
+
+623
+00:42:45,000 --> 00:42:49,000
+you can do.
+It's an absolute disaster for
+
+624
+00:42:49,000 --> 00:42:55,000
+the reason just brought up.
+OK, so instead what you do is
+
+625
+00:42:55,000 --> 00:42:59,000
+divide up the chip into,
+say, four quadrants.
+
+626
+00:42:59,000 --> 00:43:04,000
+OK, in our case,
+we have 16 quadrants.
+
+627
+00:43:04,000 --> 00:43:08,000
+And then what you do is from
+this point, you take one wire
+
+628
+00:43:08,000 --> 00:43:12,000
+that goes to this quadrant,
+one wire that comes here,
+
+629
+00:43:12,000 --> 00:43:15,000
+one here, and one here,
+so that you're getting the
+
+630
+00:43:15,000 --> 00:43:20,000
+power supply very close to the
+source, and you have different
+
+631
+00:43:20,000 --> 00:43:24,000
+connections going to each
+quadrant so that switching in
+
+632
+00:43:24,000 --> 00:43:27,000
+this quadrant will not affect
+this guy because of the
+
+633
+00:43:27,000 --> 00:43:33,000
+inductance of this lead here.
+OK, and if you hadn't taken
+
+634
+00:43:33,000 --> 00:43:37,000
+6.002, you'd have been arguing
+with IBM, I don't want 16 wires.
+
+635
+00:43:37,000 --> 00:43:40,000
+I want just one wire.
+OK, so there are other
+
+636
+00:43:40,000 --> 00:43:44,000
+solutions, of course.
+There's a couple more solution.
+
+637
+00:43:44,000 --> 00:43:49,000
+One is that what you can do is
+part of the problem here is that
+
+638
+00:43:49,000 --> 00:43:52,000
+all my transitions are really,
+really sharp.
+
+639
+00:43:52,000 --> 00:43:54,000
+OK, so di/dt is very,
+very large.
+
+640
+00:43:54,000 --> 00:43:58,000
+So, there's a whole new
+technique in design of digital
+
+641
+00:43:58,000 --> 00:44:01,000
+and analog circuits,
+which talks about,
+
+642
+00:44:01,000 --> 00:44:05,000
+maybe I should call it waveform
+engineering, OK,
+
+643
+00:44:05,000 --> 00:44:09,000
+or edge engineering.
+OK, it's also called edge
+
+644
+00:44:09,000 --> 00:44:12,000
+smoothing.
+The idea is that rather than
+
+645
+00:44:12,000 --> 00:44:16,000
+have very sharp edges in your
+circuit, you try to have
+
+646
+00:44:16,000 --> 00:44:19,000
+smoother edges.
+And when you have smoother
+
+647
+00:44:19,000 --> 00:44:22,000
+edges, OK, then your di/dt is
+now going to be less.
+
+648
+00:44:22,000 --> 00:44:25,000
+It's not going to be very,
+very high.
+
+649
+00:44:25,000 --> 00:44:29,000
+Rather, your delta I is spread
+out over a longer period of
+
+650
+00:44:29,000 --> 00:44:31,000
+time.
+Of course, that means the
+
+651
+00:44:31,000 --> 00:44:34,000
+circuits may have to run a
+little slower,
+
+652
+00:44:34,000 --> 00:44:38,000
+but that can also solve the
+problem.
+
+653
+00:44:38,000 --> 00:44:41,000
+And in fact,
+that same smoothing of the
+
+654
+00:44:41,000 --> 00:44:46,000
+waveforms was also the solution
+you saw in the capacitive
+
+655
+00:44:46,000 --> 00:44:49,000
+coupling we saw a month and a
+half ago.
+
+656
+00:44:49,000 --> 00:44:53,000
+And let me show you the demo,
+and then close up.
+
+657
+00:44:53,000 --> 00:44:55,000
+Not working?
+OK, that's OK.
+
+658
+00:44:55,000 --> 00:45:00,000
+It doesn't matter.
+So if you remember the demo
+
+659
+00:45:00,000 --> 00:45:05,000
+from the lecture about a month
+and a half ago in capacitors,
+
+660
+00:45:05,000 --> 00:45:10,000
+I talked about a chip with two
+pins, and there was this
+
+661
+00:45:10,000 --> 00:45:14,000
+capacitive coupling between the
+pins.
+
+662
+00:45:14,000 --> 00:45:18,000
+And because of this,
+if this waveform is switching,
+
+663
+00:45:18,000 --> 00:45:23,000
+then because of this coupling,
+you will end up getting,
+
+664
+00:45:23,000 --> 00:45:29,000
+if this is the signal here,
+you will end up getting spikes
+
+665
+00:45:29,000 --> 00:45:33,000
+on this pin because of the
+signaling of the other pin.
+
+666
+00:45:33,000 --> 00:45:39,000
+And that's good old capacitive
+coupling.
+
+667
+00:45:39,000 --> 00:45:42,000
+OK, and to eliminate this,
+what you can do is much like
+
+668
+00:45:42,000 --> 00:45:45,000
+with the inductance system,
+if you, rather than having
+
+669
+00:45:45,000 --> 00:45:49,000
+sharp transitions on this pin,
+if you have smooth transitions
+
+670
+00:45:49,000 --> 00:45:52,000
+that look like this,
+then what you can do is you'll
+
+671
+00:45:52,000 --> 00:45:56,000
+now spread delta V from here to
+here over a longer delta T.
+
+672
+00:45:56,000 --> 00:45:59,000
+OK, delta T has become longer,
+and because of that,
+
+673
+00:45:59,000 --> 00:46:03,000
+you end up getting much better
+behavior, and you don't end up
+
+674
+00:46:03,000 --> 00:46:06,000
+getting these spikes.
+So therefore,
+
+675
+00:46:06,000 --> 00:46:10,000
+if you want to build really,
+really fast circuits,
+
+676
+00:46:10,000 --> 00:46:13,000
+you have to be really careful.
+You can build fast circuits,
+
+677
+00:46:13,000 --> 00:46:15,000
+but watch out for them fast
+edges.
+
+678
+00:46:15,000 --> 00:46:18,000
+OK, fast edges are nasty.
+They kill you.
+
+679
+00:46:18,000 --> 00:46:22,000
+That's something to remember as
+you build the next generation of
+
+680
+00:46:22,000 --> 00:46:24,000
+circuits.
+Well, thank you all.
+
+681
+00:46:24,000 --> 00:46:27,000
+I had a blast,
+and I hope you guys had fun
+
+682
+00:46:27,000 --> 00:46:30,000
+too.
+Thank you.

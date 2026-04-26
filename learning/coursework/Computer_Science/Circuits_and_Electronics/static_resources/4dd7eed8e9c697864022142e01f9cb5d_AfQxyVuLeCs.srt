@@ -1,0 +1,3311 @@
+1
+00:00:00,000 --> 00:00:04,000
+So, one question to ask
+ourselves is,
+
+2
+00:00:04,000 --> 00:00:08,000
+what is engineering?
+How do we define,
+
+3
+00:00:08,000 --> 00:00:15,000
+what is engineering?
+Well, the definition I like to
+
+4
+00:00:15,000 --> 00:00:22,000
+use is one put forth by Steve
+Senturia, one of our professors
+
+5
+00:00:22,000 --> 00:00:28,000
+who is now retired.
+He defined engineering to be
+
+6
+00:00:28,000 --> 00:00:35,000
+the purposeful use of science.
+All right, so what is 6.002
+
+7
+00:00:35,000 --> 00:00:38,000
+about?
+So, 6.002 is a first course in
+
+8
+00:00:38,000 --> 00:00:41,000
+engineering.
+And I like to view 6.002 as the
+
+9
+00:00:41,000 --> 00:00:44,000
+gainful employment of Maxwell's
+equations.
+
+10
+00:00:44,000 --> 00:00:48,000
+Many of you have seen Maxwell's
+equations before.
+
+11
+00:00:48,000 --> 00:00:52,000
+Most of you should have.
+And they are hard stuff.
+
+12
+00:00:52,000 --> 00:00:57,000
+6.002 is all about teaching you
+how to simplify our lives,
+
+13
+00:00:57,000 --> 00:01:02,000
+make things simple.
+So, if you can gainfully employ
+
+14
+00:01:02,000 --> 00:01:07,000
+Maxwell's equations,
+gainfully employ the facts of
+
+15
+00:01:07,000 --> 00:01:11,000
+nature to build very interesting
+systems.
+
+16
+00:01:11,000 --> 00:01:15,000
+So let me show you how the
+transition is made.
+
+17
+00:01:15,000 --> 00:01:20,000
+So, there's a world around us,
+nature, so we made some
+
+18
+00:01:20,000 --> 00:01:24,000
+observations in nature.
+We make measurements,
+
+19
+00:01:24,000 --> 00:01:30,000
+and we can write down large
+tables of measurements.
+
+20
+00:01:30,000 --> 00:01:33,000
+So, for example,
+we can take objects and measure
+
+21
+00:01:33,000 --> 00:01:37,000
+the voltage across them,
+and look at the resulting
+
+22
+00:01:37,000 --> 00:01:41,000
+current through the elements.
+So, we may end up getting a
+
+23
+00:01:41,000 --> 00:01:44,000
+bunch of values such as
+[CHALKBOARD].
+
+24
+00:01:44,000 --> 00:01:48,000
+So, we start out life with
+making measurements on what
+
+25
+00:01:48,000 --> 00:01:51,000
+exists.
+And we build a bunch of tables.
+
+26
+00:01:51,000 --> 00:01:54,000
+Now, we could directly take
+these tables,
+
+27
+00:01:54,000 --> 00:01:57,000
+and based on observations of
+these tables,
+
+28
+00:01:57,000 --> 00:02:01,000
+we could go ahead and build
+very interesting engineering
+
+29
+00:02:01,000 --> 00:02:06,000
+systems that help us out in
+day-to-day lives.
+
+30
+00:02:06,000 --> 00:02:10,000
+But that's incredibly hard.
+Imagine having to resort to a
+
+31
+00:02:10,000 --> 00:02:14,000
+set of tables to do any kind of
+useful work.
+
+32
+00:02:14,000 --> 00:02:18,000
+So what we do as engineers,
+we first layer a level of
+
+33
+00:02:18,000 --> 00:02:21,000
+abstraction.
+We look at all the data,
+
+34
+00:02:21,000 --> 00:02:25,000
+and somehow layer abstraction
+such that we can simplify or
+
+35
+00:02:25,000 --> 00:02:30,000
+much more succinctly put in a
+simple equation or a simple
+
+36
+00:02:30,000 --> 00:02:35,000
+statement what these numbers are
+telling us.
+
+37
+00:02:35,000 --> 00:02:37,000
+OK, so for example,
+our physics laws,
+
+38
+00:02:37,000 --> 00:02:41,000
+so laws of physics for example
+are simply abstractions,
+
+39
+00:02:41,000 --> 00:02:45,000
+the laws of abstractions.
+So, these sets of numbers can
+
+40
+00:02:45,000 --> 00:02:48,000
+be codified by Ohm's law,
+for example,
+
+41
+00:02:48,000 --> 00:02:51,000
+V is equal to RI,
+the voltage current,
+
+42
+00:02:51,000 --> 00:02:54,000
+relates to the resistance of
+the object.
+
+43
+00:02:54,000 --> 00:02:58,000
+So, V is equal to RI is a law
+that succinctly describes a set
+
+44
+00:02:58,000 --> 00:03:02,000
+of experiments,
+and replaces a large number of
+
+45
+00:03:02,000 --> 00:03:06,000
+tables with a very simple
+statement.
+
+46
+00:03:06,000 --> 00:03:09,000
+You could call this the law,
+or you could call it an
+
+47
+00:03:09,000 --> 00:03:13,000
+abstraction.
+OK so you see laws of physics,
+
+48
+00:03:13,000 --> 00:03:16,000
+call them abstractions of
+physics if you like.
+
+49
+00:03:16,000 --> 00:03:21,000
+Similarly, there are Maxwell's
+equations and so on and so
+
+50
+00:03:21,000 --> 00:03:23,000
+forth.
+So, this is what is.
+
+51
+00:03:23,000 --> 00:03:27,000
+This is what's out there.
+OK, and a law as an abstraction
+
+52
+00:03:27,000 --> 00:03:31,000
+describe the properties of
+nature, as we see it,
+
+53
+00:03:31,000 --> 00:03:35,000
+in some succinct form.
+Now, if you want to go and
+
+54
+00:03:35,000 --> 00:03:38,000
+build useful things,
+we could take these
+
+55
+00:03:38,000 --> 00:03:40,000
+abstractions,
+take Maxwell's equations,
+
+56
+00:03:40,000 --> 00:03:43,000
+and go and build things.
+But it's hard.
+
+57
+00:03:43,000 --> 00:03:44,000
+It's really,
+really hard.
+
+58
+00:03:44,000 --> 00:03:48,000
+And what you learn in,
+at MIT is this place is all
+
+59
+00:03:48,000 --> 00:03:51,000
+about simplifying things.
+Take complicated things,
+
+60
+00:03:51,000 --> 00:03:55,000
+build layers of abstraction,
+and simplify things so that we
+
+61
+00:03:55,000 --> 00:04:00,000
+can build useful systems.
+Even in 6.002 we start life by
+
+62
+00:04:00,000 --> 00:04:04,000
+making a huge leap from
+Maxwell's equations to a couple
+
+63
+00:04:04,000 --> 00:04:09,000
+of very, very simple laws.
+OK, I'm going to show you that
+
+64
+00:04:09,000 --> 00:04:14,000
+leap that we will make today.
+So, the first abstraction that
+
+65
+00:04:14,000 --> 00:04:18,000
+we layer is called the lump
+circuit abstraction.
+
+66
+00:04:18,000 --> 00:04:22,000
+OK, in the lump circuit
+abstraction, what we do is we
+
+67
+00:04:22,000 --> 00:04:27,000
+make a set of simplifications
+that allows us to view a set of
+
+68
+00:04:27,000 --> 00:04:32,000
+objects as discrete or lumped
+elements.
+
+69
+00:04:32,000 --> 00:04:35,000
+So, we may, I will define
+voltage sources.
+
+70
+00:04:35,000 --> 00:04:38,000
+We'll define resistors.
+We'll define capacitors,
+
+71
+00:04:38,000 --> 00:04:41,000
+and so on.
+OK, and I'm going to make the
+
+72
+00:04:41,000 --> 00:04:46,000
+jump, and show you how we make
+the jump in a few minutes.
+
+73
+00:04:46,000 --> 00:04:49,000
+So, on that sort of
+abstraction, we then layer yet
+
+74
+00:04:49,000 --> 00:04:53,000
+another abstract layer.
+And let me call that the
+
+75
+00:04:53,000 --> 00:04:56,000
+amplifier abstraction.
+OK, remember,
+
+76
+00:04:56,000 --> 00:05:00,000
+here we are absolutely down and
+dirty.
+
+77
+00:05:00,000 --> 00:05:02,000
+We are setting the probes,
+measuring objects,
+
+78
+00:05:02,000 --> 00:05:05,000
+and building huge tables.
+We abstracted things into
+
+79
+00:05:05,000 --> 00:05:07,000
+simple laws, and life got a
+little better.
+
+80
+00:05:07,000 --> 00:05:11,000
+OK, I'm going to show you can
+abstract things further out and
+
+81
+00:05:11,000 --> 00:05:14,000
+build discrete objects,
+and, you could build even more
+
+82
+00:05:14,000 --> 00:05:17,000
+interesting components called
+amplifiers and begin playing
+
+83
+00:05:17,000 --> 00:05:20,000
+around with amplifiers.
+OK, so when you are using
+
+84
+00:05:20,000 --> 00:05:23,000
+amplifiers, you don't really
+have to worry about the details
+
+85
+00:05:23,000 --> 00:05:26,000
+of Maxwell's equations.
+OK, I'll give you some very
+
+86
+00:05:26,000 --> 00:05:29,000
+simple abstract rules of
+behavior for an amplifier,
+
+87
+00:05:29,000 --> 00:05:32,000
+and you can go build very
+interesting systems without
+
+88
+00:05:32,000 --> 00:05:35,000
+really, really knowing how
+Maxwell's equations applies to
+
+89
+00:05:35,000 --> 00:05:40,000
+that because you will be working
+at this abstract layer.
+
+90
+00:05:40,000 --> 00:05:43,000
+However, since you're
+engineers, and you are good at
+
+91
+00:05:43,000 --> 00:05:47,000
+building such systems,
+it's very important for you to
+
+92
+00:05:47,000 --> 00:05:51,000
+understand how we make this leap
+from the laws of physics into
+
+93
+00:05:51,000 --> 00:05:54,000
+some of our very primitive
+engineering abstractions.
+
+94
+00:05:54,000 --> 00:05:58,000
+So, once we make the amplified
+abstraction in 6.002,
+
+95
+00:05:58,000 --> 00:06:02,000
+by the way, 6.002 starts here.
+We start from the laws of
+
+96
+00:06:02,000 --> 00:06:06,000
+physics and then proceed all the
+way out.
+
+97
+00:06:06,000 --> 00:06:10,000
+So, once we talk about
+amplifiers we will take two
+
+98
+00:06:10,000 --> 00:06:12,000
+pads.
+On the amplifier,
+
+99
+00:06:12,000 --> 00:06:18,000
+you will build the next
+abstraction called the digital
+
+100
+00:06:18,000 --> 00:06:21,000
+abstraction.
+OK, and with the digital
+
+101
+00:06:21,000 --> 00:06:27,000
+abstraction, we will build new
+elements such as inverters and
+
+102
+00:06:27,000 --> 00:06:31,000
+combinational gates,
+OK?
+
+103
+00:06:31,000 --> 00:06:35,000
+So, notice we are building
+bigger, and bigger things,
+
+104
+00:06:35,000 --> 00:06:38,000
+which have more and more
+complicated behavior inside
+
+105
+00:06:38,000 --> 00:06:42,000
+them, but which are very simple
+to describe, right?
+
+106
+00:06:42,000 --> 00:06:47,000
+So, following the digital
+abstraction, we will superimpose
+
+107
+00:06:47,000 --> 00:06:51,000
+the combinational logic
+abstraction on top of that,
+
+108
+00:06:51,000 --> 00:06:54,000
+and define functional blocks
+that look like this:
+
+109
+00:06:54,000 --> 00:06:56,000
+some inputs,
+some function,
+
+110
+00:06:56,000 --> 00:07:01,000
+some outputs.
+The next abstraction on top of
+
+111
+00:07:01,000 --> 00:07:06,000
+that will be the clock digital
+abstraction, where we will have
+
+112
+00:07:06,000 --> 00:07:10,000
+some notion of time introduced
+into the system.
+
+113
+00:07:10,000 --> 00:07:14,000
+There will be a clock,
+and this will be some function.
+
+114
+00:07:14,000 --> 00:07:19,000
+And there will be a clock that
+introduces time into the sort of
+
+115
+00:07:19,000 --> 00:07:23,000
+logic values that functions
+operate upon.
+
+116
+00:07:23,000 --> 00:07:26,000
+Following that,
+the next level of abstraction
+
+117
+00:07:26,000 --> 00:07:32,000
+that we build is called
+instruction set abstraction.
+
+118
+00:07:32,000 --> 00:07:37,000
+OK, now you begin to see things
+that consumers get to look at.
+
+119
+00:07:37,000 --> 00:07:42,000
+Can someone give me an example
+of, or name an instruction set,
+
+120
+00:07:42,000 --> 00:07:45,000
+or instruction set abstraction?
+Bingo.
+
+121
+00:07:45,000 --> 00:07:48,000
+So, x86 is one set of
+abstractions.
+
+122
+00:07:48,000 --> 00:07:51,000
+And in fact,
+in many universities,
+
+123
+00:07:51,000 --> 00:07:55,000
+education could well start just
+by saying, OK,
+
+124
+00:07:55,000 --> 00:07:59,000
+here's an abstraction.
+These are the x86 instructions,
+
+125
+00:07:59,000 --> 00:08:02,000
+OK?
+Some MIT gurus have designed
+
+126
+00:08:02,000 --> 00:08:05,000
+this awesome little
+microprocessor,
+
+127
+00:08:05,000 --> 00:08:07,000
+OK?
+So you just worry about,
+
+128
+00:08:07,000 --> 00:08:11,000
+you take this abstraction layer
+here, the assembly instructions,
+
+129
+00:08:11,000 --> 00:08:14,000
+and you go and build systems on
+top of that.
+
+130
+00:08:14,000 --> 00:08:18,000
+OK, so this is an abstraction
+layer called the x86 layer.
+
+131
+00:08:18,000 --> 00:08:20,000
+There are other abstraction
+layers.
+
+132
+00:08:20,000 --> 00:08:24,000
+In 6.004, you will learn about,
+I believe, the alpha or the
+
+133
+00:08:24,000 --> 00:08:29,000
+beta, OK, and various other
+abstractions at this point.
+
+134
+00:08:29,000 --> 00:08:31,000
+So, 6.002 kind of goes until
+here.
+
+135
+00:08:31,000 --> 00:08:36,000
+6.002 takes me from the world
+of physics all the way to the
+
+136
+00:08:36,000 --> 00:08:40,000
+world of interesting analog and
+digital systems.
+
+137
+00:08:40,000 --> 00:08:44,000
+OK, 004, the course on
+computation structures,
+
+138
+00:08:44,000 --> 00:08:48,000
+will show you how to build
+computers all the way from
+
+139
+00:08:48,000 --> 00:08:53,000
+simple digital objects all the
+way to big systems.
+
+140
+00:08:53,000 --> 00:08:56,000
+Following that,
+you learn about language
+
+141
+00:08:56,000 --> 00:08:59,000
+abstractions,
+Java, C, and other languages,
+
+142
+00:08:59,000 --> 00:09:05,000
+and that's in 6.002.
+And there are several other
+
+143
+00:09:05,000 --> 00:09:08,000
+courses that will cover that.
+Following this,
+
+144
+00:09:08,000 --> 00:09:12,000
+you learn about software system
+abstractions,
+
+145
+00:09:12,000 --> 00:09:16,000
+and software systems,
+you will learn about operating
+
+146
+00:09:16,000 --> 00:09:18,000
+systems.
+Any example of an operating
+
+147
+00:09:18,000 --> 00:09:22,000
+system abstraction that people
+know out there?
+
+148
+00:09:22,000 --> 00:09:23,000
+What's that?
+Linux.
+
+149
+00:09:23,000 --> 00:09:26,000
+What else?
+I'm just wondering how long
+
+150
+00:09:26,000 --> 00:09:32,000
+I'll have to go before I hear
+what I want to hear.
+
+151
+00:09:32,000 --> 00:09:35,000
+[LAUGHTER] OK,
+so we have a bunch of software
+
+152
+00:09:35,000 --> 00:09:37,000
+systems.
+So, if we have a bunch of
+
+153
+00:09:37,000 --> 00:09:39,000
+software systems,
+these are nothing but
+
+154
+00:09:39,000 --> 00:09:42,000
+abstractions.
+Linux simply implies a set of
+
+155
+00:09:42,000 --> 00:09:45,000
+system calls that the programs
+must adhere to.
+
+156
+00:09:45,000 --> 00:09:48,000
+Windows is another set of
+system calls.
+
+157
+00:09:48,000 --> 00:09:50,000
+That's it.
+And see how much money they
+
+158
+00:09:50,000 --> 00:09:54,000
+made out of it?
+OK, it's all about abstraction
+
+159
+00:09:54,000 --> 00:09:56,000
+layers, that all start from
+nature.
+
+160
+00:09:56,000 --> 00:09:58,000
+All right?
+Build abstraction upon
+
+161
+00:09:58,000 --> 00:10:01,000
+abstraction upon abstraction
+upon abstraction,
+
+162
+00:10:01,000 --> 00:10:06,000
+and someone out here are lots
+of dollars.
+
+163
+00:10:06,000 --> 00:10:09,000
+OK, so based on these
+abstractions,
+
+164
+00:10:09,000 --> 00:10:14,000
+we can then build useful things
+for human beings.
+
+165
+00:10:14,000 --> 00:10:18,000
+We can build very useful
+things, video games,
+
+166
+00:10:18,000 --> 00:10:24,000
+so we can send space shuttles
+up, and a whole bunch of other
+
+167
+00:10:24,000 --> 00:10:27,000
+systems.
+But it's based on these
+
+168
+00:10:27,000 --> 00:10:32,000
+abstraction layers.
+What's unique about education
+
+169
+00:10:32,000 --> 00:10:34,000
+at MIT?
+What's unique about 6.002 and
+
+170
+00:10:34,000 --> 00:10:36,000
+EECS?
+Is to my knowledge,
+
+171
+00:10:36,000 --> 00:10:41,000
+there are not many other places
+in the world where you will get
+
+172
+00:10:41,000 --> 00:10:45,000
+an education in everything going
+all the way from nature to how
+
+173
+00:10:45,000 --> 00:10:49,000
+to build very complicated analog
+and digital systems.
+
+174
+00:10:49,000 --> 00:10:53,000
+OK, we will show you layer upon
+layer upon layer upon layer,
+
+175
+00:10:53,000 --> 00:10:57,000
+peel away the onion until you
+are down to raw nature,
+
+176
+00:10:57,000 --> 00:11:00,000
+OK, through Maxwell's
+equations.
+
+177
+00:11:00,000 --> 00:11:02,000
+So, 6.002, 004,
+this is 033,
+
+178
+00:11:02,000 --> 00:11:07,000
+OK, 6.170, and so on.
+OK, the whole EECS is about
+
+179
+00:11:07,000 --> 00:11:11,000
+building abstraction layers,
+one on top of the other.
+
+180
+00:11:11,000 --> 00:11:14,000
+So that's one path.
+There's the analog path.
+
+181
+00:11:14,000 --> 00:11:18,000
+The analog path would take an
+amplifier, and build an
+
+182
+00:11:18,000 --> 00:11:21,000
+abstraction layer called the
+op-amp.
+
+183
+00:11:21,000 --> 00:11:25,000
+See how similar they all look?
+You know the amplifier,
+
+184
+00:11:25,000 --> 00:11:29,000
+the inverter of the digital
+world, and the operational
+
+185
+00:11:29,000 --> 00:11:34,000
+amplifier in the analog world,
+just different ways of looking
+
+186
+00:11:34,000 --> 00:11:39,000
+at the same devices.
+So, to build an analog system,
+
+187
+00:11:39,000 --> 00:11:43,000
+to build an operational
+amplifier, and then,
+
+188
+00:11:43,000 --> 00:11:48,000
+here we go end up building a
+whole bunch of different
+
+189
+00:11:48,000 --> 00:11:51,000
+interesting analog system
+components.
+
+190
+00:11:51,000 --> 00:11:56,000
+OK, and these components might
+look like oscillators.
+
+191
+00:11:56,000 --> 00:12:02,000
+They might look like filters.
+OK, they look like power
+
+192
+00:12:02,000 --> 00:12:08,000
+supplies, a whole bunch of very
+interesting abstract components,
+
+193
+00:12:08,000 --> 00:12:13,000
+which pulled together can then
+give you the next set of
+
+194
+00:12:13,000 --> 00:12:17,000
+systems.
+And these systems might be
+
+195
+00:12:17,000 --> 00:12:22,000
+toasters, or say for example
+other analog systems like the
+
+196
+00:12:22,000 --> 00:12:28,000
+various control systems for
+various power plants and so on
+
+197
+00:12:28,000 --> 00:12:31,000
+and so forth,
+and ultimately,
+
+198
+00:12:31,000 --> 00:12:36,000
+fun and dollars.
+OK, so 6.002 is about going
+
+199
+00:12:36,000 --> 00:12:39,000
+from physics all the way to this
+point.
+
+200
+00:12:39,000 --> 00:12:43,000
+We will build interesting
+analog systems,
+
+201
+00:12:43,000 --> 00:12:48,000
+and take you up to interesting
+digital system components,
+
+202
+00:12:48,000 --> 00:12:54,000
+from which 004 will take you
+all the way to building computer
+
+203
+00:12:54,000 --> 00:12:57,000
+architectures.
+So that, in a nutshell,
+
+204
+00:12:57,000 --> 00:13:03,000
+kind of gives you a feel for
+the space of EECS.
+
+205
+00:13:03,000 --> 00:13:08,000
+OK, this chart here is almost a
+vignette of what EECS at MIT is
+
+206
+00:13:08,000 --> 00:13:11,000
+all about.
+And this is the world according
+
+207
+00:13:11,000 --> 00:13:14,000
+to Agarwal, because he's
+teaching 002.
+
+208
+00:13:14,000 --> 00:13:18,000
+OK, so this is 6.002,
+and the rest of EECS is
+
+209
+00:13:18,000 --> 00:13:22,000
+somewhere out there.
+OK, so I'm going to do now is
+
+210
+00:13:22,000 --> 00:13:26,000
+throughout this course;
+I want you to think about which
+
+211
+00:13:26,000 --> 00:13:30,000
+part in this vignette we are in.
+So, right now,
+
+212
+00:13:30,000 --> 00:13:33,000
+I'm going to start here and
+take you here.
+
+213
+00:13:33,000 --> 00:13:37,000
+OK, and as you get closer and
+closer, things get simpler,
+
+214
+00:13:37,000 --> 00:13:39,000
+and simpler,
+and simpler.
+
+215
+00:13:39,000 --> 00:13:42,000
+Still, the final abstractions
+are pedal, brake,
+
+216
+00:13:42,000 --> 00:13:45,000
+steering wheel.
+I mean, that's the abstraction
+
+217
+00:13:45,000 --> 00:13:48,000
+to play a game,
+right, four or five very simple
+
+218
+00:13:48,000 --> 00:13:51,000
+interfaces, and that's all you
+need to know.
+
+219
+00:13:51,000 --> 00:13:54,000
+And everybody in the world can
+play stuff.
+
+220
+00:13:54,000 --> 00:13:56,000
+So remember,
+this stuff is complicated.
+
+221
+00:13:56,000 --> 00:14:00,000
+This stuff is very,
+very simple.
+
+222
+00:14:00,000 --> 00:14:03,000
+OK, and the more we build
+abstractions and come to this
+
+223
+00:14:03,000 --> 00:14:05,000
+side, things get simpler and
+simpler.
+
+224
+00:14:05,000 --> 00:14:09,000
+So, a large part of what I'll
+cover today is make the biggest
+
+225
+00:14:09,000 --> 00:14:11,000
+simplification.
+The biggest simplification we
+
+226
+00:14:11,000 --> 00:14:15,000
+will make his go from Maxwell's
+equation to some very,
+
+227
+00:14:15,000 --> 00:14:18,000
+very simple algebraic rules.
+OK, I did Maxwell's equations
+
+228
+00:14:18,000 --> 00:14:19,000
+myself.
+And I tell you,
+
+229
+00:14:19,000 --> 00:14:22,000
+they were very interesting
+stuff but complicated.
+
+230
+00:14:22,000 --> 00:14:25,000
+I can't imagine building
+efficient systems using
+
+231
+00:14:25,000 --> 00:14:30,000
+Maxwell's equations.
+So, let's take an example,
+
+232
+00:14:30,000 --> 00:14:34,000
+OK?
+So, let's say I have a battery.
+
+233
+00:14:34,000 --> 00:14:39,000
+Just switch to page three of
+your course notes.
+
+234
+00:14:39,000 --> 00:14:43,000
+And let's say I connect that to
+a bulb.
+
+235
+00:14:43,000 --> 00:14:49,000
+OK, and this is a wire.
+And, the battery supplies some
+
+236
+00:14:49,000 --> 00:14:53,000
+voltage, V, and I ask you a
+simple question.
+
+237
+00:14:53,000 --> 00:14:57,000
+What is the current through the
+bulb?
+
+238
+00:14:57,000 --> 00:15:05,000
+OK, so here is something that I
+can build using objects.
+
+239
+00:15:05,000 --> 00:15:07,000
+I can pick a round from stores
+and so on.
+
+240
+00:15:07,000 --> 00:15:11,000
+And I can collect them up in
+this way, and ask the question,
+
+241
+00:15:11,000 --> 00:15:12,000
+what is the current,
+I?
+
+242
+00:15:12,000 --> 00:15:16,000
+Now, if all you've done is
+learn about Maxwell's equations,
+
+243
+00:15:16,000 --> 00:15:19,000
+you can roll up your sleeves
+and say, ah-ha!
+
+244
+00:15:19,000 --> 00:15:23,000
+The first step is to write down
+all of Maxwell's equations,
+
+245
+00:15:23,000 --> 00:15:26,000
+and you can say,
+del cross E is minus del and go
+
+246
+00:15:26,000 --> 00:15:28,000
+on, and on, and on,
+OK, and write out all of
+
+247
+00:15:28,000 --> 00:15:32,000
+Maxwell's equations and say,
+now how do I get from there to
+
+248
+00:15:32,000 --> 00:15:35,000
+here?
+OK, it's very good.
+
+249
+00:15:35,000 --> 00:15:37,000
+You can do it.
+OK, you can do it,
+
+250
+00:15:37,000 --> 00:15:39,000
+but it's very complicated.
+OK, so instead,
+
+251
+00:15:39,000 --> 00:15:42,000
+what you're going to do is take
+the easy way.
+
+252
+00:15:42,000 --> 00:15:46,000
+So, what I want to remind you
+is that this course is actually
+
+253
+00:15:46,000 --> 00:15:47,000
+very easy.
+OK remember,
+
+254
+00:15:47,000 --> 00:15:51,000
+we're going to be building
+abstraction upon abstraction to
+
+255
+00:15:51,000 --> 00:15:54,000
+make your lives easier.
+If you think your lives are
+
+256
+00:15:54,000 --> 00:15:57,000
+getting more complicated,
+then you are not using
+
+257
+00:15:57,000 --> 00:16:02,000
+intuition enough.
+OK, just remember the big I
+
+258
+00:16:02,000 --> 00:16:04,000
+word.
+It's all about making things
+
+259
+00:16:04,000 --> 00:16:07,000
+simple.
+OK, so let me give you an
+
+260
+00:16:07,000 --> 00:16:10,000
+analogy.
+So, suppose you have an object.
+
+261
+00:16:10,000 --> 00:16:13,000
+OK, and I apply a force to the
+object.
+
+262
+00:16:13,000 --> 00:16:16,000
+It's an analogy,
+OK to get some insight into how
+
+263
+00:16:16,000 --> 00:16:19,000
+to do this.
+So, I say here's an object.
+
+264
+00:16:19,000 --> 00:16:22,000
+I apply a force,
+and I ask you the question.
+
+265
+00:16:22,000 --> 00:16:27,000
+What is the acceleration of the
+object when I apply a force,
+
+266
+00:16:27,000 --> 00:16:31,000
+F?
+So, how would you do it?
+
+267
+00:16:31,000 --> 00:16:33,000
+OK, and eighth,
+or ninth, or tenth grader can
+
+268
+00:16:33,000 --> 00:16:36,000
+do this.
+OK, they would ask me,
+
+269
+00:16:36,000 --> 00:16:39,000
+what's the mass of the object?
+OK, I ask you what is the
+
+270
+00:16:39,000 --> 00:16:42,000
+acceleration?
+You would turn around and ask
+
+271
+00:16:42,000 --> 00:16:44,000
+me, what is the mass of the
+object?
+
+272
+00:16:44,000 --> 00:16:47,000
+I tell you, the mass of the
+object is M.
+
+273
+00:16:47,000 --> 00:16:50,000
+And then you say,
+oh sure, A is F divided by M,
+
+274
+00:16:50,000 --> 00:16:52,000
+done.
+It's as simple as that.
+
+275
+00:16:52,000 --> 00:16:56,000
+OK, I could have gone into all
+kinds of differential equations
+
+276
+00:16:56,000 --> 00:17:02,000
+and so on to figure that out,
+but you asked me for the mass.
+
+277
+00:17:02,000 --> 00:17:05,000
+And you gave me the answer,
+A is F divided by M.
+
+278
+00:17:05,000 --> 00:17:08,000
+So, you ignored a bunch of
+things.
+
+279
+00:17:08,000 --> 00:17:10,000
+You ignored the shape of the
+object.
+
+280
+00:17:10,000 --> 00:17:14,000
+You ignored its color.
+You ignored its temperature.
+
+281
+00:17:14,000 --> 00:17:17,000
+OK, and you ignored the soft or
+hard or whatever.
+
+282
+00:17:17,000 --> 00:17:20,000
+OK, you ignored a whole bunch
+of things.
+
+283
+00:17:20,000 --> 00:17:25,000
+You were focused on one thing.
+OK, you're focused on its mass.
+
+284
+00:17:25,000 --> 00:17:29,000
+And, it turns out that the
+process really was developed
+
+285
+00:17:29,000 --> 00:17:34,000
+from a set of simplifications.
+That is called,
+
+286
+00:17:34,000 --> 00:17:40,000
+does anybody remember this?
+Point mass simplification.
+
+287
+00:17:40,000 --> 00:17:44,000
+OK, so, in physics,
+you've done this before.
+
+288
+00:17:44,000 --> 00:17:49,000
+OK, you've simplified your
+lives by viewing objects as
+
+289
+00:17:49,000 --> 00:17:55,000
+having a mass at a point,
+and force is acting at that
+
+290
+00:17:55,000 --> 00:17:58,000
+point.
+OK, M is that property of the
+
+291
+00:17:58,000 --> 00:18:02,000
+object that is of interest to
+you.
+
+292
+00:18:02,000 --> 00:18:06,000
+This process is called,
+in physics, point mass
+
+293
+00:18:06,000 --> 00:18:14,000
+discretization.
+OK, now using an analogy,
+
+294
+00:18:14,000 --> 00:18:24,000
+and I'm going to show you a
+similar simple process to do the
+
+295
+00:18:24,000 --> 00:18:31,000
+problem with the light bulb.
+OK, so take my light bulb
+
+296
+00:18:31,000 --> 00:18:32,000
+again,
+
+297
+00:18:42,000 --> 00:18:44,000
+And I focus on the filament of
+the light bulb.
+
+298
+00:18:44,000 --> 00:18:48,000
+OK, all I care about is the
+current flowing through the
+
+299
+00:18:48,000 --> 00:18:50,000
+light bulb.
+OK, I don't care about whether
+
+300
+00:18:50,000 --> 00:18:53,000
+the filament is twisted,
+whether it's hot.
+
+301
+00:18:53,000 --> 00:18:57,000
+I don't care about its shape.
+I don't care about its color.
+
+302
+00:18:57,000 --> 00:19:00,000
+All I care about is the
+current.
+
+303
+00:19:00,000 --> 00:19:03,000
+OK, so to do that,
+what we can do here at a very
+
+304
+00:19:03,000 --> 00:19:07,000
+high level is since we just need
+the current and don't care about
+
+305
+00:19:07,000 --> 00:19:12,000
+a bunch of other properties,
+we will simply replace the bulb
+
+306
+00:19:12,000 --> 00:19:15,000
+with a discrete object called a
+resistor.
+
+307
+00:19:15,000 --> 00:19:19,000
+So the discrete object is a
+resistor, much like the point
+
+308
+00:19:19,000 --> 00:19:23,000
+mass simplification that we did
+earlier that replaced the bulb
+
+309
+00:19:23,000 --> 00:19:27,000
+filament with a object called a
+resistor, a discrete object
+
+310
+00:19:27,000 --> 00:19:31,000
+called a resistor.
+Or a lump object called
+
+311
+00:19:31,000 --> 00:19:37,000
+resister, and put a value next
+to it just like the mass for the
+
+312
+00:19:37,000 --> 00:19:39,000
+object, a resistance value,
+R.
+
+313
+00:19:39,000 --> 00:19:44,000
+OK, now what I can do is in the
+same manner, replace the battery
+
+314
+00:19:44,000 --> 00:19:49,000
+with an object called a battery
+object, and connect that here,
+
+315
+00:19:49,000 --> 00:19:52,000
+the voltage,
+V, applied to it.
+
+316
+00:19:52,000 --> 00:19:56,000
+V falls across the resistor,
+and I get my I simply from
+
+317
+00:19:56,000 --> 00:20:01,000
+Ohm's law as we divide by R.
+So, notice here,
+
+318
+00:20:01,000 --> 00:20:04,000
+to replace this complicated
+bulb, this really twisty,
+
+319
+00:20:04,000 --> 00:20:07,000
+weird old thing with this
+discreet thing called a
+
+320
+00:20:07,000 --> 00:20:11,000
+resistor, and its only property
+of interest was its resistance
+
+321
+00:20:11,000 --> 00:20:14,000
+value, R, direct analogy to what
+we did there.
+
+322
+00:20:14,000 --> 00:20:18,000
+So, since R represents the only
+property of interest,
+
+323
+00:20:18,000 --> 00:20:21,000
+we can simply ignore all the
+other things.
+
+324
+00:20:21,000 --> 00:20:24,000
+So, notice here,
+we've done things the simple
+
+325
+00:20:24,000 --> 00:20:25,000
+way.
+And remember,
+
+326
+00:20:25,000 --> 00:20:28,000
+in EE, in the electrical
+engineering, we do things the
+
+327
+00:20:28,000 --> 00:20:33,000
+simple way.
+OK, we could go the hard route
+
+328
+00:20:33,000 --> 00:20:37,000
+and do Maxwell's equations,
+and get PhD's in physics,
+
+329
+00:20:37,000 --> 00:20:38,000
+and so on.
+But out here,
+
+330
+00:20:38,000 --> 00:20:42,000
+we are looking to do useful,
+interesting systems in the
+
+331
+00:20:42,000 --> 00:20:46,000
+simplest way that we can.
+OK, we do things a simple way.
+
+332
+00:20:46,000 --> 00:20:51,000
+All right, so we just did this,
+and boom, I found out what the
+
+333
+00:20:51,000 --> 00:20:54,000
+current was.
+Now, I cheated a little bit.
+
+334
+00:20:54,000 --> 00:20:58,000
+I've cheated a little bit.
+R is a lumped abstraction for
+
+335
+00:20:58,000 --> 00:21:01,000
+the bulb.
+So, you look at this resistor
+
+336
+00:21:01,000 --> 00:21:04,000
+here.
+That is simply a placeholder.
+
+337
+00:21:04,000 --> 00:21:08,000
+It's a stand-in for this
+complicated thing called a bulb.
+
+338
+00:21:08,000 --> 00:21:11,000
+It's a discreet object.
+It's a lumped object,
+
+339
+00:21:11,000 --> 00:21:14,000
+and represents the bulb.
+Now, so most of 6.002 will take
+
+340
+00:21:14,000 --> 00:21:17,000
+off from here,
+OK, and that's it.
+
+341
+00:21:17,000 --> 00:21:20,000
+To very simple stuff,
+like V is equal to IR,
+
+342
+00:21:20,000 --> 00:21:23,000
+it's a simple high school
+algebra to take off in that
+
+343
+00:21:23,000 --> 00:21:25,000
+direction.
+But before we go there,
+
+344
+00:21:25,000 --> 00:21:30,000
+it's important to understand,
+why was it that we were able to
+
+345
+00:21:30,000 --> 00:21:34,000
+make the simplification?
+OK, we did something else.
+
+346
+00:21:34,000 --> 00:21:37,000
+Something's going on under the
+covers here.
+
+347
+00:21:37,000 --> 00:21:39,000
+On the one hand,
+I say let's use Maxwell's,
+
+348
+00:21:39,000 --> 00:21:42,000
+and then I jump out and say,
+hey, we can just use this
+
+349
+00:21:42,000 --> 00:21:45,000
+simple thing.
+I did something that allowed me
+
+350
+00:21:45,000 --> 00:21:48,000
+to go from here to here.
+And you need to understand why
+
+351
+00:21:48,000 --> 00:21:51,000
+I did that and how I did that.
+Understand it once,
+
+352
+00:21:51,000 --> 00:21:54,000
+and then you won't have to need
+that information again.
+
+353
+00:21:54,000 --> 00:21:58,000
+You just need to understand it.
+So, let's take a closer look at
+
+354
+00:21:58,000 --> 00:22:02,000
+the bulb filament,
+and look at what we really did.
+
+355
+00:22:02,000 --> 00:22:08,000
+So, here's my filament,
+A, and let's say that the
+
+356
+00:22:08,000 --> 00:22:12,000
+surface area here,
+I label that SA,
+
+357
+00:22:12,000 --> 00:22:17,000
+and the one down here SB,
+my voltage, V,
+
+358
+00:22:17,000 --> 00:22:23,000
+applied there,
+and this is what I call my
+
+359
+00:22:23,000 --> 00:22:28,000
+black box that I've replaced
+with a resistor.
+
+360
+00:22:28,000 --> 00:22:33,000
+Notice that,
+in order for this to work,
+
+361
+00:22:33,000 --> 00:22:40,000
+V and I need to be defined.
+So I needs to be defined,
+
+362
+00:22:40,000 --> 00:22:45,000
+and V needs to be defined.
+OK, if I give you a random
+
+363
+00:22:45,000 --> 00:22:49,000
+object, and I don't tell you
+anything else about the object,
+
+364
+00:22:49,000 --> 00:22:54,000
+it's not clear I can do that.
+OK, if it's a much more general
+
+365
+00:22:54,000 --> 00:22:58,000
+situation, I have to write down
+Maxwell's equations,
+
+366
+00:22:58,000 --> 00:23:01,000
+and this is what I would write
+down.
+
+367
+00:23:01,000 --> 00:23:05,000
+Write down J dot dS as a
+function of the coordinate here
+
+368
+00:23:05,000 --> 00:23:10,000
+integrated over the area minus,
+OK, I would have to start from
+
+369
+00:23:10,000 --> 00:23:15,000
+there from one of Maxwell's
+equations.
+
+370
+00:23:15,000 --> 00:23:19,000
+All right, notice that this
+becomes IA, and this becomes IB
+
+371
+00:23:19,000 --> 00:23:23,000
+in our simplification.
+But, if I don't tell you
+
+372
+00:23:23,000 --> 00:23:26,000
+anything else,
+you have to start from here.
+
+373
+00:23:26,000 --> 00:23:31,000
+You will have some varying
+current here by point.
+
+374
+00:23:31,000 --> 00:23:34,000
+You might have some other
+current coming out here because
+
+375
+00:23:34,000 --> 00:23:38,000
+I may have some charge buildup
+happening inside.
+
+376
+00:23:38,000 --> 00:23:41,000
+If charge is building up inside
+the filament;
+
+377
+00:23:41,000 --> 00:23:44,000
+then I would have to put del q
+by del t out here,
+
+378
+00:23:44,000 --> 00:23:48,000
+right, the current in minus the
+current out must equal charge
+
+379
+00:23:48,000 --> 00:23:51,000
+buildup.
+Whoa, where is this and where
+
+380
+00:23:51,000 --> 00:23:53,000
+is that?
+So this is reality.
+
+381
+00:23:53,000 --> 00:23:55,000
+This is really,
+really what I have to do.
+
+382
+00:23:55,000 --> 00:24:00,000
+But how did I get there?
+How did I get there?
+
+383
+00:24:00,000 --> 00:24:02,000
+The key answer is,
+as engineers,
+
+384
+00:24:02,000 --> 00:24:05,000
+when in doubt we simplify.
+Remember, we are engineers.
+
+385
+00:24:05,000 --> 00:24:09,000
+Our goal in life is to build
+interesting systems.
+
+386
+00:24:09,000 --> 00:24:11,000
+OK and some are motivated by
+money.
+
+387
+00:24:11,000 --> 00:24:15,000
+OK, so our goal is to build
+interesting systems and do good
+
+388
+00:24:15,000 --> 00:24:18,000
+to humanity.
+So, as long as we can build a
+
+389
+00:24:18,000 --> 00:24:20,000
+good light bulb,
+we are happy.
+
+390
+00:24:20,000 --> 00:24:23,000
+So what we can do is we can
+say, look, all I care about is
+
+391
+00:24:23,000 --> 00:24:26,000
+building interesting systems.
+So I can say,
+
+392
+00:24:26,000 --> 00:24:32,000
+hey, this stuff is too hard.
+Let's make the assumption that
+
+393
+00:24:32,000 --> 00:24:36,000
+all the systems that we will
+consider will have this thing be
+
+394
+00:24:36,000 --> 00:24:37,000
+zero.
+OK, in other words,
+
+395
+00:24:37,000 --> 00:24:41,000
+if I take a complete object,
+if I take an element like a
+
+396
+00:24:41,000 --> 00:24:44,000
+resistor or a capacitor,
+the box around the entire
+
+397
+00:24:44,000 --> 00:24:48,000
+element, OK, and I want to just
+deal with those systems in which
+
+398
+00:24:48,000 --> 00:24:52,000
+this thing is zero.
+You can come and beat me up and
+
+399
+00:24:52,000 --> 00:24:53,000
+say, but why?
+Why not?
+
+400
+00:24:53,000 --> 00:24:57,000
+Why am I doing this?
+And I am saying the world is
+
+401
+00:24:57,000 --> 00:24:58,000
+arbitrary.
+I'm an engineer;
+
+402
+00:24:58,000 --> 00:25:04,000
+I want to build good systems.
+By making this simplification,
+
+403
+00:25:04,000 --> 00:25:07,000
+I eliminate this squiggle
+thing, and so on.
+
+404
+00:25:07,000 --> 00:25:11,000
+I don't want to deal with it.
+I want to make my life simple.
+
+405
+00:25:11,000 --> 00:25:14,000
+So this is gone to zero
+because, why?
+
+406
+00:25:14,000 --> 00:25:19,000
+Because I have said that in the
+future I will only deal with
+
+407
+00:25:19,000 --> 00:25:21,000
+those elements for which this is
+true.
+
+408
+00:25:21,000 --> 00:25:26,000
+I'm going to discipline myself.
+I'm going to discipline myself
+
+409
+00:25:26,000 --> 00:25:32,000
+to only deal with those systems.
+OK, Maxwell is turning around
+
+410
+00:25:32,000 --> 00:25:36,000
+and, you know,
+mad at me and all that stuff,
+
+411
+00:25:36,000 --> 00:25:39,000
+but tough.
+So this, what I've said about
+
+412
+00:25:39,000 --> 00:25:43,000
+making a simplification here,
+and this is one of the
+
+413
+00:25:43,000 --> 00:25:48,000
+simplifications I'm making.
+And I give a name to the
+
+414
+00:25:48,000 --> 00:25:51,000
+simplification.
+And that's called the lumped
+
+415
+00:25:51,000 --> 00:25:55,000
+matter discipline.
+OK, so I'm saying I will only
+
+416
+00:25:55,000 --> 00:26:00,000
+deal with elements for which if
+I put a black box around it,
+
+417
+00:26:00,000 --> 00:26:06,000
+this is going to be true.
+And if this is going to be
+
+418
+00:26:06,000 --> 00:26:10,000
+true, then notice,
+there is no charge buildup.
+
+419
+00:26:10,000 --> 00:26:13,000
+Current in must equal current
+out.
+
+420
+00:26:13,000 --> 00:26:15,000
+Ah-ha!
+So this becomes IA.
+
+421
+00:26:15,000 --> 00:26:16,000
+This becomes IB.
+Yes.
+
+422
+00:26:16,000 --> 00:26:20,000
+OK, I can now deal with IA's
+and IB's.
+
+423
+00:26:20,000 --> 00:26:24,000
+And IB and IA are equal because
+this is zero.
+
+424
+00:26:24,000 --> 00:26:29,000
+Notice that there is a whole
+bunch of depth here in the jump
+
+425
+00:26:29,000 --> 00:26:33,000
+from here to here.
+As MIT graduates,
+
+426
+00:26:33,000 --> 00:26:37,000
+you really, really need to
+understand why it is that we
+
+427
+00:26:37,000 --> 00:26:40,000
+made that jump,
+and then go and use that,
+
+428
+00:26:40,000 --> 00:26:43,000
+and do cool things.
+All right, this allows us to
+
+429
+00:26:43,000 --> 00:26:46,000
+define I.
+We have a unique I associated
+
+430
+00:26:46,000 --> 00:26:50,000
+with an element for the current
+through the element.
+
+431
+00:26:50,000 --> 00:26:55,000
+We still have to worry about B,
+and I won't go through that in
+
+432
+00:26:55,000 --> 00:26:57,000
+detail.
+The course notes have some
+
+433
+00:26:57,000 --> 00:27:02,000
+discussion of that and so does
+the textbook.
+
+434
+00:27:02,000 --> 00:27:07,000
+So V, AB is defined when del
+phi B, the rate of change of
+
+435
+00:27:07,000 --> 00:27:11,000
+magnetic flux is zero.
+So, if I take the element and I
+
+436
+00:27:11,000 --> 00:27:16,000
+take any region outside the
+element, this must be true.
+
+437
+00:27:16,000 --> 00:27:20,000
+And you say,
+why should that be true?
+
+438
+00:27:20,000 --> 00:27:23,000
+That's not true in general.
+Absolutely.
+
+439
+00:27:23,000 --> 00:27:28,000
+It's not true in general.
+But I, because I choose to,
+
+440
+00:27:28,000 --> 00:27:33,000
+I going to deal with only those
+elements.
+
+441
+00:27:33,000 --> 00:27:36,000
+I will discipline myself.
+But these are only those
+
+442
+00:27:36,000 --> 00:27:39,000
+elements for which this is true,
+and this is true.
+
+443
+00:27:39,000 --> 00:27:42,000
+I'm going to limit my world.
+I'm going to create a play
+
+444
+00:27:42,000 --> 00:27:44,000
+field for myself.
+You want to play;
+
+445
+00:27:44,000 --> 00:27:47,000
+follow my rules.
+OK, and that's called the
+
+446
+00:27:47,000 --> 00:27:50,000
+lumped matter discipline.
+So once you say that I'm going
+
+447
+00:27:50,000 --> 00:27:54,000
+to adhere to the lump matter
+discipline, and this is true
+
+448
+00:27:54,000 --> 00:27:56,000
+inside your elements.
+This is true outside the
+
+449
+00:27:56,000 --> 00:27:59,000
+elements.
+You can define VA and VB,
+
+450
+00:27:59,000 --> 00:28:03,000
+and good things happen to you.
+OK, let me show you a few
+
+451
+00:28:03,000 --> 00:28:06,000
+examples of lumped elements.
+But remember,
+
+452
+00:28:06,000 --> 00:28:10,000
+a large part of what we're
+doing is based on these two
+
+453
+00:28:10,000 --> 00:28:13,000
+assumptions.
+And to just go through the
+
+454
+00:28:13,000 --> 00:28:17,000
+background on that,
+I would encourage you to go to
+
+455
+00:28:17,000 --> 00:28:21,000
+chapter 1 of your course notes
+and read through just as how
+
+456
+00:28:21,000 --> 00:28:23,000
+this came about,
+that comes about.
+
+457
+00:28:23,000 --> 00:28:28,000
+So, by doing that by adhering
+to a lumped matter discipline,
+
+458
+00:28:28,000 --> 00:28:32,000
+we can now lump objects.
+We could lump a bulb into a
+
+459
+00:28:32,000 --> 00:28:34,000
+resistor.
+OK, so to be clear,
+
+460
+00:28:34,000 --> 00:28:36,000
+a certain number of lumped
+objects, and now,
+
+461
+00:28:36,000 --> 00:28:40,000
+the universe is going to be
+comprised into lumped objects.
+
+462
+00:28:40,000 --> 00:28:42,000
+OK, so before this,
+when he went home,
+
+463
+00:28:42,000 --> 00:28:44,000
+we talked about eggs,
+and omelets,
+
+464
+00:28:44,000 --> 00:28:46,000
+and light bulbs,
+and switches,
+
+465
+00:28:46,000 --> 00:28:49,000
+but once you come to MIT,
+and after you've taken 6.002,
+
+466
+00:28:49,000 --> 00:28:52,000
+you begin talking about lumped
+elements, you know,
+
+467
+00:28:52,000 --> 00:28:55,000
+resistors, voltage sources,
+capacitors, little inky-dinky
+
+468
+00:28:55,000 --> 00:29:00,000
+objects that follow the lumped
+matter discipline.
+
+469
+00:29:00,000 --> 00:29:04,000
+OK, they stick to very simple
+rules, and the math that you
+
+470
+00:29:04,000 --> 00:29:07,000
+have to do to analyze them is
+incredibly simple.
+
+471
+00:29:07,000 --> 00:29:11,000
+What could be simpler than V is
+equal to IR?
+
+472
+00:29:11,000 --> 00:29:15,000
+So, let me give you an example
+of interesting lumped elements,
+
+473
+00:29:15,000 --> 00:29:20,000
+and then show you a couple of
+really nasty lumped elements.
+
+474
+00:29:20,000 --> 00:29:21,000
+OK.
+
+475
+00:29:29,000 --> 00:29:33,000
+OK, so what you see out here,
+so we characterize lumped
+
+476
+00:29:33,000 --> 00:29:35,000
+elements by the VI
+characteristics.
+
+477
+00:29:35,000 --> 00:29:39,000
+OK, you apply voltage,
+measure the current.
+
+478
+00:29:39,000 --> 00:29:43,000
+OK, so what I can do is I can
+plot I here, and V here,
+
+479
+00:29:43,000 --> 00:29:48,000
+and see what it looks like.
+OK, I can characterize elements
+
+480
+00:29:48,000 --> 00:29:51,000
+by their VI relationship.
+And there are a bunch of
+
+481
+00:29:51,000 --> 00:29:56,000
+elements that I can create based
+on the VI relationship.
+
+482
+00:29:56,000 --> 00:30:00,000
+So let me show you a few
+examples.
+
+483
+00:30:00,000 --> 00:30:02,000
+So for the resistor,
+since V is directly
+
+484
+00:30:02,000 --> 00:30:05,000
+proportional to I,
+and R is a constant,
+
+485
+00:30:05,000 --> 00:30:08,000
+I get a straight line.
+That's the I axis,
+
+486
+00:30:08,000 --> 00:30:11,000
+the V axis, and this is the
+resistor.
+
+487
+00:30:11,000 --> 00:30:14,000
+What I actually have is a
+variable resistor,
+
+488
+00:30:14,000 --> 00:30:17,000
+so I'm going to change the
+resistance value,
+
+489
+00:30:17,000 --> 00:30:20,000
+R, and the curve will also
+change slope.
+
+490
+00:30:20,000 --> 00:30:24,000
+OK, I changed the value of R
+because it's a variable
+
+491
+00:30:24,000 --> 00:30:30,000
+resistor, and the changes slope
+because my R is different.
+
+492
+00:30:30,000 --> 00:30:34,000
+OK, next, let me go to a fixed
+resistor, and this guy here on
+
+493
+00:30:34,000 --> 00:30:37,000
+the screen to your left is a
+fixed resistor.
+
+494
+00:30:37,000 --> 00:30:41,000
+And you see that its IV
+characteristic is a line of a
+
+495
+00:30:41,000 --> 00:30:44,000
+given slope, 1 by R,
+and that's it.
+
+496
+00:30:44,000 --> 00:30:46,000
+I can't change it.
+Number three,
+
+497
+00:30:46,000 --> 00:30:51,000
+I have another lumped element
+called a Zener diode that you
+
+498
+00:30:51,000 --> 00:30:54,000
+will see in the fourth week of
+this class, and the
+
+499
+00:30:54,000 --> 00:30:58,000
+characteristics for the Zener
+diode look like this:
+
+500
+00:30:58,000 --> 00:31:01,000
+IV.
+If my voltage goes across the
+
+501
+00:31:01,000 --> 00:31:04,000
+Zener diode goes up slightly,
+the current shoots up.
+
+502
+00:31:04,000 --> 00:31:07,000
+But if the voltage becomes
+negative I don't have any
+
+503
+00:31:07,000 --> 00:31:11,000
+current flowing into it until
+the voltage passes on the
+
+504
+00:31:11,000 --> 00:31:14,000
+threshold, at which point my
+current begins to build up.
+
+505
+00:31:14,000 --> 00:31:17,000
+OK, so I can increase the
+voltage a little bit,
+
+506
+00:31:17,000 --> 00:31:20,000
+and it can show that the
+current starts building up
+
+507
+00:31:20,000 --> 00:31:22,000
+again.
+So that's another interesting
+
+508
+00:31:22,000 --> 00:31:24,000
+lumped element called a Zener
+diode.
+
+509
+00:31:24,000 --> 00:31:26,000
+Let's switch to the next one
+called a diode.
+
+510
+00:31:26,000 --> 00:31:30,000
+So a diode looks like this:
+IV.
+
+511
+00:31:30,000 --> 00:31:33,000
+As the voltage across the diode
+becomes positive,
+
+512
+00:31:33,000 --> 00:31:35,000
+around .6 volts,
+or thereabout,
+
+513
+00:31:35,000 --> 00:31:40,000
+the current begins to shoot up.
+But when the voltage is below
+
+514
+00:31:40,000 --> 00:31:44,000
+that threshold of .6,
+then my current is almost zero.
+
+515
+00:31:44,000 --> 00:31:47,000
+It's another lumped element
+called a diode.
+
+516
+00:31:47,000 --> 00:31:51,000
+And you will begin using these
+elements in your 002 lives to
+
+517
+00:31:51,000 --> 00:31:55,000
+build interesting systems.
+The next example is a
+
+518
+00:31:55,000 --> 00:31:57,000
+thermistor.
+A thermistor is a resistor
+
+519
+00:31:57,000 --> 00:32:02,000
+whose resistance varies with
+temperature.
+
+520
+00:32:02,000 --> 00:32:08,000
+OK, so this is a very expensive
+little hairdryer,
+
+521
+00:32:08,000 --> 00:32:14,000
+and what I'm going to do is
+blow some hot air at my
+
+522
+00:32:14,000 --> 00:32:22,000
+resistor, and you're going to
+see that its value is going to
+
+523
+00:32:22,000 --> 00:32:27,000
+change depending on how much I
+heat it.
+
+524
+00:32:27,000 --> 00:32:32,000
+So as it cools down,
+let me cool it down,
+
+525
+00:32:32,000 --> 00:32:38,000
+so you can see it's coming
+down.
+
+526
+00:32:38,000 --> 00:32:41,000
+I can zap it again.
+I could do this all day.
+
+527
+00:32:41,000 --> 00:32:45,000
+This is so much fun.
+OK, so that's another
+
+528
+00:32:45,000 --> 00:32:49,000
+interesting lumped element.
+As the temperature rises,
+
+529
+00:32:49,000 --> 00:32:53,000
+its resistance changes.
+The next thing is called a
+
+530
+00:32:53,000 --> 00:32:56,000
+photo resistor.
+It's a resistor.
+
+531
+00:32:56,000 --> 00:33:00,000
+It used to be a resistor;
+Lorenzo?
+
+532
+00:33:00,000 --> 00:33:03,000
+Oh OK, that's fine.
+So this is a photo resistor.
+
+533
+00:33:03,000 --> 00:33:08,000
+And notice that it almost
+behaves like an open circuit.
+
+534
+00:33:08,000 --> 00:33:12,000
+But what I'm going to do is
+shine some light on it.
+
+535
+00:33:12,000 --> 00:33:16,000
+When I shine light on it,
+it begins to conduct and
+
+536
+00:33:16,000 --> 00:33:18,000
+becomes a resistor of some
+value.
+
+537
+00:33:18,000 --> 00:33:22,000
+There you go.
+OK, so that's a photo resistor.
+
+538
+00:33:22,000 --> 00:33:25,000
+So now I'm going to show you a
+battery.
+
+539
+00:33:25,000 --> 00:33:30,000
+Notice we did talk about
+batteries before.
+
+540
+00:33:30,000 --> 00:33:33,000
+I'll show you a battery.
+So before you show a battery,
+
+541
+00:33:33,000 --> 00:33:36,000
+just thinking your own minds,
+what should the IV
+
+542
+00:33:36,000 --> 00:33:39,000
+characteristic of a battery look
+like?
+
+543
+00:33:39,000 --> 00:33:41,000
+IV.
+A battery supplies a constant
+
+544
+00:33:41,000 --> 00:33:44,000
+voltage.
+You know your little cell,
+
+545
+00:33:44,000 --> 00:33:45,000
+the AA battery,
+1.5 volts?
+
+546
+00:33:45,000 --> 00:33:49,000
+So, think of what the IV
+characteristic of a battery
+
+547
+00:33:49,000 --> 00:33:53,000
+should look like for three
+seconds before it shows you.
+
+548
+00:33:53,000 --> 00:33:55,000
+This is the one I showed,
+Lorenzo?.
+
+549
+00:33:55,000 --> 00:34:00,000
+It's a straight line.
+This is a good battery.
+
+550
+00:34:00,000 --> 00:34:01,000
+It's a straight,
+vertical line,
+
+551
+00:34:01,000 --> 00:34:05,000
+but says that the voltage is
+1.5 volts, or thereabouts.
+
+552
+00:34:05,000 --> 00:34:08,000
+No matter what current it
+supplies as an ideal voltage
+
+553
+00:34:08,000 --> 00:34:12,000
+source, it has a fixed voltage,
+V, and no matter what the
+
+554
+00:34:12,000 --> 00:34:15,000
+current going through is.
+Now, I'll show you a dud,
+
+555
+00:34:15,000 --> 00:34:18,000
+a bad battery,
+and this is what the bad
+
+556
+00:34:18,000 --> 00:34:21,000
+battery looks like.
+So, many of you have had your
+
+557
+00:34:21,000 --> 00:34:24,000
+car batteries die on you.
+When you go to the store,
+
+558
+00:34:24,000 --> 00:34:27,000
+they check your batteries.
+They use exactly this
+
+559
+00:34:27,000 --> 00:34:32,000
+principle, that dead batteries
+have resistance.
+
+560
+00:34:32,000 --> 00:34:34,000
+By the way, you see slopes
+here.
+
+561
+00:34:34,000 --> 00:34:38,000
+You're thinking of resistance.
+OK, they can use this property
+
+562
+00:34:38,000 --> 00:34:41,000
+to figure out that your battery
+is dead.
+
+563
+00:34:41,000 --> 00:34:44,000
+So that's a dead battery.
+And finally,
+
+564
+00:34:44,000 --> 00:34:47,000
+let me show you a bulb.
+We started with a bulb,
+
+565
+00:34:47,000 --> 00:34:51,000
+and so I need to end,
+OK, we started with a bulb,
+
+566
+00:34:51,000 --> 00:34:55,000
+so I need to end with a bulb.
+And what you will see is that a
+
+567
+00:34:55,000 --> 00:34:57,000
+bulb simply behaves like a
+resistor.
+
+568
+00:34:57,000 --> 00:35:02,000
+Its IV curve is going to look
+like this.
+
+569
+00:35:02,000 --> 00:35:04,000
+OK, notice this is my bulb.
+And guess what,
+
+570
+00:35:04,000 --> 00:35:08,000
+it behaves like a resistor.
+It's a very interesting kind of
+
+571
+00:35:08,000 --> 00:35:11,000
+resistor, so I won't go into
+details for now.
+
+572
+00:35:11,000 --> 00:35:14,000
+But notice its IV
+characteristic behaves like a
+
+573
+00:35:14,000 --> 00:35:17,000
+resistor.
+OK, so those are some pretty
+
+574
+00:35:17,000 --> 00:35:20,000
+standard lumped elements.
+You deal with a lot more sets
+
+575
+00:35:20,000 --> 00:35:23,000
+of lumped elements,
+switches, MOSFETs,
+
+576
+00:35:23,000 --> 00:35:26,000
+capacitors, inductors,
+a bunch of other fun stuff.
+
+577
+00:35:26,000 --> 00:35:29,000
+But before we do that,
+what I wanted to tell you,
+
+578
+00:35:29,000 --> 00:35:34,000
+don't go berserk on this
+abstraction binge.
+
+579
+00:35:34,000 --> 00:35:36,000
+Too much of anything is bad for
+you.
+
+580
+00:35:36,000 --> 00:35:39,000
+So what I'm going to show you
+is, abstractions or models are
+
+581
+00:35:39,000 --> 00:35:43,000
+only valid provided you work
+within a set of constraints.
+
+582
+00:35:43,000 --> 00:35:46,000
+Notice, we have already had
+this tacit handshake which said
+
+583
+00:35:46,000 --> 00:35:49,000
+that we follow the discipline.
+Even after we follow the
+
+584
+00:35:49,000 --> 00:35:53,000
+discipline, there are ranges to
+how well physical elements can
+
+585
+00:35:53,000 --> 00:35:55,000
+behave like ideal lumped
+elements.
+
+586
+00:35:55,000 --> 00:35:58,000
+OK, for example,
+what we will do is show you the
+
+587
+00:35:58,000 --> 00:36:02,000
+resistor.
+And it's going to look like a
+
+588
+00:36:02,000 --> 00:36:04,000
+resistor.
+And I'm going to keep
+
+589
+00:36:04,000 --> 00:36:07,000
+increasing the voltage around
+it.
+
+590
+00:36:07,000 --> 00:36:10,000
+OK, what's going to happen at
+some point?
+
+591
+00:36:10,000 --> 00:36:14,000
+I just keep doing that.
+If it's an ideal element,
+
+592
+00:36:14,000 --> 00:36:17,000
+if you're a theorist,
+you say, oh yeah,
+
+593
+00:36:17,000 --> 00:36:22,000
+the curve will keep extending
+until I reach infinity.
+
+594
+00:36:22,000 --> 00:36:26,000
+But this is a practical
+resistor, so people out here can
+
+595
+00:36:26,000 --> 00:36:31,000
+cover your eyes or something.
+OK, so you're abstraction can't
+
+596
+00:36:31,000 --> 00:36:36,000
+predict that.
+All it says is the current is
+
+597
+00:36:36,000 --> 00:36:38,000
+an amp.
+It can't predict the heat,
+
+598
+00:36:38,000 --> 00:36:41,000
+light, or the smell.
+In the laboratory,
+
+599
+00:36:41,000 --> 00:36:45,000
+even, you get the smell.
+You know what somebody has just
+
+600
+00:36:45,000 --> 00:36:47,000
+done.
+So that's one example of the
+
+601
+00:36:47,000 --> 00:36:50,000
+lumped abstraction breaking
+down.
+
+602
+00:36:50,000 --> 00:36:54,000
+So, if I really believe that my
+own BS, anything is a lumped
+
+603
+00:36:54,000 --> 00:36:56,000
+element.
+So here's a pickle.
+
+604
+00:36:56,000 --> 00:37:02,000
+A pickle is a lumped element.
+I can choose it as a lumped
+
+605
+00:37:02,000 --> 00:37:05,000
+resistor.
+But this is a very interesting
+
+606
+00:37:05,000 --> 00:37:09,000
+lumped resistor.
+Don't try this at home.
+
+607
+00:37:09,000 --> 00:37:14,000
+This is a standard pickle into
+which you are pumping 110 V AC.
+
+608
+00:37:14,000 --> 00:37:18,000
+I promise you,
+this is a standard pickle.
+
+609
+00:37:18,000 --> 00:37:23,000
+So, it has a fixed resistance,
+but your lumped abstraction
+
+610
+00:37:23,000 --> 00:37:27,000
+cannot predict the nice light
+and sound effect.
+
+611
+00:37:27,000 --> 00:37:32,000
+OK, so the last two or three
+minutes what I want to do,
+
+612
+00:37:32,000 --> 00:37:35,000
+so remember,
+don't get carried away by
+
+613
+00:37:35,000 --> 00:37:39,000
+abstractions.
+There are limits.
+
+614
+00:37:39,000 --> 00:37:42,000
+OK, you can't predict
+everything.
+
+615
+00:37:42,000 --> 00:37:45,000
+OK, that's the smell of a
+pickle.
+
+616
+00:37:45,000 --> 00:37:49,000
+OK, so let me give you a
+preview of some upcoming
+
+617
+00:37:49,000 --> 00:37:55,000
+attractions, and show you one
+more quick simplification in the
+
+618
+00:37:55,000 --> 00:37:58,000
+last few minutes.
+So what we can do,
+
+619
+00:37:58,000 --> 00:38:03,000
+once we build these lumped
+elements, we can connect them in
+
+620
+00:38:03,000 --> 00:38:07,000
+circuits.
+OK, so I can build a circuit,
+
+621
+00:38:07,000 --> 00:38:10,000
+of the sort.
+So here's a voltage source with
+
+622
+00:38:10,000 --> 00:38:14,000
+a bunch of resistors.
+I can connect them with wires
+
+623
+00:38:14,000 --> 00:38:18,000
+and build a circuit of the sort.
+One interesting question we can
+
+624
+00:38:18,000 --> 00:38:21,000
+ask ourselves is,
+under the lumped matter
+
+625
+00:38:21,000 --> 00:38:24,000
+discipline, what can we say
+about the voltages?
+
+626
+00:38:24,000 --> 00:38:28,000
+OK, if I go around the loop,
+provided my world adheres to
+
+627
+00:38:28,000 --> 00:38:32,000
+the lumped matter discipline,
+what can I say about the
+
+628
+00:38:32,000 --> 00:38:36,000
+voltages around this loop?
+Ah-ha, Maxwell again,
+
+629
+00:38:36,000 --> 00:38:39,000
+right?
+So, I can write Maxwell's
+
+630
+00:38:39,000 --> 00:38:42,000
+appropriate equation to solve
+that.
+
+631
+00:38:42,000 --> 00:38:47,000
+OK, voltages have something to
+do with E and your integral of E
+
+632
+00:38:47,000 --> 00:38:50,000
+dot dl and all of that stuff,
+right?
+
+633
+00:38:50,000 --> 00:38:54,000
+So this is the appropriate
+Maxwell's equations to use.
+
+634
+00:38:54,000 --> 00:38:58,000
+And I want to find out what
+happens here.
+
+635
+00:38:58,000 --> 00:39:00,000
+Now remember,
+under LMD, I made the
+
+636
+00:39:00,000 --> 00:39:04,000
+assumption.
+OK, my world,
+
+637
+00:39:04,000 --> 00:39:09,000
+my playground,
+has del phi B by del t being
+
+638
+00:39:09,000 --> 00:39:13,000
+zero.
+The rate of change of flux is
+
+639
+00:39:13,000 --> 00:39:16,000
+zero.
+So, under these circumstances,
+
+640
+00:39:16,000 --> 00:39:21,000
+I can write this.
+I can break up this line
+
+641
+00:39:21,000 --> 00:39:28,000
+integral into three parts across
+the voltage source and across
+
+642
+00:39:28,000 --> 00:39:34,000
+the two resistors and write that
+down.
+
+643
+00:39:34,000 --> 00:39:38,000
+OK, and then when I can do,
+is now that the right-hand side
+
+644
+00:39:38,000 --> 00:39:42,000
+is zero, I can simply take this.
+And I know that E dot dl across
+
+645
+00:39:42,000 --> 00:39:45,000
+this element is simply VCA.
+This is VAB,
+
+646
+00:39:45,000 --> 00:39:49,000
+and this is VBC equals zero.
+OK, so when I make the
+
+647
+00:39:49,000 --> 00:39:53,000
+assumption that del phi B by del
+t is zero, and I go around this
+
+648
+00:39:53,000 --> 00:39:58,000
+loop, apply Maxwell's equations,
+what do I find?
+
+649
+00:39:58,000 --> 00:40:03,000
+I find that the sum of the
+voltages, VCA plus VAB plus VBC,
+
+650
+00:40:03,000 --> 00:40:06,000
+is zero.
+That's fantastic.
+
+651
+00:40:06,000 --> 00:40:11,000
+So now, I could say hasta la
+vista to this baby here.
+
+652
+00:40:11,000 --> 00:40:17,000
+And I can focus on this guy and
+say, Maxwell's equations,
+
+653
+00:40:17,000 --> 00:40:22,000
+this thing with squiggles and
+dels and all that stuff,
+
+654
+00:40:22,000 --> 00:40:28,000
+can be simplified to the sum of
+the voltages across a set of
+
+655
+00:40:28,000 --> 00:40:34,000
+elements in a loop in a circuit
+is zero.
+
+656
+00:40:34,000 --> 00:40:39,000
+OK, and this is called
+Kirchhoff's first first law,
+
+657
+00:40:39,000 --> 00:40:40,000
+KVL.
+OK, similarly,
+
+658
+00:40:40,000 --> 00:40:46,000
+in recitation section,
+you'll see the application of
+
+659
+00:40:46,000 --> 00:40:51,000
+Kirchhoff's current law,
+which comes from this be equal
+
+660
+00:40:51,000 --> 00:40:57,000
+to zero, and all the currents
+coming into a node being zero.
+
+661
+00:40:57,000 --> 00:41:02,000
+So, KVL and KCl directly come
+out of the lumped matter
+
+662
+00:41:02,000 --> 00:41:06,000
+discipline.
+And you can use those to solve
+
+663
+00:41:06,000 --> 00:41:09,000
+circuits like this.

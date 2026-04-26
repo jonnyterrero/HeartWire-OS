@@ -1,0 +1,3070 @@
+1
+00:00:11,000 --> 00:00:14,000
+All right.
+Let's get started.
+
+2
+00:00:14,000 --> 00:00:20,000
+I guess this watch is a couple
+minutes fast.
+
+3
+00:00:20,000 --> 00:00:27,000
+First a quick announcement.
+In case you have forgotten,
+
+4
+00:00:27,000 --> 00:00:34,000
+your lab notebooks are due
+tomorrow with the post-lab
+
+5
+00:00:34,000 --> 00:00:41,000
+exercises for the first lab.
+OK, so I am going to continue
+
+6
+00:00:41,000 --> 00:00:45,000
+with amplifiers today.
+And to just give you a sense of
+
+7
+00:00:45,000 --> 00:00:49,000
+where we headed,
+we have this five lecture
+
+8
+00:00:49,000 --> 00:00:53,000
+sequence covering different
+aspects of amplifiers with
+
+9
+00:00:53,000 --> 00:00:59,000
+dependent sources and showed how
+we could build an amplifier with
+
+10
+00:00:59,000 --> 00:01:04,000
+it on Tuesday.
+Today I am going to show you a
+
+11
+00:01:04,000 --> 00:01:08,000
+real device that implements a
+dependent source.
+
+12
+00:01:08,000 --> 00:01:14,000
+And then next Tuesday we will
+talk about analysis of an
+
+13
+00:01:14,000 --> 00:01:17,000
+amplifier.
+Wednesday is our quiz.
+
+14
+00:01:17,000 --> 00:01:23,000
+Thursday and the Tuesday after
+that we then talk about small
+
+15
+00:01:23,000 --> 00:01:30,000
+signal analysis and small signal
+use of the amplifier.
+
+16
+00:01:30,000 --> 00:01:39,000
+Today we will talk about the
+MOSFET amplifier.
+
+17
+00:01:46,000 --> 00:01:49,000
+So let's start with a quick
+review.
+
+18
+00:01:49,000 --> 00:01:54,000
+And in the last lecture,
+I showed you that I could build
+
+19
+00:01:54,000 --> 00:01:59,000
+a amplifier using a dependent
+source.
+
+20
+00:02:05,000 --> 00:02:09,000
+And a dependent source worked
+as follows.
+
+21
+00:02:09,000 --> 00:02:16,000
+Let's say I had a circuit and I
+connected a dependent source
+
+22
+00:02:16,000 --> 00:02:21,000
+into the circuit.
+Let's say in this example I
+
+23
+00:02:21,000 --> 00:02:28,000
+have a current source.
+So this is some circuit.
+
+24
+00:02:28,000 --> 00:02:33,000
+And the current i is a function
+of some parameter in the
+
+25
+00:02:33,000 --> 00:02:36,000
+circuit.
+That's why this is a dependent
+
+26
+00:02:36,000 --> 00:02:40,000
+source.
+This is a dependent current
+
+27
+00:02:40,000 --> 00:02:43,000
+source.
+So it could be that I have some
+
+28
+00:02:43,000 --> 00:02:46,000
+element inside.
+And I measure,
+
+29
+00:02:46,000 --> 00:02:51,000
+I sample the voltage across the
+element or between any two
+
+30
+00:02:51,000 --> 00:02:56,000
+points in the circuit.
+And, in this little example
+
+31
+00:02:56,000 --> 00:03:03,000
+here, this current could be
+dependent on that voltage.
+
+32
+00:03:03,000 --> 00:03:07,000
+So notice that although I
+showed you the two terminals of
+
+33
+00:03:07,000 --> 00:03:10,000
+the dependent source that
+carried a current,
+
+34
+00:03:10,000 --> 00:03:15,000
+there is another implicit port,
+another implicit terminal
+
+35
+00:03:15,000 --> 00:03:17,000
+there.
+And that terminal there is
+
+36
+00:03:17,000 --> 00:03:22,000
+called the "control port" of the
+dependent source at which I
+
+37
+00:03:22,000 --> 00:03:26,000
+apply a voltage or current that
+will control the value of the
+
+38
+00:03:26,000 --> 00:03:31,000
+current source.
+As a quick aside.
+
+39
+00:03:38,000 --> 00:03:42,000
+There is a small glitch with
+the tools in your tool chest.
+
+40
+00:03:42,000 --> 00:03:46,000
+We talked about the
+superposition technique where
+
+41
+00:03:46,000 --> 00:03:50,000
+you were taught to turn on one
+source at a time,
+
+42
+00:03:50,000 --> 00:03:56,000
+for a linear circuit one source
+at a time, and then sum up the
+
+43
+00:03:56,000 --> 00:04:01,000
+responses to all the sources
+acting one at a time.
+
+44
+00:04:01,000 --> 00:04:04,000
+Well, what do you do about
+dependent sources?
+
+45
+00:04:04,000 --> 00:04:09,000
+A dependent source is a source.
+And we have to modify the
+
+46
+00:04:09,000 --> 00:04:12,000
+superposition statement just a
+little bit.
+
+47
+00:04:12,000 --> 00:04:17,000
+And for details you can look at
+Section 3.5.1 of your course
+
+48
+00:04:17,000 --> 00:04:21,000
+notes on the details and some
+examples on how to do this.
+
+49
+00:04:21,000 --> 00:04:24,000
+So the approach is very simple,
+actually.
+
+50
+00:04:24,000 --> 00:04:27,000
+The approach is,
+for the purpose of
+
+51
+00:04:27,000 --> 00:04:30,000
+superposition,
+to not treat your dependent
+
+52
+00:04:30,000 --> 00:04:36,000
+source as sources that you turn
+on and turn off.
+
+53
+00:04:36,000 --> 00:04:39,000
+So what you do is when you do
+superposition with dependent
+
+54
+00:04:39,000 --> 00:04:43,000
+sources simply leave all your
+dependent sources in the
+
+55
+00:04:43,000 --> 00:04:46,000
+circuit.
+Just leave them in there and
+
+56
+00:04:46,000 --> 00:04:49,000
+turn on and off only your
+independent sources.
+
+57
+00:04:49,000 --> 00:04:52,000
+So look at the response of the
+circuit by turning on your
+
+58
+00:04:52,000 --> 00:04:56,000
+independent sources one at a
+time and summing up the
+
+59
+00:04:56,000 --> 00:05:00,000
+responses.
+And your dependent sources stay
+
+60
+00:05:00,000 --> 00:05:05,000
+within the circuit and simply
+analyze them as you do anything
+
+61
+00:05:05,000 --> 00:05:07,000
+else.
+So essentially what it says is
+
+62
+00:05:07,000 --> 00:05:12,000
+that just be a little cautious
+when you have dependent sources,
+
+63
+00:05:12,000 --> 00:05:16,000
+but the basic method applies
+almost without any change.
+
+64
+00:05:16,000 --> 00:05:22,000
+The readings for today's
+lecture are Section 7.3 to 7.6.
+
+65
+00:05:27,000 --> 00:05:32,000
+So since we are going to build
+up on the dependent source
+
+66
+00:05:32,000 --> 00:05:39,000
+amplifier, let me start with a
+quick review of that amplifier.
+
+67
+00:05:39,000 --> 00:05:43,000
+We built our amplifier as
+follows.
+
+68
+00:05:54,000 --> 00:05:58,000
+We connected our dependent
+source in the following manner.
+
+69
+00:05:58,000 --> 00:06:02,000
+And the current through the
+dependent source in the example
+
+70
+00:06:02,000 --> 00:06:06,000
+we took was related to an input
+voltage vI.
+
+71
+00:06:12,000 --> 00:06:16,000
+So some voltage vI.
+And so these two were the
+
+72
+00:06:16,000 --> 00:06:21,000
+control port of the dependent
+source and a vI was applied
+
+73
+00:06:21,000 --> 00:06:24,000
+there.
+And I showed you a simple
+
+74
+00:06:24,000 --> 00:06:30,000
+amplifier built with a dependent
+source that behaved in this
+
+75
+00:06:30,000 --> 00:06:34,000
+manner.
+And again I will keep reminding
+
+76
+00:06:34,000 --> 00:06:38,000
+you, just remember that the
+dependent source is actually
+
+77
+00:06:38,000 --> 00:06:41,000
+this box here,
+the control port and the output
+
+78
+00:06:41,000 --> 00:06:43,000
+port.
+And commonly we don't
+
+79
+00:06:43,000 --> 00:06:48,000
+explicitly show the control port
+for those dependent sources for
+
+80
+00:06:48,000 --> 00:06:52,000
+which the control port does not
+have any other affect on the
+
+81
+00:06:52,000 --> 00:06:58,000
+circuit, like it doesn't draw
+any current or things like that.
+
+82
+00:06:58,000 --> 00:07:04,000
+So in this particular example
+we said that this behaved in the
+
+83
+00:07:04,000 --> 00:07:11,000
+following manner for vI greater
+than or equal to 1 volt and iD
+
+84
+00:07:11,000 --> 00:07:14,000
+was zero otherwise.
+
+85
+00:07:19,000 --> 00:07:26,000
+So we can analyze the circuit
+to figure out what vO is going
+
+86
+00:07:26,000 --> 00:07:31,000
+to look like.
+And a simple application of KVL
+
+87
+00:07:31,000 --> 00:07:33,000
+at this loop here,
+again, you know,
+
+88
+00:07:33,000 --> 00:07:37,000
+when I say this loop here,
+I am pointing at something
+
+89
+00:07:37,000 --> 00:07:40,000
+here.
+That is the VS source that is
+
+90
+00:07:40,000 --> 00:07:42,000
+implicitly across these two
+nodes.
+
+91
+00:07:42,000 --> 00:07:46,000
+Again, this is a shorthand
+notation where this little up
+
+92
+00:07:46,000 --> 00:07:51,000
+arrow here implies that I have a
+voltage source connected between
+
+93
+00:07:51,000 --> 00:07:55,000
+these two terminals here.
+And so there is a loop here
+
+94
+00:07:55,000 --> 00:08:00,000
+that involves VS.
+So Vo is simply VS minus the
+
+95
+00:08:00,000 --> 00:08:05,000
+drop across this resistor.
+So it's VS minus the drop
+
+96
+00:08:05,000 --> 00:08:08,000
+across this resistor gives me
+vO.
+
+97
+00:08:08,000 --> 00:08:13,000
+And the drop across the
+resistor is simply iD RL.
+
+98
+00:08:13,000 --> 00:08:17,000
+iD is the current here and
+that's the drop across the
+
+99
+00:08:17,000 --> 00:08:21,000
+resistor.
+And I could get the explicit
+
+100
+00:08:21,000 --> 00:08:27,000
+relationship of vO versus vI by
+substituting for iD as vI minus
+
+101
+00:08:27,000 --> 00:08:32,000
+one all squared.
+So vO relates to vI in the
+
+102
+00:08:32,000 --> 00:08:35,000
+following manner.
+Nothing new so far.
+
+103
+00:08:35,000 --> 00:08:41,000
+I have pretty much reviewed
+what we did the last time.
+
+104
+00:08:41,000 --> 00:08:46,000
+Here is where we take our next
+step forward with some new
+
+105
+00:08:46,000 --> 00:08:50,000
+material.
+Up to now I have talked as a
+
+106
+00:08:50,000 --> 00:08:55,000
+theoretician would where I said
+just imagine that you had
+
+107
+00:08:55,000 --> 00:09:00,000
+spherical cow or something like
+that.
+
+108
+00:09:00,000 --> 00:09:03,000
+Here I just asked you to
+imagine this ideal dependent
+
+109
+00:09:03,000 --> 00:09:07,000
+source, control port and an
+output port, and it behaved in
+
+110
+00:09:07,000 --> 00:09:10,000
+this manner.
+So as a next step what I would
+
+111
+00:09:10,000 --> 00:09:14,000
+like to do is show you a
+practical dependent source which
+
+112
+00:09:14,000 --> 00:09:17,000
+turns out to be a little bit
+more complicated than this
+
+113
+00:09:17,000 --> 00:09:22,000
+idealized dependent source that
+I showed you in many dimensions.
+
+114
+00:09:22,000 --> 00:09:25,000
+Real life tends to impose a
+bunch of practical constraints
+
+115
+00:09:25,000 --> 00:09:30,000
+on you, and we will look at
+those in a second.
+
+116
+00:09:30,000 --> 00:09:37,000
+If I could find a dependent
+source that looked like this --
+
+117
+00:09:52,000 --> 00:10:00,000
+We had a control port A prime
+and output port B prime.
+
+118
+00:10:00,000 --> 00:10:05,000
+And I looked at some examples
+where the current through the
+
+119
+00:10:05,000 --> 00:10:10,000
+dependent current source was
+some function of the input
+
+120
+00:10:10,000 --> 00:10:13,000
+voltage.
+This is a "voltage controlled
+
+121
+00:10:13,000 --> 00:10:17,000
+current source".
+What I am going to do is talk
+
+122
+00:10:17,000 --> 00:10:22,000
+about a device that can give me
+this behavior or some close
+
+123
+00:10:22,000 --> 00:10:27,000
+approximation to it.
+It turns out that under certain
+
+124
+00:10:27,000 --> 00:10:32,000
+conditions the MOSFET that you
+have already looked at behaves
+
+125
+00:10:32,000 --> 00:10:38,000
+in this manner.
+The MOSFET that you've seen
+
+126
+00:10:38,000 --> 00:10:44,000
+sort of behaves like this.
+And let me show you under what
+
+127
+00:10:44,000 --> 00:10:49,000
+conditions the MOSFET behaves in
+that manner.
+
+128
+00:10:49,000 --> 00:10:52,000
+Let me create some room for
+myself.
+
+129
+00:10:52,000 --> 00:11:00,000
+Notice that I need a control
+port, needed an output port.
+
+130
+00:11:00,000 --> 00:11:04,000
+And I am going to view my
+MOSFET in a slightly different
+
+131
+00:11:04,000 --> 00:11:07,000
+manner than you have seen
+before.
+
+132
+00:11:07,000 --> 00:11:09,000
+I draw these two terminals
+here.
+
+133
+00:11:09,000 --> 00:11:12,000
+And this was a three terminal
+MOSFET.
+
+134
+00:11:12,000 --> 00:11:16,000
+This was my drain,
+my gate and my source terminal.
+
+135
+00:11:16,000 --> 00:11:21,000
+It was a three terminal device,
+but what I do is I view the
+
+136
+00:11:21,000 --> 00:11:25,000
+MOSFET slightly differently.
+I will just use this terminal
+
+137
+00:11:25,000 --> 00:11:31,000
+to be common across both the
+gate and the drain.
+
+138
+00:11:31,000 --> 00:11:34,000
+And so this voltage here is
+vGS.
+
+139
+00:11:34,000 --> 00:11:39,000
+I am just using the source
+port, the source terminal along
+
+140
+00:11:39,000 --> 00:11:42,000
+with the gate as a terminal
+pair.
+
+141
+00:11:42,000 --> 00:11:48,000
+I am using the same source
+along with the drain as another
+
+142
+00:11:48,000 --> 00:11:52,000
+terminal pair.
+So I have a vDS out there and I
+
+143
+00:11:52,000 --> 00:11:58,000
+have some current iDS that flows
+out here.
+
+144
+00:11:58,000 --> 00:12:03,000
+Notice that when I view the
+MOSFET in this manner I have
+
+145
+00:12:03,000 --> 00:12:09,000
+accomplished my first step,
+which is I seem to have a box
+
+146
+00:12:09,000 --> 00:12:13,000
+which has a port here and a port
+here.
+
+147
+00:12:13,000 --> 00:12:18,000
+And I also explained to you
+that a MOSFET behaves in a
+
+148
+00:12:18,000 --> 00:12:22,000
+particular manner.
+For one, the output port
+
+149
+00:12:22,000 --> 00:12:30,000
+behaved as an open circuit under
+certain conditions when --
+
+150
+00:12:30,000 --> 00:12:33,000
+This was vGS,
+G, drain and source.
+
+151
+00:12:33,000 --> 00:12:39,000
+When vGS was less than a
+threshold voltage VT this MOSFET
+
+152
+00:12:39,000 --> 00:12:44,000
+had an equivalent circuit that
+looked like this.
+
+153
+00:12:44,000 --> 00:12:50,000
+So when vGS was less than some
+threshold voltage VT then there
+
+154
+00:12:50,000 --> 00:12:56,000
+was an open circuit between the
+drain and the source.
+
+155
+00:12:56,000 --> 00:13:02,000
+And you saw this before.
+So far nothing new here.
+
+156
+00:13:02,000 --> 00:13:08,000
+However, when vGS is greater
+than or equal to VT --
+
+157
+00:13:15,000 --> 00:13:19,000
+vGS was greater than VT.
+The MOSFET behavior we looked
+
+158
+00:13:19,000 --> 00:13:23,000
+at earlier showed that this
+behaved either like a short
+
+159
+00:13:23,000 --> 00:13:29,000
+circuit in the simplest form or
+in a slightly more detailed form
+
+160
+00:13:29,000 --> 00:13:34,000
+it behaved like a resistor.
+We call that the SR model of
+
+161
+00:13:34,000 --> 00:13:37,000
+the MOSFET.
+So when vGS was greater than VT
+
+162
+00:13:37,000 --> 00:13:42,000
+we said that a simple way to
+approximate MOSFET behavior was
+
+163
+00:13:42,000 --> 00:13:46,000
+to view this as a resistor
+connected between the drain and
+
+164
+00:13:46,000 --> 00:13:49,000
+the source.
+That was our SR model use of
+
+165
+00:13:49,000 --> 00:13:52,000
+the MOSFET.
+It turns out that we kind of
+
+166
+00:13:52,000 --> 00:13:55,000
+lied.
+We were sort of looking at the
+
+167
+00:13:55,000 --> 00:14:00,000
+MOSFET in a really funny way.
+And I shone the light on the
+
+168
+00:14:00,000 --> 00:14:03,000
+MOSFET in a really,
+really clever way.
+
+169
+00:14:03,000 --> 00:14:06,000
+Well, I shouldn't say clever.
+A really, really tricky way.
+
+170
+00:14:06,000 --> 00:14:10,000
+And tricked you into believing
+that it was just a resistor.
+
+171
+00:14:10,000 --> 00:14:13,000
+And we constrained how you use
+the MOSFET.
+
+172
+00:14:13,000 --> 00:14:16,000
+So that behavior was indeed a
+resistive behavior.
+
+173
+00:14:16,000 --> 00:14:20,000
+But it turns out that in real
+life the behavior of the MOSFET
+
+174
+00:14:20,000 --> 00:14:23,000
+between the drain and the source
+terminals is much more
+
+175
+00:14:23,000 --> 00:14:26,000
+complicated than the limited
+form in which you saw it.
+
+176
+00:14:26,000 --> 00:14:30,000
+So today what I am going to do
+is take the wraps off the
+
+177
+00:14:30,000 --> 00:14:34,000
+complete MOSFET and show you its
+full behavior in all its gory
+
+178
+00:14:34,000 --> 00:14:38,000
+glory.
+And I will spend a bit of time
+
+179
+00:14:38,000 --> 00:14:44,000
+on that to clearly emphasize
+under what conditions the MOSFET
+
+180
+00:14:44,000 --> 00:14:49,000
+behaves like a resistor,
+as you saw when you did digital
+
+181
+00:14:49,000 --> 00:14:54,000
+circuits, or behaves differently
+in other domains of use.
+
+182
+00:14:54,000 --> 00:15:00,000
+Let me pause for a second and
+leave this space blank here.
+
+183
+00:15:00,000 --> 00:15:02,000
+And let's do some
+investigations.
+
+184
+00:15:09,000 --> 00:15:13,000
+Let me leave this here.
+I won't draw in anything yet.
+
+185
+00:15:13,000 --> 00:15:17,000
+You will figure out what it
+looks like yourselves under
+
+186
+00:15:17,000 --> 00:15:21,000
+certain conditions.
+What I will do next is apply
+
+187
+00:15:21,000 --> 00:15:25,000
+some voltages on a MOSFET and
+observe the current versus vDS
+
+188
+00:15:25,000 --> 00:15:31,000
+behavior and plot that on a
+scope and take a look at it.
+
+189
+00:15:31,000 --> 00:15:33,000
+What I am going to do --
+
+190
+00:15:40,000 --> 00:15:45,000
+-- is figure out what iDS looks
+like for --
+
+191
+00:15:51,000 --> 00:15:57,000
+Remember iG into the gate for
+6.002 is always going to be
+
+192
+00:15:57,000 --> 00:16:00,000
+zero.
+In much more detailed analyses
+
+193
+00:16:00,000 --> 00:16:02,000
+of the MOSFET,
+in future courses you may see
+
+194
+00:16:02,000 --> 00:16:07,000
+slightly more complex behavior.
+But as far as we are concerned
+
+195
+00:16:07,000 --> 00:16:09,000
+it is an open circuit looking
+into the gate.
+
+196
+00:16:09,000 --> 00:16:13,000
+So I am going to apply a vGS
+across the MOSFET,
+
+197
+00:16:13,000 --> 00:16:16,000
+apply a vDS across the MOSFET
+and plot iDS versus vDS.
+
+198
+00:16:16,000 --> 00:16:19,000
+First let me show you what you
+already know.
+
+199
+00:16:19,000 --> 00:16:22,000
+What you already know --
+
+200
+00:16:30,000 --> 00:16:33,000
+This is vDS.
+I will just keep doing as much
+
+201
+00:16:33,000 --> 00:16:36,000
+as I can of what you already
+know.
+
+202
+00:16:36,000 --> 00:16:40,000
+And then when I do some new
+stuff I will tell you
+
+203
+00:16:40,000 --> 00:16:43,000
+explicitly.
+You've seen this before.
+
+204
+00:16:43,000 --> 00:16:49,000
+The MOSFET behaves like an open
+circuit when vGS less than VT.
+
+205
+00:16:49,000 --> 00:16:53,000
+That is when vG is less than a
+threshold voltage VT,
+
+206
+00:16:53,000 --> 00:16:59,000
+I have zero current flowing
+through the MOSFET.
+
+207
+00:16:59,000 --> 00:17:03,000
+And when vGS was greater than
+VT then the S model of the
+
+208
+00:17:03,000 --> 00:17:07,000
+MOSFET the switch model simply
+said that look,
+
+209
+00:17:07,000 --> 00:17:10,000
+we can model the D2S as a short
+circuit.
+
+210
+00:17:10,000 --> 00:17:14,000
+You saw this in your labs and
+you saw that it was a very,
+
+211
+00:17:14,000 --> 00:17:19,000
+very small resistance between
+the drain and the source and it
+
+212
+00:17:19,000 --> 00:17:22,000
+kind of looked like a short
+circuit.
+
+213
+00:17:22,000 --> 00:17:25,000
+But then we said well,
+that's not quite it.
+
+214
+00:17:25,000 --> 00:17:32,000
+There is some resistance.
+And so we said a slightly more
+
+215
+00:17:32,000 --> 00:17:38,000
+accurate model would have this
+line droop a little bit to imply
+
+216
+00:17:38,000 --> 00:17:44,000
+that there was some resistance
+R_on between the drain and the
+
+217
+00:17:44,000 --> 00:17:49,000
+source, so vDS iDS.
+So this was when vGS less than
+
+218
+00:17:49,000 --> 00:17:52,000
+VT and vGS greater than or equal
+to VT.
+
+219
+00:17:52,000 --> 00:17:58,000
+I have some resistance.
+And that showed me a straight
+
+220
+00:17:58,000 --> 00:18:05,000
+line kind of like behavior.
+And I showed you that behavior.
+
+221
+00:18:05,000 --> 00:18:13,000
+So far absolutely nothing new.
+Now what I have plotted there
+
+222
+00:18:13,000 --> 00:18:19,000
+for you is that behavior.
+Up here notice that this is the
+
+223
+00:18:19,000 --> 00:18:27,000
+vDS axis, this is the iDS axis.
+I am plotting iDS versus vDS.
+
+224
+00:18:27,000 --> 00:18:32,000
+And when vGS --
+The gate voltage is more than a
+
+225
+00:18:32,000 --> 00:18:36,000
+threshold, notice that I see
+what looks like something more
+
+226
+00:18:36,000 --> 00:18:40,000
+or less like a straight line.
+And this is a straight line
+
+227
+00:18:40,000 --> 00:18:43,000
+with some slope,
+more or less a straight line
+
+228
+00:18:43,000 --> 00:18:47,000
+implying resistive behavior.
+And we also had some fun and
+
+229
+00:18:47,000 --> 00:18:49,000
+games here.
+We said hey,
+
+230
+00:18:49,000 --> 00:18:51,000
+what if I turn vGS off?
+Boom.
+
+231
+00:18:51,000 --> 00:18:55,000
+That would be my iDS of zero
+implying that the MOSFET behaved
+
+232
+00:18:55,000 --> 00:19:01,000
+like an open circuit between the
+drain and the source.
+
+233
+00:19:01,000 --> 00:19:05,000
+I applied a positive vGS more
+than VT and it began to look
+
+234
+00:19:05,000 --> 00:19:08,000
+like a resistor.
+Open circuit,
+
+235
+00:19:08,000 --> 00:19:10,000
+resistor, open circuit,
+resistor, OK?
+
+236
+00:19:10,000 --> 00:19:15,000
+Up until now nothing new.
+So you shouldn't have learned
+
+237
+00:19:15,000 --> 00:19:19,000
+anything at all that is new
+until now in today's lecture.
+
+238
+00:19:19,000 --> 00:19:22,000
+Now watch.
+What I am going to do is,
+
+239
+00:19:22,000 --> 00:19:27,000
+as I said, I kind of lied all
+this time and I just showed you
+
+240
+00:19:27,000 --> 00:19:32,000
+this behavior.
+And what I have been doing all
+
+241
+00:19:32,000 --> 00:19:36,000
+along is very carefully using a
+very small value of vDS.
+
+242
+00:19:36,000 --> 00:19:39,000
+Notice it's a small values of
+vDS.
+
+243
+00:19:39,000 --> 00:19:43,000
+I haven't told you what it
+looks like as vDS increases.
+
+244
+00:19:43,000 --> 00:19:46,000
+Well, let's go try it out.
+We have a scope here.
+
+245
+00:19:46,000 --> 00:19:50,000
+We have the MOSFET here.
+Now, I am not sure what is
+
+246
+00:19:50,000 --> 00:19:54,000
+going to happen now.
+You may see smoke or have an
+
+247
+00:19:54,000 --> 00:20:00,000
+explosion, who knows what?
+But look up there for a second.
+
+248
+00:20:00,000 --> 00:20:08,000
+I am just going to increase vDS
+and you can figure out what
+
+249
+00:20:08,000 --> 00:20:14,000
+happens for yourselves.
+I increase vDS.
+
+250
+00:20:14,000 --> 00:20:20,000
+Whoa, what a liar.
+Agarwal is a liar.
+
+251
+00:20:20,000 --> 00:20:25,000
+I have been kind of tricking
+you.
+
+252
+00:20:25,000 --> 00:20:33,000
+I have been putting --
+Covering up all this part here
+
+253
+00:20:33,000 --> 00:20:39,000
+and showing you just this region
+of the curve for small values of
+
+254
+00:20:39,000 --> 00:20:43,000
+vDS.
+But as I increase vDS this is
+
+255
+00:20:43,000 --> 00:20:49,000
+nothing that looks even close to
+that of resistive behavior.
+
+256
+00:20:49,000 --> 00:20:54,000
+So what's happening here?
+What's happening is that as I
+
+257
+00:20:54,000 --> 00:21:01,000
+increase my vDS the iDS curve
+tails off and saturates at some
+
+258
+00:21:01,000 --> 00:21:06,000
+value of current.
+Notice it saturates at some
+
+259
+00:21:06,000 --> 00:21:10,000
+value of current.
+And so I am going to look at
+
+260
+00:21:10,000 --> 00:21:15,000
+this region of behavior.
+Notice that what we have looked
+
+261
+00:21:15,000 --> 00:21:19,000
+at so far was the behavior for
+small vDS.
+
+262
+00:21:19,000 --> 00:21:24,000
+It kind of looks resistive.
+But when I pump up the vDS,
+
+263
+00:21:24,000 --> 00:21:29,000
+really whack this node really
+hard with a much larger vDS the
+
+264
+00:21:29,000 --> 00:21:33,000
+guy says, oh,
+I give up.
+
+265
+00:21:33,000 --> 00:21:38,000
+And the current saturates out
+and flattens out and holds the
+
+266
+00:21:38,000 --> 00:21:43,000
+value steady at some value.
+So what's that behavior look
+
+267
+00:21:43,000 --> 00:21:46,000
+like?
+What is my horizontal line
+
+268
+00:21:46,000 --> 00:21:49,000
+above the X axis in terms of V I
+elements?
+
+269
+00:21:49,000 --> 00:21:53,000
+What is that behavior like?
+Current source,
+
+270
+00:21:53,000 --> 00:21:57,000
+exactly.
+So this is current source like
+
+271
+00:21:57,000 --> 00:22:02,000
+behavior.
+And so let me start by drawing
+
+272
+00:22:02,000 --> 00:22:08,000
+you a little model and
+explaining it in more detail.
+
+273
+00:22:08,000 --> 00:22:14,000
+What happens is that under
+certain conditions,
+
+274
+00:22:14,000 --> 00:22:19,000
+and the conditions are the
+following, when vDS,
+
+275
+00:22:19,000 --> 00:22:26,000
+that is my drain to source
+voltage is greater than or equal
+
+276
+00:22:26,000 --> 00:22:32,000
+to vGS minus VT.
+When my drain voltage goes
+
+277
+00:22:32,000 --> 00:22:36,000
+above vGS minus VT,
+so if vGS is 3 volts and if VT
+
+278
+00:22:36,000 --> 00:22:39,000
+is 1 volt, then if vDS goes
+above 2 volts,
+
+279
+00:22:39,000 --> 00:22:45,000
+if I am hammering the drain of
+the MOSFET with a higher voltage
+
+280
+00:22:45,000 --> 00:22:50,000
+then this guy says I give up,
+can't show you nice restive
+
+281
+00:22:50,000 --> 00:22:54,000
+behavior, and the current
+saturates out and it doesn't
+
+282
+00:22:54,000 --> 00:23:00,000
+allow you draw any more current
+than a maximum value.
+
+283
+00:23:00,000 --> 00:23:02,000
+And that's the current source
+behavior.
+
+284
+00:23:02,000 --> 00:23:04,000
+This one behaves like a current
+source.
+
+285
+00:23:04,000 --> 00:23:09,000
+And the current iDS is given by
+the following expression.
+
+286
+00:23:23,000 --> 00:23:29,000
+The current is given by iDS is
+equal to a constant K divide by
+
+287
+00:23:29,000 --> 00:23:35,000
+two times (vGS-VT) all squared.
+Kind of reminiscent of the
+
+288
+00:23:35,000 --> 00:23:38,000
+carefully chosen dependent
+source example,
+
+289
+00:23:38,000 --> 00:23:44,000
+just that this one here is VT.
+This model, which applies when
+
+290
+00:23:44,000 --> 00:23:48,000
+vGS is greater than VT,
+the MOSFET has to be on and the
+
+291
+00:23:48,000 --> 00:23:54,000
+drain to source voltage in the
+MOSFET must be larger than some
+
+292
+00:23:54,000 --> 00:23:59,000
+value, and that value is vGS
+minus VT then this guy begins to
+
+293
+00:23:59,000 --> 00:24:06,000
+behave like a current source.
+This model of the MOSFET is
+
+294
+00:24:06,000 --> 00:24:11,000
+called the "switch current
+source model".
+
+295
+00:24:17,000 --> 00:24:21,000
+So in the region of the MOSFET
+characteristics where vGS is
+
+296
+00:24:21,000 --> 00:24:25,000
+greater than VT and the drain to
+source voltage is larger than
+
+297
+00:24:25,000 --> 00:24:27,000
+vGS minus VT,
+the MOSFET behaved like a
+
+298
+00:24:27,000 --> 00:24:32,000
+current source between its drain
+and source terminals.
+
+299
+00:24:32,000 --> 00:24:35,000
+And in that part we model the
+MOSFET as a current source.
+
+300
+00:24:35,000 --> 00:24:40,000
+And so not surprisingly that
+part of the model is called the
+
+301
+00:24:40,000 --> 00:24:43,000
+SCS model in contrast with the
+SR model where we had a
+
+302
+00:24:43,000 --> 00:24:45,000
+resistor.
+Again, remember,
+
+303
+00:24:45,000 --> 00:24:48,000
+this is not meant to be
+conflicting.
+
+304
+00:24:48,000 --> 00:24:51,000
+It is not like gee,
+how can the MOSFET look like a
+
+305
+00:24:51,000 --> 00:24:55,000
+resistor, and then suddenly what
+happens it becomes a current
+
+306
+00:24:55,000 --> 00:24:58,000
+source.
+Well, the two regions are
+
+307
+00:24:58,000 --> 00:25:03,000
+different.
+It is not that it is behaving
+
+308
+00:25:03,000 --> 00:25:08,000
+as a current source for the same
+parameters, no.
+
+309
+00:25:08,000 --> 00:25:14,000
+When vDS is less than this
+right-hand side it does behave
+
+310
+00:25:14,000 --> 00:25:18,000
+resistive.
+The SR model applies.
+
+311
+00:25:18,000 --> 00:25:24,000
+But increase vDS beyond a
+point, the current saturates and
+
+312
+00:25:24,000 --> 00:25:30,000
+the SCS applies like so.
+So let's draw.
+
+313
+00:25:30,000 --> 00:25:36,000
+The SCS behavior can be drawn
+here vDS and iDS.
+
+314
+00:25:36,000 --> 00:25:43,000
+As I mentioned to you,
+for small values of vDS,
+
+315
+00:25:43,000 --> 00:25:50,000
+let's say I pick some value of
+vGS, let's say vGS3,
+
+316
+00:25:50,000 --> 00:25:56,000
+some value vGS,
+it is going to look like a
+
+317
+00:25:56,000 --> 00:26:05,000
+resistor until vDS becomes equal
+to vGS3 minus VT.
+
+318
+00:26:05,000 --> 00:26:12,000
+And after that it saturates out
+and begins to look like a
+
+319
+00:26:12,000 --> 00:26:17,000
+current source.
+And this point is where vDS
+
+320
+00:26:17,000 --> 00:26:25,000
+becomes equal to vGS minus VT.
+And this way is when this equal
+
+321
+00:26:25,000 --> 00:26:32,000
+sign becomes a greater than
+sign, vDS becomes larger then I
+
+322
+00:26:32,000 --> 00:26:38,000
+move into this part of the
+curve.
+
+323
+00:26:38,000 --> 00:26:44,000
+Similarly, for various other
+values of vGS it will look like
+
+324
+00:26:44,000 --> 00:26:46,000
+this --
+
+325
+00:26:52,000 --> 00:26:54,000
+-- and so on.
+And it behaved like an open
+
+326
+00:26:54,000 --> 00:26:57,000
+circuit as before when vGS less
+than VT.
+
+327
+00:26:57,000 --> 00:27:01,000
+When vGS less than VT it is
+still behaving like an open
+
+328
+00:27:01,000 --> 00:27:05,000
+circuit.
+And so as I increase my vGS,
+
+329
+00:27:05,000 --> 00:27:10,000
+provided I keep my vDS greater
+than vGS minus VT,
+
+330
+00:27:10,000 --> 00:27:13,000
+I get current source like
+behavior.
+
+331
+00:27:13,000 --> 00:27:17,000
+And notice that this is
+increasing vGS.
+
+332
+00:27:17,000 --> 00:27:22,000
+I have purposely drawn these
+curves at greater distances from
+
+333
+00:27:22,000 --> 00:27:28,000
+each other to imply that it is a
+nonlinear relationship in that
+
+334
+00:27:28,000 --> 00:27:33,000
+if I increase vGS by some
+amount, the increase in vDS is
+
+335
+00:27:33,000 --> 00:27:41,000
+related to the square of vGS.
+It is vGS minus VT all squared.
+
+336
+00:27:41,000 --> 00:27:46,000
+So I get a family of curves of
+that look like this.
+
+337
+00:27:46,000 --> 00:27:52,000
+And this is in the region of
+operation where vDS equals vGS
+
+338
+00:27:52,000 --> 00:27:56,000
+minus VT.
+And this applies in this regime
+
+339
+00:27:56,000 --> 00:28:01,000
+where vDS less than vGS minus
+VT.
+
+340
+00:28:01,000 --> 00:28:06,000
+This region of operation is
+called, as you might expect,
+
+341
+00:28:06,000 --> 00:28:09,000
+the "saturation region".
+
+342
+00:28:14,000 --> 00:28:19,000
+We say the MOSFET has been
+hammered, the MOSFET has been
+
+343
+00:28:19,000 --> 00:28:23,000
+walloped, the MOSFET is in
+saturation.
+
+344
+00:28:23,000 --> 00:28:27,000
+So the MOSFET is in saturation.
+This region,
+
+345
+00:28:27,000 --> 00:28:32,000
+corresponding to this,
+is called the triode region.
+
+346
+00:28:37,000 --> 00:28:40,000
+This is really very simple.
+All we are doing is saying that
+
+347
+00:28:40,000 --> 00:28:43,000
+when vDS is increased beyond a
+certain limit,
+
+348
+00:28:43,000 --> 00:28:47,000
+given my vGS minus VT,
+the MOSFET begins to behave
+
+349
+00:28:47,000 --> 00:28:50,000
+like a current source.
+It cannot draw any more
+
+350
+00:28:50,000 --> 00:28:52,000
+current.
+It limits the current to a
+
+351
+00:28:52,000 --> 00:28:54,000
+given value like a current
+source.
+
+352
+00:28:54,000 --> 00:28:58,000
+But on the left-hand side of
+this it behaves in a resistive
+
+353
+00:28:58,000 --> 00:29:01,000
+manner.
+So what I would like to do is
+
+354
+00:29:01,000 --> 00:29:02,000
+--
+
+355
+00:29:08,000 --> 00:29:11,000
+What I will do is,
+we've plotted for you,
+
+356
+00:29:11,000 --> 00:29:14,000
+for the MOSFET,
+all its characteristics in its
+
+357
+00:29:14,000 --> 00:29:20,000
+full glory for a whole bunch of
+values of vGS and a whole bunch
+
+358
+00:29:20,000 --> 00:29:23,000
+of values of vDS.
+And let me stare at those
+
+359
+00:29:23,000 --> 00:29:27,000
+curves with you for a few
+seconds and walk you through
+
+360
+00:29:27,000 --> 00:29:31,000
+them.
+So what do I have here?
+
+361
+00:29:31,000 --> 00:29:35,000
+One of these curves corresponds
+to a given value of vGS.
+
+362
+00:29:35,000 --> 00:29:39,000
+This may be vGS equals 2 volts.
+This is vDS,
+
+363
+00:29:39,000 --> 00:29:43,000
+the drain to source voltage,
+and this is the current.
+
+364
+00:29:43,000 --> 00:29:48,000
+So focus on this curve for now.
+In the beginning I hid the
+
+365
+00:29:48,000 --> 00:29:53,000
+right-hand side behavior from
+you and showed you just the
+
+366
+00:29:53,000 --> 00:29:58,000
+resistive behavior out here.
+When I increase vDS to be much
+
+367
+00:29:58,000 --> 00:30:02,000
+larger the curve saturated and I
+got the saturation region
+
+368
+00:30:02,000 --> 00:30:08,000
+operation of the MOSFET.
+And notice as I increase my
+
+369
+00:30:08,000 --> 00:30:13,000
+value of vGS the saturation
+current also increases according
+
+370
+00:30:13,000 --> 00:30:19,000
+to a square law behavior.
+So these are the entire curves
+
+371
+00:30:19,000 --> 00:30:22,000
+of the MOSFET.
+Finally the truth comes out.
+
+372
+00:30:22,000 --> 00:30:27,000
+And notice that when vDS is
+less than vGS minus VT,
+
+373
+00:30:27,000 --> 00:30:32,000
+I have more or less resistive
+behavior.
+
+374
+00:30:32,000 --> 00:30:38,000
+But when vDS is greater than
+vGS minus VT I get current
+
+375
+00:30:38,000 --> 00:30:43,000
+source like behavior.
+So one question you may ask is
+
+376
+00:30:43,000 --> 00:30:47,000
+when do I use one model or the
+other?
+
+377
+00:30:47,000 --> 00:30:54,000
+When do I use the SR model and
+when do I use the SCS model?
+
+378
+00:30:54,000 --> 00:31:00,000
+If you want to do a real
+detailed analysis then you can
+
+379
+00:31:00,000 --> 00:31:07,000
+use the SR model when vDS is
+less than vGS minus VT.
+
+380
+00:31:07,000 --> 00:31:12,000
+And you would use this model
+when vDS is greater than or
+
+381
+00:31:12,000 --> 00:31:16,000
+equal to vGS minus VT.
+That is simple enough.
+
+382
+00:31:16,000 --> 00:31:21,000
+In 6.002, to eliminate
+confusion we constrain how we
+
+383
+00:31:21,000 --> 00:31:26,000
+look at things a little bit more
+stringently.
+
+384
+00:31:26,000 --> 00:31:31,000
+And what we do is that for our
+entire digital analysis,
+
+385
+00:31:31,000 --> 00:31:38,000
+for the entire digital world we
+focus on the SR model.
+
+386
+00:31:38,000 --> 00:31:41,000
+And I will tell you why in a
+second.
+
+387
+00:31:41,000 --> 00:31:46,000
+So for all digital circuits,
+invertors, look at power of
+
+388
+00:31:46,000 --> 00:31:50,000
+invertors, look at delay,
+a bunch of other things,
+
+389
+00:31:50,000 --> 00:31:54,000
+we will be using the SR model
+in 6.002.
+
+390
+00:31:54,000 --> 00:31:57,000
+And I will tell you why in a
+second.
+
+391
+00:31:57,000 --> 00:32:02,000
+And for analog --
+That is for amplifier designs
+
+392
+00:32:02,000 --> 00:32:06,000
+and situations like that,
+we will be operating the MOSFET
+
+393
+00:32:06,000 --> 00:32:10,000
+in a saturation region.
+And I will talk about that in a
+
+394
+00:32:10,000 --> 00:32:13,000
+second.
+What I am saying here is that
+
+395
+00:32:13,000 --> 00:32:17,000
+in 6.002, when we do analog
+designs, we are going to
+
+396
+00:32:17,000 --> 00:32:21,000
+discipline ourselves to using
+the MOSFET only in this region.
+
+397
+00:32:21,000 --> 00:32:26,000
+We are going to constrain
+ourselves to play in only this
+
+398
+00:32:26,000 --> 00:32:31,000
+region of the playground where
+vDS is quite large.
+
+399
+00:32:31,000 --> 00:32:33,000
+Why?
+Because I am asking you to.
+
+400
+00:32:33,000 --> 00:32:37,000
+I am saying let's play in that
+part of the playground and keep
+
+401
+00:32:37,000 --> 00:32:40,000
+your vDS high.
+And so the MOSFET is going to
+
+402
+00:32:40,000 --> 00:32:45,000
+be operating somewhere in here.
+So we can apply just the SCS
+
+403
+00:32:45,000 --> 00:32:49,000
+model, just the current source
+behavior in that region.
+
+404
+00:32:49,000 --> 00:32:53,000
+There is another important
+reason, which I will get to in a
+
+405
+00:32:53,000 --> 00:32:56,000
+second.
+And for digital designs we will
+
+406
+00:32:56,000 --> 00:33:01,000
+simply use the SR model.
+And it turns out that this is
+
+407
+00:33:01,000 --> 00:33:06,000
+realistic because in the digital
+designs that you have you seen
+
+408
+00:33:06,000 --> 00:33:10,000
+and will be seeing in this
+course, the pull down MOSFET is
+
+409
+00:33:10,000 --> 00:33:13,000
+on, or when these pull down
+MOSFETs are on,
+
+410
+00:33:13,000 --> 00:33:17,000
+the output voltage is pulled
+down close to ground.
+
+411
+00:33:17,000 --> 00:33:19,000
+So vDS is very,
+very small.
+
+412
+00:33:19,000 --> 00:33:22,000
+So it does make sense that this
+model apply.
+
+413
+00:33:22,000 --> 00:33:27,000
+And when we talk about
+amplifiers, I am asking you to
+
+414
+00:33:27,000 --> 00:33:31,000
+follow this discipline.
+I will tell you why in a
+
+415
+00:33:31,000 --> 00:33:33,000
+second.
+I am saying analog designs
+
+416
+00:33:33,000 --> 00:33:37,000
+follow this discipline that I
+call the saturation discipline.
+
+417
+00:33:37,000 --> 00:33:41,000
+It says simply operate the
+MOSFET operating in saturation
+
+418
+00:33:41,000 --> 00:33:44,000
+as a current source.
+We will look at an amplifier in
+
+419
+00:33:44,000 --> 00:33:47,000
+a second, and I will tell you
+why.
+
+420
+00:33:54,000 --> 00:34:01,000
+Now let's do a MOSFET
+amplifier.
+
+421
+00:34:01,000 --> 00:34:06,000
+Remember my amplifier had an
+input port and an output port.
+
+422
+00:34:06,000 --> 00:34:12,000
+And in general in our use we
+are going to have a common
+
+423
+00:34:12,000 --> 00:34:15,000
+ground.
+And we have a VS and a ground
+
+424
+00:34:15,000 --> 00:34:19,000
+here as well.
+That is the power port of the
+
+425
+00:34:19,000 --> 00:34:23,000
+amplifier.
+The input port and the output
+
+426
+00:34:23,000 --> 00:34:25,000
+port.
+
+427
+00:34:30,000 --> 00:34:39,000
+And let me redraw the circuit
+putting a MOSFET in place of the
+
+428
+00:34:39,000 --> 00:34:44,000
+current source,
+RL, VS, vO, drain,
+
+429
+00:34:44,000 --> 00:34:47,000
+gate, source,
+vI.
+
+430
+00:34:47,000 --> 00:34:54,000
+So my input is vI.
+Again, the MOSFET output is vO.
+
+431
+00:34:54,000 --> 00:35:02,000
+And I have a resistor RL.
+Hey, we've seen that before.
+
+432
+00:35:02,000 --> 00:35:05,000
+It turns out this is not
+surprising.
+
+433
+00:35:05,000 --> 00:35:09,000
+You've seen this before.
+This was our primitive inverter
+
+434
+00:35:09,000 --> 00:35:12,000
+circuit.
+So what's different here?
+
+435
+00:35:12,000 --> 00:35:15,000
+We showed you the circuit as an
+inverter.
+
+436
+00:35:15,000 --> 00:35:20,000
+What's different here is that
+when we look at MOSFET behavior
+
+437
+00:35:20,000 --> 00:35:24,000
+as a current source,
+this behaves like an amplifier.
+
+438
+00:35:24,000 --> 00:35:28,000
+In other words,
+when vDS is greater than some
+
+439
+00:35:28,000 --> 00:35:33,000
+value then this behaves like a
+current source.
+
+440
+00:35:33,000 --> 00:35:35,000
+When vDS is small,
+in other words,
+
+441
+00:35:35,000 --> 00:35:38,000
+in the digital design when vDS
+was small here,
+
+442
+00:35:38,000 --> 00:35:43,000
+because when the MOSFET was on
+it pulled the voltage down to
+
+443
+00:35:43,000 --> 00:35:46,000
+ground, we could view this
+behavior as a resistor.
+
+444
+00:35:46,000 --> 00:35:50,000
+And exactly the same thing,
+it is an amplifier.
+
+445
+00:35:50,000 --> 00:35:54,000
+And with digital designs,
+I was driving it with 5 volts
+
+446
+00:35:54,000 --> 00:35:58,000
+and 0 volts and that was it,
+rail to rail.
+
+447
+00:35:58,000 --> 00:36:01,000
+As an amplifier,
+what I am doing now is looking
+
+448
+00:36:01,000 --> 00:36:05,000
+at a small region of its
+behavior when vDS is greater
+
+449
+00:36:05,000 --> 00:36:08,000
+than vGS minus VT.
+What I am saying is that for
+
+450
+00:36:08,000 --> 00:36:12,000
+amplification let's follow the
+saturation discipline.
+
+451
+00:36:12,000 --> 00:36:16,000
+And the reason is that when
+this behaves like a current
+
+452
+00:36:16,000 --> 00:36:20,000
+source, what I have shown you is
+that if this behaves like a
+
+453
+00:36:20,000 --> 00:36:25,000
+current source I have shown you
+that this expression up here
+
+454
+00:36:25,000 --> 00:36:30,000
+gives you amplification.
+In last lecture we plotted a
+
+455
+00:36:30,000 --> 00:36:34,000
+bunch of values for vO versus
+vI, and we saw that we were
+
+456
+00:36:34,000 --> 00:36:37,000
+getting amplification.
+For a small change in vI,
+
+457
+00:36:37,000 --> 00:36:41,000
+I was getting a larger change
+in vO, and that was when I had
+
+458
+00:36:41,000 --> 00:36:44,000
+the equation for a current
+source in there.
+
+459
+00:36:44,000 --> 00:36:49,000
+And so we know for a fact that
+if I can operate this as a
+
+460
+00:36:49,000 --> 00:36:52,000
+current source,
+with a reasonable choice of
+
+461
+00:36:52,000 --> 00:36:56,000
+values here, I am going to be
+able to get amplification.
+
+462
+00:36:56,000 --> 00:37:00,000
+What I haven't told you is if
+this is operated in the linear
+
+463
+00:37:00,000 --> 00:37:05,000
+region, in fact,
+you do not get amplification.
+
+464
+00:37:05,000 --> 00:37:09,000
+I won't cover that,
+but you can check that out in
+
+465
+00:37:09,000 --> 00:37:13,000
+your course notes as a
+discussion or you can try it out
+
+466
+00:37:13,000 --> 00:37:17,000
+for yourself.
+Replace this with the SR model
+
+467
+00:37:17,000 --> 00:37:22,000
+for small vDS and you can show
+yourselves that you don't get
+
+468
+00:37:22,000 --> 00:37:25,000
+any amplification.
+In order to get the
+
+469
+00:37:25,000 --> 00:37:30,000
+amplification we are telling
+ourselves let's focus on this
+
+470
+00:37:30,000 --> 00:37:36,000
+part of the playground where vDS
+is greater than or equal to vGS
+
+471
+00:37:36,000 --> 00:37:40,000
+minus VT.
+And for vGS greater than or
+
+472
+00:37:40,000 --> 00:37:44,000
+equal to VT.
+So when vGS is greater than VT
+
+473
+00:37:44,000 --> 00:37:48,000
+the MOSFET is on.
+Further, when vDS is large,
+
+474
+00:37:48,000 --> 00:37:53,000
+larger than vGS minus VT this
+behaves like a current source.
+
+475
+00:37:53,000 --> 00:37:58,000
+So we have now created a small
+playground for ourselves where
+
+476
+00:37:58,000 --> 00:38:05,000
+we can build lots of fun little
+amplifiers and other circuits.
+
+477
+00:38:05,000 --> 00:38:09,000
+And provided our circuits
+follow the saturation discipline
+
+478
+00:38:09,000 --> 00:38:13,000
+where for the MOSFET or MOSFETs
+in the circuit these expressions
+
+479
+00:38:13,000 --> 00:38:17,000
+are true then the MOSFETs are
+going to be in saturation,
+
+480
+00:38:17,000 --> 00:38:21,000
+the current source model
+applies, and I will be indeed
+
+481
+00:38:21,000 --> 00:38:25,000
+getting saturation.
+In future courses you may
+
+482
+00:38:25,000 --> 00:38:29,000
+actually see the MOSFET used in
+other regimes of operation for a
+
+483
+00:38:29,000 --> 00:38:34,000
+variety of reasons.
+But in 6.002 when we talk about
+
+484
+00:38:34,000 --> 00:38:38,000
+amplifiers and so on we will be
+adopting the saturation
+
+485
+00:38:38,000 --> 00:38:41,000
+discipline.
+And your homework problems and
+
+486
+00:38:41,000 --> 00:38:45,000
+so on will state that.
+Assume that the MOSFETs are in
+
+487
+00:38:45,000 --> 00:38:48,000
+saturation.
+What that means is that you can
+
+488
+00:38:48,000 --> 00:38:52,000
+begin to model them as a current
+source and simply analyze their
+
+489
+00:38:52,000 --> 00:38:55,000
+behavior accordingly.
+One minor nit.
+
+490
+00:38:55,000 --> 00:39:00,000
+Note that vDS for the MOSFET is
+the same as vO.
+
+491
+00:39:00,000 --> 00:39:04,000
+And vGS for the MOSFET is the
+same as vI.
+
+492
+00:39:04,000 --> 00:39:10,000
+So if you see me jumping back
+and forth using vOs and vIs or
+
+493
+00:39:10,000 --> 00:39:15,000
+vDSs and vGSs they are the same
+thing in this circuit.
+
+494
+00:39:15,000 --> 00:39:21,000
+If you are dealing with
+circuits with many MOSFETs then
+
+495
+00:39:21,000 --> 00:39:28,000
+you will have vDS1s and vGS1s
+and so on and so forth.
+
+496
+00:39:28,000 --> 00:39:34,000
+But for this simple circuit,
+vO and vDS are the same,
+
+497
+00:39:34,000 --> 00:39:41,000
+vI and vGS are the same.
+So we could go ahead and
+
+498
+00:39:41,000 --> 00:39:47,000
+analyze that circuit.
+What I do to analyze the
+
+499
+00:39:47,000 --> 00:39:54,000
+circuit, I am telling you this.
+I am telling you that the
+
+500
+00:39:54,000 --> 00:40:00,000
+MOSFET is behaving in
+saturation.
+
+501
+00:40:00,000 --> 00:40:03,000
+I am telling you this.
+We have disciplined ourselves
+
+502
+00:40:03,000 --> 00:40:07,000
+to say that in that circuit the
+MOSFET is in saturation.
+
+503
+00:40:07,000 --> 00:40:11,000
+As soon as we tell you that we
+can then go ahead and analyze
+
+504
+00:40:11,000 --> 00:40:13,000
+that circuit.
+And to analyze that circuit
+
+505
+00:40:13,000 --> 00:40:17,000
+what you will do is simply
+replace the MOSFET with its
+
+506
+00:40:17,000 --> 00:40:20,000
+equivalent model,
+and that looks like this.
+
+507
+00:40:20,000 --> 00:40:23,000
+Since you have been told that
+it is in saturation,
+
+508
+00:40:23,000 --> 00:40:28,000
+we can replace the MOSFET with
+its current source model.
+
+509
+00:40:36,000 --> 00:40:45,000
+And the current iDS for the
+MOSFET is given by K/2(vI-VT)^2.
+
+510
+00:40:45,000 --> 00:40:54,000
+And it is always good to write
+the constraints under which you
+
+511
+00:40:54,000 --> 00:41:02,000
+are implicitly working close by.
+So the constraints are one,
+
+512
+00:41:02,000 --> 00:41:09,000
+vGS is greater than or equal to
+VT, vDS is greater than or equal
+
+513
+00:41:09,000 --> 00:41:14,000
+to vGS minus VT.
+These constraints immediately
+
+514
+00:41:14,000 --> 00:41:20,000
+follow from a statement of the
+type we are operating under the
+
+515
+00:41:20,000 --> 00:41:26,000
+saturation discipline or the
+MOSFET is in saturation.
+
+516
+00:41:26,000 --> 00:41:32,000
+Let me just mark this equation
+as A, and we will refer to it
+
+517
+00:41:32,000 --> 00:41:34,000
+again.
+
+518
+00:41:45,000 --> 00:41:49,000
+So with this new little circuit
+with the MOSFET working as a
+
+519
+00:41:49,000 --> 00:41:53,000
+current source,
+let's go ahead and analyze our
+
+520
+00:41:53,000 --> 00:41:56,000
+amplifier.
+Notice that to analyze the
+
+521
+00:41:56,000 --> 00:42:01,000
+circuit I have a current source.
+It's a dependent current source
+
+522
+00:42:01,000 --> 00:42:07,000
+where the current depends on the
+square of the input.
+
+523
+00:42:07,000 --> 00:42:12,000
+So I want to go and analyze it.
+This is a nonlinear circuit.
+
+524
+00:42:12,000 --> 00:42:17,000
+So I can apply any one of the
+methods that we talked about
+
+525
+00:42:17,000 --> 00:42:20,000
+last week for nonlinear
+circuits.
+
+526
+00:42:20,000 --> 00:42:26,000
+To analyze it I will go ahead
+and use the analytical method.
+
+527
+00:42:26,000 --> 00:42:31,000
+And my goal will be to obtain
+vO versus vI.
+
+528
+00:42:31,000 --> 00:42:33,000
+Again, remember where are we
+here?
+
+529
+00:42:33,000 --> 00:42:37,000
+The MOSFET circuit operating in
+saturation so I can replace this
+
+530
+00:42:37,000 --> 00:42:40,000
+with a current source.
+It is nonlinear.
+
+531
+00:42:40,000 --> 00:42:44,000
+And so I can apply one of the
+two methods, the analytical
+
+532
+00:42:44,000 --> 00:42:49,000
+method or the graphical method.
+Let's do both and start with
+
+533
+00:42:49,000 --> 00:42:52,000
+the analytical method.
+The analytical method simply
+
+534
+00:42:52,000 --> 00:42:55,000
+says go forth,
+apply the node method and
+
+535
+00:42:55,000 --> 00:42:56,000
+solve.
+Simple stuff.
+
+536
+00:42:56,000 --> 00:43:00,000
+Let's go ahead and do that.
+Node method.
+
+537
+00:43:00,000 --> 00:43:04,000
+I have a single node here that
+is of interest.
+
+538
+00:43:04,000 --> 00:43:07,000
+I know the voltage vI at this
+node.
+
+539
+00:43:07,000 --> 00:43:09,000
+I know the voltage VS at this
+node.
+
+540
+00:43:09,000 --> 00:43:12,000
+So the only unknown is here at
+vO.
+
+541
+00:43:12,000 --> 00:43:17,000
+So I will go ahead and do that.
+Let me go ahead and equate the
+
+542
+00:43:17,000 --> 00:43:19,000
+currents into the node to be
+zero.
+
+543
+00:43:19,000 --> 00:43:23,000
+So the currents out of the node
+here are iDS.
+
+544
+00:43:23,000 --> 00:43:27,000
+And that was equal the current
+into that same node.
+
+545
+00:43:27,000 --> 00:43:32,000
+So iDS must equal VS minus vO
+divided by RL.
+
+546
+00:43:32,000 --> 00:43:39,000
+iDS=VS-vO/RL.
+For later reference,
+
+547
+00:43:39,000 --> 00:43:46,000
+let me call that B.
+Simplifying,
+
+548
+00:43:46,000 --> 00:43:55,000
+what I can do is,
+we know that iDS is given by
+
+549
+00:43:55,000 --> 00:44:03,000
+K/2(vI-VT)^2.
+So I replace iDS with this
+
+550
+00:44:03,000 --> 00:44:08,000
+expression and I multiply that
+by RL.
+
+551
+00:44:08,000 --> 00:44:15,000
+So I get K/2(vI-VT)RL.
+So iDS gets multiplied by RL
+
+552
+00:44:15,000 --> 00:44:22,000
+and I get vO on this side and VS
+remains out here.
+
+553
+00:44:22,000 --> 00:44:30,000
+All I have done is multiplied
+both sides by RL.
+
+554
+00:44:30,000 --> 00:44:33,000
+So it is RL iDS,
+taken RL iDS to this side,
+
+555
+00:44:33,000 --> 00:44:37,000
+that is here,
+I get the minus sign,
+
+556
+00:44:37,000 --> 00:44:40,000
+and VS stays here,
+vO comes here.
+
+557
+00:44:40,000 --> 00:44:45,000
+So that is my final expression.
+Remember this is true under
+
+558
+00:44:45,000 --> 00:44:50,000
+certain conditions.
+I will keep hammering that home
+
+559
+00:44:50,000 --> 00:44:55,000
+because some of the most common
+errors made by people is in
+
+560
+00:44:55,000 --> 00:45:02,000
+forgetting the constraints under
+which this was obtained.
+
+561
+00:45:02,000 --> 00:45:08,000
+And the constraint under which
+this was obtained is the
+
+562
+00:45:08,000 --> 00:45:14,000
+saturation discipline.
+And that was true when vGS for
+
+563
+00:45:14,000 --> 00:45:21,000
+a MOSFET was greater than or
+equal to VT and vDS for a MOSFET
+
+564
+00:45:21,000 --> 00:45:26,000
+was greater than or equal to vGS
+minus VT.
+
+565
+00:45:26,000 --> 00:45:33,000
+I also know that for vGS less
+than VT, vO=VS.
+
+566
+00:45:33,000 --> 00:45:38,000
+So when vGS is less than VT
+then this one turns off.
+
+567
+00:45:38,000 --> 00:45:44,000
+That's why it is the SCS model,
+switch current source model.
+
+568
+00:45:44,000 --> 00:45:50,000
+When vGS is less than zero it
+turns off and VS directly
+
+569
+00:45:50,000 --> 00:45:54,000
+appears at vO.
+I would like to stare at this
+
+570
+00:45:54,000 --> 00:46:00,000
+constraint with you for a
+second, vDS greater than or
+
+571
+00:46:00,000 --> 00:46:08,000
+equal to vGS minus VT here.
+And vDS is simply vO.
+
+572
+00:46:08,000 --> 00:46:17,000
+I want to rewrite this
+constraint in terms of iDS.
+
+573
+00:46:17,000 --> 00:46:26,000
+It will come in handy.
+So iDS is K/2(vI-VT)^2.
+
+574
+00:46:26,000 --> 00:46:34,000
+This is vI-VT.
+So vI-VT is simply square root
+
+575
+00:46:34,000 --> 00:46:39,000
+of 2iDS/K.
+In other words,
+
+576
+00:46:39,000 --> 00:46:45,000
+I can write iDS less than or
+equal to K/2vO^2.
+
+577
+00:46:45,000 --> 00:46:53,000
+So this constraint expressed in
+terms of iDS is simply iDS less
+
+578
+00:46:53,000 --> 00:46:57,000
+than or equal to K/2vO^2.
+
+579
+00:47:05,000 --> 00:47:10,000
+So all I've done here is
+analyzed this nonlinear circuit.
+
+580
+00:47:10,000 --> 00:47:15,000
+I can also analyze it using the
+graphical method.
+
+581
+00:47:15,000 --> 00:47:20,000
+And in order to do that,
+for my nonlinear circuit,
+
+582
+00:47:20,000 --> 00:47:24,000
+in order to do that,
+all I have to do is plot.
+
+583
+00:47:24,000 --> 00:47:29,000
+Let's have iDS here and vDS
+here.
+
+584
+00:47:29,000 --> 00:47:36,000
+And as we did with a nonlinear
+expo dweeb, what I do is I plot
+
+585
+00:47:36,000 --> 00:47:41,000
+the device characteristics iDS
+versus vDS.
+
+586
+00:47:41,000 --> 00:47:48,000
+The device characteristics
+under saturation look like this,
+
+587
+00:47:48,000 --> 00:47:53,000
+so vGS increasing.
+iDS versus vDS has a bunch of
+
+588
+00:47:53,000 --> 00:48:02,000
+curves that look like current
+sources of increasing values.
+
+589
+00:48:02,000 --> 00:48:06,000
+That simply reflects equation
+A.
+
+590
+00:48:06,000 --> 00:48:15,000
+And then I superimpose on top
+of that the expression that
+
+591
+00:48:15,000 --> 00:48:22,000
+comes up due to equation B which
+is iDS equals,
+
+592
+00:48:22,000 --> 00:48:32,000
+let me write that down here,
+iDS equals VS/RL - vO/RL.
+
+593
+00:48:32,000 --> 00:48:35,000
+That's B.
+And let me plot that.
+
+594
+00:48:35,000 --> 00:48:43,000
+That is a straight line
+relationship between iDS and vO.
+
+595
+00:48:43,000 --> 00:48:47,000
+And so when vO is zero iDS is
+VS/RL.
+
+596
+00:48:47,000 --> 00:48:52,000
+And when iDS is zero vO equals
+VS.
+
+597
+00:48:52,000 --> 00:48:56,000
+Remember, vO and vDS are the
+same.
+
+598
+00:48:56,000 --> 00:49:03,000
+So this is what I get.
+This is the straight line
+
+599
+00:49:03,000 --> 00:49:07,000
+corresponding to equation B
+here.
+
+600
+00:49:13,000 --> 00:49:17,000
+And, as before,
+we just find the point where
+
+601
+00:49:17,000 --> 00:49:21,000
+the two intersect.
+Let's say I am given some value
+
+602
+00:49:21,000 --> 00:49:25,000
+of vGS.
+And let's say I am given some
+
+603
+00:49:25,000 --> 00:49:29,000
+known value of vDS.
+So for that I can go ahead and
+
+604
+00:49:29,000 --> 00:49:36,000
+find out the corresponding value
+of iDS from this graph.
+
+605
+00:49:36,000 --> 00:49:40,000
+Just as I told you when we did
+the expo dweeb stuff,
+
+606
+00:49:40,000 --> 00:49:43,000
+this line here is called a load
+line.
+
+607
+00:49:43,000 --> 00:49:47,000
+You will be seeing that again
+and again and again where we
+
+608
+00:49:47,000 --> 00:49:52,000
+have the equation corresponding
+to the one shown here,
+
+609
+00:49:52,000 --> 00:49:57,000
+the equation written for the
+output loop superimposed on the
+
+610
+00:49:57,000 --> 00:50:02,000
+device characteristics.
+That's called a load line.
+
+611
+00:50:02,000 --> 00:50:06,000
+So I can get this point
+corresponding to the operating
+
+612
+00:50:06,000 --> 00:50:11,000
+point of the MOSFET for this
+iDS, vDS and vGS by using the
+
+613
+00:50:11,000 --> 00:50:14,000
+graphical method.
+In the next lecture we are
+
+614
+00:50:14,000 --> 00:50:18,000
+going to look at,
+given a device of this sort,
+
+615
+00:50:18,000 --> 00:50:23,000
+how do we figure out the
+boundaries of valid operation so
+
+616
+00:50:23,000 --> 00:50:26,000
+that the MOSFET stays in
+saturation?
