@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Exams on MIT OpenCourseWare</title>
+    <link>/resources/exams/</link>
+    <description>Recent content in Exams on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/exams/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2004exam1.pdf</title>
+      <link>/resources/2004exam1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/2004exam1/data.json</guid>
+      <description>&lt;p&gt;Practice exam.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2004exam2.pdf</title>
+      <link>/resources/2004exam2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/2004exam2/data.json</guid>
+      <description>&lt;p&gt;Practice exam.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2006_exam_1.pdf</title>
+      <link>/resources/2006_exam_1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/2006_exam_1/data.json</guid>
+      <description>&lt;p&gt;Exam #1.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>exam_1_solutions.pdf</title>
+      <link>/resources/exam_1_solutions/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/exam_1_solutions/data.json</guid>
+      <description>&lt;p&gt;Exam solutions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>exam_2_2006.pdf</title>
+      <link>/resources/exam_2_2006/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/exam_2_2006/data.json</guid>
+      <description>&lt;p&gt;Exam #2.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>exam_2_solutions.pdf</title>
+      <link>/resources/exam_2_solutions/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/exam_2_solutions/data.json</guid>
+      <description>&lt;p&gt;Exam solutions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>exam_3_f06_key.pdf</title>
+      <link>/resources/exam_3_f06_key/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/exam_3_f06_key/data.json</guid>
+      <description>&lt;p&gt;Exam solutions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>exam_3_probs_key.pdf</title>
+      <link>/resources/exam_3_probs_key/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/exam_3_probs_key/data.json</guid>
+      <description>&lt;p&gt;Solutions to extra problems for Exam #3.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>exam_3_xtra_prob.pdf</title>
+      <link>/resources/exam_3_xtra_prob/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/exam_3_xtra_prob/data.json</guid>
+      <description>&lt;p&gt;Extra problems for Exam #3.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>exam_4_key.pdf</title>
+      <link>/resources/exam_4_key/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/exam_4_key/data.json</guid>
+      <description>&lt;p&gt;Exam solutions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>exam_4_more_key.pdf</title>
+      <link>/resources/exam_4_more_key/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/exam_4_more_key/data.json</guid>
+      <description>&lt;p&gt;Solutions to extra problems for Exam #4.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>exam_4_more_prob.pdf</title>
+      <link>/resources/exam_4_more_prob-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/exam_4_more_prob-1/data.json</guid>
+      <description>&lt;p&gt;Extra problems for Exam #4.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>exam_4_prob_key.pdf</title>
+      <link>/resources/exam_4_prob_key-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/exam_4_prob_key-1/data.json</guid>
+      <description>&lt;p&gt;Solutions to extra problems for Exam #4.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>exam_4_xtra_prob.pdf</title>
+      <link>/resources/exam_4_xtra_prob-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/exam_4_xtra_prob-1/data.json</guid>
+      <description>&lt;p&gt;Extra problems for Exam #4.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Exams</title>
+      <link>/pages/exams/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/exams/data.json</guid>
+      <description>&lt;h3 id=&#34;2006-exams&#34;&gt;2006 Exams&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;&lt;table&gt;&#xA;&#xA;&lt;thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;EXAMS&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;SOLUTIONS&#xA;&lt;/th&gt;&#xA;&lt;/p&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;p&gt;&lt;/thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Exam 1 (&lt;a href=&#34;../../resources/2006_exam_1/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/exam_1_solutions/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Exam 2 (&lt;a href=&#34;../../resources/exam_2_2006/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/exam_2_solutions/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Exam 3&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/exam_3_f06_key/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Exam 3 Extra Problems (&lt;a href=&#34;../../resources/exam_3_xtra_prob/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/exam_3_probs_key/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Exam 4&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/exam_4_key/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Exam 4 Extra Problems (&lt;a href=&#34;../../resources/exam_4_xtra_prob-1/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/exam_4_prob_key-1/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Exam 4 More Problems (&lt;a href=&#34;../../resources/exam_4_more_prob-1/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/exam_4_more_key/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;/table&gt;&#xA;&#xA;&#xA;    &lt;h3 id=&#34;2005-exams&#34;&gt;2005 Exams&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;&lt;table&gt;&#xA;&#xA;&lt;thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;PRACTICE EXAMS&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;SOLUTIONS&#xA;&lt;/th&gt;&#xA;&lt;/p&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;p&gt;&lt;/thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Practice Exam 1 (&lt;a href=&#34;../../resources/practice_exam_1-1/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/pract_exam_1_key-1/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Practice Exam 2 (&lt;a href=&#34;../../resources/practice_exam_2-1/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/pract_xam_2_key-1/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Practice Exam 3 (&lt;a href=&#34;../../resources/practice_exam_3-1/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/pract_xam_3_key-1/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Practice Exam 4 (&lt;a href=&#34;../../resources/practice_exam_4-1/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/pract_xam_4_key-1/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>final_exam_2006.pdf</title>
+      <link>/resources/final_exam_2006/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/final_exam_2006/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>pract_exam_1_key.pdf</title>
+      <link>/resources/pract_exam_1_key-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/pract_exam_1_key-1/data.json</guid>
+      <description>&lt;p&gt;Exam solutions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>pract_final_key.pdf</title>
+      <link>/resources/pract_final_key-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/pract_final_key-1/data.json</guid>
+      <description>&lt;p&gt;Solutions to practice final exam.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>pract_xam_2_key.pdf</title>
+      <link>/resources/pract_xam_2_key-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/pract_xam_2_key-1/data.json</guid>
+      <description>&lt;p&gt;Solutions to practice exam.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>pract_xam_3_key.pdf</title>
+      <link>/resources/pract_xam_3_key-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/pract_xam_3_key-1/data.json</guid>
+      <description>&lt;p&gt;Solutions to practice exam.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>pract_xam_4_key.pdf</title>
+      <link>/resources/pract_xam_4_key-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/pract_xam_4_key-1/data.json</guid>
+      <description>&lt;p&gt;Solutions to practice exam.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>practice_exam_1.pdf</title>
+      <link>/resources/practice_exam_1-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/practice_exam_1-1/data.json</guid>
+      <description>&lt;p&gt;Practice exam.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>practice_exam_2.pdf</title>
+      <link>/resources/practice_exam_2-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/practice_exam_2-1/data.json</guid>
+      <description>&lt;p&gt;Practice exam.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>practice_exam_3.pdf</title>
+      <link>/resources/practice_exam_3-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/practice_exam_3-1/data.json</guid>
+      <description>&lt;p&gt;Practice exam.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>practice_exam_4.pdf</title>
+      <link>/resources/practice_exam_4-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/practice_exam_4-1/data.json</guid>
+      <description>&lt;p&gt;Practice exam.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>practice_final.pdf</title>
+      <link>/resources/practice_final-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/practice_final-1/data.json</guid>
+      <description>&lt;p&gt;Practice Final Exam.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

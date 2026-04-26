@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Supplemental Exam Materials on MIT OpenCourseWare</title>
+    <link>/resources/supplemental-exam-materials/</link>
+    <description>Recent content in Supplemental Exam Materials on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/supplemental-exam-materials/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exam 1 Information</title>
+      <link>/resources/exam-1-information/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/exam-1-information/data.json</guid>
+      <description>&lt;p&gt;Information on the first exam of the course. Includes what to bring, materials covered, and topics to review.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Exam 1 Information</title>
+      <link>/resources/exam1_info/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/exam1_info/data.json</guid>
+      <description>&lt;p&gt;Information on the first exam of the course. Includes what to bring, materials covered, and topics to review.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Exam 2 Information</title>
+      <link>/resources/exam-2-information/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/exam-2-information/data.json</guid>
+      <description>&lt;p&gt;Information on the second exam of the course. Includes what to bring, materials covered, and topics to review.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Exam 3 Information</title>
+      <link>/resources/exam-3-information/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/exam-3-information/data.json</guid>
+      <description>&lt;p&gt;Information on the third exam of the course. Includes what to bring, materials covered, topics to review, and a list equations you should know.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Exam 3 Information</title>
+      <link>/resources/exam3_info/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/exam3_info/data.json</guid>
+      <description>&lt;p&gt;Information on the third exam of the course. Includes what to bring, materials covered, topics to review, and a list equations you should know.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Exam II Information</title>
+      <link>/resources/exam-ii-information/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/exam-ii-information/data.json</guid>
+      <description>&lt;p&gt;Review of equations that will be provided with the second exam of the course.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Final Exam Review</title>
+      <link>/resources/final-exam-review/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/final-exam-review/data.json</guid>
+      <description>&lt;p&gt;Review materials for the final exam on thermodynamics and kinetics.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Key Concepts for Exam 3</title>
+      <link>/resources/exam3_review/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/exam3_review/data.json</guid>
+      <description>&lt;p&gt;Information on the third exam of the course. Includes materials covered and a review of one component phase equilibrium, two component phase equilibrium, and statistical mechanics.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Math Review</title>
+      <link>/resources/final_exam_math/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/final_exam_math/data.json</guid>
+      <description>&lt;p&gt;Math review for the final exam of the course.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Review I</title>
+      <link>/resources/fi_exam_handout/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/fi_exam_handout/data.json</guid>
+      <description>&lt;p&gt;References, tables, and diagrams of thermodynamic potentials, thermodynamic square, Carnot engines, and heat pumps for the final exam of the course.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,3147 @@
+1
+00:00:00,030 --> 00:00:02,400
+The following content is
+provided under a creative
+
+2
+00:00:02,400 --> 00:00:03,820
+commons license.
+
+3
+00:00:03,820 --> 00:00:06,840
+Your support will help MIT
+OpenCourseWare continue to
+
+4
+00:00:06,840 --> 00:00:10,510
+offer high-quality educational
+resources for free.
+
+5
+00:00:10,510 --> 00:00:13,390
+To make a donation or view
+additional materials from
+
+6
+00:00:13,390 --> 00:00:17,490
+hundreds of MIT courses visit
+MIT OpenCourseWare at
+
+7
+00:00:17,490 --> 00:00:20,360
+ocw.mit.edu.
+
+8
+00:00:20,360 --> 00:00:21,900
+PROFESSOR NELSON: Over the last
+couple lectures through
+
+9
+00:00:21,900 --> 00:00:27,400
+our consideration of a number of
+somewhat difficult topics,
+
+10
+00:00:27,400 --> 00:00:31,930
+including these Carnot cycles
+and specific Carnot engine to
+
+11
+00:00:31,930 --> 00:00:36,970
+represent them, we've tried to
+define and understand a little
+
+12
+00:00:36,970 --> 00:00:44,250
+bit about this very special
+function, this entropy.
+
+13
+00:00:44,250 --> 00:00:45,860
+Where we've got our dS.
+
+14
+00:00:45,860 --> 00:00:56,960
+It's dq reversible over T. And
+our treatment of reversible
+
+15
+00:00:56,960 --> 00:01:04,320
+and irreversible cyclic
+processes, what we saw is that
+
+16
+00:01:04,320 --> 00:01:16,460
+if we go around a cycle and look
+at dq reversible over T,
+
+17
+00:01:16,460 --> 00:01:18,250
+then this is zero.
+
+18
+00:01:18,250 --> 00:01:21,830
+Now go all the way around a
+cycle, of course, this is just
+
+19
+00:01:21,830 --> 00:01:26,160
+delta S for the cycle.
+
+20
+00:01:26,160 --> 00:01:27,890
+And that's consistent
+with the idea that
+
+21
+00:01:27,890 --> 00:01:29,070
+entropy is a state functions.
+
+22
+00:01:29,070 --> 00:01:31,430
+So if we go around cycle the
+cycle, we have the same ending
+
+23
+00:01:31,430 --> 00:01:34,936
+point, the starting point, same
+state, then the change in
+
+24
+00:01:34,936 --> 00:01:39,420
+the state function
+has to be zero.
+
+25
+00:01:39,420 --> 00:01:48,140
+But we saw that for an
+irreversible path around a
+
+26
+00:01:48,140 --> 00:01:55,540
+cycle, then we have
+that, this gives
+
+27
+00:01:55,540 --> 00:01:57,920
+something less than zero.
+
+28
+00:01:57,920 --> 00:02:01,610
+And so that was expressed in
+Clausius inequality that
+
+29
+00:02:01,610 --> 00:02:08,140
+includes both these cases.
+
+30
+00:02:08,140 --> 00:02:10,830
+And now I just want to go
+through a number of
+
+31
+00:02:10,830 --> 00:02:12,440
+calculations of entropy.
+
+32
+00:02:12,440 --> 00:02:16,480
+How entropy changes for a number
+processes, both to just
+
+33
+00:02:16,480 --> 00:02:19,830
+learn more about it in general
+terms and also just to see how
+
+34
+00:02:19,830 --> 00:02:23,060
+it's calculated and what sort
+of changes in undergoes for
+
+35
+00:02:23,060 --> 00:02:25,770
+different sorts of
+changes in state.
+
+36
+00:02:25,770 --> 00:02:31,560
+So the first very general
+example that I want to show is
+
+37
+00:02:31,560 --> 00:02:33,270
+the following.
+
+38
+00:02:33,270 --> 00:02:46,180
+Let's say we've got an isolated
+system, and it
+
+39
+00:02:46,180 --> 00:02:57,780
+undergoes some irreversible
+change.
+
+40
+00:02:57,780 --> 00:03:09,050
+So we'll start at one, and we'll
+go irreversibly to some
+
+41
+00:03:09,050 --> 00:03:19,070
+new state, two.
+
+42
+00:03:19,070 --> 00:03:29,090
+OK, now we can always return the
+system back to the initial
+
+43
+00:03:29,090 --> 00:03:36,760
+state reversibly.
+
+44
+00:03:36,760 --> 00:03:40,040
+If we do that, then we can't
+keep the system isolated.
+
+45
+00:03:40,040 --> 00:03:45,760
+So it won't be isolated
+anymore.
+
+46
+00:03:45,760 --> 00:03:48,260
+In other words, in order to
+arrange things so that you
+
+47
+00:03:48,260 --> 00:03:51,460
+could have a return
+along a reversible
+
+48
+00:03:51,460 --> 00:03:53,130
+path, it can't be isolated.
+
+49
+00:03:53,130 --> 00:03:56,190
+In some sense you know that,
+because when it was isolated
+
+50
+00:03:56,190 --> 00:03:59,520
+it spontaneously irreversibly
+went from one to two.
+
+51
+00:03:59,520 --> 00:04:03,260
+And example would be ice melting
+at some temperature
+
+52
+00:04:03,260 --> 00:04:06,500
+that might be higher than
+the freezing point.
+
+53
+00:04:06,500 --> 00:04:09,310
+So you've got solid ice, but the
+temperature is above zero
+
+54
+00:04:09,310 --> 00:04:12,180
+degrees Celsius, so irreversibly
+it'll melt.
+
+55
+00:04:12,180 --> 00:04:14,710
+Systems isolated, it'll melt.
+
+56
+00:04:14,710 --> 00:04:17,790
+Then you could put the system
+in contact with a cold
+
+57
+00:04:17,790 --> 00:04:23,930
+reservoir reversibly re-freeze
+the water to form ice again.
+
+58
+00:04:23,930 --> 00:04:26,230
+But of course to do that you
+couldn't keep it isolated.
+
+59
+00:04:26,230 --> 00:04:30,270
+You need to have it in contact
+with a low temperature bath.
+
+60
+00:04:30,270 --> 00:04:34,190
+But again, this is
+just completely
+
+61
+00:04:34,190 --> 00:04:35,100
+general at this point.
+
+62
+00:04:35,100 --> 00:04:38,380
+It's some irreversible process
+returned then along a
+
+63
+00:04:38,380 --> 00:04:40,520
+reversible path.
+
+64
+00:04:40,520 --> 00:04:43,210
+So let's just look
+at what happens.
+
+65
+00:04:43,210 --> 00:04:51,360
+So here's our path B.
+Along path A, well
+
+66
+00:04:51,360 --> 00:04:56,580
+it's an isolated system.
+
+67
+00:04:56,580 --> 00:05:01,480
+So the heat exchanged is zero.
+
+68
+00:05:01,480 --> 00:05:10,230
+And then, for the cycle based
+on the Clausius inequality
+
+69
+00:05:10,230 --> 00:05:21,480
+expressed here, the integral
+around the cycle of dq over T
+
+70
+00:05:21,480 --> 00:05:24,610
+in general, it's less than
+or equal to zero.
+
+71
+00:05:24,610 --> 00:05:27,890
+If there was an irreversible
+process involved, then in
+
+72
+00:05:27,890 --> 00:05:31,810
+fact, it'll be less than zero.
+
+73
+00:05:31,810 --> 00:05:34,940
+I'll write it here in the more
+general case, but we know what
+
+74
+00:05:34,940 --> 00:05:40,110
+it's really going to be with
+the irreversible step.
+
+75
+00:05:40,110 --> 00:05:47,380
+Well, so we can write this
+as the integral of dq
+
+76
+00:05:47,380 --> 00:05:58,920
+irreversible over T, going from
+state one to state two.
+
+77
+00:05:58,920 --> 00:06:04,720
+Oh, let me rewrite
+this down here.
+
+78
+00:06:04,720 --> 00:06:12,450
+So around the cycle, dq over
+T, it's integral from state
+
+79
+00:06:12,450 --> 00:06:20,390
+one to two of dq irreversible
+over T, plus the integral from
+
+80
+00:06:20,390 --> 00:06:28,120
+two back to one of dq reversible
+over T. And of
+
+81
+00:06:28,120 --> 00:06:32,970
+course, we know that that's less
+than or equal to zero.
+
+82
+00:06:32,970 --> 00:06:36,740
+But this, we know is zero,
+right, because this
+
+83
+00:06:36,740 --> 00:06:38,990
+irreversible step is
+taken in isolation.
+
+84
+00:06:38,990 --> 00:06:40,070
+The system is isolated.
+
+85
+00:06:40,070 --> 00:06:42,550
+We've already seen that there's
+no heat crossing the
+
+86
+00:06:42,550 --> 00:06:45,420
+boundary of the system.
+
+87
+00:06:45,420 --> 00:06:48,110
+So we just have this.
+
+88
+00:06:48,110 --> 00:06:57,060
+So of course this dq reversible
+over T from two to
+
+89
+00:06:57,060 --> 00:07:00,930
+one, that's, what now we've a
+reversible path, so that's
+
+90
+00:07:00,930 --> 00:07:04,830
+just the entropy at the delta
+S going from two to one.
+
+91
+00:07:04,830 --> 00:07:11,660
+It's S1 minus S2 it's delta S,
+we can write it as delta S
+
+92
+00:07:11,660 --> 00:07:15,450
+backwards, right, we're
+going back along
+
+93
+00:07:15,450 --> 00:07:17,460
+that reversible path.
+
+94
+00:07:17,460 --> 00:07:23,580
+Which is of course negative
+delta S forward.
+
+95
+00:07:23,580 --> 00:07:29,880
+Because around the whole cycle
+delta s has to be zero.
+
+96
+00:07:29,880 --> 00:07:43,580
+So what that says is delta S
+forward is greater than or
+
+97
+00:07:43,580 --> 00:07:50,120
+equal to zero.
+
+98
+00:07:50,120 --> 00:07:52,260
+That's interesting.
+
+99
+00:07:52,260 --> 00:07:55,160
+What that's saying is --
+remember, we didn't specify
+
+100
+00:07:55,160 --> 00:07:55,760
+the process.
+
+101
+00:07:55,760 --> 00:08:00,600
+It's just for any completely
+general irreversible process.
+
+102
+00:08:00,600 --> 00:08:06,320
+For any such process, for any
+spontaneous process, this is
+
+103
+00:08:06,320 --> 00:08:08,070
+going to be the case.
+
+104
+00:08:08,070 --> 00:08:14,360
+So in other words, for an
+isolated system, delta S tells
+
+105
+00:08:14,360 --> 00:08:18,710
+us the direction of spontaneous
+change.
+
+106
+00:08:18,710 --> 00:08:29,180
+In particular, for the isolated
+system, delta S is
+
+107
+00:08:29,180 --> 00:08:40,590
+greater than zero for something
+that's irreversible.
+
+108
+00:08:40,590 --> 00:08:51,330
+Delta S equals zero for
+something that's reversible,
+
+109
+00:08:51,330 --> 00:09:02,200
+and delta S is never
+less than zero.
+
+110
+00:09:02,200 --> 00:09:05,180
+In a sense, this is a direct
+consequence of the Clausius
+
+111
+00:09:05,180 --> 00:09:11,720
+inequality.
+
+112
+00:09:11,720 --> 00:09:17,200
+That's a pretty useful result.
+
+113
+00:09:17,200 --> 00:09:21,450
+So remember when we started this
+whole discussion, I tried
+
+114
+00:09:21,450 --> 00:09:25,200
+to emphasize that the first law
+of thermodynamics told us
+
+115
+00:09:25,200 --> 00:09:27,020
+about conservation of energy.
+
+116
+00:09:27,020 --> 00:09:30,280
+But it didn't tell us which
+way something would go
+
+117
+00:09:30,280 --> 00:09:34,620
+spontaneously if you just left
+the system to its own devices
+
+118
+00:09:34,620 --> 00:09:36,430
+under certain conditions.
+
+119
+00:09:36,430 --> 00:09:40,440
+This is telling us that.
+
+120
+00:09:40,440 --> 00:09:43,450
+We can tell which way the system
+will evolve in which
+
+121
+00:09:43,450 --> 00:09:46,680
+direction it'll go.
+
+122
+00:09:46,680 --> 00:09:50,530
+This is for an isolated system
+and we'll generalize this in
+
+123
+00:09:50,530 --> 00:10:00,570
+subsequent lectures.
+
+124
+00:10:00,570 --> 00:10:06,090
+Now, let's look at what
+happens if the
+
+125
+00:10:06,090 --> 00:10:08,920
+system isn't isolated.
+
+126
+00:10:08,920 --> 00:10:25,710
+So now let's go from one
+to two not isolated.
+
+127
+00:10:25,710 --> 00:10:31,550
+So of course, delta S I'm
+going to specify for the
+
+128
+00:10:31,550 --> 00:10:36,420
+system for reasons that'll soon
+be obvious is S2 for the
+
+129
+00:10:36,420 --> 00:10:39,610
+system minus S1 for
+the system.
+
+130
+00:10:39,610 --> 00:10:42,360
+Of course it doesn't depend on
+the path, even though to
+
+131
+00:10:42,360 --> 00:10:52,610
+calculate it, we need to
+find a reversible path.
+
+132
+00:10:52,610 --> 00:10:55,610
+Just to add emphasis to what we
+just did here, of course,
+
+133
+00:10:55,610 --> 00:10:57,590
+it was the same thing.
+
+134
+00:10:57,590 --> 00:11:02,440
+In order to calculate delta S
+along that irreversible path
+
+135
+00:11:02,440 --> 00:11:06,380
+for that irreversible process
+we needed to construct some
+
+136
+00:11:06,380 --> 00:11:09,270
+reversible path.
+
+137
+00:11:09,270 --> 00:11:12,670
+And what we did is imagined
+the reversible path going
+
+138
+00:11:12,670 --> 00:11:15,310
+backwards and then said, OK,
+fine then delta S for the
+
+139
+00:11:15,310 --> 00:11:18,180
+irreversible process must be the
+opposite of delta S that
+
+140
+00:11:18,180 --> 00:11:19,120
+we calculated along the
+
+141
+00:11:19,120 --> 00:11:21,850
+reversible bath going backwards.
+
+142
+00:11:21,850 --> 00:11:24,820
+The point is that to calculate
+delta S in either direction,
+
+143
+00:11:24,820 --> 00:11:27,690
+we needed to construct
+some reversible path.
+
+144
+00:11:27,690 --> 00:11:31,650
+All right, and of course
+it'll be the same here.
+
+145
+00:11:31,650 --> 00:11:35,960
+Now, in this case since the
+system isn't isolated, that
+
+146
+00:11:35,960 --> 00:11:38,830
+means heat's going to flow
+across the boundary.
+
+147
+00:11:38,830 --> 00:11:43,580
+So that means heat is going
+between, it's being exchanged
+
+148
+00:11:43,580 --> 00:11:45,110
+between the system and
+the surroundings.
+
+149
+00:11:45,110 --> 00:11:47,150
+So what's happening to
+the surroundings?
+
+150
+00:11:47,150 --> 00:11:50,430
+Generally, we've worry a lot
+about the system, but not much
+
+151
+00:11:50,430 --> 00:11:54,560
+in recent discussions about
+the surroundings.
+
+152
+00:11:54,560 --> 00:12:01,520
+But delta S surroundings
+must be something.
+
+153
+00:12:01,520 --> 00:12:04,360
+We could calculate it.
+
+154
+00:12:04,360 --> 00:12:07,500
+And that's depends
+on the path.
+
+155
+00:12:07,500 --> 00:12:10,450
+Not because it isn't the state
+function in the surroundings,
+
+156
+00:12:10,450 --> 00:12:15,300
+of course it is, but because
+depending on the path, the
+
+157
+00:12:15,300 --> 00:12:16,650
+final state of the
+
+158
+00:12:16,650 --> 00:12:22,060
+surroundings will be different.
+
+159
+00:12:22,060 --> 00:12:25,550
+After all, depending on how much
+heat got exchanged, the
+
+160
+00:12:25,550 --> 00:12:30,970
+surroundings got more or
+less of that heat.
+
+161
+00:12:30,970 --> 00:12:33,780
+Work might have been done
+on the surroundings.
+
+162
+00:12:33,780 --> 00:12:37,000
+So the surroundings are going
+to respond, are going to
+
+163
+00:12:37,000 --> 00:12:40,040
+change also, when the system
+changes in this way and it's
+
+164
+00:12:40,040 --> 00:12:41,990
+not isolated.
+
+165
+00:12:41,990 --> 00:12:44,640
+And how the surroundings change
+will depend on what
+
+166
+00:12:44,640 --> 00:12:45,820
+path was taken.
+
+167
+00:12:45,820 --> 00:12:47,950
+And you've seen that before
+in calculating things like
+
+168
+00:12:47,950 --> 00:12:51,450
+pressure, volume, work along
+different paths.
+
+169
+00:12:51,450 --> 00:12:54,580
+Where you calculated delta u for
+the system and saw that it
+
+170
+00:12:54,580 --> 00:12:59,230
+was the same for different paths
+but q and w were not the
+
+171
+00:12:59,230 --> 00:13:01,330
+same for the system, and
+therefore, of course, not for
+
+172
+00:13:01,330 --> 00:13:07,710
+the surroundings either.
+
+173
+00:13:07,710 --> 00:13:21,450
+So let's just consider
+an irreversible path.
+
+174
+00:13:21,450 --> 00:13:23,300
+And in order to think about
+what happens to the
+
+175
+00:13:23,300 --> 00:13:29,890
+surroundings, let's take the
+entire universe which consists
+
+176
+00:13:29,890 --> 00:13:36,550
+of the system and the
+surroundings -- that is a big
+
+177
+00:13:36,550 --> 00:13:40,400
+isolated system, because
+it's everything.
+
+178
+00:13:40,400 --> 00:13:45,950
+So it's not somehow in contact
+with another additional body
+
+179
+00:13:45,950 --> 00:13:48,000
+or universe.
+
+180
+00:13:48,000 --> 00:13:49,720
+We can treat the
+entire universe
+
+181
+00:13:49,720 --> 00:13:54,100
+as an isolated system.
+
+182
+00:13:54,100 --> 00:14:05,690
+So, we're going to think about
+the entire universe.
+
+183
+00:14:05,690 --> 00:14:13,890
+We can think about it as
+an isolated system.
+
+184
+00:14:13,890 --> 00:14:16,050
+Great.
+
+185
+00:14:16,050 --> 00:14:23,400
+And we know that delta S for
+an isolated system, for a
+
+186
+00:14:23,400 --> 00:14:28,230
+spontaneous process, is
+greater than zero.
+
+187
+00:14:28,230 --> 00:14:30,130
+That's right there.
+
+188
+00:14:30,130 --> 00:14:38,050
+So delta S for the universe
+which is delta S for the
+
+189
+00:14:38,050 --> 00:14:44,950
+system plus delta S for the
+surroundings, and I'll specify
+
+190
+00:14:44,950 --> 00:14:49,130
+since we're considering an
+irreversible process, specify
+
+191
+00:14:49,130 --> 00:14:52,150
+that, it's greater than zero.
+
+192
+00:14:52,150 --> 00:14:55,390
+The whole thing happened
+spontaneously, and the whole
+
+193
+00:14:55,390 --> 00:14:58,790
+universe is an isolated
+system.
+
+194
+00:14:58,790 --> 00:15:03,190
+So if we wanted to, we can
+write that delta S
+
+195
+00:15:03,190 --> 00:15:07,320
+irreversible for the
+surroundings must be bigger
+
+196
+00:15:07,320 --> 00:15:15,340
+than minus delta S for the
+system in order that there sum
+
+197
+00:15:15,340 --> 00:15:19,590
+be positive.
+
+198
+00:15:19,590 --> 00:15:21,640
+All right?
+
+199
+00:15:21,640 --> 00:15:33,150
+Now, if we consider a reversible
+process, then of
+
+200
+00:15:33,150 --> 00:15:37,160
+course we already know what
+happens for an isolated system
+
+201
+00:15:37,160 --> 00:15:43,450
+in a reversible process,
+delta S is zero.
+
+202
+00:15:43,450 --> 00:15:47,820
+So delta S in this case of the
+whole universe, which is delta
+
+203
+00:15:47,820 --> 00:15:53,860
+S for the system plus delta S
+for the surroundings in the
+
+204
+00:15:53,860 --> 00:16:02,210
+reversible case must
+be equal to zero.
+
+205
+00:16:02,210 --> 00:16:08,050
+In other words, delta S of the
+surroundings in the reversible
+
+206
+00:16:08,050 --> 00:16:15,350
+case is exactly the opposite
+of delta S of the system.
+
+207
+00:16:15,350 --> 00:16:18,230
+Delta S of the system is the
+same in either case because
+
+208
+00:16:18,230 --> 00:16:21,380
+reversible or irreversible,
+we're specifying the system,
+
+209
+00:16:21,380 --> 00:16:24,940
+goes between the same states,
+but what happens to the
+
+210
+00:16:24,940 --> 00:16:30,790
+surroundings is different
+in the two cases.
+
+211
+00:16:30,790 --> 00:16:36,590
+So one way of recasting this
+statement or the Clausius
+
+212
+00:16:36,590 --> 00:16:40,080
+inequality is the entropy
+of the whole
+
+213
+00:16:40,080 --> 00:16:44,720
+universe never decreases.
+
+214
+00:16:44,720 --> 00:16:47,370
+Of course, in some sense,
+that's obvious from this
+
+215
+00:16:47,370 --> 00:16:49,800
+statement, since we're
+considering the universe an
+
+216
+00:16:49,800 --> 00:16:51,670
+isolated system.
+
+217
+00:16:51,670 --> 00:16:56,900
+So the entropy in any process
+can, it can, the change in
+
+218
+00:16:56,900 --> 00:17:04,950
+entropy can either be zero or
+positive and never negative.
+
+219
+00:17:10,220 --> 00:17:27,700
+So entropy off the whole
+universe never decreases.
+
+220
+00:17:27,700 --> 00:17:30,610
+That's actually a really quite
+profound conclusion.
+
+221
+00:17:30,610 --> 00:17:36,580
+All sorts of philosophical and
+other consequences of it that
+
+222
+00:17:36,580 --> 00:17:39,670
+are sometimes considered in
+things like evolutionary
+
+223
+00:17:39,670 --> 00:17:41,090
+biology and other things.
+
+224
+00:17:41,090 --> 00:17:43,135
+And how things can change
+altogether an
+
+225
+00:17:43,135 --> 00:17:48,710
+entire system of things.
+
+226
+00:17:48,710 --> 00:17:55,140
+Now, I'd like to just go through
+a few calculations of
+
+227
+00:17:55,140 --> 00:17:59,140
+delta S for common processes.
+
+228
+00:17:59,140 --> 00:18:01,970
+We've seen a few general
+features of entropy.
+
+229
+00:18:01,970 --> 00:18:05,980
+Let's calculate it
+for a few things.
+
+230
+00:18:05,980 --> 00:18:15,640
+So calculations of
+delta S. And we
+
+231
+00:18:15,640 --> 00:18:17,700
+know the general procedure.
+
+232
+00:18:17,700 --> 00:18:20,240
+Whatever the process is, we're
+going to need to find
+
+233
+00:18:20,240 --> 00:18:24,830
+reversible paths, and along a
+reversible path then, we'll be
+
+234
+00:18:24,830 --> 00:18:28,480
+able to calculate it.
+
+235
+00:18:28,480 --> 00:18:39,230
+One, let's just take two
+pieces of material at
+
+236
+00:18:39,230 --> 00:18:43,590
+different temperatures.
+
+237
+00:18:43,590 --> 00:18:56,350
+The entire system is going
+to be isolated.
+
+238
+00:18:56,350 --> 00:19:01,010
+And then let's connect them.
+
+239
+00:19:01,010 --> 00:19:02,830
+And then let's connect them.
+
+240
+00:19:02,830 --> 00:19:03,480
+Put some material
+between them.
+
+241
+00:19:03,480 --> 00:19:05,500
+So now heat can flow from
+one to the other.
+
+242
+00:19:05,500 --> 00:19:07,410
+And you know what's going to
+happen which is if they start
+
+243
+00:19:07,410 --> 00:19:09,340
+out at unequal temperatures, and
+you wait a little while,
+
+244
+00:19:09,340 --> 00:19:11,020
+eventually they're going
+to wind up at the same
+
+245
+00:19:11,020 --> 00:19:12,810
+temperature.
+
+246
+00:19:12,810 --> 00:19:14,850
+In other words, you
+know the direction
+
+247
+00:19:14,850 --> 00:19:17,950
+of spontaneous change.
+
+248
+00:19:17,950 --> 00:19:23,950
+So let's just see what
+happens to delta S.
+
+249
+00:19:23,950 --> 00:19:33,550
+So isolated system, so there's
+no work being done.
+
+250
+00:19:33,550 --> 00:19:35,250
+There's no heat that's
+being exchanged.
+
+251
+00:19:35,250 --> 00:19:42,060
+So delta u is zero.
+
+252
+00:19:42,060 --> 00:19:44,810
+What's dS?
+
+253
+00:19:44,810 --> 00:19:49,360
+Well it's just the sum of the
+changes in entropy for the two
+
+254
+00:19:49,360 --> 00:19:53,450
+sub-systems the two
+separate pieces.
+
+255
+00:19:53,450 --> 00:20:03,880
+So it's dq1 over T1 plus dq2
+over T2, I think there's a
+
+256
+00:20:03,880 --> 00:20:11,720
+type in your notes. it's plus
+not minus of course.
+
+257
+00:20:11,720 --> 00:20:16,410
+But in this case, dq1 is just
+the opposite of dq2.
+
+258
+00:20:16,410 --> 00:20:20,280
+Because whatever heat is flowing
+into T1, into this
+
+259
+00:20:20,280 --> 00:20:22,770
+block, is coming out of this
+block, or vice versa,
+
+260
+00:20:22,770 --> 00:20:32,490
+depending on which
+one is hotter.
+
+261
+00:20:32,490 --> 00:20:39,070
+So this is just equal to dq1
+times one over T1 minus one
+
+262
+00:20:39,070 --> 00:20:45,700
+over T2, which is T2 minus
+T1 over T1 times T2.
+
+263
+00:20:49,460 --> 00:20:53,910
+So that's dS, and then we could
+integrate it to get the
+
+264
+00:20:53,910 --> 00:20:56,380
+delta S, but this is sufficient
+for what I'd like
+
+265
+00:20:56,380 --> 00:20:59,850
+to illustrate, which is just
+the sign of things.
+
+266
+00:20:59,850 --> 00:21:09,140
+We know dS must be greater than
+zero for the spontaneous
+
+267
+00:21:09,140 --> 00:21:14,920
+change that's going to occur.
+
+268
+00:21:14,920 --> 00:21:18,860
+So let's just make sure that
+common sense prevails here.
+
+269
+00:21:18,860 --> 00:21:23,810
+That says if T2 is greater than
+T1, right T2 is hotter.
+
+270
+00:21:23,810 --> 00:21:27,110
+Then dq must be positive, so
+this is positive, this is
+
+271
+00:21:27,110 --> 00:21:30,240
+positive, dS we know
+has to be positive.
+
+272
+00:21:30,240 --> 00:21:35,440
+So, it says T2 is hotter.
+
+273
+00:21:35,440 --> 00:21:40,790
+This being positive means heat
+is flowing in from this one to
+
+274
+00:21:40,790 --> 00:21:45,230
+this one, from the hotter
+to the colder body.
+
+275
+00:21:45,230 --> 00:21:47,210
+So it looks right.
+
+276
+00:21:47,210 --> 00:21:51,780
+If T2 is lower than T1, if this
+one is colder, then in
+
+277
+00:21:51,780 --> 00:21:55,120
+order for dS to be positive,
+which it has to be, this
+
+278
+00:21:55,120 --> 00:21:57,210
+better be negative.
+
+279
+00:21:57,210 --> 00:22:01,160
+In other words, again heat is
+going to flow from the hotter
+
+280
+00:22:01,160 --> 00:22:05,810
+toward the colder, into
+the colder body.
+
+281
+00:22:05,810 --> 00:22:11,890
+So, as promised, the condition
+that dS must be greater than
+
+282
+00:22:11,890 --> 00:22:17,160
+zero, guides us and tells us the
+direction that spontaneous
+
+283
+00:22:17,160 --> 00:22:21,050
+change is going to occur.
+
+284
+00:22:21,050 --> 00:22:24,170
+We can tell just from this
+condition which way things
+
+285
+00:22:24,170 --> 00:22:44,530
+have to evolve.
+
+286
+00:22:44,530 --> 00:22:48,120
+All right, let's try another
+pretty simple process.
+
+287
+00:22:48,120 --> 00:22:59,690
+Let's just take a gas in some
+volume V and over here is
+
+288
+00:22:59,690 --> 00:23:05,400
+going to be vacuum of equal
+volume, and we're going to
+
+289
+00:23:05,400 --> 00:23:07,630
+remove the barrier.
+
+290
+00:23:07,630 --> 00:23:10,260
+You know what's going to happen
+spontaneously, right?
+
+291
+00:23:10,260 --> 00:23:14,490
+The gas is going to fill the
+available volume once it
+
+292
+00:23:14,490 --> 00:23:16,540
+becomes available.
+
+293
+00:23:16,540 --> 00:23:23,870
+So this, we'll make this a Joule
+expansion, and we'll
+
+294
+00:23:23,870 --> 00:23:29,230
+make it an ideal gas.
+
+295
+00:23:29,230 --> 00:23:37,590
+So the process is one mole of
+gas at our initial volume and
+
+296
+00:23:37,590 --> 00:23:46,200
+some temperature, and we'll make
+this adiabatic, and this
+
+297
+00:23:46,200 --> 00:23:53,360
+goes to one mole of gas at a new
+volume, 2V and at the same
+
+298
+00:23:53,360 --> 00:23:55,750
+temperature.
+
+299
+00:23:55,750 --> 00:24:01,350
+All right, so there's
+no work done.
+
+300
+00:24:01,350 --> 00:24:02,220
+It's adiabatic.
+
+301
+00:24:02,220 --> 00:24:03,440
+There's no heat exchanged.
+
+302
+00:24:03,440 --> 00:24:08,330
+Delta u is zero.
+
+303
+00:24:08,330 --> 00:24:10,870
+Everything's zero.
+
+304
+00:24:10,870 --> 00:24:13,700
+Almost everything is zero.
+
+305
+00:24:13,700 --> 00:24:16,360
+What isn't zero?
+
+306
+00:24:16,360 --> 00:24:16,680
+STUDENT: Entropy.
+
+307
+00:24:16,680 --> 00:24:17,300
+PROFESSOR NELSON: Entropy.
+
+308
+00:24:17,300 --> 00:24:19,860
+It's going to tell us which
+way this whole thing goes.
+
+309
+00:24:19,860 --> 00:24:22,730
+So this is an irreversible
+process.
+
+310
+00:24:22,730 --> 00:24:26,020
+In order to calculate delta
+S we need to construct a
+
+311
+00:24:26,020 --> 00:24:30,790
+reversible path along
+which this can go.
+
+312
+00:24:30,790 --> 00:24:34,830
+So here's a way to do it.
+
+313
+00:24:34,830 --> 00:24:38,480
+We could compress it back,
+isothermally and reversibly.
+
+314
+00:24:38,480 --> 00:24:41,190
+Just like the example I gave,
+the general example, where I
+
+315
+00:24:41,190 --> 00:24:42,750
+mentioned the ice melting.
+
+316
+00:24:42,750 --> 00:24:44,140
+In that case, it won't
+be adiabatic.
+
+317
+00:24:44,140 --> 00:24:48,240
+We'd have to put it in
+contact with a heat
+
+318
+00:24:48,240 --> 00:24:51,840
+source of some sort.
+
+319
+00:24:51,840 --> 00:25:00,420
+So reversible process.
+
+320
+00:25:00,420 --> 00:25:21,870
+We could compress it back to
+volume V, isothermally, and
+
+321
+00:25:21,870 --> 00:25:22,880
+reversibly.
+
+322
+00:25:22,880 --> 00:25:25,860
+Let me say, there's no -- we
+wouldn't have to consider this
+
+323
+00:25:25,860 --> 00:25:26,880
+process in reverse.
+
+324
+00:25:26,880 --> 00:25:29,400
+Of course, we could also
+consider the forward process
+
+325
+00:25:29,400 --> 00:25:34,480
+in the presence of some heat
+source with isn't isolated and
+
+326
+00:25:34,480 --> 00:25:37,670
+do this, but let's just consider
+the compression.
+
+327
+00:25:37,670 --> 00:25:46,450
+So, OK, now we'll have
+the -- well, once
+
+328
+00:25:46,450 --> 00:25:48,930
+again, delta u is zero.
+
+329
+00:25:48,930 --> 00:25:50,090
+It's an ideal gas.
+
+330
+00:25:50,090 --> 00:25:52,530
+There's no temperature change.
+
+331
+00:25:52,530 --> 00:25:55,150
+But this time q and w aren't
+going to be zero.
+
+332
+00:25:55,150 --> 00:25:57,270
+They're going to be some
+finite numbers that are
+
+333
+00:25:57,270 --> 00:25:59,310
+opposites of each other.
+
+334
+00:25:59,310 --> 00:26:05,750
+Because we're no longer
+isolated.
+
+335
+00:26:05,750 --> 00:26:19,360
+So let's just write out delta
+S to go backward is dq
+
+336
+00:26:19,360 --> 00:26:28,210
+reversible over T, and
+that's minus dw
+
+337
+00:26:28,210 --> 00:26:32,550
+over T, not zero anymore.
+
+338
+00:26:32,550 --> 00:26:39,420
+And where we're going is from
+2V to V, we're compressing,
+
+339
+00:26:39,420 --> 00:26:41,670
+and it's an ideal gas.
+
+340
+00:26:41,670 --> 00:26:59,620
+So this is the same as p dV, but
+it's p dV over T which is
+
+341
+00:26:59,620 --> 00:27:02,960
+the same thing as going from
+2V to V. Now we're going to
+
+342
+00:27:02,960 --> 00:27:07,110
+replace this with RT over V,
+and the T's will cancel.
+
+343
+00:27:07,110 --> 00:27:16,770
+So it's R dV over V going from
+2V to one V. So it's just R
+
+344
+00:27:16,770 --> 00:27:23,440
+times the log of 1/2.
+
+345
+00:27:23,440 --> 00:27:27,190
+So now we've just calculated
+the value of delta S by
+
+346
+00:27:27,190 --> 00:27:30,080
+constructing this
+reversible path.
+
+347
+00:27:30,080 --> 00:27:33,260
+Now this is delta S backward.
+
+348
+00:27:33,260 --> 00:27:38,070
+To do the compression, so of
+course delta S forward is just
+
+349
+00:27:38,070 --> 00:27:46,930
+the opposite of that.
+
+350
+00:27:46,930 --> 00:27:58,460
+So, delta S forward
+is R log 2.
+
+351
+00:27:58,460 --> 00:28:12,920
+Reassuringly, that's
+a positive number.
+
+352
+00:28:12,920 --> 00:28:16,830
+So this process that we
+considered originally, this
+
+353
+00:28:16,830 --> 00:28:20,370
+irreversibly process in this
+isolated system, remember, for
+
+354
+00:28:20,370 --> 00:28:23,720
+the irreversible expansion
+we considered the system
+
+355
+00:28:23,720 --> 00:28:26,880
+isolated, Happened
+spontaneously, and of course
+
+356
+00:28:26,880 --> 00:28:30,430
+you know that's the case.
+
+357
+00:28:30,430 --> 00:28:37,570
+Now, I'll just mention, and
+later on we'll go into this in
+
+358
+00:28:37,570 --> 00:28:40,310
+considerably more detail, but
+I'll just mention at this
+
+359
+00:28:40,310 --> 00:28:45,130
+stage through a little bit of
+sort of foreshadowing that
+
+360
+00:28:45,130 --> 00:28:49,040
+everything we've discussed so
+far about entropy is with a
+
+361
+00:28:49,040 --> 00:28:50,720
+macroscopic picture.
+
+362
+00:28:50,720 --> 00:28:54,010
+We started with heat engines
+and Carnot cycles and
+
+363
+00:28:54,010 --> 00:28:56,690
+macroscopic processes,
+reversible and irreversible
+
+364
+00:28:56,690 --> 00:28:58,790
+processes and so on.
+
+365
+00:28:58,790 --> 00:29:02,620
+But there's a, and that's
+certainly the way it was all
+
+366
+00:29:02,620 --> 00:29:04,080
+formulated originally.
+
+367
+00:29:04,080 --> 00:29:06,960
+Part of the power of
+thermodynamics is that it
+
+368
+00:29:06,960 --> 00:29:12,190
+doesn't depend on a specific
+microscopic model of matter.
+
+369
+00:29:12,190 --> 00:29:14,220
+That said though, we
+have a pretty good
+
+370
+00:29:14,220 --> 00:29:16,670
+microscopic model of matter.
+
+371
+00:29:16,670 --> 00:29:20,170
+We know about atoms and
+molecules, and in fact there
+
+372
+00:29:20,170 --> 00:29:25,890
+is an entirely microscopic
+formulation of entropy that
+
+373
+00:29:25,890 --> 00:29:31,310
+has to do with disorder and
+the number of available
+
+374
+00:29:31,310 --> 00:29:36,920
+states, microscopic states
+available to a system.
+
+375
+00:29:36,920 --> 00:29:42,050
+So I'll just state what
+we'll see in much more
+
+376
+00:29:42,050 --> 00:29:44,010
+detail later on.
+
+377
+00:29:44,010 --> 00:29:56,940
+Which is in microscopic terms,
+it's going to turn out that
+
+378
+00:29:56,940 --> 00:30:04,270
+the entropy of a system can be
+given by R over Avogadro's
+
+379
+00:30:04,270 --> 00:30:21,160
+number times the log of the
+number of distinct microscopic
+
+380
+00:30:21,160 --> 00:30:24,840
+states that are available
+to a system.
+
+381
+00:30:24,840 --> 00:30:28,030
+Right so in this isolated
+system, when we double that
+
+382
+00:30:28,030 --> 00:30:34,240
+volume, each molecule suddenly
+has twice as many states
+
+383
+00:30:34,240 --> 00:30:36,430
+available to it.
+
+384
+00:30:36,430 --> 00:30:38,140
+You could formulate that
+in a lot of ways.
+
+385
+00:30:38,140 --> 00:30:42,350
+You can sort of divide up the
+volume into tiny little
+
+386
+00:30:42,350 --> 00:30:46,240
+molecule-sized cubes and realize
+well, now, there are
+
+387
+00:30:46,240 --> 00:30:49,730
+twice as many of them.
+
+388
+00:30:49,730 --> 00:30:52,950
+Now if I have one molecule, the
+number of states doubles.
+
+389
+00:30:52,950 --> 00:30:56,080
+If I have n molecules, the
+number of states goes
+
+390
+00:30:56,080 --> 00:30:57,540
+up by 2 to the n.
+
+391
+00:30:57,540 --> 00:30:59,690
+Because for each one of the
+molecules, I can select any
+
+392
+00:30:59,690 --> 00:31:01,150
+one of those states, and
+then the next one I
+
+393
+00:31:01,150 --> 00:31:04,110
+can select any one.
+
+394
+00:31:04,110 --> 00:31:05,570
+So you have this enormous
+increase in
+
+395
+00:31:05,570 --> 00:31:08,370
+the number of states.
+
+396
+00:31:08,370 --> 00:31:19,740
+So delta S in this case looks
+like R over NA log of 2 to the
+
+397
+00:31:19,740 --> 00:31:22,110
+power NA, it's Avogadro's
+number,
+
+398
+00:31:22,110 --> 00:31:25,300
+for a mole of molecules.
+
+399
+00:31:25,300 --> 00:31:30,690
+This can come out
+and cancel this.
+
+400
+00:31:30,690 --> 00:31:34,560
+There's our R log 2 result.
+
+401
+00:31:34,560 --> 00:31:37,210
+But the point I'm making here
+is that could actually be
+
+402
+00:31:37,210 --> 00:31:42,800
+derived from entirely
+microscopic consideration.
+
+403
+00:31:42,800 --> 00:31:44,580
+We haven't gone through
+that yet.
+
+404
+00:31:44,580 --> 00:31:48,040
+We've done entirely macroscopic
+thermodynamics so
+
+405
+00:31:48,040 --> 00:31:51,480
+far, but we'll do a little bit
+of treatment of statistical
+
+406
+00:31:51,480 --> 00:31:56,000
+mechanics, is what is called
+the whole microscopic
+
+407
+00:31:56,000 --> 00:31:59,620
+formulation of entropy
+in thermodynamics.
+
+408
+00:31:59,620 --> 00:32:03,680
+And that's a really important
+fundamental result.
+
+409
+00:32:03,680 --> 00:32:08,540
+And we'll get to it in much
+more detail in a while.
+
+410
+00:32:08,540 --> 00:32:12,580
+But for now, I just want to
+continue calculating entropy
+
+411
+00:32:12,580 --> 00:32:31,680
+changes for a few more
+kinds of processes.
+
+412
+00:32:31,680 --> 00:32:37,940
+So, how about if we have two
+different substances and we
+
+413
+00:32:37,940 --> 00:32:50,280
+mix them, entropy of mixing.
+
+414
+00:32:50,280 --> 00:33:00,530
+So, we start with some number
+of moles of substance A in
+
+415
+00:33:00,530 --> 00:33:05,480
+some volume VA, and some other
+number of moles of substance B
+
+416
+00:33:05,480 --> 00:33:09,420
+in volume VB, separated.
+
+417
+00:33:09,420 --> 00:33:11,800
+And then we remove the barrier,
+of course we know
+
+418
+00:33:11,800 --> 00:33:14,580
+they're going to mix.
+
+419
+00:33:14,580 --> 00:33:19,940
+So we'll have some total number
+of moles, nA plus nB,
+
+420
+00:33:19,940 --> 00:33:23,650
+and they'll be filling some
+total volume, which is the sum
+
+421
+00:33:23,650 --> 00:33:26,940
+of the two original volumes.
+
+422
+00:33:26,940 --> 00:33:28,750
+Certainly this is what
+we expect to happen
+
+423
+00:33:28,750 --> 00:33:30,760
+spontaneously.
+
+424
+00:33:30,760 --> 00:33:41,370
+So are process is nA moles of A,
+gas, initial volume VA and
+
+425
+00:33:41,370 --> 00:33:48,380
+T, plus nB of substance B, I
+think this is miswritten as A
+
+426
+00:33:48,380 --> 00:33:49,980
+there in your notes.
+
+427
+00:33:49,980 --> 00:34:01,780
+Gas VB and T goes to nA moles of
+A plus nB moles of B. Gas,
+
+428
+00:34:01,780 --> 00:34:11,490
+total volume and T. And
+we'll have constant
+
+429
+00:34:11,490 --> 00:34:15,310
+temperature and pressure.
+
+430
+00:34:15,310 --> 00:34:19,350
+Well, there was no
+p v worked done.
+
+431
+00:34:19,350 --> 00:34:22,370
+The temperature didn't change
+and it's ideal gases, so delta
+
+432
+00:34:22,370 --> 00:34:28,340
+u is zero, but what
+about delta S?
+
+433
+00:34:28,340 --> 00:34:30,880
+Well again, to calculate
+it, we need to find
+
+434
+00:34:30,880 --> 00:34:31,890
+a reversible path.
+
+435
+00:34:31,890 --> 00:34:34,200
+This is irreversible if we just
+remove the barrier and
+
+436
+00:34:34,200 --> 00:34:37,080
+let it all go.
+
+437
+00:34:37,080 --> 00:34:40,620
+But we could at least imagine
+a reversible path, and we
+
+438
+00:34:40,620 --> 00:34:44,730
+could actually construct this
+for the right substances.
+
+439
+00:34:44,730 --> 00:34:53,560
+We could imagine that we can
+find some sort of piston here.
+
+440
+00:34:53,560 --> 00:35:00,920
+And we're going to prepare
+to push it inward, with a
+
+441
+00:35:00,920 --> 00:35:07,880
+membrane that's permeable
+only to b.
+
+442
+00:35:07,880 --> 00:35:14,410
+And over here we could set up
+the exact same thing, but this
+
+443
+00:35:14,410 --> 00:35:23,580
+one's permeable only to a.
+
+444
+00:35:23,580 --> 00:35:27,840
+And then we could just push them
+to recover this state.
+
+445
+00:35:27,840 --> 00:35:29,470
+And we can do it reversibly.
+
+446
+00:35:29,470 --> 00:35:33,480
+So we could construct a
+reversible process that does
+
+447
+00:35:33,480 --> 00:35:36,900
+the reverse of this.
+
+448
+00:35:36,900 --> 00:35:40,810
+And in this case, it'll be
+isothermal still, constant
+
+449
+00:35:40,810 --> 00:35:45,950
+pressure, reversible compression
+of the two gases.
+
+450
+00:35:45,950 --> 00:36:22,580
+So, reversible compression
+and demixing.
+
+451
+00:36:22,580 --> 00:36:23,980
+All right, so what happens?
+
+452
+00:36:23,980 --> 00:36:28,800
+Well, of course, our delta S
+of demixing is going to be
+
+453
+00:36:28,800 --> 00:36:34,900
+minus delta S of mixing.
+
+454
+00:36:34,900 --> 00:36:40,800
+Delta u of demixing
+is still zero.
+
+455
+00:36:40,800 --> 00:36:47,370
+Temperature didn't change, ideal
+gases, and there's some
+
+456
+00:36:47,370 --> 00:36:52,000
+reversible work and heat.
+
+457
+00:36:52,000 --> 00:37:04,730
+So dw in this reversible case,
+is just minus pA dVA minus pB
+
+458
+00:37:04,730 --> 00:37:12,940
+dVB, the infinitesimal amount
+of work done as these things
+
+459
+00:37:12,940 --> 00:37:15,380
+are gradually moved
+toward each other.
+
+460
+00:37:15,380 --> 00:37:27,000
+So delta S for demixing, of
+course it's dq reversible over
+
+461
+00:37:27,000 --> 00:37:30,960
+T, but just like we did right
+there, of course, in this case
+
+462
+00:37:30,960 --> 00:37:33,070
+that's just negative dw.
+
+463
+00:37:33,070 --> 00:37:40,390
+So it's integral from V to VA,
+right, were compressing.
+
+464
+00:37:40,390 --> 00:37:43,320
+So for substance a, we're going
+to go back to there.
+
+465
+00:37:43,320 --> 00:37:45,620
+It was occupying the whole
+volume, and then it's going to
+
+466
+00:37:45,620 --> 00:37:48,340
+end up in only part
+of the volume, VA.
+
+467
+00:37:48,340 --> 00:38:06,840
+pA dVA over T. Same thing for
+B, going to volume B, pB dVB
+
+468
+00:38:06,840 --> 00:38:11,980
+over T. And now we can
+substitute for pressure,
+
+469
+00:38:11,980 --> 00:38:22,360
+right? pV is nRT, so it's nA
+times R log of VA over V plus
+
+470
+00:38:22,360 --> 00:38:33,580
+nB of R log of VB over V.
+
+471
+00:38:33,580 --> 00:38:37,720
+Now, so this is a suitable
+answer, but I'm going to make
+
+472
+00:38:37,720 --> 00:38:42,020
+if a little easier by putting
+in terms of mole fractions.
+
+473
+00:38:42,020 --> 00:39:05,700
+So, mole fractions, of course,
+XA is nA over n, and XB is nB
+
+474
+00:39:05,700 --> 00:39:13,750
+over n and XA is also equal to
+VA over V and XB is equal to
+
+475
+00:39:13,750 --> 00:39:17,140
+VB over V for ideal
+gases, right?
+
+476
+00:39:17,140 --> 00:39:18,940
+The molar volumes
+are the same.
+
+477
+00:39:18,940 --> 00:39:21,600
+We're at the same temperature
+and pressure.
+
+478
+00:39:21,600 --> 00:39:32,140
+So that immediately gives us the
+delta X of demixing is nR
+
+479
+00:39:32,140 --> 00:39:42,660
+times XA log XA plus
+XB log XB.
+
+480
+00:39:42,660 --> 00:39:47,030
+And of course delta S of mixing
+is the opposite of
+
+481
+00:39:47,030 --> 00:39:58,930
+this, minus nR XA log
+XA plus XB log XB.
+
+482
+00:39:58,930 --> 00:40:01,520
+Now XA and XB are
+mole fractions.
+
+483
+00:40:01,520 --> 00:40:05,880
+They are between zero and
+one, So their log
+
+484
+00:40:05,880 --> 00:40:08,590
+rhythms are both negative.
+
+485
+00:40:08,590 --> 00:40:10,160
+There's a negative sign.
+
+486
+00:40:10,160 --> 00:40:13,660
+So delta S of mixing
+is positive.
+
+487
+00:40:13,660 --> 00:40:15,070
+That's reassuring.
+
+488
+00:40:15,070 --> 00:40:18,530
+That tells us as we expect that
+the mixing should happen
+
+489
+00:40:18,530 --> 00:40:28,130
+spontaneously and irreversibly
+when we remove the barrier.
+
+490
+00:40:28,130 --> 00:40:31,130
+Any questions so far about how
+we're going about these
+
+491
+00:40:31,130 --> 00:40:34,640
+calculations of delta S?
+
+492
+00:40:34,640 --> 00:40:52,740
+OK, let's just do a couple
+more examples.
+
+493
+00:40:52,740 --> 00:40:54,900
+Here's a really straightforward
+one.
+
+494
+00:40:54,900 --> 00:40:58,270
+What if we just heat stuff
+up or cool it down.
+
+495
+00:40:58,270 --> 00:41:02,430
+It happens all the time, but
+it's pretty important, right?
+
+496
+00:41:02,430 --> 00:41:12,320
+So let's just heat or cool
+at constant volume.
+
+497
+00:41:12,320 --> 00:41:17,120
+So, we're going to go from
+substance A at T1 and some
+
+498
+00:41:17,120 --> 00:41:22,280
+volume going to substance
+A at T2 at some volume.
+
+499
+00:41:22,280 --> 00:41:25,940
+We can do this.
+
+500
+00:41:25,940 --> 00:41:35,520
+Delta S is integral of dq
+reversible over T. Going from
+
+501
+00:41:35,520 --> 00:41:43,400
+T1 to T2, but we know how
+to do this, right?
+
+502
+00:41:43,400 --> 00:41:44,890
+It's the heat that we need.
+
+503
+00:41:44,890 --> 00:41:47,710
+It's just given by the constant
+volume heat capacity
+
+504
+00:41:47,710 --> 00:41:49,320
+times the change
+in temperature.
+
+505
+00:41:49,320 --> 00:42:04,230
+So this is just T1 to T2, Cv dT
+over T. And that is just Cv
+
+506
+00:42:04,230 --> 00:42:16,990
+times the log of T2 over T1 if
+Cv is temperature independent.
+
+507
+00:42:16,990 --> 00:42:18,720
+That's not always the case.
+
+508
+00:42:18,720 --> 00:42:21,770
+Usually if it's not too big an
+excursion of temperature then
+
+509
+00:42:21,770 --> 00:42:25,950
+it's a reasonable
+approximation.
+
+510
+00:42:25,950 --> 00:42:33,080
+So that's straightforward.
+
+511
+00:42:33,080 --> 00:42:43,560
+By the way, notice that delta
+S is greater than zero if T2
+
+512
+00:42:43,560 --> 00:42:44,780
+is greater than T1.
+
+513
+00:42:44,780 --> 00:42:45,080
+1
+
+514
+00:42:45,080 --> 00:42:50,060
+In other words, if we heated
+it up, delta S is positive.
+
+515
+00:42:50,060 --> 00:42:55,040
+Notice also delta S is
+less than zero if T2
+
+516
+00:42:55,040 --> 00:42:57,880
+is less than T1.
+
+517
+00:42:57,880 --> 00:43:01,860
+Delta S is negative
+if we cooled it.
+
+518
+00:43:01,860 --> 00:43:06,520
+Now, under certain conditions
+we've seen that delta S can't
+
+519
+00:43:06,520 --> 00:43:07,950
+be negative.
+
+520
+00:43:07,950 --> 00:43:09,930
+Why can it be negative here?
+
+521
+00:43:09,930 --> 00:43:14,530
+STUDENT: [UNINTELLIGIBLE].
+
+522
+00:43:14,530 --> 00:43:17,250
+PROFESSOR NELSON:
+Yes, I heard it.
+
+523
+00:43:17,250 --> 00:43:19,810
+It's because the system
+isn't isolated, right.
+
+524
+00:43:19,810 --> 00:43:23,290
+It was for the isolated system
+that delta S is always greater
+
+525
+00:43:23,290 --> 00:43:24,590
+than or equal to zero.
+
+526
+00:43:24,590 --> 00:43:27,020
+And you know, for the whole
+universe entropy never
+
+527
+00:43:27,020 --> 00:43:30,210
+decreases and so on.
+
+528
+00:43:30,210 --> 00:43:32,980
+In this case, though, you know
+we're taking a system and
+
+529
+00:43:32,980 --> 00:43:35,510
+we're putting it in contact
+with a cold bath
+
+530
+00:43:35,510 --> 00:43:36,380
+and cooling it down.
+
+531
+00:43:36,380 --> 00:43:38,150
+It's certainly not isolated.
+
+532
+00:43:38,150 --> 00:43:39,830
+Heat is being exchanged.
+
+533
+00:43:39,830 --> 00:43:43,880
+It's going from the system to
+the surroundings, to the bath.
+
+534
+00:43:43,880 --> 00:43:44,570
+So it's fine.
+
+535
+00:43:44,570 --> 00:43:48,080
+Delta S can be negative.
+
+536
+00:43:48,080 --> 00:43:53,110
+What would happen if we
+calculated delta S of a new
+
+537
+00:43:53,110 --> 00:43:55,860
+entire system consisting
+of the original system
+
+538
+00:43:55,860 --> 00:43:58,810
+plus the heat bath?
+
+539
+00:43:58,810 --> 00:44:00,120
+What would delta S be then?
+
+540
+00:44:00,120 --> 00:44:07,790
+We already kind of did that with
+those two blocks, T1 and
+
+541
+00:44:07,790 --> 00:44:11,030
+T2 in an isolated systems.
+
+542
+00:44:11,030 --> 00:44:13,570
+What do you think is
+going to happen?
+
+543
+00:44:13,570 --> 00:44:17,690
+In other words, if we call our
+system the stuff that is put
+
+544
+00:44:17,690 --> 00:44:21,010
+in contact with the heat bath,
+well OK, then we've seen delta
+
+545
+00:44:21,010 --> 00:44:24,570
+S can be plus, can be positive
+or negative.
+
+546
+00:44:24,570 --> 00:44:28,200
+Now let's call our system the
+original system plus the heat
+
+547
+00:44:28,200 --> 00:44:32,160
+bath, and we'll put them all in
+some isolating box, that's
+
+548
+00:44:32,160 --> 00:44:34,080
+thermally isolating and so on.
+
+549
+00:44:34,080 --> 00:44:37,020
+And now we'll put our original
+system, which is now sort of a
+
+550
+00:44:37,020 --> 00:44:40,590
+sub, part of the system, and
+it's now going to be in
+
+551
+00:44:40,590 --> 00:44:45,450
+contact with the cold bath.
+
+552
+00:44:45,450 --> 00:44:48,440
+The bath that it's in contact
+with is colder than it is.
+
+553
+00:44:48,440 --> 00:44:50,920
+That's why its delta S
+is less than zero.
+
+554
+00:44:50,920 --> 00:44:53,950
+But what's delta S to be for
+the entire new system
+
+555
+00:44:53,950 --> 00:44:58,350
+including the cold bath?
+
+556
+00:44:58,350 --> 00:44:59,740
+STUDENT: Wouldn't it
+greater than zero?
+
+557
+00:44:59,740 --> 00:45:01,540
+PROFESSOR NELSON: Yes, it's
+going to be positive, because
+
+558
+00:45:01,540 --> 00:45:04,000
+it's an isolated system
+and something happened
+
+559
+00:45:04,000 --> 00:45:09,040
+spontaneously in it, namely the
+original system got cooler
+
+560
+00:45:09,040 --> 00:45:11,250
+and presumably the heat
+bath got at least
+
+561
+00:45:11,250 --> 00:45:12,900
+a little bit warmer.
+
+562
+00:45:12,900 --> 00:45:15,370
+And it happened spontaneously,
+which immediately means delta
+
+563
+00:45:15,370 --> 00:45:20,660
+S had to be positive for that
+entire assembly, of you know
+
+564
+00:45:20,660 --> 00:45:25,160
+the original system
+plus the bath.
+
+565
+00:45:25,160 --> 00:45:32,580
+Here's another important
+sort of process.
+
+566
+00:45:32,580 --> 00:45:44,110
+Reversible phase change, we'll
+melt something or freeze it.
+
+567
+00:45:44,110 --> 00:45:50,190
+How about water -- liquid
+100 degrees Celsius
+
+568
+00:45:50,190 --> 00:45:54,270
+one bar goes to water.
+
+569
+00:45:54,270 --> 00:46:01,500
+Gas 100 degrees Celsius
+one bar.
+
+570
+00:46:01,500 --> 00:46:05,510
+Well in that case, you know
+what the heat is.
+
+571
+00:46:05,510 --> 00:46:11,750
+It's just the delta H of
+vaporization, right, at
+
+572
+00:46:11,750 --> 00:46:15,060
+constant pressure.
+
+573
+00:46:15,060 --> 00:46:17,550
+So there's nothing really
+much to calculate here.
+
+574
+00:46:17,550 --> 00:46:27,480
+Delta S of vaporization for H2O
+at 100 degrees Celsius is
+
+575
+00:46:27,480 --> 00:46:36,080
+just q of vaporization over the
+boiling temperature, which
+
+576
+00:46:36,080 --> 00:46:43,820
+is delta H of vaporization over
+the boiling temperature.
+
+577
+00:46:43,820 --> 00:46:45,800
+So that was easy.
+
+578
+00:46:45,800 --> 00:46:49,320
+One last thing.
+
+579
+00:46:49,320 --> 00:46:54,130
+What if we want to calculate the
+entropy of melting or some
+
+580
+00:46:54,130 --> 00:46:56,870
+phase transition not
+at equilibrium?
+
+581
+00:46:56,870 --> 00:46:59,920
+In this case it's at equilibrium
+because it's water
+
+582
+00:46:59,920 --> 00:47:04,190
+and water vapor at 100 degrees
+Celsius and one
+
+583
+00:47:04,190 --> 00:47:05,870
+atmosphere or one bar.
+
+584
+00:47:05,870 --> 00:47:08,710
+So it's at its boiling point.
+
+585
+00:47:08,710 --> 00:47:14,690
+But what if it isn't at
+its boiling point?
+
+586
+00:47:14,690 --> 00:47:24,570
+So what if instead, let's take
+H2O, liquid, at minus ten
+
+587
+00:47:24,570 --> 00:47:29,580
+degrees Celsius and one
+bar so it's cold.
+
+588
+00:47:29,580 --> 00:47:31,300
+It's going to freeze.
+
+589
+00:47:31,300 --> 00:47:35,620
+So it's going to turn into
+solid water at minus 10
+
+590
+00:47:35,620 --> 00:47:38,540
+degrees Celsius and one bar,
+we're going to have it be
+
+591
+00:47:38,540 --> 00:47:40,930
+isothermal.
+
+592
+00:47:40,930 --> 00:47:44,320
+Now you know that's going to
+happen spontaneously, and it's
+
+593
+00:47:44,320 --> 00:47:52,730
+irreversible.
+
+594
+00:47:52,730 --> 00:47:56,320
+Irreversible, which means we
+can't just straight away
+
+595
+00:47:56,320 --> 00:47:59,520
+calculate delta S along
+this path because it's
+
+596
+00:47:59,520 --> 00:48:00,760
+irreversible.
+
+597
+00:48:00,760 --> 00:48:04,100
+But what we can do, just like
+we've done before for making
+
+598
+00:48:04,100 --> 00:48:07,610
+cycles, we can make some other
+set of events that are all
+
+599
+00:48:07,610 --> 00:48:08,240
+reversible.
+
+600
+00:48:08,240 --> 00:48:12,410
+We can construct a reversible
+pass that will get there.
+
+601
+00:48:12,410 --> 00:48:13,560
+How do we do it?
+
+602
+00:48:13,560 --> 00:48:17,020
+Well you know for the phase
+change, for the freezing to be
+
+603
+00:48:17,020 --> 00:48:20,890
+reversible, it has to happen at
+zero degrees Celsius right.
+
+604
+00:48:20,890 --> 00:48:23,030
+You know that's where
+you have reversible,
+
+605
+00:48:23,030 --> 00:48:25,230
+freezing and melting.
+
+606
+00:48:25,230 --> 00:48:28,750
+Reversible equilibrium between
+liquid and solid water.
+
+607
+00:48:28,750 --> 00:48:33,160
+So surely that's got to
+get involved here.
+
+608
+00:48:33,160 --> 00:48:39,520
+H2O liquid zero degrees
+Celsius, one bar, in
+
+609
+00:48:39,520 --> 00:48:44,550
+equilibrium with H2O solid at
+zero degrees Celsius, one bar.
+
+610
+00:48:44,550 --> 00:48:48,590
+Whatever reversible path we
+construct that's going to go
+
+611
+00:48:48,590 --> 00:48:52,640
+from liquid to solid water,
+somewhere along the set of
+
+612
+00:48:52,640 --> 00:48:55,570
+steps, that better
+be one of them.
+
+613
+00:48:55,570 --> 00:48:58,500
+So now what we need to do is
+go from liquid at minus 10
+
+614
+00:48:58,500 --> 00:49:02,850
+degrees Celsius and one bar to
+liquid at zero degrees Celsius
+
+615
+00:49:02,850 --> 00:49:05,520
+and one bar.
+
+616
+00:49:05,520 --> 00:49:08,140
+That's called heating.
+
+617
+00:49:08,140 --> 00:49:09,770
+We have to heat it.
+
+618
+00:49:09,770 --> 00:49:15,240
+And here we have to cool it.
+
+619
+00:49:15,240 --> 00:49:18,170
+And we've already seen all these
+three processes, right.
+
+620
+00:49:18,170 --> 00:49:23,890
+So for the phase change,
+it's reversible now.
+
+621
+00:49:23,890 --> 00:49:26,790
+This is just delta
+heat of fusion.
+
+622
+00:49:26,790 --> 00:49:30,130
+Great.
+
+623
+00:49:30,130 --> 00:49:33,490
+Because this is now
+reversible.
+
+624
+00:49:33,490 --> 00:49:35,010
+This is going to
+be reversible.
+
+625
+00:49:35,010 --> 00:49:37,400
+This is going to be reversible.
+
+626
+00:49:37,400 --> 00:49:38,320
+Great.
+
+627
+00:49:38,320 --> 00:49:43,630
+So dq reversible, it's going
+to be the heat capacity at
+
+628
+00:49:43,630 --> 00:49:46,350
+constant pressure, the example
+we did before it was constant
+
+629
+00:49:46,350 --> 00:49:51,380
+volume for the liquid dT.
+
+630
+00:49:51,380 --> 00:49:59,650
+Here, dq reversible is going
+to be Cp solid, dT.
+
+631
+00:49:59,650 --> 00:50:01,180
+Those won't be the same right?
+
+632
+00:50:01,180 --> 00:50:03,600
+It's one thing to say the heat
+capacity of something doesn't
+
+633
+00:50:03,600 --> 00:50:07,170
+change over some small excursion
+in temperature, but
+
+634
+00:50:07,170 --> 00:50:09,520
+it's another thing when the
+thing actually changes phase.
+
+635
+00:50:09,520 --> 00:50:11,350
+The heat capacity of the
+solid and the liquid
+
+636
+00:50:11,350 --> 00:50:14,690
+won't be the same.
+
+637
+00:50:14,690 --> 00:50:18,020
+So this we can just finish up in
+a jiffy, because we're just
+
+638
+00:50:18,020 --> 00:50:23,310
+going to add the three things.
+
+639
+00:50:23,310 --> 00:50:30,720
+So delta S is delta S of
+heating, minus, I think
+
+640
+00:50:30,720 --> 00:50:33,960
+there's a plus that should be
+a minus there, minus delta S
+
+641
+00:50:33,960 --> 00:50:36,150
+of fusion because it's going in
+the direction of freezing
+
+642
+00:50:36,150 --> 00:50:38,070
+the way we've written it.
+
+643
+00:50:38,070 --> 00:50:42,730
+Plus delta S of cooling.
+
+644
+00:50:42,730 --> 00:50:52,770
+So integral from T1 to the
+melting point of Cp of the
+
+645
+00:50:52,770 --> 00:51:01,930
+liquid dT over T, minus delta
+H of fusion over the melting
+
+646
+00:51:01,930 --> 00:51:03,720
+temperature.
+
+647
+00:51:03,720 --> 00:51:07,750
+Plus the integral going from the
+heat of the temperature of
+
+648
+00:51:07,750 --> 00:51:15,100
+melting to T1 of Cp of
+the solid dT over T.
+
+649
+00:51:15,100 --> 00:51:18,770
+That's it, all right?
+
+650
+00:51:18,770 --> 00:51:24,870
+So delta S is minus delta H of
+fusion over T. That's what it
+
+651
+00:51:24,870 --> 00:51:27,300
+would be for just the reversible
+phase change
+
+652
+00:51:27,300 --> 00:51:30,190
+happening at zero
+degrees Celsius.
+
+653
+00:51:30,190 --> 00:51:34,227
+And then there's this additional
+part which is, we
+
+654
+00:51:34,227 --> 00:51:39,370
+can write it from T1 to melting
+point of Cp of the
+
+655
+00:51:39,370 --> 00:51:47,140
+liquid, minus Cp of the
+solid, dT over T.
+
+656
+00:51:47,140 --> 00:51:50,320
+Now usually we can assume that
+these will be temperature
+
+657
+00:51:50,320 --> 00:51:55,080
+independent in their
+own phases.
+
+658
+00:51:55,080 --> 00:51:59,950
+So we can usually write this
+as minus delta H of fusion
+
+659
+00:51:59,950 --> 00:52:10,080
+over the melting temperature
+plus Cp of the liquid minus Cp
+
+660
+00:52:10,080 --> 00:52:21,970
+of the solid log of T
+of fusion over T1.
+
+661
+00:52:21,970 --> 00:52:24,580
+Any questions?
+
+662
+00:52:24,580 --> 00:52:25,900
+What did we do?
+
+663
+00:52:25,900 --> 00:52:28,785
+We constructed a reversible path
+going from here to here
+
+664
+00:52:28,785 --> 00:52:31,380
+and calculated delta S that way,
+and of course that has to
+
+665
+00:52:31,380 --> 00:52:36,110
+be the same as delta S in the
+one irreversible step.
+
+666
+00:52:36,110 --> 00:52:40,360
+All right, more on entropy and
+its consequences for how to
+
+667
+00:52:40,360 --> 00:52:43,930
+figure out what happened
+spontaneously next time.

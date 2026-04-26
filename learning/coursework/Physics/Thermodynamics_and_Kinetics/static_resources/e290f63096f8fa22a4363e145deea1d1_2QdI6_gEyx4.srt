@@ -1,0 +1,3720 @@
+1
+00:00:00,000 --> 00:00:02,400
+The following content is
+provided under a Creative
+
+2
+00:00:02,400 --> 00:00:03,820
+Commons license.
+
+3
+00:00:03,820 --> 00:00:06,850
+Your support will help MIT
+OpenCourseWare continue to
+
+4
+00:00:06,850 --> 00:00:10,520
+offer high quality educational
+resources for free.
+
+5
+00:00:10,520 --> 00:00:13,390
+To make a donation or view
+additional materials from
+
+6
+00:00:13,390 --> 00:00:17,150
+hundreds of MIT courses, visit
+MIT OpenCourseWare at
+
+7
+00:00:17,150 --> 00:00:20,320
+ocw.mit.edu.
+
+8
+00:00:20,320 --> 00:00:24,610
+PROFESSOR: Alright, so last time
+we started talking about
+
+9
+00:00:24,610 --> 00:00:30,000
+more complicated mixtures.
+
+10
+00:00:30,000 --> 00:00:32,500
+To get into colligative
+properties.
+
+11
+00:00:32,500 --> 00:00:41,540
+And the example we gave was a
+binary system that has two
+
+12
+00:00:41,540 --> 00:00:43,880
+components.
+
+13
+00:00:43,880 --> 00:00:49,200
+And two phases.
+
+14
+00:00:49,200 --> 00:00:54,010
+So we have a liquid phase
+on the bottom.
+
+15
+00:00:54,010 --> 00:00:59,470
+A gas phase on top, and two
+components, A and B, where
+
+16
+00:00:59,470 --> 00:01:05,520
+compositions xA and xB are
+in the liquid phase.
+
+17
+00:01:05,520 --> 00:01:06,810
+Those are the mole fractions.
+
+18
+00:01:06,810 --> 00:01:14,955
+And yA and yB in the gas phase,
+the mole fractions in
+
+19
+00:01:14,955 --> 00:01:17,290
+the gas phase.
+
+20
+00:01:17,290 --> 00:01:22,860
+And what we did last time was
+to begin to say how many
+
+21
+00:01:22,860 --> 00:01:25,410
+degrees of freedom do we have,
+how many variables do we need
+
+22
+00:01:25,410 --> 00:01:28,220
+to completely describe
+this mixture.
+
+23
+00:01:28,220 --> 00:01:31,940
+And it turned out that for this
+mixture, we only needed
+
+24
+00:01:31,940 --> 00:01:32,830
+two variables.
+
+25
+00:01:32,830 --> 00:01:34,910
+Two degrees of freedom.
+
+26
+00:01:34,910 --> 00:01:36,970
+We started out with four
+variables; the temperature,
+
+27
+00:01:36,970 --> 00:01:48,090
+the pressure, and the components
+in the composition
+
+28
+00:01:48,090 --> 00:01:51,010
+in the liquid phase and the
+composition in the gas phase.
+
+29
+00:01:51,010 --> 00:01:54,670
+We need one of these, either
+xA or xB, and one of these,
+
+30
+00:01:54,670 --> 00:01:57,900
+either yA or yB because
+they add up to 1.
+
+31
+00:01:57,900 --> 00:02:01,440
+So you start with four, but
+because you are in a mixture,
+
+32
+00:02:01,440 --> 00:02:03,180
+an equilibrium, you
+have constraints.
+
+33
+00:02:03,180 --> 00:02:10,950
+You have the chemical potentials
+that have to be
+
+34
+00:02:10,950 --> 00:02:11,580
+equal to each other.
+
+35
+00:02:11,580 --> 00:02:14,170
+The chemical potential of A in
+the gas phase has to be equal
+
+36
+00:02:14,170 --> 00:02:16,870
+to the chemical potential of
+A in the liquid phase.
+
+37
+00:02:16,870 --> 00:02:19,590
+And the chemical potential of
+B in the gas phase has to B
+
+38
+00:02:19,590 --> 00:02:21,512
+equal to the chemical
+potential of B
+
+39
+00:02:21,512 --> 00:02:22,160
+in the liquid phase.
+
+40
+00:02:22,160 --> 00:02:25,540
+So you start with
+four variables.
+
+41
+00:02:25,540 --> 00:02:32,090
+Temperature, pressure, xA, yA,
+then you have the constraints
+
+42
+00:02:32,090 --> 00:02:38,890
+that mu A, in the liquid phase
+has to be equal to mu
+
+43
+00:02:38,890 --> 00:02:40,860
+A in the gas phase.
+
+44
+00:02:40,860 --> 00:02:42,430
+Because you're at equilibrium.
+
+45
+00:02:42,430 --> 00:02:46,082
+And mu B in the liquid phase
+has to be equal to mu
+
+46
+00:02:46,082 --> 00:02:48,790
+B in the gas phase.
+
+47
+00:02:48,790 --> 00:02:51,580
+So four minus two constraints
+means you have
+
+48
+00:02:51,580 --> 00:02:54,270
+two degrees of freedom.
+
+49
+00:02:54,270 --> 00:02:58,440
+And so if you want to know
+everything about this mixture,
+
+50
+00:02:58,440 --> 00:03:01,490
+all you need is the temperature
+
+51
+00:03:01,490 --> 00:03:02,570
+and the total pressure.
+
+52
+00:03:02,570 --> 00:03:02,960
+And that's enough.
+
+53
+00:03:02,960 --> 00:03:05,017
+It's kind of amazing.
+
+54
+00:03:05,017 --> 00:03:09,430
+Give me the temperature and
+pressure and these two
+
+55
+00:03:09,430 --> 00:03:12,390
+components, like water and
+alcohol, for instance, and I
+
+56
+00:03:12,390 --> 00:03:17,230
+can tell you everything about
+the compositions.
+
+57
+00:03:17,230 --> 00:03:18,410
+It's very powerful.
+
+58
+00:03:18,410 --> 00:03:20,950
+And then we said that this
+turned out to be a special
+
+59
+00:03:20,950 --> 00:03:26,290
+case, or sub-case of the more
+general Gibbs phase rule.
+
+60
+00:03:26,290 --> 00:03:37,380
+where the Gibbs phase rule tells
+you that if you have C
+
+61
+00:03:37,380 --> 00:03:40,670
+components, in this case here
+we have two, and the general
+
+62
+00:03:40,670 --> 00:03:45,900
+case of C components with p
+phases, the number of degrees
+
+63
+00:03:45,900 --> 00:03:47,730
+of freedom is C minus
+p plus two.
+
+64
+00:03:47,730 --> 00:03:54,050
+This is components.
+
+65
+00:03:54,050 --> 00:03:57,100
+And phases.
+
+66
+00:03:57,100 --> 00:03:59,250
+And where we're going to start
+today is by proving this.
+
+67
+00:03:59,250 --> 00:04:04,450
+And then we'll do more with
+this problem here.
+
+68
+00:04:04,450 --> 00:04:08,720
+So the first thing is for us
+to prove Gibbs' phase rule.
+
+69
+00:04:08,720 --> 00:04:10,190
+So Gibbs phase rule.
+
+70
+00:04:10,190 --> 00:04:13,810
+We start out with all the
+variables that we have.
+
+71
+00:04:13,810 --> 00:04:16,750
+And then we add the
+constraints.
+
+72
+00:04:16,750 --> 00:04:20,480
+And for the Gibbs phase rule,
+then we start with the two
+
+73
+00:04:20,480 --> 00:04:22,950
+knobs that we can
+turn externally.
+
+74
+00:04:22,950 --> 00:04:24,720
+Which are the temperature
+and the pressure.
+
+75
+00:04:24,720 --> 00:04:27,090
+So we start with temperature and
+pressure, as two variables
+
+76
+00:04:27,090 --> 00:04:28,550
+that we have.
+
+77
+00:04:28,550 --> 00:04:29,770
+And then we have a
+bunch of phases.
+
+78
+00:04:29,770 --> 00:04:30,940
+We have C phases.
+
+79
+00:04:30,940 --> 00:04:34,210
+And in each phase we have to
+describe the composition in
+
+80
+00:04:34,210 --> 00:04:36,270
+that phase.
+
+81
+00:04:36,270 --> 00:04:40,850
+So, for each phase
+alpha, we have to
+
+82
+00:04:40,850 --> 00:04:44,670
+describe its mole fraction.
+
+83
+00:04:44,670 --> 00:04:48,760
+So here we needed to describe
+xA for phase A. And yA for
+
+84
+00:04:48,760 --> 00:04:53,790
+phase A. For component
+A in the gas phase.
+
+85
+00:04:53,790 --> 00:04:59,350
+So now we have alpha
+components.
+
+86
+00:04:59,350 --> 00:05:05,860
+And for each component we have
+to describe its mole fraction
+
+87
+00:05:05,860 --> 00:05:07,400
+in that particular phase.
+
+88
+00:05:07,400 --> 00:05:12,870
+So we have to describe
+x sub i.
+
+89
+00:05:12,870 --> 00:05:15,040
+But we have a constraint
+on that.
+
+90
+00:05:15,040 --> 00:05:18,240
+The constraint is that the sum
+of all the mole factions has
+
+91
+00:05:18,240 --> 00:05:19,140
+to be equal to one.
+
+92
+00:05:19,140 --> 00:05:20,780
+That's what it is, to
+be a mole fraction.
+
+93
+00:05:20,780 --> 00:05:25,745
+So the constraint is that x sub
+i, i from one to alpha, is
+
+94
+00:05:25,745 --> 00:05:30,510
+equal to one.
+
+95
+00:05:30,510 --> 00:05:36,530
+So the constraint on the number
+of the components,
+
+96
+00:05:36,530 --> 00:05:42,470
+instead of having, actually, i
+goes from one to C, because
+
+97
+00:05:42,470 --> 00:05:46,350
+that's the number components.
+
+98
+00:05:46,350 --> 00:05:51,210
+So instead of having C different
+compositions that we
+
+99
+00:05:51,210 --> 00:05:54,100
+need to take care of, we
+only need C minus one.
+
+100
+00:05:54,100 --> 00:05:56,530
+Just like here we only
+needed one, just xA.
+
+101
+00:05:56,530 --> 00:05:59,190
+We didn't need both xA and xB,
+because we knew the sum was
+
+102
+00:05:59,190 --> 00:06:00,310
+equal to one.
+
+103
+00:06:00,310 --> 00:06:05,320
+So that means that we really
+need C minus one variables to
+
+104
+00:06:05,320 --> 00:06:10,510
+describe the composition
+in one of the phases.
+
+105
+00:06:10,510 --> 00:06:16,320
+But we have p phases,
+so let me fix this.
+
+106
+00:06:16,320 --> 00:06:19,610
+We had C components.
+
+107
+00:06:19,610 --> 00:06:21,000
+We have p phases.
+
+108
+00:06:21,000 --> 00:06:24,170
+And so for each phase, we have
+to describe the composition.
+
+109
+00:06:24,170 --> 00:06:27,850
+So that means that we need p
+times C minus one variables to
+
+110
+00:06:27,850 --> 00:06:31,450
+describe all the components
+and all the phases,
+
+111
+00:06:31,450 --> 00:06:33,820
+plus these extra two.
+
+112
+00:06:33,820 --> 00:06:38,390
+So the total number variables
+then that we start out with
+
+113
+00:06:38,390 --> 00:06:41,990
+before putting the fact that
+we're in equilibrium, is going
+
+114
+00:06:41,990 --> 00:06:47,250
+to be two plus p times
+C minus one.
+
+115
+00:06:47,250 --> 00:06:49,790
+So that's a basic description
+of the system.
+
+116
+00:06:49,790 --> 00:06:51,220
+Then we put in the
+same constraints
+
+117
+00:06:51,220 --> 00:06:52,330
+that we had up here.
+
+118
+00:06:52,330 --> 00:06:58,150
+In terms of the chemical
+potentials.
+
+119
+00:06:58,150 --> 00:07:00,570
+If I take any of the components,
+let's take the
+
+120
+00:07:00,570 --> 00:07:03,240
+alpha component, or the
+i'th component.
+
+121
+00:07:03,240 --> 00:07:07,970
+Because it's in equilibrium, the
+chemical potential of that
+
+122
+00:07:07,970 --> 00:07:12,350
+particular component has to be
+the same in all the phases.
+
+123
+00:07:12,350 --> 00:07:14,660
+So let's take the
+i'th component.
+
+124
+00:07:14,660 --> 00:07:21,510
+So yi in phase one has to be
+equal to yi in phase two, has
+
+125
+00:07:21,510 --> 00:07:25,720
+to be equal to yi in phase
+three, has to be equal to yi
+
+126
+00:07:25,720 --> 00:07:33,350
+in phase p.
+
+127
+00:07:33,350 --> 00:07:35,660
+All the chemical potentials have
+to be the same across all
+
+128
+00:07:35,660 --> 00:07:37,370
+the phases for that component.
+
+129
+00:07:37,370 --> 00:07:42,220
+And if you count the number of
+equations, the number of
+
+130
+00:07:42,220 --> 00:07:47,240
+equals signs here, that's p
+minus one. p minus one equals
+
+131
+00:07:47,240 --> 00:07:50,330
+signs, constraints due to
+the fact that I have an
+
+132
+00:07:50,330 --> 00:07:51,220
+equilibrium here.
+
+133
+00:07:51,220 --> 00:08:03,630
+So this gives me p minus
+one constraints.
+
+134
+00:08:03,630 --> 00:08:05,640
+And this is true for every
+single component.
+
+135
+00:08:05,640 --> 00:08:08,950
+Every single component has to
+have its chemical potential,
+
+136
+00:08:08,950 --> 00:08:12,240
+its chemical potential equal
+throughout the phases.
+
+137
+00:08:12,240 --> 00:08:15,480
+So p minus one's constraint
+for one component times C
+
+138
+00:08:15,480 --> 00:08:16,000
+components.
+
+139
+00:08:16,000 --> 00:08:26,100
+So for a total of C times p
+minus one total constraints.
+
+140
+00:08:26,100 --> 00:08:29,200
+My variables, my constraints.
+
+141
+00:08:29,200 --> 00:08:36,680
+So the number of degrees of
+freedom then becomes p times C
+
+142
+00:08:36,680 --> 00:08:49,180
+minus one minus C times p minus
+one and then plus two.
+
+143
+00:08:49,180 --> 00:08:52,520
+And if you multiply this out,
+p times C gets rid of the p
+
+144
+00:08:52,520 --> 00:08:53,780
+times C here.
+
+145
+00:08:53,780 --> 00:08:58,670
+And you get the plus
+C minus p plus two.
+
+146
+00:08:58,670 --> 00:09:02,320
+Which is the Gibbs phase
+rule, right?
+
+147
+00:09:02,320 --> 00:09:05,630
+Which I'm going to bring
+back up here.
+
+148
+00:09:05,630 --> 00:09:08,020
+C minus p plus two.
+
+149
+00:09:08,020 --> 00:09:12,750
+So just purely in accounting,
+just accounting for the
+
+150
+00:09:12,750 --> 00:09:16,510
+variables and the constraints.
+
+151
+00:09:16,510 --> 00:09:23,430
+OK, any questions on
+how we did this?
+
+152
+00:09:23,430 --> 00:09:26,090
+Great.
+
+153
+00:09:26,090 --> 00:09:26,710
+OK.
+
+154
+00:09:26,710 --> 00:09:33,240
+So let's move on, then, to
+these ideal solutions.
+
+155
+00:09:33,240 --> 00:09:35,110
+Which is this case right here.
+
+156
+00:09:35,110 --> 00:09:38,070
+And the first thing we're going
+to do is look at the
+
+157
+00:09:38,070 --> 00:09:47,470
+case where we have A is a
+solvent, and it's volatile.
+
+158
+00:09:47,470 --> 00:09:50,450
+And B is a solute, which
+is non-volatile.
+
+159
+00:09:50,450 --> 00:09:53,520
+So let's take the first case.
+
+160
+00:09:53,520 --> 00:10:00,240
+We have A volatile,
+that's a solvent.
+
+161
+00:10:00,240 --> 00:10:01,700
+Could be water.
+
+162
+00:10:01,700 --> 00:10:05,440
+And B is going to
+be the solute.
+
+163
+00:10:05,440 --> 00:10:09,880
+It's non-volatile.
+
+164
+00:10:09,880 --> 00:10:12,750
+And let's interchange solute
+or non-volatile to be
+
+165
+00:10:12,750 --> 00:10:14,600
+consistent here.
+
+166
+00:10:14,600 --> 00:10:18,700
+So this could be sugar.
+
+167
+00:10:18,700 --> 00:10:27,250
+A sweet water.
+
+168
+00:10:27,250 --> 00:10:41,050
+So, Mr. Raoult looked at such
+solutions, and found that they
+
+169
+00:10:41,050 --> 00:10:46,470
+could be well described by the
+following diagram here.
+
+170
+00:10:46,470 --> 00:10:51,300
+So if I plot on the x-axis here,
+from zero to one, I'm
+
+171
+00:10:51,300 --> 00:10:57,750
+going to plot the partial molar
+fraction of the solute.
+
+172
+00:10:57,750 --> 00:11:00,010
+Partial molar fractions of the
+solute, that's going to be xB.
+
+173
+00:11:02,530 --> 00:11:06,740
+So when xB equals to zero, I
+have a pure water solution.
+
+174
+00:11:06,740 --> 00:11:11,370
+When xB is equal to one,
+I have pure sugar.
+
+175
+00:11:11,370 --> 00:11:17,990
+Then on the y axis, I'm going
+to plot the total pressure.
+
+176
+00:11:17,990 --> 00:11:20,410
+So when I have a pure water
+solution, the total pressure
+
+177
+00:11:20,410 --> 00:11:26,660
+is going to be the same as the
+vapor pressure of water at a
+
+178
+00:11:26,660 --> 00:11:28,150
+particular temperature.
+
+179
+00:11:28,150 --> 00:11:36,570
+Let's take temperature
+fixed at some value.
+
+180
+00:11:36,570 --> 00:11:39,840
+Temperature is fixed
+at some value.
+
+181
+00:11:39,840 --> 00:11:44,320
+I'm going to have the total
+pressure is going to be the
+
+182
+00:11:44,320 --> 00:11:45,970
+partial pressure of the water.
+
+183
+00:11:45,970 --> 00:11:49,290
+And clearly, when I don't have
+any water left, all I have is
+
+184
+00:11:49,290 --> 00:11:51,390
+the sugar, there's
+no pressure.
+
+185
+00:11:51,390 --> 00:11:54,440
+We're going to assume that it's
+totally non-volatile.
+
+186
+00:11:54,440 --> 00:11:56,000
+Obviously there's going to
+be a little bit of vapor
+
+187
+00:11:56,000 --> 00:11:58,190
+pressure, even at room
+temperature.
+
+188
+00:11:58,190 --> 00:12:01,980
+Ten to the minus, I don't know,
+13 torr or something.
+
+189
+00:12:01,980 --> 00:12:05,340
+But anyway, it's basically
+zero here.
+
+190
+00:12:05,340 --> 00:12:07,680
+And what Raoult said is that
+while these two points are
+
+191
+00:12:07,680 --> 00:12:13,430
+just connected by
+a straight line.
+
+192
+00:12:13,430 --> 00:12:19,800
+Simplest way to connect
+two points.
+
+193
+00:12:19,800 --> 00:12:27,370
+Basically, he said that the
+pressure of, the vapor
+
+194
+00:12:27,370 --> 00:12:32,450
+pressure of the water in
+this case, is equal
+
+195
+00:12:32,450 --> 00:12:38,310
+to xA times pA star.
+
+196
+00:12:38,310 --> 00:12:42,680
+I could also plot this with xA,
+going from one to zero,
+
+197
+00:12:42,680 --> 00:12:49,430
+since xA plus xB is
+equal to one.
+
+198
+00:12:49,430 --> 00:12:56,160
+Or I could write this as one
+minus xB times pA star.
+
+199
+00:12:56,160 --> 00:12:58,890
+Where a star, the star,
+means pure water.
+
+200
+00:12:58,890 --> 00:13:06,660
+So pure A. And pA is the vapor
+pressure of the mixture.
+
+201
+00:13:06,660 --> 00:13:09,000
+Which in this case here is the
+total pressure, because I
+
+202
+00:13:09,000 --> 00:13:12,630
+don't have anything else
+that's volatile.
+
+203
+00:13:12,630 --> 00:13:29,240
+And this is Raoult's law.
+
+204
+00:13:29,240 --> 00:13:32,930
+And the first thing that you can
+use this for is to look at
+
+205
+00:13:32,930 --> 00:13:35,780
+your first colligative property
+which is vapor
+
+206
+00:13:35,780 --> 00:13:45,900
+pressure lowering.
+
+207
+00:13:45,900 --> 00:13:48,120
+And let me point out another
+thing first.
+
+208
+00:13:48,120 --> 00:13:51,940
+So if a solution obeys that
+property here, it's called an
+
+209
+00:13:51,940 --> 00:13:53,230
+ideal solution.
+
+210
+00:13:53,230 --> 00:13:56,470
+So if the water-sugar solution
+really did behave like a
+
+211
+00:13:56,470 --> 00:13:58,290
+straight line like this, as
+you increase the amount of
+
+212
+00:13:58,290 --> 00:14:00,190
+sugar, then it would be
+an ideal solution.
+
+213
+00:14:00,190 --> 00:14:02,270
+Many things are very
+close to it.
+
+214
+00:14:02,270 --> 00:14:07,230
+It's not such a bad
+approximation.
+
+215
+00:14:07,230 --> 00:14:09,490
+Especially in that
+region up here.
+
+216
+00:14:09,490 --> 00:14:12,015
+Around zero, when the amount
+of sugar is pretty small.
+
+217
+00:14:12,015 --> 00:14:19,070
+You expect to obey an ideal
+solution behavior.
+
+218
+00:14:19,070 --> 00:14:24,320
+Alright, so let's look now at
+a glass of water that has
+
+219
+00:14:24,320 --> 00:14:26,150
+sugar in it.
+
+220
+00:14:26,150 --> 00:14:28,320
+We've got my glass
+of water, H20.
+
+221
+00:14:28,320 --> 00:14:34,640
+With some sugar dissolved
+in it.
+
+222
+00:14:34,640 --> 00:14:42,260
+And it's got a certain vapor
+pressure on top. pA, or pH2O.
+
+223
+00:14:42,260 --> 00:14:43,590
+And I'm going to ask the
+question, what's the
+
+224
+00:14:43,590 --> 00:14:48,950
+difference between the vapor
+pressure what it would be
+
+225
+00:14:48,950 --> 00:14:51,370
+without the sugar in it.
+
+226
+00:14:51,370 --> 00:14:59,670
+What is pA star minus pA?
+
+227
+00:14:59,670 --> 00:15:07,230
+Obeys Raoult's law. pA star,
+pA is xA pA star,
+
+228
+00:15:07,230 --> 00:15:09,230
+plug that in here.
+
+229
+00:15:09,230 --> 00:15:15,900
+That's one minus xA pA star,
+one minus xA is xB.
+
+230
+00:15:15,900 --> 00:15:18,410
+xB pA star.
+
+231
+00:15:18,410 --> 00:15:21,010
+Well, the first thing I know
+is that this is a positive
+
+232
+00:15:21,010 --> 00:15:23,573
+number. xB is a positive
+number. pA star
+
+233
+00:15:23,573 --> 00:15:25,020
+is a positive number.
+
+234
+00:15:25,020 --> 00:15:26,500
+This is greater than zero.
+
+235
+00:15:26,500 --> 00:15:31,050
+That means that the act of
+putting some solute in my
+
+236
+00:15:31,050 --> 00:15:37,540
+water decreases the vapor
+pressure of the
+
+237
+00:15:37,540 --> 00:15:40,450
+water in the gas phase.
+
+238
+00:15:40,450 --> 00:15:41,880
+Pretty simple.
+
+239
+00:15:41,880 --> 00:15:47,130
+It's called vapor
+pressure law.
+
+240
+00:15:47,130 --> 00:15:49,550
+And we can actually take
+this one step further.
+
+241
+00:15:49,550 --> 00:15:57,510
+We can draw a phase diagram.
+
+242
+00:15:57,510 --> 00:15:59,990
+So our usual phase diagram here
+with temperature on this
+
+243
+00:15:59,990 --> 00:16:04,470
+axis here and pressure on this
+axis here, and we've got our
+
+244
+00:16:04,470 --> 00:16:09,390
+triple point sitting here.
+
+245
+00:16:09,390 --> 00:16:13,280
+And our gas-liquid line, with
+a critical point here.
+
+246
+00:16:13,280 --> 00:16:16,770
+So this is gas here, there's
+a liquid here.
+
+247
+00:16:16,770 --> 00:16:21,430
+And we've got our, this
+is going to be water.
+
+248
+00:16:21,430 --> 00:16:23,690
+So it's got a negative slope.
+
+249
+00:16:23,690 --> 00:16:26,550
+I think I've got it
+right this time.
+
+250
+00:16:26,550 --> 00:16:29,400
+And there's the solid
+phase here.
+
+251
+00:16:29,400 --> 00:16:31,420
+OK, this is for the
+pure stuff.
+
+252
+00:16:31,420 --> 00:16:40,770
+So now I can draw a similar
+diagram for sugared water.
+
+253
+00:16:40,770 --> 00:16:43,500
+And I just looked at
+this, assuming it
+
+254
+00:16:43,500 --> 00:16:44,480
+obeys Raoult's law.
+
+255
+00:16:44,480 --> 00:16:50,870
+What we looked at here was the
+gas-liquid coexistence.
+
+256
+00:16:50,870 --> 00:16:55,350
+And we found that the gas-liquid
+coexistence point,
+
+257
+00:16:55,350 --> 00:16:58,290
+the vapor pressure of
+the water, was less
+
+258
+00:16:58,290 --> 00:16:59,740
+than if it were pure.
+
+259
+00:16:59,740 --> 00:17:02,670
+So that means that if I looked
+at the gas-liquid coexistence,
+
+260
+00:17:02,670 --> 00:17:05,110
+which is this line right here.
+
+261
+00:17:05,110 --> 00:17:08,710
+In the presence of sugar,
+that whole line is
+
+262
+00:17:08,710 --> 00:17:11,620
+going to get lowered.
+
+263
+00:17:11,620 --> 00:17:14,140
+The pressure, the vapor
+pressure, of the water is
+
+264
+00:17:14,140 --> 00:17:17,400
+going to be lower when
+the sugar is there.
+
+265
+00:17:17,400 --> 00:17:26,770
+So the whole thing is
+going to get lower.
+
+266
+00:17:26,770 --> 00:17:32,325
+Now, if I have a solid, if the
+water is a solid, it's going
+
+267
+00:17:32,325 --> 00:17:34,730
+to crystallize the water, the
+sugar is going to be separated
+
+268
+00:17:34,730 --> 00:17:36,080
+from the water.
+
+269
+00:17:36,080 --> 00:17:38,250
+The sugar and the water are not
+going to really know about
+
+270
+00:17:38,250 --> 00:17:40,700
+each other.
+
+271
+00:17:40,700 --> 00:17:44,840
+They're just going to have big
+chunks of pure water, with
+
+272
+00:17:44,840 --> 00:17:49,430
+every now and then a molecule
+of sugar that's in there.
+
+273
+00:17:49,430 --> 00:17:53,680
+So you don't really expect to
+see any difference between the
+
+274
+00:17:53,680 --> 00:17:58,980
+pure solid water, in terms of
+the gas-solid interface, and
+
+275
+00:17:58,980 --> 00:18:02,290
+the pure liquid water.
+
+276
+00:18:02,290 --> 00:18:06,120
+There's no sugar in
+the gas phase.
+
+277
+00:18:06,120 --> 00:18:11,130
+And as far as the gas phase is
+concerned, that solid phase is
+
+278
+00:18:11,130 --> 00:18:11,820
+pure water.
+
+279
+00:18:11,820 --> 00:18:14,230
+It's just seeing pure ice
+crystals on the surface.
+
+280
+00:18:14,230 --> 00:18:17,400
+Every now and then there's
+a molecule of sugar.
+
+281
+00:18:17,400 --> 00:18:22,970
+So you expect this to be
+pretty close here.
+
+282
+00:18:22,970 --> 00:18:24,850
+So you expect the triple
+point to go down.
+
+283
+00:18:24,850 --> 00:18:30,246
+And if I now, I go up to the
+solid-liquid coexistence, and
+
+284
+00:18:30,246 --> 00:18:34,470
+go up like this, I can make a
+prediction about solid-liquid
+
+285
+00:18:34,470 --> 00:18:36,950
+coexistence.
+
+286
+00:18:36,950 --> 00:18:42,380
+I can predict that if I'm
+looking at, let's put one bar
+
+287
+00:18:42,380 --> 00:18:49,530
+here somewhere.
+
+288
+00:18:49,530 --> 00:18:52,050
+One bar.
+
+289
+00:18:52,050 --> 00:18:53,570
+Room temperature, sitting
+here somewhere.
+
+290
+00:18:53,570 --> 00:18:57,360
+One bar, room temperature,
+water is all liquid.
+
+291
+00:18:57,360 --> 00:19:03,720
+This is what it would usually,
+solid, liquid, that would be
+
+292
+00:19:03,720 --> 00:19:06,510
+273 degrees Kelvin.
+
+293
+00:19:06,510 --> 00:19:10,570
+That's the melting
+point of water.
+
+294
+00:19:10,570 --> 00:19:14,090
+So now if I put sugar in the
+water, and I follow my diagram
+
+295
+00:19:14,090 --> 00:19:21,140
+here, what I find is that the
+new melting point of water is
+
+296
+00:19:21,140 --> 00:19:29,850
+some new temperature T, T1,
+where T1 is less than 273
+
+297
+00:19:29,850 --> 00:19:30,094
+degrees Kelvin.
+
+298
+00:19:30,094 --> 00:19:31,090
+You all know this.
+
+299
+00:19:31,090 --> 00:19:34,640
+When you put something, like an
+impurity, a salt or sugar
+
+300
+00:19:34,640 --> 00:19:37,830
+in the water, the melting
+point gets depressed.
+
+301
+00:19:37,830 --> 00:19:43,110
+It goes down.
+
+302
+00:19:43,110 --> 00:19:44,030
+Straight from here.
+
+303
+00:19:44,030 --> 00:19:46,820
+You can build it up straight
+from here.
+
+304
+00:19:46,820 --> 00:19:51,850
+When we get to the colligative
+properties, we'll attack it
+
+305
+00:19:51,850 --> 00:19:55,740
+from the point of chemical
+potentials.
+
+306
+00:19:55,740 --> 00:19:57,620
+We'll equate chemical potentials
+and we'll look at
+
+307
+00:19:57,620 --> 00:19:59,990
+the change in the chemical
+potential in the water, and
+
+308
+00:19:59,990 --> 00:20:02,090
+the presence of the sugar and
+we'll do it rigorously.
+
+309
+00:20:02,090 --> 00:20:05,010
+But this is sort of the first
+indication that these
+
+310
+00:20:05,010 --> 00:20:08,460
+colligative properties are all
+connected to each other.
+
+311
+00:20:08,460 --> 00:20:13,270
+They're connected to
+this diagram here.
+
+312
+00:20:13,270 --> 00:20:14,360
+OK.
+
+313
+00:20:14,360 --> 00:20:19,940
+So when I was a kid, and I knew
+that this was the case.
+
+314
+00:20:19,940 --> 00:20:21,380
+Everybody knows this
+is the case, right?
+
+315
+00:20:21,380 --> 00:20:24,536
+You put salt in the water
+and you expect all sorts
+
+316
+00:20:24,536 --> 00:20:25,180
+of things to happen.
+
+317
+00:20:25,180 --> 00:20:27,720
+You expect the vapor pressure
+to go down.
+
+318
+00:20:27,720 --> 00:20:31,273
+And certainly you know that you
+add salt to the roads and
+
+319
+00:20:31,273 --> 00:20:33,620
+the water melts, et cetera.
+
+320
+00:20:33,620 --> 00:20:36,850
+And my mother always told me
+that the reason why you added
+
+321
+00:20:36,850 --> 00:20:42,360
+salt to the water was so that
+the temperature of the water
+
+322
+00:20:42,360 --> 00:20:46,050
+would get higher when you
+try to boil pasta.
+
+323
+00:20:46,050 --> 00:20:50,770
+And for, I don't know, fifteen
+years I believed her.
+
+324
+00:20:50,770 --> 00:20:53,110
+Until I taught thermodynamics.
+
+325
+00:20:53,110 --> 00:20:58,010
+And I actually calculated the
+change in the temperature by
+
+326
+00:20:58,010 --> 00:21:01,020
+adding a few pinches of
+salt to the water.
+
+327
+00:21:01,020 --> 00:21:04,730
+And you know how small that
+temperature change is?
+
+328
+00:21:04,730 --> 00:21:05,960
+You should calculate it.
+
+329
+00:21:05,960 --> 00:21:07,880
+It's really tiny.
+
+330
+00:21:07,880 --> 00:21:09,920
+It won't make any difference
+for the water.
+
+331
+00:21:09,920 --> 00:21:12,370
+Probably the difference in the
+temperature of the water will
+
+332
+00:21:12,370 --> 00:21:16,040
+be the same as if I cooked here
+versus halfway up Mount
+
+333
+00:21:16,040 --> 00:21:18,460
+Washington in New Hampshire
+or something.
+
+334
+00:21:18,460 --> 00:21:19,220
+Probably even less.
+
+335
+00:21:19,220 --> 00:21:20,875
+There's no difference.
+
+336
+00:21:20,875 --> 00:21:23,820
+The reason why you add salt is
+so that it tastes better.
+
+337
+00:21:23,820 --> 00:21:24,530
+That's the only reason.
+
+338
+00:21:24,530 --> 00:21:28,610
+It has nothing to do with
+thermodynamics.
+
+339
+00:21:28,610 --> 00:21:35,730
+Alright, any questions
+on this?
+
+340
+00:21:35,730 --> 00:21:37,240
+So we going to make it a little
+bit more complicated
+
+341
+00:21:37,240 --> 00:21:38,090
+now, if there's no questions.
+
+342
+00:21:38,090 --> 00:21:43,070
+We're going to now have,
+instead of having one
+
+343
+00:21:43,070 --> 00:21:47,080
+non-volatile solute, use we're
+going to have two, we're going
+
+344
+00:21:47,080 --> 00:21:47,730
+to have this mixture.
+
+345
+00:21:47,730 --> 00:21:58,580
+Where both components
+are volatile.
+
+346
+00:21:58,580 --> 00:22:03,230
+Can we erase this?
+
+347
+00:22:03,230 --> 00:22:03,950
+Actually, I may not
+erase this.
+
+348
+00:22:03,950 --> 00:22:12,140
+Because I want to keep
+Raoult's law here.
+
+349
+00:22:12,140 --> 00:22:16,000
+OK, we're going to have a
+mixture of two volatile
+
+350
+00:22:16,000 --> 00:22:16,550
+components.
+
+351
+00:22:16,550 --> 00:22:19,960
+For instance, water
+and alcohol.
+
+352
+00:22:19,960 --> 00:22:25,510
+Your your typical martini
+type situation.
+
+353
+00:22:25,510 --> 00:22:26,660
+Or margarita.
+
+354
+00:22:26,660 --> 00:22:40,370
+Whatever's your favorite
+drink.
+
+355
+00:22:40,370 --> 00:22:47,840
+So now we have xA, we have xB,
+we have yA, we have yB.
+
+356
+00:22:47,840 --> 00:23:00,430
+And we're going to assume that
+both obey Raoult's law with
+
+357
+00:23:00,430 --> 00:23:02,590
+respect to each other.
+
+358
+00:23:02,590 --> 00:23:08,100
+So now if I draw a diagram,
+and I just focus on, so
+
+359
+00:23:08,100 --> 00:23:12,080
+there's the total pressure
+sitting here.
+
+360
+00:23:12,080 --> 00:23:14,500
+And I just focus on
+one component
+
+361
+00:23:14,500 --> 00:23:15,400
+and ignore the other.
+
+362
+00:23:15,400 --> 00:23:20,800
+Suppose I focus on A. And I know
+that A in the presence of
+
+363
+00:23:20,800 --> 00:23:25,590
+B, the partial pressure of A is
+going to obey Raoult's law.
+
+364
+00:23:25,590 --> 00:23:28,563
+And let's take A to be the more
+volatile component in
+
+365
+00:23:28,563 --> 00:23:30,240
+this case here.
+
+366
+00:23:30,240 --> 00:23:35,770
+So pA star is bigger
+than pB star.
+
+367
+00:23:35,770 --> 00:23:39,820
+The partial pressure, pure A,
+had a particular temperature,
+
+368
+00:23:39,820 --> 00:23:46,090
+T fixed is bigger than pB star,
+it's the more volatile
+
+369
+00:23:46,090 --> 00:23:48,490
+of the two.
+
+370
+00:23:48,490 --> 00:23:56,980
+So if I were to plot pA as a
+function of xB, going from
+
+371
+00:23:56,980 --> 00:23:59,820
+zero to one, so it'll be
+Raoult's law, I'm going to
+
+372
+00:23:59,820 --> 00:24:04,360
+start at pA star.
+
+373
+00:24:04,360 --> 00:24:09,680
+And I'm going to go down
+linearly to xB equals one.
+
+374
+00:24:09,680 --> 00:24:12,445
+Now I can do the same thing for
+the partial pressure of B.
+
+375
+00:24:12,445 --> 00:24:19,100
+And assume that in the presence
+of A, just looking at
+
+376
+00:24:19,100 --> 00:24:21,200
+this component B, now, and I'm
+looking at the partial
+
+377
+00:24:21,200 --> 00:24:24,530
+pressure of B, and it's got its
+impurity in it, A. B obeys
+
+378
+00:24:24,530 --> 00:24:27,450
+Raoult's law with A in there.
+
+379
+00:24:27,450 --> 00:24:34,080
+But now if I want to keep the
+same x axis here, I can look
+
+380
+00:24:34,080 --> 00:24:36,920
+at xA here, going from
+zero to one.
+
+381
+00:24:36,920 --> 00:24:40,310
+So I just basically flip
+the thing over.
+
+382
+00:24:40,310 --> 00:24:44,950
+So at xA equals zero that's
+pure B. pB star is
+
+383
+00:24:44,950 --> 00:24:45,960
+less than pA star.
+
+384
+00:24:45,960 --> 00:24:49,780
+I'm starting here, on that side
+here. pB star, and I'm
+
+385
+00:24:49,780 --> 00:25:00,246
+going down in a straight line to
+zero. pB is equal to xB pB
+
+386
+00:25:00,246 --> 00:25:02,110
+star, straight line all
+the way to zero when
+
+387
+00:25:02,110 --> 00:25:05,210
+xB is equal to zero.
+
+388
+00:25:05,210 --> 00:25:08,180
+So that's pB.
+
+389
+00:25:08,180 --> 00:25:10,860
+And that's pA.
+
+390
+00:25:10,860 --> 00:25:17,250
+Now, the total pressure is the
+sum of the two. pA plus pB.
+
+391
+00:25:17,250 --> 00:25:21,570
+So the total pressure in this
+system here, that I measure
+
+392
+00:25:21,570 --> 00:25:23,740
+here, is just the sum of these
+two straight lines.
+
+393
+00:25:23,740 --> 00:25:25,220
+Let me do it in blue.
+
+394
+00:25:25,220 --> 00:25:30,510
+The total pressure, if you add
+up these two straight lines
+
+395
+00:25:30,510 --> 00:25:32,320
+together, you got another
+straight line.
+
+396
+00:25:32,320 --> 00:25:38,460
+Two straight lines make a
+straight line. p is pA plus pB
+
+397
+00:25:38,460 --> 00:25:48,030
+is equal to xA pA star
+plus xB pB star.
+
+398
+00:25:48,030 --> 00:25:54,200
+Now, xA and xB are related.
+xB is one minus xA.
+
+399
+00:25:54,200 --> 00:25:57,080
+And so really, this is only a
+function of one variable here.
+
+400
+00:25:57,080 --> 00:26:02,820
+Linearly, with respect
+to one variable.
+
+401
+00:26:02,820 --> 00:26:04,190
+OK, what does this
+diagram tell me?
+
+402
+00:26:04,190 --> 00:26:13,020
+So now, let's ignore
+how we built it.
+
+403
+00:26:13,020 --> 00:26:19,490
+And let's take a look at it.
+
+404
+00:26:19,490 --> 00:26:23,760
+So I have, going to take
+xB on the bottom here.
+
+405
+00:26:23,760 --> 00:26:25,140
+From zero to one.
+
+406
+00:26:25,140 --> 00:26:29,120
+We could choose either one, and
+I've got the straight line
+
+407
+00:26:29,120 --> 00:26:36,370
+for the total pressure going
+from pA star to pB star.
+
+408
+00:26:36,370 --> 00:26:38,890
+T is fixed.
+
+409
+00:26:38,890 --> 00:26:42,360
+I need to tell you that T is
+fixed because I have two
+
+410
+00:26:42,360 --> 00:26:43,920
+degrees of freedom, right?
+
+411
+00:26:43,920 --> 00:26:45,700
+I have two degrees of freedom.
+
+412
+00:26:45,700 --> 00:26:48,500
+My degrees of freedom are the
+temperature, which I'm fixing.
+
+413
+00:26:48,500 --> 00:26:50,880
+And the composition
+in the liquid
+
+414
+00:26:50,880 --> 00:26:52,500
+phase, which I'm fixing.
+
+415
+00:26:52,500 --> 00:26:59,850
+So my two variables are
+xB and T. Those are my
+
+416
+00:26:59,850 --> 00:27:00,820
+two degrees of freedom.
+
+417
+00:27:00,820 --> 00:27:03,330
+And I'm telling you what
+the total pressure is.
+
+418
+00:27:03,330 --> 00:27:08,190
+I'm giving you total pressure as
+a function of xB and T. By
+
+419
+00:27:08,190 --> 00:27:11,510
+fixing T, I'm really telling
+you what the pressure is of
+
+420
+00:27:11,510 --> 00:27:13,190
+the function of xB.
+
+421
+00:27:13,190 --> 00:27:16,250
+So the Gibbs phase rule then
+tells me that the pressure
+
+422
+00:27:16,250 --> 00:27:20,300
+should be only a function
+of xB if T is fixed.
+
+423
+00:27:20,300 --> 00:27:21,600
+Should be a line.
+
+424
+00:27:21,600 --> 00:27:22,980
+Not necessarily straight,
+but it should be a
+
+425
+00:27:22,980 --> 00:27:26,030
+line in this diagram.
+
+426
+00:27:26,030 --> 00:27:28,070
+To have coexistence.
+
+427
+00:27:28,070 --> 00:27:32,330
+So what this line is, then,
+this line is the line of
+
+428
+00:27:32,330 --> 00:27:37,230
+points that tells me when I have
+coexistence between the
+
+429
+00:27:37,230 --> 00:27:41,350
+gas phase and the
+liquid phase.
+
+430
+00:27:41,350 --> 00:27:41,516
+The coexistence line.
+
+431
+00:27:41,516 --> 00:27:44,960
+This is the gas-liquids
+coexistence
+
+432
+00:27:44,960 --> 00:27:47,370
+line for the mixture.
+
+433
+00:27:47,370 --> 00:27:55,440
+It's not so different than this
+coexistence line up here.
+
+434
+00:27:55,440 --> 00:27:59,250
+So you can think of this as a
+phase diagram, kind of like
+
+435
+00:27:59,250 --> 00:28:02,810
+you thought, you know this
+as a phase diagram.
+
+436
+00:28:02,810 --> 00:28:05,360
+It's got a coexistence line.
+
+437
+00:28:05,360 --> 00:28:08,400
+And then if I'm above this
+line, if I'm at a certain
+
+438
+00:28:08,400 --> 00:28:13,810
+pressure here, I'm at this
+point here, this pressure
+
+439
+00:28:13,810 --> 00:28:17,620
+well, let's go to a
+slightly higher
+
+440
+00:28:17,620 --> 00:28:18,730
+different pressure here.
+
+441
+00:28:18,730 --> 00:28:22,890
+And this composition here.
+
+442
+00:28:22,890 --> 00:28:24,540
+I'm not on the line.
+
+443
+00:28:24,540 --> 00:28:27,230
+That means that I don't
+have coexistence
+
+444
+00:28:27,230 --> 00:28:29,380
+between liquid and gas.
+
+445
+00:28:29,380 --> 00:28:30,260
+I'm above the line.
+
+446
+00:28:30,260 --> 00:28:35,215
+I'm at a pressure higher then
+where I would get coexistence.
+
+447
+00:28:35,215 --> 00:28:38,060
+The pressure is higher,
+means I probably don't
+
+448
+00:28:38,060 --> 00:28:42,170
+have a gas any more.
+
+449
+00:28:42,170 --> 00:28:45,320
+Probably means that the total
+pressure pushing down on my
+
+450
+00:28:45,320 --> 00:28:48,730
+mixture is too high to have
+a gas phase around.
+
+451
+00:28:48,730 --> 00:28:55,700
+It means that the top part
+here is a liquid phase.
+
+452
+00:28:55,700 --> 00:29:00,760
+So I'm in the liquid phase if
+I'm above this line and I have
+
+453
+00:29:00,760 --> 00:29:03,590
+a coexistence between the
+gas and the liquid
+
+454
+00:29:03,590 --> 00:29:06,310
+if I'm on the line.
+
+455
+00:29:06,310 --> 00:29:13,210
+Now, if I'm below this line
+here, well, I get in trouble.
+
+456
+00:29:13,210 --> 00:29:17,740
+I get in trouble because my
+first instinct would be, well
+
+457
+00:29:17,740 --> 00:29:19,120
+this is just gas.
+
+458
+00:29:19,120 --> 00:29:22,400
+I go from liquid, and then
+I have coexistence.
+
+459
+00:29:22,400 --> 00:29:24,180
+Then I go into the gas phase.
+
+460
+00:29:24,180 --> 00:29:27,090
+But my x-axis here is
+the composition
+
+461
+00:29:27,090 --> 00:29:28,670
+in the liquid phase.
+
+462
+00:29:28,670 --> 00:29:31,990
+There's no liquid around.
+
+463
+00:29:31,990 --> 00:29:35,130
+So I really can't say
+anything here.
+
+464
+00:29:35,130 --> 00:29:37,300
+This diagram is a little bit
+meaningless down here.
+
+465
+00:29:37,300 --> 00:29:40,500
+Because my x-axis is describing
+a phase which
+
+466
+00:29:40,500 --> 00:29:45,150
+doesn't exist on the diagram.
+
+467
+00:29:45,150 --> 00:29:48,650
+On this diagram, here.
+
+468
+00:29:48,650 --> 00:29:51,430
+So when you see it, this diagram
+here with Raoult's law
+
+469
+00:29:51,430 --> 00:29:54,810
+on it, you've got to remember
+that the part that's really
+
+470
+00:29:54,810 --> 00:30:00,090
+interesting is above the line
+and at the line itself.
+
+471
+00:30:00,090 --> 00:30:14,100
+So you could do an experiment,
+then, on this line here.
+
+472
+00:30:14,100 --> 00:30:14,330
+T fixed.
+
+473
+00:30:14,330 --> 00:30:20,170
+This is the liquid phase.
+
+474
+00:30:20,170 --> 00:30:22,420
+So suppose I start
+with some high
+
+475
+00:30:22,420 --> 00:30:23,620
+pressure up here somewhere.
+
+476
+00:30:23,620 --> 00:30:29,220
+At this point, let's call
+this point one.
+
+477
+00:30:29,220 --> 00:30:36,680
+We've got my container, my
+piston here. p is equal to p1.
+
+478
+00:30:36,680 --> 00:30:38,676
+Again, I put the point
+in an awkward place.
+
+479
+00:30:38,676 --> 00:30:51,400
+Let's put it right there.
+p1, and composition xB.
+
+480
+00:30:51,400 --> 00:30:56,800
+p1 and xB here.
+
+481
+00:30:56,800 --> 00:31:02,510
+And I'm going to slowly
+decrease the pressure.
+
+482
+00:31:02,510 --> 00:31:03,770
+I start in this composition.
+
+483
+00:31:03,770 --> 00:31:05,720
+The composition doesn't
+change.
+
+484
+00:31:05,720 --> 00:31:07,070
+I'm just decreasing
+the pressure.
+
+485
+00:31:07,070 --> 00:31:08,450
+Decrease the pressure, decrease
+the pressure,
+
+486
+00:31:08,450 --> 00:31:09,060
+decrease the pressure.
+
+487
+00:31:09,060 --> 00:31:14,530
+And at some point, I
+get to that line.
+
+488
+00:31:14,530 --> 00:31:18,540
+Get to that line, what happens
+when I get to that line?
+
+489
+00:31:18,540 --> 00:31:21,260
+I start to see bubbles coming
+out of the liquid.
+
+490
+00:31:21,260 --> 00:31:22,530
+Vapor starts to form, because
+it wants to be in the
+
+491
+00:31:22,530 --> 00:31:24,330
+coexistence line.
+
+492
+00:31:24,330 --> 00:31:25,490
+So I get to that line.
+
+493
+00:31:25,490 --> 00:31:29,100
+And I get a little bit
+of bubbles forming.
+
+494
+00:31:29,100 --> 00:31:32,060
+And a little bit of vapor.
+
+495
+00:31:32,060 --> 00:31:33,980
+That's the liquid here.
+
+496
+00:31:33,980 --> 00:31:36,090
+Little bit of gas.
+
+497
+00:31:36,090 --> 00:31:44,870
+And that's why this line here
+is called the bubble line.
+
+498
+00:31:44,870 --> 00:31:48,250
+So I've gone down, decreased
+the pressure.
+
+499
+00:31:48,250 --> 00:31:50,740
+So p has gone down now.
+
+500
+00:31:50,740 --> 00:31:52,600
+Decreased the pressure.
+
+501
+00:31:52,600 --> 00:31:58,740
+And if I keep on decreasing
+pressure, well, I'm not going
+
+502
+00:31:58,740 --> 00:32:00,450
+to jump into this area
+of the diagram.
+
+503
+00:32:00,450 --> 00:32:02,690
+Because this area of the diagram
+means there's no
+
+504
+00:32:02,690 --> 00:32:05,410
+liquid, it's a meaningless
+area.
+
+505
+00:32:05,410 --> 00:32:08,416
+If I keep decreasing the
+pressure, I'm still going to
+
+506
+00:32:08,416 --> 00:32:09,190
+be in coexistence.
+
+507
+00:32:09,190 --> 00:32:12,170
+I'm just going to
+make more gas.
+
+508
+00:32:12,170 --> 00:32:13,170
+More vapor.
+
+509
+00:32:13,170 --> 00:32:15,610
+I'm going to transfer
+more of the liquid
+
+510
+00:32:15,610 --> 00:32:17,070
+into the vapor phase.
+
+511
+00:32:17,070 --> 00:32:21,120
+I'm going to ride
+down that line.
+
+512
+00:32:21,120 --> 00:32:22,370
+I'm going to ride
+down the line.
+
+513
+00:32:22,370 --> 00:32:23,320
+I'm decreasing the pressure.
+
+514
+00:32:23,320 --> 00:32:24,510
+I'm not going to
+skip into here.
+
+515
+00:32:24,510 --> 00:32:29,150
+I'm going to ride down
+the line here.
+
+516
+00:32:29,150 --> 00:32:33,690
+We're going to keep decreasing
+the pressure even more. p goes
+
+517
+00:32:33,690 --> 00:32:34,060
+down even more.
+
+518
+00:32:34,060 --> 00:32:37,820
+Now, I make even more vapor.
+
+519
+00:32:37,820 --> 00:32:41,620
+There's my piston right there.
+
+520
+00:32:41,620 --> 00:32:43,850
+There's the gas phase.
+
+521
+00:32:43,850 --> 00:32:46,240
+There's the liquid phase.
+
+522
+00:32:46,240 --> 00:32:51,400
+Now I've transferred material
+from the liquid
+
+523
+00:32:51,400 --> 00:32:53,730
+phase to the gas phase.
+
+524
+00:32:53,730 --> 00:32:55,810
+But I also changed
+the composition
+
+525
+00:32:55,810 --> 00:32:57,500
+of my liquid phase.
+
+526
+00:32:57,500 --> 00:33:02,420
+And if I read my new
+composition, this is what I
+
+527
+00:33:02,420 --> 00:33:05,080
+started out with. xB.
+
+528
+00:33:05,080 --> 00:33:09,990
+My new composition in the liquid
+phase is going to be,
+
+529
+00:33:09,990 --> 00:33:15,220
+let's call it xB prime.
+
+530
+00:33:15,220 --> 00:33:17,340
+There's going to be more
+solute in there.
+
+531
+00:33:17,340 --> 00:33:24,310
+Or more B in there, than what
+I started out with.
+
+532
+00:33:24,310 --> 00:33:25,800
+Now which one was the
+more volatile one?
+
+533
+00:33:25,800 --> 00:33:27,950
+A or B?
+
+534
+00:33:27,950 --> 00:33:29,320
+A was more volatile, right?
+
+535
+00:33:29,320 --> 00:33:34,610
+So as I decreased the pressure
+and I started bubbling off the
+
+536
+00:33:34,610 --> 00:33:38,410
+material, which one's going to
+bubble off preferentially?
+
+537
+00:33:38,410 --> 00:33:39,910
+A is going to.
+
+538
+00:33:39,910 --> 00:33:47,350
+So it makes sense that I would
+concentrate B in there.
+
+539
+00:33:47,350 --> 00:33:49,040
+Decrease the pressure.
+
+540
+00:33:49,040 --> 00:33:51,820
+Bubbles that are rich
+in A come out.
+
+541
+00:33:51,820 --> 00:33:52,940
+Both A and B come out.
+
+542
+00:33:52,940 --> 00:33:56,940
+But more A comes out than B. And
+what's left over is rich
+
+543
+00:33:56,940 --> 00:34:01,080
+and then more than the less
+volatile material which is B.
+
+544
+00:34:01,080 --> 00:34:05,920
+So we're beginning to see how
+distillation comes about.
+
+545
+00:34:05,920 --> 00:34:07,730
+This is the first step in it.
+
+546
+00:34:07,730 --> 00:34:18,220
+In a distillation process.
+
+547
+00:34:18,220 --> 00:34:21,410
+So let's make this a little
+bit more complicated now.
+
+548
+00:34:21,410 --> 00:34:30,380
+Any questions, first?
+
+549
+00:34:30,380 --> 00:34:32,490
+Alright, now, suppose
+I wanted to know.
+
+550
+00:34:32,490 --> 00:34:36,280
+So I found out where the
+composition in the liquid
+
+551
+00:34:36,280 --> 00:34:38,080
+phase is here.
+
+552
+00:34:38,080 --> 00:34:41,505
+And I know that should tell
+me immediately whether the
+
+553
+00:34:41,505 --> 00:34:43,970
+composition in the gas
+phase is here.
+
+554
+00:34:43,970 --> 00:34:47,860
+So I have all, I have everything
+I need to know to
+
+555
+00:34:47,860 --> 00:34:52,030
+calculate what the composition
+in the gas phase is.
+
+556
+00:34:52,030 --> 00:34:55,220
+So I have everything I need,
+then, to calculate and draw a
+
+557
+00:34:55,220 --> 00:34:58,510
+diagram that looks
+just like this.
+
+558
+00:34:58,510 --> 00:35:04,520
+Except where my x-axis is the
+y's instead of the x's.
+
+559
+00:35:04,520 --> 00:35:06,660
+Going to make the same diagram,
+except now I'm going
+
+560
+00:35:06,660 --> 00:35:10,380
+to use the gas phase as
+my reference point.
+
+561
+00:35:10,380 --> 00:35:15,590
+The composition in
+the gas phase.
+
+562
+00:35:15,590 --> 00:35:22,190
+So I need to get, so here I
+got p as a function of xB.
+
+563
+00:35:22,190 --> 00:35:30,250
+I want p, total pressure,
+as a function of yB.
+
+564
+00:35:30,250 --> 00:35:33,240
+So I can draw a diagram that
+looks just like this except
+
+565
+00:35:33,240 --> 00:35:41,310
+now with the x-axis being the
+gas phase composition.
+
+566
+00:35:41,310 --> 00:35:41,980
+Let's turn the crank.
+
+567
+00:35:41,980 --> 00:35:45,880
+What do I know?
+
+568
+00:35:45,880 --> 00:35:55,400
+I know Dalton's law. pA is
+yA times total pressure.
+
+569
+00:35:55,400 --> 00:35:59,810
+I'm trying mix up the partial
+pressures and the total
+
+570
+00:35:59,810 --> 00:36:02,950
+pressure in all ways that
+I know how to write it.
+
+571
+00:36:02,950 --> 00:36:05,595
+And then hope that something's
+going to come out that's going
+
+572
+00:36:05,595 --> 00:36:06,540
+to be helpful.
+
+573
+00:36:06,540 --> 00:36:10,700
+So that's Dalton's law.
+
+574
+00:36:10,700 --> 00:36:17,960
+I know Raoult's law. pA is
+xA star times pA star.
+
+575
+00:36:17,960 --> 00:36:22,740
+And that's Raoult.
+
+576
+00:36:22,740 --> 00:36:25,400
+And I can write Raoult's
+law in a different way.
+
+577
+00:36:25,400 --> 00:36:31,120
+I can write as pB is equal to
+xB pB star, that's just
+
+578
+00:36:31,120 --> 00:36:41,310
+Raoult's law for B. One
+minus xA pB star.
+
+579
+00:36:41,310 --> 00:36:45,200
+And I'm looking for this.
+
+580
+00:36:45,200 --> 00:36:48,340
+I'm looking for the composition
+in the gas phase.
+
+581
+00:36:48,340 --> 00:36:50,687
+Or the total pressure as a
+function of the composition in
+
+582
+00:36:50,687 --> 00:36:51,010
+the gas phase.
+
+583
+00:36:51,010 --> 00:36:54,830
+Let's start by finding the
+composition in the gas phase
+
+584
+00:36:54,830 --> 00:36:56,610
+as a function of
+the composition
+
+585
+00:36:56,610 --> 00:36:58,450
+in the liquid phase.
+
+586
+00:36:58,450 --> 00:37:01,990
+And the total pressure.
+
+587
+00:37:01,990 --> 00:37:08,940
+Rewrite yA is equal to
+pA over P. Total
+
+588
+00:37:08,940 --> 00:37:11,380
+pressure is pA plus pB.
+
+589
+00:37:11,380 --> 00:37:16,320
+Sum of the two partial
+pressures. pA over pA plus pB.
+
+590
+00:37:16,320 --> 00:37:19,290
+And I'm trying to get yA
+in terms of the xA's.
+
+591
+00:37:19,290 --> 00:37:21,000
+Or xB's, in terms
+of composition
+
+592
+00:37:21,000 --> 00:37:22,680
+in the liquid phase.
+
+593
+00:37:22,680 --> 00:37:25,860
+And I know how to relate
+that to a constant.
+
+594
+00:37:25,860 --> 00:37:29,850
+Which is the vapor pressure of
+the pure material times the,
+
+595
+00:37:29,850 --> 00:37:33,280
+and the composition of the
+liquid phase, Raoult's law.
+
+596
+00:37:33,280 --> 00:37:44,490
+This is xA pA star divided by
+xA pA star plus xB pB star.
+
+597
+00:37:44,490 --> 00:37:46,750
+And I know that xB
+is one minus xA.
+
+598
+00:37:46,750 --> 00:37:59,320
+So this is xA pA star times pB
+star plus pA star minus pB
+
+599
+00:37:59,320 --> 00:38:02,900
+star times xA.
+
+600
+00:38:02,900 --> 00:38:07,330
+Where all I did was replace
+xB with one minus xA.
+
+601
+00:38:07,330 --> 00:38:10,070
+And rearrange my equation
+on the bottom.
+
+602
+00:38:10,070 --> 00:38:15,310
+So I've gotten the composition
+in the gas phase in terms of
+
+603
+00:38:15,310 --> 00:38:17,960
+the composition in
+the liquid phase.
+
+604
+00:38:17,960 --> 00:38:18,830
+They're not independent.
+
+605
+00:38:18,830 --> 00:38:20,430
+I knew they weren't
+independent.
+
+606
+00:38:20,430 --> 00:38:24,220
+And this just shows me
+that math works.
+
+607
+00:38:24,220 --> 00:38:24,490
+OK.
+
+608
+00:38:24,490 --> 00:38:25,500
+So I've got that.
+
+609
+00:38:25,500 --> 00:38:28,620
+And I can invert this to get the
+composition in the liquid
+
+610
+00:38:28,620 --> 00:38:31,080
+phase in terms of the
+composition in the gas phase.
+
+611
+00:38:31,080 --> 00:38:35,200
+It's not so straightforward,
+but you can get xA as a
+
+612
+00:38:35,200 --> 00:38:37,720
+function of yA, as well.
+
+613
+00:38:37,720 --> 00:38:40,300
+You've got xA, if you reverse
+this you get xA is
+
+614
+00:38:40,300 --> 00:38:44,605
+equal to yA pB star.
+
+615
+00:38:44,605 --> 00:38:54,420
+It looks kind of the same. pB
+star plus pA star plus pB star
+
+616
+00:38:54,420 --> 00:39:01,310
+minus pA star times yA. xA
+as a function of yA.
+
+617
+00:39:05,560 --> 00:39:05,880
+Alright.
+
+618
+00:39:05,880 --> 00:39:11,690
+So now you can actually put
+everything together, starting
+
+619
+00:39:11,690 --> 00:39:13,200
+from Dalton's law.
+
+620
+00:39:13,200 --> 00:39:15,920
+Because really what we want
+is the total pressure as a
+
+621
+00:39:15,920 --> 00:39:19,070
+function of the composition
+in the gas phase.
+
+622
+00:39:19,070 --> 00:39:20,500
+So there's our total
+pressure here.
+
+623
+00:39:20,500 --> 00:39:22,740
+There's the composition
+in the gas phase.
+
+624
+00:39:22,740 --> 00:39:24,520
+There's pA.
+
+625
+00:39:24,520 --> 00:39:26,960
+We've found composition in
+the gas phase in terms of
+
+626
+00:39:26,960 --> 00:39:30,930
+composition in the
+liquid phase.
+
+627
+00:39:30,930 --> 00:39:38,620
+P is equal to yA over pA.
+
+628
+00:39:38,620 --> 00:39:45,050
+Which is equal to yA
+over xA pA star.
+
+629
+00:39:45,050 --> 00:39:48,030
+So if we could get rid of
+this here, in terms of
+
+630
+00:39:48,030 --> 00:39:49,200
+yA, we'd be all set.
+
+631
+00:39:49,200 --> 00:39:52,800
+We'd get the total pressure as
+a function of the composition
+
+632
+00:39:52,800 --> 00:39:54,240
+in the gas phase.
+
+633
+00:39:54,240 --> 00:39:57,860
+And there's what we need.
+
+634
+00:39:57,860 --> 00:40:00,420
+So we plug that in here.
+
+635
+00:40:00,420 --> 00:40:06,320
+And now we have the total
+pressure in terms of constants
+
+636
+00:40:06,320 --> 00:40:12,310
+like these pure vapor pressures
+and the composition
+
+637
+00:40:12,310 --> 00:40:18,380
+of A in the gas phase.
+
+638
+00:40:18,380 --> 00:40:21,110
+So let me find a way to
+write that somewhere.
+
+639
+00:40:21,110 --> 00:40:24,870
+Let me write it right here
+in this little box here.
+
+640
+00:40:24,870 --> 00:40:29,150
+Plug it in, you get something
+that's not a straight line.
+
+641
+00:40:29,150 --> 00:40:31,010
+Unfortunately.
+
+642
+00:40:31,010 --> 00:40:37,330
+Doesn't look like Raoult's law.
+pA star pB star. pA star
+
+643
+00:40:37,330 --> 00:40:48,790
+plus pB star minus
+pA star times yA.
+
+644
+00:40:48,790 --> 00:40:49,950
+It's not a straight line.
+
+645
+00:40:49,950 --> 00:40:57,390
+It's a more complicated
+function.
+
+646
+00:40:57,390 --> 00:41:16,860
+What does it look like?
+
+647
+00:41:16,860 --> 00:41:17,430
+Looks like this.
+
+648
+00:41:17,430 --> 00:41:23,050
+I'm going to use the
+same sort of plot.
+
+649
+00:41:23,050 --> 00:41:25,040
+I going to plot the total
+pressure on this axis here, on
+
+650
+00:41:25,040 --> 00:41:25,920
+the y axis.
+
+651
+00:41:25,920 --> 00:41:28,120
+I'm going to keep the T fixed.
+
+652
+00:41:28,120 --> 00:41:31,210
+Temperature is fixed.
+
+653
+00:41:31,210 --> 00:41:34,220
+So I'm going to find the total
+pressure as a function of the
+
+654
+00:41:34,220 --> 00:41:35,270
+composition in the gas phase.
+
+655
+00:41:35,270 --> 00:41:42,870
+I'm going to put yB here. yB
+going from zero to one.
+
+656
+00:41:42,870 --> 00:41:50,720
+So it's kind of looking like
+what I had before.
+
+657
+00:41:50,720 --> 00:41:51,990
+Total pressure is going
+to look the same.
+
+658
+00:41:51,990 --> 00:41:54,450
+If you want to do it in terms of
+B, you just have everywhere
+
+659
+00:41:54,450 --> 00:41:56,240
+you see B replace it with A.
+And everywhere you see A
+
+660
+00:41:56,240 --> 00:42:02,130
+replace it with B. You just
+need to change the two.
+
+661
+00:42:02,130 --> 00:42:06,730
+You know that if yB is equal to
+zero, that you have pure A.
+
+662
+00:42:06,730 --> 00:42:12,190
+So you know that this is going
+to be pA star here.
+
+663
+00:42:12,190 --> 00:42:14,630
+You know if you have yB equals
+to one in the gas phase, you
+
+664
+00:42:14,630 --> 00:42:16,080
+have pure B in the gas phase.
+
+665
+00:42:16,080 --> 00:42:20,320
+You know that what you have is
+the vapor pressure of the pure
+
+666
+00:42:20,320 --> 00:42:26,540
+B, in this case the pure
+water. pB star, OK?
+
+667
+00:42:26,540 --> 00:42:32,300
+Where A is more volatile then B.
+A would be the ethanol and
+
+668
+00:42:32,300 --> 00:42:35,830
+B would be the water.
+
+669
+00:42:35,830 --> 00:42:37,330
+And it's not a straight line.
+
+670
+00:42:37,330 --> 00:42:39,414
+If it were Raoult, he would
+say just connect these two
+
+671
+00:42:39,414 --> 00:42:40,280
+with a straight line.
+
+672
+00:42:40,280 --> 00:42:41,310
+But it's not.
+
+673
+00:42:41,310 --> 00:42:44,280
+It's not, we just figured out
+with an equation here.
+
+674
+00:42:44,280 --> 00:42:49,050
+And it turns out to be a line
+that looks like this.
+
+675
+00:42:49,050 --> 00:42:55,150
+It's a curved line that
+looks a bit like this.
+
+676
+00:42:55,150 --> 00:42:57,020
+OK, what does this line mean?
+
+677
+00:42:57,020 --> 00:43:01,540
+This line is also a
+coexistence line.
+
+678
+00:43:01,540 --> 00:43:02,510
+That's what we started
+out with.
+
+679
+00:43:02,510 --> 00:43:05,410
+We started out with Raoult.
+
+680
+00:43:05,410 --> 00:43:07,560
+That was part of
+our derivation.
+
+681
+00:43:07,560 --> 00:43:15,120
+Raoult's law tells you the
+composition at coexistence.
+
+682
+00:43:15,120 --> 00:43:18,260
+Tells you the pressure of, the
+total pressure, or partial
+
+683
+00:43:18,260 --> 00:43:21,200
+pressure at coexistence
+and the composition.
+
+684
+00:43:21,200 --> 00:43:23,820
+So this is a coexistence
+line between the
+
+685
+00:43:23,820 --> 00:43:26,390
+liquid and the gas.
+
+686
+00:43:26,390 --> 00:43:28,120
+Coexistence between
+liquid and gas.
+
+687
+00:43:28,120 --> 00:43:30,382
+But now, it's not as a function
+of the composition at
+
+688
+00:43:30,382 --> 00:43:30,990
+the liquid phase.
+
+689
+00:43:30,990 --> 00:43:34,500
+It's a function of the
+composition in the gas phase.
+
+690
+00:43:34,500 --> 00:43:38,460
+Which was missing before.
+
+691
+00:43:38,460 --> 00:43:43,890
+So now if I do my experiment,
+and I'm, so
+
+692
+00:43:43,890 --> 00:43:44,950
+what does this mean?
+
+693
+00:43:44,950 --> 00:43:48,540
+So if I have a point, if I have
+a pressure which is lower
+
+694
+00:43:48,540 --> 00:43:51,110
+than the line here, then
+I have pure gas.
+
+695
+00:43:51,110 --> 00:43:52,820
+Pressure, low pressure,
+I have pure gas.
+
+696
+00:43:52,820 --> 00:43:53,810
+Don't have any liquids.
+
+697
+00:43:53,810 --> 00:43:56,950
+And that's fine, because
+I can, I know
+
+698
+00:43:56,950 --> 00:43:57,600
+what that point is.
+
+699
+00:43:57,600 --> 00:44:02,870
+If I'm sitting below the
+line here somewhere,
+
+700
+00:44:02,870 --> 00:44:06,640
+so I'm sitting here.
+
+701
+00:44:06,640 --> 00:44:09,630
+Some composition in the gas
+phase, a certain pressure.
+
+702
+00:44:09,630 --> 00:44:11,300
+That's fine.
+
+703
+00:44:11,300 --> 00:44:15,280
+It's a meaningful point.
+
+704
+00:44:15,280 --> 00:44:18,870
+So my container here
+has a piston on it.
+
+705
+00:44:18,870 --> 00:44:26,120
+And I'm starting out with
+this pressure, p1 here.
+
+706
+00:44:26,120 --> 00:44:27,490
+p1 pressing down.
+
+707
+00:44:27,490 --> 00:44:30,240
+And I got yB in this here.
+
+708
+00:44:30,240 --> 00:44:33,930
+And I increase the pressure,
+pressure goes up.
+
+709
+00:44:33,930 --> 00:44:35,340
+Composition doesn't change.
+
+710
+00:44:35,340 --> 00:44:38,250
+I'm just increasing
+the pressure.
+
+711
+00:44:38,250 --> 00:44:39,640
+Increasing the pressure,
+increasing the pressure.
+
+712
+00:44:39,640 --> 00:44:42,380
+Now, at some point the pressure
+becomes big enough
+
+713
+00:44:42,380 --> 00:44:44,720
+that I start to see
+liquid forming.
+
+714
+00:44:44,720 --> 00:44:54,970
+Little drops of liquid forming
+in my container.
+
+715
+00:44:54,970 --> 00:44:58,255
+So now I have little drops of
+liquid that are forming in my
+
+716
+00:44:58,255 --> 00:45:01,750
+container, that are going to
+start to rain down and form a
+
+717
+00:45:01,750 --> 00:45:04,290
+little bit of liquid
+pooling at the
+
+718
+00:45:04,290 --> 00:45:05,640
+bottom of the container.
+
+719
+00:45:05,640 --> 00:45:10,420
+And that's called
+the dew line.
+
+720
+00:45:10,420 --> 00:45:12,860
+The other one was called the
+bubble line, this is called
+
+721
+00:45:12,860 --> 00:45:15,520
+the dew line.
+
+722
+00:45:15,520 --> 00:45:19,180
+So when I reach the dew line,
+I start forming liquid.
+
+723
+00:45:19,180 --> 00:45:21,210
+And again, just like in the
+previous case, if I keep
+
+724
+00:45:21,210 --> 00:45:24,360
+increasing the pressure, I don't
+go into this area here.
+
+725
+00:45:24,360 --> 00:45:25,770
+First of all, this area's
+meaningless for
+
+726
+00:45:25,770 --> 00:45:27,620
+this diagram here.
+
+727
+00:45:27,620 --> 00:45:31,550
+Because this area's
+pure liquid.
+
+728
+00:45:31,550 --> 00:45:34,070
+But the x-axis here doesn't tell
+me about the composition
+
+729
+00:45:34,070 --> 00:45:34,530
+of pure liquid.
+
+730
+00:45:34,530 --> 00:45:35,680
+It's all yB.
+
+731
+00:45:35,680 --> 00:45:38,130
+It's all about the composition
+in the gas -- yes.
+
+732
+00:45:38,130 --> 00:45:40,980
+STUDENT: [INAUDIBLE]
+
+733
+00:45:40,980 --> 00:45:43,130
+PROFESSOR: Between the dew
+line and the bubble line?
+
+734
+00:45:43,130 --> 00:45:43,410
+STUDENT: Yeah.
+
+735
+00:45:43,410 --> 00:45:44,330
+PROFESSOR: This never,
+never world.
+
+736
+00:45:44,330 --> 00:45:47,970
+Where you're not allowed
+to inhabit.
+
+737
+00:45:47,970 --> 00:45:54,760
+We're going to go into
+that next time.
+
+738
+00:45:54,760 --> 00:45:57,920
+On how to use those two
+curves together.
+
+739
+00:45:57,920 --> 00:45:59,220
+OK, but the same thing
+happens here.
+
+740
+00:45:59,220 --> 00:46:01,270
+If I increase the pressure,
+I'm going to ride the
+
+741
+00:46:01,270 --> 00:46:01,680
+coexistence line up.
+
+742
+00:46:01,680 --> 00:46:12,770
+I ride it up, and keep
+riding it up.
+
+743
+00:46:12,770 --> 00:46:14,780
+And I get liquid forming
+in here.
+
+744
+00:46:14,780 --> 00:46:16,325
+And I can find out the
+composition in
+
+745
+00:46:16,325 --> 00:46:17,100
+the gas phase now.
+
+746
+00:46:17,100 --> 00:46:20,490
+The composition in the gas
+phase, as I increase the
+
+747
+00:46:20,490 --> 00:46:25,620
+pressure, I get yB prime,
+there's yB that I
+
+748
+00:46:25,620 --> 00:46:26,920
+started out with with.
+
+749
+00:46:26,920 --> 00:46:30,510
+With yB prime is less than yB.
+
+750
+00:46:30,510 --> 00:46:37,320
+And remember, B was the less
+volatile of the two.
+
+751
+00:46:37,320 --> 00:46:42,200
+As I increase the pressure,
+I am forming liquid.
+
+752
+00:46:42,200 --> 00:46:46,030
+The composition in the
+gas phase changes.
+
+753
+00:46:46,030 --> 00:46:50,750
+You decrease the mole fraction
+of the less volatile material
+
+754
+00:46:50,750 --> 00:46:51,440
+in the gas phase.
+
+755
+00:46:51,440 --> 00:46:55,300
+The more volatile
+A becomes more
+
+756
+00:46:55,300 --> 00:46:57,010
+prevalent in the gas phase.
+
+757
+00:46:57,010 --> 00:47:01,250
+And what's coming down is
+mostly, then, it's enriched in
+
+758
+00:47:01,250 --> 00:47:07,190
+B. You've done an enrichment of
+the less volatile material
+
+759
+00:47:07,190 --> 00:47:10,220
+down in here.
+
+760
+00:47:10,220 --> 00:47:12,750
+And now you can put the
+two together, as the
+
+761
+00:47:12,750 --> 00:47:19,420
+question was asked.
+
+762
+00:47:19,420 --> 00:47:21,970
+Now we can have, we mix
+the two together.
+
+763
+00:47:21,970 --> 00:47:27,610
+We mix our Raoult diagram with
+our dew line diagram.
+
+764
+00:47:27,610 --> 00:47:31,050
+We mix the bubble line and
+the dew line together.
+
+765
+00:47:31,050 --> 00:47:32,500
+In one diagram, which
+is going to be a
+
+766
+00:47:32,500 --> 00:47:48,730
+powerful diagram to use.
+
+767
+00:47:48,730 --> 00:47:51,040
+Total pressure.
+
+768
+00:47:51,040 --> 00:47:54,510
+Temperature fixed.
+
+769
+00:47:54,510 --> 00:48:02,600
+You've got two materials, pA
+star is bigger than pB star.
+
+770
+00:48:02,600 --> 00:48:08,830
+So I'm going to have pA star
+here, pB star down here.
+
+771
+00:48:08,830 --> 00:48:13,590
+And if I choose, as my x-axis,
+to have xB going from zero to
+
+772
+00:48:13,590 --> 00:48:18,700
+one, I can draw a coexistence
+line on this axis.
+
+773
+00:48:18,700 --> 00:48:20,520
+On this diagram.
+
+774
+00:48:20,520 --> 00:48:24,770
+That's the coexistence
+line in terms of xB.
+
+775
+00:48:24,770 --> 00:48:29,910
+And any point up here is
+well-described by this xB
+
+776
+00:48:29,910 --> 00:48:32,870
+value, and the p value.
+
+777
+00:48:32,870 --> 00:48:36,770
+And as long as I have xB here,
+I'm not allowed to touch the
+
+778
+00:48:36,770 --> 00:48:38,600
+bottom part of this diagram.
+
+779
+00:48:38,600 --> 00:48:43,220
+But now if I add another x-axis,
+I'm going to add yB.
+
+780
+00:48:46,680 --> 00:48:50,550
+From zero to one.
+
+781
+00:48:50,550 --> 00:48:53,230
+I draw a coexistence line
+in terms of yB.
+
+782
+00:48:55,830 --> 00:48:56,500
+Like this.
+
+783
+00:48:56,500 --> 00:48:59,550
+So this line is p
+as a function of
+
+784
+00:48:59,550 --> 00:49:01,850
+yB coexistence line.
+
+785
+00:49:01,850 --> 00:49:08,030
+This line is total pressure
+of function of xB.
+
+786
+00:49:08,030 --> 00:49:11,460
+And as long as I'm on this line
+or below this line, then
+
+787
+00:49:11,460 --> 00:49:15,900
+this axis makes sense.
+
+788
+00:49:15,900 --> 00:49:17,320
+That's how we build
+this diagram here.
+
+789
+00:49:17,320 --> 00:49:18,880
+It's got a bubble line
+on top, and the
+
+790
+00:49:18,880 --> 00:49:21,520
+dew line on the bottom.
+
+791
+00:49:21,520 --> 00:49:26,060
+So I'm up here going down, I'm
+going to hit the bubble line.
+
+792
+00:49:26,060 --> 00:49:28,590
+If I'm down here and go up
+in pressure, I'm going
+
+793
+00:49:28,590 --> 00:49:29,460
+to hit the dew line.
+
+794
+00:49:29,460 --> 00:49:32,610
+And next time -- well, next
+time we have an exam.
+
+795
+00:49:32,610 --> 00:49:38,020
+But on Friday, we'll figure out
+how to use this diagram.

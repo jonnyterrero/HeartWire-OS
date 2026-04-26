@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lecture Notes on MIT OpenCourseWare</title>
+    <link>/resources/lecture-notes/</link>
+    <description>Recent content in Lecture Notes on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/lecture-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>04_lec_handout.pdf</title>
+      <link>/resources/04_lec_handout/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/04_lec_handout/data.json</guid>
+      <description>&lt;p&gt;Lecture slides on Organic Structure Determination: Infrared Spectroscopy (IR) and MS Fragmentation Patterns.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>05_lec_5_2006.pdf</title>
+      <link>/resources/05_lec_5_2006/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/05_lec_5_2006/data.json</guid>
+      <description>&lt;p&gt;Lecture slides on Nuclear Magnetic Resonance (NMR) Spectroscopy.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>06_lec_6_7_2006.pdf</title>
+      <link>/resources/06_lec_6_7_2006/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/06_lec_6_7_2006/data.json</guid>
+      <description>&lt;p&gt;Lecture slides on NMR Spectroscopy ? Spin-Spin Coupling and Connectivity.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>07_lec_7_2006.pdf</title>
+      <link>/resources/07_lec_7_2006/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/07_lec_7_2006/data.json</guid>
+      <description>&lt;p&gt;Lecture notes with reference material for the hour exam on Friday, September 29.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>08_lec_8_06_ans.pdf</title>
+      <link>/resources/08_lec_8_06_ans/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/08_lec_8_06_ans/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on Organic Structure Elucidation. Images of NMR graphs removed due to copyright restrictions. Please see: McMurry, John. Fundamentals of Organic Chemistry. 6th ed. Pacific Grove, CA: Thomson-Brooks/Cole, 2007. ISBN: 0495012033.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>08_lec_8_2006.pdf</title>
+      <link>/resources/08_lec_8_2006/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/08_lec_8_2006/data.json</guid>
+      <description>&lt;p&gt;This resource contains information on Images of NMR graphs removed due to copyright restrictions. Please see: McMurry, John. Fundamentals of Organic Chemistry. 6th ed. Pacific Grove, CA: Thomson-Brooks/Cole, 2007. ISBN: 0495012033.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>09_lec_9_2006.pdf</title>
+      <link>/resources/09_lec_9_2006/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/09_lec_9_2006/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on Organic Structure Determination.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>09_lec_9_ans_06.pdf</title>
+      <link>/resources/09_lec_9_ans_06/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/09_lec_9_ans_06/data.json</guid>
+      <description>&lt;p&gt;Answers to problems from Lecture #9.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>12_lec_12_2006.pdf</title>
+      <link>/resources/12_lec_12_2006/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/12_lec_12_2006/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on Conjugated Systems, Molecular Orbital Theory, and Native Chemical Ligation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>13_lec_13_14_06.pdf</title>
+      <link>/resources/13_lec_13_14_06/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/13_lec_13_14_06/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on Conjugated Systems, Molecular Orbital Theory, and Electrocyclic Reactions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>17_lec_17_18_06.pdf</title>
+      <link>/resources/17_lec_17_18_06/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/17_lec_17_18_06/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on Pericyclic Reactions - Cycloadditions, Sigmatropic Rearrangements.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>19_lec_19_20_06.pdf</title>
+      <link>/resources/19_lec_19_20_06/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/19_lec_19_20_06/data.json</guid>
+      <description>&lt;p&gt;Lecture slides on Amines.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>jw_1_2_2.pdf</title>
+      <link>/resources/jw_1_2_2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/jw_1_2_2/data.json</guid>
+      <description>&lt;p&gt;Reaction overview document on [2+2] Photocycloadditions in Organic Chemistry, developed by teaching assistant Jeewoo Lim.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>jw_2.pdf</title>
+      <link>/resources/jw_2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/jw_2/data.json</guid>
+      <description>&lt;p&gt;Reaction overview document on Reactions to Know, developed by teaching assistant Jeewoo Lim.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>l22_5_13_notes.pdf</title>
+      <link>/resources/l22_5_13_notes/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l22_5_13_notes/data.json</guid>
+      <description>&lt;p&gt;This resource contains information on topics michael reaction, mechanism, thermodynamics and robinson annulation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec_15_16_17_06.pdf</title>
+      <link>/resources/lec_15_16_17_06/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_15_16_17_06/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on Pericyclic Reactions, Electrocyclic Processes, Cycloaddition Reactions, Woodward-Hoffmann Rules for Cycloadditions, and Coefficients of Frontier Molecular Orbitals.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec_21_22_23_24.pdf</title>
+      <link>/resources/lec_21_22_23_24/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_21_22_23_24/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on Carboxylic Acids and Derivatives.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec_25_26_27_28.pdf</title>
+      <link>/resources/lec_25_26_27_28/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_25_26_27_28/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on Enols and Enolates.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec_29_30_31_32.pdf</title>
+      <link>/resources/lec_29_30_31_32/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_29_30_31_32/data.json</guid>
+      <description>&lt;p&gt;Lecture notes with an Outline and Study Guide for the unit on Carbocations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture Notes</title>
+      <link>/pages/lecture-notes/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/lecture-notes/data.json</guid>
+      <description>&lt;p&gt;&lt;table&gt;&#xA;&#xA;&lt;thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;LEC #&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;TOPICS&#xA;&lt;/th&gt;&#xA;&lt;/p&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;p&gt;&lt;/thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;L1&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Molecular Formula and Index of Hydrogen Deficiency [EA] (&lt;a href=&#34;../../resources/unit_1_study/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;L2&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Molecular Formula and Index of Hydrogen Deficiency [MS] (cont.)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;L3&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Functional Groups [IR]&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;L4&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Functional Groups: Fragmentation [MS] (&lt;a href=&#34;../../resources/04_lec_handout/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;L5&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Functional Groups [&lt;sup&gt;13&lt;/sup&gt;C NMR] (&lt;a href=&#34;../../resources/05_lec_5_2006/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;L6&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Connectivity [&lt;sup&gt;1&lt;/sup&gt;H NMR] (&lt;a href=&#34;../../resources/06_lec_6_7_2006/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;L7&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Connectivity (cont.) [&lt;sup&gt;1&lt;/sup&gt; H NMR] (&lt;a href=&#34;../../resources/07_lec_7_2006/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;L8&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;Organic Structure Elucidation (&lt;a href=&#34;../../resources/08_lec_8_06_ans/index.html&#34;&gt;PDF&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;Answers (&lt;a href=&#34;../../resources/08_lec_8_06_ans/index.html&#34;&gt;PDF&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;/td&gt;&#xA;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;L9&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;Organic Structure Elucidation (cont.) (&lt;a href=&#34;../../resources/09_lec_9_2006/index.html&#34;&gt;PDF&lt;/a&gt;)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lectures_33_34.pdf</title>
+      <link>/resources/lectures_33_34/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lectures_33_34/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on Radicals.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>pka_values.pdf</title>
+      <link>/resources/pka_values/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/pka_values/data.json</guid>
+      <description>&lt;p&gt;Section 23-6 text and Table 23-2 removed due to copyright restrictions. Please see: Kemp, Daniel and Vellaccio, Frank. Organic Chemistry. New York, N.Y.: Worth Publishers, c1980. ISBN: 0879011238.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>unit_1_study.pdf</title>
+      <link>/resources/unit_1_study/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/unit_1_study/data.json</guid>
+      <description>&lt;p&gt;Assignment and Study Guide for Unit I: Methods for the Elucidation of the Structure of Organic Compounds.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>unit_2_study.pdf</title>
+      <link>/resources/unit_2_study/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/unit_2_study/data.json</guid>
+      <description>&lt;p&gt;Assignment and Study Guide for Unit II: The Chemistry of Ethers, Epoxides, and Sulfides.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>unit_3_study.pdf</title>
+      <link>/resources/unit_3_study/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/unit_3_study/data.json</guid>
+      <description>&lt;p&gt;Assignment and Study Guide for Unit III: Molecular Orbital Theory, Pericyclic Reactions, and the Woodward-Hoffmann Rules.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

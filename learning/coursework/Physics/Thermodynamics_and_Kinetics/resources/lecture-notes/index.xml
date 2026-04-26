@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lecture Notes on MIT OpenCourseWare</title>
+    <link>/resources/lecture-notes/</link>
+    <description>Recent content in Lecture Notes on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/lecture-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Applications: Chemical and Phase Equilibria</title>
+      <link>/resources/5_60_lecture29/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/5_60_lecture29/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on chemical and phase equilibria. The objective of this lecture is to apply statistical mechanics to develop microscopic models for problems you’ve treated so far with macroscopic thermodynamics.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Applications: Chemical and Phase Equilibria</title>
+      <link>/resources/lec_28/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_28/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on chemical and phase equilibria. The objective of this lecture is to apply statistical mechanics to develop microscopic models for problems you’ve treated so far with macroscopic thermodynamics.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Calorimetry</title>
+      <link>/resources/5_60_lecture7/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/5_60_lecture7/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on calorimetry and bond energies.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Calorimetry</title>
+      <link>/resources/lec_7/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_7/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on calorimetry, constant volume, and bond energies.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Chemical Equilibrium</title>
+      <link>/resources/5_60_lecture15/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/5_60_lecture15/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on Helmholtz and Gibbs free energy, chemical equilibrium, ideal gases, and the effect of total pressure.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Chemical Equilibrium</title>
+      <link>/resources/lec_15/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_15/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on Helmholtz and Gibbs free energy, chemical equilibrium, ideal gases, and the effect of total pressure.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Chemical Oscillations</title>
+      <link>/resources/lec_36/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_36/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on chemical oscillations and autocatalysis.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Clausius-Clapeyron Equation</title>
+      <link>/resources/5_60_lecture19/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/5_60_lecture19/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on the Clausius-Clapeyron equation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Clausius-Clapeyron Equation</title>
+      <link>/resources/lec_19/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_19/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on the Clausius-Clapeyron equation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Colligative Properties</title>
+      <link>/resources/5_60_lecture23/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/5_60_lecture23/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on colligative properties, vapor pressure lowering, boiling point elevation, freezing point depression, and osmotic pressure.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Colligative Properties</title>
+      <link>/resources/lec_23/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_23/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on colligative properties, vapor pressure lowering, boiling point elevation, freezing point depression, and osmotic pressure.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Complex Reactions and Mechanisms</title>
+      <link>/resources/lec_30/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_30/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on complex reactions and mechanisms.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Complex Reactions and Mechanisms (continued)</title>
+      <link>/resources/5_60_lecture31/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/5_60_lecture31/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on complex reactions and mechanisms.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Complex Reactions and Mechanisms (continued)</title>
+      <link>/resources/5_60_lecture32/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/5_60_lecture32/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on complex reactions and mechanisms, and steady-state and equilibrium approximations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Complex Reactions and Mechanisms (continued)</title>
+      <link>/resources/5_60_lecture33/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/5_60_lecture33/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on complex reactions and mechanisms.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Complex Reactions and Mechanisms (continued)</title>
+      <link>/resources/lec_31/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_31/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on complex reactions and mechanisms.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Complex Reactions and Mechanisms (continued)</title>
+      <link>/resources/lec_32/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_32/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on complex reactions and mechanisms, and steady-state and equilibrium approximations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Complex Reactions and Mechanisms (continued)</title>
+      <link>/resources/lec_33/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_33/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on complex reactions and mechanisms.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Criteria for Spontaneous Change</title>
+      <link>/resources/5_60_lecture12/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/5_60_lecture12/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on criteria for spontaneous change.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Criteria for Spontaneous Change</title>
+      <link>/resources/lec_12/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_12/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on criteria for spontaneous change.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Enthalpy</title>
+      <link>/resources/5_60_lecture4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/5_60_lecture4/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on enthalpy, chemical reactions and biological processes, and Joule-Thomson expansion.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Enthalpy</title>
+      <link>/resources/lec_4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_4/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on enthalpy, chemical reactions and biological processes, and Joule-Thomson expansion.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Entropy</title>
+      <link>/resources/5_60_lecture9/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/5_60_lecture9/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on entropy.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Entropy</title>
+      <link>/resources/lec_9/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_9/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on entropy.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Entropy and Disorder</title>
+      <link>/resources/5_60_lecture10/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/5_60_lecture10/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on entropy, disorder, and the Clausius inequality.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Entropy and Disorder</title>
+      <link>/resources/lec_10/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_10/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on entropy, disorder, and the Clausius inequality.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Enzyme Catalysis</title>
+      <link>/resources/5_60_lecture35/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/5_60_lecture35/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on enzyme catalysis, the Michaelis-Menten mechanism, and the Lineweaver-Burk plot.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Enzyme Catalysis</title>
+      <link>/resources/lec_35/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_35/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on enzyme catalysis, the Michaelis-Menten mechanism, and the Lineweaver-Burk plot.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Equilibrium in Solution</title>
+      <link>/resources/5_60_lecture16/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/5_60_lecture16/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on equilibrium in solution.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Equilibrium in Solution</title>
+      <link>/resources/lec_16/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_16/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on equilibrium in solution.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Equilibrium: Application to Drug Design</title>
+      <link>/resources/5_60_lecture17/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/5_60_lecture17/data.json</guid>
+      <description>&lt;p&gt;Lecture notes about chemical equilibrium in gases and application to drug design.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Equilibrium: Application to Drug Design</title>
+      <link>/resources/lec_17/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_17/data.json</guid>
+      <description>&lt;p&gt;Lecture notes about chemical equilibrium in gases and application to drug design.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Fundamental Equations, Absolute Entropy, and The Third Law</title>
+      <link>/resources/5_60_lecture11/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/5_60_lecture11/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on fundamental equations, absolute entropy, and the third law of thermodynamics.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Fundamental Equations, Absolute Entropy, and The Third Law</title>
+      <link>/resources/lec_11/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_11/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on fundamental equations, absolute entropy, and the third law of thermodynamics.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Isothermal Gas Expansion</title>
+      <link>/resources/5_60_lecture3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/5_60_lecture3/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on isothermal gas expansion, internal energy, expansion work, and Joule free expansion of a gas.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Isothermal Gas Expansion</title>
+      <link>/resources/lec_3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_3/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on isothermal gas expansion, internal energy, expansion work, and Joule free expansion of a gas.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Kinetics: Reaction Rates, Orders, and Half Lives</title>
+      <link>/resources/lec_29/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_29/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on kinetics, reaction rates, orders, and half lives.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Kinetics: Reaction Rates, Orders, Half Lives</title>
+      <link>/resources/5_60_lecture30/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/5_60_lecture30/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on kinetics, reaction rates, orders, and half lives.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture Notes</title>
+      <link>/pages/lecture-notes/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/lecture-notes/data.json</guid>
+      <description>&lt;p&gt;The lecture handouts are available in the table below. Please note that there were no lecture notes for session #36.&lt;/p&gt;&#xA;&lt;p&gt;&lt;table&gt;&#xA;&#xA;&lt;thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;SES #&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;TOPICS&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;LECTURE NOTES&#xA;&lt;/th&gt;&#xA;&lt;/p&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;p&gt;&lt;/thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;1&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;State of a system, 0&lt;sup&gt;th&lt;/sup&gt; law, equation of state&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/5_60_lecture1/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;2&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Work, heat, first law&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/5_60_lecture2/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;3&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Internal energy, expansion work&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/5_60_lecture3/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;4&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Enthalpy&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/5_60_lecture4/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;5&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Adiabatic changes&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/5_60_lecture5/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;6&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Thermochemistry&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/5_60_lecture6/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;7&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Calorimetry&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/5_60_lecture7/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;8&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Second law&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/5_60_lecture8_9/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Model Systems</title>
+      <link>/resources/5_60_lecture28/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/5_60_lecture28/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on model systems, partition functions, statistical mechanics, and discrete energy levels.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Model Systems</title>
+      <link>/resources/lec_26/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_26/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on model systems, partition functions, statistical mechanics, and discrete energy levels.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Multicomponent Systems, Partial Molar Quantities, and the Chemical Potential</title>
+      <link>/resources/5_60_lecture14/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/5_60_lecture14/data.json</guid>
+      <description>&lt;p&gt;Lecture notes about criteria for equilibrium, multicomponent systems, partial molar quantities, and the chemical potential.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Multicomponent Systems, Partial Molar Quantities, and the Chemical Potential</title>
+      <link>/resources/lec_14/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_14/data.json</guid>
+      <description>&lt;p&gt;Lecture notes about criteria for equilibrium, multicomponent systems, partial molar quantities, and the chemical potential.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Partition Functions</title>
+      <link>/resources/5_60_lecture25/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/5_60_lecture25/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on partition functions, examples of macroscopic thermodynamic results, ideal gas mixture, and ideal liquid mixture.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Partition Functions</title>
+      <link>/resources/lec_25/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_25/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on partition functions, examples of macroscopic thermodynamic results, ideal gas mixture, and ideal liquid mixture.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Phase Equilibria in a 1-Component System</title>
+      <link>/resources/5_60_lecture18/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/5_60_lecture18/data.json</guid>
+      <description>&lt;p&gt;Lecture notes about phase equilibria in a 1-component system.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Phase Equilibria in a 1-Component System</title>
+      <link>/resources/lec_18/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_18/data.json</guid>
+      <description>&lt;p&gt;Lecture notes about phase equilibria in a 1-component system.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Reversible Adiabatic Expansion (or compression) of an Ideal Gas</title>
+      <link>/resources/5_60_lecture5/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/5_60_lecture5/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on reversible adiabatic expansion (or compression) of an ideal gas, irreversible adiabatic expansion of an ideal gas against a constant external pressure, and thermodynamic cycles.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Reversible Adiabatic Expansion (or compression) of an Ideal Gas</title>
+      <link>/resources/lec_5/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_5/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on reversible adiabatic expansion (or compression) of an ideal gas, irreversible adiabatic expansion of an ideal gas against a constant external pressure, and thermodynamic cycles.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Statistical Mechanics</title>
+      <link>/resources/5_60_lecture24/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/5_60_lecture24/data.json</guid>
+      <description>&lt;p&gt;Lecture notes with an introduction to statistical mechanics and discussion of probability of system in a state with given energy, partition functions, thermodynamic properties from partition functions, and entropy in terms of probabilities and degeneracies.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Statistical Mechanics</title>
+      <link>/resources/lec_24/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_24/data.json</guid>
+      <description>&lt;p&gt;Lecture notes with an introduction to statistical mechanics and discussion of probability of system in a state with given energy, partition functions, thermodynamic properties from partition functions, and entropy in terms of probabilities and degeneracies.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Statistical Thermodynamics</title>
+      <link>/resources/5_60_lect26_27/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/5_60_lect26_27/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on statistical thermodynamics, calculation of macroscopic thermodynamic results, ideal gas mixtures, ideal liquid mixtures, energy, and entropy changes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Temperature Dependence of Rate Constant</title>
+      <link>/resources/5_60_lecture34/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/5_60_lecture34/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on temperature dependence, the Arrhenius law, and catalysis.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Temperature Dependence of Rate Constant</title>
+      <link>/resources/lec_34/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_34/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on temperature dependence, the Arrhenius law, and catalysis.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Gibbs Free Energy</title>
+      <link>/resources/5_60_lecture13/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/5_60_lecture13/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on the Gibbs free energy and third law absolute entropy.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Gibbs Free Energy</title>
+      <link>/resources/lec_13/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_13/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on the Gibbs free energy and third law absolute entropy.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Second Law</title>
+      <link>/resources/5_60_lecture8_9/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/5_60_lecture8_9/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on the second law of thermodynamics.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Second Law</title>
+      <link>/resources/lec_8/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_8/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on the second law of thermodynamics.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Thermochemistry</title>
+      <link>/resources/5_60_lecture6/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/5_60_lecture6/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on thermochemistry.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Thermochemistry</title>
+      <link>/resources/lec_6/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_6/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on thermochemistry.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Thermodynamics</title>
+      <link>/resources/5_60_lecture1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/5_60_lecture1/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on thermodynamics, the four laws, and equations of state.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Thermodynamics</title>
+      <link>/resources/lec_1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_1/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on thermodynamics, the four laws, and equations of state.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Two-Component Phase Equilibria</title>
+      <link>/resources/5_60_lecture20/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/5_60_lecture20/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on two-component phase equilibria, binary liquid-gas mixtures, Raoult’s law, and ideal solutions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Two-Component Phase Equilibria</title>
+      <link>/resources/lec_20/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_20/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on two-component phase equilibria, binary liquid-gas mixtures, Raoult’s law, and ideal solutions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Two-Component Phase Equilibria II: Ideal and Non-Ideal Solutions</title>
+      <link>/resources/5_60_lecture21/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/5_60_lecture21/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on two-component phase equilibria, ideal solutions, and non-ideal solutions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Two-Component Phase Equilibria II: Ideal and Non-Ideal Solutions</title>
+      <link>/resources/5_60_lecture22/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/5_60_lecture22/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on two-component phase equilibria, ideal solutions, and non-ideal solutions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Two-Component Phase Equilibria II: Ideal and Non-Ideal Solutions</title>
+      <link>/resources/lec_2122/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_2122/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on two-component phase equilibria, ideal solutions, and non-ideal solutions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Work, Heat, and the First Law</title>
+      <link>/resources/5_60_lecture2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/5_60_lecture2/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on work, heat, and the first law of thermodynamics.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Work, Heat, and the First Law</title>
+      <link>/resources/lec_2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_2/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on work, heat, and the first law of thermodynamics.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Readings on MIT OpenCourseWare</title>
+    <link>/resources/readings/</link>
+    <description>Recent content in Readings on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/readings/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Readings</title>
+      <link>/pages/readings/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/readings/data.json</guid>
+      <description>&lt;h3 id=&#34;key&#34;&gt;Key&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;EA = Elemental Analysis &lt;br&gt;&#xA;MS = Mass Spectrometry &lt;br&gt;&#xA;IR = Infrared Spectroscopy &lt;br&gt;&#xA;NMR = Nuclear Magnetic Resonance&lt;/p&gt;&#xA;&#xA;    &lt;h3 id=&#34;required-text&#34;&gt;Required Text&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;McMurry, John. &lt;em&gt;Fundamentals of Organic Chemistry&lt;/em&gt;. 6th ed. Pacific Grove, CA: Thomson-Brooks/Cole, 2006. ISBN: 9780495012030.&lt;/p&gt;&#xA;&#xA;    &lt;h3 id=&#34;additional-texts&#34;&gt;Additional Texts&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;McMurry, Susan. &lt;em&gt;Study Guide and Student Solutions Manual for John McMurry&amp;rsquo;s Organic Chemistry.&lt;/em&gt; 6th ed. Belmont, CA: Thomson-Brooks/Cole, 2003. ISBN: 9780534409340.&lt;/p&gt;&#xA;&lt;p&gt;Wade, L. G., Jr. &lt;em&gt;Organic Chemistry.&lt;/em&gt; 5th ed. Upper Saddle River, NJ: Prentice Hall, 2002. ISBN: 9780130338327.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

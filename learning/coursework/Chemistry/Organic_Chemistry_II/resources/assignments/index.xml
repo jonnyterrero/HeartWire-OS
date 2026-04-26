@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Assignments on MIT OpenCourseWare</title>
+    <link>/resources/assignments/</link>
+    <description>Recent content in Assignments on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/assignments/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Assignments</title>
+      <link>/pages/assignments/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/assignments/data.json</guid>
+      <description>&lt;h3 id=&#34;problem-sets&#34;&gt;Problem Sets&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;&lt;table&gt;&#xA;&#xA;&lt;thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;PROBLEM SETS&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;SOLUTIONS&#xA;&lt;/th&gt;&#xA;&lt;/p&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;p&gt;&lt;/thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Problem Set 1 (&lt;a href=&#34;../../resources/pset1/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Solution 1 (&lt;a href=&#34;../../resources/pset1_key/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Problem Set 2 (&lt;a href=&#34;../../resources/pset2/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Solution 2 (&lt;a href=&#34;../../resources/pset2_key/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Problem Set 3 (&lt;a href=&#34;../../resources/pset3/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Problem Set 4 (&lt;a href=&#34;../../resources/pset4/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Problem Set 5 (&lt;a href=&#34;../../resources/pset5/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Problem Set 6 (&lt;a href=&#34;../../resources/pset6/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Problem Set 7 (&lt;a href=&#34;../../resources/pset7/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Problem Set 8 (&lt;a href=&#34;../../resources/pset8/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;/table&gt;&#xA;&#xA;&#xA;    &lt;h3 id=&#34;extra-problem-sets&#34;&gt;Extra Problem Sets&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Drill Set 3 (&lt;a href=&#34;../../resources/drill_set_3/index.html&#34;&gt;PDF&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;Solutions (&lt;a href=&#34;../../resources/drillset3key/index.html&#34;&gt;PDF&lt;/a&gt;)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>drill_set_3.pdf</title>
+      <link>/resources/drill_set_3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/drill_set_3/data.json</guid>
+      <description>&lt;p&gt;Supplemental Problem Set on Drill Problems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>drillset3key.pdf</title>
+      <link>/resources/drillset3key/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/drillset3key/data.json</guid>
+      <description>&lt;p&gt;Solutions to a supplemental Problem Set.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>extra_prob_1key.pdf</title>
+      <link>/resources/extra_prob_1key/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/extra_prob_1key/data.json</guid>
+      <description>&lt;p&gt;This resource contais information about graphs.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>extra_prob_2.pdf</title>
+      <link>/resources/extra_prob_2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/extra_prob_2/data.json</guid>
+      <description>&lt;p&gt;This course contains set of problems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>extra_prob_2key.pdf</title>
+      <link>/resources/extra_prob_2key/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/extra_prob_2key/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>pset1_key.pdf</title>
+      <link>/resources/pset1_key/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/pset1_key/data.json</guid>
+      <description>&lt;p&gt;Problem set solutions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>pset1.pdf</title>
+      <link>/resources/pset1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/pset1/data.json</guid>
+      <description>&lt;p&gt;Problem set.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>pset2_key.pdf</title>
+      <link>/resources/pset2_key/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/pset2_key/data.json</guid>
+      <description>&lt;p&gt;Problem set solutions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>pset2.pdf</title>
+      <link>/resources/pset2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/pset2/data.json</guid>
+      <description>&lt;p&gt;Problem set.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>pset3.pdf</title>
+      <link>/resources/pset3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/pset3/data.json</guid>
+      <description>&lt;p&gt;Problem set.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>pset4.pdf</title>
+      <link>/resources/pset4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/pset4/data.json</guid>
+      <description>&lt;p&gt;Problem set.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>pset5.pdf</title>
+      <link>/resources/pset5/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/pset5/data.json</guid>
+      <description>&lt;p&gt;Problem set.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>pset6.pdf</title>
+      <link>/resources/pset6/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/pset6/data.json</guid>
+      <description>&lt;p&gt;Problem set.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>pset7.pdf</title>
+      <link>/resources/pset7/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/pset7/data.json</guid>
+      <description>&lt;p&gt;Problem set.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>pset8.pdf</title>
+      <link>/resources/pset8/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/pset8/data.json</guid>
+      <description>&lt;p&gt;Problem set.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>xtra_spec_prob_1.pdf</title>
+      <link>/resources/xtra_spec_prob_1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/xtra_spec_prob_1/data.json</guid>
+      <description>&lt;p&gt;This resource contains some graphs.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
