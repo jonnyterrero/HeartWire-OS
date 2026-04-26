@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Exam Solutions on MIT OpenCourseWare</title>
+    <link>/resources/exam-solutions/</link>
+    <description>Recent content in Exam Solutions on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/exam-solutions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Final Practice Problem Solutions</title>
+      <link>/resources/final_soln/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/final_soln/data.json</guid>
+      <description>&lt;p&gt;Solutions to practice problems for the Final Exam.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quiz 1 Practice Problem Solutions</title>
+      <link>/resources/solutions1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/solutions1/data.json</guid>
+      <description>&lt;p&gt;Solutions to practice problems for Quiz 1.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quiz 2 Practice Problem Solutions</title>
+      <link>/resources/solutions2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/solutions2/data.json</guid>
+      <description>&lt;p&gt;Solutions to practice problems for Quiz 2.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

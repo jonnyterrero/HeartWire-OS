@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Problem Sets on MIT OpenCourseWare</title>
+    <link>/resources/problem-sets/</link>
+    <description>Recent content in Problem Sets on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/problem-sets/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Binary search trees code</title>
+      <link>/resources/ps2_bst/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps2_bst/data.json</guid>
+      <description>&lt;p&gt;Supporting file for Problem set 2. Binary search trees code. (This zip file includes: 5 .py files and 1 .txt file.)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Change code</title>
+      <link>/resources/ps6_change/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps6_change/data.json</guid>
+      <description>&lt;p&gt;Supporting file for Problem set 6. Change code. (This zip file includes: 2 .py files.)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Code for Problem set 6</title>
+      <link>/resources/ps6_all/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps6_all/data.json</guid>
+      <description>&lt;p&gt;Supporting files for Problem set 6: All code for this problem set. (This zip file includes: 2 .png files, 10 .py files, and 1 .txt file.)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dijkstra code</title>
+      <link>/resources/ps5_dijkstra/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps5_dijkstra/data.json</guid>
+      <description>&lt;p&gt;Supporting file for Problem set 5. Dijkstra code. (This zip file includes: 1 .lnk file, 1 .nod file, 5 .py files, and 3 .txt files. Note that nhpn.nod and nhpn.lnk are text files, and should be opened in a text editor.)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Document distance code</title>
+      <link>/resources/ps1_docdist/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps1_docdist/data.json</guid>
+      <description>&lt;p&gt;Supporting file for Problem set 1. Document distance code. (This zip file includes: 3 .py files and 5 .txt files.)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Fibonacci code</title>
+      <link>/resources/ps6_fib/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps6_fib/data.json</guid>
+      <description>&lt;p&gt;Supporting file for Problem set 6. Fibonacci code. (This zip file includes: 2 .py files.)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Gas simulation code</title>
+      <link>/resources/ps3_gas/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps3_gas/data.json</guid>
+      <description>&lt;p&gt;Supporting file for Problem set 3. Gas simulation code. (This zip file includes: 3 .py files and 1 .txt file.)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Heap code</title>
+      <link>/resources/ps3_heap/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps3_heap/data.json</guid>
+      <description>&lt;p&gt;Supporting file for Problem set 3. Heap code. (This zip file includes: 3 .py files and 1 .txt file.)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Image resizing code</title>
+      <link>/resources/ps6_image/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps6_image/data.json</guid>
+      <description>&lt;p&gt;Supporting file for Problem set 6. Image resizing code. (This zip file includes: 2 .png files, 4 .py files, and 1 .txt file.)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem set 1</title>
+      <link>/resources/ps1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps1/data.json</guid>
+      <description>&lt;p&gt;Handout 3 containing Problem set 1.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem set 1 LaTeX file</title>
+      <link>/resources/ps1-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps1-1/data.json</guid>
+      <description>&lt;p&gt;LaTeX file for Problem set 1, provided as a reference.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem set 1 template</title>
+      <link>/resources/ps1_template/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps1_template/data.json</guid>
+      <description>&lt;p&gt;LaTeX template for Problem set 1.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem set 2</title>
+      <link>/resources/ps2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps2/data.json</guid>
+      <description>&lt;p&gt;Handout 4 containing Problem set 2.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem set 2 LaTeX file</title>
+      <link>/resources/ps2-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps2-1/data.json</guid>
+      <description>&lt;p&gt;LaTeX file for Problem set 2, provided as a reference.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem set 2 template</title>
+      <link>/resources/ps2_template/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps2_template/data.json</guid>
+      <description>&lt;p&gt;LaTeX template for Problem set 2.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem set 3</title>
+      <link>/resources/ps3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps3/data.json</guid>
+      <description>&lt;p&gt;Handout 5 containing Problem set 3.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem set 3 LaTeX file</title>
+      <link>/resources/ps3-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps3-1/data.json</guid>
+      <description>&lt;p&gt;LaTeX file for Problem set 3, provided as a reference.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem set 3 template</title>
+      <link>/resources/ps3_template/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps3_template/data.json</guid>
+      <description>&lt;p&gt;LaTeX template for Problem set 3.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem set 4</title>
+      <link>/resources/ps4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps4/data.json</guid>
+      <description>&lt;p&gt;Handout 8 containing Problem set 4.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem set 4 LaTex file</title>
+      <link>/resources/ps4-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps4-1/data.json</guid>
+      <description>&lt;p&gt;LaTeX file for Problem set 4, provided as a reference.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem set 4 template</title>
+      <link>/resources/ps4_template/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps4_template/data.json</guid>
+      <description>&lt;p&gt;LaTeX template for Problem set 4.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem set 5</title>
+      <link>/resources/ps5/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps5/data.json</guid>
+      <description>&lt;p&gt;Handout 10 containing Problem set 5.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem set 5 LaTeX file</title>
+      <link>/resources/ps5-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps5-1/data.json</guid>
+      <description>&lt;p&gt;LaTeX file for Problem set 5, provided as a reference.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem set 5 template</title>
+      <link>/resources/ps5_template/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps5_template/data.json</guid>
+      <description>&lt;p&gt;LaTeX template for Problem set 5.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem set 6</title>
+      <link>/resources/ps6/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps6/data.json</guid>
+      <description>&lt;p&gt;Handout 12 containing Problem set 6.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem set 6 LaTeX file</title>
+      <link>/resources/ps6-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps6-1/data.json</guid>
+      <description>&lt;p&gt;LaTeX file for Problem set 6, provided as a reference.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem set 6 template</title>
+      <link>/resources/ps6_template/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps6_template/data.json</guid>
+      <description>&lt;p&gt;LaTeX template for Problem set 6.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Progress code</title>
+      <link>/resources/ps6_progress/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps6_progress/data.json</guid>
+      <description>&lt;p&gt;Supporting file for Problem set 6. Progress code. (This zip file includes: 2 .py files.)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Rubik&#39;s Cube code</title>
+      <link>/resources/ps4_rubik/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps4_rubik/data.json</guid>
+      <description>&lt;p&gt;Supporting file for Problem set 4. Rubik&amp;rsquo;s Cube code. (This zip file includes: 7 .py files and 1 .txt file.)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Substring code</title>
+      <link>/resources/ps2_dna/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps2_dna/data.json</guid>
+      <description>&lt;p&gt;Supporting file for Problem set 2. Substring code. (This zip file includes: 3 .py files and 15 .txt files.)&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,7 @@
+{
+  "title":"Lab #6",
+  "description": "Supporting file for a lab assignment on RISC processor design. This code makes the following assumptions about the Beta design: after reset, the Beta starts executing at location 0; illegal instructions cause a trap to location 4; interrupts cause a trap to location 8.",
+  "file": "/courses/6-004-computation-structures-spring-2009/be084086d55fe8c157c748d886f57f5a_lab6.uasm",
+  "learning_resource_types": ["Tools"],
+  "resource_type": "Other",
+  "file_type": "text/plain"}

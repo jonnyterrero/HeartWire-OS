@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Editable Files on MIT OpenCourseWare</title>
+    <link>/resources/editable-files/</link>
+    <description>Recent content in Editable Files on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/editable-files/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Problem set 1 LaTeX file</title>
+      <link>/resources/ps1-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps1-1/data.json</guid>
+      <description>&lt;p&gt;LaTeX file for Problem set 1, provided as a reference.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem set 1 template</title>
+      <link>/resources/ps1_template/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps1_template/data.json</guid>
+      <description>&lt;p&gt;LaTeX template for Problem set 1.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem set 2 LaTeX file</title>
+      <link>/resources/ps2-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps2-1/data.json</guid>
+      <description>&lt;p&gt;LaTeX file for Problem set 2, provided as a reference.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem set 2 template</title>
+      <link>/resources/ps2_template/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps2_template/data.json</guid>
+      <description>&lt;p&gt;LaTeX template for Problem set 2.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem set 3 LaTeX file</title>
+      <link>/resources/ps3-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps3-1/data.json</guid>
+      <description>&lt;p&gt;LaTeX file for Problem set 3, provided as a reference.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem set 3 template</title>
+      <link>/resources/ps3_template/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps3_template/data.json</guid>
+      <description>&lt;p&gt;LaTeX template for Problem set 3.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem set 4 LaTex file</title>
+      <link>/resources/ps4-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps4-1/data.json</guid>
+      <description>&lt;p&gt;LaTeX file for Problem set 4, provided as a reference.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem set 4 template</title>
+      <link>/resources/ps4_template/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps4_template/data.json</guid>
+      <description>&lt;p&gt;LaTeX template for Problem set 4.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem set 5 LaTeX file</title>
+      <link>/resources/ps5-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps5-1/data.json</guid>
+      <description>&lt;p&gt;LaTeX file for Problem set 5, provided as a reference.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem set 5 template</title>
+      <link>/resources/ps5_template/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps5_template/data.json</guid>
+      <description>&lt;p&gt;LaTeX template for Problem set 5.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem set 6 LaTeX file</title>
+      <link>/resources/ps6-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps6-1/data.json</guid>
+      <description>&lt;p&gt;LaTeX file for Problem set 6, provided as a reference.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem set 6 template</title>
+      <link>/resources/ps6_template/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps6_template/data.json</guid>
+      <description>&lt;p&gt;LaTeX template for Problem set 6.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

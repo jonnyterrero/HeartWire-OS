@@ -1,0 +1,33 @@
+{
+  "course_title":"Introduction to Algorithms",
+  "course_description":"This course provides an introduction to mathematical modeling of computational problems. It covers the common algorithms, algorithmic paradigms, and data structures used to solve these problems. The course emphasizes the relationship between algorithms and programming, and introduces basic performance measures and analysis techniques for these problems.\n",
+  "course_description_html":"This course provides an introduction to mathematical modeling of computational problems. It covers the common algorithms, algorithmic paradigms, and data structures used to solve these problems. The course emphasizes the relationship between algorithms and programming, and introduces basic performance measures and analysis techniques for these problems.",
+  "site_uid":"c0d24115-1ac3-4fc6-8d72-2edb7455a3bc",
+  "legacy_uid":"9b977a88-43b6-28dc-df25-c62dd8c455e3","instructors": [{
+    "first_name":"Erik",
+    "last_name":"Demaine",
+    "middle_initial":"",
+    "salutation":"Prof.",
+    "title":"Prof. Erik Demaine"},{
+    "first_name":"Ronald",
+    "last_name":"Rivest",
+    "middle_initial":"",
+    "salutation":"Prof.",
+    "title":"Prof. Ronald Rivest"},{
+    "first_name":"Srini",
+    "last_name":"Devadas",
+    "middle_initial":"",
+    "salutation":"Prof.",
+    "title":"Prof. Srini Devadas"}],"department_numbers":["6"],
+  "learning_resource_types":["Problem Sets","Lecture Notes","Presentation Assignments with Examples","Exams","Exam Solutions"],
+  "topics":[["Engineering","Computer Science","Algorithms and Data Structures"],["Mathematics","Computation"],["Engineering","Computer Science","Theory of Computation"]],
+  "mit_learn_topics":null,
+  "primary_course_number":"6.006",
+  "extra_course_numbers":"",
+  "term":"Spring",
+  "year":"2008",
+  "level":["Undergraduate"],
+  "hide_download":null,
+  "image_src":"./static_resources/e70f9dc26e07c50a789d0701ffc60383_6-006s08.jpg",
+  "course_image_metadata":{"content_type":"resource","description":"Rotation of a binary search tree, from the Recitation #4 slides. (Figure courtesy of Victor Costan.)","draft":false,"file":"/courses/6-006-introduction-to-algorithms-spring-2008/e70f9dc26e07c50a789d0701ffc60383_6-006s08.jpg","file_size":40818,"file_type":"image/jpeg","image_metadata":{"caption":"Rotation of a binary search tree, from the Recitation #4 slides. (Figure courtesy of Victor Costan.)","credit":"","image-alt":"Diagram of a binary search tree before and after rotation."},"iscjklanguage":false,"learning_resource_types":[],"license":"https://creativecommons.org/licenses/by-nc-sa/4.0/","ocw_type":"OCWImage","resourcetype":"Image","title":"6-006s08.jpg","uid":"e70f9dc2-6e07-c50a-789d-0701ffc60383","video_files":{"video_thumbnail_file":null},"video_metadata":{"youtube_id":null}}}
+

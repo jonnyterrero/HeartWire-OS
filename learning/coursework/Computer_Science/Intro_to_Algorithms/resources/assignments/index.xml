@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Assignments on MIT OpenCourseWare</title>
+    <link>/resources/assignments/</link>
+    <description>Recent content in Assignments on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/assignments/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Assignments</title>
+      <link>/pages/assignments/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/assignments/data.json</guid>
+      <description>&lt;p&gt;Students were asked to write up their solutions in LaTeX, using the template provided for each problem set. The LaTeX file for each problem set is also provided for reference.&lt;/p&gt;&#xA;&lt;p&gt;&lt;table&gt;&#xA;&#xA;&lt;thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;PROBLEM SETS&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;TEMPLATES&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;SUPPORTING FILES&#xA;&lt;/th&gt;&#xA;&lt;/p&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;p&gt;&lt;/thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Problem set 1 (&lt;a href=&#34;../../resources/ps1/index.html&#34;&gt;PDF&lt;/a&gt;) (&lt;a href=&#34;../../resources/ps1-1/index.html&#34;&gt;TEX&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/ps1_template/index.html&#34;&gt;TEX&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Document distance code (&lt;a href=&#34;../../resources/ps1_docdist/index.html&#34;&gt;ZIP&lt;/a&gt;) (This zip file includes: 3 .py files and 5 .txt files.)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Problem set 2 (&lt;a href=&#34;../../resources/ps2/index.html&#34;&gt;PDF&lt;/a&gt;) (&lt;a href=&#34;../../resources/ps2-1/index.html&#34;&gt;TEX&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/ps2_template/index.html&#34;&gt;TEX&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;Binary search trees code (&lt;a href=&#34;../../resources/ps2_bst/index.html&#34;&gt;ZIP&lt;/a&gt;) (This zip file includes: 5 .py files and 1 .txt file.)&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lecture Notes on MIT OpenCourseWare</title>
+    <link>/resources/lecture-notes/</link>
+    <description>Recent content in Lecture Notes on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/lecture-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecture 1: Introduction and the Document Distance Problem</title>
+      <link>/resources/lec1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec1/data.json</guid>
+      <description>&lt;p&gt;Lecture notes with an introduction to the course and discussion of the document distance problem.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 10: Sorting III: Linear Bounds Linear-Time Sorting</title>
+      <link>/resources/lec10/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec10/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on sorting, linear bounds, sorting lower bounds, decision trees, linear-time sorting, and counting sort.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 11: Sorting IV: Stable Sorting, Radix Sort</title>
+      <link>/resources/lec11/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec11/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on sorting, stable sorting, Radix sort, quick sort, and sorting races.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 12: Searching I: Graph Search and Representations</title>
+      <link>/resources/lec12/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec12/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on searching, graph search, applications, graph representations, and introduction to breadth-first and depth-first search.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 13: Searching II: Breadth-First Search and Depth-First Search</title>
+      <link>/resources/lec13/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec13/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on searching, breadth-first search, shortest paths, depth-first search, and edge classification.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 14: Searching III: Toplogical Sort and NP-completeness</title>
+      <link>/resources/lec14/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec14/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on searching, BFS vs. DFS, job scheduling, topological sort, intractable problems, P, NP, and NP-completeness.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 15: Shortest Paths I: Intro</title>
+      <link>/resources/lec15/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec15/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on shortest paths, weighted graphs, negative edges, and optimal substructure.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 16: Shortest Paths II: Bellman-Ford</title>
+      <link>/resources/lec16/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec16/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on shortest paths, notation, generic S.P. algorithm, Bellman-Ford algorithm, analysis, and correctness.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 17: Shortest Paths III -Dijkstra and Special Cases</title>
+      <link>/resources/lec17/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec17/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on shortest paths in DAGs, shortest paths in graphs without negative edges, and Dijkstra’s algorithm.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 18: Shortest Paths IV - Speeding up Dijkstra</title>
+      <link>/resources/lec18/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec18/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on shortest paths, single-source single-target Dijkstra, bidirectional search, and goal directed search - potentials and landmarks.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 19: Dynamic Programming I: Memoization, Fibonacci, Crazy Eights, Guessing</title>
+      <link>/resources/lec19/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec19/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on dynamic programming, memoization and subproblems, Fibonacci, shortest paths, crazy eights, and guessing viewpoint.&#xA;Guessing Viewpoint&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 2: More on the Document Distance Problem</title>
+      <link>/resources/lec2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec2/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on improving the algorithm for solving the document distance problem.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 20: Dynamic Programming II: Longest Common Subsequence, Parent Pointers</title>
+      <link>/resources/lec20/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec20/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on dynamic programming, longest common subsequence, bottom-up implementation, and parent pointers for guesses.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 21: Dynamic Programming III: Text Justication, Parenthesization, Knapsack, Pseudopolynomial Time, Tetris Training</title>
+      <link>/resources/lec21/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec21/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on text justication, parenthesization, knapsack, pseudopolynomial time, and Tetris training.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 22: Dynamic Programming IV: Piano Fingering, Structural DP (Trees), Vertex Cover, Dominating Set, Beyond</title>
+      <link>/resources/lec22/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec22/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on dynamic programming, piano fingering, structural DP (trees), vertex cover, dominating set, treewidth, planar graphs, and folding.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 23: Numerics I</title>
+      <link>/resources/lec23/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec23/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on numerics, irrationals, Newton&amp;rsquo;s method, and high precision multiplication.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 24: Numerics II</title>
+      <link>/resources/lec24/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec24/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on numerics, high precision arithmetic, multiplication, division, error analysis, and termination.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 25: Beyond 6.006: Follow-on Classes, Geometric Folding Algorithms</title>
+      <link>/resources/lec25/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec25/data.json</guid>
+      <description>&lt;p&gt;Lecture notes with a list of follow-on classes on algorithms and theory.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 3: Scheduling and Binary Search Trees</title>
+      <link>/resources/lec3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec3/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on scheduling, a runway reservation system, how to solve with lists, binary search trees, and operations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 4: Balanced Binary Search Trees</title>
+      <link>/resources/lec4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec4/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on balanced binary search trees, the importance of being balanced, AVL trees, other balanced trees, and data structures in general.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 5: Hashing I: Chaining, Hash Functions</title>
+      <link>/resources/lec5/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec5/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on hashing, dictionaries and Python, motivation, hash functions, chaining, simple uniform hashing, and “Good” hash functions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 6: Hashing II: Table Doubling, Karp-Rabin</title>
+      <link>/resources/lec6/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec6/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on hashing, table doubling, table resizing, amortization, string matching and Karp-Rabin, and rolling hash.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 7: Hashing III: Open Addressing</title>
+      <link>/resources/lec7/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec7/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on hashing, open addressing, probing strategies, uniform hashing, and advanced hashing.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 8: Sorting I: Heaps</title>
+      <link>/resources/lec8/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec8/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on sorting, insertion sort, merge sort, selection sort, and heaps.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 9: Sorting II: Heaps</title>
+      <link>/resources/lec9/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec9/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on sorting, heaps and MAX_HEAPIFY, building a heap, heap sort, and priority queues.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture Notes</title>
+      <link>/pages/lecture-notes/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/lecture-notes/data.json</guid>
+      <description>&lt;p&gt;The lecture notes in this section were transcribed from the professors&amp;rsquo; handwritten notes by graduate student Pavitra Krishnaswamy. &lt;/p&gt;&#xA;&lt;p&gt;&lt;table&gt;&#xA;&lt;thead&gt;&#xA;&lt;tr&gt;&#xA;&lt;th&gt;&#xA;&#xA;LEC #&#xA;&lt;/th&gt;&#xA;&lt;th&gt;&#xA;&#xA;TOPICS&#xA;&lt;/th&gt;&#xA;&lt;th&gt;&#xA;&#xA;SUPPORTING FILES&#xA;&lt;/th&gt;&#xA;&lt;/tr&gt;&#xA;&lt;/thead&gt;&#xA;&lt;tbody&gt;&#xA;&lt;tr&gt;&#xA;&lt;td colspan=&#34;3&#34;&gt;&#xA;&#xA;&lt;strong&gt;Introduction and document distance&lt;/strong&gt;&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;L1&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;Introduction and document distance (&lt;a href=&#34;../../resources/lec1/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../ans7870/6/6.006/s08/lecturenotes/dd_prog1.htm/index.html&#34;&gt;Document distance&lt;/a&gt; (docdist{1,2,3,4}.py)&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;L2&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;More document distance, mergesort (&lt;a href=&#34;../../resources/lec2/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../ans7870/6/6.006/s08/lecturenotes/dd_prog5.htm/index.html&#34;&gt;Document distance&lt;/a&gt; (docdist{5,6}.py)&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td colspan=&#34;3&#34;&gt;&#xA;&#xA;&lt;strong&gt;Binary search trees&lt;/strong&gt;&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;L3&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;Airplane scheduling, binary search trees (&lt;a href=&#34;../../resources/lec3/index.html&#34;&gt;PDF - 1.4 MB&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../ans7870/6/6.006/s08/lecturenotes/search.htm/index.html&#34;&gt;Binary search trees&lt;/a&gt; (including code)&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;L4&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;Balanced binary search trees (&lt;a href=&#34;../../resources/lec4/index.html&#34;&gt;PDF - 1.2 MB&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;See &lt;a href=&#34;../../ans7870/6/6.006/s08/lecturenotes/search.htm/index.html&#34;&gt;binary search trees&lt;/a&gt; for AVL code&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td colspan=&#34;3&#34;&gt;&#xA;&#xA;&lt;strong&gt;Hashing&lt;/strong&gt;&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;L5&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;Hashing I: chaining, hash functions (&lt;a href=&#34;../../resources/lec5/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../ans7870/6/6.006/s08/lecturenotes/dd_dict.htm/index.html&#34;&gt;Document distance&lt;/a&gt; (docdist-dict.py)&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;L6&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;Hashing II: table doubling, Karp-Rabin (&lt;a href=&#34;../../resources/lec6/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;L7&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;Hashing III: open addressing (&lt;a href=&#34;../../resources/lec7/index.html&#34;&gt;PDF - 1.1 MB&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td colspan=&#34;3&#34;&gt;&#xA;&#xA;&lt;strong&gt;Sorting&lt;/strong&gt;&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;L8&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;Sorting I: heaps (&lt;a href=&#34;../../resources/lec8/index.html&#34;&gt;PDF - 1.0 MB&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;L9&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;Sorting II: heaps (&lt;a href=&#34;../../resources/lec9/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;L10&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;Sorting III: lower bounds, linear-time sorting (&lt;a href=&#34;../../resources/lec10/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;L11&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;Sorting IV: stable sorting, radix sort (&lt;a href=&#34;../../resources/lec11/index.html&#34;&gt;PDF - 1.0 MB&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td colspan=&#34;3&#34;&gt;&#xA;&#xA;&lt;strong&gt;Searching&lt;/strong&gt;&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;L12&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;Searching I: graph search, representations, and applications (&lt;a href=&#34;../../resources/lec12/index.html&#34;&gt;PDF - 1.6 MB&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;Simple Python code for graphs (&lt;a href=&#34;../../resources/graph/index.html&#34;&gt;PY&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;L13&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;Searching II: breadth-first search and depth-first search (&lt;a href=&#34;../../resources/lec13/index.html&#34;&gt;PDF - 1.3 MB&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;L14&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;Searching III: topological sort and NP-completeness (&lt;a href=&#34;../../resources/lec14/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td colspan=&#34;3&#34;&gt;&#xA;&#xA;&lt;strong&gt;Shortest paths&lt;/strong&gt;&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;L15&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;Shortest paths I: intro (&lt;a href=&#34;../../resources/lec15/index.html&#34;&gt;PDF - 1.0 MB&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;L16&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;Shortest paths II: Bellman-Ford (&lt;a href=&#34;../../resources/lec16/index.html&#34;&gt;PDF - 1.1 MB&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;L17&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;Shortest paths III: Dijkstra (&lt;a href=&#34;../../resources/lec17/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;L18&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;Shortest paths IV: Dijkstra speedups (&lt;a href=&#34;../../resources/lec18/index.html&#34;&gt;PDF - 1.2 MB&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td colspan=&#34;3&#34;&gt;&#xA;&#xA;&lt;strong&gt;Dynamic programming&lt;/strong&gt;&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;L19&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;Dynamic programming I: memoization, Fibonacci, Crazy Eights, guessing (&lt;a href=&#34;../../resources/lec19/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;L20&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;Dynamic programming II: longest common subsequence, parent pointers (&lt;a href=&#34;../../resources/lec20/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;L21&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;Dynamic programming III: text justification, parenthesization, knapsack, pseudopolynomial time, Tetris training (&lt;a href=&#34;../../resources/lec21/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;L22&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;Dynamic programming IV: piano fingering, structural DP (trees), vertex cover, dominating set, and beyond (&lt;a href=&#34;../../resources/lec22/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td colspan=&#34;3&#34;&gt;&#xA;&#xA;&lt;strong&gt;Numerics&lt;/strong&gt;&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;L23&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;Numerics I (&lt;a href=&#34;../../resources/lec23/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Numerics Demo</title>
+      <link>/resources/numerics_demo/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/numerics_demo/data.json</guid>
+      <description>&lt;p&gt;Source code for a numerics demonstration supporting Lecture 23. (This zip file includes: 14 .js files, 2 .html files, 1 .css file, and 1 .project file.)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Simple Python code for graphs</title>
+      <link>/resources/graph/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/graph/data.json</guid>
+      <description>&lt;p&gt;Supporting file for Lecture 12 containing simple Python code for graphs.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

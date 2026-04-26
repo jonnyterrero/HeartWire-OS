@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Problem-Solving Notes on MIT OpenCourseWare</title>
+    <link>/resources/problem-solving-notes/</link>
+    <description>Recent content in Problem-Solving Notes on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/problem-solving-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Code for AVL trees</title>
+      <link>/resources/avl_r/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/avl_r/data.json</guid>
+      <description>&lt;p&gt;Supporting Python file for Recitation 4 on code for AVL trees (uses the BST code from R3).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Code for binary search trees</title>
+      <link>/resources/bstsize_r/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/bstsize_r/data.json</guid>
+      <description>&lt;p&gt;Supporting Python file for Recitation 3 on code for binary search trees augmented with subtree size.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Code for breadth-first search</title>
+      <link>/resources/bfs/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/bfs/data.json</guid>
+      <description>&lt;p&gt;Supporting Python file for Recitation 11 on code for breadth-first search.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Code for depth-first search</title>
+      <link>/resources/dfs/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/dfs/data.json</guid>
+      <description>&lt;p&gt;Supporting Python file for Recitation 11 on code for depth-first search.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Longest zig-zag subsequence</title>
+      <link>/resources/r21_sequence/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/r21_sequence/data.json</guid>
+      <description>&lt;p&gt;Live Python Coding problems (problem statement, tests, and solutions are included) for Recitation 21 on longest zig-zag subsequence. (This zip file includes: 3 .py files, 1 .pyc file, 1 .rb file, and 6 data files.)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Matrix chain multiplication</title>
+      <link>/resources/r21_parens/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/r21_parens/data.json</guid>
+      <description>&lt;p&gt;Live Python Coding problems (problem statement, tests, and solutions are included) for Recitation 21 on matrix chain multiplication. (This zip file includes: 3 .py files, 1 .pyc file, 1 .rb file, and 6 data files.)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mutable dictionary keys</title>
+      <link>/resources/mutable_dictkey/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mutable_dictkey/data.json</guid>
+      <description>&lt;p&gt;Supporting Python file for Recitation 5 on the dangers of mutable dictionary keys.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Open addressing code</title>
+      <link>/resources/open_addressing_explicit/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/open_addressing_explicit/data.json</guid>
+      <description>&lt;p&gt;Support Python file for Recitation 7 on open addressing code.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Recitation 1</title>
+      <link>/resources/recitation01/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/recitation01/data.json</guid>
+      <description>&lt;p&gt;Recitation slides on document distance in Python (docdist{1,2,3,4}.py).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Recitation 11</title>
+      <link>/resources/recitation11/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/recitation11/data.json</guid>
+      <description>&lt;p&gt;Recitation slides on breadth-first search and depth-first search.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Recitation 12</title>
+      <link>/resources/recitation12/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/recitation12/data.json</guid>
+      <description>&lt;p&gt;Recitation slides on two-way BFS, stable sorting, and DRY.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Recitation 14</title>
+      <link>/resources/recitation14/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/recitation14/data.json</guid>
+      <description>&lt;p&gt;Recitation slides on Dijkstra (pseudocode, preconditions, examples, why it works) and priority queues (review, extended Python implementation).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Recitation 16</title>
+      <link>/resources/recitation16/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/recitation16/data.json</guid>
+      <description>&lt;p&gt;Recitation slides on dynamic programming: big ideas, memoization in Fibonacci, crazy cards, Dijkstra, and Bellman-Ford algorithm.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Recitation 17</title>
+      <link>/resources/recitation17/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/recitation17/data.json</guid>
+      <description>&lt;p&gt;Recitation slides on dynamic programming: beating Super Mario Brothers, getting points back on tests (LCS), and Crazy Eights.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Recitation 18</title>
+      <link>/resources/recitation18/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/recitation18/data.json</guid>
+      <description>&lt;p&gt;Recitation slides on dynamic programming: maximum-sum sub-array and Tetris.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Recitation 2</title>
+      <link>/resources/recitation02/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/recitation02/data.json</guid>
+      <description>&lt;p&gt;Recitation slides on the Python cost model, asymptotic notation, and mergesort.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Recitation 23</title>
+      <link>/resources/recitation23/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/recitation23/data.json</guid>
+      <description>&lt;p&gt;Recitation slides with exam review questions and concluding discussion for the course.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Recitation 3</title>
+      <link>/resources/recitation03/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/recitation03/data.json</guid>
+      <description>&lt;p&gt;Recitation slides on binary search trees.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Recitation 4</title>
+      <link>/resources/recitation04/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/recitation04/data.json</guid>
+      <description>&lt;p&gt;Recitation slides on AVL Trees (balanced binary search trees).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Recitation 5</title>
+      <link>/resources/recitation05/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/recitation05/data.json</guid>
+      <description>&lt;p&gt;Recitation slides on hashing in Python and mutability.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Recitation 6</title>
+      <link>/resources/recitation06/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/recitation06/data.json</guid>
+      <description>&lt;p&gt;Recitation slides on Karp-Rabin, rolling hashes principles, and code.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Recitation 7</title>
+      <link>/resources/recitation07/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/recitation07/data.json</guid>
+      <description>&lt;p&gt;Recitation slides on hashing, open addressing, theory review, Python code, and rolling hashes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Recitation 8</title>
+      <link>/resources/recitation08/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/recitation08/data.json</guid>
+      <description>&lt;p&gt;Recitation slides with an overview of sorting methods and discussion of heaps as data structures.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Recitation 9</title>
+      <link>/resources/recitation09/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/recitation09/data.json</guid>
+      <description>&lt;p&gt;Recitation slides containing quiz review problems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Rolling hash code</title>
+      <link>/resources/rolling_hash/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rolling_hash/data.json</guid>
+      <description>&lt;p&gt;Support Python file for Recitation 6 on rolling hash code.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Zipped data (numbers)</title>
+      <link>/resources/recitation02_data/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/recitation02_data/data.json</guid>
+      <description>&lt;p&gt;Supporting files for Recitation 2. (This zip file includes: 2 .jpg files, 1 .gz file, 1 .tiff file, 1 .numbers file, and 1 .pkginfo file.)&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

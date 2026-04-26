@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Laboratory Assignments on MIT OpenCourseWare</title>
+    <link>/resources/laboratory-assignments/</link>
+    <description>Recent content in Laboratory Assignments on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/laboratory-assignments/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>5-stage Pipelined Beta</title>
+      <link>/resources/mit6_004s09_lab_pbeta_diagram/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_004s09_lab_pbeta_diagram/data.json</guid>
+      <description>&lt;p&gt;Diagram of the 5-stage pipelined Beta.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>BSim</title>
+      <link>/resources/mit6_004s09_lab_tool_bsim/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_004s09_lab_tool_bsim/data.json</guid>
+      <description>&lt;p&gt;Documentation on the BSim simulator for the 6.004 Beta architecture.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Design Project</title>
+      <link>/resources/mit6_004s09_lab_project/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_004s09_lab_project/data.json</guid>
+      <description>&lt;p&gt;Design project to optimize the price/performance of your Beta design.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>JSim</title>
+      <link>/resources/mit6_004s09_lab_tool_jsim/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_004s09_lab_tool_jsim/data.json</guid>
+      <description>&lt;p&gt;Documentation on the JSim computer-aided design (CAD) tool.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lab #1</title>
+      <link>/resources/mit6_004s09_lab01/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_004s09_lab01/data.json</guid>
+      <description>&lt;p&gt;Lab assignment to use a simulation program (JSim) to make some measurements of an N-channel mosfet (or &amp;ldquo;nfet&amp;rdquo; for short).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lab #2</title>
+      <link>/resources/mit6_004s09_lab02/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_004s09_lab02/data.json</guid>
+      <description>&lt;p&gt;Lab assignment to design and test a CMOS circuit that performs addition on two unsigned 4-bit numbers, producing a 5-bit result.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lab #3</title>
+      <link>/resources/mit6_004s09_lab03/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_004s09_lab03/data.json</guid>
+      <description>&lt;p&gt;Lab assignment to build the arithmetic and logic unit (ALU) for the Beta processor.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lab #4</title>
+      <link>/resources/mit6_004s09_lab04/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_004s09_lab04/data.json</guid>
+      <description>&lt;p&gt;Lab assignment to write the FSM controller for a Turing Machine (TM) which checks to see if the string of left and right parentheses it finds on its input tape &amp;ldquo;balance.&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lab #5</title>
+      <link>/resources/mit6_004s09_lab05/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_004s09_lab05/data.json</guid>
+      <description>&lt;p&gt;Lab assignment to write a Beta assembly language program.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lab #6</title>
+      <link>/resources/mit6_004s09_lab06/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_004s09_lab06/data.json</guid>
+      <description>&lt;p&gt;Lab assignment on RISC processor design.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lab #7</title>
+      <link>/resources/mit6_004s09_lab07/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_004s09_lab07/data.json</guid>
+      <description>&lt;p&gt;Lab assignment on trap handlers.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lab #8</title>
+      <link>/resources/mit6_004s09_lab08/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_004s09_lab08/data.json</guid>
+      <description>&lt;p&gt;Lab assignment on implementing an operating system.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lab #8 Checkoff</title>
+      <link>/resources/mit6_004s09_lab08_writeup/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_004s09_lab08_writeup/data.json</guid>
+      <description>&lt;p&gt;Checklist for a lab assignment on implementing an operating system.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Labs</title>
+      <link>/pages/labs/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/labs/data.json</guid>
+      <description>&lt;h4 id=&#34;abbreviations&#34;&gt;Abbreviations&lt;/h4&gt;&#xA;&#xA;&lt;p&gt;CMOS = complementary metal-oxide-semiconductor&lt;br&gt;&#xA;ALU = arithmetic logic unit&lt;br&gt;&#xA;OS = operating system&lt;/p&gt;&#xA;&lt;p&gt;&lt;table&gt;&#xA;&#xA;&lt;thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;LAB #&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;TOPICS&#xA;&lt;/th&gt;&#xA;&lt;/p&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;p&gt;&lt;/thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;1&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;CMOS (&lt;a href=&#34;../../resources/mit6_004s09_lab01/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;2&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Adder (&lt;a href=&#34;../../resources/mit6_004s09_lab02/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;3&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;ALU (&lt;a href=&#34;../../resources/mit6_004s09_lab03/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;4&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Turing machine (&lt;a href=&#34;../../resources/mit6_004s09_lab04/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;5&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Assembly language (&lt;a href=&#34;../../resources/mit6_004s09_lab05/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;6&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Beta (&lt;a href=&#34;../../resources/mit6_004s09_lab06/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;7&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Trap handler (&lt;a href=&#34;../../resources/mit6_004s09_lab07/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;8&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;Tiny OS (&lt;a href=&#34;../../resources/mit6_004s09_lab08/index.html&#34;&gt;PDF&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;Writeup (&lt;a href=&#34;../../resources/mit6_004s09_lab08_writeup/index.html&#34;&gt;PDF&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;/td&gt;&#xA;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Project (&lt;a href=&#34;../../resources/mit6_004s09_lab_project/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;/table&gt;&#xA;&#xA;&#xA;    &lt;h3 id=&#34;tools&#34;&gt;Tools&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;JSim documentation (&lt;a href=&#34;../../resources/mit6_004s09_lab_tool_jsim/index.html&#34;&gt;PDF&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;BSim documentation (&lt;a href=&#34;../../resources/mit6_004s09_lab_tool_bsim/index.html&#34;&gt;PDF&lt;/a&gt;)&lt;/p&gt;&#xA;&#xA;    &lt;h3 id=&#34;beta-references&#34;&gt;Beta References&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Beta documentation (&lt;a href=&#34;../../resources/mit6_004s09_lab_beta_doc/index.html&#34;&gt;PDF&lt;/a&gt;)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Summary of β Instruction Formats</title>
+      <link>/resources/mit6_004s09_lab_beta_summary/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_004s09_lab_beta_summary/data.json</guid>
+      <description>&lt;p&gt;Summary of instruction formats for the β machine.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Unpipelined Beta</title>
+      <link>/resources/mit6_004s09_lab_beta_diagram/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_004s09_lab_beta_diagram/data.json</guid>
+      <description>&lt;p&gt;Reference material on the unpipelined Beta and control logic.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>β Documentation</title>
+      <link>/resources/mit6_004s09_lab_beta_doc/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_004s09_lab_beta_doc/data.json</guid>
+      <description>&lt;p&gt;This handout is a reference guide for the β, the RISC processor design for 6.004. This is intended to be a complete and thorough specification of the programmer-visible state and instruction set.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
