@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Problem Set Solutions on MIT OpenCourseWare</title>
+    <link>/resources/problem-set-solutions/</link>
+    <description>Recent content in Problem Set Solutions on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/problem-set-solutions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linear Partial Differential Equations, Solution to Problem 1</title>
+      <link>/resources/mit18_303f14_pset1sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_303f14_pset1sol/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding problem set 1 solution.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linear Partial Differential Equations, Solution to Problem 2</title>
+      <link>/resources/mit18_303f14_pset2sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_303f14_pset2sol/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding problem set 2 solution.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linear Partial Differential Equations, Solution to Problem 3</title>
+      <link>/resources/mit18_303f14_pset3sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_303f14_pset3sol/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding problem set 3 solution.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linear Partial Differential Equations, Solution to Problem 4</title>
+      <link>/resources/mit18_303f14_pset4sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_303f14_pset4sol/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding problem set 4 solution.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linear Partial Differential Equations, Solution to Problem 5</title>
+      <link>/resources/mit18_303f14_pset5sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_303f14_pset5sol/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding problem set  5 solution.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

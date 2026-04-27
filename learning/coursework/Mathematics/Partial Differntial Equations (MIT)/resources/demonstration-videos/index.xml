@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Demonstration Videos on MIT OpenCourseWare</title>
+    <link>/resources/demonstration-videos/</link>
+    <description>Recent content in Demonstration Videos on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/demonstration-videos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exploration of the Amplitude and Phase: First Order Applet</title>
+      <link>/resources/exploration-of-the-amplitude-and-phase-first-order-applet/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/exploration-of-the-amplitude-and-phase-first-order-applet/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Exploration of the Amplitude and Phase: Second Order II Applet</title>
+      <link>/resources/exploration-of-the-amplitude-and-phase-second-order-ii-applet/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/exploration-of-the-amplitude-and-phase-second-order-ii-applet/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Exploration of the Convolution Accumulation Applet</title>
+      <link>/resources/exploration-of-the-convolution-accumulation-applet/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/exploration-of-the-convolution-accumulation-applet/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Exploration of the Damped Vibrations Applet</title>
+      <link>/resources/exploration-of-the-damped-vibrations-applet/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/exploration-of-the-damped-vibrations-applet/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Exploration of the Euler&#39;s Method Applet</title>
+      <link>/resources/exploration-of-the-eulers-method-applet/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/exploration-of-the-eulers-method-applet/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Exploration of the Fourier Coefficient Applet</title>
+      <link>/resources/exploration-of-the-fourier-coefficient-applet/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/exploration-of-the-fourier-coefficient-applet/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Exploration of the Isoclines Applet</title>
+      <link>/resources/exploration-of-the-isoclines-applet/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/exploration-of-the-isoclines-applet/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Exploration of the Phase Lines Applet</title>
+      <link>/resources/exploration-of-the-phase-lines-applet/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/exploration-of-the-phase-lines-applet/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Introduction to the 18.03 Applets</title>
+      <link>/resources/introduction-to-the-18/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/introduction-to-the-18/data.json</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,1502 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lecture Notes on MIT OpenCourseWare</title>
+    <link>/resources/lecture-notes/</link>
+    <description>Recent content in Lecture Notes on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/lecture-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>18.03SCF11 applet: Applet Exploration: Trigonometric Identity</title>
+      <link>/resources/mit18_03scf11_s7_3bappl/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s7_3bappl/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to applet exploration: trigonometric identity  .&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>18.03SCF11 course notes: The Phase Plane</title>
+      <link>/resources/mit18_03scf11_s34_1text_new_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s34_1text_new_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>18.03SCF11 intro: Introduction</title>
+      <link>/resources/mit18_03scf11_s14_0intro/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s14_0intro/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to exponential response.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>18.03SCF11 text: Appendix: A Computer-Generated Portrait Gallery</title>
+      <link>/resources/mit18_03scf11_s34_6text_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s34_6text_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>18.03SCF11 text: Definition and Properties</title>
+      <link>/resources/mit18_03scf11_s26_1text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s26_1text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to convolution.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>18.03SCF11 text: Domain of F(s)</title>
+      <link>/resources/mit18_03scf11_s27_2text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s27_2text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to domain F(s).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>18.03SCF11 text: Example</title>
+      <link>/resources/mit18_03scf11_s17_4text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s17_4text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to linear operators.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>18.03SCF11 text: Example: Damped Harmonic Oscillator</title>
+      <link>/resources/mit18_03scf11_s23_3text_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s23_3text_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>18.03SCF11 text: Example: Simple Harmonic Oscillator</title>
+      <link>/resources/mit18_03scf11_s23_1text_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s23_1text_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>18.03SCF11 text: Existence and Uniqueness and Superposition in the General Case</title>
+      <link>/resources/mit18_03scf11_s35_4text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s35_4text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to existence and uniqueness and superposition in the general case.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>18.03SCF11 text: General Case</title>
+      <link>/resources/mit18_03scf11_s23_4text_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s23_4text_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>18.03SCF11 text: General Case: Eigenvalues and Eigenvectors</title>
+      <link>/resources/mit18_03scf11_s33_4text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s33_4text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to eigen values and eigen vectors.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>18.03SCF11 text: Green&#39;s Formula</title>
+      <link>/resources/mit18_03scf11_s26_2text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s26_2text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to green&amp;rsquo;s formula.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>18.03SCF11 text: Impedance</title>
+      <link>/resources/mit18_03scf11_s20_2text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s20_2text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to impedance.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>18.03SCF11 text: Inhomogeneous Case: Variation of Parameters Formula</title>
+      <link>/resources/mit18_03scf11_s35_8text_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s35_8text_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>18.03SCF11 text: Laplace: Solving Initial Value Problems</title>
+      <link>/resources/mit18_03scf11_s29_3text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s29_3text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to laplace: solving initial value problems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>18.03SCF11 text: Mechanical Vibration System: Driving Through the Spring</title>
+      <link>/resources/mit18_03scf11_s19_3text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s19_3text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to mechanical vibration system: driving through the spring.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>18.03SCF11 text: Modes and Roots</title>
+      <link>/resources/mit18_03scf11_s12_4text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s12_4text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to modes and roots.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>18.03SCF11 text: Pole Diagrams</title>
+      <link>/resources/mit18_03scf11_s31_2text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s31_2text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to pole diagrams.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>18.03SCF11 text: Precise Definition of Laplace Inverse</title>
+      <link>/resources/mit18_03scf11_s29_2text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s29_2text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to precise definition of laplace inverse.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>18.03SCF11 text: Proof of the Generalized Exponential Response Formula</title>
+      <link>/resources/mit18_03scf11_s17_6text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s17_6text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to proof of the generalized exponential response formula.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>18.03SCF11 text: Repeated Eigenvalues</title>
+      <link>/resources/mit18_03scf11_s33_8text_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s33_8text_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>18.03SCF11 text: Review of Vectors and Matrices</title>
+      <link>/resources/mit18_03scf11_s32_3text_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s32_3text_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>18.03SCF11 text: Second order Unit Impulse Response</title>
+      <link>/resources/mit18_03scf11_s25_7text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s25_7text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to second order unit impulse response.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>18.03SCF11 text: Second order Unit Step Response</title>
+      <link>/resources/mit18_03scf11_s25_6text_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s25_6text_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>18.03SCF11 text: Sinusoidal Input</title>
+      <link>/resources/mit18_03scf11_s14_3text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s14_3text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to sinusoidal input.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>18.03SCF11 text: Superposition and the Integrating Factors Solution</title>
+      <link>/resources/mit18_03scf11_s5_5text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s5_5text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to superposition and integrating factors and solutions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>18.03SCF11 text: Table Entries: Derivative Rules</title>
+      <link>/resources/mit18_03scf11_s29_1text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s29_1text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to table entries: derivative rules.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>18.03SCF11 text: The Characteristic Polynomial</title>
+      <link>/resources/mit18_03scf11_s12_2btext/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s12_2btext/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to the characteristic polynomial.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>18.03SCF11 text: The Companion Matrix</title>
+      <link>/resources/mit18_03scf11_s32_9text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s32_9text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to the companion matrix.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>18.03SCF11 text: The Existence and Uniqueness Theorem for Linear Systems</title>
+      <link>/resources/mit18_03scf11_s35_2text_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s35_2text_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>18.03SCF11 text: The Normalized Fundamental Matrix</title>
+      <link>/resources/mit18_03scf11_s35_6text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s35_6text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to the normalized fundamental matrix.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>18.03SCF11 text: The Phase Plane</title>
+      <link>/resources/mit18_03scf11_s34_1text_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s34_1text_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>18.03SCF11 text: Time Invariance</title>
+      <link>/resources/mit18_03scf11_s17_5text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s17_5text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to time invariance.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>18.03SCF11 text: Trace-Determinant Diagram</title>
+      <link>/resources/mit18_03scf11_s34_5text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s34_5text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to trace determinant diagram.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>18.03SCF11 text: Worked Example: Distinct Real Roots</title>
+      <link>/resources/mit18_03scf11_s33_5text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s33_5text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to distinct real roots.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_laptable27.pdf</title>
+      <link>/resources/mit18_03scf11_laptable27/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_laptable27/data.json</guid>
+      <description>&lt;p&gt;This resource contains laplace transform table.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_laptable28.pdf</title>
+      <link>/resources/mit18_03scf11_laptable28/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_laptable28/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to laplace transform table.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_laptable29.pdf</title>
+      <link>/resources/mit18_03scf11_laptable29/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_laptable29/data.json</guid>
+      <description>&lt;p&gt;This resource contains information laplace transform table.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_laptable30.pdf</title>
+      <link>/resources/mit18_03scf11_laptable30/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_laptable30/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to laplace transform table.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s0_0intro.pdf</title>
+      <link>/resources/mit18_03scf11_s0_0intro/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s0_0intro/data.json</guid>
+      <description>&lt;p&gt;This resource contains conventions and preliminary materials.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s0_1text.pdf</title>
+      <link>/resources/mit18_03scf11_s0_1text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s0_1text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to the exponential function.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s0_2text.pdf</title>
+      <link>/resources/mit18_03scf11_s0_2text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s0_2text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to variables and parameters.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s0_3text.pdf</title>
+      <link>/resources/mit18_03scf11_s0_3text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s0_3text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to notations for derivatives.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s0_4text.pdf</title>
+      <link>/resources/mit18_03scf11_s0_4text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s0_4text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to differential equations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s1_0intro.pdf</title>
+      <link>/resources/mit18_03scf11_s1_0intro/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s1_0intro/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to the most important DE.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s1_1text.pdf</title>
+      <link>/resources/mit18_03scf11_s1_1text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s1_1text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to other basic examples.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s1_2text.pdf</title>
+      <link>/resources/mit18_03scf11_s1_2text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s1_2text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to separation of variables.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s1_6text.pdf</title>
+      <link>/resources/mit18_03scf11_s1_6text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s1_6text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to modelling by first linear ODE&amp;rsquo;s.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s10_0intro.pdf</title>
+      <link>/resources/mit18_03scf11_s10_0intro/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s10_0intro/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to first order autonomous differential equations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s10_1text.pdf</title>
+      <link>/resources/mit18_03scf11_s10_1text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s10_1text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to logistic model: qualitative analysis.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s10_2text.pdf</title>
+      <link>/resources/mit18_03scf11_s10_2text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s10_2text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to phase lines.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s10_3appl.pdf</title>
+      <link>/resources/mit18_03scf11_s10_3appl/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s10_3appl/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to phase lines applet.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s11_0intro.pdf</title>
+      <link>/resources/mit18_03scf11_s11_0intro/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s11_0intro/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to linear vs non linear.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s11_1text.pdf</title>
+      <link>/resources/mit18_03scf11_s11_1text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s11_1text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to linear vs non linear.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s12_0intro.pdf</title>
+      <link>/resources/mit18_03scf11_s12_0intro/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s12_0intro/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to modes and the characteristic equation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s12_1text.pdf</title>
+      <link>/resources/mit18_03scf11_s12_1text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s12_1text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to second order physical systems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s12_2text.pdf</title>
+      <link>/resources/mit18_03scf11_s12_2text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s12_2text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to linear differential equations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s13_0intro.pdf</title>
+      <link>/resources/mit18_03scf11_s13_0intro/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s13_0intro/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to damped harmonic oscillators.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s13_1text.pdf</title>
+      <link>/resources/mit18_03scf11_s13_1text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s13_1text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to damped harmonic oscillators.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s13_2text.pdf</title>
+      <link>/resources/mit18_03scf11_s13_2text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s13_2text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to under, over, and critical damping.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s14_1text.pdf</title>
+      <link>/resources/mit18_03scf11_s14_1text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s14_1text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to superposition.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s14_2text.pdf</title>
+      <link>/resources/mit18_03scf11_s14_2text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s14_2text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to exponential input.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s14_4btext.pdf</title>
+      <link>/resources/mit18_03scf11_s14_4btext/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s14_4btext/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to generalized exponential response formula.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s14_4text.pdf</title>
+      <link>/resources/mit18_03scf11_s14_4text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s14_4text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to the simple harmonic oscillator.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s15_0intro.pdf</title>
+      <link>/resources/mit18_03scf11_s15_0intro/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s15_0intro/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to gain and phase log.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s15_1atext.pdf</title>
+      <link>/resources/mit18_03scf11_s15_1atext/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s15_1atext/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to stability.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s15_1text.pdf</title>
+      <link>/resources/mit18_03scf11_s15_1text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s15_1text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to p(D) notation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s15_2text.pdf</title>
+      <link>/resources/mit18_03scf11_s15_2text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s15_2text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to example for stability.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s16_0intro.pdf</title>
+      <link>/resources/mit18_03scf11_s16_0intro/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s16_0intro/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to undetermined coefficients.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s16_1text.pdf</title>
+      <link>/resources/mit18_03scf11_s16_1text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s16_1text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to polynomial input: the method of undetermined coefficients.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s16_3text.pdf</title>
+      <link>/resources/mit18_03scf11_s16_3text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s16_3text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to what can go wrong.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s17_0intro.pdf</title>
+      <link>/resources/mit18_03scf11_s17_0intro/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s17_0intro/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to linear operators, time invariance.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s17_1text.pdf</title>
+      <link>/resources/mit18_03scf11_s17_1text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s17_1text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to operators.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s17_2text.pdf</title>
+      <link>/resources/mit18_03scf11_s17_2text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s17_2text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to linear differential operators with constant coefficients.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s17_3text.pdf</title>
+      <link>/resources/mit18_03scf11_s17_3text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s17_3text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to operator rules.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s18_0intro.pdf</title>
+      <link>/resources/mit18_03scf11_s18_0intro/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s18_0intro/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to pure resonance.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s18_1text.pdf</title>
+      <link>/resources/mit18_03scf11_s18_1text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s18_1text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to the exponential response formula: resonant case.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s18_2text.pdf</title>
+      <link>/resources/mit18_03scf11_s18_2text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s18_2text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to undamped forced systems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s19_0intro.pdf</title>
+      <link>/resources/mit18_03scf11_s19_0intro/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s19_0intro/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to frequency response and practical resonance.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s19_1text.pdf</title>
+      <link>/resources/mit18_03scf11_s19_1text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s19_1text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to sinusoidally driven systems: second order LTI DE&amp;rsquo;s.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s19_2text.pdf</title>
+      <link>/resources/mit18_03scf11_s19_2text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s19_2text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to frequency response and practical resonance.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s19_4text.pdf</title>
+      <link>/resources/mit18_03scf11_s19_4text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s19_4text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to mechanical vibration system: driving through the dashpot.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s19_5appl.pdf</title>
+      <link>/resources/mit18_03scf11_s19_5appl/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s19_5appl/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to amplitude and phase: second order I applet.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s19_6appl.pdf</title>
+      <link>/resources/mit18_03scf11_s19_6appl/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s19_6appl/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to amplitude and phase: second order III applet.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s2_0intro.pdf</title>
+      <link>/resources/mit18_03scf11_s2_0intro/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s2_0intro/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to geometric methods: introduction.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s2_1text.pdf</title>
+      <link>/resources/mit18_03scf11_s2_1text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s2_1text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to direction fields, isoclines, and integral curves.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s2_3text.pdf</title>
+      <link>/resources/mit18_03scf11_s2_3text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s2_3text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to existence and uniqueness theorem of ODE&amp;rsquo;s.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s2_4appl.pdf</title>
+      <link>/resources/mit18_03scf11_s2_4appl/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s2_4appl/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to isoclines applet.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s2_5text.pdf</title>
+      <link>/resources/mit18_03scf11_s2_5text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s2_5text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to long term behavior: fences, funnels and separatrices.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s20_0intro.pdf</title>
+      <link>/resources/mit18_03scf11_s20_0intro/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s20_0intro/data.json</guid>
+      <description>&lt;p&gt;This resource contains information relate to applications: LRC circuits.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s20_1text.pdf</title>
+      <link>/resources/mit18_03scf11_s20_1text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s20_1text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to RLC circuits.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s20_3appl.pdf</title>
+      <link>/resources/mit18_03scf11_s20_3appl/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s20_3appl/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to RLC circuits applet.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s21_0intro.pdf</title>
+      <link>/resources/mit18_03scf11_s21_0intro/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s21_0intro/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to fourier series.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s21_1text.pdf</title>
+      <link>/resources/mit18_03scf11_s21_1text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s21_1text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to periodic functions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s21_4text.pdf</title>
+      <link>/resources/mit18_03scf11_s21_4text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s21_4text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to fourier series: coefficients.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s21_5text.pdf</title>
+      <link>/resources/mit18_03scf11_s21_5text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s21_5text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to fourier series.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s21_6text.pdf</title>
+      <link>/resources/mit18_03scf11_s21_6text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s21_6text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to fourier series for functions with period 2L.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s21_7text.pdf</title>
+      <link>/resources/mit18_03scf11_s21_7text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s21_7text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to orthogonality relations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s22_0intro.pdf</title>
+      <link>/resources/mit18_03scf11_s22_0intro/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s22_0intro/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to operations on fourier series.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s22_2text.pdf</title>
+      <link>/resources/mit18_03scf11_s22_2text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s22_2text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to even and odd functions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s22_3text.pdf</title>
+      <link>/resources/mit18_03scf11_s22_3text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s22_3text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to scaling and shifting.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s22_4text.pdf</title>
+      <link>/resources/mit18_03scf11_s22_4text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s22_4text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to integration and differentiation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s22_5text.pdf</title>
+      <link>/resources/mit18_03scf11_s22_5text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s22_5text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to convergence of fourier series.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s22_6text.pdf</title>
+      <link>/resources/mit18_03scf11_s22_6text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s22_6text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to the meaning of fourier series.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s22_7text.pdf</title>
+      <link>/resources/mit18_03scf11_s22_7text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s22_7text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to gibbs phenomenon.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s22_9text.pdf</title>
+      <link>/resources/mit18_03scf11_s22_9text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s22_9text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to applications to infinite series.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s23_0intro.pdf</title>
+      <link>/resources/mit18_03scf11_s23_0intro/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s23_0intro/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to ODE&amp;rsquo;s with periodic input, and resonance.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s23_2appl.pdf</title>
+      <link>/resources/mit18_03scf11_s23_2appl/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s23_2appl/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to applet exploration: harmonic frequency response.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s23_5appl.pdf</title>
+      <link>/resources/mit18_03scf11_s23_5appl/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s23_5appl/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to applet exploration: fourier coefficients with sound.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s24_0intro.pdf</title>
+      <link>/resources/mit18_03scf11_s24_0intro/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s24_0intro/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to step and delta functions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s24_1text.pdf</title>
+      <link>/resources/mit18_03scf11_s24_1text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s24_1text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to step and box functions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s24_3text.pdf</title>
+      <link>/resources/mit18_03scf11_s24_3text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s24_3text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to delta functions: unit impulse.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s25_0intro.pdf</title>
+      <link>/resources/mit18_03scf11_s25_0intro/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s25_0intro/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to impulse response.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s25_1text.pdf</title>
+      <link>/resources/mit18_03scf11_s25_1text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s25_1text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to initial conditions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s25_2text.pdf</title>
+      <link>/resources/mit18_03scf11_s25_2text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s25_2text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to first order unit step response.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s25_4text.pdf</title>
+      <link>/resources/mit18_03scf11_s25_4text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s25_4text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to first order unit impulse response.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s25_6text.pdf</title>
+      <link>/resources/mit18_03scf11_s25_6text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s25_6text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to second order step response.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s25_9text.pdf</title>
+      <link>/resources/mit18_03scf11_s25_9text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s25_9text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to high order unit step response.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s26_0intro.pdf</title>
+      <link>/resources/mit18_03scf11_s26_0intro/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s26_0intro/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to convolution.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s26_3text.pdf</title>
+      <link>/resources/mit18_03scf11_s26_3text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s26_3text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to proof of green&amp;rsquo;s formula.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s26_4text.pdf</title>
+      <link>/resources/mit18_03scf11_s26_4text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s26_4text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to green&amp;rsquo;s formula.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s27_0intro.pdf</title>
+      <link>/resources/mit18_03scf11_s27_0intro/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s27_0intro/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to laplace transform.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s27_1text.pdf</title>
+      <link>/resources/mit18_03scf11_s27_1text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s27_1text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to definition of laplace transform.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s27_3text.pdf</title>
+      <link>/resources/mit18_03scf11_s27_3text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s27_3text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to more entries for the laplace table.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s27_5text.pdf</title>
+      <link>/resources/mit18_03scf11_s27_5text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s27_5text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to the delta function.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s28_0intro.pdf</title>
+      <link>/resources/mit18_03scf11_s28_0intro/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s28_0intro/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to partial fractions and inverse laplace transform.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s28_1text.pdf</title>
+      <link>/resources/mit18_03scf11_s28_1text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s28_1text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to Laplace inverse by table lookup.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s28_2text.pdf</title>
+      <link>/resources/mit18_03scf11_s28_2text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s28_2text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to partial fractions: undetermined coefficients.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s28_3text.pdf</title>
+      <link>/resources/mit18_03scf11_s28_3text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s28_3text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to heaviside cover-up method.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s28_4text.pdf</title>
+      <link>/resources/mit18_03scf11_s28_4text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s28_4text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to table entries: repeated quadratic factors.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s29_0intro.pdf</title>
+      <link>/resources/mit18_03scf11_s29_0intro/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s29_0intro/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to laplace transform: solving initial value problems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s29_4text.pdf</title>
+      <link>/resources/mit18_03scf11_s29_4text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s29_4text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to IVP&amp;rsquo;s and t-translation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s29_5text.pdf</title>
+      <link>/resources/mit18_03scf11_s29_5text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s29_5text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to IVP&amp;rsquo;s: longer examples.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s3_0intro.pdf</title>
+      <link>/resources/mit18_03scf11_s3_0intro/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s3_0intro/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to numerical methods.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s3_1text.pdf</title>
+      <link>/resources/mit18_03scf11_s3_1text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s3_1text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to motivation and implementation of euler&amp;rsquo;s method.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s3_3appl.pdf</title>
+      <link>/resources/mit18_03scf11_s3_3appl/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s3_3appl/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to euler&amp;rsquo;s method: exercises and exploration/.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s3_4text.pdf</title>
+      <link>/resources/mit18_03scf11_s3_4text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s3_4text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to errors in euler&amp;rsquo;s methods.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s3_5text.pdf</title>
+      <link>/resources/mit18_03scf11_s3_5text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s3_5text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to numerical methods.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s30_0intro.pdf</title>
+      <link>/resources/mit18_03scf11_s30_0intro/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s30_0intro/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to transfer (system) and weight functions, green&amp;rsquo;s formula.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s30_1text.pdf</title>
+      <link>/resources/mit18_03scf11_s30_1text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s30_1text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to the transfer function.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s30_4text.pdf</title>
+      <link>/resources/mit18_03scf11_s30_4text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s30_4text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to modified input.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s30_5text.pdf</title>
+      <link>/resources/mit18_03scf11_s30_5text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s30_5text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to green&amp;rsquo;s formula, laplace transform of convolution.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s30_6text.pdf</title>
+      <link>/resources/mit18_03scf11_s30_6text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s30_6text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to block diagrams.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s31_0intro.pdf</title>
+      <link>/resources/mit18_03scf11_s31_0intro/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s31_0intro/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to poles, amplitude response, connection to ERF.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s31_1text.pdf</title>
+      <link>/resources/mit18_03scf11_s31_1text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s31_1text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to definition of poles.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s31_3text.pdf</title>
+      <link>/resources/mit18_03scf11_s31_3text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s31_3text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to poles and stability.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s31_4text.pdf</title>
+      <link>/resources/mit18_03scf11_s31_4text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s31_4text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to poles and amplitude response.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s31_5appl.pdf</title>
+      <link>/resources/mit18_03scf11_s31_5appl/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s31_5appl/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to applet exploration: amplitude response pole diagram.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s32_0intro.pdf</title>
+      <link>/resources/mit18_03scf11_s32_0intro/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s32_0intro/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to linear systems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s32_10appl.pdf</title>
+      <link>/resources/mit18_03scf11_s32_10appl/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s32_10appl/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to companion matrices.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s32_1text.pdf</title>
+      <link>/resources/mit18_03scf11_s32_1text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s32_1text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to first order linear systems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s32_6text.pdf</title>
+      <link>/resources/mit18_03scf11_s32_6text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s32_6text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to describing a first order system using matrix notation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s32_8appl.pdf</title>
+      <link>/resources/mit18_03scf11_s32_8appl/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s32_8appl/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to linear phase portraits: matrix entry.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s33_0intro.pdf</title>
+      <link>/resources/mit18_03scf11_s33_0intro/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s33_0intro/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to matrix methods: eigenvalues and normal modes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s33_1text.pdf</title>
+      <link>/resources/mit18_03scf11_s33_1text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s33_1text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to vectors and matrices.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s33_3text.pdf</title>
+      <link>/resources/mit18_03scf11_s33_3text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s33_3text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to motivation and derivation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s33_6appl.pdf</title>
+      <link>/resources/mit18_03scf11_s33_6appl/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s33_6appl/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to matrix/vector applet.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s33_7text.pdf</title>
+      <link>/resources/mit18_03scf11_s33_7text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s33_7text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to complex eigen values.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s33_8text.pdf</title>
+      <link>/resources/mit18_03scf11_s33_8text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s33_8text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to repeated eigen values.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s34_0intro.pdf</title>
+      <link>/resources/mit18_03scf11_s34_0intro/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s34_0intro/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to qualitative behavior: phase portraits.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s34_1text.pdf</title>
+      <link>/resources/mit18_03scf11_s34_1text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s34_1text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to the phase plane.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s34_2text.pdf</title>
+      <link>/resources/mit18_03scf11_s34_2text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s34_2text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to sketching the basic linear systems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s34_3text.pdf</title>
+      <link>/resources/mit18_03scf11_s34_3text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s34_3text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to sketching more general linear systems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s34_4text.pdf</title>
+      <link>/resources/mit18_03scf11_s34_4text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s34_4text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to phase portraits.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s34_6text.pdf</title>
+      <link>/resources/mit18_03scf11_s34_6text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s34_6text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to a computer generated portrait gallery.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s34_7appl.pdf</title>
+      <link>/resources/mit18_03scf11_s34_7appl/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s34_7appl/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to linear phase portraits.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s35_0intro.pdf</title>
+      <link>/resources/mit18_03scf11_s35_0intro/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s35_0intro/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to matrix exponentials.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s35_1text.pdf</title>
+      <link>/resources/mit18_03scf11_s35_1text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s35_1text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to general linear ODE systems and independent solutions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s35_2text.pdf</title>
+      <link>/resources/mit18_03scf11_s35_2text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s35_2text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to the existence and uniqueness theorem for linear systems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s35_3text.pdf</title>
+      <link>/resources/mit18_03scf11_s35_3text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s35_3text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to the wronskian.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s35_5text.pdf</title>
+      <link>/resources/mit18_03scf11_s35_5text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s35_5text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to fundamental matrices.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s35_7text.pdf</title>
+      <link>/resources/mit18_03scf11_s35_7text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s35_7text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to the exponential matrix.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s35_8text.pdf</title>
+      <link>/resources/mit18_03scf11_s35_8text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s35_8text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to inhomogeneous case: variation of parameters formula.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s36_0intro.pdf</title>
+      <link>/resources/mit18_03scf11_s36_0intro/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s36_0intro/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to non linear systems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s36_1text.pdf</title>
+      <link>/resources/mit18_03scf11_s36_1text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s36_1text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to phase planes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s36_2text.pdf</title>
+      <link>/resources/mit18_03scf11_s36_2text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s36_2text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to first order autonomous ODE systems and first order ODE&amp;rsquo;s.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s37_0intro.pdf</title>
+      <link>/resources/mit18_03scf11_s37_0intro/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s37_0intro/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to linearization linear critical points.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s37_1text.pdf</title>
+      <link>/resources/mit18_03scf11_s37_1text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s37_1text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to sketching non linear systems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s37_2text.pdf</title>
+      <link>/resources/mit18_03scf11_s37_2text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s37_2text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to structural stability.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s37_3text.pdf</title>
+      <link>/resources/mit18_03scf11_s37_3text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s37_3text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to the bordeline geometric types.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s37_4text.pdf</title>
+      <link>/resources/mit18_03scf11_s37_4text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s37_4text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to structural stability for non-linear systems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s38_0intro.pdf</title>
+      <link>/resources/mit18_03scf11_s38_0intro/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s38_0intro/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to limitations of the linear: limit cycles and chaos.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s38_1text.pdf</title>
+      <link>/resources/mit18_03scf11_s38_1text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s38_1text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to limit cycles.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s38_2text.pdf</title>
+      <link>/resources/mit18_03scf11_s38_2text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s38_2text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to showing limit cycles exist.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s38_3text.pdf</title>
+      <link>/resources/mit18_03scf11_s38_3text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s38_3text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to non-existence of limit cycles.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s38_4text.pdf</title>
+      <link>/resources/mit18_03scf11_s38_4text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s38_4text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to the Van der pol equation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s38_5text.pdf</title>
+      <link>/resources/mit18_03scf11_s38_5text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s38_5text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to chaos.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s4_0intro.pdf</title>
+      <link>/resources/mit18_03scf11_s4_0intro/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s4_0intro/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to first order linear ODE&amp;rsquo;s.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s4_1text.pdf</title>
+      <link>/resources/mit18_03scf11_s4_1text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s4_1text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to linear first ODE&amp;rsquo;s: examples and definitions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s4_4text.pdf</title>
+      <link>/resources/mit18_03scf11_s4_4text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s4_4text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to systems: input and response.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s4_5text.pdf</title>
+      <link>/resources/mit18_03scf11_s4_5text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s4_5text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to superposition principle.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s5_0intro.pdf</title>
+      <link>/resources/mit18_03scf11_s5_0intro/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s5_0intro/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to solutions by integrating factors.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s5_1text.pdf</title>
+      <link>/resources/mit18_03scf11_s5_1text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s5_1text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to solutions for the first linear ODE&amp;rsquo;s.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s5_2atext.pdf</title>
+      <link>/resources/mit18_03scf11_s5_2atext/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s5_2atext/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to heat diffusion.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s6_0intro.pdf</title>
+      <link>/resources/mit18_03scf11_s6_0intro/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s6_0intro/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to complex arithmetic and exponentials.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s6_1text.pdf</title>
+      <link>/resources/mit18_03scf11_s6_1text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s6_1text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to complex arithmetic.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s6_2text.pdf</title>
+      <link>/resources/mit18_03scf11_s6_2text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s6_2text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to complex arithmetic.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s6_5text.pdf</title>
+      <link>/resources/mit18_03scf11_s6_5text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s6_5text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to euler&amp;rsquo;s formula and polar representation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s6_7bappl.pdf</title>
+      <link>/resources/mit18_03scf11_s6_7bappl/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s6_7bappl/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to applet exploration: complex exponential.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s6_7text.pdf</title>
+      <link>/resources/mit18_03scf11_s6_7text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s6_7text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to complex exponentials.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s6_9text.pdf</title>
+      <link>/resources/mit18_03scf11_s6_9text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s6_9text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to finding n-th roots.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s7_0intro.pdf</title>
+      <link>/resources/mit18_03scf11_s7_0intro/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s7_0intro/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to sinusoidal functions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s7_1text.pdf</title>
+      <link>/resources/mit18_03scf11_s7_1text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s7_1text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to sinusoidal functions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s7_3text.pdf</title>
+      <link>/resources/mit18_03scf11_s7_3text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s7_3text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to the sinusoidal identity.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s8_0intro.pdf</title>
+      <link>/resources/mit18_03scf11_s8_0intro/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s8_0intro/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to first order constant coefficient linear ODE&amp;rsquo;s.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s8_1text.pdf</title>
+      <link>/resources/mit18_03scf11_s8_1text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s8_1text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to solution to the constant coefficient first order equation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s8_2text.pdf</title>
+      <link>/resources/mit18_03scf11_s8_2text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s8_2text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to examples of constant coefficient first order equations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s8_3text.pdf</title>
+      <link>/resources/mit18_03scf11_s8_3text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s8_3text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to response to discontinuous input.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s9_0intro.pdf</title>
+      <link>/resources/mit18_03scf11_s9_0intro/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s9_0intro/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to exponential input; gain and phase lag.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s9_1text.pdf</title>
+      <link>/resources/mit18_03scf11_s9_1text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s9_1text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to first order response to exponential input.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s9_2text.pdf</title>
+      <link>/resources/mit18_03scf11_s9_2text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s9_2text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to first order response to sinusoidal input.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s9_3text.pdf</title>
+      <link>/resources/mit18_03scf11_s9_3text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s9_3text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to amplitude phase, gain and bode plots.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

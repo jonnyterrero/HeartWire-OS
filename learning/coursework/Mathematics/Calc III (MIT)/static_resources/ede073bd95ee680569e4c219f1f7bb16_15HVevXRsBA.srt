@@ -1,0 +1,2939 @@
+1
+00:00:01,000 --> 00:00:03,000
+The following content is
+provided under a Creative
+
+2
+00:00:03,000 --> 00:00:05,000
+Commons license.
+Your support will help MIT
+
+3
+00:00:05,000 --> 00:00:08,000
+OpenCourseWare continue to offer
+high quality educational
+
+4
+00:00:08,000 --> 00:00:13,000
+resources for free.
+To make a donation or to view
+
+5
+00:00:13,000 --> 00:00:18,000
+additional materials from
+hundreds of MIT courses,
+
+6
+00:00:18,000 --> 00:00:23,000
+visit MIT OpenCourseWare at
+ocw.mit.edu.
+
+7
+00:00:25,000 --> 00:00:29,000
+Last time we saw things about
+gradients and directional
+
+8
+00:00:29,000 --> 00:00:32,000
+derivatives.
+Before that we studied how to
+
+9
+00:00:32,000 --> 00:00:37,000
+look for minima and maxima of
+functions of several variables.
+
+10
+00:00:37,000 --> 00:00:41,000
+And today we are going to look
+again at min/max problems but in
+
+11
+00:00:41,000 --> 00:00:45,000
+a different setting,
+namely, one for variables that
+
+12
+00:00:45,000 --> 00:00:49,000
+are not independent.
+And so what we will see is you
+
+13
+00:00:49,000 --> 00:00:52,000
+may have heard of Lagrange
+multipliers.
+
+14
+00:00:52,000 --> 00:00:59,000
+And this is the one point in
+the term when I can shine with
+
+15
+00:00:59,000 --> 00:01:05,000
+my French accent and say
+Lagrange's name properly.
+
+16
+00:01:05,000 --> 00:01:08,000
+OK.
+What are Lagrange multipliers
+
+17
+00:01:08,000 --> 00:01:13,000
+about?
+Well, the goal is to minimize
+
+18
+00:01:13,000 --> 00:01:19,000
+or maximize a function of
+several variables.
+
+19
+00:01:19,000 --> 00:01:22,000
+Let's say, for example,
+f of x, y, z,
+
+20
+00:01:22,000 --> 00:01:27,000
+but where these variables are
+no longer independent.
+
+21
+00:01:41,000 --> 00:01:43,000
+They are not independent.
+That means that there is a
+
+22
+00:01:43,000 --> 00:01:47,000
+relation between them.
+The relation is maybe some
+
+23
+00:01:47,000 --> 00:01:52,000
+equation of the form g of x,
+y, z equals some constant.
+
+24
+00:01:52,000 --> 00:01:57,000
+You take the relation between
+x, y, z, you call that g and
+
+25
+00:01:57,000 --> 00:02:02,000
+that gives you the constraint.
+And your goal is to minimize f
+
+26
+00:02:02,000 --> 00:02:05,000
+only of those values of x,
+y, z that satisfy the
+
+27
+00:02:05,000 --> 00:02:07,000
+constraint.
+What is one way to do that?
+
+28
+00:02:07,000 --> 00:02:10,000
+Well, one to do that,
+if the constraint is very
+
+29
+00:02:10,000 --> 00:02:14,000
+simple, we can maybe solve for
+one of the variables.
+
+30
+00:02:14,000 --> 00:02:17,000
+Maybe we can solve this
+equation for one of the
+
+31
+00:02:17,000 --> 00:02:21,000
+variables, plug it back into f,
+and then we have a usual
+
+32
+00:02:21,000 --> 00:02:25,000
+min/max problem that we have
+seen how to do.
+
+33
+00:02:25,000 --> 00:02:28,000
+The problem is sometimes you
+cannot actually solve for x,
+
+34
+00:02:28,000 --> 00:02:31,000
+y, z in here because this
+condition is too complicated and
+
+35
+00:02:31,000 --> 00:02:38,000
+then we need a new method.
+That is what we are going to do.
+
+36
+00:02:38,000 --> 00:02:41,000
+Why would we care about that?
+Well, one example is actually
+
+37
+00:02:41,000 --> 00:02:43,000
+in physics.
+Maybe you have seen in
+
+38
+00:02:43,000 --> 00:02:47,000
+thermodynamics that you study
+quantities about gases,
+
+39
+00:02:47,000 --> 00:02:50,000
+and those quantities that
+involve pressure,
+
+40
+00:02:50,000 --> 00:02:53,000
+volume and temperature.
+And pressure,
+
+41
+00:02:53,000 --> 00:02:56,000
+volume and temperature are not
+independent of each other.
+
+42
+00:02:56,000 --> 00:02:59,000
+I mean you know probably the
+equation PV = NRT.
+
+43
+00:02:59,000 --> 00:03:01,000
+And, of course,
+there you could actually solve
+
+44
+00:03:01,000 --> 00:03:03,000
+to express things in terms of
+one or the other.
+
+45
+00:03:03,000 --> 00:03:07,000
+But sometimes it is more
+convenient to keep all three
+
+46
+00:03:07,000 --> 00:03:09,000
+variables but treat them as
+constrained.
+
+47
+00:03:09,000 --> 00:03:19,000
+It is just an example of a
+situation where you might want
+
+48
+00:03:19,000 --> 00:03:24,000
+to do this.
+Anyway, we will look mostly at
+
+49
+00:03:24,000 --> 00:03:28,000
+particular examples,
+but just to point out that this
+
+50
+00:03:28,000 --> 00:03:32,000
+is useful when you study guesses
+in physics.
+
+51
+00:03:32,000 --> 00:03:35,000
+The first observation is we
+cannot use our usual method of
+
+52
+00:03:35,000 --> 00:03:36,000
+looking for critical points of
+f.
+
+53
+00:03:36,000 --> 00:03:40,000
+Because critical points of f
+typically will not satisfy this
+
+54
+00:03:40,000 --> 00:03:43,000
+condition and so won't be good
+solutions.
+
+55
+00:03:43,000 --> 00:03:49,000
+We need something else.
+Let's look at an example,
+
+56
+00:03:49,000 --> 00:03:53,000
+and we will see how that leads
+us to the method.
+
+57
+00:03:53,000 --> 00:04:03,000
+For example,
+let's say that I want to find
+
+58
+00:04:03,000 --> 00:04:17,000
+the point closest to the origin
+-- -- on the hyperbola xy equals
+
+59
+00:04:17,000 --> 00:04:23,000
+3 in the plane.
+That means I have this
+
+60
+00:04:23,000 --> 00:04:26,000
+hyperbola, and I am asking
+myself what is the point on it
+
+61
+00:04:26,000 --> 00:04:29,000
+that is the closest to the
+origin?
+
+62
+00:04:29,000 --> 00:04:31,000
+I mean we can solve this by
+elementary geometry,
+
+63
+00:04:31,000 --> 00:04:34,000
+we don't need actually Lagrange
+multipliers,
+
+64
+00:04:34,000 --> 00:04:38,000
+but we are going to do it with
+Lagrange multipliers because it
+
+65
+00:04:38,000 --> 00:04:41,000
+is a pretty good example.
+What does it mean?
+
+66
+00:04:41,000 --> 00:04:47,000
+Well, it means that we want to
+minimize distance to the origin.
+
+67
+00:04:47,000 --> 00:04:49,000
+What is the distance to the
+origin?
+
+68
+00:04:49,000 --> 00:04:53,000
+If I have a point,
+at coordinates (x,
+
+69
+00:04:53,000 --> 00:04:58,000
+y) and then the distance to the
+origin is square root of x
+
+70
+00:04:58,000 --> 00:05:02,000
+squared plus y squared.
+Well, do we really want to
+
+71
+00:05:02,000 --> 00:05:05,000
+minimize that or can we minimize
+something easier?
+
+72
+00:05:05,000 --> 00:05:06,000
+Yeah.
+Maybe we can minimize the
+
+73
+00:05:06,000 --> 00:05:14,000
+square of a distance.
+Let's forget this guy and
+
+74
+00:05:14,000 --> 00:05:23,000
+instead -- Actually,
+we will minimize f of x,
+
+75
+00:05:23,000 --> 00:05:27,000
+y equals x squared plus y
+squared,
+
+76
+00:05:27,000 --> 00:05:39,000
+that looks better,
+subject to the constraint xy =
+
+77
+00:05:39,000 --> 00:05:44,000
+3.
+And so we will call this thing
+
+78
+00:05:44,000 --> 00:05:50,000
+g of x, y to illustrate the
+general method.
+
+79
+00:05:50,000 --> 00:05:58,000
+Let's look at a picture.
+Here you can see in yellow the
+
+80
+00:05:58,000 --> 00:06:02,000
+hyperbola xy equals three.
+And we are going to look for
+
+81
+00:06:02,000 --> 00:06:05,000
+the points that are the closest
+to the origin.
+
+82
+00:06:05,000 --> 00:06:08,000
+What can we do?
+Well, for example,
+
+83
+00:06:08,000 --> 00:06:13,000
+we can plot the function x
+squared plus y squared,
+
+84
+00:06:13,000 --> 00:06:17,000
+function f.
+That is the contour plot of f
+
+85
+00:06:17,000 --> 00:06:21,000
+with a hyperbola on top of it.
+Now let's see what we can do
+
+86
+00:06:21,000 --> 00:06:25,000
+with that.
+Well, let's ask ourselves,
+
+87
+00:06:25,000 --> 00:06:30,000
+for example,
+if I look at points where f
+
+88
+00:06:30,000 --> 00:06:34,000
+equals 20 now.
+I think I am at 20 but you
+
+89
+00:06:34,000 --> 00:06:37,000
+cannot really see it.
+That is a circle with a point
+
+90
+00:06:37,000 --> 00:06:41,000
+whose distant square is 20.
+Well, can I find a solution if
+
+91
+00:06:41,000 --> 00:06:44,000
+I am on the hyperbola?
+Yes, there are four points at
+
+92
+00:06:44,000 --> 00:06:46,000
+this distance.
+Can I do better?
+
+93
+00:06:46,000 --> 00:06:49,000
+Well, let's decrease for
+distance.
+
+94
+00:06:49,000 --> 00:06:52,000
+Yes, we can still find points
+on the hyperbola and so on.
+
+95
+00:06:52,000 --> 00:06:56,000
+Except if we go too low then
+there are no points on this
+
+96
+00:06:56,000 --> 00:07:00,000
+circle anymore in the hyperbola.
+If we decrease the value of f
+
+97
+00:07:00,000 --> 00:07:03,000
+that we want to look at that
+will somehow limit value beyond
+
+98
+00:07:03,000 --> 00:07:07,000
+which we cannot go,
+and that is the minimum of f.
+
+99
+00:07:07,000 --> 00:07:13,000
+We are trying to look for the
+smallest value of f that will
+
+100
+00:07:13,000 --> 00:07:17,000
+actually be realized on the
+hyperbola.
+
+101
+00:07:17,000 --> 00:07:20,000
+When does that happen?
+Well, I have to backtrack a
+
+102
+00:07:20,000 --> 00:07:23,000
+little bit.
+It seems like the limiting case
+
+103
+00:07:23,000 --> 00:07:26,000
+is basically here.
+It is when the circle is
+
+104
+00:07:26,000 --> 00:07:31,000
+tangent to the hyperbola.
+That is the smallest circle
+
+105
+00:07:31,000 --> 00:07:37,000
+that will hit the hyperbola.
+If I take a larger value of f,
+
+106
+00:07:37,000 --> 00:07:39,000
+I will have solutions.
+If I take a smaller value of f,
+
+107
+00:07:39,000 --> 00:07:41,000
+I will not have any solutions
+anymore.
+
+108
+00:07:41,000 --> 00:07:49,000
+So, that is the situation that
+we want to solve for.
+
+109
+00:07:49,000 --> 00:07:54,000
+How do we find that minimum?
+Well, a key observation that is
+
+110
+00:07:54,000 --> 00:07:58,000
+valid on this picture,
+and that actually remain true
+
+111
+00:07:58,000 --> 00:08:03,000
+in the completely general case,
+is that when we have a minimum
+
+112
+00:08:03,000 --> 00:08:09,000
+the level curve of f is actually
+tangent to our hyperbola.
+
+113
+00:08:09,000 --> 00:08:15,000
+It is tangent to the set of
+points where x,
+
+114
+00:08:15,000 --> 00:08:20,000
+y equals three,
+to the hyperbola.
+
+115
+00:08:20,000 --> 00:08:32,000
+Let's write that down.
+We observe that at the minimum
+
+116
+00:08:32,000 --> 00:08:49,000
+the level curve of f is tangent
+to the hyperbola.
+
+117
+00:08:49,000 --> 00:08:53,000
+Remember, the hyperbola is
+given by the equal g equals
+
+118
+00:08:53,000 --> 00:08:56,000
+three, so it is a level curve of
+g.
+
+119
+00:08:56,000 --> 00:08:59,000
+We have a level curve of f and
+a level curve of g that are
+
+120
+00:08:59,000 --> 00:09:03,000
+tangent to each other.
+And I claim that is going to be
+
+121
+00:09:03,000 --> 00:09:07,000
+the general situation that we
+are interested in.
+
+122
+00:09:07,000 --> 00:09:12,000
+How do we try to solve for
+points where this happens?
+
+123
+00:09:28,000 --> 00:09:36,000
+How do we find x,
+y where the level curves of f
+
+124
+00:09:36,000 --> 00:09:47,000
+and g are tangent to each other?
+Let's think for a second.
+
+125
+00:09:47,000 --> 00:09:51,000
+If the two level curves are
+tangent to each other that means
+
+126
+00:09:51,000 --> 00:09:57,000
+they have the same tangent line.
+That means that the normal
+
+127
+00:09:57,000 --> 00:10:03,000
+vectors should be parallel.
+Let me maybe draw a picture
+
+128
+00:10:03,000 --> 00:10:06,000
+here.
+This is the level curve maybe f
+
+129
+00:10:06,000 --> 00:10:11,000
+equals something.
+And this is the level curve g
+
+130
+00:10:11,000 --> 00:10:16,000
+equals constant.
+Here my constant is three.
+
+131
+00:10:16,000 --> 00:10:20,000
+Well, if I look for gradient
+vectors, the gradient of f will
+
+132
+00:10:20,000 --> 00:10:23,000
+be perpendicular to the level
+curve of f.
+
+133
+00:10:23,000 --> 00:10:27,000
+The gradient of g will be
+perpendicular to the level curve
+
+134
+00:10:27,000 --> 00:10:29,000
+of g.
+They don't have any reason to
+
+135
+00:10:29,000 --> 00:10:32,000
+be of the same size,
+but they have to be parallel to
+
+136
+00:10:32,000 --> 00:10:35,000
+each other.
+Of course, they could also be
+
+137
+00:10:35,000 --> 00:10:38,000
+parallel pointing in opposite
+directions.
+
+138
+00:10:38,000 --> 00:10:48,000
+But the key point is that when
+this happens the gradient of f
+
+139
+00:10:48,000 --> 00:10:54,000
+is parallel to the gradient of
+g.
+
+140
+00:10:54,000 --> 00:11:03,000
+Well, let's check that.
+Here is a point.
+
+141
+00:11:03,000 --> 00:11:05,000
+And I can plot the gradient of
+f in blue.
+
+142
+00:11:05,000 --> 00:11:08,000
+The gradient of g in yellow.
+And you see,
+
+143
+00:11:08,000 --> 00:11:12,000
+in most of these places,
+somehow the two gradients are
+
+144
+00:11:12,000 --> 00:11:14,000
+not really parallel.
+Actually, I should not be
+
+145
+00:11:14,000 --> 00:11:17,000
+looking at random points.
+I should be looking only on the
+
+146
+00:11:17,000 --> 00:11:19,000
+hyperbola.
+I want points on the hyperbola
+
+147
+00:11:19,000 --> 00:11:22,000
+where the two gradients are
+parallel.
+
+148
+00:11:22,000 --> 00:11:28,000
+Well, when does that happen?
+Well, it looks like it will
+
+149
+00:11:28,000 --> 00:11:31,000
+happen here.
+When I am at a minimum,
+
+150
+00:11:31,000 --> 00:11:34,000
+the two gradient vectors are
+parallel.
+
+151
+00:11:34,000 --> 00:11:37,000
+It is not really proof.
+It is an example that seems to
+
+152
+00:11:37,000 --> 00:11:43,000
+be convincing.
+So far things work pretty well.
+
+153
+00:11:43,000 --> 00:11:46,000
+How do we decide if two vectors
+are parallel?
+
+154
+00:11:46,000 --> 00:11:50,000
+Well, they are parallel when
+they are proportional to each
+
+155
+00:11:50,000 --> 00:11:54,000
+other.
+You can write one of them as a
+
+156
+00:11:54,000 --> 00:12:02,000
+constant times the other one,
+and that constant usually one
+
+157
+00:12:02,000 --> 00:12:07,000
+uses the Greek letter lambda.
+I don't know if you have seen
+
+158
+00:12:07,000 --> 00:12:10,000
+it before.
+It is the Greek letter for L.
+
+159
+00:12:10,000 --> 00:12:15,000
+And probably,
+I am sure, it is somebody's
+
+160
+00:12:15,000 --> 00:12:22,000
+idea of paying tribute to
+Lagrange by putting an L in
+
+161
+00:12:22,000 --> 00:12:25,000
+there.
+Lambda is just a constant.
+
+162
+00:12:25,000 --> 00:12:31,000
+And we are looking for a scalar
+lambda and points x and y where
+
+163
+00:12:31,000 --> 00:12:33,000
+this holds.
+In fact,
+
+164
+00:12:33,000 --> 00:12:37,000
+what we are doing is replacing
+min/max problems in two
+
+165
+00:12:37,000 --> 00:12:41,000
+variables with a constraint
+between them by a set of
+
+166
+00:12:41,000 --> 00:12:47,000
+equations involving,
+you will see, three variables.
+
+167
+00:12:47,000 --> 00:12:54,000
+We had min/max with two
+variables x, y,
+
+168
+00:12:54,000 --> 00:13:00,000
+but no independent.
+We had a constraint g of x,
+
+169
+00:13:00,000 --> 00:13:06,000
+y equals constant.
+And that becomes something new.
+
+170
+00:13:06,000 --> 00:13:12,000
+That becomes a system of
+equations where we have to
+
+171
+00:13:12,000 --> 00:13:19,000
+solve, well, let's write down
+what it means for gradient f to
+
+172
+00:13:19,000 --> 00:13:26,000
+be proportional to gradient g.
+That means that f sub x should
+
+173
+00:13:26,000 --> 00:13:32,000
+be lambda times g sub x,
+and f sub y should be lambda
+
+174
+00:13:32,000 --> 00:13:36,000
+times g sub y.
+Because the gradient vectors
+
+175
+00:13:36,000 --> 00:13:39,000
+here are f sub x,
+f sub y and g sub x,
+
+176
+00:13:39,000 --> 00:13:43,000
+g sub y.
+If you have a third variable z
+
+177
+00:13:43,000 --> 00:13:49,000
+then you have also an equation f
+sub z equals lambda g sub z.
+
+178
+00:13:49,000 --> 00:13:53,000
+Now, let's see.
+How many unknowns do we have in
+
+179
+00:13:53,000 --> 00:13:55,000
+these equations?
+Well, there is x,
+
+180
+00:13:55,000 --> 00:14:01,000
+there is y and there is lambda.
+We have three unknowns and have
+
+181
+00:14:01,000 --> 00:14:06,000
+only two equations.
+Something is missing.
+
+182
+00:14:06,000 --> 00:14:10,000
+Well, I mean x and y are not
+actually independent.
+
+183
+00:14:10,000 --> 00:14:14,000
+They are related by the
+equation g of x,
+
+184
+00:14:14,000 --> 00:14:21,000
+y equals c, so we need to add
+the constraint g equals c.
+
+185
+00:14:21,000 --> 00:14:26,000
+And now we have three equations
+involving three variables.
+
+186
+00:14:26,000 --> 00:14:39,000
+Let's see how that works.
+Here remember we have f equals
+
+187
+00:14:39,000 --> 00:14:45,000
+x squared y squared and g = xy.
+What is f sub x?
+
+188
+00:14:45,000 --> 00:14:52,000
+It is going to be 2x equals
+lambda times,
+
+189
+00:14:52,000 --> 00:14:55,000
+what is g sub x,
+y.
+
+190
+00:14:55,000 --> 00:14:59,000
+Maybe I should write here f sub
+x equals lambda g sub x just to
+
+191
+00:14:59,000 --> 00:15:03,000
+remind you.
+Then we have f sub y equals
+
+192
+00:15:03,000 --> 00:15:10,000
+lambda g sub y.
+F sub y is 2y equals lambda
+
+193
+00:15:10,000 --> 00:15:18,000
+times g sub y is x.
+And then our third equation g
+
+194
+00:15:18,000 --> 00:15:22,000
+equals c becomes xy equals
+three.
+
+195
+00:15:22,000 --> 00:15:26,000
+So, that is what you would have
+to solve.
+
+196
+00:15:26,000 --> 00:15:33,000
+Any questions at this point?
+No.
+
+197
+00:15:33,000 --> 00:15:44,000
+Yes?
+How do I know the direction of
+
+198
+00:15:44,000 --> 00:15:47,000
+a gradient?
+Do you mean how do I know that
+
+199
+00:15:47,000 --> 00:15:50,000
+it is perpendicular to a level
+curve?
+
+200
+00:15:50,000 --> 00:15:54,000
+Oh, how do I know if it points
+in that direction on the
+
+201
+00:15:54,000 --> 00:15:56,000
+opposite one?
+Well, that depends.
+
+202
+00:15:56,000 --> 00:15:59,000
+I mean we'd seen in last time,
+but the gradient is
+
+203
+00:15:59,000 --> 00:16:02,000
+perpendicular to the level and
+points towards higher values of
+
+204
+00:16:02,000 --> 00:16:05,000
+a function.
+So it could be -- Wait.
+
+205
+00:16:05,000 --> 00:16:08,000
+What did I have?
+It could be that my gradient
+
+206
+00:16:08,000 --> 00:16:11,000
+vectors up there actually point
+in opposite directions.
+
+207
+00:16:11,000 --> 00:16:15,000
+It doesn't matter to me because
+it will still look the same in
+
+208
+00:16:15,000 --> 00:16:18,000
+terms of the equation,
+just lambda will be positive or
+
+209
+00:16:18,000 --> 00:16:22,000
+negative, depending on the case.
+I can handle both situations.
+
+210
+00:16:22,000 --> 00:16:30,000
+It's not a problem.
+I can allow lambda to be
+
+211
+00:16:30,000 --> 00:16:34,000
+positive or negative.
+Well, in this example,
+
+212
+00:16:34,000 --> 00:16:35,000
+it looks like lambda will be
+positive.
+
+213
+00:16:35,000 --> 00:16:38,000
+If you look at the picture on
+the plot.
+
+214
+00:16:38,000 --> 00:16:48,000
+Yes?
+Well, because actually they are
+
+215
+00:16:48,000 --> 00:16:51,000
+not equal to each other.
+If you look at this point where
+
+216
+00:16:51,000 --> 00:16:55,000
+the hyperbola and the circle
+touch each other,
+
+217
+00:16:55,000 --> 00:16:58,000
+first of all,
+I don't know which circle I am
+
+218
+00:16:58,000 --> 00:17:01,000
+going to look at.
+I am trying to solve,
+
+219
+00:17:01,000 --> 00:17:04,000
+actually, for the radius of the
+circle.
+
+220
+00:17:04,000 --> 00:17:07,000
+I am trying to find what the
+minimum value of f is.
+
+221
+00:17:07,000 --> 00:17:10,000
+And, second,
+at that point,
+
+222
+00:17:10,000 --> 00:17:14,000
+the value of f and the value of
+g are not equal.
+
+223
+00:17:14,000 --> 00:17:17,000
+g is equal to three because I
+want the hyperbola x equals
+
+224
+00:17:17,000 --> 00:17:19,000
+three.
+The value of f will be the
+
+225
+00:17:19,000 --> 00:17:22,000
+square of a distance,
+whatever that is.
+
+226
+00:17:22,000 --> 00:17:27,000
+I think it will end up being 6,
+but we will see.
+
+227
+00:17:27,000 --> 00:17:29,000
+So, you cannot really set them
+equal because you don't know
+
+228
+00:17:29,000 --> 00:17:45,000
+what f is equal to in advance.
+Yes?
+
+229
+00:17:45,000 --> 00:17:49,000
+Not quite.
+Actually, here I am just using
+
+230
+00:17:49,000 --> 00:17:52,000
+this idea of finding a point
+closest to the origin to
+
+231
+00:17:52,000 --> 00:17:55,000
+illustrate an example of a
+min/max problem.
+
+232
+00:17:55,000 --> 00:17:59,000
+The general problem we are
+trying to solve is minimize f
+
+233
+00:17:59,000 --> 00:18:03,000
+subject to g equals constant.
+And what we are going to do for
+
+234
+00:18:03,000 --> 00:18:07,000
+that is we are really going to
+say instead let's look at places
+
+235
+00:18:07,000 --> 00:18:10,000
+where gradient f and gradient g
+are parallel to each other and
+
+236
+00:18:10,000 --> 00:18:14,000
+solve for equations of that.
+I think we completely lose the
+
+237
+00:18:14,000 --> 00:18:19,000
+notion of closest point if we
+just look at these equations.
+
+238
+00:18:19,000 --> 00:18:21,000
+We don't really say anything
+about closest points anymore.
+
+239
+00:18:21,000 --> 00:18:24,000
+Of course, that is what they
+mean in the end.
+
+240
+00:18:24,000 --> 00:18:28,000
+But, in the general setting,
+there is no closest point
+
+241
+00:18:28,000 --> 00:18:31,000
+involved anymore.
+OK.
+
+242
+00:18:31,000 --> 00:18:40,000
+Yes?
+Yes.
+
+243
+00:18:40,000 --> 00:18:43,000
+It is always going to be the
+case that,
+
+244
+00:18:43,000 --> 00:18:46,000
+at the minimum,
+or at the maximum of a function
+
+245
+00:18:46,000 --> 00:18:49,000
+subject to a constraint,
+the level curves of f and the
+
+246
+00:18:49,000 --> 00:18:52,000
+level curves of g will be
+tangent to each other.
+
+247
+00:18:52,000 --> 00:18:54,000
+That is the basis for this
+method.
+
+248
+00:18:54,000 --> 00:19:00,000
+I am going to justify that soon.
+It could be minimum or maximum.
+
+249
+00:19:00,000 --> 00:19:02,000
+In three-dimensions it could
+even be a saddle point.
+
+250
+00:19:02,000 --> 00:19:03,000
+And, in fact,
+I should say in advance,
+
+251
+00:19:03,000 --> 00:19:06,000
+this method will not tell us
+whether it is a minimum or a
+
+252
+00:19:06,000 --> 00:19:08,000
+maximum.
+We do not have any way of
+
+253
+00:19:08,000 --> 00:19:10,000
+knowing, except for testing
+values.
+
+254
+00:19:10,000 --> 00:19:13,000
+We cannot use second derivative
+tests or anything like that.
+
+255
+00:19:13,000 --> 00:19:21,000
+I will get back to that.
+Yes?
+
+256
+00:19:21,000 --> 00:19:23,000
+Yes.
+Here you can set y equals to
+
+257
+00:19:23,000 --> 00:19:26,000
+favor x.
+Then you can minimize x squared
+
+258
+00:19:26,000 --> 00:19:30,000
+plus nine over x squared.
+In general, if I am trying to
+
+259
+00:19:30,000 --> 00:19:33,000
+solve a more complicated
+problem, I might not be able to
+
+260
+00:19:33,000 --> 00:19:35,000
+solve.
+I am doing an example where,
+
+261
+00:19:35,000 --> 00:19:38,000
+indeed, here you could solve
+and remove one variable,
+
+262
+00:19:38,000 --> 00:19:41,000
+but you cannot always do that.
+And this method will still work.
+
+263
+00:19:41,000 --> 00:19:47,000
+The other one won't.
+OK.
+
+264
+00:19:47,000 --> 00:19:53,000
+I don't see any other questions.
+Are there any other questions?
+
+265
+00:19:53,000 --> 00:19:56,000
+No.
+OK.
+
+266
+00:19:56,000 --> 00:20:02,000
+I see a lot of students
+stretching and so on,
+
+267
+00:20:02,000 --> 00:20:08,000
+so it is very confusing for me.
+How do we solve these equations?
+
+268
+00:20:08,000 --> 00:20:14,000
+Well, the answer is in general
+we might be in deep trouble.
+
+269
+00:20:14,000 --> 00:20:18,000
+There is no general method for
+solving the equations that you
+
+270
+00:20:18,000 --> 00:20:21,000
+get from this method.
+You just have to think about
+
+271
+00:20:21,000 --> 00:20:25,000
+them.
+Sometimes it will be very easy.
+
+272
+00:20:25,000 --> 00:20:28,000
+Sometimes it will be so hard
+that you cannot actually do it
+
+273
+00:20:28,000 --> 00:20:31,000
+without the computer.
+Sometimes it will be just hard
+
+274
+00:20:31,000 --> 00:20:33,000
+enough to be on Part B of this
+week's problem set.
+
+275
+00:20:50,000 --> 00:20:56,000
+I claim in this case we can
+actually do it without so much
+
+276
+00:20:56,000 --> 00:21:03,000
+trouble, because actually we can
+think of this as a two by two
+
+277
+00:21:03,000 --> 00:21:10,000
+linear system in x and y.
+Well, let me do something.
+
+278
+00:21:10,000 --> 00:21:18,000
+Let me rewrite the first two
+equations as 2x - lambda y = 0.
+
+279
+00:21:18,000 --> 00:21:30,000
+And lambda x - 2y = 0.
+And xy = 3.
+
+280
+00:21:30,000 --> 00:21:36,000
+That is what we want to solve.
+Well, I can put this into
+
+281
+00:21:36,000 --> 00:21:41,000
+matrix form.
+Two minus lambda,
+
+282
+00:21:41,000 --> 00:21:48,000
+lambda minus two times x,
+y equals 0,0.
+
+283
+00:21:48,000 --> 00:21:52,000
+Now, how do I solve a linear
+system matrix times x,
+
+284
+00:21:52,000 --> 00:21:54,000
+y equals zero?
+Well, I always have an obvious
+
+285
+00:21:54,000 --> 00:21:56,000
+solution.
+X and y both equal to zero.
+
+286
+00:21:56,000 --> 00:22:02,000
+Is that a good solution?
+No, because zero times zero is
+
+287
+00:22:02,000 --> 00:22:07,000
+not three.
+We want another solution,
+
+288
+00:22:07,000 --> 00:22:14,000
+the trivial solution.
+0,0 does not solve the
+
+289
+00:22:14,000 --> 00:22:20,000
+constraint equation xy equals
+three, so we want another
+
+290
+00:22:20,000 --> 00:22:24,000
+solution.
+When do we have another
+
+291
+00:22:24,000 --> 00:22:29,000
+solution?
+Well, when the determinant of a
+
+292
+00:22:29,000 --> 00:22:37,000
+matrix is zero.
+We have other solutions that
+
+293
+00:22:37,000 --> 00:22:46,000
+exist only if determinant of a
+matrix is zero.
+
+294
+00:22:46,000 --> 00:23:01,000
+M is this guy.
+Let's compute the determinant.
+
+295
+00:23:01,000 --> 00:23:08,000
+Well, that seems to be negative
+four plus lambda squared.
+
+296
+00:23:08,000 --> 00:23:15,000
+That is zero exactly when
+lambda squared equals four,
+
+297
+00:23:15,000 --> 00:23:20,000
+which is lambda is plus or
+minus two.
+
+298
+00:23:20,000 --> 00:23:25,000
+Already you see here it is a
+the level of difficulty that is
+
+299
+00:23:25,000 --> 00:23:30,000
+a little bit much for an exam
+but perfectly fine for a problem
+
+300
+00:23:30,000 --> 00:23:33,000
+set or for a beautiful lecture
+like this one.
+
+301
+00:23:33,000 --> 00:23:37,000
+How do we deal with -- Well,
+we have two cases to look at.
+
+302
+00:23:37,000 --> 00:23:40,000
+Lambda equals two or lambda
+equals minus two.
+
+303
+00:23:40,000 --> 00:23:43,000
+Let's start with lambda equals
+two.
+
+304
+00:23:43,000 --> 00:23:47,000
+If I set lambda equals two,
+what does this equation become?
+
+305
+00:23:47,000 --> 00:23:53,000
+Well, it becomes x equals y.
+This one becomes y equals x.
+
+306
+00:23:53,000 --> 00:23:57,000
+Well, they seem to be the same.
+x equals y.
+
+307
+00:23:57,000 --> 00:24:01,000
+And then the equation xy equals
+three becomes,
+
+308
+00:24:01,000 --> 00:24:06,000
+well, x squared equals three.
+I have two solutions.
+
+309
+00:24:06,000 --> 00:24:15,000
+One is x equals root three and,
+therefore, y equals root three
+
+310
+00:24:15,000 --> 00:24:23,000
+as well, or negative root three
+and negative root three.
+
+311
+00:24:23,000 --> 00:24:26,000
+Let's look at the other case.
+If I set lambda equal to
+
+312
+00:24:26,000 --> 00:24:30,000
+negative two then I get 2x
+equals negative 2y.
+
+313
+00:24:30,000 --> 00:24:37,000
+That means x equals negative y.
+The second one,
+
+314
+00:24:37,000 --> 00:24:40,000
+2y equals negative 2x.
+That is y equals negative x.
+
+315
+00:24:40,000 --> 00:24:45,000
+Well, that is the same thing.
+And xy equals three becomes
+
+316
+00:24:45,000 --> 00:24:51,000
+negative x squared equals three.
+Can we solve that?
+
+317
+00:24:51,000 --> 00:24:58,000
+No.
+There are no solutions here.
+
+318
+00:24:58,000 --> 00:25:03,000
+Now we have two candidate
+points which are these two
+
+319
+00:25:03,000 --> 00:25:07,000
+points, root three,
+root three or negative root
+
+320
+00:25:07,000 --> 00:25:13,000
+three, negative root three.
+OK.
+
+321
+00:25:13,000 --> 00:25:16,000
+Let's actually look at what we
+have here.
+
+322
+00:25:16,000 --> 00:25:20,000
+Maybe you cannot read the
+coordinates, but the point that
+
+323
+00:25:20,000 --> 00:25:23,000
+I have here is indeed root
+three, root three.
+
+324
+00:25:23,000 --> 00:25:26,000
+How do we see that lambda
+equals two?
+
+325
+00:25:26,000 --> 00:25:29,000
+Well, if you look at this
+picture, the gradient of f,
+
+326
+00:25:29,000 --> 00:25:32,000
+that is the blue vector,
+is indeed twice the yellow
+
+327
+00:25:32,000 --> 00:25:36,000
+vector, gradient g.
+That is where you read the
+
+328
+00:25:36,000 --> 00:25:41,000
+value of lambda.
+And we have the other solution
+
+329
+00:25:41,000 --> 00:25:45,000
+which is somewhere here.
+Negative root three,
+
+330
+00:25:45,000 --> 00:25:48,000
+negative root there.
+And there, again,
+
+331
+00:25:48,000 --> 00:25:51,000
+lambda equals two.
+The two vectors are
+
+332
+00:25:51,000 --> 00:25:59,000
+proportional by a factor of two.
+Yes?
+
+333
+00:25:59,000 --> 00:26:01,000
+No, solutions are not quite
+guaranteed to be absolute minima
+
+334
+00:26:01,000 --> 00:26:03,000
+or maxima.
+They are guaranteed to be
+
+335
+00:26:03,000 --> 00:26:06,000
+somehow critical points end of a
+constraint.
+
+336
+00:26:06,000 --> 00:26:09,000
+That means if you were able to
+solve and eliminate the variable
+
+337
+00:26:09,000 --> 00:26:12,000
+that would be a critical point.
+When you have the same problem,
+
+338
+00:26:12,000 --> 00:26:14,000
+as we have critical points,
+are they maxima or minima?
+
+339
+00:26:14,000 --> 00:26:22,000
+And the answer is,
+well, we won't know until we
+
+340
+00:26:22,000 --> 00:26:28,000
+check.
+More questions?
+
+341
+00:26:28,000 --> 00:26:32,000
+No.
+Yes?
+
+342
+00:26:32,000 --> 00:26:36,000
+What is a Lagrange multiplier?
+Well, it is this number lambda
+
+343
+00:26:36,000 --> 00:26:39,000
+that is called the multiplier
+here.
+
+344
+00:26:39,000 --> 00:26:44,000
+It is a multiplier because it
+is what you have to multiply
+
+345
+00:26:44,000 --> 00:26:48,000
+gradient of g by to get gradient
+of f.
+
+346
+00:26:48,000 --> 00:26:49,000
+It multiplies.
+
+347
+00:27:04,000 --> 00:27:11,000
+Let's try to see why is this
+method valid?
+
+348
+00:27:11,000 --> 00:27:18,000
+Because so far I have shown you
+pictures and have said see they
+
+349
+00:27:18,000 --> 00:27:23,000
+are tangent.
+But why is it that they have to
+
+350
+00:27:23,000 --> 00:27:28,000
+be tangent in general?
+Let's think about it.
+
+351
+00:27:28,000 --> 00:27:37,000
+Let's say that we are at
+constrained min or max.
+
+352
+00:27:37,000 --> 00:27:42,000
+What that means is that if I
+move on the level g equals
+
+353
+00:27:42,000 --> 00:27:46,000
+constant then the value of f
+should only increase or only
+
+354
+00:27:46,000 --> 00:27:49,000
+decrease.
+But it means,
+
+355
+00:27:49,000 --> 00:27:53,000
+in particular,
+to first order it will not
+
+356
+00:27:53,000 --> 00:27:56,000
+change.
+At an unconstrained min or max,
+
+357
+00:27:56,000 --> 00:27:59,000
+partial derivatives are zero.
+In this case,
+
+358
+00:27:59,000 --> 00:28:02,000
+derivatives are zero only in
+the allowed directions.
+
+359
+00:28:02,000 --> 00:28:09,000
+And the allowed directions are
+those that stay on the levels of
+
+360
+00:28:09,000 --> 00:28:21,000
+this g equals constant.
+In any direction along the
+
+361
+00:28:21,000 --> 00:28:40,000
+level set g = c the rate of
+change of f must be zero.
+
+362
+00:28:40,000 --> 00:28:44,000
+That is what happens at minima
+or maxima.
+
+363
+00:28:44,000 --> 00:28:49,000
+Except here,
+of course, we look only at the
+
+364
+00:28:49,000 --> 00:28:54,000
+allowed directions.
+Let's say the same thing in
+
+365
+00:28:54,000 --> 00:28:57,000
+terms of directional
+derivatives.
+
+366
+00:29:23,000 --> 00:29:35,000
+That means for any direction
+that is tangent to the
+
+367
+00:29:35,000 --> 00:29:49,000
+constraint level g equal c,
+we must have df over ds in the
+
+368
+00:29:49,000 --> 00:30:00,000
+direction of u equals zero.
+I will draw a picture.
+
+369
+00:30:00,000 --> 00:30:05,000
+Let's say now I am in three
+variables just to give you
+
+370
+00:30:05,000 --> 00:30:09,000
+different examples.
+Here I have a level surface g
+
+371
+00:30:09,000 --> 00:30:11,000
+equals c.
+I am at my point.
+
+372
+00:30:11,000 --> 00:30:18,000
+And if I move in any direction
+that is on the level surface,
+
+373
+00:30:18,000 --> 00:30:24,000
+so I move in the direction u
+tangent to the level surface,
+
+374
+00:30:24,000 --> 00:30:32,000
+then the rate of change of f in
+that direction should be zero.
+
+375
+00:30:32,000 --> 00:30:34,000
+Now, remember what the formula
+is for this guy.
+
+376
+00:30:34,000 --> 00:30:44,000
+Well, we have seen that this
+guy is actually radiant f dot u.
+
+377
+00:30:44,000 --> 00:30:58,000
+That means any such vector u
+must be perpendicular to the
+
+378
+00:30:58,000 --> 00:31:05,000
+gradient of f.
+That means that the gradient of
+
+379
+00:31:05,000 --> 00:31:10,000
+f should be perpendicular to
+anything that is tangent to this
+
+380
+00:31:10,000 --> 00:31:12,000
+level.
+That means the gradient of f
+
+381
+00:31:12,000 --> 00:31:16,000
+should be perpendicular to the
+level set.
+
+382
+00:31:16,000 --> 00:31:17,000
+That is what we have shown.
+
+383
+00:31:37,000 --> 00:31:40,000
+But we know another vector that
+is also perpendicular to the
+
+384
+00:31:40,000 --> 00:31:57,000
+level set of g.
+That is the gradient of g.
+
+385
+00:31:57,000 --> 00:32:02,000
+We conclude that the gradient
+of f must be parallel to the
+
+386
+00:32:02,000 --> 00:32:07,000
+gradient of g because both are
+perpendicular to the level set
+
+387
+00:32:07,000 --> 00:32:09,000
+of g.
+I see confused faces,
+
+388
+00:32:09,000 --> 00:32:13,000
+so let me try to tell you again
+where that comes from.
+
+389
+00:32:13,000 --> 00:32:16,000
+We said if we had a constrained
+minimum or maximum,
+
+390
+00:32:16,000 --> 00:32:19,000
+if we move in the level set of
+g, f doesn't change.
+
+391
+00:32:19,000 --> 00:32:20,000
+Well, it doesn't change to
+first order.
+
+392
+00:32:20,000 --> 00:32:24,000
+It is the same idea as when you
+are looking for a minimum you
+
+393
+00:32:24,000 --> 00:32:26,000
+set the derivative equal to
+zero.
+
+394
+00:32:26,000 --> 00:32:31,000
+So the derivative in any
+direction, tangent to g equals
+
+395
+00:32:31,000 --> 00:32:34,000
+c, should be the directional
+derivative of f,
+
+396
+00:32:34,000 --> 00:32:38,000
+in any such direction,
+should be zero.
+
+397
+00:32:38,000 --> 00:32:43,000
+That is what we mean by
+critical point of f.
+
+398
+00:32:43,000 --> 00:32:48,000
+And so that means that any
+vector u, any unit vector
+
+399
+00:32:48,000 --> 00:32:55,000
+tangent to the level set of g is
+going to be perpendicular to the
+
+400
+00:32:55,000 --> 00:33:00,000
+gradient of f.
+That means that the gradient of
+
+401
+00:33:00,000 --> 00:33:04,000
+f is perpendicular to the level
+set of g.
+
+402
+00:33:04,000 --> 00:33:06,000
+If you want,
+that means the level sets of f
+
+403
+00:33:06,000 --> 00:33:10,000
+and g are tangent to each other.
+That is justifying what we have
+
+404
+00:33:10,000 --> 00:33:15,000
+observed in the picture that the
+two level sets have to be
+
+405
+00:33:15,000 --> 00:33:20,000
+tangent to each other at the
+prime minimum or maximum.
+
+406
+00:33:20,000 --> 00:33:23,000
+Does that make a little bit of
+sense?
+
+407
+00:33:23,000 --> 00:33:28,000
+Kind of.
+I see at least a few faces
+
+408
+00:33:28,000 --> 00:33:35,000
+nodding so I take that to be a
+positive answer.
+
+409
+00:33:35,000 --> 00:33:39,000
+Since I have been asked by
+several of you,
+
+410
+00:33:39,000 --> 00:33:43,000
+how do I know if it is a
+maximum or a minimum?
+
+411
+00:33:43,000 --> 00:33:57,000
+Well, warning,
+the method doesn't tell whether
+
+412
+00:33:57,000 --> 00:34:09,000
+a solution is a minimum or a
+maximum.
+
+413
+00:34:09,000 --> 00:34:13,000
+How do we do it?
+Well, more bad news.
+
+414
+00:34:13,000 --> 00:34:26,000
+We cannot use the second
+derivative test.
+
+415
+00:34:26,000 --> 00:34:30,000
+And the reason for that is that
+we care actually only about
+
+416
+00:34:30,000 --> 00:34:34,000
+these specific directions that
+are tangent to variable of g.
+
+417
+00:34:34,000 --> 00:34:39,000
+And we don't want to bother to
+try to define directional second
+
+418
+00:34:39,000 --> 00:34:42,000
+derivatives.
+Not to mention that actually it
+
+419
+00:34:42,000 --> 00:34:45,000
+wouldn't work.
+There is a criterion but it is
+
+420
+00:34:45,000 --> 00:34:49,000
+much more complicated than that.
+Basically, the answer for us is
+
+421
+00:34:49,000 --> 00:34:52,000
+that we don't have a second
+derivative test in this
+
+422
+00:34:52,000 --> 00:34:54,000
+situation.
+What are we left with?
+
+423
+00:34:54,000 --> 00:34:57,000
+Well, we are just left with
+comparing values.
+
+424
+00:34:57,000 --> 00:35:00,000
+Say that in this problem you
+found a point where f equals
+
+425
+00:35:00,000 --> 00:35:04,000
+three, a point where f equals
+nine, a point where f equals 15.
+
+426
+00:35:04,000 --> 00:35:08,000
+Well, then probably the minimum
+is the point where f equals
+
+427
+00:35:08,000 --> 00:35:12,000
+three and the maximum is 15.
+Actually, in this case,
+
+428
+00:35:12,000 --> 00:35:17,000
+where we found minima,
+these two points are tied for
+
+429
+00:35:17,000 --> 00:35:19,000
+minimum.
+What about the maximum?
+
+430
+00:35:19,000 --> 00:35:22,000
+What is the maximum of f on the
+hyperbola?
+
+431
+00:35:22,000 --> 00:35:25,000
+Well, it is infinity because
+the point can go as far as you
+
+432
+00:35:25,000 --> 00:35:29,000
+want from the origin.
+But the general idea is if we
+
+433
+00:35:29,000 --> 00:35:35,000
+have a good reason to believe
+that there should be a minimum,
+
+434
+00:35:35,000 --> 00:35:38,000
+and it's not like at infinity
+or something weird like that,
+
+435
+00:35:38,000 --> 00:35:42,000
+then the minimum will be a
+solution of the Lagrange
+
+436
+00:35:42,000 --> 00:35:46,000
+multiplier equations.
+We just look for all the
+
+437
+00:35:46,000 --> 00:35:51,000
+solutions and then we choose the
+one that gives us the lowest
+
+438
+00:35:51,000 --> 00:35:55,000
+value.
+Is that good enough?
+
+439
+00:35:55,000 --> 00:35:57,000
+Let me actually write that down.
+
+440
+00:36:23,000 --> 00:36:35,000
+To find the minimum or the
+maximum, we compare values of f
+
+441
+00:36:35,000 --> 00:36:46,000
+at the various solutions -- --
+to Lagrange multiplier
+
+442
+00:36:46,000 --> 00:36:49,000
+equations.
+
+443
+00:37:08,000 --> 00:37:11,000
+I should say also that
+sometimes you can just conclude
+
+444
+00:37:11,000 --> 00:37:14,000
+by thinking geometrically.
+In this case,
+
+445
+00:37:14,000 --> 00:37:18,000
+when it is asking you which
+point is closest to the origin
+
+446
+00:37:18,000 --> 00:37:23,000
+you can just see that your
+answer is the correct one.
+
+447
+00:37:23,000 --> 00:37:32,000
+Let's do an advanced example.
+Advanced means that -- Well,
+
+448
+00:37:32,000 --> 00:37:37,000
+this one I didn't actually dare
+to put on top of the other
+
+449
+00:37:37,000 --> 00:37:48,000
+problem sets.
+Instead, I am going to do it.
+
+450
+00:37:48,000 --> 00:37:51,000
+What is this going to be about?
+We are going to look for a
+
+451
+00:37:51,000 --> 00:38:03,000
+surface minimizing pyramid.
+Let's say that we want to build
+
+452
+00:38:03,000 --> 00:38:19,000
+a pyramid with a given
+triangular base -- -- and a
+
+453
+00:38:19,000 --> 00:38:28,000
+given volume.
+Say that I have maybe in the x,
+
+454
+00:38:28,000 --> 00:38:33,000
+y plane I am giving you some
+triangle.
+
+455
+00:38:33,000 --> 00:38:40,000
+And I am going to try to build
+a pyramid.
+
+456
+00:38:40,000 --> 00:38:48,000
+Of course, I can choose where
+to put the top of a pyramid.
+
+457
+00:38:48,000 --> 00:38:53,000
+This guy will end up being
+behind now.
+
+458
+00:38:53,000 --> 00:39:09,000
+And the constraint and the goal
+is to minimize the total surface
+
+459
+00:39:09,000 --> 00:39:13,000
+area.
+The first time I taught this
+
+460
+00:39:13,000 --> 00:39:15,000
+class, it was a few years ago,
+was just before they built the
+
+461
+00:39:15,000 --> 00:39:17,000
+Stata Center.
+And then I used to motivate
+
+462
+00:39:17,000 --> 00:39:20,000
+this problem by saying Frank
+Gehry has gone crazy and has
+
+463
+00:39:20,000 --> 00:39:23,000
+been given a triangular plot of
+land he wants to put a pyramid.
+
+464
+00:39:23,000 --> 00:39:26,000
+There needs to be the right
+amount of volume so that you can
+
+465
+00:39:26,000 --> 00:39:28,000
+put all the offices in there.
+And he wants it to be,
+
+466
+00:39:28,000 --> 00:39:31,000
+actually, covered in solid
+gold.
+
+467
+00:39:31,000 --> 00:39:34,000
+And because that is expensive,
+the administration wants him to
+
+468
+00:39:34,000 --> 00:39:38,000
+cut the costs a bit.
+And so you have to minimize the
+
+469
+00:39:38,000 --> 00:39:42,000
+total size so that it doesn't
+cost too much.
+
+470
+00:39:42,000 --> 00:39:45,000
+We will see if MIT comes up
+with a triangular pyramid
+
+471
+00:39:45,000 --> 00:39:48,000
+building.
+Hopefully not.
+
+472
+00:39:48,000 --> 00:39:58,000
+It could be our next dorm,
+you never know.
+
+473
+00:39:58,000 --> 00:40:01,000
+Anyway, it is a fine geometry
+problem.
+
+474
+00:40:01,000 --> 00:40:07,000
+Let's try to think about how we
+can do this.
+
+475
+00:40:07,000 --> 00:40:10,000
+The natural way to think about
+it would be -- Well,
+
+476
+00:40:10,000 --> 00:40:11,000
+what do we have to look for
+first?
+
+477
+00:40:11,000 --> 00:40:18,000
+We have to look for the
+position of that top point.
+
+478
+00:40:18,000 --> 00:40:29,000
+Remember we know that the
+volume of a pyramid is one-third
+
+479
+00:40:29,000 --> 00:40:37,000
+the area of base times height.
+In fact, fixing the volume,
+
+480
+00:40:37,000 --> 00:40:39,000
+knowing that we have fixed the
+area of a base,
+
+481
+00:40:39,000 --> 00:40:43,000
+means that we are fixing the
+height of the pyramid.
+
+482
+00:40:43,000 --> 00:40:47,000
+The height is completely fixed.
+What we have to choose just is
+
+483
+00:40:47,000 --> 00:40:52,000
+where do we put that top point?
+Do we put it smack in the
+
+484
+00:40:52,000 --> 00:40:58,000
+middle of a triangle or to a
+side or even anywhere we want?
+
+485
+00:40:58,000 --> 00:41:15,000
+Its z coordinate is fixed.
+Let's call h the height.
+
+486
+00:41:15,000 --> 00:41:20,000
+What we could do is something
+like this.
+
+487
+00:41:20,000 --> 00:41:24,000
+We say we have three points of
+a base.
+
+488
+00:41:24,000 --> 00:41:32,000
+Let's call them p1 at (x1,
+y1,0); p2 at (x2,
+
+489
+00:41:32,000 --> 00:41:36,000
+y2,0); p3 at (x3,
+y3,0).
+
+490
+00:41:36,000 --> 00:41:40,000
+This point p is the unknown
+point at (x, y,
+
+491
+00:41:40,000 --> 00:41:42,000
+h).
+We know the height.
+
+492
+00:41:42,000 --> 00:41:46,000
+And then we want to minimize
+the sum of the areas of these
+
+493
+00:41:46,000 --> 00:41:50,000
+three triangles.
+One here, one here and one at
+
+494
+00:41:50,000 --> 00:41:53,000
+the back.
+And areas of triangles we know
+
+495
+00:41:53,000 --> 00:41:57,000
+how to express by using length
+of cross-product.
+
+496
+00:41:57,000 --> 00:42:00,000
+It becomes a function of x and
+y.
+
+497
+00:42:00,000 --> 00:42:04,000
+And you can try to minimize it.
+Actually, it doesn't quite work.
+
+498
+00:42:04,000 --> 00:42:05,000
+The formulas are just too
+complicated.
+
+499
+00:42:05,000 --> 00:42:14,000
+You will never get there.
+What happens is actually maybe
+
+500
+00:42:14,000 --> 00:42:18,000
+we need better coordinates.
+Why do we need better
+
+501
+00:42:18,000 --> 00:42:21,000
+coordinates?
+That is because the geometry is
+
+502
+00:42:21,000 --> 00:42:24,000
+kind of difficult to do if you
+use x, y coordinates.
+
+503
+00:42:24,000 --> 00:42:28,000
+I mean formula for
+cross-product is fine,
+
+504
+00:42:28,000 --> 00:42:33,000
+but then the length of the
+vector will be annoying and just
+
+505
+00:42:33,000 --> 00:42:37,000
+doesn't look good.
+Instead, let's think about it
+
+506
+00:42:37,000 --> 00:42:38,000
+differently.
+
+507
+00:42:54,000 --> 00:43:01,000
+I claim if we do it this way
+and we express the area as a
+
+508
+00:43:01,000 --> 00:43:06,000
+function of x,
+y, well, actually we can't
+
+509
+00:43:06,000 --> 00:43:13,000
+solve for a minimum.
+Here is another way to do it.
+
+510
+00:43:13,000 --> 00:43:17,000
+Well, what has worked pretty
+well for us so far is this
+
+511
+00:43:17,000 --> 00:43:19,000
+geometric idea of base times
+height.
+
+512
+00:43:19,000 --> 00:43:29,000
+So let's think in terms of the
+heights of side triangles.
+
+513
+00:43:29,000 --> 00:43:37,000
+I am going to use the height of
+these things.
+
+514
+00:43:37,000 --> 00:43:43,000
+And I am going to say that the
+area will be the sum of three
+
+515
+00:43:43,000 --> 00:43:48,000
+terms, which are three bases
+times three heights.
+
+516
+00:43:48,000 --> 00:43:53,000
+Let's give names to these
+quantities.
+
+517
+00:43:53,000 --> 00:43:58,000
+Actually, for that it is going
+to be good to have the point in
+
+518
+00:43:58,000 --> 00:44:01,000
+the xy plane that lives directly
+below p.
+
+519
+00:44:01,000 --> 00:44:08,000
+Let's call it q.
+P is the point that coordinates
+
+520
+00:44:08,000 --> 00:44:13,000
+x, y, h.
+And let's call q the point that
+
+521
+00:44:13,000 --> 00:44:19,000
+is just below it and so it'
+coordinates are x,
+
+522
+00:44:19,000 --> 00:44:22,000
+y, 0.
+Let's see.
+
+523
+00:44:22,000 --> 00:44:34,000
+Let me draw a map of this thing.
+p1, p2, p3 and I have my point
+
+524
+00:44:34,000 --> 00:44:37,000
+q in the middle.
+Let's see.
+
+525
+00:44:37,000 --> 00:44:40,000
+To know these areas,
+I need to know the base.
+
+526
+00:44:40,000 --> 00:44:44,000
+Well, the base I can decide
+that I know it because it is
+
+527
+00:44:44,000 --> 00:44:48,000
+part of my given data.
+I know the sides of this
+
+528
+00:44:48,000 --> 00:44:53,000
+triangle.
+Let me call the lengths a1,
+
+529
+00:44:53,000 --> 00:44:56,000
+a2, a3.
+I also need to know the height,
+
+530
+00:44:56,000 --> 00:44:58,000
+so I need to know these
+lengths.
+
+531
+00:44:58,000 --> 00:45:01,000
+How do I know these lengths?
+Well, its distance in space,
+
+532
+00:45:01,000 --> 00:45:03,000
+but it is a little bit
+annoying.
+
+533
+00:45:03,000 --> 00:45:10,000
+But maybe I can reduce it to a
+distance in the plane by looking
+
+534
+00:45:10,000 --> 00:45:17,000
+instead at this distance here.
+Let me give names to the
+
+535
+00:45:17,000 --> 00:45:24,000
+distances from q to the sides.
+Let's call u1,
+
+536
+00:45:24,000 --> 00:45:35,000
+u2, u3 the distances from q to
+the sides.
+
+537
+00:45:47,000 --> 00:45:49,000
+Well, now I can claim I can
+find, actually,
+
+538
+00:45:49,000 --> 00:45:53,000
+sorry.
+I need to draw one more thing.
+
+539
+00:45:53,000 --> 00:45:57,000
+I claim I have a nice formula
+for the area,
+
+540
+00:45:57,000 --> 00:46:01,000
+because this is vertical and
+this is horizontal so this
+
+541
+00:46:01,000 --> 00:46:05,000
+length here is u3,
+this length here is h.
+
+542
+00:46:05,000 --> 00:46:13,000
+So what is this length here?
+It is the square root of u3
+
+543
+00:46:13,000 --> 00:46:17,000
+squared plus h squared.
+And similarly for these other
+
+544
+00:46:17,000 --> 00:46:23,000
+guys.
+They are square roots of a u
+
+545
+00:46:23,000 --> 00:46:31,000
+squared plus h squared.
+The heights of the faces are
+
+546
+00:46:31,000 --> 00:46:36,000
+square root of u1 squared times
+h squared.
+
+547
+00:46:36,000 --> 00:46:43,000
+And similarly with u2 and u3.
+So the total side area is going
+
+548
+00:46:43,000 --> 00:46:47,000
+to be the area of the first
+faces,
+
+549
+00:46:47,000 --> 00:46:58,000
+one-half of base times height,
+plus one-half of a base times a
+
+550
+00:46:58,000 --> 00:47:06,000
+height plus one-half of the
+third one.
+
+551
+00:47:06,000 --> 00:47:09,000
+It doesn't look so much better.
+But, trust me,
+
+552
+00:47:09,000 --> 00:47:15,000
+it will get better.
+Now, that is a function of
+
+553
+00:47:15,000 --> 00:47:19,000
+three variables,
+u1, u2, u3.
+
+554
+00:47:19,000 --> 00:47:22,000
+And how do we relate u1,
+u2, u3 to each other?
+
+555
+00:47:22,000 --> 00:47:25,000
+They are probably not
+independent.
+
+556
+00:47:25,000 --> 00:47:32,000
+Well, let's cut this triangle
+here into three pieces like
+
+557
+00:47:32,000 --> 00:47:35,000
+that.
+Then each piece has side --
+
+558
+00:47:35,000 --> 00:47:40,000
+Well, let's look at it the piece
+of the bottom.
+
+559
+00:47:40,000 --> 00:47:50,000
+It has base a3, height u3.
+Cutting base into three tells
+
+560
+00:47:50,000 --> 00:47:57,000
+you that the area of a base is
+one-half of a1,
+
+561
+00:47:57,000 --> 00:48:04,000
+u1 plus one-half of a2,
+u2 plus one-half of a3,
+
+562
+00:48:04,000 --> 00:48:09,000
+u3.
+And that is our constraint.
+
+563
+00:48:09,000 --> 00:48:12,000
+My three variables,
+u1, u2, u3, are constrained in
+
+564
+00:48:12,000 --> 00:48:14,000
+this way.
+The sum of this figure must be
+
+565
+00:48:14,000 --> 00:48:17,000
+the area of a base.
+And I want to minimize that guy.
+
+566
+00:48:17,000 --> 00:48:23,000
+So that is my g and that guy
+here is my f.
+
+567
+00:48:23,000 --> 00:48:28,000
+Now we try to apply our
+Lagrange multiplier equations.
+
+568
+00:48:28,000 --> 00:48:33,000
+Well, partial f of a partial u1
+is -- Well,
+
+569
+00:48:33,000 --> 00:48:36,000
+if you do the calculation,
+you will see it is one-half a1,
+
+570
+00:48:36,000 --> 00:48:43,000
+u1 over square root of u1^2
+plus h^2 equals lambda,
+
+571
+00:48:43,000 --> 00:48:46,000
+what is partial g,
+partial a1?
+
+572
+00:48:46,000 --> 00:48:50,000
+That one you can do, I am sure.
+It is one-half a1.
+
+573
+00:48:50,000 --> 00:49:00,000
+Oh, these guys simplify.
+If you do the same with the
+
+574
+00:49:00,000 --> 00:49:09,000
+second one -- -- things simplify
+again.
+
+575
+00:49:09,000 --> 00:49:17,000
+And the same with the third one.
+Well, you will get,
+
+576
+00:49:17,000 --> 00:49:21,000
+after simplifying,
+u3 over square root of u3
+
+577
+00:49:21,000 --> 00:49:24,000
+squared plus h squared equals
+lambda.
+
+578
+00:49:24,000 --> 00:49:27,000
+Now, that means this guy equals
+this guy equals this guy.
+
+579
+00:49:27,000 --> 00:49:33,000
+They are all equal to lambda.
+And, if you think about it,
+
+580
+00:49:33,000 --> 00:49:39,000
+that means that u1 = u2 = u3.
+See, it looked like scary
+
+581
+00:49:39,000 --> 00:49:42,000
+equations but the solution is
+very simple.
+
+582
+00:49:42,000 --> 00:49:45,000
+What does it mean?
+It means that our point q
+
+583
+00:49:45,000 --> 00:49:47,000
+should be equidistant from all
+three sides.
+
+584
+00:49:47,000 --> 00:49:52,000
+That is called the incenter.
+Q should be in the incenter.
+
+585
+00:49:52,000 --> 00:49:56,000
+The next time you have to build
+a golden pyramid and don't want
+
+586
+00:49:56,000 --> 00:49:59,000
+to go broke, well,
+you know where to put the top.
+
+587
+00:49:59,000 --> 00:50:03,000
+If that was a bit fast, sorry.
+Anyway, it is not completely
+
+588
+00:50:03,000 --> 00:50:06,000
+crucial.
+But go over it and you will see
+
+589
+00:50:06,000 --> 00:50:08,000
+it works.
+Have a nice weekend.

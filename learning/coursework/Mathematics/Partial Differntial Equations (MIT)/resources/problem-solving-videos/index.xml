@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Problem-Solving Videos on MIT OpenCourseWare</title>
+    <link>/resources/problem-solving-videos/</link>
+    <description>Recent content in Problem-Solving Videos on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/problem-solving-videos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Autonomous Equations and Phase Lines</title>
+      <link>/resources/autonomous-equations-and-phase-lines/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/autonomous-equations-and-phase-lines/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Complex Numbers and Euler&#39;s Formula</title>
+      <link>/resources/complex-numbers-and-eulers-formula/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/complex-numbers-and-eulers-formula/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Computing Fourier Series</title>
+      <link>/resources/computing-fourier-series/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/computing-fourier-series/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Convolution and Green&#39;s Formula</title>
+      <link>/resources/convolution-and-greens-formula/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/convolution-and-greens-formula/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Damped Harmonic Oscillators</title>
+      <link>/resources/damped-harmonic-oscillators/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/damped-harmonic-oscillators/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Direction Fields</title>
+      <link>/resources/direction-fields/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/direction-fields/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Euler&#39;s Method</title>
+      <link>/resources/eulers-method-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/eulers-method-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>First Order Constant Coefficient Linear ODE&#39;s</title>
+      <link>/resources/first-order-constant-coefficient-linear-odes/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/first-order-constant-coefficient-linear-odes/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Forced Oscillations</title>
+      <link>/resources/forced-oscillations/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/forced-oscillations/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Frequency Response</title>
+      <link>/resources/frequency-response/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/frequency-response/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gain and Phase Lag</title>
+      <link>/resources/gain-and-phase-lag/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/gain-and-phase-lag/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Homogeneous Constant Coefficient Equations: Any Roots</title>
+      <link>/resources/homogeneous-constant-coefficient-equations-any-roots/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/homogeneous-constant-coefficient-equations-any-roots/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Homogeneous Constant Coefficient Equations: Real Roots</title>
+      <link>/resources/homogeneous-constant-coefficient-equations-real-roots/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/homogeneous-constant-coefficient-equations-real-roots/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Laplace Transform: Basics</title>
+      <link>/resources/laplace-transform-basics/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/laplace-transform-basics/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Laplace: Solving ODE&#39;s</title>
+      <link>/resources/laplace-solving-odes/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/laplace-solving-odes/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linear Equations</title>
+      <link>/resources/linear-equations/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/linear-equations/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linear ODE&#39;s with Periodic Input</title>
+      <link>/resources/linear-odes-with-periodic-input/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/linear-odes-with-periodic-input/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linear Systems of Equations</title>
+      <link>/resources/linear-systems-of-equations/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/linear-systems-of-equations/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linear Systems: Complex Roots</title>
+      <link>/resources/linear-systems-complex-roots/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/linear-systems-complex-roots/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linear Systems: Matrix Methods</title>
+      <link>/resources/linear-systems-matrix-methods/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/linear-systems-matrix-methods/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linearization</title>
+      <link>/resources/linearization/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/linearization/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Manipulating Fourier Series</title>
+      <link>/resources/manipulating-fourier-series/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/manipulating-fourier-series/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Matrix Exponentials</title>
+      <link>/resources/matrix-exponentials/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/matrix-exponentials/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Partial Fractions and Laplace Inverse</title>
+      <link>/resources/partial-fractions-and-laplace-inverse/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/partial-fractions-and-laplace-inverse/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Phase Portraits</title>
+      <link>/resources/phase-portraits/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/phase-portraits/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pole Diagrams</title>
+      <link>/resources/pole-diagrams/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/pole-diagrams/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pure Resonance</title>
+      <link>/resources/pure-resonance/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/pure-resonance/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Separable Equations</title>
+      <link>/resources/separable-equations/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/separable-equations/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sinusoidal Functions</title>
+      <link>/resources/sinusoidal-functions/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/sinusoidal-functions/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sinusoidal Inputs</title>
+      <link>/resources/sinusoidal-inputs/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/sinusoidal-inputs/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Solutions of First Order Linear Equations</title>
+      <link>/resources/solutions-of-first-order-linear-equations/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/solutions-of-first-order-linear-equations/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Step and Delta Functions: Integration and Generalized Derivatives</title>
+      <link>/resources/step-and-delta-functions-integration-and-generalized-derivatives/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/step-and-delta-functions-integration-and-generalized-derivatives/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Trace-Determinant Diagram</title>
+      <link>/resources/trace-determinant-diagram/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/trace-determinant-diagram/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Undetermined Coefficients</title>
+      <link>/resources/undetermined-coefficients/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/undetermined-coefficients/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Unit Step and Impulse Response</title>
+      <link>/resources/unit-step-and-impulse-response/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/unit-step-and-impulse-response/data.json</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

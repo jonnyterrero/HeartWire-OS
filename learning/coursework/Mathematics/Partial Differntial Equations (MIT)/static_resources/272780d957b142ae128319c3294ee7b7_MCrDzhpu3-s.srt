@@ -1,0 +1,3462 @@
+1
+00:00:08,000 --> 00:00:14,000
+For the rest of the term,
+we are going to be studying not
+
+2
+00:00:11,000 --> 00:00:17,000
+just one differential equation
+at a time, but rather what are
+
+3
+00:00:15,000 --> 00:00:21,000
+called systems of differential
+equations.
+
+4
+00:00:18,000 --> 00:00:24,000
+Those are like systems of
+linear equations.
+
+5
+00:00:21,000 --> 00:00:27,000
+They have to be solved
+simultaneously,
+
+6
+00:00:23,000 --> 00:00:29,000
+in other words,
+not just one at a time.
+
+7
+00:00:25,000 --> 00:00:31,000
+So, how does a system look when
+you write it down?
+
+8
+00:00:30,000 --> 00:00:36,000
+Well, since we are going to be
+talking about systems of
+
+9
+00:00:34,000 --> 00:00:40,000
+ordinary differential equations,
+there still will be only one
+
+10
+00:00:38,000 --> 00:00:44,000
+independent variable,
+but there will be several
+
+11
+00:00:42,000 --> 00:00:48,000
+dependent variables.
+I am going to call,
+
+12
+00:00:45,000 --> 00:00:51,000
+let's say two.
+The dependent variables are
+
+13
+00:00:48,000 --> 00:00:54,000
+going to be, I will call them x
+and y, and then the first order
+
+14
+00:00:53,000 --> 00:00:59,000
+system, something involving just
+first derivatives,
+
+15
+00:00:57,000 --> 00:01:03,000
+will look like this.
+On the left-hand side
+
+16
+00:01:02,000 --> 00:01:08,000
+will be x prime,
+
+17
+00:01:04,000 --> 00:01:10,000
+in other words.
+On the right-hand side will be
+
+18
+00:01:07,000 --> 00:01:13,000
+the dependent variables and then
+also the independent variables.
+
+19
+00:01:12,000 --> 00:01:18,000
+I will indicate that,
+I will separate it all from the
+
+20
+00:01:16,000 --> 00:01:22,000
+others by putting a semicolon
+there.
+
+21
+00:01:18,000 --> 00:01:24,000
+And the same way y prime,
+the derivative of y with
+
+22
+00:01:22,000 --> 00:01:28,000
+respect to t,
+will be some other function of
+
+23
+00:01:25,000 --> 00:01:31,000
+(x, y) and t.
+Let's write down explicitly
+
+24
+00:01:30,000 --> 00:01:36,000
+that x and y are dependent
+variables.
+
+25
+00:01:37,000 --> 00:01:43,000
+And what they depend upon is
+the independent variable t,
+
+26
+00:01:41,000 --> 00:01:47,000
+time.
+A system like this is going to
+
+27
+00:01:43,000 --> 00:01:49,000
+be called first order.
+And we are going to consider
+
+28
+00:01:47,000 --> 00:01:53,000
+basically only first-order
+systems for a secret reason that
+
+29
+00:01:52,000 --> 00:01:58,000
+I will explain at the end of the
+period.
+
+30
+00:01:56,000 --> 00:02:02,000
+This is a first-order system,
+meaning that the only kind of
+
+31
+00:02:00,000 --> 00:02:06,000
+derivatives that are up here are
+first derivatives.
+
+32
+00:02:04,000 --> 00:02:10,000
+So x prime is dx over dt
+and so on.
+
+33
+00:02:08,000 --> 00:02:14,000
+Now, there is still more
+terminology.
+
+34
+00:02:10,000 --> 00:02:16,000
+Of course, practically all the
+equations after the term
+
+35
+00:02:15,000 --> 00:02:21,000
+started, virtually all the
+equations we have been
+
+36
+00:02:18,000 --> 00:02:24,000
+considering are linear
+equations, so it must be true
+
+37
+00:02:22,000 --> 00:02:28,000
+that linear systems are the best
+kind.
+
+38
+00:02:25,000 --> 00:02:31,000
+And, boy, they certainly are.
+When are we going to call a
+
+39
+00:02:31,000 --> 00:02:37,000
+system linear?
+I think in the beginning you
+
+40
+00:02:34,000 --> 00:02:40,000
+should learn a little
+terminology before we launch in
+
+41
+00:02:39,000 --> 00:02:45,000
+and actually try to start to
+solve these things.
+
+42
+00:02:43,000 --> 00:02:49,000
+Well, the x and y,
+the dependent variables must
+
+43
+00:02:46,000 --> 00:02:52,000
+occur linearly.
+In other words,
+
+44
+00:02:49,000 --> 00:02:55,000
+it must look like this,
+ax plus by.
+
+45
+00:02:53,000 --> 00:02:59,000
+Now, the t can be a mess.
+And so I will throw in an extra
+
+46
+00:02:58,000 --> 00:03:04,000
+function of t there.
+And y prime will be some
+
+47
+00:03:03,000 --> 00:03:09,000
+other linear combination of x
+and y, plus some other messy
+
+48
+00:03:08,000 --> 00:03:14,000
+function of t.
+But even the a,
+
+49
+00:03:10,000 --> 00:03:16,000
+b, c, and d are allowed to be
+functions of t.
+
+50
+00:03:14,000 --> 00:03:20,000
+They could be one over t cubed
+or sine t
+
+51
+00:03:19,000 --> 00:03:25,000
+or something like that.
+So I have to distinguish those
+
+52
+00:03:23,000 --> 00:03:29,000
+cases.
+The case where a,
+
+53
+00:03:25,000 --> 00:03:31,000
+b, c, and d are constants,
+that I will call --
+
+54
+00:03:30,000 --> 00:03:36,000
+Well, there are different
+things you can call it.
+
+55
+00:03:34,000 --> 00:03:40,000
+We will simply call it a
+constant coefficient system.
+
+56
+00:03:40,000 --> 00:03:46,000
+A system with coefficients
+would probably be better
+
+57
+00:03:45,000 --> 00:03:51,000
+English.
+On the other hand,
+
+58
+00:03:47,000 --> 00:03:53,000
+a, b, c, and d,
+this system will still be
+
+59
+00:03:51,000 --> 00:03:57,000
+called linear if these are
+functions of t.
+
+60
+00:03:56,000 --> 00:04:02,000
+Can also be functions of t.
+
+61
+00:04:05,000 --> 00:04:11,000
+So it would be a perfectly good
+linear system to have x prime
+
+62
+00:04:08,000 --> 00:04:14,000
+equals tx plus sine t times y
+plus e to the minus t squared.
+
+63
+00:04:15,000 --> 00:04:21,000
+You would never see something
+like that but it is okay.
+
+64
+00:04:18,000 --> 00:04:24,000
+What else do you need to know?
+Well, what would a homogenous
+
+65
+00:04:22,000 --> 00:04:28,000
+system be?
+A homogenous system is one
+
+66
+00:04:24,000 --> 00:04:30,000
+without these extra guys.
+That doesn't mean there is no t
+
+67
+00:04:28,000 --> 00:04:34,000
+in it.
+There could be t in the a,
+
+68
+00:04:32,000 --> 00:04:38,000
+b, c and d, but these terms
+with no x and y in them must not
+
+69
+00:04:38,000 --> 00:04:44,000
+occur.
+So, a linear homogenous.
+
+70
+00:04:47,000 --> 00:04:53,000
+And that is the kind we are
+going to start studying first in
+
+71
+00:04:50,000 --> 00:04:56,000
+the same way when we studied
+higher order equations.
+
+72
+00:04:53,000 --> 00:04:59,000
+We studied first homogenous.
+You had to know how to solve
+
+73
+00:04:57,000 --> 00:05:03,000
+those first, and then you could
+learn how to solve the more
+
+74
+00:05:00,000 --> 00:05:06,000
+general kind.
+So linear homogenous means that
+
+75
+00:05:04,000 --> 00:05:10,000
+r1 is zero and r2 is zero for
+all time.
+
+76
+00:05:07,000 --> 00:05:13,000
+They are identically zero.
+They are not there.
+
+77
+00:05:10,000 --> 00:05:16,000
+You don't see them.
+Have I left anything out?
+
+78
+00:05:13,000 --> 00:05:19,000
+Yes, the initial conditions.
+Since that is quite general,
+
+79
+00:05:18,000 --> 00:05:24,000
+let's talk about what would
+initial conditions look like?
+
+80
+00:05:28,000 --> 00:05:34,000
+Well, in a general way,
+the reason you have to have
+
+81
+00:05:31,000 --> 00:05:37,000
+initial conditions is to get
+values for the arbitrary
+
+82
+00:05:34,000 --> 00:05:40,000
+constants that appear in the
+solution.
+
+83
+00:05:37,000 --> 00:05:43,000
+The question is,
+how many arbitrary constants
+
+84
+00:05:40,000 --> 00:05:46,000
+are going to appear in the
+solutions of these equations?
+
+85
+00:05:43,000 --> 00:05:49,000
+Well, I will just give you the
+answer.
+
+86
+00:05:46,000 --> 00:05:52,000
+Two.
+The number of arbitrary
+
+87
+00:05:48,000 --> 00:05:54,000
+constants that appear is the
+total order of the system.
+
+88
+00:05:51,000 --> 00:05:57,000
+For example,
+if this were a second
+
+89
+00:05:53,000 --> 00:05:59,000
+derivative and this were a first
+derivative, I would expect three
+
+90
+00:05:58,000 --> 00:06:04,000
+arbitrary constants in the
+system --
+
+91
+00:06:02,000 --> 00:06:08,000
+-- because the total,
+the sum of two and one makes
+
+92
+00:06:05,000 --> 00:06:11,000
+three.
+So you must have as many
+
+93
+00:06:07,000 --> 00:06:13,000
+initial conditions as you have
+arbitrary constants in the
+
+94
+00:06:11,000 --> 00:06:17,000
+solution.
+And that, of course,
+
+95
+00:06:13,000 --> 00:06:19,000
+explains when we studied
+second-order equations,
+
+96
+00:06:17,000 --> 00:06:23,000
+we had to have two initial
+conditions.
+
+97
+00:06:19,000 --> 00:06:25,000
+I had to specify the initial
+starting point and the initial
+
+98
+00:06:24,000 --> 00:06:30,000
+velocity.
+And the reason we had to have
+
+99
+00:06:26,000 --> 00:06:32,000
+two conditions was because the
+general solution had two
+
+100
+00:06:30,000 --> 00:06:36,000
+arbitrary constants in it.
+The same thing happens here but
+
+101
+00:06:36,000 --> 00:06:42,000
+the answer is it is more
+natural, the conditions here are
+
+102
+00:06:40,000 --> 00:06:46,000
+more natural.
+I don't have to specify the
+
+103
+00:06:43,000 --> 00:06:49,000
+velocity.
+Why not?
+
+104
+00:06:44,000 --> 00:06:50,000
+Well, because an initial
+condition, of course,
+
+105
+00:06:48,000 --> 00:06:54,000
+would want me to say what the
+starting value of x is,
+
+106
+00:06:52,000 --> 00:06:58,000
+some number,
+and it will also want to know
+
+107
+00:06:55,000 --> 00:07:01,000
+what the starting value of y is
+at that same point.
+
+108
+00:07:00,000 --> 00:07:06,000
+Well, there are my two
+conditions.
+
+109
+00:07:02,000 --> 00:07:08,000
+And since this is going to have
+two arbitrary constants in it,
+
+110
+00:07:07,000 --> 00:07:13,000
+it is these initial conditions
+that will satisfy,
+
+111
+00:07:10,000 --> 00:07:16,000
+the arbitrary constants will
+have to be picked so as to
+
+112
+00:07:14,000 --> 00:07:20,000
+satisfy those initial
+conditions.
+
+113
+00:07:17,000 --> 00:07:23,000
+In some sense,
+the giving of initial
+
+114
+00:07:19,000 --> 00:07:25,000
+conditions for a system is a
+more natural activity than
+
+115
+00:07:23,000 --> 00:07:29,000
+giving the initial conditions of
+a second order system.
+
+116
+00:07:29,000 --> 00:07:35,000
+You don't have to be the least
+bit cleaver about it.
+
+117
+00:07:32,000 --> 00:07:38,000
+Anybody would give these two
+numbers.
+
+118
+00:07:35,000 --> 00:07:41,000
+Whereas, somebody faced with a
+second order system might
+
+119
+00:07:38,000 --> 00:07:44,000
+scratch his head.
+And, in fact,
+
+120
+00:07:40,000 --> 00:07:46,000
+there are other kinds of
+conditions.
+
+121
+00:07:43,000 --> 00:07:49,000
+There are boundary conditions
+you learned a little bit about
+
+122
+00:07:47,000 --> 00:07:53,000
+instead of initial conditions
+for a second order equation.
+
+123
+00:07:51,000 --> 00:07:57,000
+I cannot think of any more
+general terminology,
+
+124
+00:07:54,000 --> 00:08:00,000
+so it sounds like we are going
+to actually have to get to work.
+
+125
+00:08:00,000 --> 00:08:06,000
+Okay, let's get to work.
+I want to set up a system and
+
+126
+00:08:04,000 --> 00:08:10,000
+solve it.
+And since one of the things in
+
+127
+00:08:07,000 --> 00:08:13,000
+this course is supposed to be
+simple modeling,
+
+128
+00:08:10,000 --> 00:08:16,000
+it should be a system that
+models something.
+
+129
+00:08:13,000 --> 00:08:19,000
+In general, the kinds of models
+we are going to use when we
+
+130
+00:08:18,000 --> 00:08:24,000
+study systems are the same ones
+we used in studying just
+
+131
+00:08:22,000 --> 00:08:28,000
+first-order equations.
+Mixing, radioactive decay,
+
+132
+00:08:25,000 --> 00:08:31,000
+temperature,
+the motion of temperature.
+
+133
+00:08:30,000 --> 00:08:36,000
+Heat, heat conduction,
+in other words.
+
+134
+00:08:32,000 --> 00:08:38,000
+Diffusion.
+I have given you a diffusion
+
+135
+00:08:35,000 --> 00:08:41,000
+problem for your first homework
+on this subject.
+
+136
+00:08:39,000 --> 00:08:45,000
+What else did we do?
+That's all I can think of for
+
+137
+00:08:43,000 --> 00:08:49,000
+the moment, but I am sure they
+will occur to me.
+
+138
+00:08:46,000 --> 00:08:52,000
+When, out of those physical
+ideas, are we going to get a
+
+139
+00:08:50,000 --> 00:08:56,000
+system?
+The answer is,
+
+140
+00:08:52,000 --> 00:08:58,000
+whenever there are two of
+something that there was only
+
+141
+00:08:56,000 --> 00:09:02,000
+one of before.
+For example,
+
+142
+00:08:59,000 --> 00:09:05,000
+if I have mixing with two tanks
+where the fluid goes like that.
+
+143
+00:09:03,000 --> 00:09:09,000
+Say you want to have a big tank
+and a little tank here and you
+
+144
+00:09:07,000 --> 00:09:13,000
+want to put some stuff into the
+little tank so that it will get
+
+145
+00:09:10,000 --> 00:09:16,000
+mixed in the big tank without
+having to climb a big ladder and
+
+146
+00:09:14,000 --> 00:09:20,000
+stop and drop the stuff in.
+That will require two tanks,
+
+147
+00:09:17,000 --> 00:09:23,000
+the concentration of the
+substance in each tank,
+
+148
+00:09:20,000 --> 00:09:26,000
+therefore, that will require a
+system of equations rather than
+
+149
+00:09:24,000 --> 00:09:30,000
+just one.
+Or, to give something closer to
+
+150
+00:09:28,000 --> 00:09:34,000
+home, closer to this backboard,
+anyway, suppose you have dah,
+
+151
+00:09:33,000 --> 00:09:39,000
+dah, dah, don't groan,
+at least not audibly,
+
+152
+00:09:36,000 --> 00:09:42,000
+something that looks like that.
+And next to it put an EMF
+
+153
+00:09:40,000 --> 00:09:46,000
+there.
+That is just a first order.
+
+154
+00:09:43,000 --> 00:09:49,000
+That just leads to a single
+first order equation.
+
+155
+00:09:47,000 --> 00:09:53,000
+But suppose it is a two loop
+circuit.
+
+156
+00:09:58,000 --> 00:10:04,000
+Now I need a pair of equations.
+Each of these loops gives a
+
+157
+00:10:02,000 --> 00:10:08,000
+first order differential
+equation, but they have to be
+
+158
+00:10:06,000 --> 00:10:12,000
+solved simultaneously to find
+the current or the charges on
+
+159
+00:10:10,000 --> 00:10:16,000
+the condensers.
+And if I want a system of three
+
+160
+00:10:14,000 --> 00:10:20,000
+equations, throw in another
+loop.
+
+161
+00:10:16,000 --> 00:10:22,000
+Now, suppose I put in a coil
+instead.
+
+162
+00:10:19,000 --> 00:10:25,000
+What is this going to lead to?
+This is going to give me a
+
+163
+00:10:23,000 --> 00:10:29,000
+system of three equations of
+which this will be first order,
+
+164
+00:10:27,000 --> 00:10:33,000
+first order.
+And this will be second order
+
+165
+00:10:32,000 --> 00:10:38,000
+because it has a coil.
+You are up to that,
+
+166
+00:10:35,000 --> 00:10:41,000
+right?
+You've had coils,
+
+167
+00:10:37,000 --> 00:10:43,000
+inductance?
+Good.
+
+168
+00:10:39,000 --> 00:10:45,000
+So the whole thing is going to
+count as first-order,
+
+169
+00:10:43,000 --> 00:10:49,000
+first-order,
+second-order.
+
+170
+00:10:45,000 --> 00:10:51,000
+To find out how complicated it
+is, you have to add up the
+
+171
+00:10:50,000 --> 00:10:56,000
+orders.
+That is one and one,
+
+172
+00:10:52,000 --> 00:10:58,000
+and two.
+This is really fourth-order
+
+173
+00:10:55,000 --> 00:11:01,000
+stuff that we are talking about
+here.
+
+174
+00:11:00,000 --> 00:11:06,000
+We can expect it to be a little
+complicated.
+
+175
+00:11:03,000 --> 00:11:09,000
+Well, now let's take a modest
+little problem.
+
+176
+00:11:06,000 --> 00:11:12,000
+I am going to return to a
+problem we considered earlier in
+
+177
+00:11:10,000 --> 00:11:16,000
+the problem of heat conduction.
+I had forgotten whether it was
+
+178
+00:11:14,000 --> 00:11:20,000
+on the problem set or I did it
+in class, but I am choosing it
+
+179
+00:11:19,000 --> 00:11:25,000
+because it leads to something we
+will be able to solve.
+
+180
+00:11:23,000 --> 00:11:29,000
+And because it illustrates how
+to add a little sophistication
+
+181
+00:11:27,000 --> 00:11:33,000
+to something that was
+unsophisticated before.
+
+182
+00:11:32,000 --> 00:11:38,000
+A pot of water.
+External temperature Te of t.
+
+183
+00:11:35,000 --> 00:11:41,000
+I am talking about the
+
+184
+00:11:38,000 --> 00:11:44,000
+temperature of something.
+And what I am talking about the
+
+185
+00:11:43,000 --> 00:11:49,000
+temperature of will be an egg
+that is cooking inside,
+
+186
+00:11:47,000 --> 00:11:53,000
+but with a difference.
+This egg is not homogenous
+
+187
+00:11:51,000 --> 00:11:57,000
+inside.
+Instead it has a white and it
+
+188
+00:11:54,000 --> 00:12:00,000
+has a yolk in the middle.
+In other words,
+
+189
+00:11:59,000 --> 00:12:05,000
+it is a real egg and not a
+phony egg.
+
+190
+00:12:01,000 --> 00:12:07,000
+That is a small pot,
+or it is an ostrich egg.
+
+191
+00:12:04,000 --> 00:12:10,000
+[LAUGHTER] That is the yoke.
+The yolk is contained in a
+
+192
+00:12:08,000 --> 00:12:14,000
+little membrane inside.
+And there are little yucky
+
+193
+00:12:11,000 --> 00:12:17,000
+things that hold it in position.
+And we are going to let the
+
+194
+00:12:15,000 --> 00:12:21,000
+temperature of the yolk,
+if you can see in the back of
+
+195
+00:12:19,000 --> 00:12:25,000
+the room, be T1.
+That is the temperature of the
+
+196
+00:12:22,000 --> 00:12:28,000
+yolk.
+The temperature of the white,
+
+197
+00:12:25,000 --> 00:12:31,000
+which we will assume is
+uniform, is going to be T2.
+
+198
+00:12:30,000 --> 00:12:36,000
+Oh, that's the water bath.
+The temperature of the white is
+
+199
+00:12:34,000 --> 00:12:40,000
+T2, and then the temperature of
+the external water bath.
+
+200
+00:12:39,000 --> 00:12:45,000
+In other words,
+the reason for introducing two
+
+201
+00:12:42,000 --> 00:12:48,000
+variables instead of just the
+one variable for the overall
+
+202
+00:12:47,000 --> 00:12:53,000
+temperature of the egg we had is
+because egg white is liquid pure
+
+203
+00:12:52,000 --> 00:12:58,000
+protein, more or less,
+and the T1, the yolk has a lot
+
+204
+00:12:57,000 --> 00:13:03,000
+of fat and cholesterol and other
+stuff like that which is
+
+205
+00:13:01,000 --> 00:13:07,000
+supposed to be bad for you.
+It certainly has different
+
+206
+00:13:06,000 --> 00:13:12,000
+conducting.
+It is liquid,
+
+207
+00:13:07,000 --> 00:13:13,000
+at the beginning at any rate,
+but it certainly has different
+
+208
+00:13:11,000 --> 00:13:17,000
+constants of conductivity than
+the egg white would.
+
+209
+00:13:14,000 --> 00:13:20,000
+And the condition of heat
+through the shell of the egg
+
+210
+00:13:17,000 --> 00:13:23,000
+would be different from the
+conduction of heat through the
+
+211
+00:13:20,000 --> 00:13:26,000
+membrane that keeps the yoke
+together.
+
+212
+00:13:22,000 --> 00:13:28,000
+So it is quite reasonable to
+consider that the white and the
+
+213
+00:13:26,000 --> 00:13:32,000
+yolk will be at different
+temperatures and will have
+
+214
+00:13:29,000 --> 00:13:35,000
+different conductivity
+properties.
+
+215
+00:13:32,000 --> 00:13:38,000
+I am going to use Newton's laws
+but with this further
+
+216
+00:13:36,000 --> 00:13:42,000
+refinement.
+In other words,
+
+217
+00:13:38,000 --> 00:13:44,000
+introducing two temperatures.
+Whereas, before we only had one
+
+218
+00:13:43,000 --> 00:13:49,000
+temperature.
+But let's use Newton's law.
+
+219
+00:13:46,000 --> 00:13:52,000
+Let's see.
+The question is how does T1,
+
+220
+00:13:49,000 --> 00:13:55,000
+the temperature of the yolk,
+vary with time?
+
+221
+00:13:52,000 --> 00:13:58,000
+Well, the yolk is getting all
+its heat from the white.
+
+222
+00:13:57,000 --> 00:14:03,000
+Therefore, Newton's law of
+conduction will be some constant
+
+223
+00:14:01,000 --> 00:14:07,000
+of conductivity for the yolk
+times T2 minus T1.
+
+224
+00:14:08,000 --> 00:14:14,000
+The yolk does not know anything
+about the external temperature
+
+225
+00:14:12,000 --> 00:14:18,000
+of the water bath.
+It is completely surrounded,
+
+226
+00:14:15,000 --> 00:14:21,000
+snug and secure within itself.
+But how about the temperature
+
+227
+00:14:20,000 --> 00:14:26,000
+of the egg white?
+That gets heat and gives heat
+
+228
+00:14:23,000 --> 00:14:29,000
+to two sources,
+from the external water and
+
+229
+00:14:26,000 --> 00:14:32,000
+also from the internal yolk
+inside.
+
+230
+00:14:30,000 --> 00:14:36,000
+So you have to take into
+account both of those.
+
+231
+00:14:33,000 --> 00:14:39,000
+Its conduction of the heat
+through that membrane,
+
+232
+00:14:36,000 --> 00:14:42,000
+we will use the same a,
+which is going to be a times T1
+
+233
+00:14:40,000 --> 00:14:46,000
+minus T2.
+Remember the order in which you
+
+234
+00:14:44,000 --> 00:14:50,000
+have to write these is governed
+by the yolk outside to the
+
+235
+00:14:48,000 --> 00:14:54,000
+white.
+Therefore, that has to come
+
+236
+00:14:51,000 --> 00:14:57,000
+first when I write it in order
+that a be a positive constant.
+
+237
+00:14:55,000 --> 00:15:01,000
+But it is also getting heat
+from the water bath.
+
+238
+00:15:00,000 --> 00:15:06,000
+And, presumably,
+the conductivity through the
+
+239
+00:15:03,000 --> 00:15:09,000
+shell is different from what it
+is through this membrane around
+
+240
+00:15:08,000 --> 00:15:14,000
+the yolk.
+So I am going to call that by a
+
+241
+00:15:11,000 --> 00:15:17,000
+different constant.
+This is the conductivity
+
+242
+00:15:14,000 --> 00:15:20,000
+through the shell into the
+white.
+
+243
+00:15:17,000 --> 00:15:23,000
+And that is going to be T,
+the external temperature minus
+
+244
+00:15:21,000 --> 00:15:27,000
+the temperature of the egg
+white.
+
+245
+00:15:24,000 --> 00:15:30,000
+Here I have a system of
+equations because I want to make
+
+246
+00:15:28,000 --> 00:15:34,000
+two dependent variables by
+refining the original problem.
+
+247
+00:15:34,000 --> 00:15:40,000
+Now, you always have to write a
+system in standard form to solve
+
+248
+00:15:39,000 --> 00:15:45,000
+it.
+You will see that the left-hand
+
+249
+00:15:42,000 --> 00:15:48,000
+side will give the dependent
+variables in a certain order.
+
+250
+00:15:47,000 --> 00:15:53,000
+In this case,
+the temperature of the yolk and
+
+251
+00:15:51,000 --> 00:15:57,000
+then the temperature of the
+white.
+
+252
+00:15:54,000 --> 00:16:00,000
+The law is that in order not to
+make mistakes --
+
+253
+00:16:00,000 --> 00:16:06,000
+And it's a very frequent source
+of error so learn from the
+
+254
+00:16:03,000 --> 00:16:09,000
+beginning not to do this.
+You must write the variables on
+
+255
+00:16:07,000 --> 00:16:13,000
+the right-hand side in the same
+order left to right in which
+
+256
+00:16:11,000 --> 00:16:17,000
+they occur top to bottom here.
+In other words,
+
+257
+00:16:14,000 --> 00:16:20,000
+this is not a good way to leave
+that.
+
+258
+00:16:16,000 --> 00:16:22,000
+This is the first attempt in
+writing this system,
+
+259
+00:16:20,000 --> 00:16:26,000
+but the final version should
+like this.
+
+260
+00:16:22,000 --> 00:16:28,000
+T1 prime,
+I won't bother writing dT / dt,
+
+261
+00:16:25,000 --> 00:16:31,000
+is equal to --
+T1 must come first,
+
+262
+00:16:29,000 --> 00:16:35,000
+so minus a times T1 plus a
+times T2.
+
+263
+00:16:34,000 --> 00:16:40,000
+And the same law for the second
+one.
+
+264
+00:16:38,000 --> 00:16:44,000
+It must come in the same order.
+Now, the coefficient of T1,
+
+265
+00:16:44,000 --> 00:16:50,000
+that is easy.
+That's a times T1.
+
+266
+00:16:47,000 --> 00:16:53,000
+The coefficient of T2 is minus
+a minus b,
+
+267
+00:16:52,000 --> 00:16:58,000
+so minus (a plus b) times T2.
+
+268
+00:16:56,000 --> 00:17:02,000
+But I am not done yet.
+There is still this external
+
+269
+00:17:02,000 --> 00:17:08,000
+temperature I must put into the
+equation.
+
+270
+00:17:06,000 --> 00:17:12,000
+Now, that is not a variable.
+This is some given function of
+
+271
+00:17:11,000 --> 00:17:17,000
+t.
+And what the function of t is,
+
+272
+00:17:14,000 --> 00:17:20,000
+of course, depends upon what
+the problem is.
+
+273
+00:17:18,000 --> 00:17:24,000
+So that, for example,
+what might be some
+
+274
+00:17:22,000 --> 00:17:28,000
+possibilities,
+well, suppose the problem was I
+
+275
+00:17:26,000 --> 00:17:32,000
+wanted to coddle the egg.
+I think there is a generation
+
+276
+00:17:32,000 --> 00:17:38,000
+gap here.
+How many of you know what a
+
+277
+00:17:35,000 --> 00:17:41,000
+coddled egg is?
+How many of you don't know?
+
+278
+00:17:38,000 --> 00:17:44,000
+Well, I'm just saying my
+daughter didn't know.
+
+279
+00:17:42,000 --> 00:17:48,000
+I mentioned it to her.
+I said I think I'm going to do
+
+280
+00:17:46,000 --> 00:17:52,000
+a coddled egg tomorrow in class.
+And she said what is that?
+
+281
+00:17:51,000 --> 00:17:57,000
+And so I said a cuddled egg?
+She said why would someone
+
+282
+00:17:55,000 --> 00:18:01,000
+cuddle an egg?
+I said coddle.
+
+283
+00:17:59,000 --> 00:18:05,000
+And she said,
+oh, you mean like a person,
+
+284
+00:18:02,000 --> 00:18:08,000
+like what you do to somebody
+you like or don't like or I
+
+285
+00:18:07,000 --> 00:18:13,000
+don't know.
+Whatever.
+
+286
+00:18:09,000 --> 00:18:15,000
+I thought a while and said,
+yeah, more like that.
+
+287
+00:18:13,000 --> 00:18:19,000
+[LAUGHTER] Anyway,
+for the enrichment of your
+
+288
+00:18:17,000 --> 00:18:23,000
+cooking skills,
+to coddle an egg,
+
+289
+00:18:20,000 --> 00:18:26,000
+it is considered to produce a
+better quality product than
+
+290
+00:18:25,000 --> 00:18:31,000
+boiling an egg.
+That is why people do it.
+
+291
+00:18:30,000 --> 00:18:36,000
+You heat up the water to
+boiling, the egg should be at
+
+292
+00:18:34,000 --> 00:18:40,000
+room temperature,
+and then you carefully lower
+
+293
+00:18:37,000 --> 00:18:43,000
+the egg into the water.
+And you turn off the heat so
+
+294
+00:18:41,000 --> 00:18:47,000
+the water bath cools
+exponentially while the egg
+
+295
+00:18:45,000 --> 00:18:51,000
+inside is rising in temperature.
+And then you wait four minutes
+
+296
+00:18:50,000 --> 00:18:56,000
+or six minutes or whatever and
+take it out.
+
+297
+00:18:53,000 --> 00:18:59,000
+You have a perfect egg.
+So for coddling,
+
+298
+00:18:56,000 --> 00:19:02,000
+spelled so, what will the
+external temperature be?
+
+299
+00:19:02,000 --> 00:19:08,000
+Well, it starts out at time
+zero at 100 degrees centigrade
+
+300
+00:19:06,000 --> 00:19:12,000
+because the water is supposed to
+be boiling.
+
+301
+00:19:09,000 --> 00:19:15,000
+The reason you have it boiling
+is for calibration so that you
+
+302
+00:19:13,000 --> 00:19:19,000
+can know what temperature it is
+without having to use a
+
+303
+00:19:17,000 --> 00:19:23,000
+thermometer, unless you're on
+Pike's Peak or some place.
+
+304
+00:19:20,000 --> 00:19:26,000
+It starts out at 100 degrees.
+And after that,
+
+305
+00:19:24,000 --> 00:19:30,000
+since the light is off,
+it cools exponential because
+
+306
+00:19:27,000 --> 00:19:33,000
+that is another law.
+You only have to know what K is
+
+307
+00:19:32,000 --> 00:19:38,000
+for your particular pot and you
+will be able to solve the
+
+308
+00:19:37,000 --> 00:19:43,000
+coddled egg problem.
+In other words,
+
+309
+00:19:40,000 --> 00:19:46,000
+you will then be able to solve
+these equations and know how the
+
+310
+00:19:45,000 --> 00:19:51,000
+temperature rises.
+I am going to solve a different
+
+311
+00:19:49,000 --> 00:19:55,000
+problem because I don't want to
+have to deal with this
+
+312
+00:19:54,000 --> 00:20:00,000
+inhomogeneous term.
+Let's use, as a different
+
+313
+00:19:58,000 --> 00:20:04,000
+problem, a person cooks an egg.
+Coddles the egg by the first
+
+314
+00:20:04,000 --> 00:20:10,000
+process, decides the egg is
+done, let's say hardboiled,
+
+315
+00:20:09,000 --> 00:20:15,000
+and then you are supposed to
+drop a hardboiled egg into cold
+
+316
+00:20:14,000 --> 00:20:20,000
+water.
+Not just to cool it but also
+
+317
+00:20:17,000 --> 00:20:23,000
+because I think it prevents that
+dark thing from forming that
+
+318
+00:20:23,000 --> 00:20:29,000
+looks sort of unattractive.
+Let's ice bath.
+
+319
+00:20:28,000 --> 00:20:34,000
+The only reason for dropping
+the egg into an ice bath is so
+
+320
+00:20:32,000 --> 00:20:38,000
+that you could have a homogenous
+equation to solve.
+
+321
+00:20:36,000 --> 00:20:42,000
+And since this a first system
+we are going to solve,
+
+322
+00:20:40,000 --> 00:20:46,000
+let's make life easy for
+ourselves.
+
+323
+00:20:43,000 --> 00:20:49,000
+Now, all my work in preparing
+this example,
+
+324
+00:20:47,000 --> 00:20:53,000
+and it took considerably longer
+time than actually solving the
+
+325
+00:20:52,000 --> 00:20:58,000
+problem, was in picking values
+for a and b which would make
+
+326
+00:20:56,000 --> 00:21:02,000
+everything come out nice.
+It's harder than it looks.
+
+327
+00:21:02,000 --> 00:21:08,000
+The values that we are going to
+use, which make no physical
+
+328
+00:21:07,000 --> 00:21:13,000
+sense whatsoever,
+but a equals 2 and b
+
+329
+00:21:11,000 --> 00:21:17,000
+equals 3.
+These are called nice numbers.
+
+330
+00:21:15,000 --> 00:21:21,000
+What is the equation?
+What is the system?
+
+331
+00:21:18,000 --> 00:21:24,000
+Can somebody read it off for
+me?
+
+332
+00:21:21,000 --> 00:21:27,000
+It is T1 prime equals, what
+is it, minus 2T1 plus 2T2.
+
+333
+00:21:26,000 --> 00:21:32,000
+That's good.
+
+334
+00:21:30,000 --> 00:21:36,000
+Minus 2T1 plus 2T2.
+
+335
+00:21:40,000 --> 00:21:46,000
+T2 prime is,
+what is it?
+
+336
+00:21:42,000 --> 00:21:48,000
+I think this is 2T1.
+And the other one is minus a
+
+337
+00:21:48,000 --> 00:21:54,000
+plus b, so minus 5.
+
+338
+00:21:51,000 --> 00:21:57,000
+This is a system.
+Now, on Wednesday I will teach
+
+339
+00:21:57,000 --> 00:22:03,000
+you a fancy way of solving this.
+But, to be honest,
+
+340
+00:22:03,000 --> 00:22:09,000
+the fancy way will take roughly
+about as long as the way I am
+
+341
+00:22:07,000 --> 00:22:13,000
+going to do it now.
+The main reason for doing it is
+
+342
+00:22:10,000 --> 00:22:16,000
+that it introduces new
+vocabulary which everyone wants
+
+343
+00:22:14,000 --> 00:22:20,000
+you to have.
+And also, more important
+
+344
+00:22:16,000 --> 00:22:22,000
+reasons, it gives more insight
+into the solution than this
+
+345
+00:22:20,000 --> 00:22:26,000
+method.
+This method just produces the
+
+346
+00:22:22,000 --> 00:22:28,000
+answer, but you want insight,
+also.
+
+347
+00:22:24,000 --> 00:22:30,000
+And that is just as important.
+But for now,
+
+348
+00:22:28,000 --> 00:22:34,000
+let's use a method which always
+works and which in 40 years,
+
+349
+00:22:33,000 --> 00:22:39,000
+after you have forgotten all
+other fancy methods,
+
+350
+00:22:36,000 --> 00:22:42,000
+will still be available to you
+because it is method you can
+
+351
+00:22:40,000 --> 00:22:46,000
+figure out yourself.
+You don't have to remember
+
+352
+00:22:43,000 --> 00:22:49,000
+anything.
+The method is to eliminate one
+
+353
+00:22:46,000 --> 00:22:52,000
+of the dependent variables.
+It is just the way you solve
+
+354
+00:22:50,000 --> 00:22:56,000
+systems of linear equations in
+general if you aren't doing
+
+355
+00:22:54,000 --> 00:23:00,000
+something fancy with
+determinants and matrices.
+
+356
+00:22:59,000 --> 00:23:05,000
+If you just eliminate
+variables.
+
+357
+00:23:01,000 --> 00:23:07,000
+We are going to eliminate one
+of these variables.
+
+358
+00:23:05,000 --> 00:23:11,000
+Let's eliminate T2.
+You could also eliminate T1.
+
+359
+00:23:08,000 --> 00:23:14,000
+The main thing is eliminate one
+of them so you will have just
+
+360
+00:23:13,000 --> 00:23:19,000
+one left to work with.
+How do I eliminate T2?
+
+361
+00:23:16,000 --> 00:23:22,000
+Beg your pardon?
+Is something wrong?
+
+362
+00:23:19,000 --> 00:23:25,000
+If somebody thinks something is
+wrong raise his hand.
+
+363
+00:23:23,000 --> 00:23:29,000
+No?
+
+364
+00:23:30,000 --> 00:23:36,000
+Why do I want to get rid of T1?
+Well, I can add them.
+
+365
+00:23:33,000 --> 00:23:39,000
+But, on the left-hand side,
+I will have T1 prime plus T2
+
+366
+00:23:36,000 --> 00:23:42,000
+prime. What good is that?
+
+367
+00:23:39,000 --> 00:23:45,000
+[LAUGHTER]
+
+368
+00:23:48,000 --> 00:23:54,000
+I think you will want to do it
+my way.
+
+369
+00:23:49,000 --> 00:23:55,000
+[APPLAUSE]
+
+370
+00:24:03,000 --> 00:24:09,000
+Solve for T2 in terms of T1.
+That is going to be T1 prime
+
+371
+00:24:08,000 --> 00:24:14,000
+plus 2T1 divided by 2.
+
+372
+00:24:12,000 --> 00:24:18,000
+Now, take that and substitute
+it into the second equation.
+
+373
+00:24:18,000 --> 00:24:24,000
+Wherever you see a T2,
+put that in,
+
+374
+00:24:21,000 --> 00:24:27,000
+and what you will be left with
+is something just in T1.
+
+375
+00:24:28,000 --> 00:24:34,000
+To be honest,
+I don't know any other good way
+
+376
+00:24:31,000 --> 00:24:37,000
+of doing this.
+There is a fancy method that I
+
+377
+00:24:34,000 --> 00:24:40,000
+think is talked about in your
+book, which leads to extraneous
+
+378
+00:24:39,000 --> 00:24:45,000
+solutions and so on,
+but you don't want to know
+
+379
+00:24:43,000 --> 00:24:49,000
+about that.
+This will work for a simple
+
+380
+00:24:46,000 --> 00:24:52,000
+linear equation with constant
+coefficients,
+
+381
+00:24:49,000 --> 00:24:55,000
+always.
+Substitute in.
+
+382
+00:24:51,000 --> 00:24:57,000
+What do I do?
+Now, here I do not advise doing
+
+383
+00:24:54,000 --> 00:25:00,000
+this mentally.
+It is just too easy to make a
+
+384
+00:24:57,000 --> 00:25:03,000
+mistake.
+Here, I will do it carefully,
+
+385
+00:25:04,000 --> 00:25:10,000
+writing everything out just as
+you would.
+
+386
+00:25:10,000 --> 00:25:16,000
+T1 prime plus 2T1 over 2,
+prime, equals 2T1 minus 5 time
+
+387
+00:25:18,000 --> 00:25:24,000
+T1 prime plus 2T1 over two.
+
+388
+00:25:27,000 --> 00:25:33,000
+I took that and substituted
+
+389
+00:25:32,000 --> 00:25:38,000
+into this equation.
+Now, I don't like those two's.
+
+390
+00:25:38,000 --> 00:25:44,000
+Let's get rid of them by
+multiplying.
+
+391
+00:25:42,000 --> 00:25:48,000
+This will become 4.
+
+392
+00:25:52,000 --> 00:25:58,000
+And now write this out.
+What is this when you look at
+
+393
+00:25:57,000 --> 00:26:03,000
+it?
+This is an equation just in T1.
+
+394
+00:26:00,000 --> 00:26:06,000
+It has constant coefficients.
+And what is its order?
+
+395
+00:26:05,000 --> 00:26:11,000
+Its order is two because T1
+prime primed.
+
+396
+00:26:10,000 --> 00:26:16,000
+In other words,
+I can eliminate T2 okay,
+
+397
+00:26:13,000 --> 00:26:19,000
+but the equation I am going to
+get is no longer a first-order.
+
+398
+00:26:19,000 --> 00:26:25,000
+It becomes a second-order
+differential equation.
+
+399
+00:26:24,000 --> 00:26:30,000
+And that's a basic law.
+Even if you have a system of
+
+400
+00:26:30,000 --> 00:26:36,000
+more equations,
+three or four or whatever,
+
+401
+00:26:33,000 --> 00:26:39,000
+the law is that after you do
+the elimination successfully and
+
+402
+00:26:37,000 --> 00:26:43,000
+end up with a single equation,
+normally the order of that
+
+403
+00:26:42,000 --> 00:26:48,000
+equation will be the sum of the
+orders of the things you started
+
+404
+00:26:46,000 --> 00:26:52,000
+with.
+So two first-order equations
+
+405
+00:26:49,000 --> 00:26:55,000
+will always produce a
+second-order equation in just
+
+406
+00:26:53,000 --> 00:26:59,000
+one dependent variable,
+three will produce a third
+
+407
+00:26:56,000 --> 00:27:02,000
+order equation and so on.
+So you trade one complexity for
+
+408
+00:27:02,000 --> 00:27:08,000
+another.
+You trade the complexity of
+
+409
+00:27:04,000 --> 00:27:10,000
+having to deal with two
+equations simultaneously instead
+
+410
+00:27:09,000 --> 00:27:15,000
+of just one for the complexity
+of having to deal with a single
+
+411
+00:27:13,000 --> 00:27:19,000
+higher order equation which is
+more trouble to solve.
+
+412
+00:27:17,000 --> 00:27:23,000
+It is like all mathematical
+problems.
+
+413
+00:27:20,000 --> 00:27:26,000
+Unless you are very lucky,
+if you push them down one way,
+
+414
+00:27:24,000 --> 00:27:30,000
+they are really simple now,
+they just pop up some place
+
+415
+00:27:28,000 --> 00:27:34,000
+else.
+You say, oh,
+
+416
+00:27:30,000 --> 00:27:36,000
+I didn't save anything after
+all.
+
+417
+00:27:32,000 --> 00:27:38,000
+That is the law of conservation
+of mathematical difficulty.
+
+418
+00:27:36,000 --> 00:27:42,000
+[LAUGHTER] You saw that even
+with the Laplace transform.
+
+419
+00:27:40,000 --> 00:27:46,000
+In the beginning it looks
+great, you've got these tables,
+
+420
+00:27:44,000 --> 00:27:50,000
+take the equation,
+horrible to solve.
+
+421
+00:27:46,000 --> 00:27:52,000
+Take some transform,
+trivial to solve for capital Y.
+
+422
+00:27:50,000 --> 00:27:56,000
+Now I have to find the inverse
+Laplace transform.
+
+423
+00:27:53,000 --> 00:27:59,000
+And suddenly all the work is
+there, partial fractions,
+
+424
+00:27:57,000 --> 00:28:03,000
+funny formulas and so on.
+It is very hard in mathematics
+
+425
+00:28:02,000 --> 00:28:08,000
+to get away with something.
+It happens now and then and
+
+426
+00:28:06,000 --> 00:28:12,000
+everybody cheers.
+Let's write this out now in the
+
+427
+00:28:09,000 --> 00:28:15,000
+form in which it looks like an
+equation we can actually solve.
+
+428
+00:28:13,000 --> 00:28:19,000
+Just be careful.
+Now it is all right to use the
+
+429
+00:28:17,000 --> 00:28:23,000
+method by which you collect
+terms.
+
+430
+00:28:19,000 --> 00:28:25,000
+There is only one term
+involving T1 double prime.
+
+431
+00:28:23,000 --> 00:28:29,000
+It's the one that comes from
+here.
+
+432
+00:28:25,000 --> 00:28:31,000
+How about the terms in T1
+prime?
+
+433
+00:28:27,000 --> 00:28:33,000
+There is a 2.
+Here, there is minus 5 T1
+
+434
+00:28:33,000 --> 00:28:39,000
+prime.
+If I put it on the other side
+
+435
+00:28:37,000 --> 00:28:43,000
+it makes plus 5 T1 prime plus
+this two makes 7 T1 prime.
+
+436
+00:28:44,000 --> 00:28:50,000
+And how many T1's are there?
+Well, none on the left-hand
+
+437
+00:28:51,000 --> 00:28:57,000
+side.
+On the right-hand side I have 4
+
+438
+00:28:55,000 --> 00:29:01,000
+here minus 10.
+4 minus 10 is negative 6.
+
+439
+00:29:02,000 --> 00:29:08,000
+Negative 6 T1 put on this
+left-hand side the way we want
+
+440
+00:29:06,000 --> 00:29:12,000
+to do makes plus 6 T1.
+
+441
+00:29:15,000 --> 00:29:21,000
+There are no inhomogeneous
+terms, so that is equal to zero.
+
+442
+00:29:18,000 --> 00:29:24,000
+If I had gotten a negative
+number for one of these
+
+443
+00:29:22,000 --> 00:29:28,000
+coefficients,
+I would instantly know if I had
+
+444
+00:29:25,000 --> 00:29:31,000
+made a mistake.
+Why?
+
+445
+00:29:26,000 --> 00:29:32,000
+Why must those numbers come out
+to be positive?
+
+446
+00:29:30,000 --> 00:29:36,000
+It is because the system must
+be, the system must be,
+
+447
+00:29:33,000 --> 00:29:39,000
+fill in with one word,
+stable.
+
+448
+00:29:36,000 --> 00:29:42,000
+And why must this system be
+stable?
+
+449
+00:29:38,000 --> 00:29:44,000
+In other words,
+the long-term solutions must be
+
+450
+00:29:42,000 --> 00:29:48,000
+zero, must all go to zero,
+whatever they are.
+
+451
+00:29:45,000 --> 00:29:51,000
+Why is that?
+Well, because you are putting
+
+452
+00:29:48,000 --> 00:29:54,000
+the egg into an ice bath.
+Or, because we know it was
+
+453
+00:29:52,000 --> 00:29:58,000
+living but after being
+hardboiled it is dead and,
+
+454
+00:29:56,000 --> 00:30:02,000
+therefore, dead systems are
+stable.
+
+455
+00:30:00,000 --> 00:30:06,000
+That's not a good reason but it
+is, so to speak,
+
+456
+00:30:03,000 --> 00:30:09,000
+the real one.
+It's clear anyway that all
+
+457
+00:30:05,000 --> 00:30:11,000
+solutions must tend to zero
+physically.
+
+458
+00:30:08,000 --> 00:30:14,000
+That's obvious.
+And, therefore,
+
+459
+00:30:10,000 --> 00:30:16,000
+the differential equation must
+have the same property,
+
+460
+00:30:14,000 --> 00:30:20,000
+and that means that its
+coefficients must be positive.
+
+461
+00:30:17,000 --> 00:30:23,000
+All its coefficients must be
+positive.
+
+462
+00:30:20,000 --> 00:30:26,000
+If this weren't there,
+I would get oscillating
+
+463
+00:30:23,000 --> 00:30:29,000
+solutions, which wouldn't go to
+zero.
+
+464
+00:30:25,000 --> 00:30:31,000
+That is physical impossible for
+this egg.
+
+465
+00:30:30,000 --> 00:30:36,000
+Now the rest is just solving.
+The characteristic equation,
+
+466
+00:30:34,000 --> 00:30:40,000
+if you can remember way,
+way back in prehistoric times
+
+467
+00:30:39,000 --> 00:30:45,000
+when we were solving these
+equations, is this.
+
+468
+00:30:43,000 --> 00:30:49,000
+And what you want to do is
+factor it.
+
+469
+00:30:46,000 --> 00:30:52,000
+This is where all the work was,
+getting those numbers so that
+
+470
+00:30:51,000 --> 00:30:57,000
+this would factor. So it's
+r plus 1 times r plus 6
+
+471
+00:31:04,000 --> 00:31:10,000
+And so the solutions are,
+the roots are r equals
+
+472
+00:31:07,000 --> 00:31:13,000
+negative 1.
+I am just making marks on the
+
+473
+00:31:10,000 --> 00:31:16,000
+board, but you have done this
+often enough,
+
+474
+00:31:13,000 --> 00:31:19,000
+you know what I am talking
+about.
+
+475
+00:31:15,000 --> 00:31:21,000
+So the characteristic roots are
+those two numbers.
+
+476
+00:31:18,000 --> 00:31:24,000
+And, therefore,
+the solution is,
+
+477
+00:31:20,000 --> 00:31:26,000
+I could write down immediately
+with its arbitrary constant as
+
+478
+00:31:24,000 --> 00:31:30,000
+c1 times e to the negative t
+plus c2 times e to the negative
+
+479
+00:31:28,000 --> 00:31:34,000
+6t. Now, I have got to get T2.
+
+480
+00:31:34,000 --> 00:31:40,000
+Here the first worry is T2 is
+going to give me two more
+
+481
+00:31:39,000 --> 00:31:45,000
+arbitrary constants.
+It better not.
+
+482
+00:31:42,000 --> 00:31:48,000
+The system is only allowed to
+have two arbitrary constants in
+
+483
+00:31:47,000 --> 00:31:53,000
+its solution because that is the
+initial conditions we are giving
+
+484
+00:31:52,000 --> 00:31:58,000
+it.
+By the way, I forgot to give
+
+485
+00:31:55,000 --> 00:32:01,000
+initial conditions.
+Let's give initial conditions.
+
+486
+00:32:01,000 --> 00:32:07,000
+Let's say the initial
+temperature of the yolk,
+
+487
+00:32:05,000 --> 00:32:11,000
+when it is put in the ice bath,
+is 40 degrees centigrade,
+
+488
+00:32:10,000 --> 00:32:16,000
+Celsius.
+And T2, let's say the white
+
+489
+00:32:13,000 --> 00:32:19,000
+ought to be a little hotter than
+the yolk is always cooler than
+
+490
+00:32:18,000 --> 00:32:24,000
+the white for a soft boiled egg,
+I don't know,
+
+491
+00:32:22,000 --> 00:32:28,000
+or a hardboiled egg if it
+hasn't been chilled too long.
+
+492
+00:32:27,000 --> 00:32:33,000
+Let's make this 45.
+Realistic numbers.
+
+493
+00:32:32,000 --> 00:32:38,000
+Now, the thing not to do is to
+say, hey, I found T1.
+
+494
+00:32:35,000 --> 00:32:41,000
+Okay, I will find T2 by the
+same procedure.
+
+495
+00:32:39,000 --> 00:32:45,000
+I will go through the whole
+thing.
+
+496
+00:32:41,000 --> 00:32:47,000
+I will eliminate T1 instead.
+Then I will end up with an
+
+497
+00:32:45,000 --> 00:32:51,000
+equation T2 and I will solve
+that and get T2 equals blah,
+
+498
+00:32:50,000 --> 00:32:56,000
+blah, blah.
+That is no good,
+
+499
+00:32:52,000 --> 00:32:58,000
+A, because you are working too
+hard and, B, because you are
+
+500
+00:32:56,000 --> 00:33:02,000
+going to get two more arbitrary
+constants unrelated to these
+
+501
+00:33:01,000 --> 00:33:07,000
+two.
+And that is no good.
+
+502
+00:33:04,000 --> 00:33:10,000
+Because the correct solution
+only has two constants in it.
+
+503
+00:33:09,000 --> 00:33:15,000
+Not four.
+So that procedure is wrong.
+
+504
+00:33:12,000 --> 00:33:18,000
+You must calculate T2 from the
+T1 that you found,
+
+505
+00:33:15,000 --> 00:33:21,000
+and that is the equation which
+does it.
+
+506
+00:33:18,000 --> 00:33:24,000
+That's the one we have to have.
+Where is the chalk?
+
+507
+00:33:22,000 --> 00:33:28,000
+Yes.
+Maybe I can have a little thing
+
+508
+00:33:25,000 --> 00:33:31,000
+so I can just carry this around
+with me.
+
+509
+00:33:37,000 --> 00:33:43,000
+That is the relation between T2
+and T1.
+
+510
+00:33:40,000 --> 00:33:46,000
+Or, if you don't like it,
+either one of these equations
+
+511
+00:33:44,000 --> 00:33:50,000
+will express T2 in terms of T1
+for you.
+
+512
+00:33:47,000 --> 00:33:53,000
+It doesn't matter.
+Whichever one you use,
+
+513
+00:33:50,000 --> 00:33:56,000
+however you do it,
+that's the way you must
+
+514
+00:33:53,000 --> 00:33:59,000
+calculate T2.
+So what is it?
+
+515
+00:33:56,000 --> 00:34:02,000
+T2 is calculated from that pink
+box.
+
+516
+00:34:00,000 --> 00:34:06,000
+It is one-half of T1 prime plus
+T1.
+
+517
+00:34:05,000 --> 00:34:11,000
+Now, if I take the derivative
+of this, I get minus c1 times
+
+518
+00:34:11,000 --> 00:34:17,000
+the exponential.
+The coefficient is minus c1,
+
+519
+00:34:16,000 --> 00:34:22,000
+take half of that,
+that is minus a half c1
+
+520
+00:34:21,000 --> 00:34:27,000
+and add it to T1.
+Minus one-half c1 plus c1 gives
+
+521
+00:34:26,000 --> 00:34:32,000
+me one-half c1.
+
+522
+00:34:32,000 --> 00:34:38,000
+And here I take the derivative,
+it is minus 6 c2.
+
+523
+00:34:38,000 --> 00:34:44,000
+Take half of that,
+minus 3 c2 and add this c2 to
+
+524
+00:34:44,000 --> 00:34:50,000
+it, minus 3 plus 1 makes minus
+2.
+
+525
+00:34:48,000 --> 00:34:54,000
+That is T2.
+And notice it uses the same
+
+526
+00:34:53,000 --> 00:34:59,000
+arbitrary constants that T1
+uses.
+
+527
+00:34:59,000 --> 00:35:05,000
+So we end up with just two
+because we calculated T2 from
+
+528
+00:35:02,000 --> 00:35:08,000
+that formula or from the
+equation which is equivalent to
+
+529
+00:35:06,000 --> 00:35:12,000
+it, not from scratch.
+We haven't put in the initial
+
+530
+00:35:09,000 --> 00:35:15,000
+conditions yet,
+but that is easy to do.
+
+531
+00:35:11,000 --> 00:35:17,000
+Everybody, when working with
+exponentials,
+
+532
+00:35:14,000 --> 00:35:20,000
+of course, you always want the
+initial conditions to be when T
+
+533
+00:35:18,000 --> 00:35:24,000
+is equal to zero
+because that makes all the
+
+534
+00:35:21,000 --> 00:35:27,000
+exponentials one and you don't
+have to worry about them.
+
+535
+00:35:25,000 --> 00:35:31,000
+But this you know.
+If I put in the initial
+
+536
+00:35:27,000 --> 00:35:33,000
+conditions, at time zero,
+T1 has the value 40.
+
+537
+00:35:32,000 --> 00:35:38,000
+So 40 should be equal to c1 +
+c2.
+
+538
+00:35:38,000 --> 00:35:44,000
+And the other equation will say
+that 45 is equal to one-half c1
+
+539
+00:35:45,000 --> 00:35:51,000
+minus 2 c2.
+Now we are supposed to
+
+540
+00:35:52,000 --> 00:35:58,000
+solve these.
+Well, this is called solving
+
+541
+00:35:57,000 --> 00:36:03,000
+simultaneous linear equations.
+We could use Kramer's rule,
+
+542
+00:36:05,000 --> 00:36:11,000
+inverse matrices,
+but why don't we just
+
+543
+00:36:09,000 --> 00:36:15,000
+eliminate.
+Let me see.
+
+544
+00:36:12,000 --> 00:36:18,000
+If I multiply by,
+45, so multiply by two,
+
+545
+00:36:17,000 --> 00:36:23,000
+you get 90 equals c1
+minus 4 c2.
+
+546
+00:36:23,000 --> 00:36:29,000
+Then subtract this guy from
+that guy.
+
+547
+00:36:27,000 --> 00:36:33,000
+So, 40 taken from 90 makes 50.
+And c1 taken from c1,
+
+548
+00:36:35,000 --> 00:36:41,000
+because I multiplied by two,
+makes zero.
+
+549
+00:36:40,000 --> 00:36:46,000
+And c2 taken from minus 4 c2,
+that makes minus 5 c2,
+
+550
+00:36:47,000 --> 00:36:53,000
+I guess.
+
+551
+00:36:49,000 --> 00:36:55,000
+I seem to get c2 is equal to
+negative 10.
+
+552
+00:36:56,000 --> 00:37:02,000
+And if c2 is negative 10,
+then c1 must be 50.
+
+553
+00:37:04,000 --> 00:37:10,000
+There are two ways of checking
+the answer.
+
+554
+00:37:07,000 --> 00:37:13,000
+One is to plug it into the
+equations, and the other is to
+
+555
+00:37:13,000 --> 00:37:19,000
+peak.
+Yes, that's right.
+
+556
+00:37:15,000 --> 00:37:21,000
+[LAUGHTER]
+
+557
+00:37:25,000 --> 00:37:31,000
+The final answer is,
+in other words,
+
+558
+00:37:27,000 --> 00:37:33,000
+you put a 50 here,
+25 there, negative 10 here,
+
+559
+00:37:30,000 --> 00:37:36,000
+and positive 20 there.
+That gives the answer to the
+
+560
+00:37:34,000 --> 00:37:40,000
+problem.
+It tells you,
+
+561
+00:37:35,000 --> 00:37:41,000
+in other words,
+how the temperature of the yolk
+
+562
+00:37:39,000 --> 00:37:45,000
+varies with time and how the
+temperature of the white varies
+
+563
+00:37:43,000 --> 00:37:49,000
+with time.
+As I said, we are going to
+
+564
+00:37:46,000 --> 00:37:52,000
+learn a slick way of doing this
+problem, or at least a very
+
+565
+00:37:51,000 --> 00:37:57,000
+different way of doing the same
+problem next time,
+
+566
+00:37:54,000 --> 00:38:00,000
+but let's put that on ice for
+the moment.
+
+567
+00:37:57,000 --> 00:38:03,000
+And instead I would like to
+spend the rest of the period
+
+568
+00:38:01,000 --> 00:38:07,000
+doing for first order systems
+the same thing that I did for
+
+569
+00:38:05,000 --> 00:38:11,000
+you the very first day of the
+term.
+
+570
+00:38:09,000 --> 00:38:15,000
+Remember, I walked in assuming
+that you knew how to separate
+
+571
+00:38:13,000 --> 00:38:19,000
+variables the first day of the
+term, and I did not talk to you
+
+572
+00:38:17,000 --> 00:38:23,000
+about how to solve fancier
+equations by fancier methods.
+
+573
+00:38:21,000 --> 00:38:27,000
+I instead talked to you about
+the geometric significance,
+
+574
+00:38:25,000 --> 00:38:31,000
+what the geometric meaning of a
+single first order equation was
+
+575
+00:38:29,000 --> 00:38:35,000
+and how that geometric meaning
+enabled you to solve it
+
+576
+00:38:33,000 --> 00:38:39,000
+numerically.
+And we spent a little while
+
+577
+00:38:36,000 --> 00:38:42,000
+working on such problems because
+nowadays with computers it is
+
+578
+00:38:40,000 --> 00:38:46,000
+really important that you get a
+feeling for what these things
+
+579
+00:38:44,000 --> 00:38:50,000
+mean as opposed to just
+algorithms for solving them.
+
+580
+00:38:47,000 --> 00:38:53,000
+As I say, most differential
+equations, especially systems,
+
+581
+00:38:50,000 --> 00:38:56,000
+are likely to be solved by a
+computer anyway.
+
+582
+00:38:54,000 --> 00:39:00,000
+You have to be the guiding
+genius that interprets the
+
+583
+00:38:57,000 --> 00:39:03,000
+answers and can see when
+mistakes are being made,
+
+584
+00:39:01,000 --> 00:39:07,000
+stuff like that.
+The problem is,
+
+585
+00:39:04,000 --> 00:39:10,000
+therefore, what is the meaning
+of this system?
+
+586
+00:39:15,000 --> 00:39:21,000
+Well, you are not going to get
+anywhere interpreting it
+
+587
+00:39:18,000 --> 00:39:24,000
+geometrically,
+unless you get rid of that t on
+
+588
+00:39:21,000 --> 00:39:27,000
+the right-hand side.
+And the only way of getting rid
+
+589
+00:39:25,000 --> 00:39:31,000
+of the t is to declare it is not
+there.
+
+590
+00:39:28,000 --> 00:39:34,000
+So I hereby declare that I will
+only consider,
+
+591
+00:39:31,000 --> 00:39:37,000
+for the rest of the period,
+that is only ten minutes,
+
+592
+00:39:34,000 --> 00:39:40,000
+systems in which no t appears
+explicitly on the right-hand
+
+593
+00:39:38,000 --> 00:39:44,000
+side.
+Because I don't know what to do
+
+594
+00:39:42,000 --> 00:39:48,000
+if it does up here.
+We have a word for these.
+
+595
+00:39:45,000 --> 00:39:51,000
+Remember what the first order
+word was?
+
+596
+00:39:48,000 --> 00:39:54,000
+A first order equation where
+there was no t explicitly on the
+
+597
+00:39:53,000 --> 00:39:59,000
+right-hand side,
+we called it,
+
+598
+00:39:55,000 --> 00:40:01,000
+anybody remember?
+Just curious.
+
+599
+00:39:57,000 --> 00:40:03,000
+Autonomous, right.
+
+600
+00:40:05,000 --> 00:40:11,000
+This is an autonomous system.
+It is not a linear system
+
+601
+00:40:08,000 --> 00:40:14,000
+because these are messy
+functions.
+
+602
+00:40:10,000 --> 00:40:16,000
+This could be x times y
+or x squared minus 3y squared
+
+603
+00:40:14,000 --> 00:40:20,000
+divided by sine of x plus y.
+
+604
+00:40:18,000 --> 00:40:24,000
+It could be a mess.
+Definitely not linear.
+
+605
+00:40:21,000 --> 00:40:27,000
+But autonomous means no t.
+t means the independent
+
+606
+00:40:24,000 --> 00:40:30,000
+variable appears on the
+right-hand side.
+
+607
+00:40:27,000 --> 00:40:33,000
+Of course, it is there.
+It is buried in the dx/dt and
+
+608
+00:40:30,000 --> 00:40:36,000
+dy/dt.
+But it is not on the right-hand
+
+609
+00:40:33,000 --> 00:40:39,000
+side.
+No t appears on the right-hand
+
+610
+00:40:35,000 --> 00:40:41,000
+side.
+
+611
+00:40:41,000 --> 00:40:47,000
+Because no t appears on the
+right-hand side,
+
+612
+00:40:44,000 --> 00:40:50,000
+I can now draw a picture of
+this.
+
+613
+00:40:47,000 --> 00:40:53,000
+But, let's see,
+what does a solution look like?
+
+614
+00:40:52,000 --> 00:40:58,000
+I never even talked about what
+a solution was,
+
+615
+00:40:56,000 --> 00:41:02,000
+did I?
+Well, pretend that immediately
+
+616
+00:40:59,000 --> 00:41:05,000
+after I talked about that,
+I talked about this.
+
+617
+00:41:05,000 --> 00:41:11,000
+What is the solution?
+Well, the solution,
+
+618
+00:41:07,000 --> 00:41:13,000
+maybe you took it for granted,
+is a pair of functions,
+
+619
+00:41:10,000 --> 00:41:16,000
+x of t, y of t if when
+you plug it in
+
+620
+00:41:13,000 --> 00:41:19,000
+it satisfies the equation.
+And so what else is new?
+
+621
+00:41:16,000 --> 00:41:22,000
+The solution is x
+equals x of t,
+
+622
+00:41:19,000 --> 00:41:25,000
+y equals y of t.
+
+623
+00:41:27,000 --> 00:41:33,000
+If I draw a picture of that
+what would it look like?
+
+624
+00:41:30,000 --> 00:41:36,000
+This is where your previous
+knowledge of physics above all
+
+625
+00:41:35,000 --> 00:41:41,000
+18.02, maybe 18.01 if you
+learned this in high school,
+
+626
+00:41:39,000 --> 00:41:45,000
+what is x equals x of t and
+y equals y of t?
+
+627
+00:41:44,000 --> 00:41:50,000
+How do you draw a picture of
+
+628
+00:41:47,000 --> 00:41:53,000
+that?
+What does it represent?
+
+629
+00:41:49,000 --> 00:41:55,000
+A curve.
+And what will be the title of
+
+630
+00:41:52,000 --> 00:41:58,000
+the chapter of the calculus book
+in which that is discussed?
+
+631
+00:41:56,000 --> 00:42:02,000
+Parametric equations.
+This is a parameterized curve.
+
+632
+00:42:12,000 --> 00:42:18,000
+So we know what the solution
+looks like.
+
+633
+00:42:15,000 --> 00:42:21,000
+Our solution is a parameterized
+curve.
+
+634
+00:42:18,000 --> 00:42:24,000
+And what does a parameterized
+curve look like?
+
+635
+00:42:21,000 --> 00:42:27,000
+Well, it travels,
+and in a certain direction.
+
+636
+00:42:34,000 --> 00:42:40,000
+Okay.
+That's enough.
+
+637
+00:42:35,000 --> 00:42:41,000
+Why do I have several of those
+curves?
+
+638
+00:42:38,000 --> 00:42:44,000
+Well, because I have several
+solutions.
+
+639
+00:42:40,000 --> 00:42:46,000
+In fact, given any initial
+starting point,
+
+640
+00:42:43,000 --> 00:42:49,000
+there is a solution that goes
+through it.
+
+641
+00:42:46,000 --> 00:42:52,000
+I will put in possible starting
+points.
+
+642
+00:42:49,000 --> 00:42:55,000
+And you can do this on the
+computer screen with a little
+
+643
+00:42:53,000 --> 00:42:59,000
+program you will have,
+one of the visuals you'll have.
+
+644
+00:42:56,000 --> 00:43:02,000
+It's being made right now.
+You put down starter point,
+
+645
+00:43:01,000 --> 00:43:07,000
+put down a click,
+and then it just draws the
+
+646
+00:43:04,000 --> 00:43:10,000
+curve passing through that
+point.
+
+647
+00:43:06,000 --> 00:43:12,000
+Didn't we do this early in the
+term?
+
+648
+00:43:09,000 --> 00:43:15,000
+Yes.
+But there is a difference now
+
+649
+00:43:11,000 --> 00:43:17,000
+which I will explain.
+These are various possible
+
+650
+00:43:14,000 --> 00:43:20,000
+starting points at time zero for
+this solution,
+
+651
+00:43:17,000 --> 00:43:23,000
+and then you see what happens
+to it afterwards.
+
+652
+00:43:20,000 --> 00:43:26,000
+In fact, through every point in
+the plane will pass a solution
+
+653
+00:43:25,000 --> 00:43:31,000
+curve, parameterized curve.
+Now, what is then the
+
+654
+00:43:29,000 --> 00:43:35,000
+representation of this?
+Well, what is the meaning of x
+
+655
+00:43:32,000 --> 00:43:38,000
+prime of t and y prime of t?
+
+656
+00:43:40,000 --> 00:43:46,000
+I am not going to worry for the
+moment about the right-hand
+
+657
+00:43:44,000 --> 00:43:50,000
+side.
+What does this mean by itself?
+
+658
+00:43:47,000 --> 00:43:53,000
+If this is the curve,
+the parameterized motion,
+
+659
+00:43:50,000 --> 00:43:56,000
+then this represents its
+velocity vector.
+
+660
+00:43:53,000 --> 00:43:59,000
+It is the velocity of the
+solution at time t.
+
+661
+00:43:58,000 --> 00:44:04,000
+If I think of the solution as
+being a parameterized motion.
+
+662
+00:44:03,000 --> 00:44:09,000
+All I have drawn here is the
+trace, the path of the motion.
+
+663
+00:44:08,000 --> 00:44:14,000
+This hasn't indicated how fast
+it was going.
+
+664
+00:44:11,000 --> 00:44:17,000
+One solution might go whoosh
+and another one might go rah.
+
+665
+00:44:16,000 --> 00:44:22,000
+That is a velocity,
+and that velocity changes from
+
+666
+00:44:20,000 --> 00:44:26,000
+point to point.
+It changes direction.
+
+667
+00:44:23,000 --> 00:44:29,000
+Well, we know its direction at
+each point.
+
+668
+00:44:27,000 --> 00:44:33,000
+That's tangent.
+What I cannot tell is the
+
+669
+00:44:31,000 --> 00:44:37,000
+speed.
+From this picture,
+
+670
+00:44:33,000 --> 00:44:39,000
+I cannot tell what the speed
+was.
+
+671
+00:44:36,000 --> 00:44:42,000
+Too bad.
+Now, what is then the meaning
+
+672
+00:44:39,000 --> 00:44:45,000
+of the system?
+What the system does,
+
+673
+00:44:41,000 --> 00:44:47,000
+it prescribes at each point the
+velocity vector.
+
+674
+00:44:45,000 --> 00:44:51,000
+If you tell me what the point
+(x, y) is in the plane then
+
+675
+00:44:50,000 --> 00:44:56,000
+these equations give you the
+velocity vector at that point.
+
+676
+00:44:54,000 --> 00:45:00,000
+And, therefore,
+what I end up with,
+
+677
+00:44:57,000 --> 00:45:03,000
+the system is what you call in
+physics and what you call in
+
+678
+00:45:01,000 --> 00:45:07,000
+18.02 a velocity field.
+So at each point there is a
+
+679
+00:45:06,000 --> 00:45:12,000
+certain vector.
+The vector is always tangent to
+
+680
+00:45:09,000 --> 00:45:15,000
+the solution curve through
+there, but I cannot predict from
+
+681
+00:45:13,000 --> 00:45:19,000
+just this picture what its
+length will be because at some
+
+682
+00:45:17,000 --> 00:45:23,000
+points, it might be going slow.
+The solution might be going
+
+683
+00:45:21,000 --> 00:45:27,000
+slowly.
+In other words,
+
+684
+00:45:22,000 --> 00:45:28,000
+the plane is filled up with
+these guys.
+
+685
+00:45:33,000 --> 00:45:39,000
+Stop me.
+Not enough here.
+
+686
+00:45:37,000 --> 00:45:43,000
+So on and so on.
+We can say a system of first
+
+687
+00:45:44,000 --> 00:45:50,000
+order equations,
+ODEs of first order equations,
+
+688
+00:45:52,000 --> 00:45:58,000
+autonomous because there must
+be no t on the right-hand side,
+
+689
+00:46:03,000 --> 00:46:09,000
+is equal to a velocity field.
+A field of velocity.
+
+690
+00:46:12,000 --> 00:46:18,000
+The plane covered with velocity
+vectors.
+
+691
+00:46:18,000 --> 00:46:24,000
+And a solution is a
+parameterized curve with the
+
+692
+00:46:25,000 --> 00:46:31,000
+right velocity everywhere.
+
+693
+00:46:38,000 --> 00:46:44,000
+Now, there obviously must be a
+connection between that and the
+
+694
+00:47:39,000 --> 00:47:45,000
+direction fields we studied at
+the beginning of the term.
+
+695
+00:48:36,000 --> 00:48:42,000
+And there is.
+It is a very important
+
+696
+00:49:11,000 --> 00:49:17,000
+connection.
+It is too important to talk
+
+697
+00:49:49,000 --> 00:49:55,000
+about in minus one minute.
+When we need it,
+
+698
+00:50:32,000 --> 00:50:38,000
+I will have to spend some time
+talking about it then.

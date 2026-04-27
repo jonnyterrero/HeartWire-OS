@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Readings on MIT OpenCourseWare</title>
+    <link>/resources/readings/</link>
+    <description>Recent content in Readings on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/readings/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chapter 1: Propositions</title>
+      <link>/resources/mit6_042jf10_chap01/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_042jf10_chap01/data.json</guid>
+      <description>&lt;p&gt;This resource contains information about Propositions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Chapter 10: Recurrences</title>
+      <link>/resources/mit6_042jf10_chap10/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_042jf10_chap10/data.json</guid>
+      <description>&lt;p&gt;This resource contains information about Recurrences.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Chapter 11: Cardinality rules</title>
+      <link>/resources/mit6_042jf10_chap11/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_042jf10_chap11/data.json</guid>
+      <description>&lt;p&gt;This resource contains information about Cardinality rules.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Chapter 12: Generating functions</title>
+      <link>/resources/mit6_042jf10_chap12/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_042jf10_chap12/data.json</guid>
+      <description>&lt;p&gt;This resource contains information about Generating functions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Chapter 13: Infinite sets</title>
+      <link>/resources/mit6_042jf10_chap13/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_042jf10_chap13/data.json</guid>
+      <description>&lt;p&gt;This resource contains information about Infinite sets.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Chapter 14: Events and probability spaces</title>
+      <link>/resources/mit6_042jf10_chap14/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_042jf10_chap14/data.json</guid>
+      <description>&lt;p&gt;This resource contains information about Events and probability spaces.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Chapter 15: Conditional probability</title>
+      <link>/resources/mit6_042jf10_chap15/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_042jf10_chap15/data.json</guid>
+      <description>&lt;p&gt;This resource contains information about Conditional probability.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Chapter 16: Independence</title>
+      <link>/resources/mit6_042jf10_chap16/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_042jf10_chap16/data.json</guid>
+      <description>&lt;p&gt;This resource contains information about Independence.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Chapter 17: Random variables and distributions</title>
+      <link>/resources/mit6_042jf10_chap17/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_042jf10_chap17/data.json</guid>
+      <description>&lt;p&gt;This resource contains information about Random variables and distributions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Chapter 18: Expectation</title>
+      <link>/resources/mit6_042jf10_chap18/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_042jf10_chap18/data.json</guid>
+      <description>&lt;p&gt;This resource contains information about Expectation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Chapter 19: Deviations</title>
+      <link>/resources/mit6_042jf10_chap19/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_042jf10_chap19/data.json</guid>
+      <description>&lt;p&gt;This resource contains information about Deviations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Chapter 2: Patterns of proof</title>
+      <link>/resources/mit6_042jf10_chap02/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_042jf10_chap02/data.json</guid>
+      <description>&lt;p&gt;This resource contains information about Patterns of proof.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Chapter 20: Random walks</title>
+      <link>/resources/mit6_042jf10_chap20/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_042jf10_chap20/data.json</guid>
+      <description>&lt;p&gt;This resource contains information about Random walks.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Chapter 3: Induction</title>
+      <link>/resources/mit6_042jf10_chap03/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_042jf10_chap03/data.json</guid>
+      <description>&lt;p&gt;This resource contains information about Induction.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Chapter 4: Number theory</title>
+      <link>/resources/mit6_042jf10_chap04/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_042jf10_chap04/data.json</guid>
+      <description>&lt;p&gt;This resource contains information about Number theory.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Chapter 5: Graph theory</title>
+      <link>/resources/mit6_042jf10_chap05/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_042jf10_chap05/data.json</guid>
+      <description>&lt;p&gt;This resource contains information about Graph theory.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Chapter 6: Directed graphs</title>
+      <link>/resources/mit6_042jf10_chap06/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_042jf10_chap06/data.json</guid>
+      <description>&lt;p&gt;This resource contains information about Directed graphs.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Chapter 7: Relations and partial orders</title>
+      <link>/resources/mit6_042jf10_chap07/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_042jf10_chap07/data.json</guid>
+      <description>&lt;p&gt;This resource contains information about Relations and partial orders.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Chapter 9: Sums and asymptotics</title>
+      <link>/resources/mit6_042jf10_chap09/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_042jf10_chap09/data.json</guid>
+      <description>&lt;p&gt;This resource contains information about Sums and asymptotics.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Complete Course Notes</title>
+      <link>/resources/mit6_042jf10_notes/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_042jf10_notes/data.json</guid>
+      <description>&lt;p&gt;This resource contains Complete course notes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Readings</title>
+      <link>/pages/readings/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/readings/data.json</guid>
+      <description>&lt;p&gt;This section contains the course notes, &lt;em&gt;Mathematics for Computer Science&lt;/em&gt;. Chapter 8 is not available on MIT OpenCourseWare.&lt;/p&gt;&#xA;&lt;p&gt;These notes are courtesy of Eric Lehman, Tom Leighton, and Albert Meyer, and are used with permission.&lt;/p&gt;&#xA;&lt;p&gt;&lt;table&gt;&#xA;&#xA;&lt;thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;CHAPTERS&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;FILES&#xA;&lt;/th&gt;&#xA;&lt;/p&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;p&gt;&lt;/thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Complete course notes&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit6_042jf10_notes/index.html&#34;&gt;PDF - 3.2MB&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td colspan=&#34;2&#34;&gt;&#xA;&#xA;&lt;strong&gt;Part I: Proofs&lt;/strong&gt;&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Chapter 1: Propositions&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit6_042jf10_chap01/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Chapter 2: Patterns of proof&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit6_042jf10_chap02/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Chapter 3: Induction&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit6_042jf10_chap03/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Chapter 4: Number theory&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit6_042jf10_chap04/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

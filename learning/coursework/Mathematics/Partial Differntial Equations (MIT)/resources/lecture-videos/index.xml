@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lecture Videos on MIT OpenCourseWare</title>
+    <link>/resources/lecture-videos/</link>
+    <description>Recent content in Lecture Videos on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/lecture-videos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Story about Limit Cycles</title>
+      <link>/resources/a-story-about-limit-cycles/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/a-story-about-limit-cycles/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Autonomous Systems: Solutions are Parametrized Curves</title>
+      <link>/resources/autonomous-systems-solutions-are-parametrized-curves/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/autonomous-systems-solutions-are-parametrized-curves/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bank Account</title>
+      <link>/resources/bank-account/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/bank-account/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Better Methods</title>
+      <link>/resources/better-methods/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/better-methods/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Calculating the Exponential Matrix</title>
+      <link>/resources/calculating-the-exponential-matrix/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/calculating-the-exponential-matrix/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Complex Arithmetic, Euler&#39;s Formula</title>
+      <link>/resources/complex-arithmetic-eulers-formula/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/complex-arithmetic-eulers-formula/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Complex Eigenvalues: Example</title>
+      <link>/resources/complex-eigenvalues-example/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/complex-eigenvalues-example/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Complex Roots: Underdamping</title>
+      <link>/resources/complex-roots-underdamping/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/complex-roots-underdamping/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Constant Coefficient Second Order Homogeneous DE&#39;s</title>
+      <link>/resources/constant-coefficient-second-order-homogeneous-des/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/constant-coefficient-second-order-homogeneous-des/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Convergence of Fourier Series</title>
+      <link>/resources/convergence-of-fourier-series/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/convergence-of-fourier-series/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Damping and Pseudo-Frequency</title>
+      <link>/resources/damping-and-pseudo-frequency/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/damping-and-pseudo-frequency/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Decoupling</title>
+      <link>/resources/decoupling/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/decoupling/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Definition of Stability</title>
+      <link>/resources/definition-of-stability/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/definition-of-stability/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Euler&#39;s Method</title>
+      <link>/resources/eulers-method/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/eulers-method/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Even and Odd Functions</title>
+      <link>/resources/even-and-odd-functions/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/even-and-odd-functions/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Example of Euler&#39;s Method</title>
+      <link>/resources/example-of-eulers-method/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/example-of-eulers-method/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Example Where Existence and Uniqueness Fails</title>
+      <link>/resources/example-where-existence-and-uniqueness-fails/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/example-where-existence-and-uniqueness-fails/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Example, Existence and Uniqueness</title>
+      <link>/resources/example-existence-and-uniqueness/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/example-existence-and-uniqueness/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Example: Complex Replacement</title>
+      <link>/resources/example-complex-replacement/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/example-complex-replacement/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Example: f(t)*1</title>
+      <link>/resources/example-f-t-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/example-f-t-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Example: Logistic Model</title>
+      <link>/resources/example-logistic-model/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/example-logistic-model/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Example: Logistic Model with Harvesting</title>
+      <link>/resources/example-logistic-model-with-harvesting/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/example-logistic-model-with-harvesting/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Example: Predator-Prey and Volterra&#39;s Principle</title>
+      <link>/resources/example-predator-prey-and-volterras-principle/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/example-predator-prey-and-volterras-principle/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Example: Radioactive Dumping</title>
+      <link>/resources/example-radioactive-dumping/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/example-radioactive-dumping/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Example: Solving a System with the Matrix Exponential</title>
+      <link>/resources/example-solving-a-system-with-the-matrix-exponential/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/example-solving-a-system-with-the-matrix-exponential/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Examples of Constant Coefficient Linear First Order ODE&#39;s</title>
+      <link>/resources/examples-of-constant-coefficient-linear-first-order-odes/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/examples-of-constant-coefficient-linear-first-order-odes/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Existence of Limit Cycles</title>
+      <link>/resources/existence-of-limit-cycles/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/existence-of-limit-cycles/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>First Order Autonomous Equations</title>
+      <link>/resources/first-order-autonomous-equations/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/first-order-autonomous-equations/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fourier Series for Functions with Period 2L</title>
+      <link>/resources/fourier-series-for-functions-with-period-2l/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/fourier-series-for-functions-with-period-2l/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Functions of Exponential Type</title>
+      <link>/resources/functions-of-exponential-type/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/functions-of-exponential-type/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fundamental Matrices</title>
+      <link>/resources/fundamental-matrices/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/fundamental-matrices/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Geometric View of DE&#39;s: Direction Fields, Integral Curves</title>
+      <link>/resources/geometric-view-of-des-direction-fields-integral-curves/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/geometric-view-of-des-direction-fields-integral-curves/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hearing I</title>
+      <link>/resources/hearing-i/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/hearing-i/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hearing II</title>
+      <link>/resources/hearing-ii/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/hearing-ii/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Heaviside Coverup Method</title>
+      <link>/resources/heaviside-coverup-method/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/heaviside-coverup-method/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Inhomogeneous DE&#39;s with Exponential Input</title>
+      <link>/resources/inhomogeneous-des-with-exponential-input/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/inhomogeneous-des-with-exponential-input/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Inhomogeneous Second Order DE&#39;s: Definitions and Models</title>
+      <link>/resources/inhomogeneous-second-order-des-definitions-and-models/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/inhomogeneous-second-order-des-definitions-and-models/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Introduction to Fourier Transform</title>
+      <link>/resources/introduction-to-fourier-transform/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/introduction-to-fourier-transform/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Introduction to Systems</title>
+      <link>/resources/introduction-to-systems/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/introduction-to-systems/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Justification of Euler&#39;s Formula</title>
+      <link>/resources/justification-of-eulers-formula/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/justification-of-eulers-formula/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Laplace Transform</title>
+      <link>/resources/laplace-transform/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/laplace-transform/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Laplace Transform of Convolution</title>
+      <link>/resources/laplace-transform-of-convolution/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/laplace-transform-of-convolution/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Laplace Transform of Powers</title>
+      <link>/resources/laplace-transform-of-powers/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/laplace-transform-of-powers/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Limit Cycles</title>
+      <link>/resources/limit-cycles/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/limit-cycles/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linear First Order ODE&#39;s: Definition</title>
+      <link>/resources/linear-first-order-odes-definition/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/linear-first-order-odes-definition/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linear First Order ODE&#39;s: Examples</title>
+      <link>/resources/linear-first-order-odes-examples/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/linear-first-order-odes-examples/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linear Operators and Superposition</title>
+      <link>/resources/linear-operators-and-superposition/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/linear-operators-and-superposition/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Matrix Methods Introduction, First Example</title>
+      <link>/resources/matrix-methods-introduction-first-example/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/matrix-methods-introduction-first-example/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Matrix Systems: General Terminology</title>
+      <link>/resources/matrix-systems-general-terminology/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/matrix-systems-general-terminology/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>More Examples of Constant Coefficient Equations</title>
+      <link>/resources/more-examples-of-constant-coefficient-equations/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/more-examples-of-constant-coefficient-equations/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>More Sketching Solutions</title>
+      <link>/resources/more-sketching-solutions/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/more-sketching-solutions/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Non-existence of Limit Cycles</title>
+      <link>/resources/non-existence-of-limit-cycles/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/non-existence-of-limit-cycles/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Notation and Linearity</title>
+      <link>/resources/notation-and-linearity/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/notation-and-linearity/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nth Roots</title>
+      <link>/resources/nth-roots/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/nth-roots/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Orthogonality Relations</title>
+      <link>/resources/orthogonality-relations/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/orthogonality-relations/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Particular and General Solutions</title>
+      <link>/resources/particular-and-general-solutions/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/particular-and-general-solutions/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pitfalls</title>
+      <link>/resources/pitfalls/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/pitfalls/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Polar Form</title>
+      <link>/resources/polar-form/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/polar-form/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Real Roots: Overdamping</title>
+      <link>/resources/real-roots-overdamping/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/real-roots-overdamping/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Real Solutions from Complex Roots</title>
+      <link>/resources/real-solutions-from-complex-roots/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/real-solutions-from-complex-roots/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Reconciling the Resonant and Non-resonant Solutions</title>
+      <link>/resources/reconciling-the-resonant-and-non-resonant-solutions/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/reconciling-the-resonant-and-non-resonant-solutions/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Repeated Roots: Critical Damping</title>
+      <link>/resources/repeated-roots-critical-damping/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/repeated-roots-critical-damping/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Resonance in the Undamped System</title>
+      <link>/resources/resonance-in-the-undamped-system/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/resonance-in-the-undamped-system/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sketching Solutions</title>
+      <link>/resources/sketching-solutions/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/sketching-solutions/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Solutions to Constant Coefficient Linear First Order ODE&#39;s</title>
+      <link>/resources/solutions-to-constant-coefficient-linear-first-order-odes/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/solutions-to-constant-coefficient-linear-first-order-odes/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Solutions to Linear First Order ODE&#39;s</title>
+      <link>/resources/solutions-to-linear-first-order-odes/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/solutions-to-linear-first-order-odes/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Solving DE&#39;s with Exponential Input when p(a) = 0</title>
+      <link>/resources/solving-des-with-exponential-input-when-p-a-0/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/solving-des-with-exponential-input-when-p-a-0/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Solving ODE&#39;s, Resonant Frequencies</title>
+      <link>/resources/solving-odes-resonant-frequencies/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/solving-odes-resonant-frequencies/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Stability of Constant Coefficient Second Order DE&#39;s</title>
+      <link>/resources/stability-of-constant-coefficient-second-order-des/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/stability-of-constant-coefficient-second-order-des/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Start of Laplace Table</title>
+      <link>/resources/start-of-laplace-table/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/start-of-laplace-table/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>The Matrix Exponential I</title>
+      <link>/resources/the-matrix-exponential-i/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/the-matrix-exponential-i/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>The Matrix Exponential II</title>
+      <link>/resources/the-matrix-exponential-ii/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/the-matrix-exponential-ii/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>The Nonlinear Pendulum</title>
+      <link>/resources/the-nonlinear-pendulum/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/the-nonlinear-pendulum/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>The Relation Between Nonlinear Systems and First-order ODE&#39;s</title>
+      <link>/resources/the-relation-between-nonlinear-systems-and-first-order-odes/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/the-relation-between-nonlinear-systems-and-first-order-odes/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Theory of Systems</title>
+      <link>/resources/theory-of-systems/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/theory-of-systems/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Three Chamber Mixing Example: Repeated Roots</title>
+      <link>/resources/three-chamber-mixing-example-repeated-roots/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/three-chamber-mixing-example-repeated-roots/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Three Proofs of the Basic Trigonometric Identity</title>
+      <link>/resources/three-proofs-of-the-basic-trigonometric-identity/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/three-proofs-of-the-basic-trigonometric-identity/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Variation of Parameters</title>
+      <link>/resources/variation-of-parameters/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/variation-of-parameters/data.json</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

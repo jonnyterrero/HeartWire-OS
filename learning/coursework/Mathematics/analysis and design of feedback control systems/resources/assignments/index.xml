@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Assignments on MIT OpenCourseWare</title>
+    <link>/resources/assignments/</link>
+    <description>Recent content in Assignments on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/assignments/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2.14/2.140 Problem Set 1</title>
+      <link>/resources/mit2_14s14_problem_set_1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_14s14_problem_set_1/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to problem set 1.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2.14/2.140 Problem Set 10</title>
+      <link>/resources/mit2_14s14_problem_set_10/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_14s14_problem_set_10/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to problem set 10.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2.14/2.140 Problem Set 11</title>
+      <link>/resources/mit2_14s14_problem_set_11/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_14s14_problem_set_11/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to problem set 11.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2.14/2.140 Problem Set 2</title>
+      <link>/resources/mit2_14s14_problem_set_2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_14s14_problem_set_2/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to problem set 2.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2.14/2.140 Problem Set 3</title>
+      <link>/resources/mit2_14s14_problem_set_3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_14s14_problem_set_3/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to problem set 3.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2.14/2.140 Problem Set 4</title>
+      <link>/resources/mit2_14s14_problem_set_4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_14s14_problem_set_4/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to problem set 4.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2.14/2.140 Problem Set 5</title>
+      <link>/resources/mit2_14s14_problem_set_5/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_14s14_problem_set_5/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to problem set 5.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2.14/2.140 Problem Set 6</title>
+      <link>/resources/mit2_14s14_problem_set_6/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_14s14_problem_set_6/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to problem set 6.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2.14/2.140 Problem Set 7</title>
+      <link>/resources/mit2_14s14_problem_set_7/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_14s14_problem_set_7/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to problem set 7.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2.14/2.140 Problem Set 8</title>
+      <link>/resources/mit2_14s14_problem_set_8/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_14s14_problem_set_8/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to problem set 8.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2.14/2.140 Problem Set 9</title>
+      <link>/resources/mit2_14s14_problem_set_9/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_14s14_problem_set_9/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to problem set 9.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Assignments</title>
+      <link>/pages/assignments/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/assignments/data.json</guid>
+      <description>&lt;p&gt;The following assignments contain some problems from &lt;a href=&#34;../../resources/mit2_14s14_prob_archive_pdf/index.html&#34;&gt;Prof. Trumper&amp;rsquo;s archive of problems and solutions (PDF - 10.1MB)&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Problems referring to FPE are from the course textbook:&lt;/p&gt;&#xA;&lt;p&gt;[FPE] = Franklin, Gene F., J. David Powell, and Abbas Emami-Naeini. &lt;em&gt;Feedback Control of Dynamic Systems&lt;/em&gt;. 6th ed. Prentice Hall, 2009. ISBN: 9780136019695.&lt;/p&gt;&#xA;&lt;p&gt;Students in the graduate version of the course (2.140) are assigned extra problems. Undergraduate students (2.14) are welcome to work these, but no extra credit is given.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

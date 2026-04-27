@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Laboratory Assignments on MIT OpenCourseWare</title>
+    <link>/resources/laboratory-assignments/</link>
+    <description>Recent content in Laboratory Assignments on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/laboratory-assignments/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2.14/2.140 Lab 1</title>
+      <link>/resources/mit2_14s14_lab_1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_14s14_lab_1/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to lab 1.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2.14/2.140 Lab 2</title>
+      <link>/resources/mit2_14s14_lab_2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_14s14_lab_2/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to lab 2.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2.14/2.140 Lab 2 Thermal Expansion</title>
+      <link>/resources/mit2_14s14_lab_2-therex/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_14s14_lab_2-therex/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to lab 2.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2.14/2.140 Lab 3</title>
+      <link>/resources/mit2_14s14_lab_3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_14s14_lab_3/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to lab 3.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2.14/2.140 Lab 4</title>
+      <link>/resources/mit2_14s14_lab_4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_14s14_lab_4/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to lab 4.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2.14/2.140 Lab 5</title>
+      <link>/resources/mit2_14s14_lab_5/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_14s14_lab_5/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to lab 5.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Instruction for Dynamic Signal Analyzer (DSA)</title>
+      <link>/resources/mit2_14s14_dsa_ins/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_14s14_dsa_ins/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to lab 3.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Instructions for installing LabVIEW software for 2.14 labs</title>
+      <link>/resources/mit2_14s14_lab_0_soft/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_14s14_lab_0_soft/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to lab 3.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lab 3 Circuit Analysis</title>
+      <link>/resources/mit2_14s14_lab_4-pncst-sup/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_14s14_lab_4-pncst-sup/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to lab 3.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lab1-URACTLR.zip</title>
+      <link>/resources/lab1-uractlr/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lab1-uractlr/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lab2-Thermal_Control.zip</title>
+      <link>/resources/lab2-thermal_control/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lab2-thermal_control/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lab3-Thermal_DSA.zip</title>
+      <link>/resources/lab3-thermal_dsa/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lab3-thermal_dsa/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lab6-MotorVelocityControlLabviewFiles.zip</title>
+      <link>/resources/lab6-motorvelocitycontrollabviewfiles/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lab6-motorvelocitycontrollabviewfiles/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lab7-MotorpositioncontrolLabVIEWfiles.zip</title>
+      <link>/resources/lab7-motorpositioncontrollabviewfiles/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lab7-motorpositioncontrollabviewfiles/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Laboratory Assignment 6: Servomotor Velocity Control</title>
+      <link>/resources/mit2_14s14_lab_6/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_14s14_lab_6/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to lab 6.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Laboratory Assignment 7: Servomotor Position Control</title>
+      <link>/resources/mit2_14s14_lab_7/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_14s14_lab_7/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to lab 7.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Labs</title>
+      <link>/pages/labs/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/labs/data.json</guid>
+      <description>&lt;p&gt;The labs in this course use &lt;a   class=&#34;external-link &#34;   target=&#34;_blank&#34;   href=&#34;http://www.ni.com/labview/&#34;  aria-label=&#34;LabVIEW System Design Software (opens in a new tab)&#34;  &gt;LabVIEW System Design Software&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;table&gt;&#xA;&#xA;&lt;thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;LAB #&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;LAB TOPICS AND FILES&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;ADDITIONAL FILES&#xA;&lt;/th&gt;&#xA;&lt;/p&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;p&gt;&lt;/thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;0&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../resources/mit2_14s14_lab_0_soft/index.html&#34;&gt;Installing LabVIEW (PDF)&lt;/a&gt;&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;1&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../resources/mit2_14s14_lab_1/index.html&#34;&gt;On / Off and Linear Control (PDF)&lt;/a&gt;&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../resources/lab1-uractlr/index.html&#34;&gt;Lab 1 Files (ZIP - 3.4MB)&lt;/a&gt; (This zip folder contains: 1 .aliases file, 1 .lvlps file, 1 .lvproj file, and 1 .vi file)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;2&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;../../resources/mit2_14s14_lab_2/index.html&#34;&gt;Thermal Control Loop (PDF)&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;../../resources/mit2_14s14_lab_2-therex/index.html&#34;&gt;Thermal Example (PDF)&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

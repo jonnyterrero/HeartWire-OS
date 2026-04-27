@@ -1,0 +1,23 @@
+{
+  "course_title":"Linear Partial Differential Equations: Analysis and Numerics",
+  "course_description":"This course provides students with the basic analytical and computational tools of linear partial differential equations (PDEs) for practical applications in science engineering, including heat / diffusion, wave, and Poisson equations. Analytics emphasize the viewpoint of linear algebra and the analogy with finite matrix problems. Numerics focus on finite-difference and finite-element techniques to reduce PDEs to matrix problems. The {{% resource_link \"89413e98-0330-4d6f-a3a9-e20c19726f5f\" \"Julia Language\" %}} (a free, open-source environment) is introduced and used in homework for simple examples.\n",
+  "course_description_html":"This course provides students with the basic analytical and computational tools of linear partial differential equations (PDEs) for practical applications in science engineering, including heat / diffusion, wave, and Poisson equations. Analytics emphasize the viewpoint of linear algebra and the analogy with finite matrix problems. Numerics focus on finite-difference and finite-element techniques to reduce PDEs to matrix problems. The <a   class=\"external-link \"   target=\"_blank\"   href=\"http://julialang.org\"  aria-label=\"Julia Language (opens in a new tab)\"  >Julia Language</a> (a free, open-source environment) is introduced and used in homework for simple examples.",
+  "site_uid":"4288bc74-ca84-475e-9ce5-7b6b3639003a",
+  "legacy_uid":"adf44f8f-9d7a-a417-3f5d-44a9a4d5b9a2","instructors": [{
+    "first_name":"Steven",
+    "last_name":"Johnson",
+    "middle_initial":"G.",
+    "salutation":"Prof.",
+    "title":"Prof. Steven G. Johnson"}],"department_numbers":["18"],
+  "learning_resource_types":["Problem Sets","Problem Set Solutions","Exams","Exam Solutions"],
+  "topics":[["Mathematics","Differential Equations"],["Mathematics","Applied Mathematics"],["Mathematics","Linear Algebra"]],
+  "mit_learn_topics":null,
+  "primary_course_number":"18.303",
+  "extra_course_numbers":"",
+  "term":"Fall",
+  "year":"2014",
+  "level":["Undergraduate"],
+  "hide_download":null,
+  "image_src":"./static_resources/a5c5b0303c8949d7246d46587f058cfb_18-303f14.jpg",
+  "course_image_metadata":{"content_type":"resource","description":"Colors of A-1 where A is a discretized ∇2 with Dirichlet boundary conditions. Top: several columns in 1d (Ω = [0,L] = [0,1]). Bottom: two columns in 2d (Ω = [1,-1] x [-1,1]. In both 1d and 2d, the location of minimum corresponds to the index of the column: this is the effect of the unit-vector \"source\" or \"force\" = 1 at that position (and = 0 elsewhere). Image by Steven G. Johnson.","draft":false,"file":"/courses/18-303-linear-partial-differential-equations-analysis-and-numerics-fall-2014/a5c5b0303c8949d7246d46587f058cfb_18-303f14.jpg","file_size":70189,"file_type":"image/jpeg","image_metadata":{"caption":"Colors of A{{\u003c sup \"\\\\-1\" \u003e}} where A is a discretized ∇{{\u003c sup \"2\" \u003e}} with Dirichlet boundary conditions. _Top_: several columns in 1d (Ω = \\[0,_L_\\] = \\[0,1\\]). _Bottom_: two columns in 2d (Ω = \\[1,-1\\] x \\[-1,1\\]. In both 1d and 2d, the location of minimum corresponds to the index of the column: this is the effect of the unit-vector \"source\" or \"force\" = 1 at that position (and = 0 elsewhere). (Image by Steven G. Johnson.)","credit":"Image by Steven G. Johnson.","image-alt":"Columns of a matrix inverse in 1D and 2D."},"iscjklanguage":false,"learning_resource_types":[],"license":"https://creativecommons.org/licenses/by-nc-sa/4.0/","ocw_type":"OCWImage","resourcetype":"Image","title":"18-303f14.jpg","uid":"a5c5b030-3c89-49d7-246d-46587f058cfb"}}
+

@@ -1,0 +1,38 @@
+{
+  "course_title":"Differential Equations",
+  "course_description":"The laws of nature are expressed as differential equations. Scientists and engineers must know how to model the world in terms of differential equations, and how to solve those equations and interpret the solutions. This course focuses on the equations and techniques most useful in science and engineering.\n\nCourse Format\n\nThis course has been designed for independent study. It provides everything you will need to understand the concepts covered in the course. The materials include:\n\n- **Lecture Videos** by Professor Arthur Mattuck.\n- **Course Notes** on every topic.\n- **Practice Problems** with **Solutions**.\n- **Problem Solving Videos** taught by experienced MIT Recitation Instructors.\n- **Problem Sets** to do on your own with **Solutions** to check your answers against when you're done.\n- A selection of **Interactive Java® Demonstrations** called _Mathlets_ to illustrate key concepts.\n- A full set of **Exams with Solutions**, including practice exams to help you prepare.\n\nContent Development\n\nHaynes Miller   \nJeremy Orloff   \nDr. John Lewis   \nArthur Mattuck",
+  "course_description_html":"<p>The laws of nature are expressed as differential equations. Scientists and engineers must know how to model the world in terms of differential equations, and how to solve those equations and interpret the solutions. This course focuses on the equations and techniques most useful in science and engineering.</p>\n<p>Course Format</p>\n<p>This course has been designed for independent study. It provides everything you will need to understand the concepts covered in the course. The materials include:</p>\n<ul>\n<li><strong>Lecture Videos</strong> by Professor Arthur Mattuck.</li>\n<li><strong>Course Notes</strong> on every topic.</li>\n<li><strong>Practice Problems</strong> with <strong>Solutions</strong>.</li>\n<li><strong>Problem Solving Videos</strong> taught by experienced MIT Recitation Instructors.</li>\n<li><strong>Problem Sets</strong> to do on your own with <strong>Solutions</strong> to check your answers against when you&rsquo;re done.</li>\n<li>A selection of <strong>Interactive Java® Demonstrations</strong> called <em>Mathlets</em> to illustrate key concepts.</li>\n<li>A full set of <strong>Exams with Solutions</strong>, including practice exams to help you prepare.</li>\n</ul>\n<p>Content Development</p>\n<p>Haynes Miller <br>\nJeremy Orloff <br>\nDr. John Lewis <br>\nArthur Mattuck</p>\n",
+  "site_uid":"d1072f7f-8e57-44d1-ad38-e379db96d6ea",
+  "legacy_uid":"43ec92c7-2dc8-b84b-8bba-670ddf06c157","instructors": [{
+    "first_name":"Arthur",
+    "last_name":"Mattuck",
+    "middle_initial":"",
+    "salutation":"Prof. ",
+    "title":"Prof. Arthur Mattuck"},{
+    "first_name":"Haynes",
+    "last_name":"Miller",
+    "middle_initial":"",
+    "salutation":"Prof.",
+    "title":"Prof. Haynes Miller"},{
+    "first_name":"Jeremy",
+    "last_name":"Orloff",
+    "middle_initial":"",
+    "salutation":"Dr.",
+    "title":"Dr. Jeremy Orloff"},{
+    "first_name":"John",
+    "last_name":"Lewis",
+    "middle_initial":"",
+    "salutation":"Dr.",
+    "title":"Dr. John Lewis"}],"department_numbers":["18"],
+  "learning_resource_types":["Lecture Videos","Problem-solving Videos","Lecture Notes","Problem Sets","Problem Set Solutions","Exams","Exam Solutions"],
+  "topics":[["Mathematics","Differential Equations"],["Mathematics","Linear Algebra"]],
+  "mit_learn_topics":null,
+  "primary_course_number":"18.03SC",
+  "extra_course_numbers":"",
+  "term":"Fall",
+  "year":"2011",
+  "level":["Undergraduate"],
+  "hide_download":null,
+  "image_src":"./static_resources/41623c6eccbf82e137bebd7e69b8a4d8_18-03scf11.jpg",
+  "course_image_metadata":{"content_type":"resource","description":"Phase portrait of a damped harmonic oscillator. Jeremy \u0026 Joel Orloff.","draft":false,"file":"/courses/18-03sc-differential-equations-fall-2011/41623c6eccbf82e137bebd7e69b8a4d8_18-03scf11.jpg","file_size":30061,"file_type":"image/jpeg","image_metadata":{"caption":"Phase portrait of a damped harmonic oscillator. (Courtesy of Jeremy \u0026 Joel Orloff.)","credit":"Jeremy \u0026 Joel Orloff.","image-alt":"Image of a graph axis with many arrows overlaid."},"iscjklanguage":false,"learning_resource_types":[],"license":"https://creativecommons.org/licenses/by-nc-sa/4.0/","ocw_type":"OCWImage","resourcetype":"Image","title":"18-03scf11.jpg","uid":"41623c6e-ccbf-82e1-37be-bd7e69b8a4d8","video_files":{"video_thumbnail_file":null},"video_metadata":{"youtube_id":null}}}
+

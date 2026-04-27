@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Assignments on MIT OpenCourseWare</title>
+    <link>/resources/assignments/</link>
+    <description>Recent content in Assignments on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/assignments/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Assignments</title>
+      <link>/pages/assignments/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/assignments/data.json</guid>
+      <description>&lt;h3 id=&#34;format&#34;&gt;Format&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Problem Sets have two parts, A and B.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Part A&lt;/strong&gt; has problems from the text (Edwards, Henry C., and David E. Penney. &lt;em&gt;Multivariable Calculus&lt;/em&gt;. 6th ed. Lebanon, IN: Prentice Hall, 2002. ISBN: 9780130339676), with answers to many in the back of the text, and problems from the &lt;a href=&#34;../../pages/readings/supp_notes/index.html&#34;&gt;18.02 Supplementary Notes and Problems&lt;/a&gt; with solutions at the end of the Notes. Look at the solutions if you get stuck, but try to do as much as possible without them. Hand in the underlined problems only; the others are for more practice. Part A will be graded quickly, checking that the problems are there and the solutions not merely copied.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
