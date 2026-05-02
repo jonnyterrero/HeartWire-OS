@@ -1,18 +1,18 @@
 # Coursework — Chemistry
 
-This folder contains notes, summaries, and materials from all Chemistry courses.
+Materials for organic and related chemistry courses. This folder is nested under **`learning/coursework/Physics/`** so chemistry lives alongside physics coursework.
 
-## Relevant Topics
+## Relevant topics
 
 - Organic Chemistry
-
 - Biochemistry
-
 - Physical Chemistry
-
 - Analytical Chemistry
+
+## Courses
+
+- **Organic_Chemistry_II** — offline export from `orgo chem II` (pages, static assets, problem sets in `resources/`, etc.)
 
 ## Purpose
 
-Centralize Chemistry coursework for future reference and exam prep.
-
+Centralize chemistry coursework for future reference and exam prep.
