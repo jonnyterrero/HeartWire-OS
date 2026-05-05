@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lecture Notes on MIT OpenCourseWare</title>
+    <link>/resources/lecture-notes/</link>
+    <description>Recent content in Lecture Notes on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/lecture-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>l01.pdf</title>
+      <link>/resources/l01/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l01/data.json</guid>
+      <description>&lt;p&gt;This resource provides information on thermodynamics, laws of thermodynamics, definitions, states of system equilibrium and notations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>l02.pdf</title>
+      <link>/resources/l02/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l02/data.json</guid>
+      <description>&lt;p&gt;This resource provides information on work, heat, heat capacity and equivalence of heat and work.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>l03.pdf</title>
+      <link>/resources/l03/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l03/data.json</guid>
+      <description>&lt;p&gt;This resource provides information on isothermal gas expansion, internal energy and related constraints, and Joule Free expansion of a gas.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>l04.pdf</title>
+      <link>/resources/l04/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l04/data.json</guid>
+      <description>&lt;p&gt;This resource provides information on reversible adiabatic expansion of an ideal gas, and irreversible expansion of an ideal gas against a constant external pressure.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>l05.pdf</title>
+      <link>/resources/l05/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l05/data.json</guid>
+      <description>&lt;p&gt;This resource provides information about calculating enthalpy changes for every reaction.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>l06.pdf</title>
+      <link>/resources/l06/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l06/data.json</guid>
+      <description>&lt;p&gt;This resource provides information about the Second law of thermodynamics, and two classical statements for the law: Kelvin and Clausius.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>l07.pdf</title>
+      <link>/resources/l07/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l07/data.json</guid>
+      <description>&lt;p&gt;This resource provides examples of spontaneous processes and further information about Boltzmann equation of entropy.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>l08.pdf</title>
+      <link>/resources/l08/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l08/data.json</guid>
+      <description>&lt;p&gt;This resource provides information about fundamental equations, criteria for spontaneous change, and Maxwell relations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>l09.pdf</title>
+      <link>/resources/l09/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l09/data.json</guid>
+      <description>&lt;p&gt;This resource provides information on the topics: Gibbs free energy, multicomponent systems, partial molar quantities, and the chemical potential.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>l10.pdf</title>
+      <link>/resources/l10/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l10/data.json</guid>
+      <description>&lt;p&gt;This resource provides information on ideal gases, example of effect of total pressure, and Le Chatelier&amp;rsquo;s principle.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>l11.pdf</title>
+      <link>/resources/l11/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l11/data.json</guid>
+      <description>&lt;p&gt;This resource provides information about temperature dependence of equilibrium constant and Le Chatelier&amp;rsquo;s principle of temperature, along with an example.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>l12.pdf</title>
+      <link>/resources/l12/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l12/data.json</guid>
+      <description>&lt;p&gt;This resource provides information about the topic - equilibrium: application to drug design, and the relation of equilibrium constant and Gibbs free energy.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>l13.pdf</title>
+      <link>/resources/l13/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l13/data.json</guid>
+      <description>&lt;p&gt;This resource provides information about statistical mechanics, probability and combinotorics, and a description of Boltzmann equation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>l14.pdf</title>
+      <link>/resources/l14/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l14/data.json</guid>
+      <description>&lt;p&gt;This resource provides information about derivation of Boltzmann distribution law, and the partition function.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>l15.pdf</title>
+      <link>/resources/l15/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l15/data.json</guid>
+      <description>&lt;p&gt;This resource provides information about partition functions for independent and distinguishable particles.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>l16.pdf</title>
+      <link>/resources/l16/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l16/data.json</guid>
+      <description>&lt;p&gt;This resource provides information about absolute entropies and third law of thermodynamics.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>l17.pdf</title>
+      <link>/resources/l17/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l17/data.json</guid>
+      <description>&lt;p&gt;This resource provides information about phase equilibria in a one component system, phase diagrams, Clapeyron equation, and phase rule.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>l18.pdf</title>
+      <link>/resources/l18/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l18/data.json</guid>
+      <description>&lt;p&gt;This resource provides information on Clausius Clapeyron equation and condensed phase equilibria, and equilibrium between gas/liquid or gas/solid (gas/condensed phase).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>l21.pdf</title>
+      <link>/resources/l21/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l21/data.json</guid>
+      <description>&lt;p&gt;This resource provides information about regular solutions, vapour pressure, surface tension and interfacial tension.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>l22.pdf</title>
+      <link>/resources/l22/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l22/data.json</guid>
+      <description>&lt;p&gt;This resource provides information on surface tension, osmotic pressure and colligative property.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>l23.pdf</title>
+      <link>/resources/l23/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l23/data.json</guid>
+      <description>&lt;p&gt;This resource provides information about osmotic pressure, phase equilibria, and solute in phase partitioning.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>l24.pdf</title>
+      <link>/resources/l24/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l24/data.json</guid>
+      <description>&lt;p&gt;This resource provides information about simple polymers, configurational entropy of polymers, and polymer chain conformation and size.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>l25.pdf</title>
+      <link>/resources/l25/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l25/data.json</guid>
+      <description>&lt;p&gt;This resource provides information about random flight, freely jointed chain, radius of gyration, and probability states for ideal chain.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>l26.pdf</title>
+      <link>/resources/l26/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l26/data.json</guid>
+      <description>&lt;p&gt;This resource provides information about elasticity, and retractive force.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>l27.pdf</title>
+      <link>/resources/l27/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l27/data.json</guid>
+      <description>&lt;p&gt;This resource provides information about rubber elasticity - network of chains, crosslinked and additional materials on the topic: electrolyte solutions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>l28.pdf</title>
+      <link>/resources/l28/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l28/data.json</guid>
+      <description>&lt;p&gt;This resource provides information about compressive resistance of cartilage, Gibbs-Duhem equation and ionization of weak acids.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>l29.pdf</title>
+      <link>/resources/l29/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l29/data.json</guid>
+      <description>&lt;p&gt;This resource provides a review of Gibbs-Duhem equation, electrochemical potential, and Debye length.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>l30.pdf</title>
+      <link>/resources/l30/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l30/data.json</guid>
+      <description>&lt;p&gt;This resource provides information on weak acids, polyprotic acids, polyelectrolytes and effects of electrolyte.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>l31.pdf</title>
+      <link>/resources/l31/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l31/data.json</guid>
+      <description>&lt;p&gt;This resource provides information on the topics - cooperative transitions 1: DNA hybridization.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture Notes</title>
+      <link>/pages/lecture-notes/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/lecture-notes/data.json</guid>
+      <description>&lt;p&gt;MB = Prof. Moungi Bawendi&lt;br&gt;&#xA;KHS = Prof. Kimberly Hamad-Schifferli&lt;br&gt;&#xA;LGG = Prof. Linda G. Griffith&lt;/p&gt;&#xA;&lt;p&gt;&lt;table&gt;&#xA;&#xA;&lt;thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;LEC #&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;TOPICS&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;LECTURERS&#xA;&lt;/th&gt;&#xA;&lt;/p&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;p&gt;&lt;/thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;1&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Introduction to Thermo; 0&lt;sup&gt;th&lt;/sup&gt; Law; Temperature; Work; Heat (&lt;a href=&#34;../../resources/l01/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;MB&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;2&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;State Functions, 1&lt;sup&gt;st&lt;/sup&gt; Law, Paths (&lt;a href=&#34;../../resources/l02/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;MB&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;3&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Joule and Joule-Thompson; Heat Capacity (&lt;a href=&#34;../../resources/l03/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;MB&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;4&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Reversible and Irreversible Processes (&lt;a href=&#34;../../resources/l04/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;MB&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;5&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Thermochemistry (&lt;a href=&#34;../../resources/l05/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;MB&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;6&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;2&lt;sup&gt;nd&lt;/sup&gt; Law; Entropy (Boltzmann and Clausius) (&lt;a href=&#34;../../resources/l06/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;MB&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,4177 @@
+<!doctype html>
+<html lang="en">
+<head>
+  
+    
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NMQZ25T');</script>
+    
+  
+  
+
+
+
+
+    
+    <link href="../../static_shared/css/course_offline.90409.css" rel="stylesheet">
+    
+
+    
+    <link href="../../static_shared/css/common.90409.css" rel="stylesheet">
+    
+
+
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="MIT OpenCourseWare is a web based publication of virtually all MIT course content. OCW is open and available to the world and is a permanent MIT activity">
+  <meta name="keywords" content="opencourseware,MIT OCW,courseware,MIT opencourseware,Free Courses,class notes,class syllabus,class materials,tutorials,online courses,MIT courses">
+  
+  <meta property="og:site_name" content="MIT OpenCourseWare">
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://ocw.mit.edu/courses/18-303-linear-partial-differential-equations-analysis-and-numerics-fall-2014/resources/lecture-notes/" />
+  <meta property="og:title" content="Linear Partial Differential Equations: Analysis and Numerics | Mathematics | MIT OpenCourseWare" />
+  <meta property="og:description" content="MIT OpenCourseWare is a web based publication of virtually all MIT course content. OCW is open and available to the world and is a permanent MIT activity" />
+
+  
+
+<meta property="og:image" content="https://ocw.mit.edu/courses/18-303-linear-partial-differential-equations-analysis-and-numerics-fall-2014/a5c5b0303c8949d7246d46587f058cfb_18-303f14.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@mitocw" />
+<meta name="twitter:image:src" content="https://ocw.mit.edu/courses/18-303-linear-partial-differential-equations-analysis-and-numerics-fall-2014/a5c5b0303c8949d7246d46587f058cfb_18-303f14.jpg" />
+
+  <link rel="canonical" href="https://ocw.mit.edu/courses/18-303-linear-partial-differential-equations-analysis-and-numerics-fall-2014/resources/lecture-notes/" />
+
+  <script type="application/ld+json">
+      {
+        "@context": "http://schema.org/",
+        "@type" : "WebPage",
+        "name": "MIT OpenCourseWare",
+        "description": "MIT OpenCourseWare is a web based publication of virtually all MIT course content. OCW is open and available to the world and is a permanent MIT activity",
+        "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "publisher": {
+          "@type": "CollegeOrUniversity",
+          "name": "MIT OpenCourseWare"
+        }
+      }
+  </script>
+
+  <title>Linear Partial Differential Equations: Analysis and Numerics | Mathematics | MIT OpenCourseWare</title>
+  <style>
+  @font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Material Icons'),
+      local('MaterialIcons-Regular'),
+      url(../../static_shared/fonts/MaterialIcons-Regular.subset.84f45410d085472240e2.woff2) format('woff2'),
+      url(../../static_shared/fonts/MaterialIcons-Regular.subset.8167faf7e3a9170d282a.woff) format('woff'),
+      url(../../static_shared/fonts/MaterialIcons-Regular.subset.0beb27f30d92440091b4.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Material Icons Round';
+    font-style: normal;
+    font-weight: 400;
+    src: local("MaterialIcons-Round"),
+    url(../../static_shared/fonts/MaterialIconsRound-Regular.subset.7154eae1d0e60e0dabe4.woff2) format('woff2');
+  }
+  @font-face {
+    font-family: 'Cardo Bold';
+    font-style: normal;
+    font-weight: bold;
+    src: local('Cardo'),
+      local('Cardo-Bold'),
+      url(../../static_shared/fonts/Cardo-Bold.d7bf1aa6f322a64b2fc3.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Cardo Italic';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Cardo'),
+      local('Cardo-Italic'),
+      url(../../static_shared/fonts/Cardo-Italic.0935d2ebbc05be3559b1.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Helvetica Light';
+    font-style: normal`;
+    font-weight: 400;
+    src: local('Helvetica Light'),
+      local('Helvetica-Light'),
+      url(../../static_shared/fonts/Helvetica-Light.70359849afb40079a1c8.ttf) format('truetype');
+  }
+  .external-link.nav-link::after {
+    background-image: url('../../static_shared/images/external_link.58bbdd86c00a2c146c36.svg'); 
+  }
+  </style>
+</head>
+
+
+<body class="course-home-page">
+  
+    
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NMQZ25T"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    
+  
+  <div class="overflow-auto">
+    <span class="course-header">
+    <div
+  id="mobile-course-nav"
+  class="navbar-offcanvas offcanvas-toggle offcanvas-toggle-close medium-and-below-only drawer">
+  <h3 class="my-4 d-flex align-items-center justify-content-between">
+    Browse Course Material
+    <button
+      class="btn"
+      type="button"
+      aria-label="Close Course Menu"
+      onclick="$('#mobile-course-nav-toggle').click();"
+      id="close-mobile-course-menu-button"
+      >
+      <img
+        src="../../static_shared/images/close_small.b0a2684ccc0da6407a56.svg"
+        alt=""
+        width="12px"
+      />
+    </button>
+  </h3>
+  
+
+<nav class="course-nav" aria-label="Course materials">
+  <ul class="w-100 m-auto list-unstyled">
+    
+      
+
+
+
+
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      
+        <a class="text-dark nav-link"
+          data-uuid="a8c0207c-5cd1-77e3-3b06-7627e7904576"
+           href="../../pages/syllabus/index.html" >
+          Syllabus
+        </a>
+      
+    </span>
+    
+  </div>
+  
+  <span class="medium-and-below-only"><hr/></span>
+  
+  <ul
+    class="course-nav-child-nav m-auto collapse"
+    id="nav-container_mobile_a8c0207c-5cd1-77e3-3b06-7627e7904576"
+    aria-labelledby="nav-button_mobile_a8c0207c-5cd1-77e3-3b06-7627e7904576"
+  >
+    
+  </ul>
+</li>
+
+    
+      
+
+
+
+
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      
+        <a class="text-dark nav-link"
+          data-uuid="ea4bcf31-0a91-a41e-49ca-61feace5bfc2"
+           href="../../pages/lecture-summaries/index.html" >
+          Lecture Summaries
+        </a>
+      
+    </span>
+    
+  </div>
+  
+  <span class="medium-and-below-only"><hr/></span>
+  
+  <ul
+    class="course-nav-child-nav m-auto collapse"
+    id="nav-container_mobile_ea4bcf31-0a91-a41e-49ca-61feace5bfc2"
+    aria-labelledby="nav-button_mobile_ea4bcf31-0a91-a41e-49ca-61feace5bfc2"
+  >
+    
+  </ul>
+</li>
+
+    
+      
+
+
+
+
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      
+        <a class="text-dark nav-link"
+          data-uuid="82c1344c-e5d3-52e9-9cb6-67b35fbdf489"
+           href="../../pages/assignments/index.html" >
+          Assignments
+        </a>
+      
+    </span>
+    
+  </div>
+  
+  <span class="medium-and-below-only"><hr/></span>
+  
+  <ul
+    class="course-nav-child-nav m-auto collapse"
+    id="nav-container_mobile_82c1344c-e5d3-52e9-9cb6-67b35fbdf489"
+    aria-labelledby="nav-button_mobile_82c1344c-e5d3-52e9-9cb6-67b35fbdf489"
+  >
+    
+  </ul>
+</li>
+
+    
+      
+
+
+
+
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      
+        <a class="text-dark nav-link"
+          data-uuid="97b3ad62-02cf-9abe-1583-1f2808f930cd"
+           href="../../pages/exams/index.html" >
+          Exams
+        </a>
+      
+    </span>
+    
+  </div>
+  
+  <span class="medium-and-below-only"><hr/></span>
+  
+  <ul
+    class="course-nav-child-nav m-auto collapse"
+    id="nav-container_mobile_97b3ad62-02cf-9abe-1583-1f2808f930cd"
+    aria-labelledby="nav-button_mobile_97b3ad62-02cf-9abe-1583-1f2808f930cd"
+  >
+    
+  </ul>
+</li>
+
+    
+      
+
+
+
+
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      
+        <a class="text-dark nav-link"
+          data-uuid="d0cfb061-2da0-8c0c-1d9c-7b5158f36d3c"
+           href="../../pages/projects/index.html" >
+          Projects
+        </a>
+      
+    </span>
+    
+  </div>
+  
+  <span class="medium-and-below-only"><hr/></span>
+  
+  <ul
+    class="course-nav-child-nav m-auto collapse"
+    id="nav-container_mobile_d0cfb061-2da0-8c0c-1d9c-7b5158f36d3c"
+    aria-labelledby="nav-button_mobile_d0cfb061-2da0-8c0c-1d9c-7b5158f36d3c"
+  >
+    
+  </ul>
+</li>
+
+    
+  </ul>
+</nav>
+
+</div>
+
+    <div
+  id="course-info-drawer"
+  class="bg-faded pt-3 bg-light navbar-offcanvas navbar-offcanvas-right medium-and-below-only drawer"
+>
+  <div class="col-12">
+    <button
+      class="btn close-mobile-course-info"
+      type="button"
+      aria-label="Close Course Info"
+      onclick="$('#mobile-course-info-toggle').click();"
+      id="close-mobile-course-info-button"
+      >
+      <img
+        class=""
+        src="../../static_shared/images/close_small.b0a2684ccc0da6407a56.svg"
+        alt=""
+        width="12px"
+      />
+    </button>
+  </div>
+    
+
+<div class="course-info">
+  <div class="course-detail-title bg-light-gray">
+    <h2 class="font-black py-1 pl-3 m-0">
+      Course Info
+    </h2>
+  </div>
+  <div class="px-3 mt-4">
+    <div class="row">
+      <div class="col-12 ">
+        
+        <div class="">
+          
+          <h5 class="panel-course-info-title ">
+            Instructor
+            </h5>
+          <div class="course-info-content panel-course-info-text">
+            
+
+
+
+
+<ul class="list-unstyled m-0">
+  
+  
+  
+    
+  
+  <li>
+    <a   class="course-info-instructor strip-link-offline"    href="https://ocw.mit.edu/search/?q=Prof.&#43;Steven&#43;G.&#43;Johnson"  >Prof. Steven G. Johnson</a>
+  </li>
+  
+</ul>
+
+
+          </div>
+        </div>
+        
+        
+          
+          
+            <div class="mt-4">
+              <h5 class="panel-course-info-title ">
+                Departments
+              </h5>
+              <div class="course-info-content panel-course-info-text">
+                
+
+
+
+
+<ul class="list-unstyled m-0">
+  
+  
+  
+    
+  
+  <li>
+    <a   class="course-info-department strip-link-offline"    href="https://ocw.mit.edu/search/?d=Mathematics"  >Mathematics</a>
+  </li>
+  
+</ul>
+
+
+              </div>
+            </div>
+          
+         
+        
+        <div class="mt-4">
+          <h5 class="panel-course-info-title ">
+            As Taught In
+          </h5>
+          <div class="course-info-content panel-course-info-text">
+            Fall
+            
+              2014
+            
+          </div>
+        </div>
+
+        <div class="mt-4">
+          <h5 class="panel-course-info-title ">
+            Level
+          </h5>
+          <div class="course-info-content panel-course-info-text">
+            
+              
+                <a   class=" strip-link-offline"    href="https://ocw.mit.edu/search/?l=Undergraduate"  >Undergraduate</a><br />
+              
+            
+          </div>
+        </div>
+        
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+  
+
+
+
+
+
+<div class=" mt-4">
+  <h5 class="panel-course-info-title ">
+    Topics
+  </h5>
+  <ul class="list-unstyled pb-2 m-0 panel-course-info-text">
+      <li>
+
+
+
+
+
+
+
+
+<div class="position-relative pt-1 pb-1 pl-4 ml-n2 ">
+  
+  <button
+    type="button"
+    class="topic-toggle border-0 bg-transparent pl-0"
+    data-target="#subtopic-container_mobile_0"
+    data-toggle="collapse"
+    aria-controls="subtopic-container_mobile_0"
+    aria-expanded="true"
+    aria-label="Mathematics subtopics"
+  >
+    <i aria-hidden="true" class="material-icons"></i>
+  </button>
+  
+  <span class="topic-text-wrapper">
+    <a   class="text-black course-info-topic strip-link-offline"    href="https://ocw.mit.edu/search/?t=Mathematics"  >Mathematics</a></span>
+</div>
+
+<ul
+  class="pl-4 subtopic-container collapse show list-unstyled"
+  id="subtopic-container_mobile_0"
+  aria-label="Subtopics"
+>
+  
+  
+  
+  <li>
+    <div class="position-relative pt-1 pb-1  pl-2 ">
+      
+      <span class="topic-text-wrapper">
+        
+        <a   class="text-black course-info-topic strip-link-offline"    href="https://ocw.mit.edu/search/?t=Applied&#43;Mathematics"  >Applied Mathematics</a></span>
+    </div>
+    <ul
+      class="collapse show list-unstyled"
+      id="speciality-container_mobile_0_0"
+      aria-label="Specialties"
+    >
+      
+    </ul>
+    
+  </li>
+  
+  
+  <li>
+    <div class="position-relative pt-1 pb-1  pl-2 ">
+      
+      <span class="topic-text-wrapper">
+        
+        <a   class="text-black course-info-topic strip-link-offline"    href="https://ocw.mit.edu/search/?t=Differential&#43;Equations"  >Differential Equations</a></span>
+    </div>
+    <ul
+      class="collapse show list-unstyled"
+      id="speciality-container_mobile_0_1"
+      aria-label="Specialties"
+    >
+      
+    </ul>
+    
+  </li>
+  
+  
+  <li>
+    <div class="position-relative pt-1 pb-1  pl-2 ">
+      
+      <span class="topic-text-wrapper">
+        
+        <a   class="text-black course-info-topic strip-link-offline"    href="https://ocw.mit.edu/search/?t=Linear&#43;Algebra"  >Linear Algebra</a></span>
+    </div>
+    <ul
+      class="collapse show list-unstyled"
+      id="speciality-container_mobile_0_2"
+      aria-label="Specialties"
+    >
+      
+    </ul>
+    
+  </li>
+  
+</ul>
+
+</li>
+      
+  </ul>
+</div>
+
+  
+
+
+
+<div class="">
+  <h5 class="course-detail-title panel-course-info-title mt-3">
+    Learning Resource Types
+  </h5>
+  <div>
+    <div class="row d-inline m-0">
+      
+        <div class="panel-course-info-text my-2">
+          
+
+<div class="">
+  <div class="d-flex">
+    <i aria-hidden="true" class="material-icons pr-1">grading</i>
+    <span>Exam Solutions</span>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="panel-course-info-text my-2">
+          
+
+<div class="">
+  <div class="d-flex">
+    <i aria-hidden="true" class="material-icons pr-1">grading</i>
+    <span>Exams</span>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="panel-course-info-text my-2">
+          
+
+<div class="">
+  <div class="d-flex">
+    <i aria-hidden="true" class="material-icons pr-1">assignment_turned_in</i>
+    <span>Problem Set Solutions</span>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="panel-course-info-text my-2">
+          
+
+<div class="">
+  <div class="d-flex">
+    <i aria-hidden="true" class="material-icons pr-1">assignment</i>
+    <span>Problem Sets</span>
+  </div>
+</div>
+
+        </div>
+      
+    </div>
+  </div>
+</div>
+
+
+  
+
+
+<hr>
+<div class="pb-3">
+  <a class="download-course-link-button btn btn-outline-primary btn-link link-button text-decoration-none px-4 py-2"
+    role="button"
+    href="../../download/index.html">
+    <div class="text-center w-100">Browse Resources</div>
+  </a>
+</div>
+
+</div>
+
+    
+
+
+
+
+
+<div id="mobile-header" class="position-relative bg-black medium-and-below-only">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-black d-flex">
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <i class="material-icons display-4 text-white align-bottom">menu</i>
+    </button>
+    <div class="mx-auto">
+      <a href="https://ocw.mit.edu/">
+        <img width="200" src="../../static_shared/images/ocw_logo_white.cabdc9a745b03db3dad4.svg" alt="MIT OpenCourseWare"/>
+      </a>
+    </div>
+    <div class="user-menu-container"></div>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto pl-2 pt-2">
+        <li class="nav-item"></li>
+        <li class="nav-item">
+          <a   class="nav-link"    href="https://giving.mit.edu/give/to/ocw/?utm_source=ocw&amp;utm_medium=homepage_banner&amp;utm_campaign=nextgen_home"  >Give Now</a>
+        </li>
+        <li class="nav-item">
+          <a   class="nav-link"    href="https://ocw.mit.edu/about"  >About OCW</a>
+        </li>
+        <li class="nav-item">
+          <a   class="nav-link"   target="_blank"   href="https://mitocw.zendesk.com/hc/en-us"  >Help &amp; Faqs</a>
+        </li>
+        <li class="nav-item">
+          <a   class="nav-link"    href="https://mitocw.zendesk.com/hc/en-us/requests/new"  >Contact Us</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>
+
+
+<div id="desktop-header">
+  <div class="contents">
+    <div class="left">
+      <div class="ocw-logo">
+        <a href="https://ocw.mit.edu/">
+          <img src="../../static_shared/images/ocw_logo_white.cabdc9a745b03db3dad4.svg" alt="MIT OpenCourseWare" />
+        </a>
+      </div>
+    </div>
+    <div class="right">
+      
+      <a class="give-button text-white text-decoration-none font-weight-bold small-link d-flex align-items-center" aria-label="Give Now - Donate to MIT OpenCourseWare" href="https://giving.mit.edu/give/to/ocw/?utm_source=ocw&amp;utm_medium=homepage_banner&amp;utm_campaign=nextgen_home">
+        <span class="m-0 pr-2">GIVE NOW</span>
+        <img src="../../static_shared/images/heart_burgundy.e7c8635e8cc6538b89fa.svg" class="heart-burgundy" alt="" />
+      </a>
+      <a   class="text-white text-decoration-none font-weight-bold pl-5 pr-3 py-2"    href="https://ocw.mit.edu/about"  >about ocw</a>
+      <a   class="text-white text-decoration-none font-weight-bold px-3 py-2"   target="_blank"   href="https://mitocw.zendesk.com/hc/en-us"  >help &amp; faqs</a>
+      <a   class="text-white text-decoration-none font-weight-bold px-3 py-2"    href="https://mitocw.zendesk.com/hc/en-us/requests/new"  >contact us</a>
+      <div class="user-menu-container"></div>
+    </div>
+  </div>
+</div>
+
+    </span>
+    
+    
+
+<div id="course-banner" class="p-0">
+  <div class="max-content-width course-banner-content m-auto py-3">
+    <div class="row">
+    <div class="col-12">
+      
+      <span class="course-number-term-detail">18.303 | Fall 2014 | Undergraduate</span>
+      <br>
+      <br>
+      <h1>
+        <a
+          class="text-capitalize m-0 text-white"
+          href="../../index.html"
+        >Linear Partial Differential Equations: Analysis and Numerics</a>
+      </h1>
+    </div>
+    </div>
+  </div>
+</div>
+
+
+    <div id="course-main-content">
+      <div class="row">
+        <div class="col-12 course-home-grid">
+          <div class="medium-and-below-only">
+            <div class="d-flex align-items-center mb-3">
+              <div class="col-6 px-0">
+                <div>
+  <button
+    id="mobile-course-nav-toggle"
+    class="mobile-course-nav-toggle-btn d-inline-flex align-items-center offcanvas-toggle"
+    data-toggle="offcanvas"
+    data-target="#mobile-course-nav"
+  >
+    <img src="../../static_shared/images/expand.a062b1c47b121e3c7e03.svg" alt=""/>
+    <span class="pl-1">Menu</span>
+  </button>
+</div>
+
+              </div>
+              <div class="col-6 px-0">
+                
+
+
+  <button 
+    class="btn btn-link float-right mobile-course-info-toggle-btn toggle navbar-toggle offcanvas-toggle"
+    id="mobile-course-info-toggle"
+    data-toggle="offcanvas" 
+    data-target="#course-info-drawer">
+    More Info
+  </button>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row course-cards">
+        <div class="col-2 course-home-grid large-and-above-only">  
+          <div class="card">
+  <div class="card-body pr-2">
+    
+
+<nav class="course-nav" aria-label="Course materials">
+  <ul class="w-100 m-auto list-unstyled">
+    
+      
+
+
+
+
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      
+        <a class="text-dark nav-link"
+          data-uuid="a8c0207c-5cd1-77e3-3b06-7627e7904576"
+           href="../../pages/syllabus/index.html" >
+          Syllabus
+        </a>
+      
+    </span>
+    
+  </div>
+  
+  <span class="medium-and-below-only"><hr/></span>
+  
+  <ul
+    class="course-nav-child-nav m-auto collapse"
+    id="nav-container_desktop_a8c0207c-5cd1-77e3-3b06-7627e7904576"
+    aria-labelledby="nav-button_desktop_a8c0207c-5cd1-77e3-3b06-7627e7904576"
+  >
+    
+  </ul>
+</li>
+
+    
+      
+
+
+
+
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      
+        <a class="text-dark nav-link"
+          data-uuid="ea4bcf31-0a91-a41e-49ca-61feace5bfc2"
+           href="../../pages/lecture-summaries/index.html" >
+          Lecture Summaries
+        </a>
+      
+    </span>
+    
+  </div>
+  
+  <span class="medium-and-below-only"><hr/></span>
+  
+  <ul
+    class="course-nav-child-nav m-auto collapse"
+    id="nav-container_desktop_ea4bcf31-0a91-a41e-49ca-61feace5bfc2"
+    aria-labelledby="nav-button_desktop_ea4bcf31-0a91-a41e-49ca-61feace5bfc2"
+  >
+    
+  </ul>
+</li>
+
+    
+      
+
+
+
+
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      
+        <a class="text-dark nav-link"
+          data-uuid="82c1344c-e5d3-52e9-9cb6-67b35fbdf489"
+           href="../../pages/assignments/index.html" >
+          Assignments
+        </a>
+      
+    </span>
+    
+  </div>
+  
+  <span class="medium-and-below-only"><hr/></span>
+  
+  <ul
+    class="course-nav-child-nav m-auto collapse"
+    id="nav-container_desktop_82c1344c-e5d3-52e9-9cb6-67b35fbdf489"
+    aria-labelledby="nav-button_desktop_82c1344c-e5d3-52e9-9cb6-67b35fbdf489"
+  >
+    
+  </ul>
+</li>
+
+    
+      
+
+
+
+
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      
+        <a class="text-dark nav-link"
+          data-uuid="97b3ad62-02cf-9abe-1583-1f2808f930cd"
+           href="../../pages/exams/index.html" >
+          Exams
+        </a>
+      
+    </span>
+    
+  </div>
+  
+  <span class="medium-and-below-only"><hr/></span>
+  
+  <ul
+    class="course-nav-child-nav m-auto collapse"
+    id="nav-container_desktop_97b3ad62-02cf-9abe-1583-1f2808f930cd"
+    aria-labelledby="nav-button_desktop_97b3ad62-02cf-9abe-1583-1f2808f930cd"
+  >
+    
+  </ul>
+</li>
+
+    
+      
+
+
+
+
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      
+        <a class="text-dark nav-link"
+          data-uuid="d0cfb061-2da0-8c0c-1d9c-7b5158f36d3c"
+           href="../../pages/projects/index.html" >
+          Projects
+        </a>
+      
+    </span>
+    
+  </div>
+  
+  <span class="medium-and-below-only"><hr/></span>
+  
+  <ul
+    class="course-nav-child-nav m-auto collapse"
+    id="nav-container_desktop_d0cfb061-2da0-8c0c-1d9c-7b5158f36d3c"
+    aria-labelledby="nav-button_desktop_d0cfb061-2da0-8c0c-1d9c-7b5158f36d3c"
+  >
+    
+  </ul>
+</li>
+
+    
+  </ul>
+</nav>
+
+  </div>
+</div>
+
+        </div>
+        <div class="col-sm-12 col-lg-10 course-home-grid">
+          <div class="">
+            <div class="card">
+              <div class="d-flex justify-content-between">
+                <div class="p-0 col-lg-9" id="main-course-section">
+                  <div class="card-body">
+                    
+<div class="mb-2">
+  <header>
+  <div class="course-section-title-container">
+    <div id="course-title">
+      
+      <h2 class="pb-1 mb-1">Lecture Notes</h2>
+    </div>
+  </div>
+</header>
+
+  <article class="content pt-3 mt-1">
+    <main id="course-content-section"></main>
+  </article>
+</div>
+
+
+<div class="mb-5">
+  
+  
+
+
+
+
+
+
+
+
+
+  
+    
+      
+      
+      
+        
+        
+        
+    
+      
+      
+      
+        
+        
+        
+    
+      
+      
+      
+        
+        
+        
+    
+      
+      
+      
+        
+        
+        
+    
+      
+      
+      
+        
+        
+        
+    
+      
+      
+      
+        
+        
+        
+    
+      
+      
+      
+        
+        
+        
+    
+      
+      
+      
+        
+        
+        
+    
+      
+      
+      
+        
+        
+        
+    
+      
+      
+      
+        
+        
+        
+    
+      
+      
+      
+        
+        
+        
+    
+      
+      
+      
+        
+        
+        
+    
+      
+      
+      
+        
+        
+        
+    
+      
+      
+      
+        
+        
+        
+    
+      
+      
+      
+        
+        
+        
+    
+      
+      
+      
+        
+        
+        
+    
+      
+      
+      
+        
+        
+        
+    
+      
+      
+      
+        
+        
+        
+    
+      
+      
+      
+        
+        
+        
+    
+      
+      
+      
+        
+        
+        
+    
+      
+      
+      
+        
+        
+        
+    
+      
+      
+      
+        
+        
+        
+    
+      
+      
+      
+        
+        
+        
+    
+      
+      
+      
+        
+        
+        
+    
+      
+      
+      
+        
+        
+        
+    
+      
+      
+      
+        
+        
+        
+    
+      
+      
+      
+        
+        
+        
+    
+      
+      
+      
+        
+        
+        
+    
+      
+      
+      
+        
+        
+        
+    
+      
+      
+      
+        
+        
+        
+    
+      
+      
+      
+        
+        
+        
+    
+      
+      
+      
+        
+        
+        
+    
+      
+      
+      
+        
+        
+        
+    
+      
+      
+      
+        
+        
+        
+    
+      
+      
+      
+        
+        
+        
+    
+      
+      
+      
+        
+        
+        
+    
+      
+      
+      
+        
+        
+        
+    
+      
+      
+      
+        
+        
+        
+    
+      
+      
+      
+        
+        
+        
+    
+      
+      
+      
+        
+        
+        
+    
+      
+      
+      
+        
+        
+        
+    
+      
+      
+      
+        
+        
+        
+    
+      
+      
+      
+        
+        
+        
+    
+      
+      
+      
+        
+        
+        
+    
+      
+      
+      
+        
+        
+        
+    
+      
+      
+      
+        
+        
+        
+    
+      
+      
+      
+        
+        
+        
+    
+      
+      
+      
+        
+        
+        
+    
+      
+      
+      
+        
+        
+        
+    
+      
+      
+      
+        
+        
+        
+    
+      
+      
+      
+        
+        
+        
+    
+      
+      
+      
+        
+        
+        
+    
+      
+      
+      
+        
+        
+        
+    
+      
+      
+      
+        
+        
+        
+    
+      
+      
+      
+        
+        
+        
+    
+      
+      
+      
+        
+        
+        
+    
+      
+      
+      
+        
+        
+        
+    
+      
+      
+      
+        
+        
+        
+    
+    
+    
+    
+    
+  
+  
+  
+  
+  
+<div class="resource-item resource-list-page">
+  <div class="row">
+    <div class="d-inline-flex">
+      <a class="resource-thumbnail" href="../../static_resources/2b1299540eb0dd84fe45d44ee9a8f72b_MIT18_303F14_Lec1.pdf" target="_blank" aria-label="Download file" download>
+        
+        <div class="resource-type-thumbnail pdf">
+          <div class="d-flex align-self-center">pdf</div>
+        </div>  
+        <div class="download-container">
+          
+            <span class="download-link">
+              
+                  <img
+                    class="hide-offline resources-download"
+                    src="../../static_shared/images/resource-download.d374f56f2572d49418bc.svg"
+                    aria-hidden="true"
+                  />
+              
+            </span>
+            
+              <div class="resource-list-file-size">
+                728 kB
+              </div>
+            
+          
+        </div>
+      </a>
+      <div class="resource-list-item-details">
+        <a class="resource-list-title" href="../../resources/mit18_303f14_lec1/index.html">
+    Linear Partial Differential Equations, Lec 1 Handout
+</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="resource-item resource-list-page">
+  <div class="row">
+    <div class="d-inline-flex">
+      <a class="resource-thumbnail" href="../../static_resources/92fe67895ebad3ef83866defaa4c6beb_MIT18_303F14_Lecture1.pdf" target="_blank" aria-label="Download file" download>
+        
+        <div class="resource-type-thumbnail pdf">
+          <div class="d-flex align-self-center">pdf</div>
+        </div>  
+        <div class="download-container">
+          
+            <span class="download-link">
+              
+                  <img
+                    class="hide-offline resources-download"
+                    src="../../static_shared/images/resource-download.d374f56f2572d49418bc.svg"
+                    aria-hidden="true"
+                  />
+              
+            </span>
+            
+              <div class="resource-list-file-size">
+                208 kB
+              </div>
+            
+          
+        </div>
+      </a>
+      <div class="resource-list-item-details">
+        <a class="resource-list-title" href="../../resources/mit18_303f14_lecture1/index.html">
+    Linear Partial Differential Equations, Lec 1 Summary
+</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="resource-item resource-list-page">
+  <div class="row">
+    <div class="d-inline-flex">
+      <a class="resource-thumbnail" href="../../static_resources/c3fb398ffd7cce7234931f2b0a93f3d9_MIT18_303F14_sines.pdf" target="_blank" aria-label="Download file" download>
+        
+        <div class="resource-type-thumbnail pdf">
+          <div class="d-flex align-self-center">pdf</div>
+        </div>  
+        <div class="download-container">
+          
+            <span class="download-link">
+              
+                  <img
+                    class="hide-offline resources-download"
+                    src="../../static_shared/images/resource-download.d374f56f2572d49418bc.svg"
+                    aria-hidden="true"
+                  />
+              
+            </span>
+            
+              <div class="resource-list-file-size">
+                191 kB
+              </div>
+            
+          
+        </div>
+      </a>
+      <div class="resource-list-item-details">
+        <a class="resource-list-title" href="../../resources/mit18_303f14_sines/index.html">
+    Linear Partial Differential Equations, Lec 2 Handout
+</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="resource-item resource-list-page">
+  <div class="row">
+    <div class="d-inline-flex">
+      <a class="resource-thumbnail" href="../../static_resources/d2d752d0d3370cc8fee328fcf07afd37_MIT18_303F14_Lecture2.pdf" target="_blank" aria-label="Download file" download>
+        
+        <div class="resource-type-thumbnail pdf">
+          <div class="d-flex align-self-center">pdf</div>
+        </div>  
+        <div class="download-container">
+          
+            <span class="download-link">
+              
+                  <img
+                    class="hide-offline resources-download"
+                    src="../../static_shared/images/resource-download.d374f56f2572d49418bc.svg"
+                    aria-hidden="true"
+                  />
+              
+            </span>
+            
+              <div class="resource-list-file-size">
+                121 kB
+              </div>
+            
+          
+        </div>
+      </a>
+      <div class="resource-list-item-details">
+        <a class="resource-list-title" href="../../resources/mit18_303f14_lecture2/index.html">
+    Linear Partial Differential Equations, Lec 2 Summary
+</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="resource-item resource-list-page">
+  <div class="row">
+    <div class="d-inline-flex">
+      <a class="resource-thumbnail" href="../../static_resources/edea18830013f8c73172ae6bc0eeaafb_MIT18_303F14_difference.pdf" target="_blank" aria-label="Download file" download>
+        
+        <div class="resource-type-thumbnail pdf">
+          <div class="d-flex align-self-center">pdf</div>
+        </div>  
+        <div class="download-container">
+          
+            <span class="download-link">
+              
+                  <img
+                    class="hide-offline resources-download"
+                    src="../../static_shared/images/resource-download.d374f56f2572d49418bc.svg"
+                    aria-hidden="true"
+                  />
+              
+            </span>
+            
+              <div class="resource-list-file-size">
+                243 kB
+              </div>
+            
+          
+        </div>
+      </a>
+      <div class="resource-list-item-details">
+        <a class="resource-list-title" href="../../resources/mit18_303f14_difference/index.html">
+    Linear Partial Differential Equations, Lec 3 Handout
+</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="resource-item resource-list-page">
+  <div class="row">
+    <div class="d-inline-flex">
+      <a class="resource-thumbnail" href="../../static_resources/86787f1c30f1c5a013c7e75531ba00a6_MIT18_303F14_Julia_cheat.pdf" target="_blank" aria-label="Download file" download>
+        
+        <div class="resource-type-thumbnail pdf">
+          <div class="d-flex align-self-center">pdf</div>
+        </div>  
+        <div class="download-container">
+          
+            <span class="download-link">
+              
+                  <img
+                    class="hide-offline resources-download"
+                    src="../../static_shared/images/resource-download.d374f56f2572d49418bc.svg"
+                    aria-hidden="true"
+                  />
+              
+            </span>
+            
+              <div class="resource-list-file-size">
+                132 kB
+              </div>
+            
+          
+        </div>
+      </a>
+      <div class="resource-list-item-details">
+        <a class="resource-list-title" href="../../resources/mit18_303f14_julia_cheat/index.html">
+    Linear Partial Differential Equations, Lec 3 Handout
+</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="resource-item resource-list-page">
+  <div class="row">
+    <div class="d-inline-flex">
+      <a class="resource-thumbnail" href="../../static_resources/cb356fd55e96f5d879271582df709f55_MIT18_303F14_Lecture3.pdf" target="_blank" aria-label="Download file" download>
+        
+        <div class="resource-type-thumbnail pdf">
+          <div class="d-flex align-self-center">pdf</div>
+        </div>  
+        <div class="download-container">
+          
+            <span class="download-link">
+              
+                  <img
+                    class="hide-offline resources-download"
+                    src="../../static_shared/images/resource-download.d374f56f2572d49418bc.svg"
+                    aria-hidden="true"
+                  />
+              
+            </span>
+            
+              <div class="resource-list-file-size">
+                124 kB
+              </div>
+            
+          
+        </div>
+      </a>
+      <div class="resource-list-item-details">
+        <a class="resource-list-title" href="../../resources/mit18_303f14_lecture3/index.html">
+    Linear Partial Differential Equations, Lec 3 Summary
+</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="resource-item resource-list-page">
+  <div class="row">
+    <div class="d-inline-flex">
+      <a class="resource-thumbnail" href="../../static_resources/8c06d9a3e2a80741dfb13c87ffaf6efd_MIT18_303F14_Lecture4.pdf" target="_blank" aria-label="Download file" download>
+        
+        <div class="resource-type-thumbnail pdf">
+          <div class="d-flex align-self-center">pdf</div>
+        </div>  
+        <div class="download-container">
+          
+            <span class="download-link">
+              
+                  <img
+                    class="hide-offline resources-download"
+                    src="../../static_shared/images/resource-download.d374f56f2572d49418bc.svg"
+                    aria-hidden="true"
+                  />
+              
+            </span>
+            
+              <div class="resource-list-file-size">
+                322 kB
+              </div>
+            
+          
+        </div>
+      </a>
+      <div class="resource-list-item-details">
+        <a class="resource-list-title" href="../../resources/mit18_303f14_lecture4/index.html">
+    Linear Partial Differential Equations, Lec 4 Summary
+</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="resource-item resource-list-page">
+  <div class="row">
+    <div class="d-inline-flex">
+      <a class="resource-thumbnail" href="../../static_resources/2300d93d8e2ec4e32dd579ba45d59bc5_MIT18_303F14_Lecture5.pdf" target="_blank" aria-label="Download file" download>
+        
+        <div class="resource-type-thumbnail pdf">
+          <div class="d-flex align-self-center">pdf</div>
+        </div>  
+        <div class="download-container">
+          
+            <span class="download-link">
+              
+                  <img
+                    class="hide-offline resources-download"
+                    src="../../static_shared/images/resource-download.d374f56f2572d49418bc.svg"
+                    aria-hidden="true"
+                  />
+              
+            </span>
+            
+              <div class="resource-list-file-size">
+                208 kB
+              </div>
+            
+          
+        </div>
+      </a>
+      <div class="resource-list-item-details">
+        <a class="resource-list-title" href="../../resources/mit18_303f14_lecture5/index.html">
+    Linear Partial Differential Equations, Lec 5 Summary
+</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="resource-item resource-list-page">
+  <div class="row">
+    <div class="d-inline-flex">
+      <a class="resource-thumbnail" href="../../static_resources/fb4bc411e5283ba8d642338a2ce2017b_MIT18_303F14_Lec6.pdf" target="_blank" aria-label="Download file" download>
+        
+        <div class="resource-type-thumbnail pdf">
+          <div class="d-flex align-self-center">pdf</div>
+        </div>  
+        <div class="download-container">
+          
+            <span class="download-link">
+              
+                  <img
+                    class="hide-offline resources-download"
+                    src="../../static_shared/images/resource-download.d374f56f2572d49418bc.svg"
+                    aria-hidden="true"
+                  />
+              
+            </span>
+            
+              <div class="resource-list-file-size">
+                1 MB
+              </div>
+            
+          
+        </div>
+      </a>
+      <div class="resource-list-item-details">
+        <a class="resource-list-title" href="../../resources/mit18_303f14_lec6/index.html">
+    Linear Partial Differential Equations, Lec 6 Handout
+</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="resource-item resource-list-page">
+  <div class="row">
+    <div class="d-inline-flex">
+      <a class="resource-thumbnail" href="../../static_resources/0d155f7a5b4670435a388b738231d8ea_MIT18_303F14_Lecture6.pdf" target="_blank" aria-label="Download file" download>
+        
+        <div class="resource-type-thumbnail pdf">
+          <div class="d-flex align-self-center">pdf</div>
+        </div>  
+        <div class="download-container">
+          
+            <span class="download-link">
+              
+                  <img
+                    class="hide-offline resources-download"
+                    src="../../static_shared/images/resource-download.d374f56f2572d49418bc.svg"
+                    aria-hidden="true"
+                  />
+              
+            </span>
+            
+              <div class="resource-list-file-size">
+                280 kB
+              </div>
+            
+          
+        </div>
+      </a>
+      <div class="resource-list-item-details">
+        <a class="resource-list-title" href="../../resources/mit18_303f14_lecture6/index.html">
+    Linear Partial Differential Equations, Lec 6 Summary
+</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="resource-item resource-list-page">
+  <div class="row">
+    <div class="d-inline-flex">
+      <a class="resource-thumbnail" href="../../static_resources/ec2d28eba7aaa32cbaeb50828e4cdb73_MIT18_303F14_Lec7.pdf" target="_blank" aria-label="Download file" download>
+        
+        <div class="resource-type-thumbnail pdf">
+          <div class="d-flex align-self-center">pdf</div>
+        </div>  
+        <div class="download-container">
+          
+            <span class="download-link">
+              
+                  <img
+                    class="hide-offline resources-download"
+                    src="../../static_shared/images/resource-download.d374f56f2572d49418bc.svg"
+                    aria-hidden="true"
+                  />
+              
+            </span>
+            
+              <div class="resource-list-file-size">
+                883 kB
+              </div>
+            
+          
+        </div>
+      </a>
+      <div class="resource-list-item-details">
+        <a class="resource-list-title" href="../../resources/mit18_303f14_lec7/index.html">
+    Linear Partial Differential Equations, Lec 7 Handout
+</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="resource-item resource-list-page">
+  <div class="row">
+    <div class="d-inline-flex">
+      <a class="resource-thumbnail" href="../../static_resources/07d027936fbf1878612407d49f832575_MIT18_303F14_Lecture7.pdf" target="_blank" aria-label="Download file" download>
+        
+        <div class="resource-type-thumbnail pdf">
+          <div class="d-flex align-self-center">pdf</div>
+        </div>  
+        <div class="download-container">
+          
+            <span class="download-link">
+              
+                  <img
+                    class="hide-offline resources-download"
+                    src="../../static_shared/images/resource-download.d374f56f2572d49418bc.svg"
+                    aria-hidden="true"
+                  />
+              
+            </span>
+            
+              <div class="resource-list-file-size">
+                321 kB
+              </div>
+            
+          
+        </div>
+      </a>
+      <div class="resource-list-item-details">
+        <a class="resource-list-title" href="../../resources/mit18_303f14_lecture7/index.html">
+    Linear Partial Differential Equations, Lec 7 Summary
+</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="resource-item resource-list-page">
+  <div class="row">
+    <div class="d-inline-flex">
+      <a class="resource-thumbnail" href="../../static_resources/e9bd34e17ef351a6907510a8430d6371_MIT18_303F14_music.pdf" target="_blank" aria-label="Download file" download>
+        
+        <div class="resource-type-thumbnail pdf">
+          <div class="d-flex align-self-center">pdf</div>
+        </div>  
+        <div class="download-container">
+          
+            <span class="download-link">
+              
+                  <img
+                    class="hide-offline resources-download"
+                    src="../../static_shared/images/resource-download.d374f56f2572d49418bc.svg"
+                    aria-hidden="true"
+                  />
+              
+            </span>
+            
+              <div class="resource-list-file-size">
+                831 kB
+              </div>
+            
+          
+        </div>
+      </a>
+      <div class="resource-list-item-details">
+        <a class="resource-list-title" href="../../resources/mit18_303f14_music/index.html">
+    Linear Partial Differential Equations, Lec 8 Handout
+</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="resource-item resource-list-page">
+  <div class="row">
+    <div class="d-inline-flex">
+      <a class="resource-thumbnail" href="../../static_resources/9f225eece586adfcb7d5b3e4e0dfc268_MIT18_303F14_scale_notes.pdf" target="_blank" aria-label="Download file" download>
+        
+        <div class="resource-type-thumbnail pdf">
+          <div class="d-flex align-self-center">pdf</div>
+        </div>  
+        <div class="download-container">
+          
+            <span class="download-link">
+              
+                  <img
+                    class="hide-offline resources-download"
+                    src="../../static_shared/images/resource-download.d374f56f2572d49418bc.svg"
+                    aria-hidden="true"
+                  />
+              
+            </span>
+            
+              <div class="resource-list-file-size">
+                179 kB
+              </div>
+            
+          
+        </div>
+      </a>
+      <div class="resource-list-item-details">
+        <a class="resource-list-title" href="../../resources/mit18_303f14_scale_notes/index.html">
+    Linear Partial Differential Equations, Lec 8 Handout
+</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="resource-item resource-list-page">
+  <div class="row">
+    <div class="d-inline-flex">
+      <a class="resource-thumbnail" href="../../static_resources/ccc0a5bcaa007ccb6234b79692bda6f0_MIT18_303F14_separation.pdf" target="_blank" aria-label="Download file" download>
+        
+        <div class="resource-type-thumbnail pdf">
+          <div class="d-flex align-self-center">pdf</div>
+        </div>  
+        <div class="download-container">
+          
+            <span class="download-link">
+              
+                  <img
+                    class="hide-offline resources-download"
+                    src="../../static_shared/images/resource-download.d374f56f2572d49418bc.svg"
+                    aria-hidden="true"
+                  />
+              
+            </span>
+            
+              <div class="resource-list-file-size">
+                606 kB
+              </div>
+            
+          
+        </div>
+      </a>
+      <div class="resource-list-item-details">
+        <a class="resource-list-title" href="../../resources/mit18_303f14_separation/index.html">
+    Linear Partial Differential Equations, Lec 8 Handout
+</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="resource-item resource-list-page">
+  <div class="row">
+    <div class="d-inline-flex">
+      <a class="resource-thumbnail" href="../../static_resources/db982f93db32b43a783ecdc4d2417c88_MIT18_303F14_Lecture8.pdf" target="_blank" aria-label="Download file" download>
+        
+        <div class="resource-type-thumbnail pdf">
+          <div class="d-flex align-self-center">pdf</div>
+        </div>  
+        <div class="download-container">
+          
+            <span class="download-link">
+              
+                  <img
+                    class="hide-offline resources-download"
+                    src="../../static_shared/images/resource-download.d374f56f2572d49418bc.svg"
+                    aria-hidden="true"
+                  />
+              
+            </span>
+            
+              <div class="resource-list-file-size">
+                213 kB
+              </div>
+            
+          
+        </div>
+      </a>
+      <div class="resource-list-item-details">
+        <a class="resource-list-title" href="../../resources/mit18_303f14_lecture8/index.html">
+    Linear Partial Differential Equations, Lec 8 Summary
+</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="resource-item resource-list-page">
+  <div class="row">
+    <div class="d-inline-flex">
+      <a class="resource-thumbnail" href="../../static_resources/d1683dc2ee36c5bc051c41da64f3ca08_MIT18_303F14_Lec9.pdf" target="_blank" aria-label="Download file" download>
+        
+        <div class="resource-type-thumbnail pdf">
+          <div class="d-flex align-self-center">pdf</div>
+        </div>  
+        <div class="download-container">
+          
+            <span class="download-link">
+              
+                  <img
+                    class="hide-offline resources-download"
+                    src="../../static_shared/images/resource-download.d374f56f2572d49418bc.svg"
+                    aria-hidden="true"
+                  />
+              
+            </span>
+            
+              <div class="resource-list-file-size">
+                1 MB
+              </div>
+            
+          
+        </div>
+      </a>
+      <div class="resource-list-item-details">
+        <a class="resource-list-title" href="../../resources/mit18_303f14_lec9/index.html">
+    Linear Partial Differential Equations, Lec 9 Handout
+</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="resource-item resource-list-page">
+  <div class="row">
+    <div class="d-inline-flex">
+      <a class="resource-thumbnail" href="../../static_resources/ab59bba2d55be4ae2fb5a458eb031128_MIT18_303F14_Lecture9.pdf" target="_blank" aria-label="Download file" download>
+        
+        <div class="resource-type-thumbnail pdf">
+          <div class="d-flex align-self-center">pdf</div>
+        </div>  
+        <div class="download-container">
+          
+            <span class="download-link">
+              
+                  <img
+                    class="hide-offline resources-download"
+                    src="../../static_shared/images/resource-download.d374f56f2572d49418bc.svg"
+                    aria-hidden="true"
+                  />
+              
+            </span>
+            
+              <div class="resource-list-file-size">
+                281 kB
+              </div>
+            
+          
+        </div>
+      </a>
+      <div class="resource-list-item-details">
+        <a class="resource-list-title" href="../../resources/mit18_303f14_lecture9/index.html">
+    Linear Partial Differential Equations, Lec 9 Summary
+</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="resource-item resource-list-page">
+  <div class="row">
+    <div class="d-inline-flex">
+      <a class="resource-thumbnail" href="../../static_resources/84a7058db98b2639632be7d30a871a2d_MIT18_303F14_Lecture10.pdf" target="_blank" aria-label="Download file" download>
+        
+        <div class="resource-type-thumbnail pdf">
+          <div class="d-flex align-self-center">pdf</div>
+        </div>  
+        <div class="download-container">
+          
+            <span class="download-link">
+              
+                  <img
+                    class="hide-offline resources-download"
+                    src="../../static_shared/images/resource-download.d374f56f2572d49418bc.svg"
+                    aria-hidden="true"
+                  />
+              
+            </span>
+            
+              <div class="resource-list-file-size">
+                378 kB
+              </div>
+            
+          
+        </div>
+      </a>
+      <div class="resource-list-item-details">
+        <a class="resource-list-title" href="../../resources/mit18_303f14_lecture10/index.html">
+    Linear Partial Differential Equations, Lec 10 Summary
+</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="resource-item resource-list-page">
+  <div class="row">
+    <div class="d-inline-flex">
+      <a class="resource-thumbnail" href="../../static_resources/05d79e0bc6e0924c0f6bbde0060a41a8_MIT18_303F14_Lec11.pdf" target="_blank" aria-label="Download file" download>
+        
+        <div class="resource-type-thumbnail pdf">
+          <div class="d-flex align-self-center">pdf</div>
+        </div>  
+        <div class="download-container">
+          
+            <span class="download-link">
+              
+                  <img
+                    class="hide-offline resources-download"
+                    src="../../static_shared/images/resource-download.d374f56f2572d49418bc.svg"
+                    aria-hidden="true"
+                  />
+              
+            </span>
+            
+              <div class="resource-list-file-size">
+                850 kB
+              </div>
+            
+          
+        </div>
+      </a>
+      <div class="resource-list-item-details">
+        <a class="resource-list-title" href="../../resources/mit18_303f14_lec11/index.html">
+    Linear Partial Differential Equations, Lec 11 Handout
+</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="resource-item resource-list-page">
+  <div class="row">
+    <div class="d-inline-flex">
+      <a class="resource-thumbnail" href="../../static_resources/2fa52d2bf4c8c893891760aa49ea82af_MIT18_303F14_Lecture11.pdf" target="_blank" aria-label="Download file" download>
+        
+        <div class="resource-type-thumbnail pdf">
+          <div class="d-flex align-self-center">pdf</div>
+        </div>  
+        <div class="download-container">
+          
+            <span class="download-link">
+              
+                  <img
+                    class="hide-offline resources-download"
+                    src="../../static_shared/images/resource-download.d374f56f2572d49418bc.svg"
+                    aria-hidden="true"
+                  />
+              
+            </span>
+            
+              <div class="resource-list-file-size">
+                408 kB
+              </div>
+            
+          
+        </div>
+      </a>
+      <div class="resource-list-item-details">
+        <a class="resource-list-title" href="../../resources/mit18_303f14_lecture11/index.html">
+    Linear Partial Differential Equations, Lec 11 Summary
+</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="resource-item resource-list-page">
+  <div class="row">
+    <div class="d-inline-flex">
+      <a class="resource-thumbnail" href="../../static_resources/9c98ffede9efc4456177003a4a59a5b2_MIT18_303F14_Lecture12.pdf" target="_blank" aria-label="Download file" download>
+        
+        <div class="resource-type-thumbnail pdf">
+          <div class="d-flex align-self-center">pdf</div>
+        </div>  
+        <div class="download-container">
+          
+            <span class="download-link">
+              
+                  <img
+                    class="hide-offline resources-download"
+                    src="../../static_shared/images/resource-download.d374f56f2572d49418bc.svg"
+                    aria-hidden="true"
+                  />
+              
+            </span>
+            
+              <div class="resource-list-file-size">
+                239 kB
+              </div>
+            
+          
+        </div>
+      </a>
+      <div class="resource-list-item-details">
+        <a class="resource-list-title" href="../../resources/mit18_303f14_lecture12/index.html">
+    Linear Partial Differential Equations, Lec 12 Summary
+</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="resource-item resource-list-page">
+  <div class="row">
+    <div class="d-inline-flex">
+      <a class="resource-thumbnail" href="../../static_resources/b719533a7aec470c082c1a91d164ebe2_MIT18_303F14_minmax.pdf" target="_blank" aria-label="Download file" download>
+        
+        <div class="resource-type-thumbnail pdf">
+          <div class="d-flex align-self-center">pdf</div>
+        </div>  
+        <div class="download-container">
+          
+            <span class="download-link">
+              
+                  <img
+                    class="hide-offline resources-download"
+                    src="../../static_shared/images/resource-download.d374f56f2572d49418bc.svg"
+                    aria-hidden="true"
+                  />
+              
+            </span>
+            
+              <div class="resource-list-file-size">
+                293 kB
+              </div>
+            
+          
+        </div>
+      </a>
+      <div class="resource-list-item-details">
+        <a class="resource-list-title" href="../../resources/mit18_303f14_minmax/index.html">
+    Linear Partial Differential Equations, Lec 13 Handout
+</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="resource-item resource-list-page">
+  <div class="row">
+    <div class="d-inline-flex">
+      <a class="resource-thumbnail" href="../../static_resources/f6b9758beeeafde2928bf459f951b2af_MIT18_303F14_Lecture13.pdf" target="_blank" aria-label="Download file" download>
+        
+        <div class="resource-type-thumbnail pdf">
+          <div class="d-flex align-self-center">pdf</div>
+        </div>  
+        <div class="download-container">
+          
+            <span class="download-link">
+              
+                  <img
+                    class="hide-offline resources-download"
+                    src="../../static_shared/images/resource-download.d374f56f2572d49418bc.svg"
+                    aria-hidden="true"
+                  />
+              
+            </span>
+            
+              <div class="resource-list-file-size">
+                313 kB
+              </div>
+            
+          
+        </div>
+      </a>
+      <div class="resource-list-item-details">
+        <a class="resource-list-title" href="../../resources/mit18_303f14_lecture13/index.html">
+    Linear Partial Differential Equations, Lec 13 Summary
+</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="resource-item resource-list-page">
+  <div class="row">
+    <div class="d-inline-flex">
+      <a class="resource-thumbnail" href="../../static_resources/e2ac5c8e1b07eb8d9bed4aca68e4cf09_MIT18_303F14_green.pdf" target="_blank" aria-label="Download file" download>
+        
+        <div class="resource-type-thumbnail pdf">
+          <div class="d-flex align-self-center">pdf</div>
+        </div>  
+        <div class="download-container">
+          
+            <span class="download-link">
+              
+                  <img
+                    class="hide-offline resources-download"
+                    src="../../static_shared/images/resource-download.d374f56f2572d49418bc.svg"
+                    aria-hidden="true"
+                  />
+              
+            </span>
+            
+              <div class="resource-list-file-size">
+                697 kB
+              </div>
+            
+          
+        </div>
+      </a>
+      <div class="resource-list-item-details">
+        <a class="resource-list-title" href="../../resources/mit18_303f14_green/index.html">
+    Linear Partial Differential Equations, Lec 14 Handout
+</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="resource-item resource-list-page">
+  <div class="row">
+    <div class="d-inline-flex">
+      <a class="resource-thumbnail" href="../../static_resources/e1dc3f76e50d80b7f00a8040a25c0ddf_MIT18_303F14_Green_explicit.pdf" target="_blank" aria-label="Download file" download>
+        
+        <div class="resource-type-thumbnail pdf">
+          <div class="d-flex align-self-center">pdf</div>
+        </div>  
+        <div class="download-container">
+          
+            <span class="download-link">
+              
+                  <img
+                    class="hide-offline resources-download"
+                    src="../../static_shared/images/resource-download.d374f56f2572d49418bc.svg"
+                    aria-hidden="true"
+                  />
+              
+            </span>
+            
+              <div class="resource-list-file-size">
+                120 kB
+              </div>
+            
+          
+        </div>
+      </a>
+      <div class="resource-list-item-details">
+        <a class="resource-list-title" href="../../resources/mit18_303f14_green_explicit/index.html">
+    Linear Partial Differential Equations, Lec 14 Handout
+</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="resource-item resource-list-page">
+  <div class="row">
+    <div class="d-inline-flex">
+      <a class="resource-thumbnail" href="../../static_resources/b98e7ad09c6ba76c4bc0228340e94a86_MIT18_303F14_Lecture14.pdf" target="_blank" aria-label="Download file" download>
+        
+        <div class="resource-type-thumbnail pdf">
+          <div class="d-flex align-self-center">pdf</div>
+        </div>  
+        <div class="download-container">
+          
+            <span class="download-link">
+              
+                  <img
+                    class="hide-offline resources-download"
+                    src="../../static_shared/images/resource-download.d374f56f2572d49418bc.svg"
+                    aria-hidden="true"
+                  />
+              
+            </span>
+            
+              <div class="resource-list-file-size">
+                198 kB
+              </div>
+            
+          
+        </div>
+      </a>
+      <div class="resource-list-item-details">
+        <a class="resource-list-title" href="../../resources/mit18_303f14_lecture14/index.html">
+    Linear Partial Differential Equations, Lec 14 Summary
+</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="resource-item resource-list-page">
+  <div class="row">
+    <div class="d-inline-flex">
+      <a class="resource-thumbnail" href="../../static_resources/df601974d067ae5b900c1ae01c5ba416_MIT18_303F14_delta_notes.pdf" target="_blank" aria-label="Download file" download>
+        
+        <div class="resource-type-thumbnail pdf">
+          <div class="d-flex align-self-center">pdf</div>
+        </div>  
+        <div class="download-container">
+          
+            <span class="download-link">
+              
+                  <img
+                    class="hide-offline resources-download"
+                    src="../../static_shared/images/resource-download.d374f56f2572d49418bc.svg"
+                    aria-hidden="true"
+                  />
+              
+            </span>
+            
+              <div class="resource-list-file-size">
+                412 kB
+              </div>
+            
+          
+        </div>
+      </a>
+      <div class="resource-list-item-details">
+        <a class="resource-list-title" href="../../resources/mit18_303f14_delta_notes/index.html">
+    Linear Partial Differential Equations, Lec 15 Handout
+</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="resource-item resource-list-page">
+  <div class="row">
+    <div class="d-inline-flex">
+      <a class="resource-thumbnail" href="../../static_resources/751a6e557407837eb3800887e490327d_MIT18_303F14_reciprocity.pdf" target="_blank" aria-label="Download file" download>
+        
+        <div class="resource-type-thumbnail pdf">
+          <div class="d-flex align-self-center">pdf</div>
+        </div>  
+        <div class="download-container">
+          
+            <span class="download-link">
+              
+                  <img
+                    class="hide-offline resources-download"
+                    src="../../static_shared/images/resource-download.d374f56f2572d49418bc.svg"
+                    aria-hidden="true"
+                  />
+              
+            </span>
+            
+              <div class="resource-list-file-size">
+                299 kB
+              </div>
+            
+          
+        </div>
+      </a>
+      <div class="resource-list-item-details">
+        <a class="resource-list-title" href="../../resources/mit18_303f14_reciprocity/index.html">
+    Linear Partial Differential Equations, Lec 15 Handout
+</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="resource-item resource-list-page">
+  <div class="row">
+    <div class="d-inline-flex">
+      <a class="resource-thumbnail" href="../../static_resources/84391b1743be1da83fb7223867884f3d_MIT18_303F14_Lecture15.pdf" target="_blank" aria-label="Download file" download>
+        
+        <div class="resource-type-thumbnail pdf">
+          <div class="d-flex align-self-center">pdf</div>
+        </div>  
+        <div class="download-container">
+          
+            <span class="download-link">
+              
+                  <img
+                    class="hide-offline resources-download"
+                    src="../../static_shared/images/resource-download.d374f56f2572d49418bc.svg"
+                    aria-hidden="true"
+                  />
+              
+            </span>
+            
+              <div class="resource-list-file-size">
+                91 kB
+              </div>
+            
+          
+        </div>
+      </a>
+      <div class="resource-list-item-details">
+        <a class="resource-list-title" href="../../resources/mit18_303f14_lecture15/index.html">
+    Linear Partial Differential Equations, Lec 15 Summary
+</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="resource-item resource-list-page">
+  <div class="row">
+    <div class="d-inline-flex">
+      <a class="resource-thumbnail" href="../../static_resources/e3f6322bc92c74c3801b35f6b33f52bb_MIT18_303F14_Lecture16.pdf" target="_blank" aria-label="Download file" download>
+        
+        <div class="resource-type-thumbnail pdf">
+          <div class="d-flex align-self-center">pdf</div>
+        </div>  
+        <div class="download-container">
+          
+            <span class="download-link">
+              
+                  <img
+                    class="hide-offline resources-download"
+                    src="../../static_shared/images/resource-download.d374f56f2572d49418bc.svg"
+                    aria-hidden="true"
+                  />
+              
+            </span>
+            
+              <div class="resource-list-file-size">
+                231 kB
+              </div>
+            
+          
+        </div>
+      </a>
+      <div class="resource-list-item-details">
+        <a class="resource-list-title" href="../../resources/mit18_303f14_lecture16/index.html">
+    Linear Partial Differential Equations, Lec 16 Summary
+</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="resource-item resource-list-page">
+  <div class="row">
+    <div class="d-inline-flex">
+      <a class="resource-thumbnail" href="../../static_resources/f0187a70d1c5bec2f461d8f0d496d99d_MIT18_303F14_Lecture17.pdf" target="_blank" aria-label="Download file" download>
+        
+        <div class="resource-type-thumbnail pdf">
+          <div class="d-flex align-self-center">pdf</div>
+        </div>  
+        <div class="download-container">
+          
+            <span class="download-link">
+              
+                  <img
+                    class="hide-offline resources-download"
+                    src="../../static_shared/images/resource-download.d374f56f2572d49418bc.svg"
+                    aria-hidden="true"
+                  />
+              
+            </span>
+            
+              <div class="resource-list-file-size">
+                328 kB
+              </div>
+            
+          
+        </div>
+      </a>
+      <div class="resource-list-item-details">
+        <a class="resource-list-title" href="../../resources/mit18_303f14_lecture17/index.html">
+    Linear Partial Differential Equations, Lec 17 Summary
+</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="resource-item resource-list-page">
+  <div class="row">
+    <div class="d-inline-flex">
+      <a class="resource-thumbnail" href="../../static_resources/64df3fc82aee97d8cd477fc2b0790779_MIT18_303F14_Lecture18.pdf" target="_blank" aria-label="Download file" download>
+        
+        <div class="resource-type-thumbnail pdf">
+          <div class="d-flex align-self-center">pdf</div>
+        </div>  
+        <div class="download-container">
+          
+            <span class="download-link">
+              
+                  <img
+                    class="hide-offline resources-download"
+                    src="../../static_shared/images/resource-download.d374f56f2572d49418bc.svg"
+                    aria-hidden="true"
+                  />
+              
+            </span>
+            
+              <div class="resource-list-file-size">
+                313 kB
+              </div>
+            
+          
+        </div>
+      </a>
+      <div class="resource-list-item-details">
+        <a class="resource-list-title" href="../../resources/mit18_303f14_lecture18/index.html">
+    Linear Partial Differential Equations, Lec 18 Summary
+</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="resource-item resource-list-page">
+  <div class="row">
+    <div class="d-inline-flex">
+      <a class="resource-thumbnail" href="../../static_resources/a741fedf04103d5449541739cd5baaaf_MIT18_303F14_inhomog_notes.pdf" target="_blank" aria-label="Download file" download>
+        
+        <div class="resource-type-thumbnail pdf">
+          <div class="d-flex align-self-center">pdf</div>
+        </div>  
+        <div class="download-container">
+          
+            <span class="download-link">
+              
+                  <img
+                    class="hide-offline resources-download"
+                    src="../../static_shared/images/resource-download.d374f56f2572d49418bc.svg"
+                    aria-hidden="true"
+                  />
+              
+            </span>
+            
+              <div class="resource-list-file-size">
+                410 kB
+              </div>
+            
+          
+        </div>
+      </a>
+      <div class="resource-list-item-details">
+        <a class="resource-list-title" href="../../resources/mit18_303f14_inhomog_notes/index.html">
+    Linear Partial Differential Equations, Lec 19 Handout
+</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="resource-item resource-list-page">
+  <div class="row">
+    <div class="d-inline-flex">
+      <a class="resource-thumbnail" href="../../static_resources/18eae0a49ec6ed32150962a3590c5036_MIT18_303F14_Lecture19.pdf" target="_blank" aria-label="Download file" download>
+        
+        <div class="resource-type-thumbnail pdf">
+          <div class="d-flex align-self-center">pdf</div>
+        </div>  
+        <div class="download-container">
+          
+            <span class="download-link">
+              
+                  <img
+                    class="hide-offline resources-download"
+                    src="../../static_shared/images/resource-download.d374f56f2572d49418bc.svg"
+                    aria-hidden="true"
+                  />
+              
+            </span>
+            
+              <div class="resource-list-file-size">
+                271 kB
+              </div>
+            
+          
+        </div>
+      </a>
+      <div class="resource-list-item-details">
+        <a class="resource-list-title" href="../../resources/mit18_303f14_lecture19/index.html">
+    Linear Partial Differential Equations, Lec 19 Summary
+</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="resource-item resource-list-page">
+  <div class="row">
+    <div class="d-inline-flex">
+      <a class="resource-thumbnail" href="../../static_resources/ed2e057a15b67090d2e1c8f09cf30406_MIT18_303F14_Lecture20.pdf" target="_blank" aria-label="Download file" download>
+        
+        <div class="resource-type-thumbnail pdf">
+          <div class="d-flex align-self-center">pdf</div>
+        </div>  
+        <div class="download-container">
+          
+            <span class="download-link">
+              
+                  <img
+                    class="hide-offline resources-download"
+                    src="../../static_shared/images/resource-download.d374f56f2572d49418bc.svg"
+                    aria-hidden="true"
+                  />
+              
+            </span>
+            
+              <div class="resource-list-file-size">
+                765 kB
+              </div>
+            
+          
+        </div>
+      </a>
+      <div class="resource-list-item-details">
+        <a class="resource-list-title" href="../../resources/mit18_303f14_lecture20/index.html">
+    Linear Partial Differential Equations, Lec 20 Summary
+</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="resource-item resource-list-page">
+  <div class="row">
+    <div class="d-inline-flex">
+      <a class="resource-thumbnail" href="../../static_resources/1788556bb2a2f52f03bdcfc720987d1e_MIT18_303F14_Lecture21.pdf" target="_blank" aria-label="Download file" download>
+        
+        <div class="resource-type-thumbnail pdf">
+          <div class="d-flex align-self-center">pdf</div>
+        </div>  
+        <div class="download-container">
+          
+            <span class="download-link">
+              
+                  <img
+                    class="hide-offline resources-download"
+                    src="../../static_shared/images/resource-download.d374f56f2572d49418bc.svg"
+                    aria-hidden="true"
+                  />
+              
+            </span>
+            
+              <div class="resource-list-file-size">
+                331 kB
+              </div>
+            
+          
+        </div>
+      </a>
+      <div class="resource-list-item-details">
+        <a class="resource-list-title" href="../../resources/mit18_303f14_lecture21/index.html">
+    Linear Partial Differential Equations, Lec 21 Summary
+</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="resource-item resource-list-page">
+  <div class="row">
+    <div class="d-inline-flex">
+      <a class="resource-thumbnail" href="../../static_resources/1ce0d6d2cc890166db72669c8b26e02b_MIT18_303F14_Lecture22.pdf" target="_blank" aria-label="Download file" download>
+        
+        <div class="resource-type-thumbnail pdf">
+          <div class="d-flex align-self-center">pdf</div>
+        </div>  
+        <div class="download-container">
+          
+            <span class="download-link">
+              
+                  <img
+                    class="hide-offline resources-download"
+                    src="../../static_shared/images/resource-download.d374f56f2572d49418bc.svg"
+                    aria-hidden="true"
+                  />
+              
+            </span>
+            
+              <div class="resource-list-file-size">
+                365 kB
+              </div>
+            
+          
+        </div>
+      </a>
+      <div class="resource-list-item-details">
+        <a class="resource-list-title" href="../../resources/mit18_303f14_lecture22/index.html">
+    Linear Partial Differential Equations, Lec 22 Summary
+</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="resource-item resource-list-page">
+  <div class="row">
+    <div class="d-inline-flex">
+      <a class="resource-thumbnail" href="../../static_resources/70518f87dfd5c723ee3cd5d912001b51_MIT18_303F14_wave_equation.pdf" target="_blank" aria-label="Download file" download>
+        
+        <div class="resource-type-thumbnail pdf">
+          <div class="d-flex align-self-center">pdf</div>
+        </div>  
+        <div class="download-container">
+          
+            <span class="download-link">
+              
+                  <img
+                    class="hide-offline resources-download"
+                    src="../../static_shared/images/resource-download.d374f56f2572d49418bc.svg"
+                    aria-hidden="true"
+                  />
+              
+            </span>
+            
+              <div class="resource-list-file-size">
+                447 kB
+              </div>
+            
+          
+        </div>
+      </a>
+      <div class="resource-list-item-details">
+        <a class="resource-list-title" href="../../resources/mit18_303f14_wave_equation/index.html">
+    Linear Partial Differential Equations, Lec 23 Handout
+</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="resource-item resource-list-page">
+  <div class="row">
+    <div class="d-inline-flex">
+      <a class="resource-thumbnail" href="../../static_resources/a2ca376126450332b38a614719f99b03_MIT18_303F14_Lecture23.pdf" target="_blank" aria-label="Download file" download>
+        
+        <div class="resource-type-thumbnail pdf">
+          <div class="d-flex align-self-center">pdf</div>
+        </div>  
+        <div class="download-container">
+          
+            <span class="download-link">
+              
+                  <img
+                    class="hide-offline resources-download"
+                    src="../../static_shared/images/resource-download.d374f56f2572d49418bc.svg"
+                    aria-hidden="true"
+                  />
+              
+            </span>
+            
+              <div class="resource-list-file-size">
+                235 kB
+              </div>
+            
+          
+        </div>
+      </a>
+      <div class="resource-list-item-details">
+        <a class="resource-list-title" href="../../resources/mit18_303f14_lecture23/index.html">
+    Linear Partial Differential Equations, Lec 23 Summary
+</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="resource-item resource-list-page">
+  <div class="row">
+    <div class="d-inline-flex">
+      <a class="resource-thumbnail" href="../../static_resources/25a7f7266d66f8d335657020e8cf41ca_MIT18_303F14_Lecture24.pdf" target="_blank" aria-label="Download file" download>
+        
+        <div class="resource-type-thumbnail pdf">
+          <div class="d-flex align-self-center">pdf</div>
+        </div>  
+        <div class="download-container">
+          
+            <span class="download-link">
+              
+                  <img
+                    class="hide-offline resources-download"
+                    src="../../static_shared/images/resource-download.d374f56f2572d49418bc.svg"
+                    aria-hidden="true"
+                  />
+              
+            </span>
+            
+              <div class="resource-list-file-size">
+                173 kB
+              </div>
+            
+          
+        </div>
+      </a>
+      <div class="resource-list-item-details">
+        <a class="resource-list-title" href="../../resources/mit18_303f14_lecture24/index.html">
+    Linear Partial Differential Equations, Lec 24 Summary
+</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="resource-item resource-list-page">
+  <div class="row">
+    <div class="d-inline-flex">
+      <a class="resource-thumbnail" href="../../static_resources/485b8bcbc50e6bc7ae1d7e8b6a588be7_MIT18_303F14_Lecture25.pdf" target="_blank" aria-label="Download file" download>
+        
+        <div class="resource-type-thumbnail pdf">
+          <div class="d-flex align-self-center">pdf</div>
+        </div>  
+        <div class="download-container">
+          
+            <span class="download-link">
+              
+                  <img
+                    class="hide-offline resources-download"
+                    src="../../static_shared/images/resource-download.d374f56f2572d49418bc.svg"
+                    aria-hidden="true"
+                  />
+              
+            </span>
+            
+              <div class="resource-list-file-size">
+                131 kB
+              </div>
+            
+          
+        </div>
+      </a>
+      <div class="resource-list-item-details">
+        <a class="resource-list-title" href="../../resources/mit18_303f14_lecture25/index.html">
+    Linear Partial Differential Equations, Lec 25 Summary
+</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="resource-item resource-list-page">
+  <div class="row">
+    <div class="d-inline-flex">
+      <a class="resource-thumbnail" href="../../static_resources/64245649f9881fa609994b71717b6b98_MIT18_303F14_fourier_disp.pdf" target="_blank" aria-label="Download file" download>
+        
+        <div class="resource-type-thumbnail pdf">
+          <div class="d-flex align-self-center">pdf</div>
+        </div>  
+        <div class="download-container">
+          
+            <span class="download-link">
+              
+                  <img
+                    class="hide-offline resources-download"
+                    src="../../static_shared/images/resource-download.d374f56f2572d49418bc.svg"
+                    aria-hidden="true"
+                  />
+              
+            </span>
+            
+              <div class="resource-list-file-size">
+                2 MB
+              </div>
+            
+          
+        </div>
+      </a>
+      <div class="resource-list-item-details">
+        <a class="resource-list-title" href="../../resources/mit18_303f14_fourier_disp/index.html">
+    Linear Partial Differential Equations, Lec25 Handout
+</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="resource-item resource-list-page">
+  <div class="row">
+    <div class="d-inline-flex">
+      <a class="resource-thumbnail" href="../../static_resources/9da5142f72270d6e71cb083b31d31b04_MIT18_303F14_Lecture28.pdf" target="_blank" aria-label="Download file" download>
+        
+        <div class="resource-type-thumbnail pdf">
+          <div class="d-flex align-self-center">pdf</div>
+        </div>  
+        <div class="download-container">
+          
+            <span class="download-link">
+              
+                  <img
+                    class="hide-offline resources-download"
+                    src="../../static_shared/images/resource-download.d374f56f2572d49418bc.svg"
+                    aria-hidden="true"
+                  />
+              
+            </span>
+            
+              <div class="resource-list-file-size">
+                209 kB
+              </div>
+            
+          
+        </div>
+      </a>
+      <div class="resource-list-item-details">
+        <a class="resource-list-title" href="../../resources/mit18_303f14_lecture28/index.html">
+    Linear Partial Differential Equations, Lec 28 Summary
+</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="resource-item resource-list-page">
+  <div class="row">
+    <div class="d-inline-flex">
+      <a class="resource-thumbnail" href="../../static_resources/616156638dcd0b6ded568175b59f4aaa_MIT18_303F14_waveguide.pdf" target="_blank" aria-label="Download file" download>
+        
+        <div class="resource-type-thumbnail pdf">
+          <div class="d-flex align-self-center">pdf</div>
+        </div>  
+        <div class="download-container">
+          
+            <span class="download-link">
+              
+                  <img
+                    class="hide-offline resources-download"
+                    src="../../static_shared/images/resource-download.d374f56f2572d49418bc.svg"
+                    aria-hidden="true"
+                  />
+              
+            </span>
+            
+              <div class="resource-list-file-size">
+                532 kB
+              </div>
+            
+          
+        </div>
+      </a>
+      <div class="resource-list-item-details">
+        <a class="resource-list-title" href="../../resources/mit18_303f14_waveguide/index.html">
+    Linear Partial Differential Equations, Lec 29 Handout
+</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="resource-item resource-list-page">
+  <div class="row">
+    <div class="d-inline-flex">
+      <a class="resource-thumbnail" href="../../static_resources/de8d730a02e7146c3b494af1e8d4b625_MIT18_303F14_Lecture29.pdf" target="_blank" aria-label="Download file" download>
+        
+        <div class="resource-type-thumbnail pdf">
+          <div class="d-flex align-self-center">pdf</div>
+        </div>  
+        <div class="download-container">
+          
+            <span class="download-link">
+              
+                  <img
+                    class="hide-offline resources-download"
+                    src="../../static_shared/images/resource-download.d374f56f2572d49418bc.svg"
+                    aria-hidden="true"
+                  />
+              
+            </span>
+            
+              <div class="resource-list-file-size">
+                100 kB
+              </div>
+            
+          
+        </div>
+      </a>
+      <div class="resource-list-item-details">
+        <a class="resource-list-title" href="../../resources/mit18_303f14_lecture29/index.html">
+    Linear Partial Differential Equations, Lec 29 Summary
+</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="resource-item resource-list-page">
+  <div class="row">
+    <div class="d-inline-flex">
+      <a class="resource-thumbnail" href="../../static_resources/8bbeae971dc497077af6a7c933379012_MIT18_303F14_Lecture30.pdf" target="_blank" aria-label="Download file" download>
+        
+        <div class="resource-type-thumbnail pdf">
+          <div class="d-flex align-self-center">pdf</div>
+        </div>  
+        <div class="download-container">
+          
+            <span class="download-link">
+              
+                  <img
+                    class="hide-offline resources-download"
+                    src="../../static_shared/images/resource-download.d374f56f2572d49418bc.svg"
+                    aria-hidden="true"
+                  />
+              
+            </span>
+            
+              <div class="resource-list-file-size">
+                313 kB
+              </div>
+            
+          
+        </div>
+      </a>
+      <div class="resource-list-item-details">
+        <a class="resource-list-title" href="../../resources/mit18_303f14_lecture30/index.html">
+    Linear Partial Differential Equations, Lec 30 Summary
+</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="resource-item resource-list-page">
+  <div class="row">
+    <div class="d-inline-flex">
+      <a class="resource-thumbnail" href="../../static_resources/c40941e34244fbe46b182f001a960843_MIT18_303F14_slow_wave.pdf" target="_blank" aria-label="Download file" download>
+        
+        <div class="resource-type-thumbnail pdf">
+          <div class="d-flex align-self-center">pdf</div>
+        </div>  
+        <div class="download-container">
+          
+            <span class="download-link">
+              
+                  <img
+                    class="hide-offline resources-download"
+                    src="../../static_shared/images/resource-download.d374f56f2572d49418bc.svg"
+                    aria-hidden="true"
+                  />
+              
+            </span>
+            
+              <div class="resource-list-file-size">
+                526 kB
+              </div>
+            
+          
+        </div>
+      </a>
+      <div class="resource-list-item-details">
+        <a class="resource-list-title" href="../../resources/mit18_303f14_slow_wave/index.html">
+    Linear Partial Differential Equations, Lec 31 Handout
+</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="resource-item resource-list-page">
+  <div class="row">
+    <div class="d-inline-flex">
+      <a class="resource-thumbnail" href="../../static_resources/a6382e6a97893b564dfed576a538c95e_MIT18_303F14_Lecture31.pdf" target="_blank" aria-label="Download file" download>
+        
+        <div class="resource-type-thumbnail pdf">
+          <div class="d-flex align-self-center">pdf</div>
+        </div>  
+        <div class="download-container">
+          
+            <span class="download-link">
+              
+                  <img
+                    class="hide-offline resources-download"
+                    src="../../static_shared/images/resource-download.d374f56f2572d49418bc.svg"
+                    aria-hidden="true"
+                  />
+              
+            </span>
+            
+              <div class="resource-list-file-size">
+                92 kB
+              </div>
+            
+          
+        </div>
+      </a>
+      <div class="resource-list-item-details">
+        <a class="resource-list-title" href="../../resources/mit18_303f14_lecture31/index.html">
+    Linear Partial Differential Equations, Lec 31 Summary
+</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="resource-item resource-list-page">
+  <div class="row">
+    <div class="d-inline-flex">
+      <a class="resource-thumbnail" href="../../static_resources/0ad128a4b3d9dbb860e83a59a47b1b01_MIT18_303F14_pml.pdf" target="_blank" aria-label="Download file" download>
+        
+        <div class="resource-type-thumbnail pdf">
+          <div class="d-flex align-self-center">pdf</div>
+        </div>  
+        <div class="download-container">
+          
+            <span class="download-link">
+              
+                  <img
+                    class="hide-offline resources-download"
+                    src="../../static_shared/images/resource-download.d374f56f2572d49418bc.svg"
+                    aria-hidden="true"
+                  />
+              
+            </span>
+            
+              <div class="resource-list-file-size">
+                479 kB
+              </div>
+            
+          
+        </div>
+      </a>
+      <div class="resource-list-item-details">
+        <a class="resource-list-title" href="../../resources/mit18_303f14_pml/index.html">
+    Linear Partial Differential Equations, Lec 32 Handout
+</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="resource-item resource-list-page">
+  <div class="row">
+    <div class="d-inline-flex">
+      <a class="resource-thumbnail" href="../../static_resources/abfd8f258d2b05a2779f6ded3468828d_MIT18_303F14_Lecture32.pdf" target="_blank" aria-label="Download file" download>
+        
+        <div class="resource-type-thumbnail pdf">
+          <div class="d-flex align-self-center">pdf</div>
+        </div>  
+        <div class="download-container">
+          
+            <span class="download-link">
+              
+                  <img
+                    class="hide-offline resources-download"
+                    src="../../static_shared/images/resource-download.d374f56f2572d49418bc.svg"
+                    aria-hidden="true"
+                  />
+              
+            </span>
+            
+              <div class="resource-list-file-size">
+                211 kB
+              </div>
+            
+          
+        </div>
+      </a>
+      <div class="resource-list-item-details">
+        <a class="resource-list-title" href="../../resources/mit18_303f14_lecture32/index.html">
+    Linear Partial Differential Equations, Lec 32 Summary
+</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="resource-item resource-list-page">
+  <div class="row">
+    <div class="d-inline-flex">
+      <a class="resource-thumbnail" href="../../static_resources/0c092138a956ec7b16610121490a81f5_MIT18_303F14_Lecture33.pdf" target="_blank" aria-label="Download file" download>
+        
+        <div class="resource-type-thumbnail pdf">
+          <div class="d-flex align-self-center">pdf</div>
+        </div>  
+        <div class="download-container">
+          
+            <span class="download-link">
+              
+                  <img
+                    class="hide-offline resources-download"
+                    src="../../static_shared/images/resource-download.d374f56f2572d49418bc.svg"
+                    aria-hidden="true"
+                  />
+              
+            </span>
+            
+              <div class="resource-list-file-size">
+                136 kB
+              </div>
+            
+          
+        </div>
+      </a>
+      <div class="resource-list-item-details">
+        <a class="resource-list-title" href="../../resources/mit18_303f14_lecture33/index.html">
+    Linear Partial Differential Equations, Lec 33 Summary
+</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="resource-item resource-list-page">
+  <div class="row">
+    <div class="d-inline-flex">
+      <a class="resource-thumbnail" href="../../static_resources/38a6fed1cff64343edd7759e486aef77_MIT18_303F14_Lecture34.pdf" target="_blank" aria-label="Download file" download>
+        
+        <div class="resource-type-thumbnail pdf">
+          <div class="d-flex align-self-center">pdf</div>
+        </div>  
+        <div class="download-container">
+          
+            <span class="download-link">
+              
+                  <img
+                    class="hide-offline resources-download"
+                    src="../../static_shared/images/resource-download.d374f56f2572d49418bc.svg"
+                    aria-hidden="true"
+                  />
+              
+            </span>
+            
+              <div class="resource-list-file-size">
+                446 kB
+              </div>
+            
+          
+        </div>
+      </a>
+      <div class="resource-list-item-details">
+        <a class="resource-list-title" href="../../resources/mit18_303f14_lecture34/index.html">
+    Linear Partial Differential Equations, Lec 34 Summary
+</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="resource-item resource-list-page">
+  <div class="row">
+    <div class="d-inline-flex">
+      <a class="resource-thumbnail" href="../../static_resources/e2fb5e7d15250caaf9fcea292e388f14_MIT18_303F14_Lecture35.pdf" target="_blank" aria-label="Download file" download>
+        
+        <div class="resource-type-thumbnail pdf">
+          <div class="d-flex align-self-center">pdf</div>
+        </div>  
+        <div class="download-container">
+          
+            <span class="download-link">
+              
+                  <img
+                    class="hide-offline resources-download"
+                    src="../../static_shared/images/resource-download.d374f56f2572d49418bc.svg"
+                    aria-hidden="true"
+                  />
+              
+            </span>
+            
+              <div class="resource-list-file-size">
+                172 kB
+              </div>
+            
+          
+        </div>
+      </a>
+      <div class="resource-list-item-details">
+        <a class="resource-list-title" href="../../resources/mit18_303f14_lecture35/index.html">
+    Linear Partial Differential Equations, Lec 35 Summary
+</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="resource-item resource-list-page">
+  <div class="row">
+    <div class="d-inline-flex">
+      <a class="resource-thumbnail" href="../../static_resources/393f6f15930909c26414bc34a0fa82b9_MIT18_303F14_Lecture36.pdf" target="_blank" aria-label="Download file" download>
+        
+        <div class="resource-type-thumbnail pdf">
+          <div class="d-flex align-self-center">pdf</div>
+        </div>  
+        <div class="download-container">
+          
+            <span class="download-link">
+              
+                  <img
+                    class="hide-offline resources-download"
+                    src="../../static_shared/images/resource-download.d374f56f2572d49418bc.svg"
+                    aria-hidden="true"
+                  />
+              
+            </span>
+            
+              <div class="resource-list-file-size">
+                233 kB
+              </div>
+            
+          
+        </div>
+      </a>
+      <div class="resource-list-item-details">
+        <a class="resource-list-title" href="../../resources/mit18_303f14_lecture36/index.html">
+    Linear Partial Differential Equations, Lec 36 Summary
+</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="resource-item resource-list-page">
+  <div class="row">
+    <div class="d-inline-flex">
+      <a class="resource-thumbnail" href="../../static_resources/f5e918bdf41193533c4147abd02d69b4_MIT18_303F14_Lecture37.pdf" target="_blank" aria-label="Download file" download>
+        
+        <div class="resource-type-thumbnail pdf">
+          <div class="d-flex align-self-center">pdf</div>
+        </div>  
+        <div class="download-container">
+          
+            <span class="download-link">
+              
+                  <img
+                    class="hide-offline resources-download"
+                    src="../../static_shared/images/resource-download.d374f56f2572d49418bc.svg"
+                    aria-hidden="true"
+                  />
+              
+            </span>
+            
+              <div class="resource-list-file-size">
+                52 kB
+              </div>
+            
+          
+        </div>
+      </a>
+      <div class="resource-list-item-details">
+        <a class="resource-list-title" href="../../resources/mit18_303f14_lecture37/index.html">
+    Linear Partial Differential Equations, Lec 37 Summary
+</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="resource-item resource-list-page">
+  <div class="row">
+    <div class="d-inline-flex">
+      <a class="resource-thumbnail" href="../../static_resources/949b4457fd7742f0c1e0510f7b652a70_MIT18_303F14_Lecture38.pdf" target="_blank" aria-label="Download file" download>
+        
+        <div class="resource-type-thumbnail pdf">
+          <div class="d-flex align-self-center">pdf</div>
+        </div>  
+        <div class="download-container">
+          
+            <span class="download-link">
+              
+                  <img
+                    class="hide-offline resources-download"
+                    src="../../static_shared/images/resource-download.d374f56f2572d49418bc.svg"
+                    aria-hidden="true"
+                  />
+              
+            </span>
+            
+              <div class="resource-list-file-size">
+                129 kB
+              </div>
+            
+          
+        </div>
+      </a>
+      <div class="resource-list-item-details">
+        <a class="resource-list-title" href="../../resources/mit18_303f14_lecture38/index.html">
+    Linear Partial Differential Equations, Lec 38 Summary
+</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  
+
+
+</div>
+
+                  </div>
+                </div>
+                
+                  <button 
+  type="button" 
+  class="btn course-info-button large-and-above-only"
+  id="desktop-course-drawer-button"
+  data-target="#desktop-course-drawer"
+  data-toggle="collapse"
+  aria-label="Course Info"
+  aria-controls="desktop-course-drawer"
+  aria-expanded="false"
+>
+  <img
+    class="expand-drawer-img drawer-icon-img"
+    src="../../static_shared/images/left_arrow.3c482a1f6223bff3f0e6.svg"
+    alt=""
+  />
+  <img
+    class="collapse-drawer-img drawer-icon-img"
+    src="../../static_shared/images/close_small.b0a2684ccc0da6407a56.svg"
+    alt=""
+  />
+</button>
+
+<div class="collapse border-left p-0 large-and-above-only col-3" id="desktop-course-drawer">
+    
+
+<div class="course-info">
+  <div class="course-detail-title bg-light-gray">
+    <h2 class="font-black py-1 pl-3 m-0">
+      Course Info
+    </h2>
+  </div>
+  <div class="px-3 mt-4">
+    <div class="row">
+      <div class="col-12 ">
+        
+        <div class="">
+          
+          <h5 class="panel-course-info-title ">
+            Instructor
+            </h5>
+          <div class="course-info-content panel-course-info-text">
+            
+
+
+
+
+<ul class="list-unstyled m-0">
+  
+  
+  
+    
+  
+  <li>
+    <a   class="course-info-instructor strip-link-offline"    href="https://ocw.mit.edu/search/?q=Prof.&#43;Steven&#43;G.&#43;Johnson"  >Prof. Steven G. Johnson</a>
+  </li>
+  
+</ul>
+
+
+          </div>
+        </div>
+        
+        
+          
+          
+            <div class="mt-4">
+              <h5 class="panel-course-info-title ">
+                Departments
+              </h5>
+              <div class="course-info-content panel-course-info-text">
+                
+
+
+
+
+<ul class="list-unstyled m-0">
+  
+  
+  
+    
+  
+  <li>
+    <a   class="course-info-department strip-link-offline"    href="https://ocw.mit.edu/search/?d=Mathematics"  >Mathematics</a>
+  </li>
+  
+</ul>
+
+
+              </div>
+            </div>
+          
+         
+        
+        <div class="mt-4">
+          <h5 class="panel-course-info-title ">
+            As Taught In
+          </h5>
+          <div class="course-info-content panel-course-info-text">
+            Fall
+            
+              2014
+            
+          </div>
+        </div>
+
+        <div class="mt-4">
+          <h5 class="panel-course-info-title ">
+            Level
+          </h5>
+          <div class="course-info-content panel-course-info-text">
+            
+              
+                <a   class=" strip-link-offline"    href="https://ocw.mit.edu/search/?l=Undergraduate"  >Undergraduate</a><br />
+              
+            
+          </div>
+        </div>
+        
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+  <div class="px-3">
+    
+
+
+
+
+
+<div class=" mt-4">
+  <h5 class="panel-course-info-title ">
+    Topics
+  </h5>
+  <ul class="list-unstyled pb-2 m-0 panel-course-info-text">
+      <li>
+
+
+
+
+
+
+
+
+<div class="position-relative pt-1 pb-1 pl-4 ml-n2 ">
+  
+  <button
+    type="button"
+    class="topic-toggle border-0 bg-transparent pl-0"
+    data-target="#subtopic-container_desktop_0"
+    data-toggle="collapse"
+    aria-controls="subtopic-container_desktop_0"
+    aria-expanded="true"
+    aria-label="Mathematics subtopics"
+  >
+    <i aria-hidden="true" class="material-icons"></i>
+  </button>
+  
+  <span class="topic-text-wrapper">
+    <a   class="text-black course-info-topic strip-link-offline"    href="https://ocw.mit.edu/search/?t=Mathematics"  >Mathematics</a></span>
+</div>
+
+<ul
+  class="pl-4 subtopic-container collapse show list-unstyled"
+  id="subtopic-container_desktop_0"
+  aria-label="Subtopics"
+>
+  
+  
+  
+  <li>
+    <div class="position-relative pt-1 pb-1  pl-2 ">
+      
+      <span class="topic-text-wrapper">
+        
+        <a   class="text-black course-info-topic strip-link-offline"    href="https://ocw.mit.edu/search/?t=Applied&#43;Mathematics"  >Applied Mathematics</a></span>
+    </div>
+    <ul
+      class="collapse show list-unstyled"
+      id="speciality-container_desktop_0_0"
+      aria-label="Specialties"
+    >
+      
+    </ul>
+    
+  </li>
+  
+  
+  <li>
+    <div class="position-relative pt-1 pb-1  pl-2 ">
+      
+      <span class="topic-text-wrapper">
+        
+        <a   class="text-black course-info-topic strip-link-offline"    href="https://ocw.mit.edu/search/?t=Differential&#43;Equations"  >Differential Equations</a></span>
+    </div>
+    <ul
+      class="collapse show list-unstyled"
+      id="speciality-container_desktop_0_1"
+      aria-label="Specialties"
+    >
+      
+    </ul>
+    
+  </li>
+  
+  
+  <li>
+    <div class="position-relative pt-1 pb-1  pl-2 ">
+      
+      <span class="topic-text-wrapper">
+        
+        <a   class="text-black course-info-topic strip-link-offline"    href="https://ocw.mit.edu/search/?t=Linear&#43;Algebra"  >Linear Algebra</a></span>
+    </div>
+    <ul
+      class="collapse show list-unstyled"
+      id="speciality-container_desktop_0_2"
+      aria-label="Specialties"
+    >
+      
+    </ul>
+    
+  </li>
+  
+</ul>
+
+</li>
+      
+  </ul>
+</div>
+
+    
+
+
+
+<div class="">
+  <h5 class="course-detail-title panel-course-info-title mt-3">
+    Learning Resource Types
+  </h5>
+  <div>
+    <div class="row d-inline m-0">
+      
+        <div class="panel-course-info-text my-2">
+          
+
+<div class="">
+  <div class="d-flex">
+    <i aria-hidden="true" class="material-icons pr-1">grading</i>
+    <span>Exam Solutions</span>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="panel-course-info-text my-2">
+          
+
+<div class="">
+  <div class="d-flex">
+    <i aria-hidden="true" class="material-icons pr-1">grading</i>
+    <span>Exams</span>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="panel-course-info-text my-2">
+          
+
+<div class="">
+  <div class="d-flex">
+    <i aria-hidden="true" class="material-icons pr-1">assignment_turned_in</i>
+    <span>Problem Set Solutions</span>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="panel-course-info-text my-2">
+          
+
+<div class="">
+  <div class="d-flex">
+    <i aria-hidden="true" class="material-icons pr-1">assignment</i>
+    <span>Problem Sets</span>
+  </div>
+</div>
+
+        </div>
+      
+    </div>
+  </div>
+</div>
+
+
+    
+
+
+<hr>
+<div class="pb-3">
+  <a class="download-course-link-button btn btn-outline-primary btn-link link-button text-decoration-none px-4 py-2"
+    role="button"
+    href="../../download/index.html">
+    <div class="text-center w-100">Browse Resources</div>
+  </a>
+</div>
+
+  </div>
+</div>
+
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+<div class="footer">
+    <div class="footer-main-content mx-auto">
+    	<div class="col-12 px-0">
+        	<div class="row align-items-center mx-0">
+            	<div class="col-12 col-md-8 px-0">
+					<div class="d-md-flex align-items-center">
+						<a href="https://openlearning.mit.edu/" target="_blank">
+							<img width="117px" src="../../static_shared/images/mit_ol.4165342f87abb1da46fd.svg" alt="MIT Open Learning" />
+						</a>
+						<div class="ml-md-3 mt-4 mt-md-0">
+							<div class="font-weight-bold">
+								Over 2,500 courses & materials
+							</div>
+							<div>
+								Freely sharing knowledge with learners and educators around the world. <a href='https://ocw.mit.edu/about'>Learn more</a>
+							</div>
+						</div>
+					</div>
+            	</div>
+				<div class="col-12 col-md-4 px-0 d-none d-md-block">
+					<div class="d-flex justify-content-md-end">
+	<div>
+		<a href="https://www.facebook.com/MITOCW" target="_blank">
+			<img class="footer-social-icon ml-0" src="../../static_shared/images/Facebook.d1f5caeb73d7d12505a2.png" alt="facebook"/>
+		</a>
+	</div>
+	<div>
+		<a href="https://www.instagram.com/mitocw" target="_blank">
+			<img class="footer-social-icon" src="../../static_shared/images/Instagram.4df41828ffee4ff33d8a.png" alt="instagram"/>
+		</a>
+	</div>
+	<div>
+		<a href="https://twitter.com/MITOCW" target="_blank">
+			<img class="footer-social-icon" src="../../static_shared/images/x-formerly-twitter-black.f8c75ad9f42902726d25.png" alt="x (formerly twitter)"/>
+		</a>
+	</div>
+	<div>
+		<a href="https://www.youtube.com/mitocw" target="_blank">
+			<img class="footer-social-icon" src="../../static_shared/images/Youtube.7c9f62c4f1dc9515ebb4.png" alt="youtube"/>
+		</a>
+	</div>
+	<div>
+		<a href="https://www.linkedin.com/company/mit-opencourseware/" target="_blank">
+			<img class="footer-social-icon nudge-up" src="../../static_shared/images/linkedin-black.2f7f8a6a3899f5d1e1d6.png" alt="linkedin"/>
+		</a>
+	</div>
+	<div>
+		<a href="https://bsky.app/profile/mitocw.bsky.social" target="_blank">
+			<img class="footer-social-icon" src="../../static_shared/images/bluesky-black.9f4523fcefa9b6f25be7.png" alt="bluesky"/>
+		</a>
+	</div>
+	<div>
+		<a href="https://mastodon.social/@mitocw" target="_blank">
+			<img class="footer-social-icon" src="../../static_shared/images/mastodon-black.9e2de31a28415c123800.png" alt="mastodon"/>
+		</a>
+	</div>
+</div>
+
+				</div>
+        	</div>
+    	</div>
+		
+		<div class="col-12 mt-3 mt-md-4 px-0">
+			<div class="row align-items-center mx-0">
+            	<div class="col-12 col-md-8 px-0">
+					<div class="d-lg-flex">
+						<div class="pr-md-2 mt-2 mt-lg-0 d-none d-lg-block">
+							© 2001–2026 Massachusetts Institute of Technology
+						</div>
+						<div class="px-lg-2 mt-2 mt-lg-0">
+							<a href="https://accessibility.mit.edu" target="_blank">Accessibility</a>
+						</div>
+						<div class="px-lg-2 mt-2 mt-lg-0">
+							<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">Creative Commons License</a>
+						</div>
+						<div class="px-lg-2 mt-2 mt-lg-0">
+							<a class="hide-offline" href='https://ocw.mit.edu/pages/privacy-and-terms-of-use/'>Terms and Conditions</a>
+						</div>
+					</div>
+            	</div>
+				<div class="col-12 col-md-4 px-0">
+					<div class="d-flex justify-content-md-end mt-4 mt-lg-0">
+						<div>
+						Proud member of: 
+						<a href="https://www.oeglobal.org/" target="_blank">
+							<img class="oeg-logo" src="../../static_shared/images/oeg_logo.8a31f7b87f30df2d0169.png" alt="Open Education Global"/>
+						</a>
+						</div>
+					</div>
+				</div>
+        	</div>
+		</div>
+
+		<div class="col-12 mt-5 px-0 d-md-none">
+			<div class="d-flex justify-content-md-end">
+	<div>
+		<a href="https://www.facebook.com/MITOCW" target="_blank">
+			<img class="footer-social-icon ml-0" src="../../static_shared/images/Facebook.d1f5caeb73d7d12505a2.png" alt="facebook"/>
+		</a>
+	</div>
+	<div>
+		<a href="https://www.instagram.com/mitocw" target="_blank">
+			<img class="footer-social-icon" src="../../static_shared/images/Instagram.4df41828ffee4ff33d8a.png" alt="instagram"/>
+		</a>
+	</div>
+	<div>
+		<a href="https://twitter.com/MITOCW" target="_blank">
+			<img class="footer-social-icon" src="../../static_shared/images/x-formerly-twitter-black.f8c75ad9f42902726d25.png" alt="x (formerly twitter)"/>
+		</a>
+	</div>
+	<div>
+		<a href="https://www.youtube.com/mitocw" target="_blank">
+			<img class="footer-social-icon" src="../../static_shared/images/Youtube.7c9f62c4f1dc9515ebb4.png" alt="youtube"/>
+		</a>
+	</div>
+	<div>
+		<a href="https://www.linkedin.com/company/mit-opencourseware/" target="_blank">
+			<img class="footer-social-icon nudge-up" src="../../static_shared/images/linkedin-black.2f7f8a6a3899f5d1e1d6.png" alt="linkedin"/>
+		</a>
+	</div>
+	<div>
+		<a href="https://bsky.app/profile/mitocw.bsky.social" target="_blank">
+			<img class="footer-social-icon" src="../../static_shared/images/bluesky-black.9f4523fcefa9b6f25be7.png" alt="bluesky"/>
+		</a>
+	</div>
+	<div>
+		<a href="https://mastodon.social/@mitocw" target="_blank">
+			<img class="footer-social-icon" src="../../static_shared/images/mastodon-black.9e2de31a28415c123800.png" alt="mastodon"/>
+		</a>
+	</div>
+</div>
+
+		</div>
+
+		<div class="col-12 mt-4 px-0 d-lg-none">
+			© 2001–2026 Massachusetts Institute of Technology
+		</div>
+    
+
+
+    
+    <script src="../../static_shared/js/course_offline.90409.js"></script>
+    
+
+
+
+
+
+    
+	</div>
+</div>
+
+  </div>
+  <script>
+function hideLinksOffline(){
+  if (!window.navigator.onLine) {
+    const stripLinks = document.querySelectorAll(".strip-link-offline")
+    const hideOffline = document.querySelectorAll(".hide-offline")
+    const showOffline = document.querySelectorAll(".show-offline")
+    Array.prototype.forEach.call(stripLinks, function(link) {
+      link.outerHTML = link.innerHTML
+    })
+    Array.prototype.forEach.call(hideOffline, function(link) {
+      link.classList.add("d-none")
+    })
+    Array.prototype.forEach.call(showOffline, function(link) {
+      link.classList.remove("d-none")
+    })
+  }
+}
+hideLinksOffline()
+</script>
+
+  
+
+<div
+  class="modal"
+  id="external-link-modal"
+  tabindex="-1"
+  role="dialog"
+  aria-labelledby="external-link-modal-title"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content p-3">
+      <div class="modal-header d-flex align-items-center">
+        <div class="d-flex align-items-center">
+          <img
+            class="modal-header-icon-img mr-3 align-baseline"
+            src="../../static_shared/images/external_link.58bbdd86c00a2c146c36.svg"
+            alt=""
+            aria-hidden="true"
+          />
+          <h1 class="modal-title" id="external-link-modal-title">
+            You are leaving MIT OpenCourseWare
+          </h1>
+        </div>
+        <button type="button" class="border-0 p-0 bg-transparent d-flex" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true" class="material-icons modal-header-icon">close</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Please be advised that external sites may have terms and conditions, 
+        including license rights, that differ from ours. MIT OCW is not responsible 
+        for any content on third party sites, nor does a link suggest an endorsement 
+        of those sites and/or their content.
+      </div>
+      <div class="modal-footer">
+        <button
+          type="button"
+          class="btn btn-outline-primary btn-link link-button"
+          data-dismiss="modal"
+          >
+            Stay Here
+        </button>
+        <a
+          role="button"
+          class="btn btn-primary btn-continue"
+          target="_blank"
+          href="#"
+        >
+          Continue
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <script>
+    
+    
+    
+    
+    
+    
+    'use strict';
+    const COURSE_DRAWER_LOCAL_STORAGE_KEY = "desktopCourseDrawerState"
+    const COURSE_DRAWER_OPENED = "opened"
+    const COURSE_DRAWER_CLOSED = "closed"
+    
+    const DESKTOP_COURSE_DRAWER_ID = "desktop-course-drawer"
+    const COURSE_DRAWER_BTN_ID = "desktop-course-drawer-button"
+    const MAIN_COURSE_SECTION_ID = "main-course-section"
+
+    try{
+
+      
+
+      function initializeDesktopCourseDrawerState() {
+        const state = getLocalStorageItem(COURSE_DRAWER_LOCAL_STORAGE_KEY)
+        if (state === null) {
+          
+          setLocalStorageItem(COURSE_DRAWER_LOCAL_STORAGE_KEY, COURSE_DRAWER_OPENED)
+          showOrHideDesktopCourseDrawer(COURSE_DRAWER_OPENED)
+        } else {
+          showOrHideDesktopCourseDrawer(state)
+        }
+
+        document.addEventListener("DOMContentLoaded", () => {
+          const drawer = $(`#${DESKTOP_COURSE_DRAWER_ID}`)
+          const mainSection = $(`#${MAIN_COURSE_SECTION_ID}`)
+
+          drawer.on("shown.bs.collapse", (event) => {
+            if (event.target.id !== DESKTOP_COURSE_DRAWER_ID) {
+              return;
+            }
+            mainSection.addClass("col-lg-9")
+            mainSection.removeClass("col-12")
+            setLocalStorageItem(COURSE_DRAWER_LOCAL_STORAGE_KEY, COURSE_DRAWER_OPENED)
+          })
+      
+          drawer.on("hidden.bs.collapse", (event) => {
+            if (event.target.id !== DESKTOP_COURSE_DRAWER_ID) {
+              return;
+            }
+            mainSection.addClass("col-12")
+            mainSection.removeClass("col-lg-9")
+            setLocalStorageItem(COURSE_DRAWER_LOCAL_STORAGE_KEY, COURSE_DRAWER_CLOSED)
+          })
+        })
+      }
+
+      function showOrHideDesktopCourseDrawer(state) {
+        const drawer = document.getElementById(DESKTOP_COURSE_DRAWER_ID)
+        const button = document.getElementById(COURSE_DRAWER_BTN_ID)
+        const mainSection = document.getElementById(MAIN_COURSE_SECTION_ID)
+
+        if (state === COURSE_DRAWER_OPENED) {
+          drawer.classList.add("show")
+          button.setAttribute("aria-expanded", "true")
+        } else {
+          drawer.classList.remove("show")
+          button.setAttribute("aria-expanded", "false")
+          mainSection.classList.remove("col-lg-9")
+          mainSection.classList.add("col-12")
+        }
+      }
+
+      function setOrGetLocalStorageItem(action,key,value) {
+        try {
+          
+          if (typeof Storage !== "undefined") {
+            if (action === "set") {
+              localStorage.setItem(key, value)
+              return true
+            } else {
+              return localStorage.getItem(key)
+            }
+          }
+          console.error("This browser has no web storage support.")
+          return null
+        } catch (e) {
+          console.error("An exception occurred while storing/fetching data in/from localstorage: ", e)
+          return null
+        }
+      }
+
+      function setLocalStorageItem(key, value) {
+        return setOrGetLocalStorageItem("set", key, value)
+      }
+      
+      function getLocalStorageItem(key){
+        return setOrGetLocalStorageItem("get", key)
+      }
+
+      initializeDesktopCourseDrawerState();
+    }
+    catch(e){
+      console.error("Something went wrong in maintaining/toggling course drawer state", e)
+    }
+  </script>
+
+  
+
+<script>
+function expandNav(e,t){t.classList.add("show"),e.querySelector(".course-nav-section-toggle, video-tab-toggle-section").setAttribute("aria-expanded","true")}function courseNav(){document.querySelectorAll(".course-nav, .transcript-header").forEach(e=>{e.querySelectorAll(".nav-link").forEach(e=>{const t=e.getAttribute("href")?e.getAttribute("href"):"";if(t.replace(/\/$/,"")===window.location.pathname.replace(/\/$/,"")){e.classList.add("active");const s=e.closest(".course-nav-parent");s?.classList.add("active");const o=e.dataset.uuid,t=e.closest(".course-nav-list-item"),n=t?.querySelector(".collapse"),i=Array.prototype.filter.call(document.querySelectorAll(".course-nav-section-toggle"),e=>e.dataset.uuid===o);t&&n&&i.length>0&&expandNav(t,n)}});const t=e.querySelector("a.nav-link.active");e.querySelectorAll(".course-nav-list-item").forEach(e=>{const n=e.querySelector(".collapse");n&&n.contains(t)&&expandNav(e,n)})})}courseNav()
+</script>
+
+  
+
+<script>
+(()=>{var e=()=>document.querySelectorAll("#course-content-section table"),t=()=>document.getElementById("course-content-section");function n(){const o=e(),n=t();if(!n)return;if(!window.ResizeObserver)return;const i=new ResizeObserver(()=>s());i.observe(n),o.forEach(e=>{const t=e.getElementsByTagName("th"),n=e.querySelectorAll("table tr");n.forEach(e=>{const n=e.querySelectorAll("td");n.forEach((e,s)=>{t.length>=s+1&&(n[s].dataset.title=t[s].innerText.trim().concat(": "))})})})}function s(){const s=e(),n=t();if(!n)return;s.forEach(e=>{const t=n.getBoundingClientRect(),o=+(e.dataset.minWidth??0);t.width>o&&e.classList.remove("mobile-table");const s=e.getBoundingClientRect();s.right>t.right&&(e.dataset.minWidth=`${s.width}`,e.classList.add("mobile-table"))})}n()})()
+</script>
+
+</body>
+
+</html>

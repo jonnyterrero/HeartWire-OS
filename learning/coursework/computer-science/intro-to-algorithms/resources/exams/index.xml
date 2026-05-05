@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Exams on MIT OpenCourseWare</title>
+    <link>/resources/exams/</link>
+    <description>Recent content in Exams on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/exams/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exams</title>
+      <link>/pages/exams/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/exams/data.json</guid>
+      <description>&lt;p&gt;This section contains practice questions and solutions for the two quizzes and the final exam.&lt;/p&gt;&#xA;&#xA;    &lt;h3 id=&#34;quiz-1&#34;&gt;Quiz 1&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Practice Questions (&lt;a href=&#34;../../resources/quiz1/index.html&#34;&gt;PDF&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;Practice Solutions (&lt;a href=&#34;../../resources/solutions1/index.html&#34;&gt;PDF&lt;/a&gt;)&lt;/p&gt;&#xA;&#xA;    &lt;h3 id=&#34;quiz-2&#34;&gt;Quiz 2&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Practice Questions (&lt;a href=&#34;../../resources/quiz2/index.html&#34;&gt;PDF&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;Practice Solutions (&lt;a href=&#34;../../resources/solutions2/index.html&#34;&gt;PDF&lt;/a&gt;)&lt;/p&gt;&#xA;&#xA;    &lt;h3 id=&#34;final-exam&#34;&gt;Final Exam&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Practice Questions (&lt;a href=&#34;../../resources/final/index.html&#34;&gt;PDF&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;Practice Solutions (&lt;a href=&#34;../../resources/final_soln/index.html&#34;&gt;PDF&lt;/a&gt;)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Final Practice Problems</title>
+      <link>/resources/final/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/final/data.json</guid>
+      <description>&lt;p&gt;Practice problems to prepare students for the Final Exam.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quiz 1 Practice Problems</title>
+      <link>/resources/quiz1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/quiz1/data.json</guid>
+      <description>&lt;p&gt;Practice problems to prepare students for Quiz 1.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quiz 2 Practice Problems</title>
+      <link>/resources/quiz2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/quiz2/data.json</guid>
+      <description>&lt;p&gt;Practice problems to prepare students for Quiz 2.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

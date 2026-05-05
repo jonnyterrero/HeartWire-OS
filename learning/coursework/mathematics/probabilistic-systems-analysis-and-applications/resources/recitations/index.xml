@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recitations on MIT OpenCourseWare</title>
+    <link>/resources/recitations/</link>
+    <description>Recent content in Recitations on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/recitations/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>rec01_ans.pdf</title>
+      <link>/resources/rec01_ans/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rec01_ans/data.json</guid>
+      <description>&lt;p&gt;This resource contains reference to solution for problem set in recitaion one.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>rec01.pdf</title>
+      <link>/resources/rec01/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rec01/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem set on topics equalities, six-sided die and probability.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>rec02_sol.pdf</title>
+      <link>/resources/rec02_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rec02_sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for problem set in recitation two.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>rec02.pdf</title>
+      <link>/resources/rec02/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rec02/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem set for  probability in recitation two.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>rec03_sol.pdf</title>
+      <link>/resources/rec03_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rec03_sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions and references to their solutions for problems in recitaion three.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>rec03.pdf</title>
+      <link>/resources/rec03/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rec03/data.json</guid>
+      <description>&lt;p&gt;This resource conatains problems on probability in recitation three.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>rec04_sol.pdf</title>
+      <link>/resources/rec04_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rec04_sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains reference to solutions for problem set in recitaion four.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>rec04.pdf</title>
+      <link>/resources/rec04/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rec04/data.json</guid>
+      <description>&lt;p&gt;This resource contains birthday and Sampling problems in recitaion four.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>rec05_sol.pdf</title>
+      <link>/resources/rec05_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rec05_sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions to problems in recitaion five.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>rec05.pdf</title>
+      <link>/resources/rec05/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rec05/data.json</guid>
+      <description>&lt;p&gt;This resource contains problems on Bernoulli, Binomial and Poisson.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>rec06_ans.pdf</title>
+      <link>/resources/rec06_ans/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rec06_ans/data.json</guid>
+      <description>&lt;p&gt;This resource contains reference to online  solutions for problem set in recitation six.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>rec06.pdf</title>
+      <link>/resources/rec06/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rec06/data.json</guid>
+      <description>&lt;p&gt;This resource contains D. Bernoulli?s problem and problem on traffic light in recitation 6.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>rec07_ans.pdf</title>
+      <link>/resources/rec07_ans/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rec07_ans/data.json</guid>
+      <description>&lt;p&gt;This resource contains answers to problems in resitation seven.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>rec07_sol.pdf</title>
+      <link>/resources/rec07_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rec07_sol/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>rec07.pdf</title>
+      <link>/resources/rec07/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rec07/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem set for recitaion seven.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>rec08_ans.pdf</title>
+      <link>/resources/rec08_ans/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rec08_ans/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutins to problems in recitation eight.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>rec08_sol.pdf</title>
+      <link>/resources/rec08_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rec08_sol/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>rec08.pdf</title>
+      <link>/resources/rec08/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rec08/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem set on topic probability for recitaion eight.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>rec09_ans.pdf</title>
+      <link>/resources/rec09_ans/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rec09_ans/data.json</guid>
+      <description>&lt;p&gt;This resource contains answers to problems  in recitaion nine.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>rec09_sol.pdf</title>
+      <link>/resources/rec09_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rec09_sol/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>rec09.pdf</title>
+      <link>/resources/rec09/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rec09/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem set for recitation nine.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>rec10_sol.pdf</title>
+      <link>/resources/rec10_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rec10_sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions to problem set in recitaion ten.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>rec10.pdf</title>
+      <link>/resources/rec10/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rec10/data.json</guid>
+      <description>&lt;p&gt;This resource contains problems in probability on topics mean and variance, dice and coins and transforms given in recitation ten.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>rec11_ans.pdf</title>
+      <link>/resources/rec11_ans/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rec11_ans/data.json</guid>
+      <description>&lt;p&gt;This resource contains answers to problems in recitaion 11.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>rec11_sol.pdf</title>
+      <link>/resources/rec11_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rec11_sol/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>rec11.pdf</title>
+      <link>/resources/rec11/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rec11/data.json</guid>
+      <description>&lt;p&gt;This resource contains problems in probability on topics Poisson&amp;rsquo;s distribution and mean and variance.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>rec12_sol.pdf</title>
+      <link>/resources/rec12_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rec12_sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions to problems given in recitaion twelve.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>rec12.pdf</title>
+      <link>/resources/rec12/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rec12/data.json</guid>
+      <description>&lt;p&gt;This resource contains dice related problems in probability given in recitation twelve.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>rec13_ans.pdf</title>
+      <link>/resources/rec13_ans/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rec13_ans/data.json</guid>
+      <description>&lt;p&gt;This resource contains answers to problems given in recitation thirteen.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>rec13.pdf</title>
+      <link>/resources/rec13/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rec13/data.json</guid>
+      <description>&lt;p&gt;This resource contains problems on correlation coefficient.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>rec14_sol.pdf</title>
+      <link>/resources/rec14_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rec14_sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions to problem set in recitaion fourteen.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>rec14.pdf</title>
+      <link>/resources/rec14/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rec14/data.json</guid>
+      <description>&lt;p&gt;This resource contains problems on correlation coefficient.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>rec15_ans.pdf</title>
+      <link>/resources/rec15_ans/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rec15_ans/data.json</guid>
+      <description>&lt;p&gt;This resource contains answers to problem set in recitaion fifteen.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>rec15.pdf</title>
+      <link>/resources/rec15/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rec15/data.json</guid>
+      <description>&lt;p&gt;This resource contains problems on inequality and convergence in probability.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>rec16_ans.pdf</title>
+      <link>/resources/rec16_ans/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rec16_ans/data.json</guid>
+      <description>&lt;p&gt;This resource contains answers to problem set in recitaion sixteen.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>rec16.pdf</title>
+      <link>/resources/rec16/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rec16/data.json</guid>
+      <description>&lt;p&gt;This resource contains problems on negative&#xA;binomial and on sum of a geometric number of independent random variables.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>rec17_sol.pdf</title>
+      <link>/resources/rec17_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rec17_sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions to problem set in recitaion seventeen.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>rec17.pdf</title>
+      <link>/resources/rec17/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rec17/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem set for recitation seventeen.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>rec18_ans.pdf</title>
+      <link>/resources/rec18_ans/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rec18_ans/data.json</guid>
+      <description>&lt;p&gt;This resource contains answers to problem set in recitaion eighteen.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>rec18.pdf</title>
+      <link>/resources/rec18/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rec18/data.json</guid>
+      <description>&lt;p&gt;This resource contains problems on competing exponentials and Poisson arrivals during an exponentially distributed&#xA;interval in recitation eighteen.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>rec19_ans.pdf</title>
+      <link>/resources/rec19_ans/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rec19_ans/data.json</guid>
+      <description>&lt;p&gt;This resource contains answers to problem set in recitaion nineteen.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>rec19.pdf</title>
+      <link>/resources/rec19/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rec19/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem set for recitation nineteen.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>rec20_ans.pdf</title>
+      <link>/resources/rec20_ans/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rec20_ans/data.json</guid>
+      <description>&lt;p&gt;This resource contains answers steady state behavior problem set in recitaion twenty.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>rec20.pdf</title>
+      <link>/resources/rec20/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rec20/data.json</guid>
+      <description>&lt;p&gt;This resource contains problems on steady state behavior.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>rec21_ans.pdf</title>
+      <link>/resources/rec21_ans/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rec21_ans/data.json</guid>
+      <description>&lt;p&gt;This resource contains answers to Markov chains problem set.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>rec21.pdf</title>
+      <link>/resources/rec21/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rec21/data.json</guid>
+      <description>&lt;p&gt;This resource contains problems on Markov chains.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>rec22_ans.pdf</title>
+      <link>/resources/rec22_ans/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rec22_ans/data.json</guid>
+      <description>&lt;p&gt;This resource contains answers to central limit theorem problem set.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>rec22.pdf</title>
+      <link>/resources/rec22/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rec22/data.json</guid>
+      <description>&lt;p&gt;This resource contains problems on central limit theorem.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Recitations</title>
+      <link>/pages/recitations/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/recitations/data.json</guid>
+      <description>&lt;p&gt;This section contains problems that are solved during recitation and tutorial sessions in addition to weekly notes that give an overview of topics to be covered. During recitations, the instructor elaborates on theories, solves new examples, and answers students&amp;rsquo; questions. Recitations are held separately for undergraduates and graduates. During tutorials, students discuss and solve new examples with a little help from the instructor. Tutorials are active sessions to help students develop confidence in thinking about probabilistic situations in real time. Tutorials are not mandatory but highly recommended for students enrolled in the course.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>tut01_ans.pdf</title>
+      <link>/resources/tut01_ans/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/tut01_ans/data.json</guid>
+      <description>&lt;p&gt;This resource contains answers to first tutorial.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>tut01_sol.pdf</title>
+      <link>/resources/tut01_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/tut01_sol/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>tut01.pdf</title>
+      <link>/resources/tut01/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/tut01/data.json</guid>
+      <description>&lt;p&gt;This resource contains tutorials for the course.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>tut02_ans.pdf</title>
+      <link>/resources/tut02_ans/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/tut02_ans/data.json</guid>
+      <description>&lt;p&gt;This resource contains answers to second tutorial.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>tut02_sol.pdf</title>
+      <link>/resources/tut02_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/tut02_sol/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>tut02.pdf</title>
+      <link>/resources/tut02/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/tut02/data.json</guid>
+      <description>&lt;p&gt;This resource contains tutorials for the course.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>tut03_ans.pdf</title>
+      <link>/resources/tut03_ans/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/tut03_ans/data.json</guid>
+      <description>&lt;p&gt;This resource contains answers to tutorial three.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>tut03_sol.pdf</title>
+      <link>/resources/tut03_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/tut03_sol/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>tut03.pdf</title>
+      <link>/resources/tut03/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/tut03/data.json</guid>
+      <description>&lt;p&gt;This resource contains tutorials for the course.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>tut04_ans.pdf</title>
+      <link>/resources/tut04_ans/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/tut04_ans/data.json</guid>
+      <description>&lt;p&gt;This resource contains answers to tutorial four.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>tut04_sol.pdf</title>
+      <link>/resources/tut04_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/tut04_sol/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>tut04.pdf</title>
+      <link>/resources/tut04/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/tut04/data.json</guid>
+      <description>&lt;p&gt;This resource contains tutorials for the course.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>tut05_ans.pdf</title>
+      <link>/resources/tut05_ans/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/tut05_ans/data.json</guid>
+      <description>&lt;p&gt;This resource contains answers to tutorial five.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>tut05.pdf</title>
+      <link>/resources/tut05/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/tut05/data.json</guid>
+      <description>&lt;p&gt;This resource contains tutorials for the course.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>tut06_ans.pdf</title>
+      <link>/resources/tut06_ans/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/tut06_ans/data.json</guid>
+      <description>&lt;p&gt;This resource contains answers to tutorial six.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>tut06_sol.pdf</title>
+      <link>/resources/tut06_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/tut06_sol/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>tut06.pdf</title>
+      <link>/resources/tut06/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/tut06/data.json</guid>
+      <description>&lt;p&gt;This resource contains tutorials for the course.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>tut07_ans.pdf</title>
+      <link>/resources/tut07_ans/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/tut07_ans/data.json</guid>
+      <description>&lt;p&gt;This resource contains answers to tutorial seven.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>tut07_sol.pdf</title>
+      <link>/resources/tut07_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/tut07_sol/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>tut07.pdf</title>
+      <link>/resources/tut07/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/tut07/data.json</guid>
+      <description>&lt;p&gt;This resource contains tutorials for the course.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>tut08_ans.pdf</title>
+      <link>/resources/tut08_ans/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/tut08_ans/data.json</guid>
+      <description>&lt;p&gt;This resource contains answers to tutorial eight.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>tut08_sol.pdf</title>
+      <link>/resources/tut08_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/tut08_sol/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>tut08.pdf</title>
+      <link>/resources/tut08/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/tut08/data.json</guid>
+      <description>&lt;p&gt;This resource contains tutorials for the course.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>tut09_ans.pdf</title>
+      <link>/resources/tut09_ans/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/tut09_ans/data.json</guid>
+      <description>&lt;p&gt;This resource contains answers to tutorial nine.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>tut09.pdf</title>
+      <link>/resources/tut09/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/tut09/data.json</guid>
+      <description>&lt;p&gt;This resource contains tutorials for the course.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>tut10_ans.pdf</title>
+      <link>/resources/tut10_ans/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/tut10_ans/data.json</guid>
+      <description>&lt;p&gt;This resource contains answers to tutorial ten.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>tut10_sol.pdf</title>
+      <link>/resources/tut10_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/tut10_sol/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>tut10.pdf</title>
+      <link>/resources/tut10/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/tut10/data.json</guid>
+      <description>&lt;p&gt;This resource contains tutorials for the course.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>tut11_ans.pdf</title>
+      <link>/resources/tut11_ans/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/tut11_ans/data.json</guid>
+      <description>&lt;p&gt;This resource contains answers to tutorial eleven.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>tut11_sol.pdf</title>
+      <link>/resources/tut11_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/tut11_sol/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>tut11.pdf</title>
+      <link>/resources/tut11/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/tut11/data.json</guid>
+      <description>&lt;p&gt;This resource contains tutorials for the course.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>tut12_ans.pdf</title>
+      <link>/resources/tut12_ans/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/tut12_ans/data.json</guid>
+      <description>&lt;p&gt;This resource contains answers to tutorial twelve.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>tut12.pdf</title>
+      <link>/resources/tut12/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/tut12/data.json</guid>
+      <description>&lt;p&gt;This resource contains tutorials for steady state behavior and absorption  probabilities.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>week01.pdf</title>
+      <link>/resources/week01/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/week01/data.json</guid>
+      <description>&lt;p&gt;This resource contains information on De Morgan&amp;rsquo;s, and probability.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>week02.pdf</title>
+      <link>/resources/week02/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/week02/data.json</guid>
+      <description>&lt;p&gt;This resource contains information on discrete random variables, and PMFs.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>week03.pdf</title>
+      <link>/resources/week03/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/week03/data.json</guid>
+      <description>&lt;p&gt;This resource contains information on probability.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>week04.pdf</title>
+      <link>/resources/week04/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/week04/data.json</guid>
+      <description>&lt;p&gt;This resource contains information on probability.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>week05.pdf</title>
+      <link>/resources/week05/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/week05/data.json</guid>
+      <description>&lt;p&gt;This resource contains information on baye&amp;rsquo;s rule, conditional probability, and normal RV.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>week06_f.pdf</title>
+      <link>/resources/week06_f/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/week06_f/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>week07.pdf</title>
+      <link>/resources/week07/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/week07/data.json</guid>
+      <description>&lt;p&gt;This resource contains information on derived distributions, convolution, and transforms.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>week08.pdf</title>
+      <link>/resources/week08/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/week08/data.json</guid>
+      <description>&lt;p&gt;This resource contains information on derived distributions, convolution, and transforms.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>week09.pdf</title>
+      <link>/resources/week09/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/week09/data.json</guid>
+      <description>&lt;p&gt;This resource contains information on probability.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>week11.pdf</title>
+      <link>/resources/week11/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/week11/data.json</guid>
+      <description>&lt;p&gt;This resource contains information on bernoulli process, poisson process.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>week13.pdf</title>
+      <link>/resources/week13/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/week13/data.json</guid>
+      <description>&lt;p&gt;This resource contains information on probability.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>week14.pdf</title>
+      <link>/resources/week14/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/week14/data.json</guid>
+      <description>&lt;p&gt;This resource contains information on probability.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

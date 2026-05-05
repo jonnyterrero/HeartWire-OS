@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Readings on MIT OpenCourseWare</title>
+    <link>/resources/readings/</link>
+    <description>Recent content in Readings on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/readings/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>1. Vectors and Matrices</title>
+      <link>/resources/vectors_matrices/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/vectors_matrices/data.json</guid>
+      <description>&lt;p&gt;Supplementary exercises on vectors and matrices.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>1. Vectors and Matrices</title>
+      <link>/resources/vectr_mtrics_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/vectr_mtrics_sol/data.json</guid>
+      <description>&lt;p&gt;Solutions to supplementary exercises on vectors and matrices.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>18.02 Supplementary Notes and Problems</title>
+      <link>/pages/readings/supp_notes/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/readings/supp_notes/data.json</guid>
+      <description>&lt;p&gt;These notes and exercises were written by Prof. Arthur Mattuck and are designed to supplement the textbook.&lt;/p&gt;&#xA;&#xA;    &lt;h3 id=&#34;part-i-notes&#34;&gt;Part I: Notes&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;&lt;table&gt;&#xA;&#xA;&lt;thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;SECTIONS&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;TOPICS&#xA;&lt;/th&gt;&#xA;&lt;/p&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;p&gt;&lt;/thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;D&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Determinants (&lt;a href=&#34;../../resources/determinants/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;M&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Matrices and linear algebra (&lt;a href=&#34;../../resources/matrices_algebra/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;K&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Kepler&amp;rsquo;s second law (&lt;a href=&#34;../../resources/kepler_secnd_law/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;TA&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;The tangent approximation (&lt;a href=&#34;../../resources/tangent_approx/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;SD&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Second derivative test (&lt;a href=&#34;../../resources/2nd_derivative/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;LS&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Least squares interpolation (&lt;a href=&#34;../../resources/least_sq_intrpol/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;N&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Non-independent variables (&lt;a href=&#34;../../resources/non_ind_variable/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;P&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Partial differential equations (&lt;a href=&#34;../../resources/part_diff_eqn/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;I&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Limits in iterated integrals (&lt;a href=&#34;../../resources/lim_itratd_intgr/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2. Partial Differentiation</title>
+      <link>/resources/part_diff_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/part_diff_sol/data.json</guid>
+      <description>&lt;p&gt;Solutions to supplementary exercises on partial differentiation, functions and partial derivatives, the tangent plane, linear approximation, differentials, approximations, gradient and directional derivative, the chain rule, maximum-minimum problems, least-squares interpolation, 2nd derivative criterion, boundary curves, Lagrange multipliers, non-independent variables, and partial differential equations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2. Partial Differentiation</title>
+      <link>/resources/partial_diff/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/partial_diff/data.json</guid>
+      <description>&lt;p&gt;Supplementary exercises on partial differentiation, functions and partial derivatives, the tangent plane, linear approximation, differentials, approximations, gradient and directional derivative, the chain rule, maximum-minimum problems, least-squares interpolation, 2nd derivative criterion, boundary curves, Lagrange multipliers, non-independent variables, and partial differential equations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>3. Double Integrals</title>
+      <link>/resources/dbl_intgrls_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/dbl_intgrls_sol/data.json</guid>
+      <description>&lt;p&gt;Solutions to supplementary exercises on double integrals.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>3. Double Integrals</title>
+      <link>/resources/double_integrals/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/double_integrals/data.json</guid>
+      <description>&lt;p&gt;Supplementary exercises on double integrals in rectangular and polar coordinates, applications of double integration, and changing variables in multiple integrals.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>4. Line Integrals in the Plane</title>
+      <link>/resources/line_integrl_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/line_integrl_sol/data.json</guid>
+      <description>&lt;p&gt;Solutions to supplementary exercises on line integrals in the plane, plane vector fields, gradient fields and exact differentials, Green&amp;rsquo;s theorem, two-dimensional flux, simply-connected regions, and multiply-connected regions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>4. Line Integrals in the Plane</title>
+      <link>/resources/line_intgrl_plan/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/line_intgrl_plan/data.json</guid>
+      <description>&lt;p&gt;Supplementary exercises on line integrals in the plane, plane vector fields, gradient fields and exact differentials, Green&amp;rsquo;s theorem, two-dimensional flux, simply-connected regions, and multiply-connected regions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>5. Triple Integrals</title>
+      <link>/resources/tripl_intgrl_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/tripl_intgrl_sol/data.json</guid>
+      <description>&lt;p&gt;Solutions to supplementary exercises on triple integrals in rectangular, cylindrical, and spherical coordinates, and gravitational attraction.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>5. Triple Integrals</title>
+      <link>/resources/triple_integrals/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/triple_integrals/data.json</guid>
+      <description>&lt;p&gt;Supplementary exercises on triple integrals in rectangular, cylindrical, and spherical coordinates, and gravitational attraction.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>6. Vector Integral Calculus in Space</title>
+      <link>/resources/vec_int_calc_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/vec_int_calc_sol/data.json</guid>
+      <description>&lt;p&gt;Solutions to supplementary exercises on vector integral calculus in space.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>6. Vector Integral Calculus in Space</title>
+      <link>/resources/vect_intgrl_calc/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/vect_intgrl_calc/data.json</guid>
+      <description>&lt;p&gt;Supplementary exercises on vector integral calculus in space.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CV. Changing Variables in Multiple Integrals</title>
+      <link>/resources/multipl_integrls/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/multipl_integrls/data.json</guid>
+      <description>&lt;p&gt;Supplementary notes on changing variables in multiple integrals, putting in the limits, and changing coordinates in triple integrals.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>D. Determinants</title>
+      <link>/resources/determinants/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/determinants/data.json</guid>
+      <description>&lt;p&gt;Supplementary notes on determinants, Laplace expansion by cofactors, and area and volume interpretation of the determinant.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>G. Gravitational Attraction</title>
+      <link>/resources/gravitnl_attracn/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/gravitnl_attracn/data.json</guid>
+      <description>&lt;p&gt;Supplementary notes on gravitational attraction.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>I. Limits in Iterated Integrals</title>
+      <link>/resources/lim_itratd_intgr/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lim_itratd_intgr/data.json</guid>
+      <description>&lt;p&gt;Supplementary notes on limits in iterated integrals, double integrals in rectangular coordinates, double integrals in polar coordinates, triple integrals in rectangular and cylindrical coordinates, and spherical coordinates.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>K. Kepler&#39;s Second Law</title>
+      <link>/resources/kepler_secnd_law/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/kepler_secnd_law/data.json</guid>
+      <description>&lt;p&gt;Supplementary notes on differentiation of products of vectors, Kepler&amp;rsquo;s second law, and the central force.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>LS. Least Squares Interpolation</title>
+      <link>/resources/least_sq_intrpol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/least_sq_intrpol/data.json</guid>
+      <description>&lt;p&gt;Supplementary notes on least squares interpolation, the least-squares line, and fitting curves by least squares.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>M. Matrices and Linear Algebra</title>
+      <link>/resources/matrices_algebra/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/matrices_algebra/data.json</guid>
+      <description>&lt;p&gt;Supplementary notes on matrices and linear algebra.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Matlab Instructions</title>
+      <link>/resources/matlab/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/matlab/data.json</guid>
+      <description>&lt;p&gt;Instructions on how to use the program MATLAB, which students must use on some problem sets.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>N. Non-independent Variables</title>
+      <link>/resources/non_ind_variable/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/non_ind_variable/data.json</guid>
+      <description>&lt;p&gt;Supplementary notes on partial differentiation with non-independent variables, differentials versus chain rule, abstract partial differentiation, rules relating partial derivatives, and changing the independent variables.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>P. Partial Differential Equations</title>
+      <link>/resources/part_diff_eqn/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/part_diff_eqn/data.json</guid>
+      <description>&lt;p&gt;Supplementary notes on partial differential equations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Readings</title>
+      <link>/pages/readings/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/readings/data.json</guid>
+      <description>&lt;p&gt;Listed in the table below are reading assignments for each lecture session.&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;Text&amp;rdquo; refers to the course textbook: Edwards, Henry C., and David E. Penney. &lt;em&gt;Multivariable Calculus&lt;/em&gt;. 6th ed. Lebanon, IN: Prentice Hall, 2002. ISBN: 9780130339676.&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;Notes&amp;rdquo; refers to the &amp;ldquo;&lt;a href=&#34;../../pages/readings/supp_notes/index.html&#34;&gt;18.02 Supplementary Notes and Problems&lt;/a&gt;&amp;rdquo; written by Prof. Arthur Mattuck.&lt;/p&gt;&#xA;&lt;p&gt;&lt;table&gt;&#xA;&#xA;&lt;thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;LEC #&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;TOPICS&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;READINGS&#xA;&lt;/th&gt;&#xA;&lt;/p&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;p&gt;&lt;/thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td colspan=&#34;3&#34;&gt;&#xA;&#xA;&lt;strong&gt;I. Vectors and matrices&lt;/strong&gt;&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;0&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Vectors&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Text: Section 12.1&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;1&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Dot product&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Text: Section 12.2&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SD. Second Derivative Test</title>
+      <link>/resources/2nd_derivative/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/2nd_derivative/data.json</guid>
+      <description>&lt;p&gt;Supplementary notes on the second derivative test.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>TA. The Tangent Approximation</title>
+      <link>/resources/tangent_approx/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/tangent_approx/data.json</guid>
+      <description>&lt;p&gt;Supplementary notes on the tangent approximation, partial derivatives, the tangent plane, the approximation formula, and critique of the approximation formula.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>V1. Plane Vector Fields</title>
+      <link>/resources/plane_vector_fld/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/plane_vector_fld/data.json</guid>
+      <description>&lt;p&gt;Supplementary notes on vector integral calculus, vector fields in the plane, gradient fields, flow fields, and velocity fields,&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>V10. The Divergence Theorem</title>
+      <link>/resources/divergance_thm/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/divergance_thm/data.json</guid>
+      <description>&lt;p&gt;Supplementary notes on the divergence theorem.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>V11. Line Integrals in Space</title>
+      <link>/resources/line_integrals/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/line_integrals/data.json</guid>
+      <description>&lt;p&gt;Supplementary notes on line integrals in space, curves in space, gradient fields, and path-independence.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>V12. Gradient Fields in Space</title>
+      <link>/resources/gradient_fields/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/gradient_fields/data.json</guid>
+      <description>&lt;p&gt;Supplementary notes on gradient fields in space, the criterion for gradient fields, the curl in space, and exact differentials.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>V13. Stokes&#39; Theorem</title>
+      <link>/resources/stokes_theorem/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/stokes_theorem/data.json</guid>
+      <description>&lt;p&gt;Supplementary notes on Stokes&amp;rsquo; theorem, the relation of Stokes&amp;rsquo; theorem to Green&amp;rsquo;s theorem, and proof of Stokes&amp;rsquo; theorem.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>V14. Some Topological Questions</title>
+      <link>/resources/topological_ques/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/topological_ques/data.json</guid>
+      <description>&lt;p&gt;Supplementary notes on vector integral calculus, Stokes&amp;rsquo; theorem, and topological questions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>V15. Relation to Physics</title>
+      <link>/resources/relation_to_phy/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/relation_to_phy/data.json</guid>
+      <description>&lt;p&gt;Supplementary notes on the use of the divergence theorem, Stokes&amp;rsquo; theorem in space,and  Green&amp;rsquo;s theorem in the plane in electromagnetic theory.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>V2. Gradient Fields and Exact Differentials</title>
+      <link>/resources/grad_fld_n_diff/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/grad_fld_n_diff/data.json</guid>
+      <description>&lt;p&gt;Supplementary notes on gradient fields and exact differentials, criterion for gradient fields, and finding the potential function.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>V3. Two-dimensional Flux</title>
+      <link>/resources/2_dimentnl_flux/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/2_dimentnl_flux/data.json</guid>
+      <description>&lt;p&gt;Supplementary notes on two-dimensional flux.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>V4. Green&#39;s Theorem in Normal Form</title>
+      <link>/resources/green_theorem/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/green_theorem/data.json</guid>
+      <description>&lt;p&gt;Supplementary notes on Green&amp;rsquo;s theorem in normal form, Green&amp;rsquo;s theorem for flux, the two-dimensional divergence, and an interpretation for curl F.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>V5. Simply-Connected Regions</title>
+      <link>/resources/simpl_conctd_reg/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/simpl_conctd_reg/data.json</guid>
+      <description>&lt;p&gt;Supplementary notes on simply-connected regions, the extended Green&amp;rsquo;s theorem, multiply-connected regions, and the Curl theorem.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>V6. Multiply-connected Regions; Topology</title>
+      <link>/resources/mult_conectd_reg/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mult_conectd_reg/data.json</guid>
+      <description>&lt;p&gt;Supplementary notes on multiply-connected regions and topology.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>V7. Laplace&#39;s Equation and Harmonic Functions</title>
+      <link>/resources/laplace_eqn/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/laplace_eqn/data.json</guid>
+      <description>&lt;p&gt;Supplementary notes on Laplace&amp;rsquo;s equation, harmonic functions, vector fields, boundary-value problems, existence and uniqueness for harmonic functions, and the uniqueness theorem.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>V8. Vector Fields in Space</title>
+      <link>/resources/vector_fields/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/vector_fields/data.json</guid>
+      <description>&lt;p&gt;Supplementary notes on vector fields in space.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>V9. Surface Integrals</title>
+      <link>/resources/surface_integrls/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/surface_integrls/data.json</guid>
+      <description>&lt;p&gt;Supplementary notes on surface integrals, the surface integral for flux, flux through general surfaces, and other types of surface integrals.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

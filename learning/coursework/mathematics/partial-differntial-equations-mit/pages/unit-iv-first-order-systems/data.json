@@ -1,0 +1,6 @@
+
+{
+  "title":"Unit IV: First-order Systems",
+  "content":"« Previous | Next »\nNonlinear phase portrait. Modeled on the MIT mathlet Vector Fields.\nIn this unit we study systems of differential equations. A system of ODE\u0026rsquo;s means a DE with one independent variable but more than one dependent variable, for example:\nx\u0026rsquo; = x + y, y\u0026rsquo; = _x_2 - y - t\nis a 2x2 system of DE\u0026rsquo;s for the two functions x = x(t) and y = y(t).\nAs usual, we start with the linear case. Even for linear systems, though, it turns out that efficient solution methods require some new techniques, namely the machinery of matrix-vector algebra. A small investment in this background material yields an excellent return, giving both the linear theory in the general case and also the explicit computational methods for the solutions in the constant-coefficient case.\nWe finish this unit by showing some of the qualitative theory of DE\u0026rsquo;s for systems, linear and non-linear. Qualitative theory means finding out information about the solutions directly from the DE without actually having to solve it. We start with the linear case, and then show how we can use the results for linear constant-coefficient systems to gain information about certain non-linear systems using a technique called linearization.\n« Previous | Next »\n"}
+
+

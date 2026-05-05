@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Readings on MIT OpenCourseWare</title>
+    <link>/resources/readings/</link>
+    <description>Recent content in Readings on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/readings/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Readings</title>
+      <link>/pages/readings/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/readings/data.json</guid>
+      <description>&lt;p&gt;This section contains the course&amp;rsquo;s reading assignments, which refer to the required textbook:&lt;/p&gt;&#xA;&lt;p&gt;Agarwal, Anant, and Jeffrey H. Lang. &lt;a   class=&#34;external-link &#34;   target=&#34;_blank&#34;   href=&#34;https://neurophysics.ucsd.edu/courses/physics_120/Agarwal%20and%20Lang%20%282005%29%20Foundations%20of%20Analog%20and%20Digital.pdf&#34;  aria-label=&#34;Foundations of Analog and Digital Electronic Circuits (opens in a new tab)&#34;  &gt;&lt;em&gt;Foundations of Analog and Digital Electronic Circuits&lt;/em&gt;&lt;/a&gt;. San Mateo, CA: Morgan Kaufmann Publishers, Elsevier, July 2005. ISBN: 9781558607354.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a   class=&#34;external-link &#34;   target=&#34;_blank&#34;   href=&#34;http://store.elsevier.com/Foundations-of-Analog-and-Digital-Electronic-Circuits/Anant-Agarwal/isbn-9781558607354/&#34;  aria-label=&#34;View e-book version (opens in a new tab)&#34;  &gt;View e-book version&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a   class=&#34;external-link &#34;   target=&#34;_blank&#34;   href=&#34;http://www.elsevierdirect.com/companion.jsp?ISBN=9781558607354&#34;  aria-label=&#34;Elsevier companion site: supplementary sections and examples (opens in a new tab)&#34;  &gt;Elsevier companion site: supplementary sections and examples&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

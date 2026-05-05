@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lecture Videos on MIT OpenCourseWare</title>
+    <link>/resources/lecture-videos/</link>
+    <description>Recent content in Lecture Videos on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/lecture-videos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecture 1: Dot Product</title>
+      <link>/resources/lecture-1-dot-product/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-1-dot-product/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Dot product&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Prof. Denis Auroux&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 10: Second Derivative Test</title>
+      <link>/resources/lecture-10-second-derivative-test/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-10-second-derivative-test/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Second derivative test; boundaries and infinity&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Prof. Denis Auroux&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 11: Chain Rule</title>
+      <link>/resources/lecture-11-chain-rule/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-11-chain-rule/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Differentials; chain rule&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Prof. Denis Auroux&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 12: Gradient</title>
+      <link>/resources/lecture-12-gradient/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-12-gradient/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Gradient; directional derivative; tangent plane&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Prof. Denis Auroux&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 13: Lagrange Multipliers</title>
+      <link>/resources/lecture-13-lagrange-multipliers/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-13-lagrange-multipliers/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Lagrange multipliers&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Prof. Denis Auroux&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 14: Non-Independent Variables</title>
+      <link>/resources/lecture-14-non-independent-variables/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-14-non-independent-variables/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Non-independent variables&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Prof. Denis Auroux&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 15: Partial Differential Equations</title>
+      <link>/resources/lecture-15-partial-differential-equations/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-15-partial-differential-equations/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Partial differential equations; review&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Prof. Denis Auroux&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 16: Double Integrals</title>
+      <link>/resources/lecture-16-double-integrals/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-16-double-integrals/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Double integrals&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Prof. Denis Auroux&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 17: Polar Coordinates</title>
+      <link>/resources/lecture-17-polar-coordinates/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-17-polar-coordinates/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Double integrals in polar coordinates; applications&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Prof. Denis Auroux&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 18: Change of Variables</title>
+      <link>/resources/lecture-18-change-of-variables/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-18-change-of-variables/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Change of variables&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Prof. Denis Auroux&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 19: Vector Fields</title>
+      <link>/resources/lecture-19-vector-fields/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-19-vector-fields/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Vector fields and line integrals in the plane&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Prof. Denis Auroux&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 2: Determinants</title>
+      <link>/resources/lecture-2-determinants/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-2-determinants/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Determinants; cross product&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Prof. Denis Auroux&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 20: Path Independence</title>
+      <link>/resources/lecture-20-path-independence/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-20-path-independence/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Path independence and conservative fields&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Prof. Denis Auroux&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 21: Gradient Fields</title>
+      <link>/resources/lecture-21-gradient-fields/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-21-gradient-fields/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Gradient fields and potential functions&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Prof. Denis Auroux&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 22: Green&#39;s Theorem</title>
+      <link>/resources/lecture-22-greens-theorem/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-22-greens-theorem/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Green&amp;rsquo;s theorem&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Prof. Denis Auroux&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 23: Flux</title>
+      <link>/resources/lecture-23-flux/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-23-flux/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Flux; normal form of Green&amp;rsquo;s theorem&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Prof. Denis Auroux&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 24: Simply Connected Regions</title>
+      <link>/resources/lecture-24-simply-connected-regions/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-24-simply-connected-regions/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Simply connected regions; review&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Prof. Denis Auroux&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 25: Triple Integrals</title>
+      <link>/resources/lecture-25-triple-integrals/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-25-triple-integrals/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Triple integrals in rectangular and cylindrical coordinates&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Prof. Denis Auroux&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 26: Spherical Coordinates</title>
+      <link>/resources/lecture-26-spherical-coordinates/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-26-spherical-coordinates/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Spherical coordinates; surface area&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Prof. Denis Auroux&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 27: Vector Fields in 3D</title>
+      <link>/resources/lecture-27-vector-fields-in-3d/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-27-vector-fields-in-3d/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Vector fields in 3D; surface integrals and flux&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Prof. Denis Auroux&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 28: Divergence Theorem</title>
+      <link>/resources/lecture-28-divergence-theorem/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-28-divergence-theorem/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Divergence theorem&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Prof. Denis Auroux&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 29: Divergence Theorem (cont.)</title>
+      <link>/resources/lecture-29-divergence-theorem-cont/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-29-divergence-theorem-cont/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Divergence theorem (cont.): applications and proof&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Prof. Denis Auroux&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 3: Matrices</title>
+      <link>/resources/lecture-3-matrices/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-3-matrices/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Matrices; inverse matrices&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Prof. Denis Auroux&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 30: Line Integrals</title>
+      <link>/resources/lecture-30-line-integrals/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-30-line-integrals/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Line integrals in space, curl, exactness and potentials&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Prof. Denis Auroux&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 31: Stokes&#39; Theorem</title>
+      <link>/resources/lecture-31-stokes-theorem/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-31-stokes-theorem/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Stokes&amp;rsquo; theorem&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Prof. Denis Auroux&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 32: Stokes&#39; Theorem (cont.)</title>
+      <link>/resources/lecture-32-stokes-theorem-cont/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-32-stokes-theorem-cont/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Stokes&amp;rsquo; theorem (cont.); review&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Prof. Denis Auroux&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 33: Maxwell&#39;s Equations</title>
+      <link>/resources/lecture-33-maxwells-equations/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-33-maxwells-equations/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Topological considerations - Maxwell&amp;rsquo;s equations&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Prof. Denis Auroux&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 34: Final Review</title>
+      <link>/resources/lecture-34-final-review/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-34-final-review/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Final review&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Prof. Denis Auroux&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 35: Final Review (cont.)</title>
+      <link>/resources/lecture-35-final-review-cont/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-35-final-review-cont/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Final review (cont.)&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Prof. Denis Auroux&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 4: Square Systems</title>
+      <link>/resources/lecture-4-square-systems/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-4-square-systems/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Square systems; equations of planes&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Prof. Denis Auroux&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 5: Parametric Equations</title>
+      <link>/resources/lecture-5-parametric-equations/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-5-parametric-equations/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Parametric equations for lines and curves&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Prof. Denis Auroux&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 6: Kepler&#39;s Second Law</title>
+      <link>/resources/lecture-6-keplers-second-law/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-6-keplers-second-law/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Velocity, acceleration - Kepler&amp;rsquo;s second law&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Prof. Denis Auroux&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 7: Exam Review</title>
+      <link>/resources/lecture-7-exam-review/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-7-exam-review/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Review&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Prof. Denis Auroux&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 8: Partial Derivatives</title>
+      <link>/resources/lecture-8-partial-derivatives/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-8-partial-derivatives/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Level curves; partial derivatives; tangent plane approximation&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Prof. Denis Auroux&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 9: Max-Min and Least Squares</title>
+      <link>/resources/lecture-9-max-min-and-least-squares/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-9-max-min-and-least-squares/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Max-min problems; least squares&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Prof. Denis Auroux&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Video Lectures</title>
+      <link>/video_galleries/video-lectures/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/video_galleries/video-lectures/data.json</guid>
+      <description>&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-1-dot-product/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/PxCxlsl_YwY/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 1: Dot Product&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-2-determinants/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/9FLItlbBUPY/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 2: Determinants&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-3-matrices/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/bHdzkFrgRcA/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 3: Matrices&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-4-square-systems/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/YBajUR3EFSM/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 4: Square Systems&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-5-parametric-equations/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/57jzPlxf4fk/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 5: Parametric Equations&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-6-keplers-second-law/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/0D4BbCa4gHo/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 6: Kepler&amp;#39;s Second Law&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-7-exam-review/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/U1EcnfTKXJ0/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 7: Exam Review&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-8-partial-derivatives/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/dK3NEf13nPc/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 8: Partial Derivatives&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-9-max-min-and-least-squares/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/UYe98CcxPbs/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 9: Max-Min and Least Squares&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-10-second-derivative-test/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/3_goGnJm5sA/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 10: Second Derivative Test&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-11-chain-rule/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/7eZVshlT33Q/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 11: Chain Rule&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-12-gradient/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/2XraaWefBd8/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 12: Gradient&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-13-lagrange-multipliers/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/15HVevXRsBA/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 13: Lagrange Multipliers&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-14-non-independent-variables/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/23xbkrpQuAo/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 14: Non-Independent Variables&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-15-partial-differential-equations/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/ChiM2-MV-qM/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 15: Partial Differential Equations&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-16-double-integrals/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/YP_B0AapU0c/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 16: Double Integrals&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-17-polar-coordinates/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/60e4hdCi1D4/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 17: Polar Coordinates&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-18-change-of-variables/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/UZb9hZIAvL4/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 18: Change of Variables&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-19-vector-fields/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/xrypSZU8cBE/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 19: Vector Fields&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-20-path-independence/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/o7UCBjGsRTE/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 20: Path Independence&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-21-gradient-fields/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/z5TPjZrsp2k/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 21: Gradient Fields&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-22-greens-theorem/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/tYdoS0tkAHA/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 22: Green&amp;#39;s Theorem&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-23-flux/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/_CdoRiNSrqI/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 23: Flux&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-24-simply-connected-regions/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/PnPIqh7Frlw/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 24: Simply Connected Regions&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-25-triple-integrals/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/44R5HgbrUmc/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 25: Triple Integrals&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-26-spherical-coordinates/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/RMBGQtwkoyU/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 26: Spherical Coordinates&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-27-vector-fields-in-3d/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/phk05iSMezA/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 27: Vector Fields in 3D&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-28-divergence-theorem/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/WfEQabCGAqI/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 28: Divergence Theorem&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-29-divergence-theorem-cont/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/wu8kXZSAp20/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 29: Divergence Theorem (cont.)&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-30-line-integrals/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/seO7-TwXH_I/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 30: Line Integrals&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-31-stokes-theorem/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/tzoYhe3H5dM/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 31: Stokes&amp;#39; Theorem&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-32-stokes-theorem-cont/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/sr7kCpzAuYw/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 32: Stokes&amp;#39; Theorem (cont.)&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-33-maxwells-equations/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/BChhAS1sFvA/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 33: Maxwell&amp;#39;s Equations&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-34-final-review/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/ZwpwmGP5ITM/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 34: Final Review&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-35-final-review-cont/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/24v9onS9Kcg/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 35: Final Review (cont.)&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;</description>
+    </item>
+  </channel>
+</rss>

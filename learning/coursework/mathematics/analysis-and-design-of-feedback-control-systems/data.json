@@ -1,0 +1,23 @@
+{
+  "course_title":"Analysis and Design of Feedback Control Systems",
+  "course_description":"This course develops the fundamentals of feedback control using linear transfer function system models. Topics covered include analysis in time and frequency domains; design in the s-plane (root locus) and in the frequency domain (loop shaping); describing functions for stability of certain non-linear systems; extension to state variable systems and multivariable control with observers; discrete and digital hybrid systems and use of z-plane design. Students will complete an extended design case study. Students taking the graduate version (2.140) will attend the recitation sessions and complete additional assignments.\n",
+  "course_description_html":"This course develops the fundamentals of feedback control using linear transfer function system models. Topics covered include analysis in time and frequency domains; design in the s-plane (root locus) and in the frequency domain (loop shaping); describing functions for stability of certain non-linear systems; extension to state variable systems and multivariable control with observers; discrete and digital hybrid systems and use of z-plane design. Students will complete an extended design case study. Students taking the graduate version (2.140) will attend the recitation sessions and complete additional assignments.",
+  "site_uid":"28e81424-b240-444d-8d8c-0899d6b70302",
+  "legacy_uid":"0b42f645-8cba-156f-906f-3b8f359c8101","instructors": [{
+    "first_name":"David",
+    "last_name":"Trumper",
+    "middle_initial":"",
+    "salutation":"Prof.",
+    "title":"Prof. David Trumper"}],"department_numbers":["2"],
+  "learning_resource_types":["Projects","Problem Sets"],
+  "topics":[["Engineering","Mechanical Engineering","Dynamics and Control"],["Engineering","Mechanical Engineering","Mechanical Design"],["Engineering","Electrical Engineering","Robotics and Control Systems"]],
+  "mit_learn_topics":null,
+  "primary_course_number":"2.14",
+  "extra_course_numbers":"2.140",
+  "term":"Spring",
+  "year":"2014",
+  "level":["Undergraduate"],
+  "hide_download":null,
+  "image_src":"./static_resources/cbc4d7bcf2f7e8e1c93237097afe63db_2-14s14.jpg",
+  "course_image_metadata":{"content_type":"resource","description":"Feedback control systems are central to many advanced technologies such as robotics. In this photo, Mission Specialist Steve Robinson is anchored to a foot restraint on the International Space Station's robotic arm during a spacewalk. (Courtesy of NASA.) ","draft":false,"file":"/courses/2-14-analysis-and-design-of-feedback-control-systems-spring-2014/cbc4d7bcf2f7e8e1c93237097afe63db_2-14s14.jpg","file_size":28994,"file_type":"image/jpeg","image_metadata":{"caption":"Feedback control systems are central to many advanced technologies such as robotics. In this photo, Mission Specialist Steve Robinson is anchored to a foot restraint on the International Space Station's robotic arm during a spacewalk. (Courtesy of {{% resource_link \"f19ab585-43ab-4bba-b34f-5a6fc692bc5e\" \"NASA\" %}}.)","credit":"Courtesy of NASA.","image-alt":"Astronaut Steve Robinson in space, standing on a long robotic arm."},"iscjklanguage":false,"learning_resource_types":[],"license":"https://creativecommons.org/licenses/by-nc-sa/4.0/","ocw_type":"OCWImage","resourcetype":"Image","title":"2-14s14.jpg","uid":"cbc4d7bc-f2f7-e8e1-c932-37097afe63db"}}
+

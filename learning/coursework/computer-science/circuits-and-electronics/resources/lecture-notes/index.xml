@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lecture Notes on MIT OpenCourseWare</title>
+    <link>/resources/lecture-notes/</link>
+    <description>Recent content in Lecture Notes on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/lecture-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Demonstration: AND gate output, noise</title>
+      <link>/resources/demo_05a/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/demo_05a/data.json</guid>
+      <description>&lt;p&gt;This resource is a demo file.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Demonstration: Boost converter</title>
+      <link>/resources/demo_28/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/demo_28/data.json</guid>
+      <description>&lt;p&gt;This resource contains input output waveforms of a boost converter.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Demonstration: Crosstalk</title>
+      <link>/resources/demo_19/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/demo_19/data.json</guid>
+      <description>&lt;p&gt;This resource contains a demo showing the capacitive coupling between signals on two separate wires in proximity.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Demonstration: Demonstrates a resonant LC circuit</title>
+      <link>/resources/demo_23/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/demo_23/data.json</guid>
+      <description>&lt;p&gt;This resource contains domonstration on resonant LC circuit.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Demonstration: Demonstrates a resonant LC circuit</title>
+      <link>/resources/demo_26/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/demo_26/data.json</guid>
+      <description>&lt;p&gt;This resource contains waveforms of RC response.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Demonstration: Digital memory</title>
+      <link>/resources/demo_15/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/demo_15/data.json</guid>
+      <description>&lt;p&gt;This resource contains a demo which looks at designs of digital memory using a capacitor and inverters (buffers).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Demonstration: Diode circuits and characteristic</title>
+      <link>/resources/demo_25/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/demo_25/data.json</guid>
+      <description>&lt;p&gt;This resource contains characteristic of diode circuits and waveforms.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Demonstration: Displays the transfer function of RC lowpass and highpass</title>
+      <link>/resources/demo_20/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/demo_20/data.json</guid>
+      <description>&lt;p&gt;This resource contains a demonstration showing the magnitude and phase plots for an RC lowpass filter on the Dynamic Signal Analyzer. Also allow students to hear the sine tone.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Demonstration: Energy and power in CMOS</title>
+      <link>/resources/demo_18rp/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/demo_18rp/data.json</guid>
+      <description>&lt;p&gt;This resource contains a demo measuring the temperature of a CMOS inverter using a thermocouple and verifies that the dissipated power is proportional to Vs2 F, where Vs is the supply voltage, and F is the switching frequency.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Demonstration: Energy and power in RC network</title>
+      <link>/resources/demo_18/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/demo_18/data.json</guid>
+      <description>&lt;p&gt;This resource contains a demo showing power consumption using MOSFET and RC Network.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Demonstration: First order sinusoidal steady state</title>
+      <link>/resources/demo_13/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/demo_13/data.json</guid>
+      <description>&lt;p&gt;This resource contains a demo examining first order sinusoidal steady state responses of the inverting amplifier and an RC circuit.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Demonstration: Gate delay</title>
+      <link>/resources/demo_11/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/demo_11/data.json</guid>
+      <description>&lt;p&gt;This resource contains a demo which examines gate delay using two cascaded MOSFET inverters, and also an RC circuit model.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Demonstration: I-V characteristic of various components</title>
+      <link>/resources/demo_01/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/demo_01/data.json</guid>
+      <description>&lt;p&gt;This resource is a demo file.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Demonstration: IDS vs. VDS load line</title>
+      <link>/resources/demo_10/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/demo_10/data.json</guid>
+      <description>&lt;p&gt;This recource contains a demo presenting a picture of the MOSFET amplifier behavior by displaying a load line over a set of (premade) MOSFET i-v curves.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Demonstration: Impedance matching</title>
+      <link>/resources/demo_19a/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/demo_19a/data.json</guid>
+      <description>&lt;p&gt;This resource contains a demo showing the inductive effect of long wires by showing voltage spikes on a power supply with a long lead when steps in current occur (due to switching of an inverter state).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Demonstration: Impedance matching</title>
+      <link>/resources/demo_19b/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/demo_19b/data.json</guid>
+      <description>&lt;p&gt;This resource contains a demo showing the effects of delay (the speed of light not infinite), and that an open circuit does not always behave as stated in 6.002, various length cables are attached to a square wave input and the oscilloscope (also at the input).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Demonstration: Integrator and differentiator op-amp</title>
+      <link>/resources/demo_17/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/demo_17/data.json</guid>
+      <description>&lt;p&gt;This resource contains a demo showing the behavior of an (inverting) op-amp integrator and differentiator.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Demonstration: Integrator and differentiator RC network</title>
+      <link>/resources/demo_17a/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/demo_17a/data.json</guid>
+      <description>&lt;p&gt;This resource contains a demo showing how an RC circuit can approximate either an integrator (capacitor voltage at high frequencies) or a differentiator (resistor voltage at low frequencies).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Demonstration: KVL and KCL</title>
+      <link>/resources/demo_02/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/demo_02/data.json</guid>
+      <description>&lt;p&gt;This resource is a demo file.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Demonstration: MOS inverter</title>
+      <link>/resources/demo_07/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/demo_07/data.json</guid>
+      <description>&lt;p&gt;This resource is a demo file.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Demonstration: MOSFET inverting amplifier transfer characteristic, large signal</title>
+      <link>/resources/demo_08/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/demo_08/data.json</guid>
+      <description>&lt;p&gt;This resource is a demo file.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Demonstration: MOSFET inverting amplifier-small signal</title>
+      <link>/resources/demo_09/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/demo_09/data.json</guid>
+      <description>&lt;p&gt;This resource contains a demo which shows the amplification of small waveforms using a MOSFET, along with the limitations of such an amplifier.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Demonstration: Nonlinear device</title>
+      <link>/resources/demo_04/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/demo_04/data.json</guid>
+      <description>&lt;p&gt;This resource is a demo file.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Demonstration: Op-amp demo</title>
+      <link>/resources/demo_24/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/demo_24/data.json</guid>
+      <description>&lt;p&gt;This resource contains domonstration on opamp.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Demonstration: Parallel LC radio</title>
+      <link>/resources/demo_27/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/demo_27/data.json</guid>
+      <description>&lt;p&gt;This resource contains information on topics demonstrates an RLC filter to pickup AM radio, circuit diagrams and waveforms.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Demonstration: Relaxation oscillator</title>
+      <link>/resources/demo_21rp/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/demo_21rp/data.json</guid>
+      <description>&lt;p&gt;This resource contains information on topics oscilloscope setup, waveform generator setup, power supply setup and circuit diagrams.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Demonstration: S/SR/SCS models</title>
+      <link>/resources/demo_06/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/demo_06/data.json</guid>
+      <description>&lt;p&gt;This resource is a demo file.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Demonstration: Salt water</title>
+      <link>/resources/demo_03/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/demo_03/data.json</guid>
+      <description>&lt;p&gt;This resource is a demo file.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Demonstration: Schmitt trigger</title>
+      <link>/resources/demo_21/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/demo_21/data.json</guid>
+      <description>&lt;p&gt;This resource contains circuit diagrams on schmitt trigger.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Demonstration: Superposition using resistors</title>
+      <link>/resources/demo_05/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/demo_05/data.json</guid>
+      <description>&lt;p&gt;This resource is a demo file.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Demonstrations: Displays the transfer function of an RLC bandpass</title>
+      <link>/resources/demo_22/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/demo_22/data.json</guid>
+      <description>&lt;p&gt;This resource contains a demonstration showing the magnitude and phase plots for an RLC bandpass filter on the Dynamic Signal Analyzer.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Demonstrations: Gate ringing</title>
+      <link>/resources/demo_12/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/demo_12/data.json</guid>
+      <description>&lt;p&gt;This resource contains a demo examining second order responses using two cascaded inverters.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 1: Introduction and lumped abstraction</title>
+      <link>/resources/6002_l1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/6002_l1/data.json</guid>
+      <description>&lt;p&gt;This resource contains information on topics administrivia, what is engineering, lumped circuit abstraction and lumped matter discipline.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 10: Amplifiers - small signal model</title>
+      <link>/resources/6002_l10/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/6002_l10/data.json</guid>
+      <description>&lt;p&gt;This resource contains information on topics MOSFET amp and amplifiers.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 11: Small signal circuits</title>
+      <link>/resources/6002_l11/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/6002_l11/data.json</guid>
+      <description>&lt;p&gt;This resource contains information on topics small signal notation, small signal circuit view, small signal circuit analysis and dc supply.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 12: Capacitors and first-order systems</title>
+      <link>/resources/6002_l12/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/6002_l12/data.json</guid>
+      <description>&lt;p&gt;This resource contains information on topics motivation, capacitor, ideal linear capacitor and rc circuit.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 13: Digital circuit speed</title>
+      <link>/resources/6002_l13/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/6002_l13/data.json</guid>
+      <description>&lt;p&gt;This resource contains information on topics equivalent circuit, falling delay and thevenin replacement.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 14: State and memory</title>
+      <link>/resources/6002_l14/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/6002_l14/data.json</guid>
+      <description>&lt;p&gt;This resource contains information on topics rc circuit, digital memory, memory abstraction and truth table for decoder.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 15: Second-order systems</title>
+      <link>/resources/6002_l15/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/6002_l15/data.json</guid>
+      <description>&lt;p&gt;This resource contains information on topics second order systems, observed output, lc network and plotting the total solution.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 15b: Damped Second-order systems</title>
+      <link>/resources/6002_l15b/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/6002_l15b/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lecture 16: Sinusoidal steady state</title>
+      <link>/resources/6002_l16/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/6002_l16/data.json</guid>
+      <description>&lt;p&gt;This resource contains information on topics motivation, rc network and sinusoidal steady state.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 17: The impedance model</title>
+      <link>/resources/6002_l17/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/6002_l17/data.json</guid>
+      <description>&lt;p&gt;This resource contains information on topics complex algebra, frequency view and the impedance model.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 18: Filters</title>
+      <link>/resources/6002_l18/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/6002_l18/data.json</guid>
+      <description>&lt;p&gt;This resource contains information on topics filter, low pass filter, combining impedances and high pass filter.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 19: The operational amplifier abstraction</title>
+      <link>/resources/6002_l19/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/6002_l19/data.json</guid>
+      <description>&lt;p&gt;This resource contains information on topics amplifier abstraction, operational amplifier and noninverting amplifier.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 2: Basic circuit analysis method</title>
+      <link>/resources/6002_l2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/6002_l2/data.json</guid>
+      <description>&lt;p&gt;This resource contains information on topics lumped matter discipline, demo circuit, 2KVLa and KCL example.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 20: Operational amplifier circuits</title>
+      <link>/resources/6002_l20/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/6002_l20/data.json</guid>
+      <description>&lt;p&gt;This resource contains information on topics digital-to-analog converters, filters, clock generators, amplifiers, adders and integrators and differentiators.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 21: Op-amps positive feedback</title>
+      <link>/resources/6002_l21/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/6002_l21/data.json</guid>
+      <description>&lt;p&gt;This resource contains information on topics negative vs positive feedback, hysteresis and oscillator.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 22: Energy and power</title>
+      <link>/resources/6002_l22/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/6002_l22/data.json</guid>
+      <description>&lt;p&gt;This resource contains information on topics MOSFET gates, inverter and equivalent circuit.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 23: Energy, CMOS</title>
+      <link>/resources/6002_l23/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/6002_l23/data.json</guid>
+      <description>&lt;p&gt;This resource contains information on topics inverter, n-channel MOSFET (NFET) and p-channel MOSFET (PFET)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 24: Power conversion circuits and diodes</title>
+      <link>/resources/6002_l24/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/6002_l24/data.json</guid>
+      <description>&lt;p&gt;This resource contains information on topics power conversion circuits (pcc), piecewise?linear analysis and half-wave rectifier.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 25: Violating the abstraction barrier</title>
+      <link>/resources/6002_l25/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/6002_l25/data.json</guid>
+      <description>&lt;p&gt;This resource contains information on topics the double take, the double dip, drop across inductor and the double jump.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 3: Superposition, Thévenin and Norton</title>
+      <link>/resources/6002_l3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/6002_l3/data.json</guid>
+      <description>&lt;p&gt;This resource contains information on topics linearity, the thevenin method, homogeneity and superposition.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 4: The digital abstraction</title>
+      <link>/resources/6002_l4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/6002_l4/data.json</guid>
+      <description>&lt;p&gt;This resource contains information on topics discretize value, value discretization, voltage thresholds and logic values.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 5: Inside the digital gate</title>
+      <link>/resources/6002_l5/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/6002_l5/data.json</guid>
+      <description>&lt;p&gt;This resource contains information on topics static discipline, electrical analogy and MOSFET inverter.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 6: Nonlinear analysis</title>
+      <link>/resources/6002_l6/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/6002_l6/data.json</guid>
+      <description>&lt;p&gt;This resource contains information on topics discretize matter, nonlinear analysis and incremental analysis.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 7: Incremental analysis</title>
+      <link>/resources/6002_l7/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/6002_l7/data.json</guid>
+      <description>&lt;p&gt;This resource contains information on topics nonlinear analysis, analytical method, graphical method and incremental analysis.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 8: Dependent sources and amplifiers</title>
+      <link>/resources/6002_l8/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/6002_l8/data.json</guid>
+      <description>&lt;p&gt;This resource contains information on topics nonlinear circuits, linear response, dependent sources and amplifiers.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 9: MOSFET amplifier large signal analysis</title>
+      <link>/resources/6002_l9/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/6002_l9/data.json</guid>
+      <description>&lt;p&gt;This resource contains information on topics MOSFET, amplifier and large signal analysis of amplifier.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture Notes</title>
+      <link>/pages/lecture-notes/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/lecture-notes/data.json</guid>
+      <description>&lt;p&gt;This section contains lecture notes from the Fall 2000 version of the course. These notes can also be found in the &lt;a href=&#34;../../video_galleries/video-lectures/index.html&#34;&gt;Video Lectures&lt;/a&gt; section, under the Related Resources tab for each video. Demonstration handouts can be found there as well.&lt;/p&gt;&#xA;&lt;p&gt;Notes for Lecture 24 are not available.&lt;/p&gt;&#xA;&lt;p&gt;&lt;table&gt;&#xA;&#xA;&lt;thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;LEC #&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;TOPICS&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;LECTURE NOTES&#xA;&lt;/th&gt;&#xA;&lt;/p&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;p&gt;&lt;/thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;1&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Introduction and lumped abstraction&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/6002_l1/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;2&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Basic circuit analysis method&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/6002_l2/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;3&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Superposition, Thévenin and Norton&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/6002_l3/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

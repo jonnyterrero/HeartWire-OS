@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tools on MIT OpenCourseWare</title>
+    <link>/resources/tools/</link>
+    <description>Recent content in Tools on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/tools/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tools</title>
+      <link>/pages/tools/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/tools/data.json</guid>
+      <description>&lt;p&gt;The simulation files and Java applets in this section were used to reinforce the probability concepts covered in the course.&lt;/p&gt;&#xA;&#xA;    &lt;h3 id=&#34;applications&#34;&gt;Applications&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;A Simple Radar Example (&lt;a href=&#34;../../resources/radar_example_zip/index.html&#34;&gt;ZIP&lt;/a&gt;) (The ZIP file contains: 3 MatLab (2 .m and 1 .fig) files and 1 .txt file.) &lt;br&gt;&#xA;A Communication Example: The Binary Symmetric Channel (&lt;a   class=&#34;external-link &#34;   target=&#34;_blank&#34;   href=&#34;https://ocw-studio.odl.mit.edu/ans7870/6/6.041/s06/tools/Bin_Sym_Channel/bin_sym_channel.htm&#34;  aria-label=&#34;Java (opens in a new tab)&#34;  &gt;Java&lt;/a&gt;)&lt;/p&gt;&#xA;&#xA;    &lt;h3 id=&#34;cumulative-density-functions&#34;&gt;Cumulative Density Functions&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Continuous Uniform Random Variables (&lt;a   class=&#34;external-link &#34;   target=&#34;_blank&#34;   href=&#34;https://ocw-studio.odl.mit.edu/ans7870/6/6.041/s06/tools/uniformCDF.wmv&#34;  aria-label=&#34;WMV (opens in a new tab)&#34;  &gt;WMV&lt;/a&gt;) &lt;br&gt;&#xA;Normal Random Variables (&lt;a   class=&#34;external-link &#34;   target=&#34;_blank&#34;   href=&#34;https://ocw-studio.odl.mit.edu/ans7870/6/6.041/s06/tools/normalCDF.wmv&#34;  aria-label=&#34;WMV (opens in a new tab)&#34;  &gt;WMV&lt;/a&gt;)&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

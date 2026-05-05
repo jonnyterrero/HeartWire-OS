@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Exams on MIT OpenCourseWare</title>
+    <link>/resources/exams/</link>
+    <description>Recent content in Exams on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/exams/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2004 Final Exam</title>
+      <link>/resources/mit6_042jf10_final_2004/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_042jf10_final_2004/data.json</guid>
+      <description>&lt;p&gt;This resource contains 2004 final exam.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2004 Final Exam Solutions</title>
+      <link>/resources/mit6_042jf10_fnl_2004_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_042jf10_fnl_2004_sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions of 2004 final exam.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2006 Final Exam</title>
+      <link>/resources/mit6_042jf10_final_2006/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_042jf10_final_2006/data.json</guid>
+      <description>&lt;p&gt;This resource contains 2006 final exam.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2006 Final Exam Solutions</title>
+      <link>/resources/mit6_042jf10_fnl_2006_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_042jf10_fnl_2006_sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions of 2006 final exam.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2008 Final Exam</title>
+      <link>/resources/mit6_042jf10_final_2008/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_042jf10_final_2008/data.json</guid>
+      <description>&lt;p&gt;This resource contains 2008 final exam.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2008 Final Exam Solutions</title>
+      <link>/resources/mit6_042jf10_fnl_2008_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_042jf10_fnl_2008_sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions of 2008 final exam.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Exams</title>
+      <link>/pages/exams/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/exams/data.json</guid>
+      <description>&lt;p&gt;All exams and solutions are courtesy of the instructors named on the first page, and are used with permission. Solutions to the final exam are not available.&lt;/p&gt;&#xA;&lt;p&gt;&lt;table&gt;&#xA;&#xA;&lt;thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;DESCRIPTIONS&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;EXAMS&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;SOLUTIONS&#xA;&lt;/th&gt;&#xA;&lt;/p&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;p&gt;&lt;/thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Midterm practice problems&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit6_042jf10_mid_practice/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit6_042jf10_mid_pctce_sol/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Midterm&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit6_042jf10_midterm/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit6_042jf10_midterm_sol/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;2004 final exam&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit6_042jf10_final_2004/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit6_042jf10_fnl_2004_sol/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;2006 final exam&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit6_042jf10_final_2006/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit6_042jf10_fnl_2006_sol/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;2008 final exam&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit6_042jf10_final_2008/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit6_042jf10_fnl_2008_sol/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Final exam&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit6_042jf10_final/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;/table&gt;</description>
+    </item>
+    <item>
+      <title>Final Exam</title>
+      <link>/resources/mit6_042jf10_final/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_042jf10_final/data.json</guid>
+      <description>&lt;p&gt;This resource contains final exam.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Midterm</title>
+      <link>/resources/mit6_042jf10_midterm/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_042jf10_midterm/data.json</guid>
+      <description>&lt;p&gt;This resource contains midterm exam.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Midterm Practice Problems</title>
+      <link>/resources/mit6_042jf10_mid_practice/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_042jf10_mid_practice/data.json</guid>
+      <description>&lt;p&gt;This resource contains practice midterm exam.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Midterm Practice Problems Solutions</title>
+      <link>/resources/mit6_042jf10_mid_pctce_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_042jf10_mid_pctce_sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains practice midterm exam.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Midterm Solutions</title>
+      <link>/resources/mit6_042jf10_midterm_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_042jf10_midterm_sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions of midterm exam.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

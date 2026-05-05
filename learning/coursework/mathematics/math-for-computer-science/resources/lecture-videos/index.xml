@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lecture Videos on MIT OpenCourseWare</title>
+    <link>/resources/lecture-videos/</link>
+    <description>Recent content in Lecture Videos on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/lecture-videos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecture 1: Introduction and Proofs</title>
+      <link>/resources/lecture-1-introduction-and-proofs/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-1-introduction-and-proofs/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; Introduction to mathematical proofs using axioms and propositions. Covers basics of truth tables and implications, as well as some famous hypotheses and conjectures.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Tom Leighton&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 10: Graph Theory III</title>
+      <link>/resources/lecture-10-graph-theory-iii/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-10-graph-theory-iii/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; Builds upon previous lectures to cover additional graph classifications and criteria, including tournament graphs and directed acyclic graphs. Also covers Euler Tours, Hamiltonian paths, and adjacency matrices.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Marten van Dijk&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 11: Relations, Partial Orders, and Scheduling</title>
+      <link>/resources/lecture-11-relations-partial-orders-and-scheduling/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-11-relations-partial-orders-and-scheduling/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; Covers definitions and examples of basic relations, equivalence classes, Hasse diagrams and topological sorts, as well as other topics.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Marten van Dijk&lt;/p&gt;&#xA;&lt;p&gt;The last 30 minutes of this video are not available.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 12: Sums</title>
+      <link>/resources/lecture-12-sums/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-12-sums/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; An introduction to sums through examination of real–world problems like annuities. Covers finding closed form solutions and bounds with the perturbation, derivative, and integral methods.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Tom Leighton&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 13: Sums and Asymptotics</title>
+      <link>/resources/lecture-13-sums-and-asymptotics/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-13-sums-and-asymptotics/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; Analysis of sums, formulation of asymptotic bounds using various techniques, and introduction to asymptotic notation.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Tom Leighton&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 14: Divide and Conquer Recurrences</title>
+      <link>/resources/lecture-14-divide-and-conquer-recurrences/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-14-divide-and-conquer-recurrences/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; Introduces the concept of recursion applied to various recurrence problems, such as the Towers of Hanoi and the Merge Sort algorithm, as well as their asymptotic analysis using the Akra–Bazzi method.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Tom Leighton&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 15: Linear Recurrences</title>
+      <link>/resources/lecture-15-linear-recurrences/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-15-linear-recurrences/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; Covers the mechanics of solving general linear recurrences as well as applications to the graduate student job problem and Fibonacci modeling of populations.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Tom Leighton&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 16: Counting Rules I</title>
+      <link>/resources/lecture-16-counting-rules-i/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-16-counting-rules-i/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; Introduces and defines relationships between sets and covers how they are used to reason about counting.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Marten van Dijk&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 17: Counting Rules II</title>
+      <link>/resources/lecture-17-counting-rules-ii/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-17-counting-rules-ii/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; Covers computing cardinality of sets with inclusion–exclusion, the bookkeeper rule, the subset rule, and poker hands with applications to probability and counting.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Marten van Dijk&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 18: Probability Introduction</title>
+      <link>/resources/lecture-18-probability-introduction/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-18-probability-introduction/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; Gives an overview of probability, including basic definitions, the Monty Hall problem, and strange dice games.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Tom Leighton&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 19: Conditional Probability</title>
+      <link>/resources/lecture-19-conditional-probability/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-19-conditional-probability/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; Covers conditional probability and its applications to examples including medical testing, gambling, and court cases.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Tom Leighton&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor&amp;rsquo;s Note:&lt;/strong&gt; The actual details of the Berkeley sex discrimination case may have been different than what was stated in the lecture, so it is best to consider the description given in lecture as fictional but illustrative of the mathematical point being made.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 2: Induction</title>
+      <link>/resources/lecture-2-induction/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-2-induction/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; An introduction to proof techniques, covering proof by contradiction and induction, with an emphasis on the inductive techniques used in proof by induction.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Tom Leighton&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 20: Independence</title>
+      <link>/resources/lecture-20-independence/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-20-independence/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; Differentiates between independent and dependent events as it pertains to probability, covering applications like coin flips, the distribution of birthdays, hashing, and cryptography.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Tom Leighton&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 21: Random Variables</title>
+      <link>/resources/lecture-21-random-variables/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-21-random-variables/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; Introduces partitioning of the probabilistic sample space using random variables. Distribution functions, notably, the binomial distribution, are discussed.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Tom Leighton&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 22: Expectation I</title>
+      <link>/resources/lecture-22-expectation-i/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-22-expectation-i/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; Covers expected value as it relates to random variables, discussing coin games, network latency, and the hat check problem.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Tom Leighton&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 23: Expectation II</title>
+      <link>/resources/lecture-23-expectation-ii/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-23-expectation-ii/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; Continues exploring expectation with a discussion of likelihood in cases of card games, bit transmission errors, and algorithms, and concludes with definitions of variance and standard deviation for random variables.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Tom Leighton&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 24: Large Deviations</title>
+      <link>/resources/lecture-24-large-deviations/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-24-large-deviations/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; Covers large deviation. Like expectation, it gives three other notions in solving bounds and many frequently experienced problems in computer science, such as determining the probability a random variable will deviate from its expectation.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Tom Leighton&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 25: Random Walks</title>
+      <link>/resources/lecture-25-random-walks/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-25-random-walks/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; Discusses random walks and their non–intuitive effect on systems, such as gambling at roulette and gambler&amp;rsquo;s ruin.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Tom Leighton&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 3: Strong Induction</title>
+      <link>/resources/lecture-3-strong-induction/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-3-strong-induction/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; Covers strong induction as a tool for proofs. Introduction to invariants with different games, including the n–block game and grid puzzles.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Tom Leighton&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 4: Number Theory I</title>
+      <link>/resources/lecture-4-number-theory-i/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-4-number-theory-i/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; Explores the basics of number theory with state machines, linear combinations, and algorithms for computation with integers.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Marten van Dijk&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 5: Number Theory II</title>
+      <link>/resources/lecture-5-number-theory-ii/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-5-number-theory-ii/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; Delves deeper into number theory, covering the basics of encryption and decryption using modular arithmetic.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Marten van Dijk&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 6: Graph Theory and Coloring</title>
+      <link>/resources/lecture-6-graph-theory-and-coloring/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-6-graph-theory-and-coloring/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; An introduction to graph theory basics and intuition with applications to scheduling, coloring, and even sexual promiscuity.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Tom Leighton&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 7: Matching Problems</title>
+      <link>/resources/lecture-7-matching-problems/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-7-matching-problems/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; Introduces the concept of matching. Discusses the mating algorithm, its fairness, and relation to practical applications.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Tom Leighton&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 8: Graph Theory II: Minimum Spanning Trees</title>
+      <link>/resources/lecture-8-graph-theory-ii-minimum-spanning-trees/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-8-graph-theory-ii-minimum-spanning-trees/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; Explores the various measures of connectivity of graphs and how these can be used to categorize and analyze graphs.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Marten van Dijk&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 9: Communication Networks</title>
+      <link>/resources/lecture-9-communication-networks/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-9-communication-networks/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; Covers the application of graph theory to communication networks, surveying their configuration, topology, and optimization.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Marten van Dijk&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Video Lectures</title>
+      <link>/video_galleries/video-lectures/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/video_galleries/video-lectures/data.json</guid>
+      <description>&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-1-introduction-and-proofs/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/L3LMbpZIKhQ/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 1: Introduction and Proofs&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-2-induction/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/z8HKWUWS-lA/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 2: Induction&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-3-strong-induction/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/NuGDkmwEObM/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 3: Strong Induction&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-4-number-theory-i/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/NuY7szYSXSw/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 4: Number Theory I&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-5-number-theory-ii/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/XX7ePR21Ook/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 5: Number Theory II&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-6-graph-theory-and-coloring/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/h9wxtqoa1jY/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 6: Graph Theory and Coloring&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-7-matching-problems/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/5RSMLgy06Ew/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 7: Matching Problems&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-8-graph-theory-ii-minimum-spanning-trees/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/GJpt_3ie4WU/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 8: Graph Theory II: Minimum Spanning Trees&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-9-communication-networks/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/bTyxpoi2dmM/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 9: Communication Networks&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-10-graph-theory-iii/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/DOIp5D7VMS4/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 10: Graph Theory III&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-11-relations-partial-orders-and-scheduling/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/1nScXLQAQ9A/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 11: Relations, Partial Orders, and Scheduling&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-12-sums/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/fAeShezAGLE/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 12: Sums&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-13-sums-and-asymptotics/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/X9eErxRjQEI/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 13: Sums and Asymptotics&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-14-divide-and-conquer-recurrences/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/Kqf0uO0oV6s/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 14: Divide and Conquer Recurrences&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-15-linear-recurrences/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/TWBB-JlmYUc/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 15: Linear Recurrences&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-16-counting-rules-i/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/pNt5Ll6hGqo/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 16: Counting Rules I&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-17-counting-rules-ii/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/09yIb3VHhMI/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 17: Counting Rules II&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-18-probability-introduction/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/SmFwFdESMHI/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 18: Probability Introduction&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-19-conditional-probability/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/E6FbvM-FGZ8/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 19: Conditional Probability&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-20-independence/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/l1BCv3qqW4A/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 20: Independence&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-21-random-variables/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/MOfhhFaQdjw/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 21: Random Variables&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-22-expectation-i/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/gGlMSe7uEkA/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 22: Expectation I&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-23-expectation-ii/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/oI9fMUqgfxY/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 23: Expectation II&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-24-large-deviations/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/q4mwO2qS2z4/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 24: Large Deviations&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-25-random-walks/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/56iFMY8QW2k/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 25: Random Walks&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;</description>
+    </item>
+  </channel>
+</rss>

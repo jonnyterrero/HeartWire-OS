@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lecture Videos on MIT OpenCourseWare</title>
+    <link>/resources/lecture-videos/</link>
+    <description>Recent content in Lecture Videos on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/lecture-videos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecture 1: Introduction and Lumped Abstraction</title>
+      <link>/resources/lecture-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-1/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Introduction and lumped abstraction&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Prof. Anant Agarwal&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 10: Amplifiers - Small Signal Model</title>
+      <link>/resources/lecture-10/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-10/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Amplifiers - small signal model&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Prof. Anant Agarwal&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 11: Small Signal Circuits</title>
+      <link>/resources/lecture-11/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-11/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Small signal circuits&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Prof. Anant Agarwal&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 12: Capacitors and First-Order Systems</title>
+      <link>/resources/lecture-12/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-12/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Capacitors and first-order systems&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Prof. Anant Agarwal&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 13: Digital Circuit Speed</title>
+      <link>/resources/lecture-13/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-13/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Digital circuit speed&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Prof. Anant Agarwal&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 14: State and Memory</title>
+      <link>/resources/lecture-14/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-14/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; State and memory&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Prof. Anant Agarwal&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 15: Second-Order Systems (part 1)</title>
+      <link>/resources/lecture-15-part-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-15-part-1/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Second-order systems&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Prof. Anant Agarwal&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 15: Second-Order Systems (part 2)</title>
+      <link>/resources/lecture-15-part-2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-15-part-2/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Second-order systems&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Prof. Anant Agarwal&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 16: Sinusoidal Steady State</title>
+      <link>/resources/lecture-16/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-16/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Sinusoidal steady state&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Prof. Anant Agarwal&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 17: The Impedance Model</title>
+      <link>/resources/lecture-17/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-17/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; The impedance model&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Prof. Anant Agarwal&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 18: Filters</title>
+      <link>/resources/lecture-18/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-18/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Filters&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Prof. Anant Agarwal&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 19: The Operational Amplifier Abstraction</title>
+      <link>/resources/lecture-19/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-19/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; The operational amplifier abstraction&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Prof. Anant Agarwal&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 2: Basic Circuit Analysis Method</title>
+      <link>/resources/lecture-2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-2/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Basic circuit analysis method (KVL and KCL mMethod)&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Prof. Anant Agarwal&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 20: Operational Amplifier Circuits</title>
+      <link>/resources/lecture-20/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-20/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Operational amplifier circuits&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Prof. Anant Agarwal&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 21: Op Amps Positive Feedback</title>
+      <link>/resources/lecture-21/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-21/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Op amps positive feedback&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Prof. Anant Agarwal&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 22: Energy and Power</title>
+      <link>/resources/lecture-22/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-22/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Energy and power&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Prof. Anant Agarwal&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 23: Energy, CMOS</title>
+      <link>/resources/lecture-23/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-23/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Energy, CMOS&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Prof. Anant Agarwal&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 25: Violating the Abstraction Barrier</title>
+      <link>/resources/lecture-25/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-25/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered (lecture 24 - video not available):&lt;/strong&gt; Power conversion circuits and diodes&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Topics covered (lecture 25):&lt;/strong&gt; Violating the abstraction barrier&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Prof. Anant Agarwal&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 3: Superposition, Thévenin and Norton</title>
+      <link>/resources/lecture-3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-3/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Superposition, Thévenin and Norton&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Prof. Anant Agarwal&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 4: The Digital Abstraction</title>
+      <link>/resources/lecture-4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-4/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; The digital abstraction&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Prof. Anant Agarwal&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 5: Inside the Digital Gate</title>
+      <link>/resources/lecture-5/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-5/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Inside the digital gate&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Prof. Anant Agarwal&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 6: Nonlinear Analysis</title>
+      <link>/resources/lecture-6/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-6/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Nonlinear analysis&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Prof. Anant Agarwal&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 7: Incremental Analysis</title>
+      <link>/resources/lecture-7/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-7/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Incremental analysis&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Prof. Anant Agarwal&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 8: Dependent Sources and Amplifiers</title>
+      <link>/resources/lecture-8/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-8/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Dependent sources and amplifiers&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Prof. Anant Agarwal&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 9: Mosfet Amplifier Large Signal Analysis (part 1)</title>
+      <link>/resources/lecture-9-part-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-9-part-1/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; MOSFET amplifier large signal analysis&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Prof. Anant Agarwal&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 9: Mosfet Amplifier Large Signal Analysis (part 2)</title>
+      <link>/resources/lecture-9-part-2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-9-part-2/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; MOSFET amplifier large signal analysis (cont.)&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Prof. Anant Agarwal&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Video Lectures</title>
+      <link>/video_galleries/video-lectures/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/video_galleries/video-lectures/data.json</guid>
+      <description>&lt;p&gt;The course materials for 6.002 were last updated in Spring 2007. However, the lecture notes, demos, and videos presented in this section are taken from the Fall 2000 version.&lt;/p&gt;&#xA;&lt;p&gt;Video for Lecture 24 is not available. Resources from this session may be found alongside the materials from &lt;a href=&#34;../../resources/lecture-25/index.html&#34;&gt;Lecture 25: Violating the Abstraction Barrier&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-1/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/AfQxyVuLeCs/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 1: Introduction and Lumped Abstraction&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-2/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/2vHGYdepKLw/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 2: Basic Circuit Analysis Method&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-3/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/RsJ1eg7XNVs/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 3: Superposition, Thévenin and Norton&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-4/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/4TCnYYpZxEc/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 4: The Digital Abstraction&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-5/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/v6vqWasIHaw/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 5: Inside the Digital Gate&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-6/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/OGtElTMJidE/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 6: Nonlinear Analysis&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-7/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/JqvKtMNz3RQ/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 7: Incremental Analysis&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-8/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/bEJ0-8pANA4/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 8: Dependent Sources and Amplifiers&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-9-part-1/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/Nijya-QJ45Y/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 9: Mosfet Amplifier Large Signal Analysis (part 1)&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-9-part-2/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/jURSAKBlIZA/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 9: Mosfet Amplifier Large Signal Analysis (part 2)&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-10/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/9RqFFlZgf60/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 10: Amplifiers - Small Signal Model&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-11/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/R4KxlqsuZ0A/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 11: Small Signal Circuits&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-12/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/COdQmA9g9S8/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 12: Capacitors and First-Order Systems&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-13/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/TXJIhDHtHSI/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 13: Digital Circuit Speed&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-14/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/bX8i2yECWaU/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 14: State and Memory&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-15-part-1/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/ypX20WnHNQw/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 15: Second-Order Systems (part 1)&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-15-part-2/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/-gRXU-O1FY4/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 15: Second-Order Systems (part 2)&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-16/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/3GdMaDzIUeQ/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 16: Sinusoidal Steady State&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-17/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/Km9YIdkc2Oo/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 17: The Impedance Model&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-18/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/WT-qzgaKeGI/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 18: Filters&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-19/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/V0z_f7qxLcY/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 19: The Operational Amplifier Abstraction&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-20/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/2SwT6JnfCq8/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 20: Operational Amplifier Circuits&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-21/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/ke3SL_R92ys/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 21: Op Amps Positive Feedback&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-22/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/wNuBD4PYWvs/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 22: Energy and Power&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-23/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/JB2HgohNHYQ/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 23: Energy, CMOS&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-25/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/dyxcCoUgETU/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 25: Violating the Abstraction Barrier&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;</description>
+    </item>
+  </channel>
+</rss>

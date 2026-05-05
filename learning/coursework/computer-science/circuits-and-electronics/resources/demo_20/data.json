@@ -1,0 +1,7 @@
+{
+  "title":"Demonstration: Displays the transfer function of RC lowpass and highpass",
+  "description": "This resource contains a demonstration showing the magnitude and phase plots for an RC lowpass filter on the Dynamic Signal Analyzer. Also allow students to hear the sine tone.",
+  "file": "/courses/6-002-circuits-and-electronics-spring-2007/b6bc10372b60f151e845da69f106cb3d_demo_20.pdf",
+  "learning_resource_types": ["Lecture Notes"],
+  "resource_type": "Document",
+  "file_type": "application/pdf"}

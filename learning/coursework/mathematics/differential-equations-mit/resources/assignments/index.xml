@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Assignments on MIT OpenCourseWare</title>
+    <link>/resources/assignments/</link>
+    <description>Recent content in Assignments on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/assignments/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Assignments</title>
+      <link>/pages/assignments/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/assignments/data.json</guid>
+      <description>&lt;p&gt;&lt;table&gt;&#xA;&#xA;&lt;thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;PROBLEMS&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;SOLUTIONS&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;ASSOCIATED FILES&#xA;&lt;/th&gt;&#xA;&lt;/p&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;p&gt;&lt;/thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../resources/mit18_303f14_pset1/index.html&#34;&gt;Problem Set 1 (PDF)&lt;/a&gt;&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../resources/mit18_303f14_pset1sol/index.html&#34;&gt;Probelm Set Solution 1 (PDF)&lt;/a&gt;&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../resources/mit18_303f14_pset2/index.html&#34;&gt;Problem Set 2 (PDF)&lt;/a&gt;&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../resources/mit18_303f14_pset2sol/index.html&#34;&gt;Probelm Set Solution 2 (PDF)&lt;/a&gt;&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../resources/mit18_303f14_pset3/index.html&#34;&gt;Problem Set 3 (PDF)&lt;/a&gt;&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../resources/mit18_303f14_pset3sol/index.html&#34;&gt;Probelm Set Solution 3 (PDF)&lt;/a&gt;&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a   class=&#34;external-link &#34;   target=&#34;_blank&#34;   href=&#34;https://nbviewer.jupyter.org/github/mitmath/18303/blob/fall14/pset3-f14.ipynb&#34;  aria-label=&#34;IJulia notebook (opens in a new tab)&#34;  &gt;IJulia notebook&lt;/a&gt;&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../resources/mit18_303f14_pset4/index.html&#34;&gt;Problem Set 4 (PDF)&lt;/a&gt;&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../resources/mit18_303f14_pset4sol/index.html&#34;&gt;Probelm Set Solution 4 (PDF)&lt;/a&gt;&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a   class=&#34;external-link &#34;   target=&#34;_blank&#34;   href=&#34;https://nbviewer.jupyter.org/github/mitmath/18303/blob/fall14/pset4-f14.ipynb&#34;  aria-label=&#34;IJulia notebook (opens in a new tab)&#34;  &gt;IJulia notebook&lt;/a&gt;&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../resources/mit18_303f14_pset5/index.html&#34;&gt;Problem Set 5 (PDF)&lt;/a&gt;&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../resources/mit18_303f14_pset5sol/index.html&#34;&gt;Probelm Set Solution 5 (PDF)&lt;/a&gt;&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;/table&gt;</description>
+    </item>
+  </channel>
+</rss>

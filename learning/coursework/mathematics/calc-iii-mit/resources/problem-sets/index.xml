@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Problem Sets on MIT OpenCourseWare</title>
+    <link>/resources/problem-sets/</link>
+    <description>Recent content in Problem Sets on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/problem-sets/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Problem Set 1</title>
+      <link>/resources/ps1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps1/data.json</guid>
+      <description>&lt;p&gt;Problem set on multivariable calculus.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem Set 10</title>
+      <link>/resources/ps10/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps10/data.json</guid>
+      <description>&lt;p&gt;Problem set on multivariable calculus.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem Set 11</title>
+      <link>/resources/ps11/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps11/data.json</guid>
+      <description>&lt;p&gt;Problem set on multivariable calculus.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem Set 12</title>
+      <link>/resources/ps12/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps12/data.json</guid>
+      <description>&lt;p&gt;Problem set on multivariable calculus.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem Set 2</title>
+      <link>/resources/ps2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps2/data.json</guid>
+      <description>&lt;p&gt;Problem set on multivariable calculus.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem Set 3</title>
+      <link>/resources/ps3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps3/data.json</guid>
+      <description>&lt;p&gt;Problem set on multivariable calculus.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem Set 4</title>
+      <link>/resources/ps4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps4/data.json</guid>
+      <description>&lt;p&gt;Problem set on multivariable calculus.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem Set 5</title>
+      <link>/resources/ps5/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps5/data.json</guid>
+      <description>&lt;p&gt;Problem set on multivariable calculus.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem Set 6</title>
+      <link>/resources/ps6/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps6/data.json</guid>
+      <description>&lt;p&gt;Problem set on multivariable calculus.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem Set 7</title>
+      <link>/resources/ps7/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps7/data.json</guid>
+      <description>&lt;p&gt;Problem set on multivariable calculus.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem Set 8</title>
+      <link>/resources/ps8/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps8/data.json</guid>
+      <description>&lt;p&gt;Problem set on multivariable calculus.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem Set 9</title>
+      <link>/resources/ps9/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps9/data.json</guid>
+      <description>&lt;p&gt;Problem set on multivariable calculus.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,3198 @@
+1
+00:00:00,000 --> 00:00:04,000
+Let's get started.
+
+2
+00:00:11,000 --> 00:00:15,000
+Can you hear me back there?
+Loud and clear.
+
+3
+00:00:15,000 --> 00:00:18,000
+OK.
+Let's get started.
+
+4
+00:00:18,000 --> 00:00:23,000
+Before I begin,
+just a couple of announcements.
+
+5
+00:00:23,000 --> 00:00:29,000
+Brad Buren is one of our
+students here and he needs a
+
+6
+00:00:29,000 --> 00:00:34,000
+note-taker.
+It's a paid position.
+
+7
+00:00:34,000 --> 00:00:41,000
+So if you are interested you
+can stop by after class and see
+
+8
+00:00:41,000 --> 00:00:45,000
+him.
+He's sitting right here out
+
+9
+00:00:45,000 --> 00:00:49,000
+there, OK?
+Second, just a reminder that
+
+10
+00:00:49,000 --> 00:00:56,000
+6.002 does have prerequisites.
+And the prerequisites are 8.02
+
+11
+00:00:56,000 --> 00:01:01,000
+and 18.03.
+So with that let me start off
+
+12
+00:01:01,000 --> 00:01:06,000
+with the usual.
+Do a quick review of what we've
+
+13
+00:01:06,000 --> 00:01:10,000
+done so far.
+So we started out life looking
+
+14
+00:01:10,000 --> 00:01:15,000
+at the laws of physics and
+Maxwell's equations and so on.
+
+15
+00:01:15,000 --> 00:01:21,000
+And those were way too hard so
+we said let's make life easy for
+
+16
+00:01:21,000 --> 00:01:24,000
+ourselves.
+So we chose to play in this
+
+17
+00:01:24,000 --> 00:01:30,000
+playground in which we said we
+shall adhere to the lumped
+
+18
+00:01:30,000 --> 00:01:33,000
+matter discipline.
+OK?
+
+19
+00:01:33,000 --> 00:01:36,000
+The LMD.
+So we are in that playground.
+
+20
+00:01:36,000 --> 00:01:40,000
+So this entire course,
+and for that matter large parts
+
+21
+00:01:40,000 --> 00:01:45,000
+of EECS are within that
+playground, within which the
+
+22
+00:01:45,000 --> 00:01:47,000
+lumped matter discipline
+applies.
+
+23
+00:01:47,000 --> 00:01:51,000
+So as soon as we jumped into
+the playground,
+
+24
+00:01:51,000 --> 00:01:54,000
+the LMD playground,
+we could take Maxwell's
+
+25
+00:01:54,000 --> 00:01:58,000
+equations and abstract them out
+into two very,
+
+26
+00:01:58,000 --> 00:02:02,000
+very simple rules.
+And the very simple rules were
+
+27
+00:02:02,000 --> 00:02:08,000
+KVL and KCL.
+KVL simply said that I can sum
+
+28
+00:02:08,000 --> 00:02:13,000
+the voltages in any loop in a
+circuit and the result then
+
+29
+00:02:13,000 --> 00:02:17,000
+would be zero.
+Similarly, I can sum the
+
+30
+00:02:17,000 --> 00:02:23,000
+currents that enter or exit any
+node and the sum will also be
+
+31
+00:02:23,000 --> 00:02:26,000
+zero.
+So what you can now do is,
+
+32
+00:02:26,000 --> 00:02:32,000
+if you feel like,
+you can go around and brag.
+
+33
+00:02:32,000 --> 00:02:36,000
+Oh, yeah, we use Maxwell's
+equations in everyday life and,
+
+34
+00:02:36,000 --> 00:02:40,000
+yeah, it's good stuff.
+And the key is that this is
+
+35
+00:02:40,000 --> 00:02:44,000
+really an encapsulation of
+Maxwell's equations within this
+
+36
+00:02:44,000 --> 00:02:48,000
+playground that we are in.
+So I talked about the first
+
+37
+00:02:48,000 --> 00:02:52,000
+method of circuit analysis in
+the last lecture.
+
+38
+00:02:52,000 --> 00:02:56,000
+And that method simply took
+the, wrote KVL for all the
+
+39
+00:02:56,000 --> 00:03:00,000
+loops, wrote KCL for all the
+nodes and wrote element vi
+
+40
+00:03:00,000 --> 00:03:05,000
+relationships.
+And together gave you a big
+
+41
+00:03:05,000 --> 00:03:10,000
+bunch of equations.
+And you sat down and grunged
+
+42
+00:03:10,000 --> 00:03:17,000
+through the equations and you
+solved for branch voltages and
+
+43
+00:03:17,000 --> 00:03:21,000
+currents.
+So we reviewed a second method
+
+44
+00:03:21,000 --> 00:03:26,000
+of circuit analysis.
+And I'll simply call it circuit
+
+45
+00:03:26,000 --> 00:03:30,000
+composition.
+The basic idea behind this
+
+46
+00:03:30,000 --> 00:03:34,000
+method was to learn some simple
+rules of how resistors add and
+
+47
+00:03:34,000 --> 00:03:38,000
+conductances add and so on and
+so forth and look at a circuit
+
+48
+00:03:38,000 --> 00:03:42,000
+and simplify the circuit by
+making series simplifications
+
+49
+00:03:42,000 --> 00:03:46,000
+when the resistors are in series
+and so on and so forth,
+
+50
+00:03:46,000 --> 00:03:50,000
+and compose it and play around
+with it till we end up with the
+
+51
+00:03:50,000 --> 00:03:53,000
+current, the voltages that we
+are looking for.
+
+52
+00:03:53,000 --> 00:03:58,000
+This is the intuitive method.
+And so a section in Chapter 2,
+
+53
+00:03:58,000 --> 00:04:04,000
+I believe, of the course notes
+discusses several examples using
+
+54
+00:04:04,000 --> 00:04:09,000
+this method and attempts to make
+a little bit formal the
+
+55
+00:04:09,000 --> 00:04:13,000
+intuitive approach that is
+applied in this method.
+
+56
+00:04:13,000 --> 00:04:17,000
+So we then looked at the node
+method.
+
+57
+00:04:17,000 --> 00:04:22,000
+And the node method was simply
+a particular way of applying KVL
+
+58
+00:04:22,000 --> 00:04:24,000
+and KCL.
+Node method,
+
+59
+00:04:24,000 --> 00:04:27,000
+remember?
+We took a ground node.
+
+60
+00:04:27,000 --> 00:04:32,000
+Then we labeled the nodes of
+the remaining voltages with
+
+61
+00:04:32,000 --> 00:04:39,000
+respect to that ground.
+Then we wrote KCL for each of
+
+62
+00:04:39,000 --> 00:04:43,000
+the nodes.
+And when we wrote KCL for each
+
+63
+00:04:43,000 --> 00:04:48,000
+of the nodes,
+remember, KVL was implicit in
+
+64
+00:04:48,000 --> 00:04:55,000
+this expression that we used for
+each of the currents that were
+
+65
+00:04:55,000 --> 00:05:01,000
+exiting each node.
+So if Ej was a node voltage,
+
+66
+00:05:01,000 --> 00:05:07,000
+then Ej minus Ei multiplied by
+the conductance Gi was the
+
+67
+00:05:07,000 --> 00:05:12,000
+current that was going through
+one of those,
+
+68
+00:05:12,000 --> 00:05:17,000
+I should call it Gij.
+This is a conductance that
+
+69
+00:05:17,000 --> 00:05:23,000
+connects nodes i and j.
+That gave us the KVL that fed
+
+70
+00:05:23,000 --> 00:05:30,000
+into the same system.
+So these are three methods.
+
+71
+00:05:30,000 --> 00:05:33,000
+The node method,
+by the way, is sort of the
+
+72
+00:05:33,000 --> 00:05:37,000
+workhorse of the 6.002 industry.
+And for that matter for all of
+
+73
+00:05:37,000 --> 00:05:40,000
+the circuits industry.
+When in doubt,
+
+74
+00:05:40,000 --> 00:05:42,000
+apply the mode method,
+you'll be OK.
+
+75
+00:05:42,000 --> 00:05:46,000
+That applies to linear
+circuits, nonlinear circuits,
+
+76
+00:05:46,000 --> 00:05:49,000
+what have you.
+What I'm going to do today is
+
+77
+00:05:49,000 --> 00:05:53,000
+go through two more methods.
+So notice that the first few
+
+78
+00:05:53,000 --> 00:05:57,000
+lectures of this course,
+the first three lectures simply
+
+79
+00:05:57,000 --> 00:06:01,000
+comprise transitioning you from
+the world of physics to the
+
+80
+00:06:01,000 --> 00:06:06,000
+world of EECS.
+And then two lectures on giving
+
+81
+00:06:06,000 --> 00:06:10,000
+you a bag of tricks.
+So we start you off with the
+
+82
+00:06:10,000 --> 00:06:14,000
+sort of tools,
+your mallets and chisels and so
+
+83
+00:06:14,000 --> 00:06:17,000
+on and so forth.
+And these five methods are your
+
+84
+00:06:17,000 --> 00:06:20,000
+tools.
+We'll look at two methods
+
+85
+00:06:20,000 --> 00:06:23,000
+today.
+One method is called the method
+
+86
+00:06:23,000 --> 00:06:28,000
+of superposition and the second
+method is called the Thevenin
+
+87
+00:06:28,000 --> 00:06:32,000
+method.
+And these methods apply only to
+
+88
+00:06:32,000 --> 00:06:36,000
+linear circuits.
+So we look at the subset of
+
+89
+00:06:36,000 --> 00:06:41,000
+circuits that are linear,
+and these two methods apply to
+
+90
+00:06:41,000 --> 00:06:46,000
+only those circuits.
+These are methods that combined
+
+91
+00:06:46,000 --> 00:06:51,000
+with intuition really enables
+you to solve very interesting
+
+92
+00:06:51,000 --> 00:06:54,000
+circuits very,
+very quickly.
+
+93
+00:06:54,000 --> 00:07:00,000
+So let me do an example using a
+usual node method.
+
+94
+00:07:00,000 --> 00:07:05,000
+And then jump into introducing
+the superposition methods and
+
+95
+00:07:05,000 --> 00:07:08,000
+Thevenin methods using that same
+example.
+
+96
+00:07:08,000 --> 00:07:13,000
+So let me draw you an example
+circuit here.
+
+97
+00:07:33,000 --> 00:07:37,000
+So, again, I'm using this
+example, I will use this example
+
+98
+00:07:37,000 --> 00:07:41,000
+to introduce the method of
+superposition and the Thevenin
+
+99
+00:07:41,000 --> 00:07:43,000
+method.
+So what I'm going to do is
+
+100
+00:07:43,000 --> 00:07:47,000
+start off the usual way and
+analyze the circuit using a
+
+101
+00:07:47,000 --> 00:07:50,000
+method that you know now,
+the node method.
+
+102
+00:07:50,000 --> 00:07:54,000
+And what I'll do is write down
+the node equations for this by
+
+103
+00:07:54,000 --> 00:07:58,000
+applying the node method.
+So if you recall the node
+
+104
+00:07:58,000 --> 00:08:01,000
+method.
+I choose a ground node.
+
+105
+00:08:01,000 --> 00:08:04,000
+I'm going to choose this node.
+It's got both the voltage
+
+106
+00:08:04,000 --> 00:08:08,000
+source connected to it,
+and it's also got many other
+
+107
+00:08:08,000 --> 00:08:11,000
+edges impinging on it.
+So I'm going to choose that as
+
+108
+00:08:11,000 --> 00:08:15,000
+my ground node and I'm going to
+label the other nodes with their
+
+109
+00:08:15,000 --> 00:08:17,000
+voltages.
+So this is an unknown.
+
+110
+00:08:17,000 --> 00:08:19,000
+I'll label it as e.
+I guess we just have one
+
+111
+00:08:19,000 --> 00:08:22,000
+unknown e.
+And I know the voltage of this
+
+112
+00:08:22,000 --> 00:08:24,000
+node, and that is simply V.
+Since it's V,
+
+113
+00:08:24,000 --> 00:08:28,000
+there's a voltage source
+between the ground node and that
+
+114
+00:08:28,000 --> 00:08:32,000
+node.
+So what I can do next is that I
+
+115
+00:08:32,000 --> 00:08:38,000
+can write down the node equation
+for this node and then go from
+
+116
+00:08:38,000 --> 00:08:42,000
+there.
+So let me go ahead and do that.
+
+117
+00:08:42,000 --> 00:08:46,000
+So let me sum up the currents
+going outside,
+
+118
+00:08:46,000 --> 00:08:50,000
+going outwards.
+So I have e minus v divide by
+
+119
+00:08:50,000 --> 00:08:56,000
+R1, I have e minus zero divide
+by R2, and I have minus i equals
+
+120
+00:08:56,000 --> 00:09:00,000
+zero.
+This is a node equation.
+
+121
+00:09:00,000 --> 00:09:06,000
+The first thing I want you to
+observe is that this equation is
+
+122
+00:09:06,000 --> 00:09:11,000
+linear in V and i.
+What I mean by linear is that
+
+123
+00:09:11,000 --> 00:09:17,000
+you don't see terms like Vi or
+V-squared and things like that.
+
+124
+00:09:17,000 --> 00:09:23,000
+It's some constant times V plus
+some constant times i equals
+
+125
+00:09:23,000 --> 00:09:29,000
+some other constant.
+So that's quite nice.
+
+126
+00:09:29,000 --> 00:09:36,000
+So I'm going to rearrange the
+terms in the following manner.
+
+127
+00:09:36,000 --> 00:09:43,000
+I'll move the known sources to
+the right-hand side and collect
+
+128
+00:09:43,000 --> 00:09:50,000
+the coefficients of e on this
+side, so I get one by R1 plus
+
+129
+00:09:50,000 --> 00:09:54,000
+one by R2 over here.
+
+130
+00:10:04,000 --> 00:10:08,000
+So stare at this for a moment
+and notice again here I have e,
+
+131
+00:10:08,000 --> 00:10:12,000
+my unknown node voltage,
+there is some constant
+
+132
+00:10:12,000 --> 00:10:17,000
+multiplier, and that equals some
+function of V summed up with
+
+133
+00:10:17,000 --> 00:10:21,000
+some function of i.
+And, again, notice that this is
+
+134
+00:10:21,000 --> 00:10:26,000
+a linear combination of V and i.
+No multiplication terms and so
+
+135
+00:10:26,000 --> 00:10:32,000
+on and so forth.
+This is a pretty standard form
+
+136
+00:10:32,000 --> 00:10:39,000
+in which we will represent
+equations quite often.
+
+137
+00:10:39,000 --> 00:10:45,000
+And just to label it,
+this is often labeled G as the
+
+138
+00:10:45,000 --> 00:10:50,000
+conductance matrix.
+Of course this is e,
+
+139
+00:10:50,000 --> 00:10:57,000
+our unknown node voltages,
+and this is a linear sum of
+
+140
+00:10:57,000 --> 00:11:02,000
+sources.
+So this is a very standard way
+
+141
+00:11:02,000 --> 00:11:04,000
+that we will represent
+equations.
+
+142
+00:11:04,000 --> 00:11:08,000
+We did that last week as well,
+or rather on Tuesday where I
+
+143
+00:11:08,000 --> 00:11:11,000
+took a conductance matrix,
+multiplied that by a column
+
+144
+00:11:11,000 --> 00:11:15,000
+vector of unknown node voltages
+and equated that to some linear
+
+145
+00:11:15,000 --> 00:11:17,000
+combination of my source
+voltages.
+
+146
+00:11:17,000 --> 00:11:21,000
+The reason the circuit is
+linear is that I have only
+
+147
+00:11:21,000 --> 00:11:25,000
+linear elements in the circuit.
+I don't have any nonlinear
+
+148
+00:11:25,000 --> 00:11:27,000
+elements.
+And because of that I can
+
+149
+00:11:27,000 --> 00:11:31,000
+rewrite this in the following
+manner.
+
+150
+00:11:31,000 --> 00:11:39,000
+I'm just going to express e as
+a function of V and i and bring
+
+151
+00:11:39,000 --> 00:11:46,000
+it over to this side.
+So it's some function of i.
+
+152
+00:11:46,000 --> 00:11:51,000
+So I get R1 R2 divide by R1
+plus R2.
+
+153
+00:11:51,000 --> 00:12:00,000
+And I bring R1 R2 to this side.
+That's what I get.
+
+154
+00:12:00,000 --> 00:12:05,000
+So stare at this for a few
+seconds, very common form.
+
+155
+00:12:05,000 --> 00:12:11,000
+My unknown node voltage is
+equal to this stuff on the
+
+156
+00:12:11,000 --> 00:12:16,000
+right-hand side.
+The stuff on the right-hand
+
+157
+00:12:16,000 --> 00:12:22,000
+side has a term multiplying the
+source voltage V and some other
+
+158
+00:12:22,000 --> 00:12:29,000
+term multiplying the current I.
+And if I were to put this in
+
+159
+00:12:29,000 --> 00:12:35,000
+sort of symbol-like form my
+unknown node voltage is some
+
+160
+00:12:35,000 --> 00:12:40,000
+constant times V1 plus some
+constant times,
+
+161
+00:12:40,000 --> 00:12:45,000
+is of the form constant times
+the source current,
+
+162
+00:12:45,000 --> 00:12:49,000
+constant times the source
+voltage and so on.
+
+163
+00:12:49,000 --> 00:12:56,000
+The units of As and Vs are
+different because in this case A
+
+164
+00:12:56,000 --> 00:13:01,000
+has no units because V is a
+voltage.
+
+165
+00:13:01,000 --> 00:13:03,000
+And so is e.
+In this case V has units of
+
+166
+00:13:03,000 --> 00:13:06,000
+resistance.
+So that V times i gives me a
+
+167
+00:13:06,000 --> 00:13:09,000
+voltage.
+So stare at this equation for a
+
+168
+00:13:09,000 --> 00:13:14,000
+few seconds and this should help
+us build up some insight that
+
+169
+00:13:14,000 --> 00:13:18,000
+will allow us to write down the
+answer almost by inspection.
+
+170
+00:13:18,000 --> 00:13:22,000
+I'm going to show you a method
+now, in a few minutes,
+
+171
+00:13:22,000 --> 00:13:27,000
+which will allow you to write
+down the answer e just by
+
+172
+00:13:27,000 --> 00:13:31,000
+starring at the circuit without
+having to go through node
+
+173
+00:13:31,000 --> 00:13:36,000
+equations and so on.
+The more and more methods I
+
+174
+00:13:36,000 --> 00:13:40,000
+teach you, the more you will be
+able to do a lot of this
+
+175
+00:13:40,000 --> 00:13:44,000
+completely by yourselves.
+In this particular example it's
+
+176
+00:13:44,000 --> 00:13:48,000
+a relatively simple circuit but
+these methods would be
+
+177
+00:13:48,000 --> 00:13:52,000
+particularly useful when you
+have more complicated
+
+178
+00:13:52,000 --> 00:13:55,000
+situations.
+But before I go on let me spend
+
+179
+00:13:55,000 --> 00:14:00,000
+a few minutes pontificating on
+linearity.
+
+180
+00:14:00,000 --> 00:14:06,000
+So that's a linear circuit.
+And this equation gives me the
+
+181
+00:14:06,000 --> 00:14:13,000
+unknown node voltage e as a
+linear sum of source voltages
+
+182
+00:14:13,000 --> 00:14:18,000
+and source currents.
+Linearity implies two
+
+183
+00:14:18,000 --> 00:14:25,000
+properties, the property of
+homogeneity and also gives vice
+
+184
+00:14:25,000 --> 00:14:30,000
+to the property of
+superposition.
+
+185
+00:14:30,000 --> 00:14:41,000
+Let's do homogeneity first.
+What this says is if I have a
+
+186
+00:14:41,000 --> 00:14:52,000
+circuit, some circuit and I feed
+it some sort of inputs,
+
+187
+00:14:52,000 --> 00:15:00,000
+A, then let's say my output is
+S.
+
+188
+00:15:00,000 --> 00:15:04,000
+If you're feeling hungry think
+of these as apples and the
+
+189
+00:15:04,000 --> 00:15:07,000
+circuit converts them into
+applesauce.
+
+190
+00:15:07,000 --> 00:15:12,000
+So what homogeneity says is
+that what I can do is if I take
+
+191
+00:15:12,000 --> 00:15:17,000
+each of my apples and instead of
+feeding it an entire apple what
+
+192
+00:15:17,000 --> 00:15:20,000
+if I give it three-quarters of
+an apple?
+
+193
+00:15:20,000 --> 00:15:24,000
+Say I multiple all my inputs by
+some constant alpha,
+
+194
+00:15:24,000 --> 00:15:29,000
+three-quarters.
+What that says is that at the
+
+195
+00:15:29,000 --> 00:15:33,000
+output instead of getting one
+full bottle of applesauce I'm
+
+196
+00:15:33,000 --> 00:15:36,000
+going to get three-quarters of a
+bottle of apple sauce.
+
+197
+00:15:36,000 --> 00:15:41,000
+So if I proportionately reduce
+all the inputs and if this is a
+
+198
+00:15:41,000 --> 00:15:45,000
+linear circuit then so shall my
+output be reduced in the same
+
+199
+00:15:45,000 --> 00:15:47,000
+proportion.
+So that's homogeneity.
+
+200
+00:15:47,000 --> 00:15:51,000
+Next, let's look at
+superposition.
+
+201
+00:15:59,000 --> 00:16:05,000
+The property of superposition
+says the following.
+
+202
+00:16:05,000 --> 00:16:12,000
+The same kind of circuit.
+If I feed it apples then I get
+
+203
+00:16:12,000 --> 00:16:17,000
+applesauce.
+I take the same circuit,
+
+204
+00:16:17,000 --> 00:16:25,000
+and this time around if I feed
+the circuit a different set of
+
+205
+00:16:25,000 --> 00:16:32,000
+inputs, say blueberries.
+And let's say my output,
+
+206
+00:16:32,000 --> 00:16:38,000
+oops, let me do it this way.
+So as my output I get blueberry
+
+207
+00:16:38,000 --> 00:16:42,000
+sauce, if such exists.
+So apples applesauce,
+
+208
+00:16:42,000 --> 00:16:46,000
+blueberries give me blueberry
+sauce.
+
+209
+00:16:46,000 --> 00:16:50,000
+Then what I'm going to get if I
+mix up the two,
+
+210
+00:16:50,000 --> 00:16:57,000
+so let's say I take my circuit,
+the same circuit with a set of
+
+211
+00:16:57,000 --> 00:17:02,000
+inputs and in this example one
+output.
+
+212
+00:17:02,000 --> 00:17:06,000
+Let's say I mix up my inputs
+and some of my inputs in the
+
+213
+00:17:06,000 --> 00:17:10,000
+following way,
+here I feed an A1 plus B1 and
+
+214
+00:17:10,000 --> 00:17:15,000
+here A2 plus B2 and so on then
+at the output I am going to get
+
+215
+00:17:15,000 --> 00:17:19,000
+a mush of apple sauce and
+blueberry sauce.
+
+216
+00:17:19,000 --> 00:17:23,000
+All this says is that if I
+apply just apples I get
+
+217
+00:17:23,000 --> 00:17:27,000
+applesauce.
+If I apply just blueberries I
+
+218
+00:17:27,000 --> 00:17:32,000
+get blueberry sauce.
+Then if I were to figure out
+
+219
+00:17:32,000 --> 00:17:35,000
+how this blender would have
+worked had I fed in the
+
+220
+00:17:35,000 --> 00:17:39,000
+combinations of apples and
+blueberries, then for the
+
+221
+00:17:39,000 --> 00:17:43,000
+purposes of understanding that
+blender all I could have done
+
+222
+00:17:43,000 --> 00:17:47,000
+was taken by two outputs and
+just mixed them up together
+
+223
+00:17:47,000 --> 00:17:50,000
+myself and that's exactly what
+I'd get.
+
+224
+00:17:50,000 --> 00:17:54,000
+So if I sum up the inputs my
+outputs would also be the sum of
+
+225
+00:17:54,000 --> 00:17:59,000
+the outputs with the inputs
+applied by themselves.
+
+226
+00:17:59,000 --> 00:18:03,000
+So let me take this here and
+munge around with hit for a few
+
+227
+00:18:03,000 --> 00:18:07,000
+seconds and get something
+interesting out of it.
+
+228
+00:18:07,000 --> 00:18:10,000
+So notice two inputs,
+two inputs, outputs.
+
+229
+00:18:10,000 --> 00:18:14,000
+In your notes I've given you
+another template for the next
+
+230
+00:18:14,000 --> 00:18:17,000
+set of scribbles I'm going to
+make here.
+
+231
+00:18:17,000 --> 00:18:21,000
+So use the next set of
+templates on page three.
+
+232
+00:18:21,000 --> 00:18:25,000
+What I'm going to do here is
+something very simple,
+
+233
+00:18:25,000 --> 00:18:30,000
+set one output to zero and feed
+a voltage V1.
+
+234
+00:18:30,000 --> 00:18:35,000
+So that's feed a voltage V1 and
+set the other output to zero.
+
+235
+00:18:35,000 --> 00:18:38,000
+And let's say I get Y1 as an
+output.
+
+236
+00:18:38,000 --> 00:18:44,000
+And in this case I set the
+first voltage to zero and feed a
+
+237
+00:18:44,000 --> 00:18:48,000
+different voltage V2 on the
+second input.
+
+238
+00:18:48,000 --> 00:18:53,000
+And let's say my output is Y2.
+This is just a particular
+
+239
+00:18:53,000 --> 00:19:00,000
+application of the superposition
+principle I just outlined.
+
+240
+00:19:00,000 --> 00:19:03,000
+Apply V1 set one output to
+zero.
+
+241
+00:19:03,000 --> 00:19:09,000
+Apply V2 set the original
+output to zero.
+
+242
+00:19:09,000 --> 00:19:17,000
+Then what I'm going to find is
+that the answer will simply look
+
+243
+00:19:17,000 --> 00:19:24,000
+like this, just replace for As
+and Bs what I just did and we
+
+244
+00:19:24,000 --> 00:19:30,000
+get V1 and zero here and we get
+zero and V2 here.
+
+245
+00:19:30,000 --> 00:19:40,000
+And as my output I'm going to
+get exactly the sum Y1 plus Y2.
+
+246
+00:19:40,000 --> 00:19:43,000
+This is simply a particular
+application of superposition
+
+247
+00:19:43,000 --> 00:19:46,000
+where what I'm saying is the
+following.
+
+248
+00:19:46,000 --> 00:19:50,000
+If you look at this circuit
+here effectively what have I
+
+249
+00:19:50,000 --> 00:19:53,000
+done?
+Effectively what I've done is
+
+250
+00:19:53,000 --> 00:19:57,000
+apply the voltage V1 on one
+input and a voltage V2 on the
+
+251
+00:19:57,000 --> 00:19:58,000
+other input.
+V1 here.
+
+252
+00:19:58,000 --> 00:20:02,000
+V2 here.
+And the output is Y1 plus Y2.
+
+253
+00:20:02,000 --> 00:20:04,000
+What I'm saying is look
+backwards now.
+
+254
+00:20:04,000 --> 00:20:09,000
+What I'm saying is that the
+whole components of the output
+
+255
+00:20:09,000 --> 00:20:13,000
+Y1 plus Y2 could individually be
+derived in the following manner.
+
+256
+00:20:13,000 --> 00:20:18,000
+I could get the component Y1 by
+simply applying one of the
+
+257
+00:20:18,000 --> 00:20:21,000
+voltages and setting the other
+to zero.
+
+258
+00:20:21,000 --> 00:20:25,000
+I can get the other component
+Y2 by setting yet another input
+
+259
+00:20:25,000 --> 00:20:30,000
+to zero and applying the voltage
+V2 to get Y2.
+
+260
+00:20:30,000 --> 00:20:32,000
+And sum then up and that's my
+answer.
+
+261
+00:20:32,000 --> 00:20:36,000
+This will become a lot clearer
+with an example.
+
+262
+00:20:36,000 --> 00:20:40,000
+Again, remember if I have a
+bunch of inputs applied to a
+
+263
+00:20:40,000 --> 00:20:44,000
+circuit, V1, V2 and so on,
+and I get some output then what
+
+264
+00:20:44,000 --> 00:20:48,000
+this is saying is that I can
+alternatively find out the
+
+265
+00:20:48,000 --> 00:20:53,000
+answer by applying just one
+voltage, setting all the others
+
+266
+00:20:53,000 --> 00:20:57,000
+to zero, measuring the output,
+apply a second voltage,
+
+267
+00:20:57,000 --> 00:21:01,000
+set all inputs to zero,
+measure the output and sum of
+
+268
+00:21:01,000 --> 00:21:07,000
+applesauce and blueberry sauce
+and there you get the answer.
+
+269
+00:21:07,000 --> 00:21:13,000
+Let's do an example.
+And before we go into that I
+
+270
+00:21:13,000 --> 00:21:20,000
+talked about setting voltage
+sources and current sources to
+
+271
+00:21:20,000 --> 00:21:22,000
+zero.
+First of all,
+
+272
+00:21:22,000 --> 00:21:28,000
+what does it mean to set a
+voltage source to zero?
+
+273
+00:21:28,000 --> 00:21:38,000
+This is the same as this.
+Setting a voltage source to
+
+274
+00:21:38,000 --> 00:21:49,000
+zero is simply replacing the
+voltage source with a short,
+
+275
+00:21:49,000 --> 00:22:00,000
+and setting a current source to
+zero simply implies an open
+
+276
+00:22:00,000 --> 00:22:05,000
+circuit.
+So when I say zero that source,
+
+277
+00:22:05,000 --> 00:22:09,000
+if it's a voltage source short
+it, if it's a current source
+
+278
+00:22:09,000 --> 00:22:10,000
+open it.
+
+279
+00:22:16,000 --> 00:22:19,000
+I can take any two nodes in the
+world and measure the potential
+
+280
+00:22:19,000 --> 00:22:22,000
+difference across them.
+So there may be some potential
+
+281
+00:22:22,000 --> 00:22:26,000
+difference across these set by
+the circuit that I haven't shown
+
+282
+00:22:26,000 --> 00:22:29,000
+you on this side.
+There might be some other
+
+283
+00:22:29,000 --> 00:22:33,000
+circuit that is controlling the
+voltage of these two nodes.
+
+284
+00:22:33,000 --> 00:22:38,000
+The same with the short.
+What's V going to be?
+
+285
+00:22:38,000 --> 00:22:42,000
+But there is a V.
+It's zero.
+
+286
+00:22:42,000 --> 00:22:48,000
+So that's method four,
+method of superposition.
+
+287
+00:22:48,000 --> 00:22:56,000
+And this method says that the
+output of a circuit --
+
+288
+00:23:03,000 --> 00:23:06,000
+Again, remember I'm focusing on
+linear circuits.
+
+289
+00:23:06,000 --> 00:23:10,000
+Remember, I have this
+playground where LMD applies.
+
+290
+00:23:10,000 --> 00:23:14,000
+And within that playground I'm
+playing in the south goal area.
+
+291
+00:23:14,000 --> 00:23:17,000
+In the south goal area,
+in that subset of the
+
+292
+00:23:17,000 --> 00:23:21,000
+playground circuits are linear.
+So in that part of the
+
+293
+00:23:21,000 --> 00:23:25,000
+playground superposition applies
+because there circuits are
+
+294
+00:23:25,000 --> 00:23:32,000
+linear.
+So the output of a circuit is
+
+295
+00:23:32,000 --> 00:23:42,000
+determined by summing up the
+responses to each source acting
+
+296
+00:23:42,000 --> 00:23:44,000
+alone.
+
+297
+00:23:54,000 --> 00:23:58,000
+Now, in this statement here
+this source stands for
+
+298
+00:23:58,000 --> 00:24:01,000
+independent source.
+I haven't talked about
+
+299
+00:24:01,000 --> 00:24:04,000
+independent versus dependent
+sources.
+
+300
+00:24:04,000 --> 00:24:08,000
+We'll talk about dependent
+sources a few weeks from today.
+
+301
+00:24:08,000 --> 00:24:12,000
+And just so you don't get
+confused, for dependent sources
+
+302
+00:24:12,000 --> 00:24:17,000
+you will be looking at Section
+3.3.3 of your course notes to
+
+303
+00:24:17,000 --> 00:24:21,000
+see how superposition works with
+dependent sources.
+
+304
+00:24:21,000 --> 00:24:25,000
+But remember we haven't covered
+dependent sources yet.
+
+305
+00:24:25,000 --> 00:24:30,000
+We will be covering them about
+two weeks from now.
+
+306
+00:24:30,000 --> 00:24:36,000
+So let's go back to our example
+and apply the method of
+
+307
+00:24:36,000 --> 00:24:43,000
+superposition to an example.
+So the method says sum up the
+
+308
+00:24:43,000 --> 00:24:49,000
+outputs of each of the
+sub-circuits where I'm applying
+
+309
+00:24:49,000 --> 00:24:55,000
+one source acting alone.
+So let me just do this here.
+
+310
+00:24:55,000 --> 00:25:03,000
+Let me start with the circuit.
+And let me start with shutting
+
+311
+00:25:03,000 --> 00:25:06,000
+I off.
+So I have voltage V --
+
+312
+00:25:13,000 --> 00:25:16,000
+I have R2.
+And I'm shutting I off.
+
+313
+00:25:16,000 --> 00:25:21,000
+So I have replaced this with an
+open circuit.
+
+314
+00:25:21,000 --> 00:25:25,000
+So I is zero.
+Let me call the node voltage eV
+
+315
+00:25:25,000 --> 00:25:32,000
+to reflect that component of the
+node voltage that arises due to
+
+316
+00:25:32,000 --> 00:25:37,000
+V acting alone.
+And you should look at this
+
+317
+00:25:37,000 --> 00:25:42,000
+pattern here and very quickly be
+able to write the answer for
+
+318
+00:25:42,000 --> 00:25:46,000
+patterns like this voltage,
+the two resistors.
+
+319
+00:25:46,000 --> 00:25:49,000
+That's called a resistive
+divider.
+
+320
+00:25:49,000 --> 00:25:52,000
+It will appear again and again
+and again.
+
+321
+00:25:52,000 --> 00:25:56,000
+And eV is simply V times R2
+divided by R1 plus R2.
+
+322
+00:25:56,000 --> 00:26:02,000
+That's still my ground node.
+So the voltage here is simply
+
+323
+00:26:02,000 --> 00:26:07,000
+this voltage divided by the two
+resistors to give you the
+
+324
+00:26:07,000 --> 00:26:12,000
+current multiplied by R2 to give
+you the voltage across this R.
+
+325
+00:26:12,000 --> 00:26:16,000
+Remember this pattern.
+You apply voltage divider
+
+326
+00:26:16,000 --> 00:26:21,000
+patterns probably more times
+than any other pattern that you
+
+327
+00:26:21,000 --> 00:26:24,000
+might imagine.
+So that's with the V acting
+
+328
+00:26:24,000 --> 00:26:27,000
+alone.
+Now, let me do I acting alone.
+
+329
+00:26:27,000 --> 00:26:31,000
+So for I acting alone --
+
+330
+00:26:43,000 --> 00:26:49,000
+And what I do this time around
+is replace this with a short,
+
+331
+00:26:49,000 --> 00:26:53,000
+replace the voltage source to
+the short.
+
+332
+00:26:53,000 --> 00:27:00,000
+And let me call this voltage eI
+for the component of the voltage
+
+333
+00:27:00,000 --> 00:27:04,000
+due to the current I.
+And eI, in this case,
+
+334
+00:27:04,000 --> 00:27:08,000
+is simply given by yet another
+pattern here,
+
+335
+00:27:08,000 --> 00:27:12,000
+the current across a pair or
+resistors is simply the
+
+336
+00:27:12,000 --> 00:27:17,000
+effective resistance multiplied
+by the current so it's i and the
+
+337
+00:27:17,000 --> 00:27:21,000
+effective resistance is R1,
+R2 or R1 plus R2.
+
+338
+00:27:21,000 --> 00:27:24,000
+That's eI.
+That's a component that node
+
+339
+00:27:24,000 --> 00:27:31,000
+due to the current I.
+Now, so the method says that.
+
+340
+00:27:31,000 --> 00:27:38,000
+Then take these components,
+sum them up and there you have
+
+341
+00:27:38,000 --> 00:27:44,000
+the answer.
+So E is simply ev plus ei.
+
+342
+00:27:44,000 --> 00:27:49,000
+The components of V and I
+acting alone,
+
+343
+00:27:49,000 --> 00:27:56,000
+just simply V times R2 divided
+by R1 plus R2 plus R1,
+
+344
+00:27:56,000 --> 00:28:00,000
+R2.
+There we go.
+
+345
+00:28:00,000 --> 00:28:02,000
+Fortunately,
+the fates have been kind to us
+
+346
+00:28:02,000 --> 00:28:06,000
+and the answer is the same as
+the answer we obtained with the
+
+347
+00:28:06,000 --> 00:28:08,000
+node method.
+No surprise here.
+
+348
+00:28:08,000 --> 00:28:11,000
+So this is actually an
+incredibly simple method.
+
+349
+00:28:11,000 --> 00:28:14,000
+So you can take a very complex
+circuit.
+
+350
+00:28:14,000 --> 00:28:18,000
+What have you really done here?
+You can take a very complex
+
+351
+00:28:18,000 --> 00:28:22,000
+circuit and you can solve a very
+complex circuit by breaking it
+
+352
+00:28:22,000 --> 00:28:25,000
+down into many simple individual
+sub problems.
+
+353
+00:28:25,000 --> 00:28:30,000
+You will do this in EECS time
+and time and time again.
+
+354
+00:28:30,000 --> 00:28:33,000
+Whether it's in software
+systems or hardware systems or
+
+355
+00:28:33,000 --> 00:28:35,000
+what have you,
+you're often times building
+
+356
+00:28:35,000 --> 00:28:38,000
+complicated systems.
+Remember doom on this side?
+
+357
+00:28:38,000 --> 00:28:41,000
+And the way and when you put
+these things together,
+
+358
+00:28:41,000 --> 00:28:44,000
+let's say a large software
+system, is you don't write the
+
+359
+00:28:44,000 --> 00:28:47,000
+whole piece of software starting
+main and grunge down.
+
+360
+00:28:47,000 --> 00:28:50,000
+You build a lot of little
+components and tie the
+
+361
+00:28:50,000 --> 00:28:53,000
+components together.
+In the same manner here you
+
+362
+00:28:53,000 --> 00:28:57,000
+take a big circuit and you find
+its behavior for each source
+
+363
+00:28:57,000 --> 00:29:00,000
+acting alone.
+Lots of little inky dinky
+
+364
+00:29:00,000 --> 00:29:04,000
+simple little circuits.
+And you will see examples in
+
+365
+00:29:04,000 --> 00:29:09,000
+your homework where you're given
+a big circuit or because it set
+
+366
+00:29:09,000 --> 00:29:14,000
+all the Is to zero and the other
+Vs to zero the whole circuit
+
+367
+00:29:14,000 --> 00:29:18,000
+almost vanishes and all that
+you're left with is a little
+
+368
+00:29:18,000 --> 00:29:21,000
+resistor or two.
+So this is the very,
+
+369
+00:29:21,000 --> 00:29:24,000
+very powerful method.
+I'd like to do a little
+
+370
+00:29:24,000 --> 00:29:28,000
+demonstration for you.
+And what I'm going to show you
+
+371
+00:29:28,000 --> 00:29:36,000
+is the demo is a vat of water.
+Actually, I'll tell you what it
+
+372
+00:29:36,000 --> 00:29:42,000
+is in a second.
+But assume it is salt water for
+
+373
+00:29:42,000 --> 00:29:46,000
+now.
+I'll apply two voltages.
+
+374
+00:29:46,000 --> 00:29:52,000
+In this case I'm going to apply
+a sinusoid.
+
+375
+00:29:52,000 --> 00:29:59,000
+That's not very good.
+A sinusoid and a triangular
+
+376
+00:29:59,000 --> 00:30:03,000
+wave.
+And what I'm going to do is
+
+377
+00:30:03,000 --> 00:30:06,000
+measure the response at this
+site.
+
+378
+00:30:06,000 --> 00:30:08,000
+Now, this is a vat of salt
+water.
+
+379
+00:30:08,000 --> 00:30:13,000
+And I'm going to tell you it
+behaves like a linear system.
+
+380
+00:30:13,000 --> 00:30:17,000
+If you view each little
+particle, or each little
+
+381
+00:30:17,000 --> 00:30:22,000
+cubic-centimeter or whatever of
+water, it'll behave like little
+
+382
+00:30:22,000 --> 00:30:25,000
+resistor.
+So this vat of salt water
+
+383
+00:30:25,000 --> 00:30:30,000
+behaves like big distributed
+resistor in the following
+
+384
+00:30:30,000 --> 00:30:32,000
+manner.
+
+385
+00:30:39,000 --> 00:30:41,000
+And so on.
+This of this big mesh of little
+
+386
+00:30:41,000 --> 00:30:44,000
+resistors, but it's all
+resistors.
+
+387
+00:30:44,000 --> 00:30:47,000
+It's a linear circuit.
+So I'm going to apply two
+
+388
+00:30:47,000 --> 00:30:51,000
+voltages, a triangular and a
+sinusoid, and we're going to
+
+389
+00:30:51,000 --> 00:30:54,000
+observe the output.
+And what do you expect to see
+
+390
+00:30:54,000 --> 00:30:57,000
+there?
+You will see the superposition
+
+391
+00:30:57,000 --> 00:31:01,000
+of the two, which is you'll see
+a sinusoid.
+
+392
+00:31:01,000 --> 00:31:07,000
+And then you'll see the jagged
+triangular thing articulating
+
+393
+00:31:07,000 --> 00:31:13,000
+the sinusoid pattern.
+What I'm going to do right now,
+
+394
+00:31:13,000 --> 00:31:18,000
+don't put any water yet.
+This is the vat of nothing
+
+395
+00:31:18,000 --> 00:31:21,000
+right now.
+It's all empty.
+
+396
+00:31:21,000 --> 00:31:25,000
+Can we show the screen on this
+side?
+
+397
+00:31:25,000 --> 00:31:29,000
+The oscilloscope screen?
+
+398
+00:31:34,000 --> 00:31:35,000
+OK.
+Oh, there you go.
+
+399
+00:31:35,000 --> 00:31:38,000
+So this is the screen of the
+oscilloscope now.
+
+400
+00:31:38,000 --> 00:31:43,000
+Notice that I have a sinusoid
+and I have a triangular wave and
+
+401
+00:31:43,000 --> 00:31:46,000
+the output is zero.
+And the reason is there is
+
+402
+00:31:46,000 --> 00:31:49,000
+nothing in this vat.
+It's empty.
+
+403
+00:31:49,000 --> 00:31:53,000
+So previously when I taught
+this course I would get
+
+404
+00:31:53,000 --> 00:31:57,000
+saltwater and pour saltwater.
+Then we discovered a much
+
+405
+00:31:57,000 --> 00:32:01,000
+better source of water that
+conducted electricity like one
+
+406
+00:32:01,000 --> 00:32:05,000
+real mean fluid.
+Cambridge water.
+
+407
+00:32:05,000 --> 00:32:10,000
+It just works very pleasantly.
+It just conducts electricity
+
+408
+00:32:10,000 --> 00:32:14,000
+like nothing at all.
+And I've been thinking of using
+
+409
+00:32:14,000 --> 00:32:18,000
+Charles River water next time
+and see what happens,
+
+410
+00:32:18,000 --> 00:32:23,000
+although there we'd probably
+get some biological organisms
+
+411
+00:32:23,000 --> 00:32:26,000
+doing strange things at you.
+But go ahead.
+
+412
+00:32:26,000 --> 00:32:30,000
+Our friendly demonstration
+expert, Lorenzo,
+
+413
+00:32:30,000 --> 00:32:34,000
+will pour some water into the
+vat.
+
+414
+00:32:34,000 --> 00:32:39,000
+And you should begin seeing the
+output being a superposition of
+
+415
+00:32:39,000 --> 00:32:42,000
+the two.
+So as he pours,
+
+416
+00:32:42,000 --> 00:32:44,000
+there you go,
+do you see that?
+
+417
+00:32:44,000 --> 00:32:50,000
+So you do see the sinusoidal
+articulation and the jagged wave
+
+418
+00:32:50,000 --> 00:32:53,000
+form.
+And just to have some more fun,
+
+419
+00:32:53,000 --> 00:32:58,000
+what I can do is increase one
+of the voltages.
+
+420
+00:32:58,000 --> 00:33:01,000
+And you'll see --
+
+421
+00:33:06,000 --> 00:33:10,000
+Now you know what would have
+happened if I had used Charles
+
+422
+00:33:10,000 --> 00:33:13,000
+River water.
+So my output keeps increasing
+
+423
+00:33:13,000 --> 00:33:17,000
+as I increase the corresponding
+wave form.
+
+424
+00:33:24,000 --> 00:33:26,000
+I could do this,
+this is fun.
+
+425
+00:33:26,000 --> 00:33:30,000
+So let me pause there and go
+onto the next topic.
+
+426
+00:33:30,000 --> 00:33:34,000
+So that little demonstration
+showed you that even something
+
+427
+00:33:34,000 --> 00:33:39,000
+as simple as this physical
+entity vat of water behaves like
+
+428
+00:33:39,000 --> 00:33:42,000
+a linear system,
+and we can model that linear
+
+429
+00:33:42,000 --> 00:33:46,000
+system as a set of resistors.
+Unbeknownst to you,
+
+430
+00:33:46,000 --> 00:33:50,000
+right now, in the past ten
+seconds I introduced a new
+
+431
+00:33:50,000 --> 00:33:53,000
+concept.
+It's called subliminal
+
+432
+00:33:53,000 --> 00:33:56,000
+advertising.
+So one of the things we do in
+
+433
+00:33:56,000 --> 00:34:02,000
+EE a lot is model real systems.
+So often times if I wanted to
+
+434
+00:34:02,000 --> 00:34:06,000
+look at the behavior of salt,
+behavior of a vat of water,
+
+435
+00:34:06,000 --> 00:34:11,000
+I can model it as a set of
+resistors for certain kinds of
+
+436
+00:34:11,000 --> 00:34:14,000
+activities.
+Just hold that thought for some
+
+437
+00:34:14,000 --> 00:34:17,000
+time later in your careers.
+All right.
+
+438
+00:34:17,000 --> 00:34:21,000
+That's method four,
+the superposition method.
+
+439
+00:34:21,000 --> 00:34:25,000
+Remember, it is methods like
+this that will make your life
+
+440
+00:34:25,000 --> 00:34:29,000
+really, really,
+really easy.
+
+441
+00:34:29,000 --> 00:34:34,000
+If you find that you are having
+to do a lot of grunging homework
+
+442
+00:34:34,000 --> 00:34:38,000
+or something,
+just step back and think
+
+443
+00:34:38,000 --> 00:34:41,000
+superposition,
+think Thevenin or think
+
+444
+00:34:41,000 --> 00:34:45,000
+composition rule.
+There must be a simpler way
+
+445
+00:34:45,000 --> 00:34:48,000
+usually.
+Let's do the next method.
+
+446
+00:34:48,000 --> 00:34:51,000
+This is called the Thevenin
+method.
+
+447
+00:34:51,000 --> 00:34:57,000
+To derive this method let me
+start by applying superposition
+
+448
+00:34:57,000 --> 00:35:03,000
+to some circuit.
+So let's say I have some
+
+449
+00:35:03,000 --> 00:35:09,000
+arbitrary network N.
+Assume it's a linear network
+
+450
+00:35:09,000 --> 00:35:15,000
+and the network has a whole
+bunch of goodies in it.
+
+451
+00:35:15,000 --> 00:35:22,000
+It has a bunch of resistors,
+it has a bunch of voltage
+
+452
+00:35:22,000 --> 00:35:30,000
+sources, and it has a bunch of
+current sources.
+
+453
+00:35:30,000 --> 00:35:33,000
+Many current sources.
+Many voltage sources.
+
+454
+00:35:33,000 --> 00:35:37,000
+Many resistors.
+Some jumbled voltage sources,
+
+455
+00:35:37,000 --> 00:35:43,000
+current sources and resistors.
+And I look at two nodes in this
+
+456
+00:35:43,000 --> 00:35:46,000
+network.
+Here are two nodes in the
+
+457
+00:35:46,000 --> 00:35:50,000
+network, two points in the
+network were elements connect.
+
+458
+00:35:50,000 --> 00:35:56,000
+I'm looking at those two nodes
+and all I want to do is the
+
+459
+00:35:56,000 --> 00:36:00,000
+following.
+I want to figure out if I take
+
+460
+00:36:00,000 --> 00:36:05,000
+a rinky-dinky little current
+source and apply it there,
+
+461
+00:36:05,000 --> 00:36:10,000
+all I want to figure out is
+what is V and what is I.
+
+462
+00:36:10,000 --> 00:36:15,000
+There is this mongo box out
+here, a black box of resistors,
+
+463
+00:36:15,000 --> 00:36:20,000
+voltage source and current
+sources, too many to count.
+
+464
+00:36:20,000 --> 00:36:24,000
+I pick two nodes,
+apply a current source,
+
+465
+00:36:24,000 --> 00:36:29,000
+and all I care about is what is
+the voltage that I will measure
+
+466
+00:36:29,000 --> 00:36:35,000
+by applying it here.
+Notice the current here will be
+
+467
+00:36:35,000 --> 00:36:40,000
+I because the current here is I.
+And I apply it here.
+
+468
+00:36:40,000 --> 00:36:43,000
+I want to measure what the
+voltage is.
+
+469
+00:36:43,000 --> 00:36:48,000
+Now, with the insight you've
+obtained from superposition,
+
+470
+00:36:48,000 --> 00:36:53,000
+you should be able to jump up
+and state the form of the
+
+471
+00:36:53,000 --> 00:36:57,000
+answer.
+So by superposition we know the
+
+472
+00:36:57,000 --> 00:37:01,000
+following.
+We know that the effect of the
+
+473
+00:37:01,000 --> 00:37:06,000
+circuit will be the same as the
+sum of components being added
+
+474
+00:37:06,000 --> 00:37:07,000
+up.
+Sum of component,
+
+475
+00:37:07,000 --> 00:37:11,000
+sum of component,
+a bunch of components added up.
+
+476
+00:37:11,000 --> 00:37:16,000
+Each component will be the
+response of one source acting
+
+477
+00:37:16,000 --> 00:37:18,000
+alone.
+So if I can figure out the
+
+478
+00:37:18,000 --> 00:37:23,000
+effect of one source acting
+alone and put that down here,
+
+479
+00:37:23,000 --> 00:37:28,000
+and do the same thing for all
+the sources, that's what I will
+
+480
+00:37:28,000 --> 00:37:32,000
+get.
+So for the source Vm it's a
+
+481
+00:37:32,000 --> 00:37:35,000
+linear circuit.
+So I know that my answer is
+
+482
+00:37:35,000 --> 00:37:40,000
+going to be, in the final answer
+is going to be a Vm term and
+
+483
+00:37:40,000 --> 00:37:44,000
+it's going to be multiplied by
+some alpha M term.
+
+484
+00:37:44,000 --> 00:37:47,000
+I know that.
+It's a linear circuit so I know
+
+485
+00:37:47,000 --> 00:37:52,000
+that the answer shall have a
+term Vm multiplied by some
+
+486
+00:37:52,000 --> 00:37:54,000
+constant.
+Simple, I know that.
+
+487
+00:37:54,000 --> 00:38:00,000
+Similarly, the same is true
+for, oh, this is the term Vm.
+
+488
+00:38:00,000 --> 00:38:05,000
+And what I can do is I can
+measure just this effect by
+
+489
+00:38:05,000 --> 00:38:09,000
+setting all the other sources to
+zero.
+
+490
+00:38:09,000 --> 00:38:15,000
+So I can set all the other
+current sources to zero and all
+
+491
+00:38:15,000 --> 00:38:19,000
+voltage sources,
+except for this one,
+
+492
+00:38:19,000 --> 00:38:23,000
+and I can get that answer.
+So, similarly,
+
+493
+00:38:23,000 --> 00:38:30,000
+for every voltage source I am
+going to get a term.
+
+494
+00:38:30,000 --> 00:38:34,000
+So for every single voltage
+source, M1, M2,
+
+495
+00:38:34,000 --> 00:38:39,000
+M3 and so on I'm going to get
+such a term and they're all
+
+496
+00:38:39,000 --> 00:38:44,000
+going to sum up.
+Similarly, I'm going to get a
+
+497
+00:38:44,000 --> 00:38:48,000
+term for In.
+And I know there will be an In
+
+498
+00:38:48,000 --> 00:38:53,000
+term, and I know it's going to
+be some constant beta
+
+499
+00:38:53,000 --> 00:38:57,000
+multiplying In.
+In this example of ours here,
+
+500
+00:38:57,000 --> 00:39:01,000
+in this example,
+remember alpha was this and
+
+501
+00:39:01,000 --> 00:39:08,000
+beta was this constant here.
+There's some constant beta,
+
+502
+00:39:08,000 --> 00:39:11,000
+some constant alpha.
+And because I have a whole
+
+503
+00:39:11,000 --> 00:39:16,000
+bunch of current sources there's
+going to be such a term for each
+
+504
+00:39:16,000 --> 00:39:19,000
+one of them.
+And each one of these terms,
+
+505
+00:39:19,000 --> 00:39:24,000
+Vm, In will be the voltage I
+would see here if I set all the
+
+506
+00:39:24,000 --> 00:39:28,000
+other Vms to zero and I set all
+the other current sources,
+
+507
+00:39:28,000 --> 00:39:33,000
+except for that one to zero.
+What am I missing?
+
+508
+00:39:33,000 --> 00:39:36,000
+Is that it?
+The response here,
+
+509
+00:39:36,000 --> 00:39:39,000
+V here.
+Am I missing anything here?
+
+510
+00:39:39,000 --> 00:39:43,000
+Is that it?
+Now, don't all yell at once.
+
+511
+00:39:43,000 --> 00:39:47,000
+What am I missing?
+Current source i,
+
+512
+00:39:47,000 --> 00:39:50,000
+exactly.
+So if I have a current source i
+
+513
+00:39:50,000 --> 00:39:55,000
+then there's an effect of this
+current as well.
+
+514
+00:39:55,000 --> 00:40:00,000
+And so I write down i there,
+too.
+
+515
+00:40:00,000 --> 00:40:03,000
+It's going to be some constant
+multiplying I.
+
+516
+00:40:03,000 --> 00:40:07,000
+And that constant is going to
+look like a resistor,
+
+517
+00:40:07,000 --> 00:40:11,000
+right, because this circuit
+contains current sources,
+
+518
+00:40:11,000 --> 00:40:15,000
+voltage sources and resistors.
+If I've shorted all my voltage
+
+519
+00:40:15,000 --> 00:40:19,000
+sources and opened all my
+current sources,
+
+520
+00:40:19,000 --> 00:40:22,000
+what's left in here?
+Just a whole caboodle full of
+
+521
+00:40:22,000 --> 00:40:25,000
+Rs.
+It's just going to look like
+
+522
+00:40:25,000 --> 00:40:30,000
+some resistance R.
+And that's what I get here.
+
+523
+00:40:30,000 --> 00:40:35,000
+So this is what V is going to
+look like and that's a form.
+
+524
+00:40:35,000 --> 00:40:40,000
+So let's take a look at these
+components.
+
+525
+00:40:45,000 --> 00:40:47,000
+Let's focus on the easy part
+first.
+
+526
+00:40:47,000 --> 00:40:51,000
+What does this look like?
+This component looks like an I,
+
+527
+00:40:51,000 --> 00:40:54,000
+it looks like a current and has
+some resistance.
+
+528
+00:40:54,000 --> 00:40:57,000
+What is that resistance given
+by?
+
+529
+00:40:57,000 --> 00:41:01,000
+Supposing I gave you this
+network and this currency source
+
+530
+00:41:01,000 --> 00:41:05,000
+and I asked you tell me R.
+How would you measure R?
+
+531
+00:41:05,000 --> 00:41:09,000
+What you would do is open all
+the current sources,
+
+532
+00:41:09,000 --> 00:41:14,000
+short all the voltage sources,
+put a ohmmeter in there and
+
+533
+00:41:14,000 --> 00:41:17,000
+measure the resistance R.
+That's R.
+
+534
+00:41:17,000 --> 00:41:21,000
+OK, so we understand this term.
+What about this term here?
+
+535
+00:41:21,000 --> 00:41:25,000
+Can someone tell me the units
+of this term here,
+
+536
+00:41:25,000 --> 00:41:27,000
+this big thing here?
+Voltage.
+
+537
+00:41:27,000 --> 00:41:32,000
+This is a voltage.
+This is a voltage.
+
+538
+00:41:32,000 --> 00:41:37,000
+iR is a voltage.
+So this does behave like a
+
+539
+00:41:37,000 --> 00:41:40,000
+voltage.
+And it behaves like some
+
+540
+00:41:40,000 --> 00:41:45,000
+voltage V.
+So notice that as far as this
+
+541
+00:41:45,000 --> 00:41:52,000
+current I is concerned the rest
+of the universe looks like a
+
+542
+00:41:52,000 --> 00:42:00,000
+resistor and a voltage source
+behaving in some manner.
+
+543
+00:42:00,000 --> 00:42:04,000
+And let me just call it Vth for
+now, and you'll know why in a
+
+544
+00:42:04,000 --> 00:42:05,000
+second.
+
+545
+00:42:21,000 --> 00:42:26,000
+The voltage has a form,
+some voltage plus Ri.
+
+546
+00:42:26,000 --> 00:42:32,000
+So, in other words,
+as far as this I is concerned
+
+547
+00:42:32,000 --> 00:42:39,000
+this whole network here N full
+of all the nice stuff is
+
+548
+00:42:39,000 --> 00:42:43,000
+indistinguishable to this I
+here.
+
+549
+00:42:43,000 --> 00:42:50,000
+So my I is sitting out there
+injecting a current into two
+
+550
+00:42:50,000 --> 00:42:55,000
+nodes.
+If I am i, I'm looking at this,
+
+551
+00:42:55,000 --> 00:43:03,000
+this network looks no different
+than a voltage source in series
+
+552
+00:43:03,000 --> 00:43:11,000
+with the resistor R.
+Notice that the equation for
+
+553
+00:43:11,000 --> 00:43:18,000
+this simple circuit is this,
+so I is given by V minus Vth
+
+554
+00:43:18,000 --> 00:43:22,000
+divided by R.
+Just remember.
+
+555
+00:43:30,000 --> 00:43:32,000
+It's a circuit.
+In other words,
+
+556
+00:43:32,000 --> 00:43:37,000
+Agarwal sitting here cannot
+tell the difference if I'm
+
+557
+00:43:37,000 --> 00:43:42,000
+measuring the voltage here
+between a circuit that looks
+
+558
+00:43:42,000 --> 00:43:47,000
+like a Vth in series to the
+resistor or this huge mess of
+
+559
+00:43:47,000 --> 00:43:51,000
+voltage sources and current
+sources and so on.
+
+560
+00:43:51,000 --> 00:43:54,000
+Now, we will talk about Vth and
+R.
+
+561
+00:43:54,000 --> 00:43:59,000
+R is called the resistance of
+the network as seen from the
+
+562
+00:43:59,000 --> 00:44:04,000
+port with all the sources shut
+off.
+
+563
+00:44:04,000 --> 00:44:06,000
+And similarly Vth,
+what is Vth?
+
+564
+00:44:06,000 --> 00:44:09,000
+Vth is the open circuit
+voltage.
+
+565
+00:44:09,000 --> 00:44:12,000
+In other words,
+if I apply the voltage here
+
+566
+00:44:12,000 --> 00:44:17,000
+this is the response of all the
+current sources and all the
+
+567
+00:44:17,000 --> 00:44:23,000
+voltage sources acting together.
+So it's as if I took this out
+
+568
+00:44:23,000 --> 00:44:27,000
+and simply measured my V here as
+if I didn't exist,
+
+569
+00:44:27,000 --> 00:44:31,000
+correct?
+Because this is the component
+
+570
+00:44:31,000 --> 00:44:35,000
+of i.
+So if I opened i and measured
+
+571
+00:44:35,000 --> 00:44:40,000
+V, I would get that big term on
+the left-hand side.
+
+572
+00:44:40,000 --> 00:44:43,000
+That's my Vth.
+So that inspires the next
+
+573
+00:44:43,000 --> 00:44:48,000
+method called the Thevenin
+method.
+
+574
+00:44:58,000 --> 00:45:04,000
+In this method what I'm going
+to do is take some circuit,
+
+575
+00:45:04,000 --> 00:45:07,000
+I'm on Page 9,
+with a mess of stuff.
+
+576
+00:45:07,000 --> 00:45:13,000
+It's a big mess of stuff.
+And if I care to look at its
+
+577
+00:45:13,000 --> 00:45:20,000
+impact on something else that I
+add from the outside then as far
+
+578
+00:45:20,000 --> 00:45:25,000
+as the outside world is
+concerned this is
+
+579
+00:45:25,000 --> 00:45:32,000
+indistinguishable from a circuit
+that looks like this.
+
+580
+00:45:45,000 --> 00:45:49,000
+So what I can do is if I want
+to figure out what's happening
+
+581
+00:45:49,000 --> 00:45:54,000
+here then, for the purpose of my
+analysis, this simple network
+
+582
+00:45:54,000 --> 00:45:59,000
+here with R and Vth becomes a
+surrogate for this entire mess.
+
+583
+00:45:59,000 --> 00:46:03,000
+So for the purpose of finding
+out the behavior at this point,
+
+584
+00:46:03,000 --> 00:46:07,000
+I can take this huge mess and
+replace it with its Thevenin
+
+585
+00:46:07,000 --> 00:46:10,000
+surrogate or Thevenin
+equivalent.
+
+586
+00:46:10,000 --> 00:46:14,000
+This is called the Thevenin
+equivalent of this big network.
+
+587
+00:46:14,000 --> 00:46:18,000
+Let me do an example that will
+make the method completely
+
+588
+00:46:18,000 --> 00:46:21,000
+clear.
+Again, remember in EECS,
+
+589
+00:46:21,000 --> 00:46:25,000
+most of our lives are about how
+can we make things so simple as
+
+590
+00:46:25,000 --> 00:46:30,000
+being able to be analyzed by
+inspection?
+
+591
+00:46:30,000 --> 00:46:36,000
+And so this is a method that
+takes you further down that
+
+592
+00:46:36,000 --> 00:46:40,000
+path.
+So let me use the same circuit
+
+593
+00:46:40,000 --> 00:46:45,000
+that I've been using before,
+my voltage V,
+
+594
+00:46:45,000 --> 00:46:48,000
+R1, R2.
+This is an R.
+
+595
+00:46:48,000 --> 00:46:55,000
+I'm 55 minutes fast so we have
+another three or four minutes.
+
+596
+00:46:55,000 --> 00:47:01,000
+So this is my circuit.
+And let's say all I care about
+
+597
+00:47:01,000 --> 00:47:05,000
+is finding out i1.
+That's all I care about.
+
+598
+00:47:05,000 --> 00:47:10,000
+And what I'm going to do is I'm
+going to box this up and see if
+
+599
+00:47:10,000 --> 00:47:14,000
+I can replace that with its
+Thevenin equivalent.
+
+600
+00:47:14,000 --> 00:47:17,000
+So I'm going to box that up.
+
+601
+00:47:35,000 --> 00:47:39,000
+What I'm saying is that I'm
+going to box it up and replace
+
+602
+00:47:39,000 --> 00:47:42,000
+it with this Thevenin
+equivalent.
+
+603
+00:47:42,000 --> 00:47:45,000
+I don't know what Vth and R are
+at this point.
+
+604
+00:47:45,000 --> 00:47:48,000
+I'm just calling it Rth for
+fun.
+
+605
+00:47:48,000 --> 00:47:52,000
+I don't know what these two
+values are, but if I knew what
+
+606
+00:47:52,000 --> 00:47:57,000
+these two values were I can
+determine I really trivially as
+
+607
+00:47:57,000 --> 00:48:00,000
+follows.
+I can get i1 as simply V minus
+
+608
+00:48:00,000 --> 00:48:06,000
+Vth divided by R1 plus Rth.
+So if I knew Vth and Rth,
+
+609
+00:48:06,000 --> 00:48:11,000
+I can write down i1 by
+inspection in that manner.
+
+610
+00:48:11,000 --> 00:48:16,000
+So next, finally,
+how do I get Vth and Rth?
+
+611
+00:48:16,000 --> 00:48:22,000
+You get Rth by looking at this
+network and shutting off all the
+
+612
+00:48:22,000 --> 00:48:29,000
+voltage sources and measuring
+the resistance there.
+
+613
+00:48:29,000 --> 00:48:36,000
+So I short my voltage source,
+that's R1.
+
+614
+00:48:36,000 --> 00:48:43,000
+Oops, wrong way.
+I need to look this way.
+
+615
+00:48:43,000 --> 00:48:51,000
+So looking this way,
+that's what I get.
+
+616
+00:48:51,000 --> 00:48:56,000
+So what's Rth?
+Rth is simply R2.
+
+617
+00:48:56,000 --> 00:49:05,000
+So I have opened my current
+source.
+
+618
+00:49:05,000 --> 00:49:09,000
+Similarly, for Vth,
+remember all I want to do is
+
+619
+00:49:09,000 --> 00:49:13,000
+look at the two nodes,
+step back, put a voltmeter
+
+620
+00:49:13,000 --> 00:49:18,000
+there, measure the voltage,
+that's my open circuit voltage.
+
+621
+00:49:18,000 --> 00:49:24,000
+So the way I do it is I take
+the circuit and simply measure
+
+622
+00:49:24,000 --> 00:49:26,000
+the voltage there.
+That's R2.
+
+623
+00:49:26,000 --> 00:49:32,000
+That's my current capital I.
+And I simply want to measure
+
+624
+00:49:32,000 --> 00:49:37,000
+the open circuit voltage here,
+which is what?
+
+625
+00:49:37,000 --> 00:49:44,000
+Just simply if I stand back and
+I kind of gingerly measure the
+
+626
+00:49:44,000 --> 00:49:50,000
+voltage here without disturbing
+anything, I simply get IR2.
+
+627
+00:49:50,000 --> 00:49:56,000
+So Vth is IR2 and Rth is R2 and
+here is the formula for the
+
+628
+00:49:56,000 --> 00:50:02,000
+current in this branch when I
+apply a voltage source and a
+
+629
+00:50:02,000 --> 00:50:08,000
+resistor R1 to this little
+circuit here.
+
+630
+00:50:08,000 --> 00:50:12,000
+OK, let's pause and let me
+summarize this in about ten
+
+631
+00:50:12,000 --> 00:50:14,000
+seconds.
+I had this circuit here.
+
+632
+00:50:14,000 --> 00:50:18,000
+I wanted to find out i1.
+So what I said I'd do is take
+
+633
+00:50:18,000 --> 00:50:22,000
+this complicated mess,
+well, it's not a complicated
+
+634
+00:50:22,000 --> 00:50:26,000
+mess but assume it is,
+and replace with it a
+
+635
+00:50:26,000 --> 00:50:31,000
+resistance Rth got by turning
+off all the sources.
+
+636
+00:50:31,000 --> 00:50:35,000
+And the voltage in series,
+Vth, which I get simply by
+
+637
+00:50:35,000 --> 00:50:38,000
+pulling this thing out,
+taking my input,
+
+638
+00:50:38,000 --> 00:50:42,000
+this part out and simply
+measuring the open circuit
+
+639
+00:50:42,000 --> 00:50:43,000
+voltage out there,
+Vth.
+
+640
+00:50:43,000 --> 00:50:48,000
+And then I replaced the whole
+network with this new network
+
+641
+00:50:48,000 --> 00:50:51,000
+that they call the Thevenin
+network, and voila,
+
+642
+00:50:51,000 --> 00:50:54,000
+I get the answer in a second.

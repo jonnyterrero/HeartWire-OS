@@ -1,0 +1,23 @@
+{
+  "course_title":"Circuits and Electronics",
+  "course_description":"6.002 is designed to serve as a first course in an undergraduate electrical engineering (EE), or electrical engineering and computer science (EECS) curriculum. At MIT, 6.002 is in the core of department subjects required for all undergraduates in EECS.\n\nThe course introduces the fundamentals of the lumped circuit abstraction. Topics covered include: resistive elements and networks; independent and dependent sources; switches and MOS transistors; digital abstraction; amplifiers; energy storage elements; dynamics of first- and second-order networks; design in the time and frequency domains; and analog and digital circuits and applications. Design and lab exercises are also significant components of the course. 6.002 is worth 4 Engineering Design Points. The 6.002 content was created collaboratively by Profs. Anant Agarwal and Jeffrey H. Lang.\n\nThe course uses the required textbook _Foundations of Analog and Digital Electronic Circuits_. Agarwal, Anant, and Jeffrey H. Lang. San Mateo, CA: Morgan Kaufmann Publishers, Elsevier, July 2005. ISBN: 9781558607354.\n",
+  "course_description_html":"<p>6.002 is designed to serve as a first course in an undergraduate electrical engineering (EE), or electrical engineering and computer science (EECS) curriculum. At MIT, 6.002 is in the core of department subjects required for all undergraduates in EECS.</p>\n<p>The course introduces the fundamentals of the lumped circuit abstraction. Topics covered include: resistive elements and networks; independent and dependent sources; switches and MOS transistors; digital abstraction; amplifiers; energy storage elements; dynamics of first- and second-order networks; design in the time and frequency domains; and analog and digital circuits and applications. Design and lab exercises are also significant components of the course. 6.002 is worth 4 Engineering Design Points. The 6.002 content was created collaboratively by Profs. Anant Agarwal and Jeffrey H. Lang.</p>\n<p>The course uses the required textbook <em>Foundations of Analog and Digital Electronic Circuits</em>. Agarwal, Anant, and Jeffrey H. Lang. San Mateo, CA: Morgan Kaufmann Publishers, Elsevier, July 2005. ISBN: 9781558607354.</p>\n",
+  "site_uid":"a804a9da-d059-454f-b4ca-16edfe893daa",
+  "legacy_uid":"3d8a0e5f-405b-70ad-52cf-7e4f2068cb96","instructors": [{
+    "first_name":"Anant",
+    "last_name":"Agarwal",
+    "middle_initial":"",
+    "salutation":"Prof.",
+    "title":"Prof. Anant Agarwal"}],"department_numbers":["6"],
+  "learning_resource_types":["Lecture Videos","Problem Sets","Exams"],
+  "topics":[["Engineering","Electrical Engineering"],["Engineering","Electrical Engineering","Electronics"]],
+  "mit_learn_topics":null,
+  "primary_course_number":"6.002",
+  "extra_course_numbers":"",
+  "term":"Spring",
+  "year":"2007",
+  "level":["Undergraduate"],
+  "hide_download":null,
+  "image_src":"./static_resources/057c5af7b1e9cccd3b069dfe3797a5c8_6-002s07.jpg",
+  "course_image_metadata":{"content_type":"resource","description":"A mixed-signal printed circuit board containing both analog and digital components. The board is one component of a 1000-node acoustic beamformer being developed at MIT's Computer Science and Artificial Intelligence Laboratory. The board contains a pair of microphones, several resistors, capacitors, and digital integrated circuit chips. (Image courtesy of Ken Steele and Anant Agarwal.)","draft":false,"file":"/courses/6-002-circuits-and-electronics-spring-2007/057c5af7b1e9cccd3b069dfe3797a5c8_6-002s07.jpg","file_size":64033,"file_type":"image/jpeg","image_metadata":{"caption":"A mixed-signal printed circuit board containing both analog and digital components. The board is one component of a 1000-node acoustic beamformer being developed at MIT's Computer Science and Artificial Intelligence Laboratory. The board contains a pair of microphones, several resistors, capacitors, and digital integrated circuit chips. (Image courtesy of Ken Steele and Anant Agarwal.)","credit":"","image-alt":"A mixed-signal printed circuit board containing both analog and digital components."},"iscjklanguage":false,"learning_resource_types":[],"license":"https://creativecommons.org/licenses/by-nc-sa/4.0/","ocw_type":"OCWImage","resourcetype":"Image","title":"6-002s07.jpg","uid":"057c5af7-b1e9-cccd-3b06-9dfe3797a5c8","video_files":{"video_thumbnail_file":null},"video_metadata":{"youtube_id":null}}}
+

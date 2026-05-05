@@ -1,0 +1,7 @@
+{
+  "title":"Demonstration: IDS vs. VDS load line",
+  "description": "This recource contains a demo presenting a picture of the MOSFET amplifier behavior by displaying a load line over a set of (premade) MOSFET i-v curves.",
+  "file": "/courses/6-002-circuits-and-electronics-spring-2007/04c5b9d07519db0f7d6a145175be86e2_demo_10.pdf",
+  "learning_resource_types": ["Lecture Notes"],
+  "resource_type": "Document",
+  "file_type": "application/pdf"}

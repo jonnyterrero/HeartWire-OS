@@ -1,0 +1,23 @@
+{
+  "course_title":"Computation Structures",
+  "course_description":"6.004 offers an introduction to the engineering of digital systems. Starting with MOS transistors, the course develops a series of building blocks — logic gates, combinational and sequential circuits, finite-state machines, computers and finally complete systems. Both hardware and software mechanisms are explored through a series of design examples.\n\n6.004 is required material for any EECS undergraduate who wants to understand (and ultimately design) digital systems. A good grasp of the material is essential for later courses in digital design, computer architecture and systems. The problem sets and lab exercises are intended to give students \"hands-on\" experience in designing digital systems; each student completes a gate-level design for a reduced instruction set computer (RISC) processor during the semester.\n",
+  "course_description_html":"<p>6.004 offers an introduction to the engineering of digital systems. Starting with MOS transistors, the course develops a series of building blocks — logic gates, combinational and sequential circuits, finite-state machines, computers and finally complete systems. Both hardware and software mechanisms are explored through a series of design examples.</p>\n<p>6.004 is required material for any EECS undergraduate who wants to understand (and ultimately design) digital systems. A good grasp of the material is essential for later courses in digital design, computer architecture and systems. The problem sets and lab exercises are intended to give students &ldquo;hands-on&rdquo; experience in designing digital systems; each student completes a gate-level design for a reduced instruction set computer (RISC) processor during the semester.</p>\n",
+  "site_uid":"2f8f333e-d0c3-44dc-8b47-e650093e07be",
+  "legacy_uid":"3f1128f9-9290-b4ee-8b54-a6eeab8d3607","instructors": [{
+    "first_name":"Steve",
+    "last_name":"Ward",
+    "middle_initial":"",
+    "salutation":"Prof.",
+    "title":"Prof. Steve Ward"}],"department_numbers":["6"],
+  "learning_resource_types":["Lecture Notes","Problem Sets","Problem Set Solutions","Exams","Exam Solutions"],
+  "topics":[["Mathematics","Computation"],["Engineering","Electrical Engineering","Digital Systems"],["Engineering","Computer Science","Computer Design and Engineering"],["Engineering","Computer Science","Computer Design and Engineering"]],
+  "mit_learn_topics":null,
+  "primary_course_number":"6.004",
+  "extra_course_numbers":"",
+  "term":"Spring",
+  "year":"2009",
+  "level":["Undergraduate"],
+  "hide_download":null,
+  "image_src":"./static_resources/884ea4f30eef5ed573866691c5e2c3bb_6-004s09.jpg",
+  "course_image_metadata":{"content_type":"resource","description":"In this course, students are asked to design a CPU (central processing unit) starting at gate level. See the Labs for more details. (Image courtesy of Prof. Steve Ward.)","draft":false,"file":"/courses/6-004-computation-structures-spring-2009/884ea4f30eef5ed573866691c5e2c3bb_6-004s09.jpg","file_size":49558,"file_type":"image/jpeg","image_metadata":{"caption":"In this course, students are asked to design a CPU (central processing unit) starting at gate level. See the [Labs](/courses/6-004-computation-structures-spring-2009/pages/labs) section for more details. (Image by Prof. Steve Ward.)","credit":"","image-alt":"Cartoon of a student taking a part out of the Beta Kit and wondering where it goes."},"iscjklanguage":false,"learning_resource_types":[],"license":"https://creativecommons.org/licenses/by-nc-sa/4.0/","ocw_type":"OCWImage","resourcetype":"Image","title":"Cartoon of a student taking a part out of the Beta Kit and wondering where it goes","uid":"884ea4f3-0eef-5ed5-7386-6691c5e2c3bb","video_files":{"video_thumbnail_file":null},"video_metadata":{"youtube_id":null}}}
+

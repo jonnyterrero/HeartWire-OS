@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tools on MIT OpenCourseWare</title>
+    <link>/resources/tools/</link>
+    <description>Recent content in Tools on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/tools/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>6.004 standard cell library</title>
+      <link>/resources/stdcell/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/stdcell/data.json</guid>
+      <description>&lt;p&gt;Supporting file for lab assignments on computation structures.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>6004</title>
+      <link>/resources/6004/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/6004/data.json</guid>
+      <description>&lt;p&gt;Compressed tar archive of all the supporting files for a course on computation structures.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>8 clocks</title>
+      <link>/resources/8clocks/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/8clocks/data.json</guid>
+      <description>&lt;p&gt;Supporting file for lab assignments on computation structures.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ant</title>
+      <link>/resources/ant/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ant/data.json</guid>
+      <description>&lt;p&gt;Ant demo for a lecture on storage elements and synchronous finite state machines.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>BETA Macro package</title>
+      <link>/resources/beta/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/beta/data.json</guid>
+      <description>&lt;p&gt;Supporting file for lab assignments on computation structures.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>BSim</title>
+      <link>/resources/bsim/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/bsim/data.json</guid>
+      <description>&lt;p&gt;Supporting file for lab assignments on computation structures. Latest release of BSim (1.1.11).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>JSim</title>
+      <link>/resources/jsim/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/jsim/data.json</guid>
+      <description>&lt;p&gt;Supporting file for lab assignments on computation structures. Latest release of JSim (2.0.28).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lab #1: Checkoff</title>
+      <link>/resources/lab1checkoff/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lab1checkoff/data.json</guid>
+      <description>&lt;p&gt;Supporting file for a lab assignment to use a simulation program (JSim) to make some measurements of an N-channel mosfet (or &amp;ldquo;nfet&amp;rdquo; for short). Information on how to contact the on-line assignments server.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lab #2: Checkoff</title>
+      <link>/resources/lab2checkoff/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lab2checkoff/data.json</guid>
+      <description>&lt;p&gt;Supporting file for a lab assignment to design and test a CMOS circuit that performs addition on two unsigned 4-bit numbers, producing a 5-bit result. Information on how to contact the on-line assignments server.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lab #3: Adder</title>
+      <link>/resources/lab3adder/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lab3adder/data.json</guid>
+      <description>&lt;p&gt;Supporting file for a lab assignment to build the arithmetic and logic unit (ALU) for the Beta processor.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lab #3: Boolean</title>
+      <link>/resources/lab3boolean/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lab3boolean/data.json</guid>
+      <description>&lt;p&gt;Supporting file for a lab assignment to build the arithmetic and logic unit (ALU) for the Beta processor.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lab #3: Checkoff 10</title>
+      <link>/resources/lab3checkoff_10/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lab3checkoff_10/data.json</guid>
+      <description>&lt;p&gt;Supporting file for a lab assignment to build the arithmetic and logic unit (ALU) for the Beta processor. Information on how to contact the on-line assignments server.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lab #3: Checkoff 6</title>
+      <link>/resources/lab3checkoff_6/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lab3checkoff_6/data.json</guid>
+      <description>&lt;p&gt;Supporting file for a lab assignment to build the arithmetic and logic unit (ALU) for the Beta processor. information on how to contact the on-line assignments server.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lab #3: compare</title>
+      <link>/resources/lab3compare/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lab3compare/data.json</guid>
+      <description>&lt;p&gt;Supporting file for a lab assignment to build the arithmetic and logic unit (ALU) for the Beta processor.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lab #3: Multiply</title>
+      <link>/resources/lab3multiply/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lab3multiply/data.json</guid>
+      <description>&lt;p&gt;Supporting file for a lab assignment to build the arithmetic and logic unit (ALU) for the Beta processor. These are some test vectors that may be helpful in debugging multipliers.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lab #3: Shifter</title>
+      <link>/resources/lab3shifter/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lab3shifter/data.json</guid>
+      <description>&lt;p&gt;Supporting file for a lab assignment to build the arithmetic and logic unit (ALU) for the Beta processor.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lab #4: Header</title>
+      <link>/resources/lab4header/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lab4header/data.json</guid>
+      <description>&lt;p&gt;Supporting file for a lab assignment  to write the FSM controller for a Turing Machine (TM) which checks to see if the string of left and right parentheses it finds on its input tape &amp;ldquo;balance.&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lab #5: Checkoff</title>
+      <link>/resources/lab5checkoff/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lab5checkoff/data.json</guid>
+      <description>&lt;p&gt;Supporting file for a lab assignment to write a Beta assembly language program. Beta environment for assembling compiled C programs&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lab #6</title>
+      <link>/resources/lab6/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lab6/data.json</guid>
+      <description>&lt;p&gt;Supporting file for a lab assignment on RISC processor design. This code makes the following assumptions about the Beta design: after reset, the Beta starts executing at location 0; illegal instructions cause a trap to location 4; interrupts cause a trap to location 8.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lab #6: Basic Block</title>
+      <link>/resources/lab6basicblock-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lab6basicblock-1/data.json</guid>
+      <description>&lt;p&gt;Supporting file for a lab assignment on RISC processor design.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lab #6: Basic Block</title>
+      <link>/resources/lab6basicblock/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lab6basicblock/data.json</guid>
+      <description>&lt;p&gt;Supporting file for a lab assignment on RISC processor design.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lab #6: Checkoff</title>
+      <link>/resources/lab6checkoff/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lab6checkoff/data.json</guid>
+      <description>&lt;p&gt;Supporting file for a lab assignment on RISC processor design. Information on how to contact the on-line assignments server.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lab #6: Control</title>
+      <link>/resources/lab6ctl/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lab6ctl/data.json</guid>
+      <description>&lt;p&gt;Supporting file for a lab assignment on RISC processor design.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lab #6: PC</title>
+      <link>/resources/lab6pc/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lab6pc/data.json</guid>
+      <description>&lt;p&gt;Supporting file for a lab assignment on RISC processor design. Tests vectors for debugging Beta PC circuitry.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lab #6: Reg File</title>
+      <link>/resources/lab6regfile/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lab6regfile/data.json</guid>
+      <description>&lt;p&gt;Supporting file for a lab assignment on RISC processor design. Test vectors for debugging Beta register file circuitry.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lab #7: Checkoff</title>
+      <link>/resources/lab7checkoff/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lab7checkoff/data.json</guid>
+      <description>&lt;p&gt;Supporting file for a lab assignment on trap handlers&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lab #7: Macros</title>
+      <link>/resources/lab7macros/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lab7macros/data.json</guid>
+      <description>&lt;p&gt;Supporting file for a lab assignment on trap handlers. These macros save and restore all 32 registers in a 32-word block of memory.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lab #7: Swap Regs</title>
+      <link>/resources/swapregs/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/swapregs/data.json</guid>
+      <description>&lt;p&gt;Supporting file for a lab assignment on trap handlers. Handler for opcode 1 extension.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lab #8: Simple OS demo for 6.004 Beta processor</title>
+      <link>/resources/lab8/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lab8/data.json</guid>
+      <description>&lt;p&gt;Supporting file for a lab assignment on implementing an operating system. This program implements a primitive OS kernel for the Beta along with three simple user-mode processes hooked together through a semaphore-controlled bounded buffer.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Nominal Device Models</title>
+      <link>/resources/nominal/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/nominal/data.json</guid>
+      <description>&lt;p&gt;Supporting file for lab assignments on computation structures.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Project Checkoff</title>
+      <link>/resources/projcheckoff-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/projcheckoff-1/data.json</guid>
+      <description>&lt;p&gt;Supporting file for a design project on computation structures.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Project Checkoff</title>
+      <link>/resources/projcheckoff-2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/projcheckoff-2/data.json</guid>
+      <description>&lt;p&gt;Supporting file for a design project on computation structures.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Project Checkoff</title>
+      <link>/resources/projcheckoff/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/projcheckoff/data.json</guid>
+      <description>&lt;p&gt;Supporting file for a design project on computation structures.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Syntax table for use in JSim-mode buffers</title>
+      <link>/resources/jsim2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/jsim2/data.json</guid>
+      <description>&lt;p&gt;Supporting file for lab assignments on computation structures. Major Emacs mode for editing JSim netlists&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>TMSim</title>
+      <link>/resources/tmsim/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/tmsim/data.json</guid>
+      <description>&lt;p&gt;Supporting file for lab assignments on computation structures. Latest release of TMSim (1.1.8)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tools</title>
+      <link>/pages/tools/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/tools/data.json</guid>
+      <description>&lt;p&gt;&lt;table&gt;&#xA;&lt;thead&gt;&#xA;&lt;tr&gt;&#xA;&lt;th&gt;&#xA;&#xA;FILES&#xA;&lt;/th&gt;&#xA;&lt;th&gt;&#xA;&#xA;DESCRIPTIONS&#xA;&lt;/th&gt;&#xA;&lt;/tr&gt;&#xA;&lt;/thead&gt;&#xA;&lt;tbody&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;6004.tgz (&lt;a href=&#34;../../resources/6004/index.html&#34;&gt;TGZ&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;Compressed tar archive of all 6.004 files&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;jsim.jar (&lt;a href=&#34;../../resources/jsim/index.html&#34;&gt;JAR&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;nominal.jsim (&lt;a href=&#34;../../resources/nominal/index.html&#34;&gt;JSIM&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;8clocks.jsim (&lt;a href=&#34;../../resources/8clocks/index.html&#34;&gt;JSIM&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;stdcell.jsim (&lt;a href=&#34;../../resources/stdcell/index.html&#34;&gt;JSIM&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;Latest release of JSim (2.0.28) and include files&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;bsim.jar (&lt;a href=&#34;../../resources/bsim/index.html&#34;&gt;JAR&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;beta.uasm (&lt;a href=&#34;../../resources/beta/index.html&#34;&gt;UASM&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;Latest release of BSim (1.1.11) and include files&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;tmsim.jar (&lt;a href=&#34;../../resources/tmsim/index.html&#34;&gt;JAR&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;Latest release of TMSim (1.1.8)&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;lab1checkoff.jsim (&lt;a href=&#34;../../resources/lab1checkoff/index.html&#34;&gt;JSIM&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;Checkoff file for Lab 1&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;lab2checkoff.jsim (&lt;a href=&#34;../../resources/lab2checkoff/index.html&#34;&gt;JSIM&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;Checkoff file for Lab 2&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;lab3checkoff_6.jsim (&lt;a href=&#34;../../resources/lab3checkoff_6/index.html&#34;&gt;JSIM&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;lab3checkoff_10.jsim (&lt;a href=&#34;../../resources/lab3checkoff_10/index.html&#34;&gt;JSIM&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;lab3adder.jsim (&lt;a href=&#34;../../resources/lab3adder/index.html&#34;&gt;JSIM&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;lab3boolean.jsim (&lt;a href=&#34;../../resources/lab3boolean/index.html&#34;&gt;JSIM&lt;/a&gt;)&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

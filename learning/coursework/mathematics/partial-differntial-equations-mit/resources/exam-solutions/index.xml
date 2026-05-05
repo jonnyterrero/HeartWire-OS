@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Exam Solutions on MIT OpenCourseWare</title>
+    <link>/resources/exam-solutions/</link>
+    <description>Recent content in Exam Solutions on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/exam-solutions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>18.03SCF11 quiz: Quiz: Cosines with Common Frequecies</title>
+      <link>/resources/mit18_03scf11_s21_3quiza/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s21_3quiza/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to common frequencies.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>18.03SCF11 quiz: Solutions to Polynomial Input</title>
+      <link>/resources/mit18_03scf11_s16_4quiza/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s16_4quiza/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to solutions to polynomial input.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>18.03SCF11 quiz: Solutions to Polynomial Input</title>
+      <link>/resources/mit18_03scf11_s16_4quizc/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s16_4quizc/data.json</guid>
+      <description>&lt;p&gt;This resource contains choices for the problem statements related to solutions to polynomial input.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>18.03SCF11 quiz: Solutions to Polynomial Input</title>
+      <link>/resources/mit18_03scf11_s16_4quizq/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s16_4quizq/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements related to solutions to polynomial input.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>18.03SCF11 text: 18.03SC Unit 1 Exam Solutions</title>
+      <link>/resources/mit18_03scf11_ex1s/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_ex1s/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for exam 1.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>18.03SCF11 text: 18.03SC Unit 1 Practice Exam and Solutions</title>
+      <link>/resources/mit18_03scf11_prex1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_prex1/data.json</guid>
+      <description>&lt;p&gt;This resource contains practice exam 1 and solutions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_ex2s.pdf</title>
+      <link>/resources/mit18_03scf11_ex2s/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_ex2s/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for exam 2.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_ex3s.pdf</title>
+      <link>/resources/mit18_03scf11_ex3s/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_ex3s/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for exam 3.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_finals.pdf</title>
+      <link>/resources/mit18_03scf11_finals/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_finals/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the final exam.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_prex2.pdf</title>
+      <link>/resources/mit18_03scf11_prex2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_prex2/data.json</guid>
+      <description>&lt;p&gt;This resource contains practice problem statements for exam 2.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_prfinals.pdf</title>
+      <link>/resources/mit18_03scf11_prfinals/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_prfinals/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for practice final exam.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s0_5quiza.pdf</title>
+      <link>/resources/mit18_03scf11_s0_5quiza/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s0_5quiza/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to quiz for ODE.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s1_3quiza.pdf</title>
+      <link>/resources/mit18_03scf11_s1_3quiza/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s1_3quiza/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions to the problem statements related to separation of variables.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s1_4quiza.pdf</title>
+      <link>/resources/mit18_03scf11_s1_4quiza/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s1_4quiza/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions to the problem statements related to is its separable?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s10_4quiza.pdf</title>
+      <link>/resources/mit18_03scf11_s10_4quiza/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s10_4quiza/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to stability of equiliria.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s10_5quiza.pdf</title>
+      <link>/resources/mit18_03scf11_s10_5quiza/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s10_5quiza/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statement related to can solutions have a local maximum?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s10_6quiza.pdf</title>
+      <link>/resources/mit18_03scf11_s10_6quiza/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s10_6quiza/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statement related to inflection points.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s12_3quiza.pdf</title>
+      <link>/resources/mit18_03scf11_s12_3quiza/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s12_3quiza/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to period of the simple harmonic oscillator.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s15_3quiza.pdf</title>
+      <link>/resources/mit18_03scf11_s15_3quiza/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s15_3quiza/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to damping and phase log.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s15_4quiza.pdf</title>
+      <link>/resources/mit18_03scf11_s15_4quiza/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s15_4quiza/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to damping and amplitude.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s16_5quiza.pdf</title>
+      <link>/resources/mit18_03scf11_s16_5quiza/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s16_5quiza/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to solutions to polynomial input 2.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s21_2quiza.pdf</title>
+      <link>/resources/mit18_03scf11_s21_2quiza/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s21_2quiza/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to cosines with common periods.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s24_2quiza.pdf</title>
+      <link>/resources/mit18_03scf11_s24_2quiza/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s24_2quiza/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements using step functions as switches.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s24_4quiza.pdf</title>
+      <link>/resources/mit18_03scf11_s24_4quiza/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s24_4quiza/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to integration with delta functions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s24_5quiza.pdf</title>
+      <link>/resources/mit18_03scf11_s24_5quiza/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s24_5quiza/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to generalized derivatives.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s25_3quiza.pdf</title>
+      <link>/resources/mit18_03scf11_s25_3quiza/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s25_3quiza/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to unit step response.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s25_5quiza.pdf</title>
+      <link>/resources/mit18_03scf11_s25_5quiza/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s25_5quiza/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for problem statements related to unit impulse response.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s25_8quiza.pdf</title>
+      <link>/resources/mit18_03scf11_s25_8quiza/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s25_8quiza/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to unit impulse response.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s27_4quiza.pdf</title>
+      <link>/resources/mit18_03scf11_s27_4quiza/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s27_4quiza/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to computing the laplace transform.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s30_2quiza.pdf</title>
+      <link>/resources/mit18_03scf11_s30_2quiza/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s30_2quiza/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to finding p(D).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s30_3quiza.pdf</title>
+      <link>/resources/mit18_03scf11_s30_3quiza/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s30_3quiza/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to finding p(D).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s32_11quiza.pdf</title>
+      <link>/resources/mit18_03scf11_s32_11quiza/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s32_11quiza/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to elimination followed by anti-elimination.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s4_2quiza.pdf</title>
+      <link>/resources/mit18_03scf11_s4_2quiza/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s4_2quiza/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to is it linear?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s4_3quiza.pdf</title>
+      <link>/resources/mit18_03scf11_s4_3quiza/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s4_3quiza/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to interpret the graph.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s5_2quiza.pdf</title>
+      <link>/resources/mit18_03scf11_s5_2quiza/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s5_2quiza/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to the meaning of k.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s5_3quiza.pdf</title>
+      <link>/resources/mit18_03scf11_s5_3quiza/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s5_3quiza/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statement related to units.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s5_6quiza.pdf</title>
+      <link>/resources/mit18_03scf11_s5_6quiza/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s5_6quiza/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statement related to integrating factors.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s6_3quiza.pdf</title>
+      <link>/resources/mit18_03scf11_s6_3quiza/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s6_3quiza/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to complex powers.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s6_4quiza.pdf</title>
+      <link>/resources/mit18_03scf11_s6_4quiza/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s6_4quiza/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to complex conjugation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s6_6quiza.pdf</title>
+      <link>/resources/mit18_03scf11_s6_6quiza/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s6_6quiza/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to comoplex powers.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s6_8quiza.pdf</title>
+      <link>/resources/mit18_03scf11_s6_8quiza/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s6_8quiza/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to complex exponentials.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s7_2quiza.pdf</title>
+      <link>/resources/mit18_03scf11_s7_2quiza/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s7_2quiza/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to mystery sinusoid.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s7_4quiza.pdf</title>
+      <link>/resources/mit18_03scf11_s7_4quiza/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s7_4quiza/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to amplitude phase form.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

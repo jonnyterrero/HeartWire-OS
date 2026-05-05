@@ -1,0 +1,7 @@
+{
+  "title":"Lecture 17: Shortest Paths III -Dijkstra and Special Cases",
+  "description": "Lecture notes on shortest paths in DAGs, shortest paths in graphs without negative edges, and Dijkstra’s algorithm.",
+  "file": "/courses/6-006-introduction-to-algorithms-spring-2008/de8d43b3546789a5dc677ae5c5915ff0_lec17.pdf",
+  "learning_resource_types": ["Lecture Notes"],
+  "resource_type": "Document",
+  "file_type": "application/pdf"}

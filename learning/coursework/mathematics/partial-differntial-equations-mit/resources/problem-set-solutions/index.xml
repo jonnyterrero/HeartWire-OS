@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Problem Set Solutions on MIT OpenCourseWare</title>
+    <link>/resources/problem-set-solutions/</link>
+    <description>Recent content in Problem Set Solutions on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/problem-set-solutions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>18.03SCF11 Problem Set Part I Solutions</title>
+      <link>/resources/mit18_03scf11_ps5_s22s_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_ps5_s22s_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>18.03SCF11 text: 18.03SC Practice Problems 21</title>
+      <link>/resources/mit18_03scf11_rec_13s21_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_rec_13s21_sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to fourier series.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>18.03SCF11 text: 18.03SC Practice Problems 32</title>
+      <link>/resources/mit18_03scf11_rec_21s32_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_rec_21s32_sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to linear systems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>18.03SCF11 text: Part I Problems and Solutions</title>
+      <link>/resources/mit18_03scf11_ps1_s1s/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_ps1_s1s/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to basic DE&amp;rsquo;s.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>18.03SCF11 text: Part I Problems and Solutions</title>
+      <link>/resources/mit18_03scf11_ps1_s2s/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_ps1_s2s/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements related to geometric methods.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>18.03SCF11 text: Part I Problems and Solutions</title>
+      <link>/resources/mit18_03scf11_ps1_s3s/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_ps1_s3s/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to numerical methods.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>18.03SCF11 text: Part I Problems and Solutions</title>
+      <link>/resources/mit18_03scf11_ps1_s4_5s/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_ps1_s4_5s/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to integrating factors.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>18.03SCF11 text: Part I Problems and Solutions</title>
+      <link>/resources/mit18_03scf11_ps2_s6s/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_ps2_s6s/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to complex arithmetic.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>18.03SCF11 text: Part I Problems and Solutions</title>
+      <link>/resources/mit18_03scf11_ps2_s7s/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_ps2_s7s/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to sinusoidal functions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>18.03SCF11 text: Part I Problems and Solutions</title>
+      <link>/resources/mit18_03scf11_ps2_s8_9s/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_ps2_s8_9s/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to exponential input.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>18.03SCF11 text: Part I Problems and Solutions</title>
+      <link>/resources/mit18_03scf11_ps3_s10s/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_ps3_s10s/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to autonomous equations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>18.03SCF11 text: Part I Problems and Solutions</title>
+      <link>/resources/mit18_03scf11_ps4_s14s/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_ps4_s14s/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the practice problem statements related to exponential response.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>18.03SCF11 text: Part I Problems and Solutions</title>
+      <link>/resources/mit18_03scf11_ps5_s21s/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_ps5_s21s/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to fourier series.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>18.03SCF11 text: Part I Problems and Solutions</title>
+      <link>/resources/mit18_03scf11_ps7_s29s/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_ps7_s29s/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to solving IVP&amp;rsquo;s.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>18.03SCF11 text: Part I Problems and Solutions</title>
+      <link>/resources/mit18_03scf11_ps8_s33s/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_ps8_s33s/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to matrix methods.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>18.03SCF11 text: Part II Problems and Solutions</title>
+      <link>/resources/mit18_03scf11_ps1_ii_s1s/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_ps1_ii_s1s/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to basic DE&amp;rsquo;s.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>18.03SCF11 text: Part II Problems and Solutions</title>
+      <link>/resources/mit18_03scf11_ps1_ii_s2s/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_ps1_ii_s2s/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements related to geometric methods.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>18.03SCF11 text: Part II Problems and Solutions</title>
+      <link>/resources/mit18_03scf11_ps1_ii_s3s/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_ps1_ii_s3s/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to numerical methods.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>18.03SCF11 text: Part II Problems and Solutions</title>
+      <link>/resources/mit18_03scf11_ps1_ii_s4_5s/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_ps1_ii_s4_5s/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to integrating factors.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>18.03SCF11 text: Part II Problems and Solutions</title>
+      <link>/resources/mit18_03scf11_ps2_ii_s6s/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_ps2_ii_s6s/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to complex arithmetic.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>18.03SCF11 text: Part II Problems and Solutions</title>
+      <link>/resources/mit18_03scf11_ps2_ii_s8_9s/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_ps2_ii_s8_9s/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to exponential input.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>18.03SCF11 text: Part II Problems and Solutions</title>
+      <link>/resources/mit18_03scf11_ps3_ii_s10s/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_ps3_ii_s10s/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to autonomous equations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>18.03SCF11 text: Part II Problems and Solutions</title>
+      <link>/resources/mit18_03scf11_ps3_ii_s11s/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_ps3_ii_s11s/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to linear vs non linear.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>18.03SCF11 text: Part II Problems and Solutions</title>
+      <link>/resources/mit18_03scf11_ps4_ii_s14s/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_ps4_ii_s14s/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the practice problem statements related to exponential response.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_new_s15s.pdf</title>
+      <link>/resources/mit18_03scf11_new_s15s/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_new_s15s/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to gain and phase log.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_new_s18s.pdf</title>
+      <link>/resources/mit18_03scf11_new_s18s/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_new_s18s/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to pure resonance.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_ps10_II_s37s.pdf</title>
+      <link>/resources/mit18_03scf11_ps10_ii_s37s/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_ps10_ii_s37s/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to linearization.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_ps10_s36s.pdf</title>
+      <link>/resources/mit18_03scf11_ps10_s36s/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_ps10_s36s/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to non linear systems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_ps10_s37s.pdf</title>
+      <link>/resources/mit18_03scf11_ps10_s37s/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_ps10_s37s/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to linearization.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_ps3_II_s13s.pdf</title>
+      <link>/resources/mit18_03scf11_ps3_ii_s13s/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_ps3_ii_s13s/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to damped oscillators.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_ps3_s12s.pdf</title>
+      <link>/resources/mit18_03scf11_ps3_s12s/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_ps3_s12s/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to characteristic equation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_ps4_II_s16s.pdf</title>
+      <link>/resources/mit18_03scf11_ps4_ii_s16s/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_ps4_ii_s16s/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to undetermined coefficients.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_ps4_II_s19s.pdf</title>
+      <link>/resources/mit18_03scf11_ps4_ii_s19s/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_ps4_ii_s19s/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the practice problem statements related to frequency response.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_ps4_s16s.pdf</title>
+      <link>/resources/mit18_03scf11_ps4_s16s/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_ps4_s16s/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to undetermined coefficients.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_ps4_s17s.pdf</title>
+      <link>/resources/mit18_03scf11_ps4_s17s/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_ps4_s17s/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to linear operators.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_ps4_s19s.pdf</title>
+      <link>/resources/mit18_03scf11_ps4_s19s/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_ps4_s19s/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the practice problem statements related to frequency response.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_ps5_II_s20s.pdf</title>
+      <link>/resources/mit18_03scf11_ps5_ii_s20s/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_ps5_ii_s20s/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to applications.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_ps5_II_s21s.pdf</title>
+      <link>/resources/mit18_03scf11_ps5_ii_s21s/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_ps5_ii_s21s/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to fourier series.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_ps5_II_s22s.pdf</title>
+      <link>/resources/mit18_03scf11_ps5_ii_s22s/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_ps5_ii_s22s/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to operations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_ps5_s22s.pdf</title>
+      <link>/resources/mit18_03scf11_ps5_s22s/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_ps5_s22s/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to operations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_ps6_II_s23s.pdf</title>
+      <link>/resources/mit18_03scf11_ps6_ii_s23s/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_ps6_ii_s23s/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to periodic input.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_ps6_II_s24s.pdf</title>
+      <link>/resources/mit18_03scf11_ps6_ii_s24s/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_ps6_ii_s24s/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to step and delta functions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_ps6_II_s25s.pdf</title>
+      <link>/resources/mit18_03scf11_ps6_ii_s25s/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_ps6_ii_s25s/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to impulse response.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_ps6_II_s26s.pdf</title>
+      <link>/resources/mit18_03scf11_ps6_ii_s26s/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_ps6_ii_s26s/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to convolution.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_ps6_s23s.pdf</title>
+      <link>/resources/mit18_03scf11_ps6_s23s/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_ps6_s23s/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to periodic input.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_ps6_s25s.pdf</title>
+      <link>/resources/mit18_03scf11_ps6_s25s/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_ps6_s25s/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to impulse response.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_ps7_II_s27s.pdf</title>
+      <link>/resources/mit18_03scf11_ps7_ii_s27s/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_ps7_ii_s27s/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to laplace transform.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_ps7_II_s29s.pdf</title>
+      <link>/resources/mit18_03scf11_ps7_ii_s29s/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_ps7_ii_s29s/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to solving IVP&amp;rsquo;s.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_ps7_II_s30s.pdf</title>
+      <link>/resources/mit18_03scf11_ps7_ii_s30s/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_ps7_ii_s30s/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to transfer functions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_ps7_s27s.pdf</title>
+      <link>/resources/mit18_03scf11_ps7_s27s/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_ps7_s27s/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to laplace transform.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_ps7_s28s.pdf</title>
+      <link>/resources/mit18_03scf11_ps7_s28s/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_ps7_s28s/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to partial fractions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_ps7_s30s.pdf</title>
+      <link>/resources/mit18_03scf11_ps7_s30s/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_ps7_s30s/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to transfer functions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_ps8_II_s31s.pdf</title>
+      <link>/resources/mit18_03scf11_ps8_ii_s31s/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_ps8_ii_s31s/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to poles.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_ps8_II_s32s.pdf</title>
+      <link>/resources/mit18_03scf11_ps8_ii_s32s/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_ps8_ii_s32s/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to linear systems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_ps8_II_s33s.pdf</title>
+      <link>/resources/mit18_03scf11_ps8_ii_s33s/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_ps8_ii_s33s/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to matrix methods.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_ps8_s31s.pdf</title>
+      <link>/resources/mit18_03scf11_ps8_s31s/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_ps8_s31s/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to poles.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_ps8_s32s.pdf</title>
+      <link>/resources/mit18_03scf11_ps8_s32s/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_ps8_s32s/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to linear systems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_ps9_II_s34s.pdf</title>
+      <link>/resources/mit18_03scf11_ps9_ii_s34s/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_ps9_ii_s34s/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to phase portraits.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_ps9_II_s35s.pdf</title>
+      <link>/resources/mit18_03scf11_ps9_ii_s35s/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_ps9_ii_s35s/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to matrix exponentials.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_ps9_s34s.pdf</title>
+      <link>/resources/mit18_03scf11_ps9_s34s/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_ps9_s34s/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to phase portraits.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_ps9_s35s.pdf</title>
+      <link>/resources/mit18_03scf11_ps9_s35s/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_ps9_s35s/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to matrix exponentials.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_rec_01s1_sol.pdf</title>
+      <link>/resources/mit18_03scf11_rec_01s1_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_rec_01s1_sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the practice problems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_rec_02s2_sol.pdf</title>
+      <link>/resources/mit18_03scf11_rec_02s2_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_rec_02s2_sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions to the practice problems related to geometric methods.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_rec_03s3_sol.pdf</title>
+      <link>/resources/mit18_03scf11_rec_03s3_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_rec_03s3_sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the practice problem statements related to numerical methods.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_rec_03s4_sol.pdf</title>
+      <link>/resources/mit18_03scf11_rec_03s4_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_rec_03s4_sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to linear ODE&amp;rsquo;s.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_rec_04s5_sol.pdf</title>
+      <link>/resources/mit18_03scf11_rec_04s5_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_rec_04s5_sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to integrating factors.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_rec_05s6_sol.pdf</title>
+      <link>/resources/mit18_03scf11_rec_05s6_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_rec_05s6_sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to complex arithmetic.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_rec_05s7_sol.pdf</title>
+      <link>/resources/mit18_03scf11_rec_05s7_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_rec_05s7_sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to sinusoidal functions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_rec_05s9_sol.pdf</title>
+      <link>/resources/mit18_03scf11_rec_05s9_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_rec_05s9_sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to exponential input.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_rec_07s12_sol.pdf</title>
+      <link>/resources/mit18_03scf11_rec_07s12_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_rec_07s12_sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to characteristic equation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_rec_08s13_sol.pdf</title>
+      <link>/resources/mit18_03scf11_rec_08s13_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_rec_08s13_sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to damped oscillators.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_rec_09s14_sol.pdf</title>
+      <link>/resources/mit18_03scf11_rec_09s14_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_rec_09s14_sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the practice problem statements related to exponential response.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_rec_1011s19_sol.pdf</title>
+      <link>/resources/mit18_03scf11_rec_1011s19_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_rec_1011s19_sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the practice problem statements related to frequency response.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_rec_10s15_sol.pdf</title>
+      <link>/resources/mit18_03scf11_rec_10s15_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_rec_10s15_sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to gain and phase log.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_rec_10s16_sol.pdf</title>
+      <link>/resources/mit18_03scf11_rec_10s16_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_rec_10s16_sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to undetermined coefficients.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_rec_14s22_sol.pdf</title>
+      <link>/resources/mit18_03scf11_rec_14s22_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_rec_14s22_sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to operations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_rec_15s23_sol.pdf</title>
+      <link>/resources/mit18_03scf11_rec_15s23_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_rec_15s23_sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to periodic input.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_rec_16s24_sol.pdf</title>
+      <link>/resources/mit18_03scf11_rec_16s24_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_rec_16s24_sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the practice problem statements related to step and delta functions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_rec_16s25_sol.pdf</title>
+      <link>/resources/mit18_03scf11_rec_16s25_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_rec_16s25_sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to impulse response.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_rec_17s26_sol.pdf</title>
+      <link>/resources/mit18_03scf11_rec_17s26_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_rec_17s26_sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to convolution.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_rec_18_19s29_sol.pdf</title>
+      <link>/resources/mit18_03scf11_rec_18_19s29_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_rec_18_19s29_sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to solving IVP&amp;rsquo;s.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_rec_18s27_sol.pdf</title>
+      <link>/resources/mit18_03scf11_rec_18s27_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_rec_18s27_sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to laplace transform.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_rec_18s28_sol.pdf</title>
+      <link>/resources/mit18_03scf11_rec_18s28_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_rec_18s28_sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to partial fractions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_rec_24s34_sol.pdf</title>
+      <link>/resources/mit18_03scf11_rec_24s34_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_rec_24s34_sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to phase portraits.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_rec_24s35_sol.pdf</title>
+      <link>/resources/mit18_03scf11_rec_24s35_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_rec_24s35_sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to matrix exponentials.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s1_5text.pdf</title>
+      <link>/resources/mit18_03scf11_s1_5text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s1_5text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to solutions that blow up: the domain of a solution.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s14_5exera.pdf</title>
+      <link>/resources/mit18_03scf11_s14_5exera/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s14_5exera/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the practice problems related to resonant response formula.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s2_2exera.pdf</title>
+      <link>/resources/mit18_03scf11_s2_2exera/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s2_2exera/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to isoclines.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s22_1exera.pdf</title>
+      <link>/resources/mit18_03scf11_s22_1exera/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s22_1exera/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to operations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s23_1text.pdf</title>
+      <link>/resources/mit18_03scf11_s23_1text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s23_1text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to simple harmonic oscillator.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s23_3text.pdf</title>
+      <link>/resources/mit18_03scf11_s23_3text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s23_3text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to damped harmonic oscillator.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s23_4text.pdf</title>
+      <link>/resources/mit18_03scf11_s23_4text/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s23_4text/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to general case.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s3_2exera.pdf</title>
+      <link>/resources/mit18_03scf11_s3_2exera/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s3_2exera/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to numerical methods.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s32_2exera.pdf</title>
+      <link>/resources/mit18_03scf11_s32_2exera/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s32_2exera/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to solving by elimination.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s32_5exera.pdf</title>
+      <link>/resources/mit18_03scf11_s32_5exera/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s32_5exera/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to vectors and matrices.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s32_7exera.pdf</title>
+      <link>/resources/mit18_03scf11_s32_7exera/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s32_7exera/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to matrix notation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_03SCF11_s33_2exera.pdf</title>
+      <link>/resources/mit18_03scf11_s33_2exera/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_03scf11_s33_2exera/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to linear algebra.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,3277 @@
+1
+00:00:25,000 --> 00:00:30,000
+All right.
+Good morning.
+
+2
+00:00:30,000 --> 00:00:35,000
+Let's get started.
+So the last lecture we showed
+
+3
+00:00:35,000 --> 00:00:40,000
+you how to go digital.
+The fact that going digital had
+
+4
+00:00:40,000 --> 00:00:46,000
+some key benefits for us.
+And what we'll do today is go
+
+5
+00:00:46,000 --> 00:00:50,000
+inside the digital gate.
+
+6
+00:01:06,000 --> 00:01:11,000
+Let's do a quick review.
+We began life by observing
+
+7
+00:01:11,000 --> 00:01:14,000
+nature.
+We said those Maxwell's
+
+8
+00:01:14,000 --> 00:01:19,000
+equations are tough.
+Let's simplify our lives by
+
+9
+00:01:19,000 --> 00:01:25,000
+discretizing or lumping matter.
+So we got the lumped circuit
+
+10
+00:01:25,000 --> 00:01:30,000
+abstraction.
+Then we had this noise problem
+
+11
+00:01:30,000 --> 00:01:35,000
+here.
+In order to be able to handle
+
+12
+00:01:35,000 --> 00:01:39,000
+that let's do some more
+discretization,
+
+13
+00:01:39,000 --> 00:01:43,000
+some more lumping.
+So we said let's discretize
+
+14
+00:01:43,000 --> 00:01:49,000
+values and deal with two levels,
+a high and a low.
+
+15
+00:01:49,000 --> 00:01:53,000
+That's where the binary voltage
+levels come up,
+
+16
+00:01:53,000 --> 00:01:59,000
+a high level and a low level.
+And then we said that in
+
+17
+00:01:59,000 --> 00:02:03,000
+discretizing it we have to make
+some assumptions.
+
+18
+00:02:03,000 --> 00:02:06,000
+We have to impose some
+constraints on ourselves.
+
+19
+00:02:06,000 --> 00:02:10,000
+Just as with the lumped matter
+discipline, we imposed a couple
+
+20
+00:02:10,000 --> 00:02:14,000
+of constraints in going from the
+continuous matter world to a
+
+21
+00:02:14,000 --> 00:02:18,000
+lumped matter world.
+Similarly, we have to impose
+
+22
+00:02:18,000 --> 00:02:22,000
+some discipline on ourselves,
+some constraints on ourselves
+
+23
+00:02:22,000 --> 00:02:26,000
+in going from the continuous
+value regime to the digital
+
+24
+00:02:26,000 --> 00:02:29,000
+value regime.
+And that discipline is called
+
+25
+00:02:29,000 --> 00:02:32,000
+the static discipline.
+
+26
+00:02:38,000 --> 00:02:44,000
+And what the static discipline
+says is that if you have senders
+
+27
+00:02:44,000 --> 00:02:50,000
+and receivers in a digital
+system then they all need to
+
+28
+00:02:50,000 --> 00:02:55,000
+adhere to some standard.
+If I was a sender I had to
+
+29
+00:02:55,000 --> 00:03:00,000
+adhere to some tough output
+standards.
+
+30
+00:03:00,000 --> 00:03:05,000
+I had to be sure to shift
+values that exceeded some high
+
+31
+00:03:05,000 --> 00:03:10,000
+voltage threshold.
+And if I was sending a low
+
+32
+00:03:10,000 --> 00:03:16,000
+value I had to make sure my
+values were lower than some
+
+33
+00:03:16,000 --> 00:03:22,000
+output low voltage threshold.
+Similarly, if I was the
+
+34
+00:03:22,000 --> 00:03:28,000
+receiver then I had to guarantee
+to recognize as a one all
+
+35
+00:03:28,000 --> 00:03:36,000
+voltages that where above some
+input high voltage threshold.
+
+36
+00:03:36,000 --> 00:03:40,000
+And similarly I had to
+guarantee to recognize as a zero
+
+37
+00:03:40,000 --> 00:03:46,000
+voltages that were below some
+input low voltage threshold.
+
+38
+00:03:46,000 --> 00:03:51,000
+So provided senders and
+receivers in a system adhere to
+
+39
+00:03:51,000 --> 00:03:55,000
+these voltage levels,
+to this discipline then they
+
+40
+00:03:55,000 --> 00:04:02,000
+would all very comfortably work
+correctly in a digital system.
+
+41
+00:04:02,000 --> 00:04:06,000
+Then we also said that once you
+deal with such values,
+
+42
+00:04:06,000 --> 00:04:10,000
+one you deal with digital
+values we can now postulate a
+
+43
+00:04:10,000 --> 00:04:15,000
+bunch of digital elements that
+process these values in a manner
+
+44
+00:04:15,000 --> 00:04:20,000
+very reminiscent of our analog
+circuits where we get analog
+
+45
+00:04:20,000 --> 00:04:23,000
+signals.
+And you've already learned how
+
+46
+00:04:23,000 --> 00:04:27,000
+to process analog signals.
+You've learned about resistor
+
+47
+00:04:27,000 --> 00:04:33,000
+dividers and so on and so forth.
+You feed in an analog signal
+
+48
+00:04:33,000 --> 00:04:37,000
+and you get an output analog
+signal as well.
+
+49
+00:04:37,000 --> 00:04:41,000
+Now, here the resistor in the
+analog domain,
+
+50
+00:04:41,000 --> 00:04:46,000
+elements like resistors and
+voltage sources were the symbols
+
+51
+00:04:46,000 --> 00:04:51,000
+that you dealt with.
+Here, in the digital domain,
+
+52
+00:04:51,000 --> 00:04:58,000
+the primitive elements that we
+will be using are called gates.
+
+53
+00:04:58,000 --> 00:05:02,000
+As one example,
+this is called the NAND gate.
+
+54
+00:05:02,000 --> 00:05:08,000
+So we looked at the AND gate in
+the previous lecture.
+
+55
+00:05:08,000 --> 00:05:13,000
+This is an example of another
+gate called the NAND gate.
+
+56
+00:05:13,000 --> 00:05:18,000
+The NAND gate has the following
+truth table.
+
+57
+00:05:18,000 --> 00:05:22,000
+Our two inputs A and B and this
+output C.
+
+58
+00:05:22,000 --> 00:05:26,000
+And the NAND gate works as
+follows.
+
+59
+00:05:26,000 --> 00:05:31,000
+The output --
+In English I can describe its
+
+60
+00:05:31,000 --> 00:05:37,000
+properties as the output is a
+high at all times when at least
+
+61
+00:05:37,000 --> 00:05:40,000
+one of these inputs is a low
+value.
+
+62
+00:05:40,000 --> 00:05:45,000
+So it's high whenever at least
+one input is a low.
+
+63
+00:05:45,000 --> 00:05:48,000
+So it's high here.
+It's high here.
+
+64
+00:05:48,000 --> 00:05:51,000
+Oops, it's high here,
+high here.
+
+65
+00:05:51,000 --> 00:05:55,000
+And when, oops.
+And when both inputs are a high
+
+66
+00:05:55,000 --> 00:06:00,000
+the output is a low.
+This is a NAND gate.
+
+67
+00:06:00,000 --> 00:06:05,000
+Notice that these are exactly
+complimentary to the AND gate.
+
+68
+00:06:05,000 --> 00:06:08,000
+The AND gate outputs were
+0-0-0-1.
+
+69
+00:06:08,000 --> 00:06:11,000
+And the AND gate symbol looked
+like this.
+
+70
+00:06:11,000 --> 00:06:15,000
+In general, notice that this
+little bubble here,
+
+71
+00:06:15,000 --> 00:06:20,000
+it's called a bubble.
+That bubble implies a negation,
+
+72
+00:06:20,000 --> 00:06:23,000
+an inversion.
+So we take the AND gate,
+
+73
+00:06:23,000 --> 00:06:28,000
+invert the output and negate
+the output and you get the NAND
+
+74
+00:06:28,000 --> 00:06:32,000
+gate.
+So these elements are
+
+75
+00:06:32,000 --> 00:06:37,000
+combinational gates.
+And in combinational gates they
+
+76
+00:06:37,000 --> 00:06:42,000
+adhere to two properties.
+One is that they must satisfy
+
+77
+00:06:42,000 --> 00:06:45,000
+the static discipline.
+
+78
+00:06:50,000 --> 00:06:52,000
+All the systems,
+all the elements in our
+
+79
+00:06:52,000 --> 00:06:56,000
+repertoire in the digital domain
+need to satisfy the static
+
+80
+00:06:56,000 --> 00:06:58,000
+discipline.
+And the properties of a
+
+81
+00:06:58,000 --> 00:07:03,000
+combinational gate are that its
+outputs are a function of inputs
+
+82
+00:07:03,000 --> 00:07:04,000
+alone.
+
+83
+00:07:13,000 --> 00:07:16,000
+In other words,
+it doesn't store any state or
+
+84
+00:07:16,000 --> 00:07:18,000
+doesn't store any history inside
+it.
+
+85
+00:07:18,000 --> 00:07:23,000
+You can figure out its output
+just by looking at the inputs at
+
+86
+00:07:23,000 --> 00:07:26,000
+that instant.
+Think of it as a completely
+
+87
+00:07:26,000 --> 00:07:30,000
+transparent entity where its
+output reflects some function of
+
+88
+00:07:30,000 --> 00:07:34,000
+the inputs at every instant of
+time.
+
+89
+00:07:44,000 --> 00:07:48,000
+So I'll show you an example of
+a digital circuit.
+
+90
+00:07:53,000 --> 00:07:56,000
+So much as I could interconnect
+resistors and voltage sources
+
+91
+00:07:56,000 --> 00:07:58,000
+and current sources to build
+analog circuits,
+
+92
+00:07:58,000 --> 00:08:01,000
+I can now build digital
+circuits using primitive
+
+93
+00:08:01,000 --> 00:08:04,000
+elements such as these.
+So, for example,
+
+94
+00:08:04,000 --> 00:08:11,000
+I could build a simple circuit
+that looked like this,
+
+95
+00:08:11,000 --> 00:08:16,000
+two inputs A and B here,
+I get an output.
+
+96
+00:08:16,000 --> 00:08:23,000
+And I feed that to another NAND
+gate with another input C.
+
+97
+00:08:23,000 --> 00:08:28,000
+This device is called an
+inverter.
+
+98
+00:08:28,000 --> 00:08:31,000
+The inverter simply flips the
+sense of the input.
+
+99
+00:08:31,000 --> 00:08:36,000
+So if C is a 1 the output is a
+0, if C is a 0 the output
+
+100
+00:08:36,000 --> 00:08:38,000
+becomes a 1.
+It's an inverter.
+
+101
+00:08:38,000 --> 00:08:42,000
+It simply inverts its input.
+Yet another primitive device.
+
+102
+00:08:42,000 --> 00:08:46,000
+And this is my output D.
+So there are three gates in
+
+103
+00:08:46,000 --> 00:08:50,000
+this design.
+And I can quickly write down
+
+104
+00:08:50,000 --> 00:08:55,000
+what the output looks like using
+some very simple Boolean algebra
+
+105
+00:08:55,000 --> 00:08:59,000
+or dealing with Boolean values
+here.
+
+106
+00:08:59,000 --> 00:09:03,000
+So for AND gate the output is A
+and B.
+
+107
+00:09:03,000 --> 00:09:07,000
+Remember dot is a short form
+for and.
+
+108
+00:09:07,000 --> 00:09:12,000
+But there's a negation,
+inversion, so represent
+
+109
+00:09:12,000 --> 00:09:17,000
+inversions with a bar.
+So my output is A dot B bar.
+
+110
+00:09:17,000 --> 00:09:22,000
+There is a C here.
+So this is my output C bar.
+
+111
+00:09:22,000 --> 00:09:30,000
+And this is a NAND gate.
+So it takes one input A dot B.
+
+112
+00:09:30,000 --> 00:09:36,000
+It takes the second input C bar
+and ANDs those and inverts them.
+
+113
+00:09:36,000 --> 00:09:40,000
+So that's the output.
+So there are three gates in
+
+114
+00:09:40,000 --> 00:09:44,000
+this example.
+So you can think of building
+
+115
+00:09:44,000 --> 00:09:49,000
+very complicated circuits
+containing large numbers of
+
+116
+00:09:49,000 --> 00:09:53,000
+gates.
+In fact, the microprocessors
+
+117
+00:09:53,000 --> 00:10:00,000
+that you use in your laptop
+contain a large number of gates.
+
+118
+00:10:00,000 --> 00:10:08,000
+Can someone guess how many
+gates are in the Pentium IV,
+
+119
+00:10:08,000 --> 00:10:11,000
+roughly?
+Approximate,
+
+120
+00:10:11,000 --> 00:10:17,000
+how many?
+How many gates in a Pentium IV?
+
+121
+00:10:17,000 --> 00:10:21,000
+40 million.
+100 million.
+
+122
+00:10:21,000 --> 00:10:32,000
+In the Pentium IV you have on
+the order of 20 million gates.
+
+123
+00:10:32,000 --> 00:10:35,000
+20 million gates in the Pentium
+IV.
+
+124
+00:10:35,000 --> 00:10:41,000
+And life begins in 002.
+Here you learn about onsies and
+
+125
+00:10:41,000 --> 00:10:47,000
+twosies, and in the real world
+you will be dealing with tens of
+
+126
+00:10:47,000 --> 00:10:52,000
+millions of gates.
+But this is for the Pentium IV.
+
+127
+00:10:52,000 --> 00:10:58,000
+My research group at Laboratory
+for Computer Science built a
+
+128
+00:10:58,000 --> 00:11:04,000
+chip called the Raw chip.
+And this chip has 3 million
+
+129
+00:11:04,000 --> 00:11:07,000
+gates.
+And so there are several
+
+130
+00:11:07,000 --> 00:11:12,000
+undergraduate students involved
+in this project in their third
+
+131
+00:11:12,000 --> 00:11:17,000
+year, and they're beginning to
+deal with millions of gates.
+
+132
+00:11:17,000 --> 00:11:22,000
+So the key thing to remember is
+that 002 provides the
+
+133
+00:11:22,000 --> 00:11:27,000
+foundations where you make the
+switch from the analog signal to
+
+134
+00:11:27,000 --> 00:11:32,000
+the digital signal or from
+continuous matter to lumped
+
+135
+00:11:32,000 --> 00:11:36,000
+matter.
+And learn about the foundations
+
+136
+00:11:36,000 --> 00:11:40,000
+of these primitive elements.
+And by the end of this course
+
+137
+00:11:40,000 --> 00:11:43,000
+you will begin dealing with
+small systems,
+
+138
+00:11:43,000 --> 00:11:48,000
+analog systems that contain on
+the order of 10 to 20 primitive
+
+139
+00:11:48,000 --> 00:11:51,000
+elements.
+You will also begin dealing
+
+140
+00:11:51,000 --> 00:11:55,000
+with small digital systems that
+contain tens of gates.
+
+141
+00:11:55,000 --> 00:11:59,000
+In your final project you will
+build a mixed signal circuit
+
+142
+00:11:59,000 --> 00:12:03,000
+involving an audio playback
+system.
+
+143
+00:12:03,000 --> 00:12:06,000
+You will have digital data
+stored in a memory chip and you
+
+144
+00:12:06,000 --> 00:12:10,000
+will build a circuit to extract
+that data, filter it and then
+
+145
+00:12:10,000 --> 00:12:14,000
+convert it to the analog domain
+and then play it on a set of
+
+146
+00:12:14,000 --> 00:12:17,000
+speakers.
+And that has on the order of
+
+147
+00:12:17,000 --> 00:12:19,000
+about 50 to 100 primitive
+elements.
+
+148
+00:12:19,000 --> 00:12:23,000
+So by the end of 002 you will
+have learned to deal with
+
+149
+00:12:23,000 --> 00:12:26,000
+hundreds of elements.
+And then you will take other
+
+150
+00:12:26,000 --> 00:12:30,000
+courses like 004 and so on where
+you will then make the leap to
+
+151
+00:12:30,000 --> 00:12:34,000
+learn further abstractions that
+will take you from subsystems to
+
+152
+00:12:34,000 --> 00:12:39,000
+systems with millions of gates.
+So the key is to manage the
+
+153
+00:12:39,000 --> 00:12:43,000
+complexity of dealing with
+millions of gates it's all about
+
+154
+00:12:43,000 --> 00:12:47,000
+abstractions.
+You have to build abstractions
+
+155
+00:12:47,000 --> 00:12:50,000
+and double abstractions so you
+can deal with complexity.
+
+156
+00:12:50,000 --> 00:12:54,000
+So the rest of EECS will take
+you from three gates to 20
+
+157
+00:12:54,000 --> 00:12:58,000
+million gates and software
+systems that operate on 20
+
+158
+00:12:58,000 --> 00:13:03,000
+million gates or whatever.
+So there is still a ways to go.
+
+159
+00:13:03,000 --> 00:13:09,000
+Lorenzo, our friend has gone to
+bring a demonstration that we
+
+160
+00:13:09,000 --> 00:13:14,000
+forgot to bring today.
+That will show you that little
+
+161
+00:13:14,000 --> 00:13:17,000
+digital circuit in a mock up
+form.
+
+162
+00:13:17,000 --> 00:13:20,000
+So what's today's lecture
+about?
+
+163
+00:13:20,000 --> 00:13:27,000
+Today's lecture is going to be
+about what's inside a gate?
+
+164
+00:13:35,000 --> 00:13:38,000
+How to build a gate.
+Once you build a gate you can
+
+165
+00:13:38,000 --> 00:13:42,000
+then put millions of them into
+computer systems or analog
+
+166
+00:13:42,000 --> 00:13:44,000
+systems or other sorts of
+systems.
+
+167
+00:13:44,000 --> 00:13:48,000
+And what we'll do here is
+understand what's inside this
+
+168
+00:13:48,000 --> 00:13:51,000
+abstraction.
+This is an abstract element
+
+169
+00:13:51,000 --> 00:13:55,000
+that looks like a little circle
+and a line with some stuff
+
+170
+00:13:55,000 --> 00:13:59,000
+inside it, with some properties.
+But someone's got to build
+
+171
+00:13:59,000 --> 00:14:02,000
+that.
+It doesn't come from nature.
+
+172
+00:14:02,000 --> 00:14:06,000
+You don't go and harvest gates
+from trees, you got to go build
+
+173
+00:14:06,000 --> 00:14:08,000
+that, and someone has got to do
+that.
+
+174
+00:14:08,000 --> 00:14:12,000
+So what to learn here is how do
+we go about building a gate?
+
+175
+00:14:12,000 --> 00:14:15,000
+And here you will see
+practically how do you deal with
+
+176
+00:14:15,000 --> 00:14:18,000
+voltage thresholds that satisfy
+a given static discipline?
+
+177
+00:14:18,000 --> 00:14:22,000
+So before I jump into building
+a gate, let me try to build up
+
+178
+00:14:22,000 --> 00:14:24,000
+some intuition.
+As is my usual practice,
+
+179
+00:14:24,000 --> 00:14:28,000
+I'd love to get you to build
+some intuition as to how to
+
+180
+00:14:28,000 --> 00:14:33,000
+build a gate.
+And then we'll go through the
+
+181
+00:14:33,000 --> 00:14:38,000
+mechanics of doing it.
+So to build intuition,
+
+182
+00:14:38,000 --> 00:14:44,000
+let me show you an analogous
+situation in fluids.
+
+183
+00:14:44,000 --> 00:14:48,000
+So let's say I have a cauldron
+of water.
+
+184
+00:14:48,000 --> 00:14:55,000
+This is like a power supply.
+And I need to feed this fluid
+
+185
+00:14:55,000 --> 00:15:03,000
+down at some output source.
+And what I do in the middle is
+
+186
+00:15:03,000 --> 00:15:09,000
+put in a couple of taps,
+faucets, all right?
+
+187
+00:15:09,000 --> 00:15:16,000
+And so what do these guys do?
+Under what condition do you
+
+188
+00:15:16,000 --> 00:15:23,000
+have fluid flow out of the tube
+at the other end?
+
+189
+00:15:23,000 --> 00:15:35,000
+You will have fluid flow if --
+So let me call this A and B.
+
+190
+00:15:35,000 --> 00:15:45,000
+If A is on and B is on then C
+has water.
+
+191
+00:15:45,000 --> 00:16:02,000
+Otherwise, if both A and B are
+not on then C has no water.
+
+192
+00:16:02,000 --> 00:16:06,000
+So this is already beginning to
+sound like a AND gate,
+
+193
+00:16:06,000 --> 00:16:11,000
+correct, where you get water
+only if A and B are both turned
+
+194
+00:16:11,000 --> 00:16:14,000
+on.
+So we're going to use this
+
+195
+00:16:14,000 --> 00:16:19,000
+insight, a stream of some flow
+and I put things to obstruct the
+
+196
+00:16:19,000 --> 00:16:22,000
+flow.
+And when both the obstructions
+
+197
+00:16:22,000 --> 00:16:27,000
+are lifted I get the output.
+I want to use that intuition to
+
+198
+00:16:27,000 --> 00:16:33,000
+build an AND gate.
+Similarly, I could build a
+
+199
+00:16:33,000 --> 00:16:42,000
+system that allows me to build
+the following structure --
+
+200
+00:16:58,000 --> 00:17:01,000
+So in this scenario let me call
+this --
+
+201
+00:17:07,000 --> 00:17:11,000
+-- the signal of A and B here.
+And in this situation under
+
+202
+00:17:11,000 --> 00:17:14,000
+what conditions,
+provided the power supply has
+
+203
+00:17:14,000 --> 00:17:17,000
+water, under what conditions do
+I get water out?
+
+204
+00:17:17,000 --> 00:17:21,000
+In this situation,
+it is I get water if A or B are
+
+205
+00:17:21,000 --> 00:17:24,000
+turned on.
+So I don't need to turn both A
+
+206
+00:17:24,000 --> 00:17:26,000
+and B on.
+If either one of them is on,
+
+207
+00:17:26,000 --> 00:17:30,000
+I'm going to get fluid flow
+here.
+
+208
+00:17:30,000 --> 00:17:36,000
+So this will help us build the
+inside to build the OR gate.
+
+209
+00:17:36,000 --> 00:17:43,000
+So that's an analogy involving
+items we see in everyday life.
+
+210
+00:17:43,000 --> 00:17:48,000
+Let me now move into the
+electrical domain.
+
+211
+00:17:48,000 --> 00:17:55,000
+In the electrical domain my
+analogy would be something like
+
+212
+00:17:55,000 --> 00:17:59,000
+this.
+Let's say I have a power supply
+
+213
+00:17:59,000 --> 00:18:06,000
+and I have two switches A and B.
+And I build a little circuit
+
+214
+00:18:06,000 --> 00:18:10,000
+that connects this voltage
+source across the bulb using a
+
+215
+00:18:10,000 --> 00:18:13,000
+couple of switches.
+In this case,
+
+216
+00:18:13,000 --> 00:18:17,000
+the bulb is on if both switches
+A and B are on.
+
+217
+00:18:17,000 --> 00:18:20,000
+My bulb turns on.
+If I switch either one of them
+
+218
+00:18:20,000 --> 00:18:24,000
+off my bulb turns off.
+So notice that I can begin
+
+219
+00:18:24,000 --> 00:18:30,000
+implementing things like this if
+I had this element.
+
+220
+00:18:30,000 --> 00:18:33,000
+I had sources already.
+I know how to deal with bulbs.
+
+221
+00:18:33,000 --> 00:18:38,000
+I model them as resistors.
+So I need to do something about
+
+222
+00:18:38,000 --> 00:18:40,000
+this new element called a
+"switch".
+
+223
+00:18:40,000 --> 00:18:43,000
+So let me build an abstract
+device.
+
+224
+00:18:43,000 --> 00:18:47,000
+I'll tell you how to do that in
+real life in a second.
+
+225
+00:18:47,000 --> 00:18:51,000
+So if I had the switch I could
+build things like this.
+
+226
+00:18:51,000 --> 00:18:55,000
+I could put switches in series
+in a circuit and get myself
+
+227
+00:18:55,000 --> 00:19:00,000
+something that looks like a AND
+function.
+
+228
+00:19:00,000 --> 00:19:07,000
+So let me go ahead and build an
+equivalent circuit for a switch.
+
+229
+00:19:07,000 --> 00:19:13,000
+So the switch has a couple of
+terminals here and I have a
+
+230
+00:19:13,000 --> 00:19:17,000
+control.
+Switches have a control and
+
+231
+00:19:17,000 --> 00:19:24,000
+they have a pair of terminals.
+And the equivalent circuit for
+
+232
+00:19:24,000 --> 00:19:30,000
+this looks like this.
+This is for my switch.
+
+233
+00:19:30,000 --> 00:19:37,000
+So when control is a 0.
+Then my switch is open to give
+
+234
+00:19:37,000 --> 00:19:44,000
+me an open circuit in the
+circuit that I've shown you
+
+235
+00:19:44,000 --> 00:19:48,000
+here.
+And, by the same token,
+
+236
+00:19:48,000 --> 00:19:53,000
+if my control is a 1 then --
+
+237
+00:20:03,000 --> 00:20:06,000
+-- I have a connection between
+in and out.
+
+238
+00:20:06,000 --> 00:20:09,000
+And this is a short circuit.
+So, in other words,
+
+239
+00:20:09,000 --> 00:20:13,000
+if my switch has 0 at its
+control, I'll talk about how to
+
+240
+00:20:13,000 --> 00:20:17,000
+get that, I have an open
+circuit, and if it's a 1 then I
+
+241
+00:20:17,000 --> 00:20:21,000
+have a short circuit.
+This is a switch going on and
+
+242
+00:20:21,000 --> 00:20:23,000
+off.
+Now, in traditional switches
+
+243
+00:20:23,000 --> 00:20:26,000
+mechanical pressure is my
+control signal.
+
+244
+00:20:26,000 --> 00:20:32,000
+If I apply mechanical pressure
+my switch could turn on.
+
+245
+00:20:32,000 --> 00:20:36,000
+And if I take away the
+mechanical pressure then I could
+
+246
+00:20:36,000 --> 00:20:41,000
+get an off situation.
+So let's for now imagine that
+
+247
+00:20:41,000 --> 00:20:45,000
+we have a switch.
+I still haven't told you how I
+
+248
+00:20:45,000 --> 00:20:48,000
+am going to get a switch in real
+life.
+
+249
+00:20:48,000 --> 00:20:51,000
+Let's imagine you have a
+switch.
+
+250
+00:20:51,000 --> 00:20:57,000
+It's a three terminal device.
+There's a control thingamajig
+
+251
+00:20:57,000 --> 00:21:02,000
+coming in.
+Input and an output.
+
+252
+00:21:02,000 --> 00:21:10,000
+So let's build the following
+little circuit containing a
+
+253
+00:21:10,000 --> 00:21:15,000
+switch.
+So what I'm going to do,
+
+254
+00:21:15,000 --> 00:21:23,000
+I will take a resistance RL and
+plug it in here.
+
+255
+00:21:30,000 --> 00:21:33,000
+And connect my power supply
+like so.
+
+256
+00:21:33,000 --> 00:21:37,000
+So the little circuit that I
+build has a resistor.
+
+257
+00:21:37,000 --> 00:21:42,000
+And I connect the switch in
+this pattern and I get a VS.
+
+258
+00:21:42,000 --> 00:21:47,000
+Lorenzo, you can set that up
+there if you'd like.
+
+259
+00:21:47,000 --> 00:21:49,000
+No problem.
+So I get a VS here.
+
+260
+00:21:49,000 --> 00:21:54,000
+Now, a couple of lectures ago I
+told you that 6.002,
+
+261
+00:21:54,000 --> 00:21:58,000
+and for that matter,
+004 and many of our other
+
+262
+00:21:58,000 --> 00:22:04,000
+courses deal with combinations
+of elements.
+
+263
+00:22:04,000 --> 00:22:08,000
+And we often deal with the same
+kinds of combinations again and
+
+264
+00:22:08,000 --> 00:22:11,000
+again and again.
+We see the same sorts of
+
+265
+00:22:11,000 --> 00:22:14,000
+patterns happening,
+and we need to begin to learn
+
+266
+00:22:14,000 --> 00:22:18,000
+to identify these patterns.
+This is an incredibly common
+
+267
+00:22:18,000 --> 00:22:21,000
+pattern.
+You'll see this pattern more
+
+268
+00:22:21,000 --> 00:22:24,000
+times in 6.002 than any other
+pattern, I promise you.
+
+269
+00:22:24,000 --> 00:22:28,000
+A power supply connected to a
+resistor and connected to a
+
+270
+00:22:28,000 --> 00:22:33,000
+couple of terminals of some
+interesting device.
+
+271
+00:22:33,000 --> 00:22:36,000
+I promise there will be at
+least one such pattern on the
+
+272
+00:22:36,000 --> 00:22:39,000
+quiz, for example.
+These patterns are incredibly
+
+273
+00:22:39,000 --> 00:22:41,000
+common.
+So let's take a look at the
+
+274
+00:22:41,000 --> 00:22:43,000
+interesting properties of this
+pattern.
+
+275
+00:22:43,000 --> 00:22:47,000
+Since this pattern occurs so
+commonly, I am going to create a
+
+276
+00:22:47,000 --> 00:22:50,000
+short form.
+I have already created a short
+
+277
+00:22:50,000 --> 00:22:52,000
+form which is this ground node
+here.
+
+278
+00:22:52,000 --> 00:22:56,000
+By putting ground 0 all I'm
+really saying is that there is a
+
+279
+00:22:56,000 --> 00:23:00,000
+wire connecting these two and
+that's my ground.
+
+280
+00:23:00,000 --> 00:23:02,000
+So I already have a short form
+here.
+
+281
+00:23:02,000 --> 00:23:06,000
+My second short form is when I
+connect a power supply to a
+
+282
+00:23:06,000 --> 00:23:09,000
+node.
+Then what I'm going to do is
+
+283
+00:23:09,000 --> 00:23:13,000
+come up with yet another short
+form that looks like this,
+
+284
+00:23:13,000 --> 00:23:16,000
+an up arrow with the voltage
+written there.
+
+285
+00:23:16,000 --> 00:23:20,000
+This symbol simply says that
+this node is connected to a
+
+286
+00:23:20,000 --> 00:23:24,000
+power supply with voltage,
+or a voltage source voltage VS.
+
+287
+00:23:24,000 --> 00:23:29,000
+So I just have come up with a
+slightly simpler representation
+
+288
+00:23:29,000 --> 00:23:33,000
+for the little pattern that I
+have.
+
+289
+00:23:33,000 --> 00:23:37,000
+Now let's take a look at the
+properties of this little
+
+290
+00:23:37,000 --> 00:23:40,000
+system.
+Let's first look at what
+
+291
+00:23:40,000 --> 00:23:42,000
+happens when C is 0.
+When C is 0,
+
+292
+00:23:42,000 --> 00:23:47,000
+let me draw the equivalent
+circuit for this using the open
+
+293
+00:23:47,000 --> 00:23:50,000
+circuit out there.
+
+294
+00:24:00,000 --> 00:24:02,000
+That's what I get,
+OK?
+
+295
+00:24:02,000 --> 00:24:06,000
+So when C is 0,
+if VS is a high voltage,
+
+296
+00:24:06,000 --> 00:24:11,000
+let's say 5 volts,
+what do you expect at the
+
+297
+00:24:11,000 --> 00:24:16,000
+output if C is a 0?
+This voltage VS appears at V
+
+298
+00:24:16,000 --> 00:24:21,000
+out because this is an open
+circuit here.
+
+299
+00:24:21,000 --> 00:24:29,000
+Remember, RL and this little
+device form a voltage divider.
+
+300
+00:24:29,000 --> 00:24:34,000
+But since it's an open circuit
+its resistance is infinity.
+
+301
+00:24:34,000 --> 00:24:40,000
+And so therefore in this
+resistor divider all the voltage
+
+302
+00:24:40,000 --> 00:24:44,000
+falls across this open circuit.
+So, in this case,
+
+303
+00:24:44,000 --> 00:24:50,000
+v out is a 1 or a high voltage.
+But let's take a look at what
+
+304
+00:24:50,000 --> 00:24:54,000
+happens when C is a 1.
+In this situation,
+
+305
+00:24:54,000 --> 00:24:59,000
+I have my RL,
+that's what I have.
+
+306
+00:24:59,000 --> 00:25:03,000
+It's a short circuit at the
+switch and C is a 1.
+
+307
+00:25:03,000 --> 00:25:07,000
+So what's the voltage v out in
+this case?
+
+308
+00:25:07,000 --> 00:25:12,000
+Not surprisingly,
+since I've shorted this node to
+
+309
+00:25:12,000 --> 00:25:16,000
+ground the voltage at this point
+is 0.
+
+310
+00:25:16,000 --> 00:25:23,000
+So if I have low voltage that's
+corresponding to logical 0s that
+
+311
+00:25:23,000 --> 00:25:29,000
+corresponds to a 0.
+So I can build a simple truth
+
+312
+00:25:29,000 --> 00:25:34,000
+table for C and use logical
+symbols here.
+
+313
+00:25:34,000 --> 00:25:42,000
+So when C is a 0 I get a high
+at the output and when C is 1 I
+
+314
+00:25:42,000 --> 00:25:49,000
+get a low at the output.
+Have you seen a device that
+
+315
+00:25:49,000 --> 00:25:55,000
+behaves like this so far?
+That's a little inverter.
+
+316
+00:25:55,000 --> 00:26:02,000
+That's the exact behavior of an
+inverter.
+
+317
+00:26:02,000 --> 00:26:06,000
+So this thing I've written here
+is a truth table for an
+
+318
+00:26:06,000 --> 00:26:09,000
+inverter.
+So notice with just a simple
+
+319
+00:26:09,000 --> 00:26:13,000
+little switch and a resistor,
+I have managed to build an
+
+320
+00:26:13,000 --> 00:26:15,000
+inverter.
+Before I go on,
+
+321
+00:26:15,000 --> 00:26:18,000
+I guess we have some things to
+show you.
+
+322
+00:26:18,000 --> 00:26:23,000
+And let me pause for a couple
+of seconds and do that.
+
+323
+00:26:23,000 --> 00:26:26,000
+First of all,
+what I want to show you is the
+
+324
+00:26:26,000 --> 00:26:30,000
+following idea.
+So as I was preparing for this
+
+325
+00:26:30,000 --> 00:26:34,000
+lecture last night I said,
+now here I am telling the 6.002
+
+326
+00:26:34,000 --> 00:26:38,000
+gang that you need to learn
+about analog circuits and
+
+327
+00:26:38,000 --> 00:26:41,000
+resistors and all of that stuff,
+and you also need to learn
+
+328
+00:26:41,000 --> 00:26:44,000
+about digital systems and all of
+that stuff.
+
+329
+00:26:44,000 --> 00:26:48,000
+And I said, because these two
+are very commonplace and often
+
+330
+00:26:48,000 --> 00:26:51,000
+times they occur together.
+So I said well,
+
+331
+00:26:51,000 --> 00:26:54,000
+if I really believe in my own
+BS then there should be
+
+332
+00:26:54,000 --> 00:26:57,000
+something around me where I can
+find both of them
+
+333
+00:26:57,000 --> 00:27:01,000
+instantaneously.
+So I said let me do the
+
+334
+00:27:01,000 --> 00:27:05,000
+following experiment.
+Let me close my eyes and reach
+
+335
+00:27:05,000 --> 00:27:09,000
+out and see what I touch.
+So I closed my eyes,
+
+336
+00:27:09,000 --> 00:27:11,000
+reached out,
+and guess what?
+
+337
+00:27:11,000 --> 00:27:14,000
+I touched the lonely mouse.
+The mouse.
+
+338
+00:27:14,000 --> 00:27:17,000
+So I said let me see what is in
+side the mouse.
+
+339
+00:27:17,000 --> 00:27:21,000
+And if I believe in my BS we
+should find analog,
+
+340
+00:27:21,000 --> 00:27:25,000
+little components and digital
+components in there,
+
+341
+00:27:25,000 --> 00:27:28,000
+right?
+So let's see what is inside the
+
+342
+00:27:28,000 --> 00:27:31,000
+mouse.
+All right.
+
+343
+00:27:31,000 --> 00:27:34,000
+There we go.
+Don't try this at home,
+
+344
+00:27:34,000 --> 00:27:40,000
+as with many other things we do
+in lecture.
+
+345
+00:27:52,000 --> 00:27:56,000
+Come on.
+Show me what I want to see.
+
+346
+00:27:56,000 --> 00:28:00,000
+OK, here we go.
+Not bad.
+
+347
+00:28:00,000 --> 00:28:06,000
+Let me show you what we have
+here in this poor shattered
+
+348
+00:28:06,000 --> 00:28:09,000
+mouse.
+That's my finger,
+
+349
+00:28:09,000 --> 00:28:12,000
+silly.
+You should recognize this
+
+350
+00:28:12,000 --> 00:28:18,000
+little resistor here.
+That thing with the little
+
+351
+00:28:18,000 --> 00:28:22,000
+bands, oh, here we go.
+We'll use this.
+
+352
+00:28:22,000 --> 00:28:27,000
+That's a resistor.
+And you'll see capacitors in
+
+353
+00:28:27,000 --> 00:28:32,000
+about four weeks.
+That's a capacitor.
+
+354
+00:28:32,000 --> 00:28:36,000
+And there is a digital IC here.
+That's a digital IC.
+
+355
+00:28:36,000 --> 00:28:39,000
+That contains a bunch of gates
+inside it.
+
+356
+00:28:39,000 --> 00:28:42,000
+So this mouse has not made a
+liar out of me.
+
+357
+00:28:42,000 --> 00:28:47,000
+So what I just showed you was a
+little device that we use in
+
+358
+00:28:47,000 --> 00:28:51,000
+everyday life that has both
+analog components and digital
+
+359
+00:28:51,000 --> 00:28:55,000
+components.
+A large number of devices that
+
+360
+00:28:55,000 --> 00:28:57,000
+we use in daily life are this
+way.
+
+361
+00:28:57,000 --> 00:29:02,000
+You can do the same thing to
+your laptop.
+
+362
+00:29:02,000 --> 00:29:06,000
+You could go try it out.
+And you will find a bunch of
+
+363
+00:29:06,000 --> 00:29:10,000
+analog components and a bunch of
+digital components.
+
+364
+00:29:10,000 --> 00:29:13,000
+And you really,
+really need to understand the
+
+365
+00:29:13,000 --> 00:29:17,000
+whole caboodle here.
+Let me show you a fun little
+
+366
+00:29:17,000 --> 00:29:21,000
+demo involving gates.
+Now, I want you to be very
+
+367
+00:29:21,000 --> 00:29:23,000
+careful here.
+Lots of caveats here.
+
+368
+00:29:23,000 --> 00:29:28,000
+If your grandmother asks you
+how big is a gate don't say this
+
+369
+00:29:28,000 --> 00:29:32,000
+big.
+This is how big gates used to
+
+370
+00:29:32,000 --> 00:29:35,000
+be, I would say,
+when they were first invented.
+
+371
+00:29:35,000 --> 00:29:40,000
+When they built gates out of
+discrete vacuum tubes and so on,
+
+372
+00:29:40,000 --> 00:29:43,000
+this is how big a gate used to
+be.
+
+373
+00:29:43,000 --> 00:29:46,000
+This is roughly that big.
+Today in a chip,
+
+374
+00:29:46,000 --> 00:29:49,000
+in a small VLSI,
+very large scaled integrated
+
+375
+00:29:49,000 --> 00:29:53,000
+circuit in a chip,
+which is about 1 cm on the
+
+376
+00:29:53,000 --> 00:29:57,000
+side, how many gates do you
+think I can fit in a thumbnail
+
+377
+00:29:57,000 --> 00:30:01,000
+sized chip?
+Any guesses?
+
+378
+00:30:01,000 --> 00:30:05,000
+With today's technology,
+how many gates can I fit on a
+
+379
+00:30:05,000 --> 00:30:07,000
+chip?
+It has to be more than a
+
+380
+00:30:07,000 --> 00:30:13,000
+million because I just told you
+that Pentium IV was 20 million
+
+381
+00:30:13,000 --> 00:30:15,000
+and that was a year ago.
+How many?
+
+382
+00:30:15,000 --> 00:30:20,000
+40 million is a good guess.
+So on the order of 40 to 80
+
+383
+00:30:20,000 --> 00:30:23,000
+million gates in a 1 square
+centimeter.
+
+384
+00:30:23,000 --> 00:30:28,000
+Intel just announced that they
+will be shipping a chip
+
+385
+00:30:28,000 --> 00:30:34,000
+containing 1 billion switches.
+Remember, this whole thing is a
+
+386
+00:30:34,000 --> 00:30:36,000
+gate, right?
+Inverter, a resistor and a
+
+387
+00:30:36,000 --> 00:30:39,000
+switch.
+This thing is a switch.
+
+388
+00:30:39,000 --> 00:30:43,000
+So Intel is going to be
+shipping something containing a
+
+389
+00:30:43,000 --> 00:30:45,000
+billion of those little
+elements.
+
+390
+00:30:45,000 --> 00:30:48,000
+Just keep those large numbers
+in mind.
+
+391
+00:30:48,000 --> 00:30:51,000
+So here is a little circuit
+that I showed you here,
+
+392
+00:30:51,000 --> 00:30:55,000
+A, B, the NAND gate,
+the NAND gate at the output and
+
+393
+00:30:55,000 --> 00:30:58,000
+the inverter.
+So this output A is going to be
+
+394
+00:30:58,000 --> 00:31:04,000
+1 whenever either A or B is off.
+So the output is a 1 in this
+
+395
+00:31:04,000 --> 00:31:07,000
+case when both A and B are off.
+I turn A to 1,
+
+396
+00:31:07,000 --> 00:31:11,000
+output is still a 1.
+So the moment I turn both of
+
+397
+00:31:11,000 --> 00:31:13,000
+these inputs into a 1,
+these are 1s,
+
+398
+00:31:13,000 --> 00:31:17,000
+the output goes to 0.
+That's behavior for NAND gate.
+
+399
+00:31:17,000 --> 00:31:21,000
+If I switch any one of the
+inputs to a 0 the output should
+
+400
+00:31:21,000 --> 00:31:24,000
+go to a 1.
+Similarly, for the inverter
+
+401
+00:31:24,000 --> 00:31:29,000
+here, when the input is a 0 the
+output is a 1.
+
+402
+00:31:29,000 --> 00:31:32,000
+And when I switch it so should
+the output.
+
+403
+00:31:32,000 --> 00:31:35,000
+Now imagine a circuit,
+a little chip containing
+
+404
+00:31:35,000 --> 00:31:39,000
+billions of these devices.
+And just imagine all of these
+
+405
+00:31:39,000 --> 00:31:43,000
+1s and 0s flying around.
+So one simple switch in the
+
+406
+00:31:43,000 --> 00:31:47,000
+input, like a click of a
+keystroke could actually cause a
+
+407
+00:31:47,000 --> 00:31:51,000
+billion signals in your circuit
+to be flipping around.
+
+408
+00:31:51,000 --> 00:31:56,000
+And that causes some fun stuff
+to happen, which we will learn
+
+409
+00:31:56,000 --> 00:32:00,000
+about a few months from now.
+But for now that's a quick show
+
+410
+00:32:00,000 --> 00:32:05,000
+of a little circuit that looks
+like that.
+
+411
+00:32:05,000 --> 00:32:12,000
+Let me go back to talking about
+building other types of gates.
+
+412
+00:32:22,000 --> 00:32:25,000
+So that was an inverter.
+So now you know.
+
+413
+00:32:25,000 --> 00:32:30,000
+You're almost halfway to being
+able to build a Pentium IV.
+
+414
+00:32:30,000 --> 00:32:35,000
+You've come all the way from
+nature to gates.
+
+415
+00:32:35,000 --> 00:32:39,000
+And Pentium IV contains 20
+million of them so you now know
+
+416
+00:32:39,000 --> 00:32:42,000
+how gates are built.
+So that's an inverter.
+
+417
+00:32:42,000 --> 00:32:45,000
+Let's look at how we can build
+other forms of gates.
+
+418
+00:32:45,000 --> 00:32:49,000
+To build another gate let me do
+this.
+
+419
+00:32:59,000 --> 00:33:04,000
+How about this pattern?
+If I build a pattern like this
+
+420
+00:33:04,000 --> 00:33:11,000
+with A and B coming in here and
+I put two switches with their
+
+421
+00:33:11,000 --> 00:33:16,000
+inputs in and out,
+so two switches in series.
+
+422
+00:33:16,000 --> 00:33:22,000
+Let's write down the truth
+table for what this looks like.
+
+423
+00:33:22,000 --> 00:33:26,000
+Let's see.
+When A and B are both 0,
+
+424
+00:33:26,000 --> 00:33:31,000
+what should the output be?
+These are both off so the
+
+425
+00:33:31,000 --> 00:33:34,000
+output is directly VS which is a
+high.
+
+426
+00:33:34,000 --> 00:33:38,000
+When either of these switches
+is off 0-1 or 1-0.
+
+427
+00:33:38,000 --> 00:33:42,000
+If either switch is off then
+this node is cut off from
+
+428
+00:33:42,000 --> 00:33:44,000
+ground.
+There is no current flowing
+
+429
+00:33:44,000 --> 00:33:47,000
+here.
+So this entire voltage drops
+
+430
+00:33:47,000 --> 00:33:51,000
+across this infinite resistance
+here, and so I get 1s at the
+
+431
+00:33:51,000 --> 00:33:55,000
+output as well.
+If both switches are on what
+
+432
+00:33:55,000 --> 00:33:57,000
+happens?
+If both A and B are on then I
+
+433
+00:33:57,000 --> 00:34:03,000
+get a short circuit to ground
+and my output is a 0.
+
+434
+00:34:03,000 --> 00:34:06,000
+So can someone tell me what
+gate this is?
+
+435
+00:34:06,000 --> 00:34:09,000
+Awesome.
+We just build a NAND gate.
+
+436
+00:34:09,000 --> 00:34:12,000
+This is unbelievable.
+Five lectures and you've
+
+437
+00:34:12,000 --> 00:34:18,000
+already come all the way from
+nature to the primitive building
+
+438
+00:34:18,000 --> 00:34:21,000
+blocks of microprocessors.
+It's pretty amazing.
+
+439
+00:34:21,000 --> 00:34:25,000
+So what about this one here?
+
+440
+00:34:34,000 --> 00:34:38,000
+What's this?
+I haven't told you this before
+
+441
+00:34:38,000 --> 00:34:45,000
+but if an AND gate becomes a
+NAND gate, this is kind of an OR
+
+442
+00:34:45,000 --> 00:34:49,000
+arrangement, what should an OR
+become?
+
+443
+00:34:49,000 --> 00:34:53,000
+NOR.
+It's all completely logical.
+
+444
+00:34:53,000 --> 00:35:00,000
+So you can go home and practice
+a truth table for this.
+
+445
+00:35:00,000 --> 00:35:03,000
+A, B and C.
+I'll just fill in one of the
+
+446
+00:35:03,000 --> 00:35:05,000
+rows.
+So in this particular
+
+447
+00:35:05,000 --> 00:35:09,000
+situation, if both A and B are
+0, if A is 0 and B is 0,
+
+448
+00:35:09,000 --> 00:35:13,000
+both the switches are off,
+so it's as if this little
+
+449
+00:35:13,000 --> 00:35:17,000
+sucker here is cut off from
+ground and VS falls across from
+
+450
+00:35:17,000 --> 00:35:22,000
+C to ground here and the output
+is a 1, so on and so forth.
+
+451
+00:35:22,000 --> 00:35:25,000
+So I can build other
+interesting forms of gates.
+
+452
+00:35:25,000 --> 00:35:31,000
+So let's say I build something
+that looks like this.
+
+453
+00:35:41,000 --> 00:35:43,000
+I build something like this.
+
+454
+00:35:48,000 --> 00:35:53,000
+You can write the truth table
+for this or you can look at this
+
+455
+00:35:53,000 --> 00:35:57,000
+and write down the function that
+this one supports.
+
+456
+00:35:57,000 --> 00:36:02,000
+Notice that this output here is
+going to be a high only when
+
+457
+00:36:02,000 --> 00:36:07,000
+both of these are not connected
+to ground.
+
+458
+00:36:07,000 --> 00:36:11,000
+And if you stare at it some
+more the function this one
+
+459
+00:36:11,000 --> 00:36:14,000
+presents, this is my AND
+function.
+
+460
+00:36:14,000 --> 00:36:19,000
+Suppose this one didn't exist,
+that would be my AND function.
+
+461
+00:36:19,000 --> 00:36:24,000
+But because this one exists
+that's in an OR configuration
+
+462
+00:36:24,000 --> 00:36:28,000
+and so I get a C.
+And so because of that I get
+
+463
+00:36:28,000 --> 00:36:33,000
+something that looks like this.
+So this is my A dot B,
+
+464
+00:36:33,000 --> 00:36:36,000
+this is my plus because of a
+parallel here,
+
+465
+00:36:36,000 --> 00:36:40,000
+and ultimately this caused an
+inversion in this gate.
+
+466
+00:36:40,000 --> 00:36:45,000
+So the primitive pattern has a
+generic inversion built into the
+
+467
+00:36:45,000 --> 00:36:47,000
+output.
+That is why they commonly end
+
+468
+00:36:47,000 --> 00:36:52,000
+up building NAND gates and NOR
+gates and so on as the simplest
+
+469
+00:36:52,000 --> 00:36:54,000
+gates.
+We don't build AND gates and OR
+
+470
+00:36:54,000 --> 00:36:57,000
+gates.
+How can I convert this one to
+
+471
+00:36:57,000 --> 00:37:00,000
+an AND gate?
+Anybody?
+
+472
+00:37:00,000 --> 00:37:04,000
+Put an inverter on the output.
+So what I can do is take this
+
+473
+00:37:04,000 --> 00:37:07,000
+little sucker here,
+put an inverter here and I get
+
+474
+00:37:07,000 --> 00:37:10,000
+an AND gate.
+So the real primitives in
+
+475
+00:37:10,000 --> 00:37:13,000
+circuits tend to be NANDs and
+NORs.
+
+476
+00:37:18,000 --> 00:37:21,000
+OK.
+So the real practical among you
+
+477
+00:37:21,000 --> 00:37:25,000
+should be saying at this point
+all right, all right,
+
+478
+00:37:25,000 --> 00:37:28,000
+I buy this, if there existed a
+switch.
+
+479
+00:37:28,000 --> 00:37:34,000
+I know exactly how to go from
+nature to building Pentium IVs
+
+480
+00:37:34,000 --> 00:37:39,000
+if there exists a switch.
+So that the obvious next step
+
+481
+00:37:39,000 --> 00:37:43,000
+for me is to show you a switch,
+a physical switch device.
+
+482
+00:37:43,000 --> 00:37:47,000
+And to introduce a switch
+device, let me show you a three
+
+483
+00:37:47,000 --> 00:37:51,000
+terminal element.
+Remember, the switch has three
+
+484
+00:37:51,000 --> 00:37:55,000
+terminals, an input,
+output and something called the
+
+485
+00:37:55,000 --> 00:37:58,000
+control, C.
+So I'm going to introduce a new
+
+486
+00:37:58,000 --> 00:38:03,000
+primitive element called "The
+MOSFET Device".
+
+487
+00:38:03,000 --> 00:38:08,000
+MOSFET stands for metal-oxide
+semiconductor field-effect
+
+488
+00:38:08,000 --> 00:38:12,000
+transistor.
+This is shortened to FET or
+
+489
+00:38:12,000 --> 00:38:16,000
+transistor.
+Now I'm going to show you that
+
+490
+00:38:16,000 --> 00:38:21,000
+this works like a switch.
+And before I do that,
+
+491
+00:38:21,000 --> 00:38:27,000
+in fact, let me do that first.
+Then I'll show you something
+
+492
+00:38:27,000 --> 00:38:30,000
+else.
+So this device has the
+
+493
+00:38:30,000 --> 00:38:35,000
+following symbol.
+It has a terminal called a
+
+494
+00:38:35,000 --> 00:38:41,000
+gate, the drain and the source.
+Gate, drain and source.
+
+495
+00:38:41,000 --> 00:38:46,000
+Three terminals.
+This is the primitive element
+
+496
+00:38:46,000 --> 00:38:52,000
+that forms virtually every
+electronic component built
+
+497
+00:38:52,000 --> 00:38:56,000
+today.
+This is the foundation of the
+
+498
+00:38:56,000 --> 00:39:00,000
+universe.
+So this little MOSFET device,
+
+499
+00:39:00,000 --> 00:39:06,000
+we can look at how it behaves.
+I'll show you this thing on the
+
+500
+00:39:06,000 --> 00:39:11,000
+screen in a second,
+but this guy behaves very much
+
+501
+00:39:11,000 --> 00:39:16,000
+like this device I was
+postulating earlier.
+
+502
+00:39:16,000 --> 00:39:20,000
+Let's take a look at this
+device on the scope.
+
+503
+00:39:20,000 --> 00:39:25,000
+To do so let me label some
+voltages and currents.
+
+504
+00:39:25,000 --> 00:39:30,000
+So let me label this voltage as
+vDS.
+
+505
+00:39:30,000 --> 00:39:34,000
+Let me label this voltage as
+vGS between the gate and the
+
+506
+00:39:34,000 --> 00:39:38,000
+source.
+And let me label the current
+
+507
+00:39:38,000 --> 00:39:41,000
+coming into this node iG.
+In this device,
+
+508
+00:39:41,000 --> 00:39:45,000
+the physical device that I'm
+going to show you,
+
+509
+00:39:45,000 --> 00:39:49,000
+the current going into the gate
+is always 0.
+
+510
+00:39:49,000 --> 00:39:52,000
+So iG is always going to be 0
+for 6.002.
+
+511
+00:39:52,000 --> 00:39:58,000
+In real life there is some
+leakage and so on.
+
+512
+00:39:58,000 --> 00:40:02,000
+But in 6.002 for now we deal
+with a very simple abstract
+
+513
+00:40:02,000 --> 00:40:06,000
+model, iG is 0.
+And let me label the current
+
+514
+00:40:06,000 --> 00:40:09,000
+here as iDS.
+To be correct with the
+
+515
+00:40:09,000 --> 00:40:13,000
+nomenclation,
+the current into node D should
+
+516
+00:40:13,000 --> 00:40:16,000
+be labeled iD,
+but because iG is 0 iD flows
+
+517
+00:40:16,000 --> 00:40:21,000
+out through the source as well,
+so I would simply call it iDS
+
+518
+00:40:21,000 --> 00:40:27,000
+just so that I can show that vDS
+and iDS are the two voltages and
+
+519
+00:40:27,000 --> 00:40:32,000
+currents that I am going to deal
+with.
+
+520
+00:40:32,000 --> 00:40:34,000
+So that's my little device
+here.
+
+521
+00:40:34,000 --> 00:40:38,000
+And notice that the source
+terminal is common.
+
+522
+00:40:38,000 --> 00:40:42,000
+I use the source both for the
+control GS and I use the source
+
+523
+00:40:42,000 --> 00:40:47,000
+for the drain as well.
+So you can view this as input,
+
+524
+00:40:47,000 --> 00:40:50,000
+view this as out,
+and you can view this,
+
+525
+00:40:50,000 --> 00:40:53,000
+if you like,
+as the control abstractly.
+
+526
+00:40:53,000 --> 00:40:58,000
+So let me show you a plot of
+how this behaves.
+
+527
+00:40:58,000 --> 00:41:03,000
+To understand how it behaves,
+I can draw an equivalent
+
+528
+00:41:03,000 --> 00:41:06,000
+circuit for it.
+So in this particular
+
+529
+00:41:06,000 --> 00:41:12,000
+situation, if its behavior is
+characterized by the voltage
+
+530
+00:41:12,000 --> 00:41:16,000
+applied to vGS.
+Much like the control on the
+
+531
+00:41:16,000 --> 00:41:20,000
+switch, vGS is my control.
+So if vGS is 0,
+
+532
+00:41:20,000 --> 00:41:24,000
+oh, I'm sorry.
+If vGS is greater than or equal
+
+533
+00:41:24,000 --> 00:41:31,000
+to some threshold voltage VT --
+So vGS, the voltage applied
+
+534
+00:41:31,000 --> 00:41:34,000
+here is greater than some
+voltage, VT, a threshold
+
+535
+00:41:34,000 --> 00:41:39,000
+voltage, or the pressure of the
+switch is greater than some
+
+536
+00:41:39,000 --> 00:41:44,000
+threshold pressure then this guy
+behaves like a short circuit.
+
+537
+00:41:44,000 --> 00:41:47,000
+This is iDS,
+this is my drain and this is my
+
+538
+00:41:47,000 --> 00:41:50,000
+source.
+So if the voltage applied
+
+539
+00:41:50,000 --> 00:41:54,000
+between the gate and the source
+is higher than some threshold
+
+540
+00:41:54,000 --> 00:41:59,000
+then this behaves like a short
+circuit.
+
+541
+00:41:59,000 --> 00:42:04,000
+Similarly, if the voltage vGS
+is less than some threshold VT
+
+542
+00:42:04,000 --> 00:42:07,000
+then in that situation --
+
+543
+00:42:13,000 --> 00:42:17,000
+-- I get an open circuit.
+And when I have an open circuit
+
+544
+00:42:17,000 --> 00:42:21,000
+between D and S then the current
+iDS is going to be 0.
+
+545
+00:42:21,000 --> 00:42:26,000
+So this is the idealized model.
+And this idealized model is
+
+546
+00:42:26,000 --> 00:42:30,000
+called "the switch model of the
+MOSFET".
+
+547
+00:42:30,000 --> 00:42:34,000
+The switch model or the S model
+of the MOSFET.
+
+548
+00:42:34,000 --> 00:42:39,000
+Well, if you want to see the
+internals of the MOSFET,
+
+549
+00:42:39,000 --> 00:42:43,000
+I won't cover that in lecture
+or recitation.
+
+550
+00:42:43,000 --> 00:42:49,000
+You can look at the section,
+I believe Section 6.7 of the
+
+551
+00:42:49,000 --> 00:42:53,000
+course notes.
+That has the internal structure
+
+552
+00:42:53,000 --> 00:42:59,000
+of the MOSFET and how you
+physically construct such a
+
+553
+00:42:59,000 --> 00:43:02,000
+device.
+So what I can do here is step
+
+554
+00:43:02,000 --> 00:43:06,000
+back and stare at the device for
+a second or two.
+
+555
+00:43:06,000 --> 00:43:09,000
+And what it says is that if I
+apply a lot of pressure,
+
+556
+00:43:09,000 --> 00:43:13,000
+if vGS is greater than a
+threshold VT then I get a short
+
+557
+00:43:13,000 --> 00:43:15,000
+circuit here just like my
+switch.
+
+558
+00:43:15,000 --> 00:43:18,000
+When in doubt think faucet.
+If you put pressure on the
+
+559
+00:43:18,000 --> 00:43:21,000
+faucet, think of this as
+closing, and when I open it,
+
+560
+00:43:21,000 --> 00:43:25,000
+when vGS goes less than VD,
+less than a threshold,
+
+561
+00:43:25,000 --> 00:43:30,000
+I take off the pressure and
+then it becomes an open circuit.
+
+562
+00:43:30,000 --> 00:43:34,000
+So I can plot the following.
+
+563
+00:43:39,000 --> 00:43:43,000
+Much like I plotted the iV
+characteristics of two terminal
+
+564
+00:43:43,000 --> 00:43:47,000
+elements, I can plot the iV
+characteristics of this three
+
+565
+00:43:47,000 --> 00:43:50,000
+terminal element in the
+following way.
+
+566
+00:43:50,000 --> 00:43:55,000
+I can focus on two terminals
+and look at vDS and iDS for that
+
+567
+00:43:55,000 --> 00:44:00,000
+terminal pair and draw the
+curves for how it will behave as
+
+568
+00:44:00,000 --> 00:44:05,000
+I change vGS that I applied.
+So what I'm going to show you
+
+569
+00:44:05,000 --> 00:44:10,000
+is that if vGS is less than a
+threshold then this behaves like
+
+570
+00:44:10,000 --> 00:44:13,000
+a open circuit.
+So no matter what the voltage
+
+571
+00:44:13,000 --> 00:44:17,000
+is the current is 0.
+Similarly, if vGS greater than
+
+572
+00:44:17,000 --> 00:44:23,000
+equal to some threshold voltage
+then I get the behavior iV curve
+
+573
+00:44:23,000 --> 00:44:27,000
+of a short circuit where the
+current can be anything and
+
+574
+00:44:27,000 --> 00:44:33,000
+controlled by external forces
+like in any short circuit.
+
+575
+00:44:33,000 --> 00:44:35,000
+So let me show you on the
+screen.
+
+576
+00:44:35,000 --> 00:44:38,000
+Lorenzo has kindly put the
+graph up already.
+
+577
+00:44:38,000 --> 00:44:41,000
+So I'm showing the iV curve of
+a switch.
+
+578
+00:44:41,000 --> 00:44:45,000
+Notice that when vGS is greater
+than VT, greater than a
+
+579
+00:44:45,000 --> 00:44:50,000
+threshold I get the vertical
+line corresponding to a short
+
+580
+00:44:50,000 --> 00:44:52,000
+circuit.
+Is it this one?
+
+581
+00:44:52,000 --> 00:44:53,000
+This one.
+There we go.
+
+582
+00:44:53,000 --> 00:44:58,000
+So what I'm going to do here is
+I'm going to reduce vGS to below
+
+583
+00:44:58,000 --> 00:45:02,000
+VT.
+What should you see happening?
+
+584
+00:45:02,000 --> 00:45:05,000
+The curve, from being a short
+circuit, should hammer down to
+
+585
+00:45:05,000 --> 00:45:09,000
+becoming an open circuit.
+That's the curve for an open
+
+586
+00:45:09,000 --> 00:45:11,000
+circuit as I drew out there for
+you.
+
+587
+00:45:11,000 --> 00:45:14,000
+VGS pressure ain't enough.
+Lots of pressure,
+
+588
+00:45:14,000 --> 00:45:18,000
+boom, it's a short circuit.
+I really like to think of this
+
+589
+00:45:18,000 --> 00:45:22,000
+pressure analogy if I get
+confused whenever I look at a
+
+590
+00:45:22,000 --> 00:45:26,000
+MOS transistor and I need to
+look at vGS and so on I always
+
+591
+00:45:26,000 --> 00:45:30,000
+think vGS is greater than VT.
+Lots of pressure on the switch
+
+592
+00:45:30,000 --> 00:45:32,000
+it turns on.
+Just remember that,
+
+593
+00:45:32,000 --> 00:45:35,000
+and then you won't forget this
+vGS thing here.
+
+594
+00:45:35,000 --> 00:45:37,000
+So that's the behavior of a
+switch.
+
+595
+00:45:37,000 --> 00:45:40,000
+And so viola,
+there's our switch.
+
+596
+00:45:45,000 --> 00:45:48,000
+So I've given you a three
+terminal element that is a
+
+597
+00:45:48,000 --> 00:45:51,000
+switch that is controlled like a
+mechanical switch.
+
+598
+00:45:51,000 --> 00:45:54,000
+So I can build a,
+if I replace --
+
+599
+00:46:02,000 --> 00:46:07,000
+This was my switch earlier.
+And what I can do is replace
+
+600
+00:46:07,000 --> 00:46:11,000
+this with my MOSFET and that's
+what I get.
+
+601
+00:46:11,000 --> 00:46:16,000
+And I won't bother showing you
+this is your inverter.
+
+602
+00:46:16,000 --> 00:46:22,000
+All of that has replaced the
+abstract switch with a physical
+
+603
+00:46:22,000 --> 00:46:28,000
+switch which behaves as shown in
+the graph up there.
+
+604
+00:46:28,000 --> 00:46:35,000
+And so I apply an input here
+and I take the output here.
+
+605
+00:46:35,000 --> 00:46:42,000
+So as 6.002 you could look at
+this and say ah-ha,
+
+606
+00:46:42,000 --> 00:46:48,000
+that is an inverter.
+When you go to 004 what you
+
+607
+00:46:48,000 --> 00:46:57,000
+will do is build this triangle
+and a circle around it and you
+
+608
+00:46:57,000 --> 00:47:05,000
+will ignore what's inside and
+just look at that.
+
+609
+00:47:05,000 --> 00:47:08,000
+So in 002 we showed you that
+the internals look like a
+
+610
+00:47:08,000 --> 00:47:12,000
+pattern with a MOSFET and a
+resistor, but it's really the
+
+611
+00:47:12,000 --> 00:47:16,000
+abstract inverter looking in
+from the outside.
+
+612
+00:47:16,000 --> 00:47:20,000
+I'm just going to close the
+loop inside the digital gate,
+
+613
+00:47:20,000 --> 00:47:24,000
+and this was inside your little
+inverter with a resistor and a
+
+614
+00:47:24,000 --> 00:47:27,000
+switch.
+Let me continue with this for a
+
+615
+00:47:27,000 --> 00:47:30,000
+little longer here --
+
+616
+00:47:41,000 --> 00:47:45,000
+-- and do something that we
+like to do a lot,
+
+617
+00:47:45,000 --> 00:47:50,000
+which is plot what are called
+input / output curves.
+
+618
+00:47:50,000 --> 00:47:56,000
+So let's say the voltage
+applied here is v in and let's
+
+619
+00:47:56,000 --> 00:48:00,000
+call this v out.
+For fun let's plot a v in
+
+620
+00:48:00,000 --> 00:48:07,000
+versus v out for this inverter.
+So when input is a 0,
+
+621
+00:48:07,000 --> 00:48:11,000
+let's say VT is 1 volt for the
+inverter.
+
+622
+00:48:11,000 --> 00:48:14,000
+The threshold voltage is 1
+volt.
+
+623
+00:48:14,000 --> 00:48:18,000
+The threshold pressure is 1
+volt.
+
+624
+00:48:18,000 --> 00:48:23,000
+So when input is a 0,
+and let's say VS is 5 volts.
+
+625
+00:48:23,000 --> 00:48:30,000
+So when the input is a 0,
+this guy is turned off.
+
+626
+00:48:30,000 --> 00:48:34,000
+So what's the output?
+What's the output voltage?
+
+627
+00:48:34,000 --> 00:48:38,000
+If this is turned off,
+what's the output voltage?
+
+628
+00:48:38,000 --> 00:48:42,000
+It's the supply.
+The supply directly shows up
+
+629
+00:48:42,000 --> 00:48:45,000
+here.
+And so as long as the input is
+
+630
+00:48:45,000 --> 00:48:49,000
+0 the output is at 5 volts.
+And this is true until the
+
+631
+00:48:49,000 --> 00:48:54,000
+input reaches 1 volt.
+As long as the input is less
+
+632
+00:48:54,000 --> 00:48:58,000
+than 1 volt my output stays
+high.
+
+633
+00:48:58,000 --> 00:49:03,000
+And then when my input exceeds
+or hits 1 volt then at that
+
+634
+00:49:03,000 --> 00:49:09,000
+point the switch turns on and
+the MOSFET turns on and shorts
+
+635
+00:49:09,000 --> 00:49:15,000
+the output to ground in which
+case boom, this is what I get.
+
+636
+00:49:15,000 --> 00:49:19,000
+And then, no matter how much I
+increase the input,
+
+637
+00:49:19,000 --> 00:49:25,000
+my switch stays on and the
+output follows a zero volts at
+
+638
+00:49:25,000 --> 00:49:29,000
+the output.
+So this is my v in versus v out
+
+639
+00:49:29,000 --> 00:49:36,000
+curve for the inverter.
+One of the interesting things
+
+640
+00:49:36,000 --> 00:49:42,000
+that we do a lot is see whether
+this satisfies some voltage
+
+641
+00:49:42,000 --> 00:49:46,000
+threshold.
+So let's say I have a VOL of
+
+642
+00:49:46,000 --> 00:49:51,000
+0.5 volts, VOH of 4.5,
+VIL of 0.9 and VIH of 4.1
+
+643
+00:49:51,000 --> 00:49:55,000
+volts.
+So VOL says in its low value is
+
+644
+00:49:55,000 --> 00:50:01,000
+the output less than 0.5?
+Yup, output less than 0.5.
+
+645
+00:50:01,000 --> 00:50:03,000
+In its high is it more than
+4.5?
+
+646
+00:50:03,000 --> 00:50:08,000
+Yup, it's more than 4.5.
+Does it recognize all values
+
+647
+00:50:08,000 --> 00:50:10,000
+below VIL as a low input?
+Yup.
+
+648
+00:50:10,000 --> 00:50:15,000
+So anything below 0.9 or 1 for
+that matter is viewed as a low.
+
+649
+00:50:15,000 --> 00:50:18,000
+That's good.
+So these pass.
+
+650
+00:50:18,000 --> 00:50:22,000
+And high, anything above 4.1,
+is that treated as a high?
+
+651
+00:50:22,000 --> 00:50:25,000
+Yes.
+So anything above 4.1 is
+
+652
+00:50:25,000 --> 00:50:30,000
+treated as a high and the output
+goes low.
+
+653
+00:50:30,000 --> 00:50:34,000
+So therefore this inverter that
+I've designed for you here
+
+654
+00:50:34,000 --> 00:50:39,000
+satisfies the static discipline
+and this inverter can be used in
+
+655
+00:50:39,000 --> 00:50:44,000
+circuits or other devices that
+conform to this value here.
+
+656
+00:50:44,000 --> 00:50:48,000
+In your recitation,
+you will look at a slightly
+
+657
+00:50:48,000 --> 00:50:53,000
+more detailed model of the
+switch where the switch behaves
+
+658
+00:50:53,000 --> 00:50:56,000
+like a resistor.

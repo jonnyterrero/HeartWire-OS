@@ -1,0 +1,6 @@
+
+{
+  "title":"Unit I: First Order Differential Equations",
+  "content":"« Previous | Next »\nIntegral curves and isoclines. Modeled on the MIT mathlet Isoclines.\nIn Unit I, we will study ordinary differential equations (ODE\u0026rsquo;s) involving only the first derivative.\ny\u0026rsquo; = F (x, y)\nThe first session covers some of the conventions and prerequisites for the course. After that we will focus on first order differential equations. We\u0026rsquo;ll start by defining differential equations and seeing a few well known ones from science and engineering. Very quickly we will learn about the three main ways of approaching ODE\u0026rsquo;s: Analytic (in symbols), geometric (with pictures and graphs), and numerical (with the computer).\nA large part of this unit (and this course) will be spent on linear ODE\u0026rsquo;s. These are fundamental to the understanding of all ODE\u0026rsquo;s and among the most tractable.\n« Previous | Next »\n"}
+
+

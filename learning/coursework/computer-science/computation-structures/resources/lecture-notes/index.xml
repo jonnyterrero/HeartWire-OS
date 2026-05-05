@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lecture Notes on MIT OpenCourseWare</title>
+    <link>/resources/lecture-notes/</link>
+    <description>Recent content in Lecture Notes on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/lecture-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building the Beta </title>
+      <link>/resources/mit6_004s09_lec14/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_004s09_lec14/data.json</guid>
+      <description>&lt;p&gt;Lecture presentation on non-pipelined Beta implementation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cache Issues</title>
+      <link>/resources/mit6_004s09_lec16/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_004s09_lec16/data.json</guid>
+      <description>&lt;p&gt;Lecture presentation on cache design issues, associativity, replacement strategy, and performance analysis.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CMOS Technology</title>
+      <link>/resources/mit6_004s09_lec03/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_004s09_lec03/data.json</guid>
+      <description>&lt;p&gt;Lecture presentation on CMOS technology, gate design, and timing.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Computer Architecture: Exciting Times Ahead!</title>
+      <link>/resources/mit6_004s09_lec25/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_004s09_lec25/data.json</guid>
+      <description>&lt;p&gt;Lecture presentation on the future of computer architecture.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cost/Performance Tradeoffs</title>
+      <link>/resources/mit6_004s09_lec09/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_004s09_lec09/data.json</guid>
+      <description>&lt;p&gt;Lecture presentation on cost/performance trade-offs and binary multiplication.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Designing an Instruction Set</title>
+      <link>/resources/mit6_004s09_lec10/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_004s09_lec10/data.json</guid>
+      <description>&lt;p&gt;Lecture presentation on the Beta instruction set architecture and compilation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Devices &amp; Interrupts</title>
+      <link>/resources/mit6_004s09_lec19/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_004s09_lec19/data.json</guid>
+      <description>&lt;p&gt;Lecture presentation on devices and interrupt handlers, preemptive interrupts, and real-time issues.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Finite State Machines</title>
+      <link>/resources/mit6_004s09_lec06/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_004s09_lec06/data.json</guid>
+      <description>&lt;p&gt;Lecture presentation on storage elements and synchronous finite state machines.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Interconnect &amp; Communication </title>
+      <link>/resources/mit6_004s09_lec20/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_004s09_lec20/data.json</guid>
+      <description>&lt;p&gt;Lecture presentation on communication issues: busses, networks, and protocols.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture Notes</title>
+      <link>/pages/lecture-notes/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/lecture-notes/data.json</guid>
+      <description>&lt;h4 id=&#34;abbreviations&#34;&gt;Abbreviations&lt;/h4&gt;&#xA;&#xA;&lt;p&gt;CMOS = complementary metal-oxide-semiconductor&lt;br&gt;&#xA;ALU = arithmetic logic unit&lt;br&gt;&#xA;OS = operating system&lt;/p&gt;&#xA;&lt;p&gt;&lt;table&gt;&#xA;&#xA;&lt;thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;LEC #&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;TOPICS&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;LECTURE NOTES&#xA;&lt;/th&gt;&#xA;&lt;/p&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;p&gt;&lt;/thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;1&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Course overview and mechanics, basics of information&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit6_004s09_lec01/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;2&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Digital abstraction, combinational logic, voltage-based encoding&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit6_004s09_lec02/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;3&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;CMOS technology, gate design, timing&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit6_004s09_lec03/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;4&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Canonical forms; synthesis, simplification&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit6_004s09_lec04/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;5&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Sequential logic&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit6_004s09_lec05/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;6&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Storage elements, finite state machines&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit6_004s09_lec06/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;7&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Synchronization, metastability&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit6_004s09_lec07/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Machine Language, Assemblers, and Compilers</title>
+      <link>/resources/mit6_004s09_lec11/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_004s09_lec11/data.json</guid>
+      <description>&lt;p&gt;Lecture presentation on machine language programming issues, high level languages, optimization, assemblers, and compilers.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Parallel Processing</title>
+      <link>/resources/mit6_004s09_lec24/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_004s09_lec24/data.json</guid>
+      <description>&lt;p&gt;Lecture presentation on parallel processing, shared memory, cache coherence, and consistency criteria.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Pipeline Issues</title>
+      <link>/resources/mit6_004s09_lec23/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_004s09_lec23/data.json</guid>
+      <description>&lt;p&gt;Lecture presentation on pipeline issues: delay slots, annulment, and exceptions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Pipelining</title>
+      <link>/resources/mit6_004s09_lec08/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_004s09_lec08/data.json</guid>
+      <description>&lt;p&gt;Lecture presentation on pipelining, throughput, and latency.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Pipelining the Beta</title>
+      <link>/resources/mit6_004s09_lec22/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_004s09_lec22/data.json</guid>
+      <description>&lt;p&gt;Lecture presentation on pipelined Beta implementation and bypassing.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Processes, Synchronization, &amp; Deadlock</title>
+      <link>/resources/mit6_004s09_lec21/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_004s09_lec21/data.json</guid>
+      <description>&lt;p&gt;Lecture presentation on communicating processes, semaphores, synchronization, atomicity, and deadlock.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Programmability</title>
+      <link>/resources/mit6_004s09_lec12/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_004s09_lec12/data.json</guid>
+      <description>&lt;p&gt;Lecture presentation on models of computation and programmable architectures.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sequential Logic</title>
+      <link>/resources/mit6_004s09_lec05/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_004s09_lec05/data.json</guid>
+      <description>&lt;p&gt;Lecture presentation on sequential logic, digital state, storage, and sequential circuits.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Stacks and Procedures</title>
+      <link>/resources/mit6_004s09_lec13/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_004s09_lec13/data.json</guid>
+      <description>&lt;p&gt;Lecture presentation on stacks and procedures.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Synchronization, Metastability and Arbitration </title>
+      <link>/resources/mit6_004s09_lec07/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_004s09_lec07/data.json</guid>
+      <description>&lt;p&gt;Lecture presentation on synchronization and metastability, and arbitration.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Synthesis of Combinational Logic</title>
+      <link>/resources/mit6_004s09_lec04/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_004s09_lec04/data.json</guid>
+      <description>&lt;p&gt;Lecture presentation on canonical forms, synthesis, and simplification.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Digital Abstraction</title>
+      <link>/resources/mit6_004s09_lec02/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_004s09_lec02/data.json</guid>
+      <description>&lt;p&gt;Lecture presentation on digital abstraction, combinational logic, and voltage-based encoding.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Memory Hierarchy </title>
+      <link>/resources/mit6_004s09_lec15/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_004s09_lec15/data.json</guid>
+      <description>&lt;p&gt;Lecture presentation on multilevel memories, locality, performance, and caches.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Virtual Machines</title>
+      <link>/resources/mit6_004s09_lec18/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_004s09_lec18/data.json</guid>
+      <description>&lt;p&gt;Lecture presentation on virtual machines: timesharing, OS kernels, and supervisor calls.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Virtual Memory</title>
+      <link>/resources/mit6_004s09_lec17/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_004s09_lec17/data.json</guid>
+      <description>&lt;p&gt;Lecture presentation on virtual memory: mapping, protection, and contexts.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Welcome to 6.004!</title>
+      <link>/resources/mit6_004s09_lec01/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_004s09_lec01/data.json</guid>
+      <description>&lt;p&gt;Lecture presentation with a course overview and introduction to computation structures.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

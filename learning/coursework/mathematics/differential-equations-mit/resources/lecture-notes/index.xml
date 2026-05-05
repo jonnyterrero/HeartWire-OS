@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lecture Notes on MIT OpenCourseWare</title>
+    <link>/resources/lecture-notes/</link>
+    <description>Recent content in Lecture Notes on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/lecture-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecture Summaries</title>
+      <link>/pages/lecture-summaries/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/lecture-summaries/data.json</guid>
+      <description>&lt;p&gt;&lt;table&gt;&#xA;&lt;thead&gt;&#xA;&lt;tr&gt;&#xA;&lt;th&gt;&#xA;&#xA;SES #&#xA;&lt;/th&gt;&#xA;&lt;th&gt;&#xA;&#xA;LECTURE SUMMARIES&#xA;&lt;/th&gt;&#xA;&lt;th&gt;&#xA;&#xA;HANDOUTS&#xA;&lt;/th&gt;&#xA;&lt;/tr&gt;&#xA;&lt;/thead&gt;&#xA;&lt;tbody&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;1&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../resources/mit18_303f14_lecture1/index.html&#34;&gt;Overview of linear PDEs and analogies with matrix algebra (PDF)&lt;/a&gt;&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../resources/mit18_303f14_lec1/index.html&#34;&gt;A few important PDEs (PDF)&lt;/a&gt;&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;2&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../resources/mit18_303f14_lecture2/index.html&#34;&gt;Poisson&amp;rsquo;s equation and eigenfunctions in 1d: Fourier sine series (PDF)&lt;/a&gt;&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;../../resources/mit18_303f14_sines/index.html&#34;&gt;Fourier sine series examples (PDF)&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a   class=&#34;external-link &#34;   target=&#34;_blank&#34;   href=&#34;http://nbviewer.ipython.org/url/math.mit.edu/~stevenj/18.303/lecture-2.ipynb&#34;  aria-label=&#34;sine-series Julia notebook (opens in a new tab)&#34;  &gt;sine-series Julia notebook&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;3&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../resources/mit18_303f14_lecture3/index.html&#34;&gt;Finite-difference methods and accuracy (PDF)&lt;/a&gt;&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;../../resources/mit18_303f14_difference/index.html&#34;&gt;Notes on difference approximations (PDF)&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a   class=&#34;external-link &#34;   target=&#34;_blank&#34;   href=&#34;http://nbviewer.ipython.org/url/math.mit.edu/~stevenj/18.303/lecture-3.ipynb&#34;  aria-label=&#34;IJulia notebook from the in-class demo (opens in a new tab)&#34;  &gt;IJulia notebook from the in-class demo&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linear Partial Differential Equations, Lec 1 Handout</title>
+      <link>/resources/mit18_303f14_lec1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_303f14_lec1/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Linear Partial Differential Equations, Lec 1 Handout.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linear Partial Differential Equations, Lec 1 Summary</title>
+      <link>/resources/mit18_303f14_lecture1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_303f14_lecture1/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Linear Partial Differential Equations, Lec 1 Summary.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linear Partial Differential Equations, Lec 10 Summary</title>
+      <link>/resources/mit18_303f14_lecture10/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_303f14_lecture10/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Linear Partial Differential Equations, Lec 10 Summary.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linear Partial Differential Equations, Lec 11 Handout</title>
+      <link>/resources/mit18_303f14_lec11/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_303f14_lec11/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Linear Partial Differential Equations, Lec 11 Handout.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linear Partial Differential Equations, Lec 11 Summary</title>
+      <link>/resources/mit18_303f14_lecture11/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_303f14_lecture11/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Linear Partial Differential Equations, Lec 11 Summary.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linear Partial Differential Equations, Lec 12 Summary</title>
+      <link>/resources/mit18_303f14_lecture12/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_303f14_lecture12/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Linear Partial Differential Equations, Lec 12 Summary.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linear Partial Differential Equations, Lec 13 Handout</title>
+      <link>/resources/mit18_303f14_minmax/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_303f14_minmax/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Linear Partial Differential Equations, Lec 13 Handout.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linear Partial Differential Equations, Lec 13 Summary</title>
+      <link>/resources/mit18_303f14_lecture13/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_303f14_lecture13/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Linear Partial Differential Equations, Lec 13 Summary.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linear Partial Differential Equations, Lec 14 Handout</title>
+      <link>/resources/mit18_303f14_green/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_303f14_green/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Linear Partial Differential Equations, Lec 14 Handout.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linear Partial Differential Equations, Lec 14 Handout</title>
+      <link>/resources/mit18_303f14_green_explicit/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_303f14_green_explicit/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Linear Partial Differential Equations, Lec 14 Handout.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linear Partial Differential Equations, Lec 14 Summary</title>
+      <link>/resources/mit18_303f14_lecture14/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_303f14_lecture14/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Linear Partial Differential Equations, Lec 14 Summary.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linear Partial Differential Equations, Lec 15 Handout</title>
+      <link>/resources/mit18_303f14_delta_notes/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_303f14_delta_notes/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Linear Partial Differential Equations, Lec 15 Handout.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linear Partial Differential Equations, Lec 15 Handout</title>
+      <link>/resources/mit18_303f14_reciprocity/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_303f14_reciprocity/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Linear Partial Differential Equations, Lec 15 Handout.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linear Partial Differential Equations, Lec 15 Summary</title>
+      <link>/resources/mit18_303f14_lecture15/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_303f14_lecture15/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Linear Partial Differential Equations, Lec 15 Summary.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linear Partial Differential Equations, Lec 16 Summary</title>
+      <link>/resources/mit18_303f14_lecture16/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_303f14_lecture16/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Linear Partial Differential Equations, Lec 16 Summary.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linear Partial Differential Equations, Lec 17 Summary</title>
+      <link>/resources/mit18_303f14_lecture17/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_303f14_lecture17/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Linear Partial Differential Equations, Lec 17 Summary.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linear Partial Differential Equations, Lec 18 Summary</title>
+      <link>/resources/mit18_303f14_lecture18/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_303f14_lecture18/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Linear Partial Differential Equations, Lec 18 Summary.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linear Partial Differential Equations, Lec 19 Handout</title>
+      <link>/resources/mit18_303f14_inhomog_notes/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_303f14_inhomog_notes/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Linear Partial Differential Equations, Lec 19 Handout.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linear Partial Differential Equations, Lec 19 Summary</title>
+      <link>/resources/mit18_303f14_lecture19/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_303f14_lecture19/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Linear Partial Differential Equations, Lec 19 Summary.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linear Partial Differential Equations, Lec 2 Handout</title>
+      <link>/resources/mit18_303f14_sines/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_303f14_sines/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Linear Partial Differential Equations, Lec 2 Handout.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linear Partial Differential Equations, Lec 2 Summary</title>
+      <link>/resources/mit18_303f14_lecture2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_303f14_lecture2/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Linear Partial Differential Equations, Lec 2 Summary.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linear Partial Differential Equations, Lec 20 Summary</title>
+      <link>/resources/mit18_303f14_lecture20/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_303f14_lecture20/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Linear Partial Differential Equations, Lec 20 Summary&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linear Partial Differential Equations, Lec 21 Summary</title>
+      <link>/resources/mit18_303f14_lecture21/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_303f14_lecture21/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Linear Partial Differential Equations, Lec 21 Summary.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linear Partial Differential Equations, Lec 22 Summary</title>
+      <link>/resources/mit18_303f14_lecture22/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_303f14_lecture22/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Linear Partial Differential Equations, Lec 22 Summary.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linear Partial Differential Equations, Lec 23 Handout</title>
+      <link>/resources/mit18_303f14_wave_equation/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_303f14_wave_equation/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Linear Partial Differential Equations, Lec 23 Handout.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linear Partial Differential Equations, Lec 23 Summary</title>
+      <link>/resources/mit18_303f14_lecture23/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_303f14_lecture23/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Linear Partial Differential Equations, Lec 23 Summary.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linear Partial Differential Equations, Lec 24 Summary</title>
+      <link>/resources/mit18_303f14_lecture24/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_303f14_lecture24/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Linear Partial Differential Equations, Lec 24 Summary.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linear Partial Differential Equations, Lec 25 Summary</title>
+      <link>/resources/mit18_303f14_lecture25/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_303f14_lecture25/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Linear Partial Differential Equations, Lec 25 Summary.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linear Partial Differential Equations, Lec 28 Summary</title>
+      <link>/resources/mit18_303f14_lecture28/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_303f14_lecture28/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Linear Partial Differential Equations, Lec 28 Summary.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linear Partial Differential Equations, Lec 29 Handout</title>
+      <link>/resources/mit18_303f14_waveguide/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_303f14_waveguide/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Linear Partial Differential Equations, Lec 29 Handout.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linear Partial Differential Equations, Lec 29 Summary</title>
+      <link>/resources/mit18_303f14_lecture29/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_303f14_lecture29/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Linear Partial Differential Equations, Lec 29 Summary.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linear Partial Differential Equations, Lec 3 Handout</title>
+      <link>/resources/mit18_303f14_difference/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_303f14_difference/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Linear Partial Differential Equations, Lec 3 Handout.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linear Partial Differential Equations, Lec 3 Handout</title>
+      <link>/resources/mit18_303f14_julia_cheat/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_303f14_julia_cheat/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Linear Partial Differential Equations, Lec 3 Handout.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linear Partial Differential Equations, Lec 3 Summary</title>
+      <link>/resources/mit18_303f14_lecture3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_303f14_lecture3/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Linear Partial Differential Equations, Lec 3 Summary.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linear Partial Differential Equations, Lec 30 Summary</title>
+      <link>/resources/mit18_303f14_lecture30/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_303f14_lecture30/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Linear Partial Differential Equations, Lec 30 Summary.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linear Partial Differential Equations, Lec 31 Handout</title>
+      <link>/resources/mit18_303f14_slow_wave/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_303f14_slow_wave/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Linear Partial Differential Equations, Lec 31 Handout.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linear Partial Differential Equations, Lec 31 Summary</title>
+      <link>/resources/mit18_303f14_lecture31/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_303f14_lecture31/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Linear Partial Differential Equations, Lec 31 Summary.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linear Partial Differential Equations, Lec 32 Handout</title>
+      <link>/resources/mit18_303f14_pml/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_303f14_pml/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Linear Partial Differential Equations, Lec 32 Handout.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linear Partial Differential Equations, Lec 32 Summary</title>
+      <link>/resources/mit18_303f14_lecture32/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_303f14_lecture32/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Linear Partial Differential Equations, Lec 32 Summary.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linear Partial Differential Equations, Lec 33 Summary</title>
+      <link>/resources/mit18_303f14_lecture33/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_303f14_lecture33/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Linear Partial Differential Equations, Lec 33 Summary.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linear Partial Differential Equations, Lec 34 Summary</title>
+      <link>/resources/mit18_303f14_lecture34/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_303f14_lecture34/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Linear Partial Differential Equations, Lec 34 Summary.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linear Partial Differential Equations, Lec 35 Summary</title>
+      <link>/resources/mit18_303f14_lecture35/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_303f14_lecture35/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Linear Partial Differential Equations, Lec 35 Summary.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linear Partial Differential Equations, Lec 36 Summary</title>
+      <link>/resources/mit18_303f14_lecture36/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_303f14_lecture36/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Linear Partial Differential Equations, Lec 36 Summary.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linear Partial Differential Equations, Lec 37 Summary</title>
+      <link>/resources/mit18_303f14_lecture37/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_303f14_lecture37/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Linear Partial Differential Equations, Lec 37 Summary.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linear Partial Differential Equations, Lec 38 Summary</title>
+      <link>/resources/mit18_303f14_lecture38/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_303f14_lecture38/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Linear Partial Differential Equations, Lec 38 Summary.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linear Partial Differential Equations, Lec 4 Summary</title>
+      <link>/resources/mit18_303f14_lecture4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_303f14_lecture4/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Linear Partial Differential Equations, Lec 4 Summary.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linear Partial Differential Equations, Lec 5 Summary</title>
+      <link>/resources/mit18_303f14_lecture5/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_303f14_lecture5/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Linear Partial Differential Equations, Lec 5 Summary.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linear Partial Differential Equations, Lec 6 Handout</title>
+      <link>/resources/mit18_303f14_lec6/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_303f14_lec6/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Linear Partial Differential Equations, Lec 6 Handout.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linear Partial Differential Equations, Lec 6 Summary</title>
+      <link>/resources/mit18_303f14_lecture6/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_303f14_lecture6/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Linear Partial Differential Equations, Lec 6 Summary.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linear Partial Differential Equations, Lec 7 Handout</title>
+      <link>/resources/mit18_303f14_lec7/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_303f14_lec7/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linear Partial Differential Equations, Lec 7 Summary</title>
+      <link>/resources/mit18_303f14_lecture7/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_303f14_lecture7/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Linear Partial Differential Equations, Lec 7 Summary.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linear Partial Differential Equations, Lec 8 Handout</title>
+      <link>/resources/mit18_303f14_music/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_303f14_music/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Linear Partial Differential Equations, Lec 8 Handout.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linear Partial Differential Equations, Lec 8 Handout</title>
+      <link>/resources/mit18_303f14_scale_notes/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_303f14_scale_notes/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Linear Partial Differential Equations, Lec 8 Handout.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linear Partial Differential Equations, Lec 8 Handout</title>
+      <link>/resources/mit18_303f14_separation/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_303f14_separation/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Linear Partial Differential Equations, Lec 8 Handout.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linear Partial Differential Equations, Lec 8 Summary</title>
+      <link>/resources/mit18_303f14_lecture8/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_303f14_lecture8/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Linear Partial Differential Equations, Lec 8 Summary.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linear Partial Differential Equations, Lec 9 Handout</title>
+      <link>/resources/mit18_303f14_lec9/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_303f14_lec9/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linear Partial Differential Equations, Lec 9 Summary</title>
+      <link>/resources/mit18_303f14_lecture9/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_303f14_lecture9/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Linear Partial Differential Equations, Lec 9 Summary.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linear Partial Differential Equations, Lec25 Handout</title>
+      <link>/resources/mit18_303f14_fourier_disp/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_303f14_fourier_disp/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Linear Partial Differential Equations, Lec25 Handout.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

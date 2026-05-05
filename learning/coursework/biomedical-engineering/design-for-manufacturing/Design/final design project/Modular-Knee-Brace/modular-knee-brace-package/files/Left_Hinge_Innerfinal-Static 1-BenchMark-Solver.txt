@@ -1,0 +1,38 @@
+Solver 0.007 Linear-static-solver-Start 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Solver 0.007 Loading-and-preparing-input-data-Start 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Solver 0.447 Loading-and-preparing-input-data-End 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Solver 0.447 Computing-load-vector-Start 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Solver 8.079 Computing-load-vector-End 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Solver 8.182 Computing-element-stiffness-matrix-Start 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Solver 8.917 Computing-element-stiffness-matrix-End 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Solver 9.085 RE-ARRANGING-GLOBAL-STIFFNESS-MATRIX-ARRAYS-FOR-INTEL-SOLVER-Start 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Solver 9.162 RE-ARRANGING-GLOBAL-STIFFNESS-MATRIX-ARRAYS-FOR-INTEL-SOLVER-End 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Solver 9.162 INITIALIZING-INTEL-SOLVER-Start 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Solver 9.163 INITIALIZING-INTEL-SOLVER-End 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Solver 9.892 GLOBAL-STIFFNESS-MATRIX-DECOMPOSITION-Start 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Solver 10.509 GLOBAL-STIFFNESS-MATRIX-DECOMPOSITION-End 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Solver 10.516 BACK&FORWARD-SUBSTITUATION-Start 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Solver 10.670 BACK&FORWARD-SUBSTITUATION-End 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Solver 12.359 Computing-reaction-forces-for-load-case(LCASE)=1-Start 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Solver 19.069 Computing-reaction-forces-for-load-case(LCASE)=1-End 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Solver 19.070 Computing-stresses-for-load-case=1-Start 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Solver 22.354 Computing-stresses-for-load-case=1-End 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Solver 25.569 Linear-static-solver-End 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+SOLVER TYPE= Intel Direct Sparse Solver
+Number of Equations (NEQ)=107910
+Number of Nodal points (NUMNP)=41159
+Number of Pseudo nodes (NUMPS)=0
+Number of Elements (NUME)=25333
+Number of Pseudo Elements (NUMP)=0
+SOLVER TYPE ACTUALLY USED= Intel Direct Sparse Solver
+SOLUTION TIME LOG
+Time for Input Data Transfer from Database =8.267000
+TIME FOR CALCULATION  OF STRUCTURE STIFFNESS MATRIX (STF_PHASE)=0.932000
+TIME FOR INTEL SPARSE REORDERING EQUATIONS (REN_PHASE)=0.776000
+TIME FOR INTEL SPARSE (LDL DECOMPOSITION) (DEC_PHASE)=0.617000
+TIME FOR INTEL SPARSE (FWD & BWD SUBSTITUTIONS) (FBS_PHASE)=0.154000
+TIME FOR LCP CONTACT (AND/OR LRG DISP) OPERATIONS (CNT_PHASE)=0.000000
+TIME FOR REACTION FORCE & DISP UPDATE TO POST (REC_PAHSE)=8.398000
+TIME FOR STRESS CALCULATION (STS_PHASE)=3.285000
+TIME FOR WRITING POST PROCESSING INFORMATION (PST_PHASE)=1.630000
+TOTAL SOLUTION TIME (TOT_TIME)=24.098000

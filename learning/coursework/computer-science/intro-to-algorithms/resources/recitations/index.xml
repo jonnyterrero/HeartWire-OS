@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recitations on MIT OpenCourseWare</title>
+    <link>/resources/recitations/</link>
+    <description>Recent content in Recitations on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/recitations/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Recitations</title>
+      <link>/pages/recitations/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/recitations/data.json</guid>
+      <description>&lt;p&gt;These recitation slides are courtesy of Victor Costan, one of the course TAs, and are used with permission.&lt;/p&gt;&#xA;&lt;p&gt;&lt;table&gt;&#xA;&#xA;&lt;thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;REC #&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;TOPICS&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;SUPPORTING FILES&#xA;&lt;/th&gt;&#xA;&lt;/p&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;p&gt;&lt;/thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td colspan=&#34;3&#34;&gt;&#xA;&#xA;&lt;strong&gt;Introduction and document distance&lt;/strong&gt;&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;R1&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Document distance in Python (docdist{1,2,3,4}.py) (&lt;a href=&#34;../../resources/recitation01/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;R2&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Python cost model, review for asymptotic notation and mergesort (&lt;a href=&#34;../../resources/recitation02/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;Zipped data (numbers) (&lt;a href=&#34;../../resources/recitation02_data/index.html&#34;&gt;ZIP&lt;/a&gt;) (This zip file includes: 2 .jpg files, 1 .gz file, 1 .tiff file, 1 .numbers file, and 1 .pkginfo file.)&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

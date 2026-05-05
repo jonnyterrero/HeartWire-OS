@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Readings on MIT OpenCourseWare</title>
+    <link>/resources/readings/</link>
+    <description>Recent content in Readings on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/readings/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Electromagnetically-Driven Ultra-Fast Tool Servos for Diamond Turning</title>
+      <link>/resources/mit2_14s14_xdlu_phd_thesis_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_14s14_xdlu_phd_thesis_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Readings</title>
+      <link>/pages/readings/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/readings/data.json</guid>
+      <description>&lt;h3 id=&#34;textbook&#34;&gt;Textbook&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;[FPE] = Franklin, Gene F., J. David Powell, and Abbas Emami-Naeini. &lt;em&gt;Feedback Control of Dynamic Systems&lt;/em&gt;. 6th ed. Prentice Hall, 2009. ISBN: 9780136019695.&lt;/p&gt;&#xA;&lt;p&gt;[JKR] = Roberge, James K. &lt;a href=&#34;https://ocw.mit.edu/courses/res-6-010-electronic-feedback-systems-spring-2013/pages/textbook&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Operational Amplifiers: Theory and Practice&lt;/em&gt;&lt;/a&gt;. John Wiley &amp;amp; Sons. 1975.&lt;br&gt;&#xA;This book is available as a free electronic textbook from Prof. James Roberge and MIT OpenCourseWare.&lt;/p&gt;&#xA;&lt;p&gt;&lt;table&gt;&#xA;&#xA;&lt;thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;SES #&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;READINGS&#xA;&lt;/th&gt;&#xA;&lt;/p&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;p&gt;&lt;/thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Lec 1-3&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;[FPE] Chapter 1: An Overview and Brief History of Feedback Control.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

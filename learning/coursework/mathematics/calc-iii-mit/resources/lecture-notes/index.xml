@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lecture Notes on MIT OpenCourseWare</title>
+    <link>/resources/lecture-notes/</link>
+    <description>Recent content in Lecture Notes on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/lecture-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecture Notes</title>
+      <link>/pages/lecture-notes/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/lecture-notes/data.json</guid>
+      <description>&lt;p&gt;The notes below represent summaries of the lectures as written by Professor Auroux to the recitation instructors.&lt;/p&gt;&#xA;&lt;p&gt;&lt;table&gt;&#xA;&lt;thead&gt;&#xA;&lt;tr&gt;&#xA;&lt;th&gt;&#xA;LEC #&lt;/th&gt;&#xA;&lt;th&gt;&#xA;TOPICS&lt;/th&gt;&#xA;&lt;th&gt;&#xA;LECTURE NOTES&lt;/th&gt;&#xA;&lt;/tr&gt;&#xA;&lt;/thead&gt;&#xA;&lt;tbody&gt;&#xA;&lt;tr&gt;&#xA;&lt;td colspan=&#34;3&#34;&gt;&#xA;&lt;strong&gt;I. Vectors and matrices&lt;/strong&gt;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;0&#xA;1&#xA;2&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;Vectors&lt;/p&gt;&#xA;&lt;p&gt;Dot product&lt;/p&gt;&#xA;&lt;p&gt;Determinants; cross product&lt;/p&gt;&#xA;&lt;p&gt;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;Week 1 summary (&lt;a href=&#34;../../resources/lec_week1/index.html&#34;&gt;PDF&lt;/a&gt;)&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;3&#xA;4&lt;/p&gt;&#xA;&lt;p&gt;5&lt;/p&gt;&#xA;&lt;p&gt;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;Matrices; inverse matrices&lt;/p&gt;&#xA;&lt;p&gt;Square systems; equations of planes&lt;/p&gt;&#xA;&lt;p&gt;Parametric equations for lines and curves&lt;/p&gt;&#xA;&lt;p&gt;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;Week 2 summary (&lt;a href=&#34;../../resources/lec_week2/index.html&#34;&gt;PDF&lt;/a&gt;)&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;6&lt;/td&gt;&#xA;&lt;td&gt;&#xA;Velocity, acceleration&lt;br&gt;&#xA;Kepler&amp;rsquo;s second law&lt;/td&gt;&#xA;&lt;td rowspan=&#34;2&#34;&gt;&#xA;Week 3 summary (&lt;a href=&#34;../../resources/lec_week3/index.html&#34;&gt;PDF&lt;/a&gt;)&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;7&lt;/td&gt;&#xA;&lt;td&gt;&#xA;Review&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td colspan=&#34;3&#34;&gt;&#xA;&lt;strong&gt;II. Partial derivatives&lt;/strong&gt;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;8&lt;/td&gt;&#xA;&lt;td&gt;&#xA;Level curves; partial derivatives; tangent plane approximation&lt;/td&gt;&#xA;&lt;td rowspan=&#34;3&#34;&gt;&#xA;Week 4 summary (&lt;a href=&#34;../../resources/lec_week4/index.html&#34;&gt;PDF&lt;/a&gt;)&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;9&lt;/td&gt;&#xA;&lt;td&gt;&#xA;Max-min problems; least squares&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;10&lt;/td&gt;&#xA;&lt;td&gt;&#xA;Second derivative test; boundaries and infinity&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;11&lt;/td&gt;&#xA;&lt;td&gt;&#xA;Differentials; chain rule&lt;/td&gt;&#xA;&lt;td rowspan=&#34;3&#34;&gt;&#xA;Week 5 summary (&lt;a href=&#34;../../resources/lec_week5/index.html&#34;&gt;PDF&lt;/a&gt;)&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;12&lt;/td&gt;&#xA;&lt;td&gt;&#xA;Gradient; directional derivative; tangent plane&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;13&lt;/td&gt;&#xA;&lt;td&gt;&#xA;Lagrange multipliers&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;14&lt;/td&gt;&#xA;&lt;td&gt;&#xA;Non-independent variables&lt;/td&gt;&#xA;&lt;td rowspan=&#34;2&#34;&gt;&#xA;Week 6 summary (&lt;a href=&#34;../../resources/lec_week6/index.html&#34;&gt;PDF&lt;/a&gt;)&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;15&lt;/td&gt;&#xA;&lt;td&gt;&#xA;Partial differential equations; review&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td colspan=&#34;3&#34;&gt;&#xA;&lt;strong&gt;III. Double integrals and line integrals in the plane&lt;/strong&gt;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;16&lt;/td&gt;&#xA;&lt;td&gt;&#xA;Double integrals&lt;/td&gt;&#xA;&lt;td rowspan=&#34;2&#34;&gt;&#xA;Week 7 summary (&lt;a href=&#34;../../resources/lec_week7/index.html&#34;&gt;PDF&lt;/a&gt;)&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;17&lt;/td&gt;&#xA;&lt;td&gt;&#xA;Double integrals in polar coordinates; applications&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;18&lt;/td&gt;&#xA;&lt;td&gt;&#xA;Change of variables&lt;/td&gt;&#xA;&lt;td rowspan=&#34;3&#34;&gt;&#xA;Week 8 summary (&lt;a href=&#34;../../resources/lec_week8/index.html&#34;&gt;PDF&lt;/a&gt;)&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;19&lt;/td&gt;&#xA;&lt;td&gt;&#xA;Vector fields and line integrals in the plane&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;20&lt;/td&gt;&#xA;&lt;td&gt;&#xA;Path independence and conservative fields&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;21&lt;/td&gt;&#xA;&lt;td&gt;&#xA;Gradient fields and potential functions&lt;/td&gt;&#xA;&lt;td rowspan=&#34;3&#34;&gt;&#xA;Week 9 summary (&lt;a href=&#34;../../resources/lec_week9/index.html&#34;&gt;PDF&lt;/a&gt;)&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;22&lt;/td&gt;&#xA;&lt;td&gt;&#xA;Green&amp;rsquo;s theorem&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;23&lt;/td&gt;&#xA;&lt;td&gt;&#xA;Flux; normal form of Green&amp;rsquo;s theorem&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;24&lt;/td&gt;&#xA;&lt;td&gt;&#xA;Simply connected regions; review&lt;/td&gt;&#xA;&lt;td&gt;&#xA;Week 10 summary (&lt;a href=&#34;../../resources/lec_week10/index.html&#34;&gt;PDF&lt;/a&gt;)&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td colspan=&#34;3&#34;&gt;&#xA;&lt;strong&gt;IV. Triple integrals and surface integrals in 3-space&lt;/strong&gt;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;25&lt;/td&gt;&#xA;&lt;td&gt;&#xA;Triple integrals in rectangular and cylindrical coordinates&lt;/td&gt;&#xA;&lt;td&gt;&#xA;Week 10 summary (&lt;a href=&#34;../../resources/lec_week10/index.html&#34;&gt;PDF&lt;/a&gt;)&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;26&lt;/td&gt;&#xA;&lt;td&gt;&#xA;Spherical coordinates; surface area&lt;/td&gt;&#xA;&lt;td rowspan=&#34;3&#34;&gt;&#xA;Week 11 summary (&lt;a href=&#34;../../resources/lec_week11/index.html&#34;&gt;PDF&lt;/a&gt;)&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;27&lt;/td&gt;&#xA;&lt;td&gt;&#xA;Vector fields in 3D; surface integrals and flux&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;28&lt;/td&gt;&#xA;&lt;td&gt;&#xA;Divergence theorem&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;29&lt;/td&gt;&#xA;&lt;td&gt;&#xA;Divergence theorem (cont.): applications and proof&lt;/td&gt;&#xA;&lt;td&gt;&#xA;Week 12 summary (&lt;a href=&#34;../../resources/lec_week12/index.html&#34;&gt;PDF&lt;/a&gt;)&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;30&lt;/td&gt;&#xA;&lt;td&gt;&#xA;Line integrals in space, curl, exactness and potentials&lt;/td&gt;&#xA;&lt;td rowspan=&#34;3&#34;&gt;&#xA;Week 13 summary (&lt;a href=&#34;../../resources/lec_week13/index.html&#34;&gt;PDF&lt;/a&gt;)&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;31&lt;/td&gt;&#xA;&lt;td&gt;&#xA;Stokes&amp;rsquo; theorem&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;32&lt;/td&gt;&#xA;&lt;td&gt;&#xA;Stokes&amp;rsquo; theorem (cont.); review&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;33&lt;/td&gt;&#xA;&lt;td&gt;&#xA;Topological considerations&lt;br&gt;&#xA;Maxwell&amp;rsquo;s equations&lt;/td&gt;&#xA;&lt;td rowspan=&#34;3&#34;&gt;&#xA;Week 14 summary (&lt;a href=&#34;../../resources/lec_week14/index.html&#34;&gt;PDF&lt;/a&gt;)&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;34&lt;/td&gt;&#xA;&lt;td&gt;&#xA;Final review&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;35&lt;/td&gt;&#xA;&lt;td&gt;&#xA;Final review (cont.)&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 1 Summary</title>
+      <link>/resources/lec_week1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_week1/data.json</guid>
+      <description>&lt;p&gt;Lecture summary for Week 1.  Topics include the goal of multivariate calculus, vectors, dot product, applications, area, determinants, cross product, and triple product.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 10 Summary</title>
+      <link>/resources/lec_week10/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_week10/data.json</guid>
+      <description>&lt;p&gt;Lecture summary for Week 10. Topics include triple integrals in rectangular and cylindrical coordinates, simply connected regions, double integrals, line integrals, and applications.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 11 Summary</title>
+      <link>/resources/lec_week11/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_week11/data.json</guid>
+      <description>&lt;p&gt;Lecture summary for Week 11. Topics include spherical coordinates, volume element, application gravitation, vector fields in space, flux, geometric interpretation of flux, flux through a graph, parametric surfaces, implicit surfaces, divergence theorem, and physical interpretation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 12 Summary</title>
+      <link>/resources/lec_week12/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_week12/data.json</guid>
+      <description>&lt;p&gt;Lecture summary for Week 12. Topics include the divergence theorem, applications and proof, the Del operator, and physical interpretation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 13 Summary</title>
+      <link>/resources/lec_week13/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_week13/data.json</guid>
+      <description>&lt;p&gt;Lecture summary for Week 13. Topics include line integrals in space, gradient fields, curl, interpretation of curl for velocity fields, Stokes&amp;rsquo; theorem, path independence, orientability, and surface independence.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 14 Summary</title>
+      <link>/resources/lec_week14/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_week14/data.json</guid>
+      <description>&lt;p&gt;Lecture summary for Week 14. Topics include applications of div and curl to physics, interpretation of curl for force fields, and div and curl of electrical fields.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 2 Summary</title>
+      <link>/resources/lec_week2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_week2/data.json</guid>
+      <description>&lt;p&gt;Lecture summary for Week 2. Topics include application of cross product, matrices, inverse matrix, equations of planes, interpretation of 3x3 systems, homogeneous systems, general systems, lines and planes, and general parametric curves.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 3 Summary</title>
+      <link>/resources/lec_week3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_week3/data.json</guid>
+      <description>&lt;p&gt;Lecture summary for Week 3. Topics include velocity and acceleration, arclength, unit tangent vector, and Kepler&amp;rsquo;s 2nd law.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 4 Summary</title>
+      <link>/resources/lec_week4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_week4/data.json</guid>
+      <description>&lt;p&gt;Lecture summary for Week 4. Topics include functions of several variables, partial derivatives, linear approximation, min/max problems, least squares, and the second derivative test.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 5 Summary</title>
+      <link>/resources/lec_week5/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_week5/data.json</guid>
+      <description>&lt;p&gt;Lecture summary for Week 5. Topics include differentials, applications of chain rule, gradient, directional derivative, and Lagrange multipliers.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 6 Summary</title>
+      <link>/resources/lec_week6/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_week6/data.json</guid>
+      <description>&lt;p&gt;Lecture summary for Week 6. Topics include non-independent variables and partial differential equations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 7 Summary</title>
+      <link>/resources/lec_week7/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_week7/data.json</guid>
+      <description>&lt;p&gt;Lecture summary for Week 7. Topics include double integrals, exchanging order of integration, and integration in polar coordinates.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 8 Summary</title>
+      <link>/resources/lec_week8/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_week8/data.json</guid>
+      <description>&lt;p&gt;Lecture summary for Week 8. Topics include change of variables, vector fields, work and line integrals, geometric approach, the fundamental theorem of calculus for line integrals, and physical interpretation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 9 Summary</title>
+      <link>/resources/lec_week9/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_week9/data.json</guid>
+      <description>&lt;p&gt;Lecture summary for Week 9. Topics include a test for gradient fields, finding the potential, curl, and Green&amp;rsquo;s theorem for flux.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

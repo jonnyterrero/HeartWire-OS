@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tools on MIT OpenCourseWare</title>
+    <link>/resources/tools/</link>
+    <description>Recent content in Tools on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/tools/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tools</title>
+      <link>/pages/tools/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/tools/data.json</guid>
+      <description>&lt;h3 id=&#34;websim&#34;&gt;WebSim&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Check out &lt;a   class=&#34;external-link &#34;   target=&#34;_blank&#34;   href=&#34;http://euryale.csail.mit.edu/websim&#34;  aria-label=&#34;WebSim (opens in a new tab)&#34;  &gt;WebSim&lt;/a&gt;, a new resource for 6.002. WebSim is a web-based laboratory that allows you to experiment with various circuits seen in 6.002. For example, when experimenting with an RLC circuit in WebSim, you can set the resistor, capacitor and inductor values, apply one of many inputs (e.g., step, square wave or a rock music sample), and view or listen to the corresponding output.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

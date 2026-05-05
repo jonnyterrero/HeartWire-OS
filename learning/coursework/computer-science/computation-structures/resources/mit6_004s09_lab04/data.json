@@ -1,0 +1,7 @@
+{
+  "title":"Lab #4",
+  "description": "Lab assignment to write the FSM controller for a Turing Machine (TM) which checks to see if the string of left and right parentheses it finds on its input tape \"balance.\"",
+  "file": "/courses/6-004-computation-structures-spring-2009/d15e04be4136f33e26e35f5884eeb35a_MIT6_004s09_lab04.pdf",
+  "learning_resource_types": ["Laboratory Assignments"],
+  "resource_type": "Document",
+  "file_type": "application/pdf"}

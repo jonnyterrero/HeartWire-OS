@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Exams on MIT OpenCourseWare</title>
+    <link>/resources/exams/</link>
+    <description>Recent content in Exams on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/exams/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exams</title>
+      <link>/pages/exams/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/exams/data.json</guid>
+      <description>&lt;p&gt;For each in-class exam, there are two practice exams, called A and B, intended to be of the same general level of difficulty as the actual exam.&lt;/p&gt;&#xA;&lt;p&gt;&lt;table&gt;&#xA;&#xA;&lt;thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;EXAMS&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;SOLUTIONS&#xA;&lt;/th&gt;&#xA;&lt;/p&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;p&gt;&lt;/thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Practice exam 1A (&lt;a href=&#34;../../resources/prac1a/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/prac1asol/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Practice exam 1B (&lt;a href=&#34;../../resources/prac1b/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/prac1bsol/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Practice exam 2A (&lt;a href=&#34;../../resources/prac2a/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/prac2asol/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Practice exam 2B (&lt;a href=&#34;../../resources/prac2b/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/prac2bsol/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Practice exam 3A (&lt;a href=&#34;../../resources/prac3a/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/prac3asol/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Practice exam 3B (&lt;a href=&#34;../../resources/prac3b/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/prac3bsol/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Practice exam 4A (&lt;a href=&#34;../../resources/prac4a/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/prac4asol/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Practice Exam 1A</title>
+      <link>/resources/prac1a/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/prac1a/data.json</guid>
+      <description>&lt;p&gt;Practice exam on multivariable calculus, intended to be of the same general level of difficulty as the actual exam.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Practice Exam 1A - Solutions</title>
+      <link>/resources/prac1asol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/prac1asol/data.json</guid>
+      <description>&lt;p&gt;Solutions to Practice Exam 1A.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Practice Exam 1B</title>
+      <link>/resources/prac1b/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/prac1b/data.json</guid>
+      <description>&lt;p&gt;Practice exam on multivariable calculus, intended to be of the same general level of difficulty as the actual exam.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Practice Exam 1B - Solutions</title>
+      <link>/resources/prac1bsol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/prac1bsol/data.json</guid>
+      <description>&lt;p&gt;Solutions to Practice Exam 1B.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Practice Exam 2A</title>
+      <link>/resources/prac2a/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/prac2a/data.json</guid>
+      <description>&lt;p&gt;Practice exam on multivariable calculus, intended to be of the same general level of difficulty as the actual exam.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Practice Exam 2A - Solutions</title>
+      <link>/resources/prac2asol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/prac2asol/data.json</guid>
+      <description>&lt;p&gt;Solutions to Practice Exam 2A.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Practice Exam 2B</title>
+      <link>/resources/prac2b/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/prac2b/data.json</guid>
+      <description>&lt;p&gt;Practice exam on multivariable calculus, intended to be of the same general level of difficulty as the actual exam.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Practice Exam 2B - Solutions</title>
+      <link>/resources/prac2bsol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/prac2bsol/data.json</guid>
+      <description>&lt;p&gt;Solutions to Practice Exam 2B.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Practice Exam 3A</title>
+      <link>/resources/prac3a/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/prac3a/data.json</guid>
+      <description>&lt;p&gt;Practice exam on multivariable calculus, intended to be of the same general level of difficulty as the actual exam.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Practice Exam 3A - Solutions</title>
+      <link>/resources/prac3asol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/prac3asol/data.json</guid>
+      <description>&lt;p&gt;Solutions to Practice Exam 3A.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Practice Exam 3B</title>
+      <link>/resources/prac3b/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/prac3b/data.json</guid>
+      <description>&lt;p&gt;Practice exam on multivariable calculus, intended to be of the same general level of difficulty as the actual exam.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Practice Exam 3B - Solutions</title>
+      <link>/resources/prac3bsol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/prac3bsol/data.json</guid>
+      <description>&lt;p&gt;Solutions to Practice Exam 3B.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Practice Exam 4A</title>
+      <link>/resources/prac4a/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/prac4a/data.json</guid>
+      <description>&lt;p&gt;Practice exam on multivariable calculus, intended to be of the same general level of difficulty as the actual exam.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Practice Exam 4A - Solutions</title>
+      <link>/resources/prac4asol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/prac4asol/data.json</guid>
+      <description>&lt;p&gt;Solutions to Practice Exam 4A.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Practice Exam 4B</title>
+      <link>/resources/prac4b/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/prac4b/data.json</guid>
+      <description>&lt;p&gt;Practice exam on multivariable calculus, intended to be of the same general level of difficulty as the actual exam.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Practice Exam 4B - Solutions</title>
+      <link>/resources/prac4bsol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/prac4bsol/data.json</guid>
+      <description>&lt;p&gt;Solutions to Practice Exam 4B.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

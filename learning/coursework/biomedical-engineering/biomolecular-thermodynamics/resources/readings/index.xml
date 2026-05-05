@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Readings on MIT OpenCourseWare</title>
+    <link>/resources/readings/</link>
+    <description>Recent content in Readings on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/readings/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Readings</title>
+      <link>/pages/readings/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/readings/data.json</guid>
+      <description>&lt;p&gt;Reading assignments are from the following textbooks:&lt;/p&gt;&#xA;&lt;p&gt;[SAB] Silbey, R., R. Alberty, and M. Bawendi. &lt;em&gt;Physical Chemistry&lt;/em&gt;. New York, NY: John Wiley &amp;amp; Sons, 2004. ISBN: 9780471215042.&lt;/p&gt;&#xA;&lt;p&gt;[DB] Dill, Ken A., and Sarina Bromberg. &lt;em&gt;Molecular Driving Forces: Statistical Thermodynamics in Chemistry and Biology&lt;/em&gt;. New York, NY: Routledge, 2002. ISBN: 9780815320517.&lt;/p&gt;&#xA;&lt;p&gt;&lt;table&gt;&#xA;&#xA;&lt;thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;LEC #&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;TOPICS&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;READINGS&#xA;&lt;/th&gt;&#xA;&lt;/p&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;p&gt;&lt;/thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;1&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Introduction to Thermo; 0&lt;sup&gt;th&lt;/sup&gt; Law; Temperature; Work; Heat&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;SAB 1.1-1.4, 1.8-1.9, 2.1&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;2&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;State Functions, 1&lt;sup&gt;st&lt;/sup&gt; Law, Paths&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;SAB 2.2-2.6&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

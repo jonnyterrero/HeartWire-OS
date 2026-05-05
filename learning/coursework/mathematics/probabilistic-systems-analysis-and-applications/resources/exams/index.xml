@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Exams on MIT OpenCourseWare</title>
+    <link>/resources/exams/</link>
+    <description>Recent content in Exams on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/exams/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exams</title>
+      <link>/pages/exams/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/exams/data.json</guid>
+      <description>&lt;h3 id=&#34;spring-2006-exams&#34;&gt;Spring 2006 Exams&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;&lt;table&gt;&#xA;&#xA;&lt;thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;EXAMS&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;SOLUTIONS&#xA;&lt;/th&gt;&#xA;&lt;/p&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;p&gt;&lt;/thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Quiz 1 (&lt;a href=&#34;../../resources/quiz1/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/quiz1_sol/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Quiz 2 (&lt;a href=&#34;../../resources/quiz2/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/quiz2_sol/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Final Exam (&lt;a href=&#34;../../resources/final/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/final_sol/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;/table&gt;</description>
+    </item>
+    <item>
+      <title>final_sol.pdf</title>
+      <link>/resources/final_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/final_sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the final quiz.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>final.pdf</title>
+      <link>/resources/final/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/final/data.json</guid>
+      <description>&lt;p&gt;This resource contains a set of problems for the final quiz.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>quiz1_sol.pdf</title>
+      <link>/resources/quiz1_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/quiz1_sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for quiz one.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>quiz1.pdf</title>
+      <link>/resources/quiz1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/quiz1/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem set for quiz one.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>quiz2_sol.pdf</title>
+      <link>/resources/quiz2_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/quiz2_sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for quiz two.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>quiz2.pdf</title>
+      <link>/resources/quiz2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/quiz2/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem set for quiz two.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

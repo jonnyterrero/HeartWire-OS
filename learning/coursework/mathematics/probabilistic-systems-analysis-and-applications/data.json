@@ -1,0 +1,23 @@
+{
+  "course_title":"Probabilistic Systems Analysis and Applied  Probability",
+  "course_description":"This course is offered both to undergraduates (6.041) and graduates (6.431), but the assignments differ. 6.041/6.431 introduces students to the modeling, quantification, and analysis of uncertainty. Topics covered include: formulation and solution in sample space, random variables, transform techniques, simple random processes and their probability distributions, Markov processes, limit theorems, and elements of statistical inference.\n",
+  "course_description_html":"This course is offered both to undergraduates (6.041) and graduates (6.431), but the assignments differ. 6.041/6.431 introduces students to the modeling, quantification, and analysis of uncertainty. Topics covered include: formulation and solution in sample space, random variables, transform techniques, simple random processes and their probability distributions, Markov processes, limit theorems, and elements of statistical inference.",
+  "site_uid":"94d83c0e-4912-4d83-8323-0de4c79e45cf",
+  "legacy_uid":"16b97bb9-13ab-6cd7-5689-71ee307dc983","instructors": [{
+    "first_name":"Munther",
+    "last_name":"Dahleh",
+    "middle_initial":"",
+    "salutation":"Prof.",
+    "title":"Prof. Munther Dahleh"}],"department_numbers":["6"],
+  "learning_resource_types":["Simulation Videos","Lecture Notes","Problem Sets","Problem Set Solutions","Exams","Exam Solutions"],
+  "topics":[["Mathematics","Probability and Statistics"],["Mathematics","Discrete Mathematics"]],
+  "mit_learn_topics":null,
+  "primary_course_number":"6.041",
+  "extra_course_numbers":"6.431",
+  "term":"Spring",
+  "year":"2006",
+  "level":["Undergraduate"],
+  "hide_download":null,
+  "image_src":"./static_resources/e35e08a5ba1b33a4173d82637524d915_6-041s06.jpg",
+  "course_image_metadata":{"content_type":"resource","description":"Why flip a coin? Try these instead to increase the number of outcomes. (Image courtesy of Idiolector.)","draft":false,"file":"/courses/6-041-probabilistic-systems-analysis-and-applied-probability-spring-2006/e35e08a5ba1b33a4173d82637524d915_6-041s06.jpg","file_size":71790,"file_type":"image/jpeg","image_metadata":{"caption":"Why flip a coin? Try these instead to increase the number of outcomes. (Image courtesy of {{% resource_link \"c23771c7-ed69-4986-875f-dadaef377a53\" \"Idiolector\" %}}.)","credit":"","image-alt":"Dice with assorted number of faces."},"iscjklanguage":false,"learning_resource_types":[],"license":"https://creativecommons.org/licenses/by-nc-sa/4.0/","ocw_type":"OCWImage","resourcetype":"Image","title":"6-041s06.jpg","uid":"e35e08a5-ba1b-33a4-173d-82637524d915"}}
+

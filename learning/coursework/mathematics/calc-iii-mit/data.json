@@ -1,0 +1,23 @@
+{
+  "course_title":"Multivariable Calculus",
+  "course_description":"This course covers vector and multi-variable calculus. It is the second semester in the freshman calculus sequence. Topics include vectors and matrices, partial derivatives, double and triple integrals, and vector calculus in 2 and 3-space.\n\nMIT OpenCourseWare offers another version of 18.02, from the Spring 2006 term. Both versions cover the same material, although they are taught by different faculty and rely on different textbooks. Multivariable Calculus (18.02) is taught during the Fall and Spring terms at MIT, and is a required subject for all MIT undergraduates.\n",
+  "course_description_html":"<p>This course covers vector and multi-variable calculus. It is the second semester in the freshman calculus sequence. Topics include vectors and matrices, partial derivatives, double and triple integrals, and vector calculus in 2 and 3-space.</p>\n<p>MIT OpenCourseWare offers another version of 18.02, from the Spring 2006 term. Both versions cover the same material, although they are taught by different faculty and rely on different textbooks. Multivariable Calculus (18.02) is taught during the Fall and Spring terms at MIT, and is a required subject for all MIT undergraduates.</p>\n",
+  "site_uid":"cd9fbc4e-5c2b-41da-900d-cc73ed07d398",
+  "legacy_uid":"591c93e3-2082-2d6c-7752-dedc4fbe27d4","instructors": [{
+    "first_name":"Denis",
+    "last_name":"Auroux",
+    "middle_initial":"",
+    "salutation":"Prof.",
+    "title":"Prof. Denis Auroux"}],"department_numbers":["18"],
+  "learning_resource_types":["Lecture Videos","Problem Sets","Lecture Notes","Exams","Exam Solutions"],
+  "topics":[["Mathematics","Calculus"],["Mathematics","Differential Equations"],["Mathematics","Linear Algebra"]],
+  "mit_learn_topics":null,
+  "primary_course_number":"18.02",
+  "extra_course_numbers":"",
+  "term":"Fall",
+  "year":"2007",
+  "level":["Undergraduate"],
+  "hide_download":null,
+  "image_src":"./static_resources/78c8aad99135431364661fa7434333e2_18-02f07.jpg",
+  "course_image_metadata":{"content_type":"resource","description":"Lagrange multipliers with two variables Mathlet from the d'Arbeloff Interactive Math Project. (Image courtesy of Jean-Michel Claus.)","draft":false,"file":"/courses/18-02-multivariable-calculus-fall-2007/78c8aad99135431364661fa7434333e2_18-02f07.jpg","file_size":51036,"file_type":"image/jpeg","image_metadata":{"caption":"Lagrange multipliers with two variables Mathlet from the d'Arbeloff Interactive Math Project. (Image courtesy of Jean-Michel Claus.)","credit":"","image-alt":"Screenshot of Mathlet from the d'Arbeloff Interactive Math Project."},"iscjklanguage":false,"learning_resource_types":[],"license":"https://creativecommons.org/licenses/by-nc-sa/4.0/","ocw_type":"OCWImage","resourcetype":"Image","title":"18-02f07.jpg","uid":"78c8aad9-9135-4313-6466-1fa7434333e2"}}
+
