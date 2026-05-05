@@ -1,0 +1,28 @@
+{
+  "course_title":"Thermodynamics \u0026 Kinetics",
+  "course_description":"This subject deals primarily with equilibrium properties of macroscopic systems, basic thermodynamics, chemical equilibrium of reactions in gas and solution phase, and rates of chemical reactions.\n##### Acknowledgements\n\nThe material for 5.60 has evolved over a period of many years, and therefore several faculty members have contributed to the development of the course contents. The following are known to have assisted in preparing the lecture notes available on OpenCourseWare: Emeritus Professors of Chemistry: Robert A. Alberty, Carl W. Garland, Irwin Oppenheim, John S. Waugh. Professors of Chemistry: Moungi Bawendi, John M. Deutch, Robert W. Field, Robert G. Griffin, Keith A. Nelson, Robert J. Silbey, Jeffrey I. Steinfeld. Professor of Bioengineering and Computer Science: Bruce Tidor. Professor of Chemistry, Rice University: James L. Kinsey. Professor of Physics, University of Illinois: Philip W. Phillips.",
+  "course_description_html":"<p>This subject deals primarily with equilibrium properties of macroscopic systems, basic thermodynamics, chemical equilibrium of reactions in gas and solution phase, and rates of chemical reactions.</p>\n<h5 id=\"acknowledgements\">Acknowledgements</h5>\n<p>The material for 5.60 has evolved over a period of many years, and therefore several faculty members have contributed to the development of the course contents. The following are known to have assisted in preparing the lecture notes available on OpenCourseWare: Emeritus Professors of Chemistry: Robert A. Alberty, Carl W. Garland, Irwin Oppenheim, John S. Waugh. Professors of Chemistry: Moungi Bawendi, John M. Deutch, Robert W. Field, Robert G. Griffin, Keith A. Nelson, Robert J. Silbey, Jeffrey I. Steinfeld. Professor of Bioengineering and Computer Science: Bruce Tidor. Professor of Chemistry, Rice University: James L. Kinsey. Professor of Physics, University of Illinois: Philip W. Phillips.</p>\n",
+  "site_uid":"46ee96f5-cc92-4a62-9186-73849e8f145d",
+  "legacy_uid":"9ad1d251-0ace-891d-bf7b-55ffbe84e7a5","instructors": [{
+    "first_name":"Keith",
+    "last_name":"Nelson",
+    "middle_initial":"A.",
+    "salutation":"Prof.",
+    "title":"Prof. Keith A. Nelson"},{
+    "first_name":"Moungi",
+    "last_name":"Bawendi",
+    "middle_initial":"",
+    "salutation":"Prof.",
+    "title":"Prof. Moungi Bawendi"}],"department_numbers":["5"],
+  "learning_resource_types":["Lecture Videos","Exams","Lecture Notes"],
+  "topics":[["Science","Physics","Thermodynamics"],["Science","Chemistry","Physical Chemistry"],["Science","Physics","Classical Mechanics"]],
+  "mit_learn_topics":null,
+  "primary_course_number":"5.60",
+  "extra_course_numbers":"",
+  "term":"Spring",
+  "year":"2008",
+  "level":["Undergraduate"],
+  "hide_download":null,
+  "image_src":"./static_resources/15f29189c66d698a742c562fb1f723ef_5-60s08.jpg",
+  "course_image_metadata":{"content_type":"resource","description":"Interaction between a reversible engine (A) and a reversible ideal gas Carnot cycle (B). (Illustration courtesy of MIT OpenCourseWare.)","draft":false,"file":"/courses/5-60-thermodynamics-kinetics-spring-2008/15f29189c66d698a742c562fb1f723ef_5-60s08.jpg","file_size":42811,"file_type":"image/jpeg","image_metadata":{"caption":"Interaction between a reversible engine (A) and a reversible ideal gas Carnot cycle (B). (Illustration courtesy of MIT OpenCourseWare.)","credit":"","image-alt":"Relationship between a reversible engine and Carnot cycle."},"iscjklanguage":false,"learning_resource_types":[],"license":"https://creativecommons.org/licenses/by-nc-sa/4.0/","ocw_type":"OCWImage","resourcetype":"Image","title":"Relationship between a reversible engine and Carnot cycle","uid":"15f29189-c66d-698a-742c-562fb1f723ef"}}
+

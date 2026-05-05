@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lecture Videos on MIT OpenCourseWare</title>
+    <link>/resources/lecture-videos/</link>
+    <description>Recent content in Lecture Videos on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/lecture-videos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecture 1: State of a system, 0th law, equation of state</title>
+      <link>/resources/lecture-1-state-of-a-system-0th-law-equation-of-state/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-1-state-of-a-system-0th-law-equation-of-state/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; State of a system, 0th law, equation of state&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor/speaker:&lt;/strong&gt; Moungi Bawendi, Keith Nelson&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 10: Entropy and irreversibility</title>
+      <link>/resources/lecture-10-entropy-and-irreversibility/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-10-entropy-and-irreversibility/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Entropy and irreversibility&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor/speaker:&lt;/strong&gt; Moungi Bawendi, Keith Nelson&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 11: Fundamental equation, absolute S, third law</title>
+      <link>/resources/lecture-11-fundamental-equation-absolute-s-third-law/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-11-fundamental-equation-absolute-s-third-law/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Fundamental equation, absolute S, third law&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor/speaker:&lt;/strong&gt; Moungi Bawendi, Keith Nelson&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 12: Criteria for spontaneous change</title>
+      <link>/resources/lecture-12-criteria-for-spontaneous-change/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-12-criteria-for-spontaneous-change/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Criteria for spontaneous change&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor/speaker:&lt;/strong&gt; Moungi Bawendi, Keith Nelson&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 13: Gibbs free energy</title>
+      <link>/resources/lecture-13-gibbs-free-energy/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-13-gibbs-free-energy/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Gibbs free energy&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor/speaker:&lt;/strong&gt; Moungi Bawendi, Keith Nelson&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 14: Multicomponent systems, chemical potential</title>
+      <link>/resources/lecture-14-multicomponent-systems-chemical-potential/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-14-multicomponent-systems-chemical-potential/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Multicomponent systems, chemical potential&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor/speaker:&lt;/strong&gt; Moungi Bawendi, Keith Nelson&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 15: Chemical equilibrium</title>
+      <link>/resources/lecture-15-chemical-equilibrium/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-15-chemical-equilibrium/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Chemical equilibrium&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor/speaker:&lt;/strong&gt; Moungi Bawendi, Keith Nelson&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 16: Temperature, pressure and Kp</title>
+      <link>/resources/lecture-16-temperature-pressure-and-kp/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-16-temperature-pressure-and-kp/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Temperature, pressure and Kp&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor/speaker:&lt;/strong&gt; Moungi Bawendi, Keith Nelson&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 17: Equilibrium: application to drug design</title>
+      <link>/resources/lecture-17-equilibrium-application-to-drug-design/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-17-equilibrium-application-to-drug-design/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Equilibrium: application to drug design&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor/speaker:&lt;/strong&gt; Moungi Bawendi, Keith Nelson&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 18: Phase equilibria — one component</title>
+      <link>/resources/lecture-18-phase-equilibria-2014-one-component/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-18-phase-equilibria-2014-one-component/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Phase equilibria — one component&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor/speaker:&lt;/strong&gt; Moungi Bawendi, Keith Nelson&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 19: Clausius-Clapeyron equation</title>
+      <link>/resources/lecture-19-clausius-clapeyron-equation/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-19-clausius-clapeyron-equation/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Clausius-Clapeyron equation&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor/speaker:&lt;/strong&gt; Moungi Bawendi, Keith Nelson&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 2: Work, heat, first law</title>
+      <link>/resources/lecture-2-work-heat-first-law/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-2-work-heat-first-law/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Work, heat, first law&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor/speaker:&lt;/strong&gt; Moungi Bawendi, Keith Nelson&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 20: Phase equilibria — two components</title>
+      <link>/resources/lecture-20-phase-equilibria-2014-two-components/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-20-phase-equilibria-2014-two-components/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Phase equilibria — two components&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor/speaker:&lt;/strong&gt; Moungi Bawendi, Keith Nelson&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 21: Ideal solutions</title>
+      <link>/resources/lecture-21-ideal-solutions/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-21-ideal-solutions/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Ideal solutions&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor/speaker:&lt;/strong&gt; Moungi Bawendi, Keith Nelson&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 22: Non-ideal solutions</title>
+      <link>/resources/lecture-22-non-ideal-solutions/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-22-non-ideal-solutions/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Non-ideal solutions&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor/speaker:&lt;/strong&gt; Moungi Bawendi, Keith Nelson&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 23: Colligative properties</title>
+      <link>/resources/lecture-23-colligative-properties/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-23-colligative-properties/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Colligative properties&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor/speaker:&lt;/strong&gt; Moungi Bawendi, Keith Nelson&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 24: Introduction to statistical mechanics</title>
+      <link>/resources/lecture-24-introduction-to-statistical-mechanics/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-24-introduction-to-statistical-mechanics/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Introduction to statistical mechanics&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor/speaker:&lt;/strong&gt; Moungi Bawendi, Keith Nelson&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 25: Partition function (q) — large N limit</title>
+      <link>/resources/lecture-25-partition-function-q-2014-large-n-limit/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-25-partition-function-q-2014-large-n-limit/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Partition function (q) — large N limit&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor/speaker:&lt;/strong&gt; Moungi Bawendi, Keith Nelson&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 26: Partition function (Q) — many particles</title>
+      <link>/resources/lecture-26-partition-function-q-2014-many-particles/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-26-partition-function-q-2014-many-particles/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Partition function (Q) — many particles&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor/speaker:&lt;/strong&gt; Moungi Bawendi, Keith Nelson&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 27: Statistical mechanics and discrete energy levels</title>
+      <link>/resources/lecture-27-statistical-mechanics-and-discrete-energy-levels/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-27-statistical-mechanics-and-discrete-energy-levels/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Statistical mechanics and discrete energy levels&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor/speaker:&lt;/strong&gt; Moungi Bawendi, Keith Nelson&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 28: Model systems</title>
+      <link>/resources/lecture-28-model-systems/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-28-model-systems/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Model systems&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor/speaker:&lt;/strong&gt; Moungi Bawendi, Keith Nelson&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 29: Applications: chemical and phase equilibria</title>
+      <link>/resources/lecture-29-applications-chemical-and-phase-equilibria/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-29-applications-chemical-and-phase-equilibria/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Applications: chemical and phase equilibria&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor/speaker:&lt;/strong&gt; Moungi Bawendi, Keith Nelson&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 3: Internal energy, expansion work</title>
+      <link>/resources/lecture-3-internal-energy-expansion-work/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-3-internal-energy-expansion-work/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Internal energy, expansion work&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor/speaker:&lt;/strong&gt; Moungi Bawendi, Keith Nelson&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 30: Introduction to reaction kinetics</title>
+      <link>/resources/lecture-30-introduction-to-reaction-kinetics/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-30-introduction-to-reaction-kinetics/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Introduction to reaction kinetics&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor/speaker:&lt;/strong&gt; Moungi Bawendi, Keith Nelson&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 31: Complex reactions and mechanisms</title>
+      <link>/resources/lecture-31-complex-reactions-and-mechanisms/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-31-complex-reactions-and-mechanisms/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lecture 32: Steady-state and equilibrium approximations</title>
+      <link>/resources/lecture-32-steady-state-and-equilibrium-approximations/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-32-steady-state-and-equilibrium-approximations/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Steady-state and equilibrium approximations&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor/speaker:&lt;/strong&gt; Moungi Bawendi, Keith Nelson&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 33: Chain reactions</title>
+      <link>/resources/lecture-33-chain-reactions/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-33-chain-reactions/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Chain reactions&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor/speaker:&lt;/strong&gt; Moungi Bawendi, Keith Nelson&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 34: Temperature dependence, Ea, catalysis</title>
+      <link>/resources/lecture-34-temperature-dependence-ea-catalysis/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-34-temperature-dependence-ea-catalysis/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Temperature dependence, Ea, catalysis&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor/speaker:&lt;/strong&gt; Moungi Bawendi, Keith Nelson&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 35: Enzyme catalysis</title>
+      <link>/resources/lecture-35-enzyme-catalysis/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-35-enzyme-catalysis/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Enzyme catalysis&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor/speaker:&lt;/strong&gt; aMoungi Bawendi, Keith Nelson&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 36: Autocatalysis and oscillators</title>
+      <link>/resources/lecture-36-autocatalysis-and-oscillators/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-36-autocatalysis-and-oscillators/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Autocatalysis and oscillators&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor/speaker:&lt;/strong&gt; Moungi Bawendi, Keith Nelson&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 4: Enthalpy</title>
+      <link>/resources/lecture-4-enthalpy/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-4-enthalpy/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Enthalpy&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor/speaker:&lt;/strong&gt; Moungi Bawendi, Keith Nelson&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 5: Adiabatic changes</title>
+      <link>/resources/lecture-5-adiabatic-changes/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-5-adiabatic-changes/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Adiabatic changes&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor/speaker:&lt;/strong&gt; Moungi Bawendi, Keith Nelson&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 6: Thermochemistry</title>
+      <link>/resources/lecture-6-thermochemistry/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-6-thermochemistry/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Thermochemistry&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor/speaker:&lt;/strong&gt; Moungi Bawendi, Keith Nelson&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 7: Calorimetry</title>
+      <link>/resources/lecture-7-calorimetry/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-7-calorimetry/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Calorimetry&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor/speaker:&lt;/strong&gt; Moungi Bawendi, Keith Nelson&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 8: Second law</title>
+      <link>/resources/lecture-8-second-law/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-8-second-law/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Second law&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor/speaker:&lt;/strong&gt; Moungi Bawendi, Keith Nelson&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 9: Entropy and the Clausius inequality</title>
+      <link>/resources/lecture-9-entropy-and-the-clausius-inequality/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-9-entropy-and-the-clausius-inequality/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Entropy and the Clausius inequality&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor/speaker:&lt;/strong&gt; Moungi Bawendi, Keith Nelson&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Video Lectures</title>
+      <link>/video_galleries/video-lectures/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/video_galleries/video-lectures/data.json</guid>
+      <description>&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-1-state-of-a-system-0th-law-equation-of-state/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/kLqduWF6GXE/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 1: State of a system, 0th law, equation of state&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-2-work-heat-first-law/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/TDqx8Zv1rRo/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 2: Work, heat, first law&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-3-internal-energy-expansion-work/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/RrVq7Yduz2g/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 3: Internal energy, expansion work&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-4-enthalpy/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/g14939TMTCE/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 4: Enthalpy&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-5-adiabatic-changes/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/rWLeg-W4EF0/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 5: Adiabatic changes&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-6-thermochemistry/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/8Xpn2jorigU/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 6: Thermochemistry&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-7-calorimetry/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/6uLKZSoHnrc/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 7: Calorimetry&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-8-second-law/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/e124JF_DHCQ/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 8: Second law&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-9-entropy-and-the-clausius-inequality/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/DqEmrt_xQTg/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 9: Entropy and the Clausius inequality&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-10-entropy-and-irreversibility/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/QrzHB9_kHPE/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 10: Entropy and irreversibility&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-11-fundamental-equation-absolute-s-third-law/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/r4fGG_7NQr8/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 11: Fundamental equation, absolute S, third law&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-12-criteria-for-spontaneous-change/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/jsoD3oZAAXI/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 12: Criteria for spontaneous change&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-13-gibbs-free-energy/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/srjNMMtPATo/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 13: Gibbs free energy&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-14-multicomponent-systems-chemical-potential/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/gLo958Kdeoo/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 14: Multicomponent systems, chemical potential&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-15-chemical-equilibrium/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/Cc2l1QTTZA4/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 15: Chemical equilibrium&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-16-temperature-pressure-and-kp/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/DOq2YChGmlg/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 16: Temperature, pressure and Kp&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-17-equilibrium-application-to-drug-design/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/_PmJoExiSPo/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 17: Equilibrium: application to drug design&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-18-phase-equilibria-2014-one-component/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/6kBqi9vVC6s/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 18: Phase equilibria — one component&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-19-clausius-clapeyron-equation/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/Bd7PVX7rohQ/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 19: Clausius-Clapeyron equation&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-20-phase-equilibria-2014-two-components/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/2QdI6_gEyx4/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 20: Phase equilibria — two components&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-21-ideal-solutions/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/RUz-DJz3--I/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 21: Ideal solutions&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-22-non-ideal-solutions/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/eXUFm8lA5yE/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 22: Non-ideal solutions&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-23-colligative-properties/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/wCSl5eeMSDY/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 23: Colligative properties&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-24-introduction-to-statistical-mechanics/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/u6s_jy0n6vI/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 24: Introduction to statistical mechanics&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-25-partition-function-q-2014-large-n-limit/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/xgUCzL3TD1g/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 25: Partition function (q) — large N limit&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-26-partition-function-q-2014-many-particles/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/RT_v0PhXP5E/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 26: Partition function (Q) — many particles&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-27-statistical-mechanics-and-discrete-energy-levels/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/HYh3aq_NG8Q/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 27: Statistical mechanics and discrete energy levels&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-28-model-systems/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/BTNsoSNR5B0/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 28: Model systems&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-29-applications-chemical-and-phase-equilibria/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/6LYuK8qI0_s/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 29: Applications: chemical and phase equilibria&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-30-introduction-to-reaction-kinetics/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/DZ138JSpoxQ/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 30: Introduction to reaction kinetics&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-31-complex-reactions-and-mechanisms/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/Q7mrSQkSB9U/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 31: Complex reactions and mechanisms&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-32-steady-state-and-equilibrium-approximations/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/lLdUm6AU0aw/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 32: Steady-state and equilibrium approximations&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-33-chain-reactions/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/qYqI9IWyv-c/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 33: Chain reactions&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-34-temperature-dependence-ea-catalysis/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/oKwGNgCTd-Q/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 34: Temperature dependence, Ea, catalysis&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-35-enzyme-catalysis/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/dkHcgAzsvAk/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 35: Enzyme catalysis&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-36-autocatalysis-and-oscillators/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/U2BNmEnry6E/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 36: Autocatalysis and oscillators&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;</description>
+    </item>
+  </channel>
+</rss>

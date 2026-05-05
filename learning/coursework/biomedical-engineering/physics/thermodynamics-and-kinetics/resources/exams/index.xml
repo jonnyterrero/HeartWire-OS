@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Exams on MIT OpenCourseWare</title>
+    <link>/resources/exams/</link>
+    <description>Recent content in Exams on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/exams/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exams</title>
+      <link>/pages/exams/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/exams/data.json</guid>
+      <description>&lt;p&gt;There will be three one-hour examinations during the term and a final examination. The exams will be closed-notes and closed-book unless otherwise announced.&lt;/p&gt;&#xA;&lt;p&gt;&lt;table&gt;&#xA;&#xA;&lt;thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;EXAMS&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;MATERIAL COVERED&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;HANDOUTS&#xA;&lt;/th&gt;&#xA;&lt;/p&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;p&gt;&lt;/thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Exam I&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;Lectures 1-10&lt;/p&gt;&#xA;&lt;p&gt;Problem sets 1-3&lt;/p&gt;&#xA;&lt;p&gt;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Exam I information (&lt;a href=&#34;../../resources/exam-1-information/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Exam II&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;Lectures 11-17&lt;/p&gt;&#xA;&lt;p&gt;Problem sets 4-5&lt;/p&gt;&#xA;&lt;p&gt;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Exam II information (&lt;a href=&#34;../../resources/exam-ii-information/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Exam III&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;Lectures 18-28&lt;/p&gt;&#xA;&lt;p&gt;Problem sets 6-8&lt;/p&gt;&#xA;&lt;p&gt;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Exam III information (&lt;a href=&#34;../../resources/exam-3-information/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Final exam&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Final Exam - Kinetic Summary</title>
+      <link>/resources/finalexam_kinet/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/finalexam_kinet/data.json</guid>
+      <description>&lt;p&gt;Final exam review on kinetics, parallel reactions, consecutive reactions, reversible reactions, steady-state versus equilibrium, and Arrhenius theory.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

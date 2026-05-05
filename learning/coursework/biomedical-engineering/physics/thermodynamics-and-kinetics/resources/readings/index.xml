@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Readings on MIT OpenCourseWare</title>
+    <link>/resources/readings/</link>
+    <description>Recent content in Readings on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/readings/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Readings</title>
+      <link>/pages/readings/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/readings/data.json</guid>
+      <description>&lt;p&gt;Silbey, R., R. Alberty, and M. Bawendi. &lt;em&gt;Physical Chemistry&lt;/em&gt;. 4th ed. New York, NY: John Wiley &amp;amp; Sons, 2004. ISBN: 9780471215042.&lt;/p&gt;&#xA;&lt;p&gt;Atkins, P., and J. de Paula. &lt;em&gt;Physical Chemistry&lt;/em&gt;. 7th ed. New York, NY: W.H. Freeman and Company, 2001. ISBN: 9780716735397.&lt;/p&gt;&#xA;&lt;p&gt;Castellan, G. &lt;em&gt;Physical Chemistry&lt;/em&gt;. 3rd ed. Reading, MA: Addison-Wesley, 1983. ISBN: 9780201103861.&lt;/p&gt;&#xA;&lt;p&gt;Chang, R. &lt;em&gt;Physical Chemistry for the Chemical and Biological Sciences&lt;/em&gt;. Sausalito, CA: University Science Books, 2000. ISBN: 9781891389061.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
