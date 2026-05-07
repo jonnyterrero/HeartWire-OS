@@ -1,7 +1,6 @@
 "use client";
 
 import { useState, useEffect, useMemo } from "react";
-import { Hammer, ChevronDown, Filter } from "lucide-react";
 import clsx from "clsx";
 import { TRACK_GROUPS } from "@/lib/track-groups";
 
@@ -18,24 +17,6 @@ const priorityColors: Record<string, string> = {
   LOW: "bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300",
   MEDIUM: "bg-yellow-100 dark:bg-yellow-900/30 text-yellow-700 dark:text-yellow-300",
   HIGH: "bg-red-100 dark:bg-red-900/30 text-red-700 dark:text-red-300",
-};
-
-const priorityLabels: Record<string, string> = {
-  LOW: "Level 1 — Beginner",
-  MEDIUM: "Level 2 — Intermediate",
-  HIGH: "Level 3 — Advanced",
-};
-
-const statusColors: Record<string, string> = {
-  TODO: "text-gray-500",
-  IN_PROGRESS: "text-blue-500",
-  DONE: "text-green-500",
-};
-
-const statusLabels: Record<string, string> = {
-  TODO: "To Do",
-  IN_PROGRESS: "In Progress",
-  DONE: "Done",
 };
 
 export default function ProjectsPage() {

@@ -21,3 +21,6 @@
 
 # Local build artefacts that shouldn't leak between restarts.
 *.tsbuildinfo
+
+# Cursor/assistant metadata (never commit).
+/.claude/

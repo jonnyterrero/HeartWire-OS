@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 import { Plus, Trash2, FileText, Search, ArrowLeft, X } from "lucide-react";
 
 type Note = {
@@ -33,11 +33,11 @@ export default function NotesPage() {
   const [newTitle, setNewTitle] = useState("");
   const [newCourseId, setNewCourseId] = useState("");
 
-  const fetchNotes = async () => {
+  const fetchNotes = useCallback(async () => {
     const q = search ? `?q=${encodeURIComponent(search)}` : "";
     const res = await fetch(`/api/notes${q}`);
     if (res.ok) setNotes(await res.json());
-  };
+  }, [search]);
 
   useEffect(() => {
     Promise.all([
@@ -56,7 +56,7 @@ export default function NotesPage() {
       const timeout = setTimeout(fetchNotes, 300);
       return () => clearTimeout(timeout);
     }
-  }, [search]);
+  }, [search, loading, fetchNotes]);
 
   const createNote = async () => {
     if (!newTitle.trim()) return;

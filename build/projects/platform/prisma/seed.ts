@@ -6,12 +6,26 @@ const prisma = new PrismaClient();
  * Full seed script — populates tracks, courses, and resources
  * matching the 5amClub workspace resource guide.
  *
- * Run with: npm run db:seed
+ * Run with: SEED_USER_ID=<uuid> npm run db:seed
  *
- * IMPORTANT: Replace USER_ID with your actual Supabase auth user ID.
- * Find it in Supabase Dashboard → Auth → Users after first login.
+ * Find your Supabase user ID in Supabase Dashboard → Auth → Users
+ * after your first login.
  */
-const USER_ID = "e97402fe-6766-4041-8337-2c5f64aa2af7";
+function requireEnv(name: string): string {
+  const value = process.env[name];
+  if (!value) {
+    console.error(
+      `ERROR: ${name} env var is required.\n` +
+        "  Get it from Supabase Dashboard → Auth → Users, then run:\n" +
+        `    ${name}=<uuid> npm run db:seed`
+    );
+    process.exit(1);
+  }
+  return value;
+}
+
+const USER_ID = requireEnv("SEED_USER_ID");
+const USER_EMAIL = process.env.SEED_USER_EMAIL ?? "seed@local.dev";
 
 // ─── Types ─────────────────────────────────────────────────
 type ResourceSeed = {
@@ -795,14 +809,14 @@ const projectTasks: TaskSeed[] = [
 
 // ─── Main ──────────────────────────────────────────────────
 async function main() {
-  if (USER_ID === "REPLACE_WITH_YOUR_SUPABASE_USER_ID") {
-    console.error(
-      "ERROR: Replace USER_ID in prisma/seed.ts with your actual Supabase user ID."
-    );
-    process.exit(1);
-  }
+  console.log(`Seeding database for user ${USER_ID}...\n`);
 
-  console.log("Seeding database...\n");
+  // Tracks have a FK to users(id). Make sure the row exists.
+  await prisma.user.upsert({
+    where: { id: USER_ID },
+    update: {},
+    create: { id: USER_ID, email: USER_EMAIL },
+  });
 
   // Map to look up course IDs by title after creation
   const courseMap = new Map<string, string>();

@@ -54,7 +54,7 @@ export default function StudyTimer() {
     return () => {
       if (intervalRef.current) clearInterval(intervalRef.current);
     };
-  }, [running, tick]);
+  }, [running, tick, elapsed]);
 
   useEffect(() => {
     if (isPomodoroDone && running) {

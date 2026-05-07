@@ -1,51 +1,53 @@
 import { NextResponse } from "next/server";
 import prisma from "@/lib/prisma";
 import { getAuthenticatedUser } from "@/lib/auth";
+import { apiError, BadRequestError, parseJsonBody } from "@/lib/api";
 
-type Params = { params: Promise<{ id: string }> };
+type Params = { params: { id: string } };
+
+const ISO_DATE = /^\d{4}-\d{2}-\d{2}$/;
 
 /**
  * POST /api/habits/:id/toggle
- * Body: { date: "2026-03-11" }
+ * Body: { date: "YYYY-MM-DD" }
  * Toggles completion for that date — creates if missing, deletes if exists.
  */
 export async function POST(request: Request, { params }: Params) {
   const { user, error } = await getAuthenticatedUser();
   if (error) return error;
+  try {
+    const habit = await prisma.habit.findFirst({
+      where: { id: params.id, userId: user!.id },
+      select: { id: true },
+    });
+    if (!habit) {
+      return NextResponse.json({ error: "Habit not found" }, { status: 404 });
+    }
 
-  const { id } = await params;
-  const habit = await prisma.habit.findFirst({
-    where: { id, userId: user!.id },
-  });
-  if (!habit) {
-    return NextResponse.json({ error: "Habit not found" }, { status: 404 });
-  }
+    const body = await parseJsonBody<{ date?: unknown }>(request);
+    if (typeof body.date !== "string" || !ISO_DATE.test(body.date)) {
+      throw new BadRequestError("date is required and must be YYYY-MM-DD");
+    }
+    const dateStr = body.date;
+    const completedDate = new Date(`${dateStr}T00:00:00.000Z`);
+    if (Number.isNaN(completedDate.getTime())) {
+      throw new BadRequestError("Invalid date");
+    }
 
-  const body = await request.json();
-  const dateStr = body.date;
-  if (!dateStr) {
-    return NextResponse.json({ error: "date is required" }, { status: 400 });
-  }
+    const existing = await prisma.habitCompletion.findFirst({
+      where: { habitId: params.id, completedDate },
+    });
 
-  const completedDate = new Date(dateStr + "T00:00:00.000Z");
+    if (existing) {
+      await prisma.habitCompletion.delete({ where: { id: existing.id } });
+      return NextResponse.json({ completed: false, date: dateStr });
+    }
 
-  const existing = await prisma.habitCompletion.findFirst({
-    where: {
-      habitId: id,
-      completedDate,
-    },
-  });
-
-  if (existing) {
-    await prisma.habitCompletion.delete({ where: { id: existing.id } });
-    return NextResponse.json({ completed: false, date: dateStr });
-  } else {
     await prisma.habitCompletion.create({
-      data: {
-        habitId: id,
-        completedDate,
-      },
+      data: { habitId: params.id, completedDate },
     });
     return NextResponse.json({ completed: true, date: dateStr });
+  } catch (err) {
+    return apiError(err, "habits.toggle");
   }
 }

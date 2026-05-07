@@ -1,6 +1,14 @@
 import { createServerClient } from "@supabase/ssr";
 import { NextResponse, type NextRequest } from "next/server";
 
+type CookieToSet = {
+  name: string;
+  value: string;
+  // NextResponse cookies options type isn't exported cleanly.
+  // Keep this loose to avoid brittle typing across Next.js versions.
+  options?: Record<string, unknown>;
+};
+
 export async function middleware(request: NextRequest) {
   let supabaseResponse = NextResponse.next({ request });
 
@@ -12,7 +20,7 @@ export async function middleware(request: NextRequest) {
         getAll() {
           return request.cookies.getAll();
         },
-        setAll(cookiesToSet) {
+        setAll(cookiesToSet: CookieToSet[]) {
           cookiesToSet.forEach(({ name, value }) =>
             request.cookies.set(name, value)
           );
@@ -49,7 +57,9 @@ export async function middleware(request: NextRequest) {
 }
 
 export const config = {
+  // Skip Next internals, static assets, and /api/* (route handlers enforce
+  // their own auth and must return JSON 401, not an HTML redirect).
   matcher: [
-    "/((?!_next/static|_next/image|favicon.ico|.*\\.(?:svg|png|jpg|jpeg|gif|webp)$).*)",
+    "/((?!api|_next/static|_next/image|favicon.ico|manifest.json|robots.txt|sw.js|workbox-.*|worker-.*|fallback-.*|.*\\.(?:svg|png|jpg|jpeg|gif|webp|ico)$).*)",
   ],
 };

@@ -266,6 +266,10 @@ archive/legacy-snapshots/**
 
 !archive/legacy-snapshots/scripts/**
 
+# Archived 5amClub workspace mirror (nested clone; do not commit full tree).
+
+archive/5amClub/**
+
 # Personal Obsidian vault — stays local, never pushed.
 
 /Obsidian Vault/
