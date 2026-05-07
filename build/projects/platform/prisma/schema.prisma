@@ -8,6 +8,20 @@ datasource db {
   directUrl = env("DIRECT_URL")
 }
 
+// ─── Enums ─────────────────────────────────────────────────
+enum ResourceType {
+  GITHUB_REPO
+  PDF
+  WEBSITE
+  YOUTUBE_VIDEO
+  YOUTUBE_PLAYLIST
+  BOOK
+  DOCUMENTATION
+  ARTICLE
+  COURSE
+  OTHER
+}
+
 // ─── User & Auth ───────────────────────────────────────────
 model User {
   id        String   @id @default(uuid())
@@ -17,11 +31,15 @@ model User {
   createdAt DateTime @default(now()) @map("created_at")
   updatedAt DateTime @updatedAt @map("updated_at")
 
-  tracks   Track[]
-  tasks    Task[]
-  sessions StudySession[]
-  notes    Note[]
-  habits   Habit[]
+  tracks         Track[]
+  tasks          Task[]
+  sessions       StudySession[]
+  notes          Note[]
+  habits         Habit[]
+  resources      Resource[]
+  examSessions   ExamPracticeSession[]
+  tags           Tag[]
+  calendarEvents CalendarEvent[]
 
   @@map("users")
 }
@@ -37,8 +55,13 @@ model Track {
   createdAt   DateTime @default(now()) @map("created_at")
   updatedAt   DateTime @updatedAt @map("updated_at")
 
-  courses Course[]
+  courses        Course[]
+  resources      Resource[]
+  studySessions  StudySession[]
+  examSessions   ExamPracticeSession[]
+  calendarEvents CalendarEvent[]
 
+  @@index([userId])
   @@map("tracks")
 }
 
@@ -54,25 +77,53 @@ model Course {
   createdAt   DateTime @default(now()) @map("created_at")
   updatedAt   DateTime @updatedAt @map("updated_at")
 
-  resources Resource[]
-  notes     Note[]
-  tasks     Task[]
+  resources      Resource[]
+  notes          Note[]
+  tasks          Task[]
+  studySessions  StudySession[]
+  calendarEvents CalendarEvent[]
 
+  @@index([trackId])
   @@map("courses")
 }
 
 // ─── Resources ─────────────────────────────────────────────
 model Resource {
-  id          String   @id @default(uuid())
-  title       String
-  type        String   // BOOK | VIDEO | ARTICLE | COURSE
-  url         String?
-  isCompleted Boolean  @default(false) @map("is_completed")
-  courseId     String   @map("course_id")
-  course      Course   @relation(fields: [courseId], references: [id], onDelete: Cascade)
-  createdAt   DateTime @default(now()) @map("created_at")
-  updatedAt   DateTime @updatedAt @map("updated_at")
+  id              String        @id @default(uuid())
+  title           String
+  // Legacy free-text type ("BOOK | VIDEO | ARTICLE | COURSE"). Kept for backfill.
+  type            String        @default("ARTICLE")
+  // New typed enum — preferred going forward.
+  resourceType    ResourceType? @map("resource_type")
+  url             String?
+  description     String?
+  filePath        String?       @map("file_path")
+  sourcePlatform  String?       @map("source_platform")
+  isFavorite      Boolean       @default(false) @map("is_favorite")
+  isCompleted     Boolean       @default(false) @map("is_completed")
+  // Course is now optional — resources can be library-scoped.
+  courseId        String?       @map("course_id")
+  course          Course?       @relation(fields: [courseId], references: [id], onDelete: SetNull)
+  // User and track scoping for library views.
+  userId          String?       @map("user_id")
+  user            User?         @relation(fields: [userId], references: [id], onDelete: Cascade)
+  trackId         String?       @map("track_id")
+  track           Track?        @relation(fields: [trackId], references: [id], onDelete: SetNull)
+  // Sync + soft-delete.
+  deletedAt       DateTime?     @map("deleted_at")
+  clientUpdatedAt DateTime?     @map("client_updated_at")
+  syncVersion     Int           @default(0) @map("sync_version")
+  createdAt       DateTime      @default(now()) @map("created_at")
+  updatedAt       DateTime      @updatedAt @map("updated_at")
 
+  tags ResourceTag[]
+
+  @@index([userId])
+  @@index([trackId])
+  @@index([courseId])
+  @@index([resourceType])
+  @@index([deletedAt])
+  @@index([createdAt])
   @@map("resources")
 }
 
@@ -85,39 +136,111 @@ model Task {
   dueDate   DateTime? @map("due_date")
   userId    String    @map("user_id")
   user      User      @relation(fields: [userId], references: [id], onDelete: Cascade)
-  courseId   String?   @map("course_id")
+  courseId  String?   @map("course_id")
   course    Course?   @relation(fields: [courseId], references: [id], onDelete: SetNull)
   sortOrder Int       @default(0) @map("sort_order")
   createdAt DateTime  @default(now()) @map("created_at")
   updatedAt DateTime  @updatedAt @map("updated_at")
 
+  tags           TaskTag[]
+  calendarEvents CalendarEvent[]
+
+  @@index([userId])
+  @@index([courseId])
+  @@index([dueDate])
+  @@index([status])
   @@map("tasks")
 }
 
 // ─── Study Sessions ────────────────────────────────────────
 model StudySession {
-  id       String   @id @default(uuid())
-  duration Int      // minutes
-  notes    String?
-  date     DateTime @default(now())
-  userId   String   @map("user_id")
-  user     User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  id              String    @id @default(uuid())
+  // Legacy fields — preserved for historical rows.
+  duration        Int       // minutes
+  notes           String?
+  date            DateTime  @default(now())
+  userId          String    @map("user_id")
+  user            User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  // New optional scoping.
+  trackId         String?   @map("track_id")
+  track           Track?    @relation(fields: [trackId], references: [id], onDelete: SetNull)
+  courseId        String?   @map("course_id")
+  course          Course?   @relation(fields: [courseId], references: [id], onDelete: SetNull)
+  sessionType     String?   @map("session_type")
+  focusScore      Int?      @map("focus_score")
+  energyScore     Int?      @map("energy_score")
+  startedAt       DateTime? @map("started_at")
+  endedAt         DateTime? @map("ended_at")
+  durationMinutes Int?      @map("duration_minutes")
+  // Sync + soft-delete.
+  deletedAt       DateTime? @map("deleted_at")
+  clientUpdatedAt DateTime? @map("client_updated_at")
+  syncVersion     Int       @default(0) @map("sync_version")
 
+  calendarEvents CalendarEvent[]
+
+  @@index([userId])
+  @@index([trackId])
+  @@index([startedAt])
+  @@index([deletedAt])
   @@map("study_sessions")
+}
+
+// ─── Exam Practice Sessions (FE / PE) ──────────────────────
+model ExamPracticeSession {
+  id                 String    @id @default(uuid())
+  userId             String    @map("user_id")
+  user               User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  trackId            String?   @map("track_id")
+  track              Track?    @relation(fields: [trackId], references: [id], onDelete: SetNull)
+  examType           String    @map("exam_type")           // "FE" | "PE"
+  discipline         String?                                // "ELECTRICAL" | "MECHANICAL"
+  topic              String?
+  source             String?
+  questionsAttempted Int?      @map("questions_attempted")
+  questionsCorrect   Int?      @map("questions_correct")
+  durationMinutes    Int?      @map("duration_minutes")
+  notes              String?
+  sessionDate        DateTime? @map("session_date")
+  deletedAt          DateTime? @map("deleted_at")
+  createdAt          DateTime  @default(now()) @map("created_at")
+  updatedAt          DateTime  @updatedAt @map("updated_at")
+
+  calendarEvents CalendarEvent[]
+
+  @@index([userId])
+  @@index([trackId])
+  @@index([sessionDate])
+  @@index([deletedAt])
+  @@map("exam_practice_sessions")
 }
 
 // ─── Notes ─────────────────────────────────────────────────
 model Note {
-  id        String   @id @default(uuid())
-  title     String
-  content   String   @default("")
-  userId    String   @map("user_id")
-  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
-  courseId   String?  @map("course_id")
-  course    Course?  @relation(fields: [courseId], references: [id], onDelete: SetNull)
-  createdAt DateTime @default(now()) @map("created_at")
-  updatedAt DateTime @updatedAt @map("updated_at")
+  id              String    @id @default(uuid())
+  title           String
+  content         String    @default("")
+  userId          String    @map("user_id")
+  user            User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  courseId        String?   @map("course_id")
+  course          Course?   @relation(fields: [courseId], references: [id], onDelete: SetNull)
+  noteType        String?   @map("note_type")        // COURSE_NOTE | JOURNAL | RESOURCE_NOTE | PROJECT_NOTE | GENERAL
+  journalDate     DateTime? @map("journal_date")
+  moodScore       Int?      @map("mood_score")
+  energyScore     Int?      @map("energy_score")
+  deletedAt       DateTime? @map("deleted_at")
+  clientUpdatedAt DateTime? @map("client_updated_at")
+  syncVersion     Int       @default(0) @map("sync_version")
+  createdAt       DateTime  @default(now()) @map("created_at")
+  updatedAt       DateTime  @updatedAt @map("updated_at")
 
+  tags NoteTag[]
+
+  @@index([userId])
+  @@index([courseId])
+  @@index([noteType])
+  @@index([journalDate])
+  @@index([deletedAt])
   @@map("notes")
 }
 
@@ -133,8 +256,10 @@ model Habit {
   createdAt  DateTime @default(now()) @map("created_at")
   updatedAt  DateTime @updatedAt @map("updated_at")
 
-  completions HabitCompletion[]
+  completions    HabitCompletion[]
+  calendarEvents CalendarEvent[]
 
+  @@index([userId])
   @@map("habits")
 }
 
@@ -147,4 +272,97 @@ model HabitCompletion {
 
   @@unique([habitId, completedDate])
   @@map("habit_completions")
+}
+
+// ─── Tags ──────────────────────────────────────────────────
+model Tag {
+  id        String   @id @default(uuid())
+  userId    String   @map("user_id")
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  name      String
+  color     String?
+  createdAt DateTime @default(now()) @map("created_at")
+
+  resources ResourceTag[]
+  notes     NoteTag[]
+  tasks     TaskTag[]
+
+  @@unique([userId, name])
+  @@index([userId])
+  @@map("tags")
+}
+
+model ResourceTag {
+  resourceId String   @map("resource_id")
+  resource   Resource @relation(fields: [resourceId], references: [id], onDelete: Cascade)
+  tagId      String   @map("tag_id")
+  tag        Tag      @relation(fields: [tagId], references: [id], onDelete: Cascade)
+
+  @@id([resourceId, tagId])
+  @@index([tagId])
+  @@map("resource_tags")
+}
+
+model NoteTag {
+  noteId String @map("note_id")
+  note   Note   @relation(fields: [noteId], references: [id], onDelete: Cascade)
+  tagId  String @map("tag_id")
+  tag    Tag    @relation(fields: [tagId], references: [id], onDelete: Cascade)
+
+  @@id([noteId, tagId])
+  @@index([tagId])
+  @@map("note_tags")
+}
+
+model TaskTag {
+  taskId String @map("task_id")
+  task   Task   @relation(fields: [taskId], references: [id], onDelete: Cascade)
+  tagId  String @map("tag_id")
+  tag    Tag    @relation(fields: [tagId], references: [id], onDelete: Cascade)
+
+  @@id([taskId, tagId])
+  @@index([tagId])
+  @@map("task_tags")
+}
+
+// ─── Calendar Events ───────────────────────────────────────
+model CalendarEvent {
+  id                    String    @id @default(uuid())
+  userId                String    @map("user_id")
+  user                  User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  title                 String
+  description           String?
+  eventType             String    @map("event_type")     // TASK | STUDY_SESSION | HABIT | FE_PE_PRACTICE | DEADLINE | JOURNAL | CUSTOM
+  startTime             DateTime? @map("start_time")
+  endTime               DateTime? @map("end_time")
+  allDay                Boolean   @default(false) @map("all_day")
+  location              String?
+  linkedEntityType      String?   @map("linked_entity_type")
+  linkedEntityId        String?   @map("linked_entity_id")
+  trackId               String?   @map("track_id")
+  track                 Track?    @relation(fields: [trackId], references: [id], onDelete: SetNull)
+  courseId              String?   @map("course_id")
+  course                Course?   @relation(fields: [courseId], references: [id], onDelete: SetNull)
+  taskId                String?   @map("task_id")
+  task                  Task?     @relation(fields: [taskId], references: [id], onDelete: SetNull)
+  habitId               String?   @map("habit_id")
+  habit                 Habit?    @relation(fields: [habitId], references: [id], onDelete: SetNull)
+  studySessionId        String?   @map("study_session_id")
+  studySession          StudySession? @relation(fields: [studySessionId], references: [id], onDelete: SetNull)
+  examPracticeSessionId String?   @map("exam_practice_session_id")
+  examPracticeSession   ExamPracticeSession? @relation(fields: [examPracticeSessionId], references: [id], onDelete: SetNull)
+  recurrenceRule        String?   @map("recurrence_rule")
+  reminderMinutesBefore Int?      @map("reminder_minutes_before")
+  color                 String?
+  status                String    @default("SCHEDULED") // SCHEDULED | COMPLETED | CANCELLED | MISSED
+  deletedAt             DateTime? @map("deleted_at")
+  createdAt             DateTime  @default(now()) @map("created_at")
+  updatedAt             DateTime  @updatedAt @map("updated_at")
+
+  @@index([userId])
+  @@index([trackId])
+  @@index([startTime])
+  @@index([eventType])
+  @@index([deletedAt])
+  @@map("calendar_events")
 }
