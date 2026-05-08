@@ -27,7 +27,7 @@ export default function JournalPage() {
     const res = await fetch("/api/notes");
     if (res.ok) {
       const all = (await res.json()) as JournalNote[];
-      setNotes(all.filter((n) => n.noteType === "JOURNAL" || !n.noteType ? n.noteType === "JOURNAL" : false));
+      setNotes(all.filter((n) => n.noteType === "JOURNAL"));
     }
     setLoading(false);
   }
