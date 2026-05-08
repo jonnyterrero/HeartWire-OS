@@ -3,18 +3,22 @@ import prisma from "@/lib/prisma";
 import { getAuthenticatedUser } from "@/lib/auth";
 import { apiError } from "@/lib/api";
 
+// One default track per sidebar group, plus the most useful sub-tracks so the
+// existing TRACK_GROUPS map has something to render in each group.
 const DEFAULT_TRACKS = [
-  { title: "Mathematics", color: "purple" },
-  { title: "Physics & Chemistry", color: "teal" },
-  { title: "Neuroscience / Neural Engineering", color: "blue" },
   { title: "Software Engineering", color: "cyan" },
-  { title: "Mechanical Engineering", color: "orange" },
+  { title: "Computer Science", color: "cyan" },
   { title: "Electrical Engineering", color: "yellow" },
+  { title: "Mathematics", color: "purple" },
+  { title: "Physics & General", color: "teal" },
+  { title: "Chemistry", color: "teal" },
+  { title: "Biomedical Engineering", color: "blue" },
+  { title: "Mechanical Engineering", color: "blue" },
 ] as const;
 
 /**
- * Seeds the 6 default HeartWire tracks for the current user, but only ones
- * that don't already exist (matched by title). Idempotent.
+ * Seeds the default HeartWire tracks for the current user, but only ones that
+ * don't already exist (matched by title). Idempotent.
  */
 export async function POST() {
   const { user, error } = await getAuthenticatedUser();

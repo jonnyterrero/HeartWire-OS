@@ -24,6 +24,7 @@ import {
   Code2,
   Dna,
   BookMarked,
+  Layers,
   Settings as SettingsIcon,
 } from "lucide-react";
 import clsx from "clsx";
@@ -116,6 +117,7 @@ export default function Sidebar() {
     { name: "LeetCode", href: "/tracking/leetcode", icon: Code2 },
     { name: "Rosalind", href: "/tracking/rosalind", icon: Dna },
     { name: "Textbooks", href: "/tracking/textbooks", icon: BookMarked },
+    { name: "Projects", href: "/tracking/projects", icon: Layers },
     { name: "Habits", href: "/tracking/habits", icon: Target },
     { name: "Journal", href: "/tracking/journal", icon: PenLine },
   ];
