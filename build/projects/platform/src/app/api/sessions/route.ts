@@ -4,6 +4,7 @@ import { getAuthenticatedUser } from "@/lib/auth";
 import {
   apiError,
   BadRequestError,
+  optionalInt,
   optionalString,
   parseJsonBody,
 } from "@/lib/api";
@@ -26,12 +27,32 @@ export async function GET(request: Request) {
     const since = new Date();
     since.setDate(since.getDate() - days);
 
-    const sessions = await prisma.studySession.findMany({
-      where: { userId: user!.id, date: { gte: since } },
-      orderBy: { date: "desc" },
-    });
+    const prevSince = new Date(since);
+    prevSince.setDate(prevSince.getDate() - days);
 
-    const totalMinutes = sessions.reduce((sum, s) => sum + s.duration, 0);
+    const [sessions, prevSessions] = await Promise.all([
+      prisma.studySession.findMany({
+        where: { userId: user!.id, deletedAt: null, date: { gte: since } },
+        orderBy: { date: "desc" },
+      }),
+      prisma.studySession.findMany({
+        where: {
+          userId: user!.id,
+          deletedAt: null,
+          date: { gte: prevSince, lt: since },
+        },
+        select: { duration: true, durationMinutes: true },
+      }),
+    ]);
+
+    const sumMinutes = (rows: { duration: number; durationMinutes: number | null }[]) =>
+      rows.reduce(
+        (sum, s) => sum + (s.durationMinutes ?? s.duration ?? 0),
+        0
+      );
+    const totalMinutes = sumMinutes(sessions);
+    const prevTotalMinutes = sumMinutes(prevSessions);
+    const trendDelta = totalMinutes - prevTotalMinutes;
 
     return NextResponse.json({
       sessions,
@@ -39,6 +60,10 @@ export async function GET(request: Request) {
         totalSessions: sessions.length,
         totalMinutes,
         totalHours: +(totalMinutes / 60).toFixed(1),
+        prevTotalMinutes,
+        prevTotalHours: +(prevTotalMinutes / 60).toFixed(1),
+        trendDelta,
+        trendDeltaHours: +(trendDelta / 60).toFixed(1),
         avgMinutesPerSession:
           sessions.length > 0 ? +(totalMinutes / sessions.length).toFixed(0) : 0,
       },
@@ -62,6 +87,11 @@ export async function POST(request: Request) {
       throw new BadRequestError("duration must be an integer between 1 and 1440 minutes");
     }
     const notes = optionalString(body.notes, "notes", 5000);
+    const trackId = optionalString(body.trackId, "trackId", 64);
+    const courseId = optionalString(body.courseId, "courseId", 64);
+    const sessionType = optionalString(body.sessionType, "sessionType", 50);
+    const focusScore = optionalInt(body.focusScore, "focusScore");
+    const energyScore = optionalInt(body.energyScore, "energyScore");
 
     let date = new Date();
     if (body.date !== undefined && body.date !== null && body.date !== "") {
@@ -72,12 +102,39 @@ export async function POST(request: Request) {
       date = d;
     }
 
+    let startedAt: Date | null = null;
+    let endedAt: Date | null = null;
+    if (body.startedAt) {
+      startedAt = new Date(String(body.startedAt));
+    }
+    if (body.endedAt) {
+      endedAt = new Date(String(body.endedAt));
+    }
+
+    if (trackId) {
+      const owns = await prisma.track.findFirst({
+        where: { id: trackId, userId: user!.id },
+        select: { id: true },
+      });
+      if (!owns) {
+        return NextResponse.json({ error: "Track not found" }, { status: 404 });
+      }
+    }
+
     const session = await prisma.studySession.create({
       data: {
         duration: body.duration,
+        durationMinutes: body.duration,
         notes: notes ?? null,
         date,
+        startedAt,
+        endedAt,
         userId: user!.id,
+        trackId: trackId ?? null,
+        courseId: courseId ?? null,
+        sessionType: sessionType ?? null,
+        focusScore: focusScore ?? null,
+        energyScore: energyScore ?? null,
       },
     });
     return NextResponse.json(session, { status: 201 });
