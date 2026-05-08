@@ -4,7 +4,7 @@ const prisma = new PrismaClient();
 
 /**
  * Full seed script — populates tracks, courses, and resources
- * matching the 5amClub workspace resource guide.
+ * matching the HeartWire OS workspace resource guide.
  *
  * Run with: SEED_USER_ID=<uuid> npm run db:seed
  *

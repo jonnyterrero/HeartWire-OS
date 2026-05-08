@@ -4,7 +4,7 @@ import Sidebar from "@/components/layout/Sidebar";
 import "./globals.css";
 
 export const metadata = {
-  title: "5amClub Platform",
+  title: "HeartWire OS",
   description: "Engineering study tracker and knowledge OS",
 };
 

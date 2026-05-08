@@ -1,4 +1,4 @@
-# 5amClub Platform
+# HeartWire OS
 
 Personal study + project tracker. Tracks → Courses → Resources, Kanban tasks, notes, study sessions, habits.
 
