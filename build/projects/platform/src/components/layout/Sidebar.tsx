@@ -5,36 +5,40 @@ import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import {
   LayoutDashboard,
   Calendar,
+  CalendarDays,
   BookOpen,
   Library,
+  Github,
   FileText,
-  Hammer,
+  Globe,
+  Youtube,
   Target,
   Moon,
   Sun,
   LogOut,
   ChevronRight,
-  RefreshCw,
+  Clock,
+  GraduationCap,
+  ClipboardCheck,
+  PenLine,
+  Settings as SettingsIcon,
 } from "lucide-react";
 import clsx from "clsx";
 import { useState, useEffect } from "react";
 import { createSupabaseBrowserClient } from "@/lib/supabase-browser";
 import { TRACK_GROUPS, type TrackGroup } from "@/lib/track-groups";
 
-// ─── Types ─────────────────────────────────────────────────
 type DbTrack = {
   id: string;
   title: string;
   color: string;
   _count: { courses: number };
 };
-
 type ResolvedGroup = TrackGroup & {
   dbTracks: DbTrack[];
   totalCourses: number;
 };
 
-// ─── Component ─────────────────────────────────────────────
 export default function Sidebar() {
   const pathname = usePathname();
   const searchParams = useSearchParams();
@@ -47,7 +51,6 @@ export default function Sidebar() {
     typeof navigator !== "undefined" ? !navigator.onLine : false
   );
 
-  // Fetch tracks and resolve into groups
   useEffect(() => {
     const onOffline = () => setIsOffline(true);
     const onOnline = () => setIsOffline(false);
@@ -103,46 +106,53 @@ export default function Sidebar() {
     router.refresh();
   };
 
-  // ─── Workspace Links ────────────────────────────
-  const workspaceItems = [
-    { name: "Dashboard", href: "/", icon: LayoutDashboard },
-    { name: "Planner", href: "/planner", icon: Calendar },
+  const trackingItems = [
+    { name: "Study Hours", href: "/tracking/study-hours", icon: Clock },
+    { name: "Self-Study Courses", href: "/tracking/courses", icon: GraduationCap },
+    { name: "FE/PE Practice", href: "/tracking/fe-pe", icon: ClipboardCheck },
+    { name: "Habits", href: "/tracking/habits", icon: Target },
+    { name: "Journal", href: "/tracking/journal", icon: PenLine },
+  ];
+  const libraryItems = [
+    { name: "GitHub Repos", href: "/library/github", icon: Github },
+    { name: "PDFs", href: "/library/pdfs", icon: FileText },
+    { name: "Websites", href: "/library/websites", icon: Globe },
+    { name: "YouTube", href: "/library/youtube", icon: Youtube },
   ];
 
-  // ─── Databases (matches 5amClub OS v6 layout) ───
-  const dbItems = [
-    { name: "Projects", href: "/projects", icon: Hammer },
-    { name: "Courses", href: "/courses", icon: BookOpen },
-    { name: "Resources", href: "/resources", icon: Library },
-    { name: "Notes", href: "/notes", icon: FileText },
-    { name: "Habits", href: "/habits", icon: Target },
-  ];
+  const isCalendarActive =
+    pathname === "/calendar" || pathname === "/planner";
 
   return (
     <aside className="fixed inset-y-0 left-0 w-64 bg-[#F7F7F5] dark:bg-[#202020] border-r border-gray-200 dark:border-gray-800 flex flex-col z-40 transition-colors duration-300 hidden md:flex">
-      {/* ── Header ─────────────────────────────────── */}
       <div className="p-4 flex justify-between items-center border-b border-gray-200 dark:border-gray-800/50">
         <div className="flex items-center gap-2">
           <div className="w-6 h-6 bg-black dark:bg-white text-white dark:text-black rounded flex items-center justify-center font-bold text-xs">
-            5
+            H
           </div>
           <span className="font-bold text-sm text-gray-900 dark:text-gray-100">
-            5amClub
+            HeartWire OS
           </span>
         </div>
         <button
           onClick={toggleDarkMode}
           className="text-gray-500 hover:text-black dark:hover:text-white transition-colors"
+          aria-label="Toggle theme"
         >
           {isDark ? <Sun className="w-4 h-4" /> : <Moon className="w-4 h-4" />}
         </button>
       </div>
 
-      {/* ── Scrollable Nav ─────────────────────────── */}
       <nav className="flex-1 overflow-y-auto px-2 py-3 space-y-1">
-        {/* Workspace */}
-        <SectionLabel>Workspace</SectionLabel>
-        {workspaceItems.map((item) => (
+        <NavLink
+          href="/"
+          icon={LayoutDashboard}
+          label="Dashboard"
+          isActive={pathname === "/"}
+        />
+
+        <SectionLabel className="mt-5">Tracking</SectionLabel>
+        {trackingItems.map((item) => (
           <NavLink
             key={item.name}
             href={item.href}
@@ -152,34 +162,20 @@ export default function Sidebar() {
           />
         ))}
 
-        {/* Databases (matches 5amClub OS order) */}
-        <SectionLabel className="mt-6">Databases</SectionLabel>
-        {dbItems.map((item) => (
-          <NavLink
-            key={item.name}
-            href={item.href}
-            icon={item.icon}
-            label={item.name}
-            isActive={pathname === item.href}
-          />
-        ))}
-
-        {/* Track Groups */}
-        <SectionLabel className="mt-6">Tracks</SectionLabel>
-
+        <SectionLabel className="mt-5">Study Tracks</SectionLabel>
         {!loaded ? (
-          <p className="px-2 py-2 text-xs text-gray-500">Loading...</p>
+          <p className="px-2 py-2 text-xs text-gray-500">Loading…</p>
+        ) : groups.length === 0 ? (
+          <p className="px-2 py-2 text-xs text-gray-500">No tracks yet</p>
         ) : (
           groups.map((group) => {
             const isOpen = expanded.has(group.id);
             const Icon = group.icon;
-
             return (
               <div key={group.id}>
-                {/* Group Header */}
                 <button
                   onClick={() => toggleGroup(group.id)}
-                  className="w-full flex items-center gap-2 px-2 py-1.5 rounded text-sm transition-colors text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 group"
+                  className="w-full flex items-center gap-2 px-2 py-1.5 rounded text-sm transition-colors text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800"
                 >
                   <ChevronRight
                     className={clsx(
@@ -187,7 +183,7 @@ export default function Sidebar() {
                       isOpen && "rotate-90"
                     )}
                   />
-                  <Icon className={clsx("w-4 h-4", group.color)} />
+                  <Icon className="w-4 h-4 text-gray-500 dark:text-gray-400" />
                   <span className="flex-1 text-left font-medium truncate">
                     {group.name}
                   </span>
@@ -195,8 +191,6 @@ export default function Sidebar() {
                     {group.totalCourses}
                   </span>
                 </button>
-
-                {/* Expanded: DB Tracks within group */}
                 {isOpen && (
                   <div className="ml-5 mt-0.5 mb-1 space-y-0.5 border-l border-gray-200 dark:border-gray-700/50 pl-2">
                     {group.dbTracks.length === 0 ? (
@@ -207,7 +201,8 @@ export default function Sidebar() {
                       group.dbTracks.map((dbTrack) => {
                         const urlTrackId = searchParams.get("trackId");
                         const isActive =
-                          pathname === "/courses" && urlTrackId === dbTrack.id;
+                          pathname === "/courses" &&
+                          urlTrackId === dbTrack.id;
                         return (
                           <Link
                             key={dbTrack.id}
@@ -233,48 +228,69 @@ export default function Sidebar() {
             );
           })
         )}
+
+        <SectionLabel className="mt-5">Library</SectionLabel>
+        {libraryItems.map((item) => (
+          <NavLink
+            key={item.name}
+            href={item.href}
+            icon={item.icon}
+            label={item.name}
+            isActive={pathname === item.href}
+          />
+        ))}
+        <NavLink
+          href="/resources"
+          icon={Library}
+          label="All Resources"
+          isActive={pathname === "/resources"}
+        />
+
+        <SectionLabel className="mt-5">More</SectionLabel>
+        <NavLink
+          href="/calendar"
+          icon={Calendar}
+          label="Calendar"
+          isActive={isCalendarActive}
+        />
+        <NavLink
+          href="/planner"
+          icon={CalendarDays}
+          label="Planner"
+          isActive={pathname === "/planner"}
+        />
+        <NavLink
+          href="/notes"
+          icon={BookOpen}
+          label="Notes"
+          isActive={pathname === "/notes"}
+        />
+        <NavLink
+          href="/settings"
+          icon={SettingsIcon}
+          label="Settings"
+          isActive={pathname === "/settings"}
+        />
       </nav>
 
-      {/* ── Footer (matches 5amClub OS v6) ─────────────────── */}
       <div className="p-4 border-t border-gray-200 dark:border-gray-800 space-y-3">
         {isOffline && (
-          <div className="bg-yellow-600 dark:bg-yellow-500 text-white p-2 rounded text-xs text-center">
-            ⚠️ You&apos;re offline. Changes are saved locally.
+          <div className="bg-amber-100 dark:bg-amber-900/30 text-amber-800 dark:text-amber-200 p-2 rounded text-xs text-center">
+            Offline — changes saved locally.
           </div>
         )}
-        {/* Check for Updates / Restore DB - like old app */}
-        <div className="flex flex-col gap-1">
-          <button
-            onClick={() => window.location.reload()}
-            className="w-full text-xs text-blue-500 hover:text-blue-700 flex items-center justify-center gap-2 py-1 hover:bg-blue-50 dark:hover:bg-blue-900/20 rounded"
-          >
-            <RefreshCw className="w-3 h-3" />
-            Check for Updates
-          </button>
-          <button
-            onClick={() => window.location.reload()}
-            className="w-full text-xs text-red-500 hover:text-red-700 flex items-center justify-center gap-2 py-1 hover:bg-red-50 dark:hover:bg-red-900/20 rounded"
-          >
-            <RefreshCw className="w-3 h-3" />
-            Restore DB
-          </button>
-        </div>
-        <div className="flex items-center justify-between pt-2 border-t border-gray-200 dark:border-gray-800">
-          <div className="flex items-center gap-2">
-            <div className="w-8 h-8 rounded-full bg-gradient-to-tr from-blue-500 to-purple-500" />
-            <div className="text-xs">
-              <p className="font-medium text-gray-900 dark:text-gray-100">
-                Jonny Terrero
-              </p>
-              <p className="text-gray-500 dark:text-gray-400">
-                Engineering Student
-              </p>
-            </div>
+        <div className="flex items-center justify-between">
+          <div className="text-xs">
+            <p className="font-medium text-gray-900 dark:text-gray-100">
+              Signed in
+            </p>
+            <p className="text-gray-500 dark:text-gray-400">HeartWire OS</p>
           </div>
           <button
             onClick={handleLogout}
             className="text-gray-400 hover:text-red-500 transition-colors"
             title="Sign out"
+            aria-label="Sign out"
           >
             <LogOut className="w-4 h-4" />
           </button>
@@ -283,8 +299,6 @@ export default function Sidebar() {
     </aside>
   );
 }
-
-// ─── Reusable Sub-Components ───────────────────────────────
 
 function SectionLabel({
   children,

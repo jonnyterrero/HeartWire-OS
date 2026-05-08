@@ -38,5 +38,36 @@ Branch: `feat/heartwire-upgrade`
 - **Action needed from user**: rotate keys in Supabase dashboard, then put the new `DATABASE_URL` and `DIRECT_URL` in `.env` (URL-encode any special chars). Then run `npx prisma migrate dev --name heartwire_upgrade_v1`.
 
 ### Pending
-- Phase C: sidebar rewrite, new tracking/library/calendar/settings pages, dashboard widgets.
-- Phase D: lint, build, final commit.
+- Phase D: live-DB testing once migration runs.
+
+## 2026-05-07 — Phase C (frontend) + Phase D (verify)
+
+### Done
+- Sidebar rewritten (`src/components/layout/Sidebar.tsx`) with new IA: Dashboard / Tracking / Study Tracks / Library / More (Calendar, Planner, Notes, Settings). Existing 5-group `track-groups.ts` preserved. UI rules followed: muted uppercase section labels, subtle active state, no gradient buttons, no colored circles.
+- New pages:
+  - `/tracking/study-hours` — log + week stats + trend vs prior week.
+  - `/tracking/courses` — redirects to `/courses`.
+  - `/tracking/fe-pe` — log + accuracy stats + history.
+  - `/tracking/habits` — redirects to `/habits`.
+  - `/tracking/journal` — list of `noteType=JOURNAL` notes + create form.
+  - `/library/[type]` — dynamic route handling github/pdfs/websites/youtube. Filters resources by `resourceType` slug map. Star toggle wired to `PUT /api/resources/:id`.
+  - `/calendar` — month grid + day detail + 14-day upcoming. Aggregates via `/api/calendar`. Inline create-event form posts to `/api/calendar-events`.
+  - `/settings` — account info, sign out, Seed Default Tracks button calling `/api/seed-defaults`.
+- Dashboard rewrite (`src/app/page.tsx`): 4 stat cards (Study 7d w/ trend, Tasks open w/ due-today, Habits week %, FE/PE accuracy) + 3 sections (Recent resources, Last journal, Upcoming events). Quick-action row at bottom. No gradient cards, no placeholder data.
+- All quality gates pass:
+  - `npx tsc --noEmit` — 0 errors.
+  - `npx next lint --max-warnings 0` — clean.
+  - `npx next build` — succeeds, all 41 routes compile (15 new).
+
+### Still blocked
+- `npx prisma migrate dev --name heartwire_upgrade_v1` against live Supabase — auth still failing. The schema is committed but the DB has not been migrated yet. Once the user provides a working `DATABASE_URL` (rotate keys + re-paste in `.env`), running `npx prisma migrate dev` will apply the migration in one transaction.
+
+### How to test (after migration applies)
+1. `npm run dev`
+2. Sign in at `/login`
+3. `/settings` → Seed default tracks → 6 new tracks created
+4. `/tracking/study-hours` → log a session → appears in list, stats update
+5. `/tracking/fe-pe` → log a practice → accuracy stat updates
+6. `/tracking/journal` → write entry → shows on `/` dashboard "Last journal" widget
+7. `/calendar` → click a date → day panel shows tasks/events for that day; create an event via the form
+8. `/library/pdfs` → add a PDF resource via `/resources` (set `resourceType=PDF`) → appears in `/library/pdfs`
