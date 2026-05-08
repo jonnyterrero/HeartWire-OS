@@ -21,6 +21,9 @@ import {
   GraduationCap,
   ClipboardCheck,
   PenLine,
+  Code2,
+  Dna,
+  BookMarked,
   Settings as SettingsIcon,
 } from "lucide-react";
 import clsx from "clsx";
@@ -110,6 +113,9 @@ export default function Sidebar() {
     { name: "Study Hours", href: "/tracking/study-hours", icon: Clock },
     { name: "Self-Study Courses", href: "/tracking/courses", icon: GraduationCap },
     { name: "FE/PE Practice", href: "/tracking/fe-pe", icon: ClipboardCheck },
+    { name: "LeetCode", href: "/tracking/leetcode", icon: Code2 },
+    { name: "Rosalind", href: "/tracking/rosalind", icon: Dna },
+    { name: "Textbooks", href: "/tracking/textbooks", icon: BookMarked },
     { name: "Habits", href: "/tracking/habits", icon: Target },
     { name: "Journal", href: "/tracking/journal", icon: PenLine },
   ];
