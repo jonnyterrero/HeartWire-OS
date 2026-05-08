@@ -9,6 +9,7 @@ async function ownsResource(userId: string, resourceId: string) {
   const r = await prisma.resource.findFirst({
     where: {
       id: resourceId,
+      deletedAt: null,
       OR: [{ userId }, { course: { track: { userId } } }],
     },
     select: { id: true },
