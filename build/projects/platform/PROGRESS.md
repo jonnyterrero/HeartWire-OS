@@ -59,8 +59,30 @@ Branch: `feat/heartwire-upgrade`
   - `npx next lint --max-warnings 0` — clean.
   - `npx next build` — succeeds, all 41 routes compile (15 new).
 
-### Still blocked
-- `npx prisma migrate dev --name heartwire_upgrade_v1` against live Supabase — auth still failing. The schema is committed but the DB has not been migrated yet. Once the user provides a working `DATABASE_URL` (rotate keys + re-paste in `.env`), running `npx prisma migrate dev` will apply the migration in one transaction.
+### Still blocked — diagnosis
+- Direct connection (`db.opappznvhjtalcelcrta.supabase.co:5432`) → DNS resolves, TCP accepts, but `P1000: Authentication failed`.
+- Pooler (`aws-0-<region>.pooler.supabase.com`) tried in 9 regions → all return "Tenant or user not found" or unreachable.
+- Both error patterns together strongly suggest **the Supabase project is paused** (free-tier projects auto-pause after 7 days of inactivity). When paused, the direct host stays up but auth is rejected, and the pooler reports the tenant as missing.
+
+### What you need to do to unblock the migration
+1. Open the Supabase dashboard: https://supabase.com/dashboard/project/opappznvhjtalcelcrta
+2. If the project is paused, click "Restore project" and wait ~1 min.
+3. (Recommended) Rotate keys & DB password since they were pasted in chat: Project Settings → Database → Reset password; Project Settings → API → reset anon + service-role keys.
+4. Update `build/projects/platform/.env` and `.env.local` with the new password (URL-encode special chars — `?` → `%3F`, `!` → `%21`) and the new keys.
+5. Run:
+   ```
+   cd build/projects/platform
+   npx prisma migrate dev --name heartwire_upgrade_v1
+   npx prisma generate
+   ```
+6. Then `npm run dev` and walk through the test flow above.
+
+### Final state of the branch (`feat/heartwire-upgrade`)
+- Commit `af39e0c` — schema + API routes (Phase A code + Phase B).
+- Commit `c5e2046` — frontend (Phase C + verified Phase D).
+- `.env` and `.env.local` written locally, gitignored, never committed.
+- `tsc --noEmit` clean. `next lint` clean. `next build` succeeds (41 routes, 15 new).
+- Only the live DB migration is pending.
 
 ### How to test (after migration applies)
 1. `npm run dev`
