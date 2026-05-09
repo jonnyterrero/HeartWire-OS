@@ -35,7 +35,12 @@ export default function SettingsPage() {
         window.dispatchEvent(new Event("heartwire:tracks-changed"));
       }
     } else {
-      setSeedResult("Failed to seed.");
+      let detail = "";
+      try {
+        const data = await res.json();
+        detail = data?.error ? ` (${data.error})` : "";
+      } catch {}
+      setSeedResult(`Failed to seed: HTTP ${res.status}${detail}`);
     }
   }
 
