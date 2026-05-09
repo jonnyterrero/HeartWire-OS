@@ -10,6 +10,10 @@ import {
   RESOURCE_TYPES,
   requireString,
 } from "@/lib/api";
+import {
+  bucketToResourceTypeEnum,
+  classifyResourceType,
+} from "@/lib/classify-resource";
 
 const RESOURCE_ENUM = [
   "GITHUB_REPO",
@@ -118,11 +122,17 @@ export async function POST(request: Request) {
       }
     }
 
+    // Auto-classify when caller didn't supply one. Keeps Library sub-pages
+    // populated even for free-form user adds.
+    const finalResourceType =
+      resourceType ??
+      bucketToResourceTypeEnum(classifyResourceType(url, title));
+
     const resource = await prisma.resource.create({
       data: {
         title,
         type,
-        resourceType: resourceType ?? null,
+        resourceType: finalResourceType,
         url: url ?? null,
         description: description ?? null,
         filePath: filePath ?? null,

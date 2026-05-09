@@ -2,52 +2,61 @@ import { NextResponse } from "next/server";
 import prisma from "@/lib/prisma";
 import { getAuthenticatedUser } from "@/lib/auth";
 import { apiError } from "@/lib/api";
-
-// One default track per sidebar group, plus the most useful sub-tracks so the
-// existing TRACK_GROUPS map has something to render in each group.
-const DEFAULT_TRACKS = [
-  { title: "Software Engineering", color: "cyan" },
-  { title: "Computer Science", color: "cyan" },
-  { title: "Electrical Engineering", color: "yellow" },
-  { title: "Mathematics", color: "purple" },
-  { title: "Physics & General", color: "teal" },
-  { title: "Chemistry", color: "teal" },
-  { title: "Biomedical Engineering", color: "blue" },
-  { title: "Mechanical Engineering", color: "blue" },
-] as const;
+import { DEFAULT_TRACKS } from "@/lib/default-tracks";
 
 /**
- * Seeds the default HeartWire tracks for the current user, but only ones that
- * don't already exist (matched by title). Idempotent.
+ * Seeds the default HeartWire tracks AND their starter courses for the
+ * current user. Idempotent: matches by title for both tracks and courses,
+ * skipping anything that already exists.
  */
 export async function POST() {
   const { user, error } = await getAuthenticatedUser();
   if (error) return error;
   try {
-    const existing = await prisma.track.findMany({
+    const existingTracks = await prisma.track.findMany({
       where: { userId: user!.id },
-      select: { title: true },
+      select: { id: true, title: true },
     });
-    const existingTitles = new Set(existing.map((t) => t.title));
-    const toCreate = DEFAULT_TRACKS.filter(
-      (t) => !existingTitles.has(t.title)
-    );
+    const trackByTitle = new Map(existingTracks.map((t) => [t.title, t.id]));
 
-    if (toCreate.length === 0) {
-      return NextResponse.json({ created: 0, skipped: DEFAULT_TRACKS.length });
+    let tracksCreated = 0;
+    for (const t of DEFAULT_TRACKS) {
+      if (!trackByTitle.has(t.title)) {
+        const created = await prisma.track.create({
+          data: { title: t.title, color: t.color, userId: user!.id },
+          select: { id: true, title: true },
+        });
+        trackByTitle.set(created.title, created.id);
+        tracksCreated += 1;
+      }
     }
 
-    await prisma.track.createMany({
-      data: toCreate.map((t) => ({
-        userId: user!.id,
-        title: t.title,
-        color: t.color,
-      })),
-    });
+    // Seed courses per track. Match by (trackId, title) so re-running is safe.
+    let coursesCreated = 0;
+    for (const t of DEFAULT_TRACKS) {
+      const trackId = trackByTitle.get(t.title);
+      if (!trackId || t.courses.length === 0) continue;
+      const existing = await prisma.course.findMany({
+        where: { trackId },
+        select: { title: true },
+      });
+      const have = new Set(existing.map((c) => c.title));
+      const toCreate = t.courses.filter((c) => !have.has(c));
+      if (toCreate.length === 0) continue;
+      await prisma.course.createMany({
+        data: toCreate.map((title) => ({
+          title,
+          trackId,
+          status: "NOT_STARTED",
+        })),
+      });
+      coursesCreated += toCreate.length;
+    }
 
     return NextResponse.json({
-      created: toCreate.length,
-      skipped: DEFAULT_TRACKS.length - toCreate.length,
+      tracksCreated,
+      coursesCreated,
+      totalTracks: DEFAULT_TRACKS.length,
     });
   } catch (err) {
     return apiError(err, "seedDefaults");

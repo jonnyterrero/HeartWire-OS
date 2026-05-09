@@ -25,10 +25,31 @@ export default function SettingsPage() {
     if (res.ok) {
       const data = await res.json();
       setSeedResult(
-        `Created ${data.created} track${data.created === 1 ? "" : "s"} (skipped ${data.skipped} existing).`
+        `Created ${data.tracksCreated ?? 0} track${
+          (data.tracksCreated ?? 0) === 1 ? "" : "s"
+        } and ${data.coursesCreated ?? 0} course${
+          (data.coursesCreated ?? 0) === 1 ? "" : "s"
+        }.`
       );
+      if (typeof window !== "undefined") {
+        window.dispatchEvent(new Event("heartwire:tracks-changed"));
+      }
     } else {
       setSeedResult("Failed to seed.");
+    }
+  }
+
+  async function addTrack() {
+    const title = window.prompt("New track title");
+    if (!title || !title.trim()) return;
+    const res = await fetch("/api/tracks", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ title: title.trim() }),
+    });
+    if (res.ok && typeof window !== "undefined") {
+      window.dispatchEvent(new Event("heartwire:tracks-changed"));
+      setSeedResult(`Added track "${title.trim()}".`);
     }
   }
 
@@ -78,6 +99,12 @@ export default function SettingsPage() {
           className="px-3 py-1.5 bg-primary text-white text-sm rounded hover:opacity-90 disabled:opacity-50"
         >
           {seeding ? "Seeding…" : "Seed default tracks"}
+        </button>
+        <button
+          onClick={addTrack}
+          className="ml-2 px-3 py-1.5 text-sm rounded border border-gray-200 dark:border-gray-700 text-gray-700 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800"
+        >
+          Add custom track
         </button>
         {seedResult && (
           <p className="text-xs text-gray-500">{seedResult}</p>

@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { usePathname, useRouter, useSearchParams } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import {
   LayoutDashboard,
   Calendar,
@@ -44,7 +44,6 @@ type ResolvedGroup = TrackGroup & {
 
 export default function Sidebar() {
   const pathname = usePathname();
-  const searchParams = useSearchParams();
   const router = useRouter();
   const [isDark, setIsDark] = useState(true);
   const [groups, setGroups] = useState<ResolvedGroup[]>([]);
@@ -109,8 +108,14 @@ export default function Sidebar() {
       }
     }
     loadTracks();
+    const refetch = () => {
+      cancelled = false;
+      loadTracks();
+    };
+    window.addEventListener("heartwire:tracks-changed", refetch);
     return () => {
       cancelled = true;
+      window.removeEventListener("heartwire:tracks-changed", refetch);
     };
   }, []);
 
@@ -209,14 +214,11 @@ export default function Sidebar() {
                   ) : (
                     <div className="space-y-0.5">
                       {group.dbTracks.map((dbTrack) => {
-                        const urlTrackId = searchParams.get("trackId");
-                        const isActive =
-                          pathname === "/courses" &&
-                          urlTrackId === dbTrack.id;
+                        const isActive = pathname === `/tracks/${dbTrack.id}`;
                         return (
                           <Link
                             key={dbTrack.id}
-                            href={`/courses?trackId=${dbTrack.id}`}
+                            href={`/tracks/${dbTrack.id}`}
                             className={clsx(
                               "flex items-center justify-between px-3 py-1 rounded text-[13px] transition-colors",
                               isActive

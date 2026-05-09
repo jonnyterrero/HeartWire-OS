@@ -1,14 +1,19 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { useParams } from "next/navigation";
 import { ExternalLink, Star } from "lucide-react";
+import { CURATED_RESOURCES } from "@/lib/curated";
+import {
+  classifyResourceType,
+  type LibraryBucket,
+} from "@/lib/classify-resource";
 
-const SLUG_TO_TYPES: Record<string, string[]> = {
-  github: ["GITHUB_REPO"],
-  pdfs: ["PDF"],
-  websites: ["WEBSITE"],
-  youtube: ["YOUTUBE_VIDEO", "YOUTUBE_PLAYLIST"],
+const SLUG_TO_BUCKET: Record<string, LibraryBucket> = {
+  github: "github",
+  pdfs: "pdf",
+  websites: "website",
+  youtube: "youtube",
 };
 const SLUG_TO_TITLE: Record<string, string> = {
   github: "GitHub Repos",
@@ -17,7 +22,7 @@ const SLUG_TO_TITLE: Record<string, string> = {
   youtube: "YouTube",
 };
 
-type Resource = {
+type UserResource = {
   id: string;
   title: string;
   type: string;
@@ -28,30 +33,87 @@ type Resource = {
   createdAt: string;
 };
 
+type Row = {
+  key: string;
+  title: string;
+  url: string | null;
+  description: string | null;
+  source: string;
+  isCurated: boolean;
+  // Only populated for user-added resources.
+  userId?: string;
+  isFavorite?: boolean;
+};
+
 export default function LibraryTypePage() {
   const params = useParams<{ type: string }>();
   const slug = params?.type ?? "";
-  const types = SLUG_TO_TYPES[slug] ?? [];
+  const bucket = SLUG_TO_BUCKET[slug];
   const title = SLUG_TO_TITLE[slug] ?? "Library";
-  const [items, setItems] = useState<Resource[]>([]);
+  const [userResources, setUserResources] = useState<UserResource[]>([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    if (types.length === 0) {
+    if (!bucket) {
       setLoading(false);
       return;
     }
-    fetch(`/api/resources?resourceType=${types.join(",")}`)
+    fetch(`/api/resources`)
       .then((r) => (r.ok ? r.json() : []))
-      .then((data: Resource[]) => {
-        setItems(data);
+      .then((data: UserResource[]) => {
+        setUserResources(Array.isArray(data) ? data : []);
         setLoading(false);
       })
       .catch(() => setLoading(false));
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [slug]);
+  }, [bucket]);
 
-  if (types.length === 0) {
+  const rows = useMemo<Row[]>(() => {
+    if (!bucket) return [];
+
+    const curated: Row[] = CURATED_RESOURCES.filter(
+      (r) => classifyResourceType(r.url, r.type) === bucket
+    ).map((r) => ({
+      key: `c-${r.id}`,
+      title: r.title,
+      url: r.url,
+      description: r.description,
+      source: r.source,
+      isCurated: true,
+    }));
+
+    const user: Row[] = userResources
+      .filter((r) => {
+        // Trust persisted resourceType if it lines up with this bucket; else
+        // fall back to URL classification.
+        const persisted = (r.resourceType ?? "").toUpperCase();
+        const persistedBucket =
+          persisted === "GITHUB_REPO"
+            ? "github"
+            : persisted === "PDF"
+            ? "pdf"
+            : persisted === "WEBSITE"
+            ? "website"
+            : persisted === "YOUTUBE_VIDEO" || persisted === "YOUTUBE_PLAYLIST"
+            ? "youtube"
+            : null;
+        const computed = classifyResourceType(r.url, r.type);
+        return (persistedBucket ?? computed) === bucket;
+      })
+      .map((r) => ({
+        key: `u-${r.id}`,
+        title: r.title,
+        url: r.url,
+        description: r.description,
+        source: r.type || "User",
+        isCurated: false,
+        userId: r.id,
+        isFavorite: r.isFavorite,
+      }));
+
+    return [...user, ...curated];
+  }, [bucket, userResources]);
+
+  if (!bucket) {
     return (
       <div className="max-w-3xl">
         <h1 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">
@@ -63,7 +125,7 @@ export default function LibraryTypePage() {
   }
 
   async function toggleFavorite(id: string, current: boolean) {
-    setItems((arr) =>
+    setUserResources((arr) =>
       arr.map((i) => (i.id === id ? { ...i, isFavorite: !current } : i))
     );
     await fetch(`/api/resources/${id}`, {
@@ -80,41 +142,54 @@ export default function LibraryTypePage() {
           {title}
         </h1>
         <p className="text-sm text-gray-500 dark:text-gray-400">
-          {items.length} resource{items.length === 1 ? "" : "s"}
+          {rows.length} resource{rows.length === 1 ? "" : "s"}
         </p>
       </header>
 
       {loading ? (
         <p className="text-sm text-gray-500">Loading…</p>
-      ) : items.length === 0 ? (
+      ) : rows.length === 0 ? (
         <p className="text-sm text-gray-500">
           No resources yet. Add one from the Resources page.
         </p>
       ) : (
         <ul className="divide-y divide-gray-200 dark:divide-gray-800 border border-gray-200 dark:border-gray-800 rounded-md">
-          {items.map((r) => (
+          {rows.map((r) => (
             <li
-              key={r.id}
+              key={r.key}
               className="px-3 py-2 flex items-center justify-between gap-3 text-sm"
             >
               <div className="min-w-0 flex-1">
                 <div className="flex items-center gap-2">
-                  <button
-                    onClick={() => toggleFavorite(r.id, r.isFavorite)}
-                    className={
-                      r.isFavorite
-                        ? "text-amber-500"
-                        : "text-gray-400 hover:text-amber-500"
-                    }
-                    aria-label="Toggle favorite"
-                  >
+                  {r.isCurated ? (
                     <Star
-                      className="w-3.5 h-3.5"
-                      fill={r.isFavorite ? "currentColor" : "none"}
+                      className="w-3.5 h-3.5 text-amber-500"
+                      fill="currentColor"
+                      aria-label="Curated"
                     />
-                  </button>
+                  ) : (
+                    <button
+                      onClick={() =>
+                        r.userId && toggleFavorite(r.userId, !!r.isFavorite)
+                      }
+                      className={
+                        r.isFavorite
+                          ? "text-amber-500"
+                          : "text-gray-400 hover:text-amber-500"
+                      }
+                      aria-label="Toggle favorite"
+                    >
+                      <Star
+                        className="w-3.5 h-3.5"
+                        fill={r.isFavorite ? "currentColor" : "none"}
+                      />
+                    </button>
+                  )}
                   <span className="font-medium text-gray-900 dark:text-white truncate">
                     {r.title}
+                  </span>
+                  <span className="text-[10px] text-gray-400 shrink-0 truncate">
+                    {r.source}
                   </span>
                 </div>
                 {r.description && (
