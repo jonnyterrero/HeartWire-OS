@@ -1,7 +1,6 @@
 import { NextResponse } from "next/server";
 import prisma from "@/lib/prisma";
 import { getAuthenticatedUser } from "@/lib/auth";
-import { apiError } from "@/lib/api";
 import { DEFAULT_TRACKS } from "@/lib/default-tracks";
 
 /**
@@ -59,6 +58,15 @@ export async function POST() {
       totalTracks: DEFAULT_TRACKS.length,
     });
   } catch (err) {
-    return apiError(err, "seedDefaults");
+    // Surface the real error to the client so the user can paste it back —
+    // the global apiError() masks messages in production. Safe here: this is
+    // an authenticated, user-scoped endpoint with no secrets in the message.
+    console.error("[seedDefaults]", err);
+    const message =
+      err instanceof Error ? `${err.name}: ${err.message}` : String(err);
+    return NextResponse.json(
+      { error: message, scope: "seedDefaults" },
+      { status: 500 }
+    );
   }
 }
