@@ -10,7 +10,8 @@ import {
 /**
  * Maps DB tracks into 5 navigable sidebar groups.
  * The `dbTrackTitles` array must exactly match the `title` field
- * in the tracks table — that's the join key.
+ * in the tracks table — that's the join key. Default seeded titles
+ * come from `DEFAULT_TRACKS` in `src/lib/default-tracks.ts`.
  */
 export type TrackGroup = {
   id: string;
@@ -27,6 +28,8 @@ export const TRACK_GROUPS: TrackGroup[] = [
     icon: Code2,
     color: "text-cyan-500",
     dbTrackTitles: [
+      "Software Engineering + Computer Science",
+      // Legacy titles preserved so existing accounts still bucket correctly.
       "Software Engineering",
       "Computer Science",
       "AI / Machine Learning",
@@ -54,6 +57,7 @@ export const TRACK_GROUPS: TrackGroup[] = [
     icon: Atom,
     color: "text-teal-500",
     dbTrackTitles: [
+      "Physics + Chemistry",
       "Physics & General",
       "Chemistry",
       "Engineering Mechanics",
@@ -65,6 +69,7 @@ export const TRACK_GROUPS: TrackGroup[] = [
     icon: HeartPulse,
     color: "text-blue-500",
     dbTrackTitles: [
+      "Biomedical + Mechanical Engineering",
       "Biomedical Engineering",
       "Mechanical Engineering",
       "Neuroscience / Neural Engineering",

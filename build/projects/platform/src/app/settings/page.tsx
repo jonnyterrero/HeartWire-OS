@@ -24,12 +24,19 @@ export default function SettingsPage() {
     setSeeding(false);
     if (res.ok) {
       const data = await res.json();
+      const failures: { stage: string; title: string; error: string }[] =
+        data.failures ?? [];
+      const base = `Created ${data.tracksCreated ?? 0} track${
+        (data.tracksCreated ?? 0) === 1 ? "" : "s"
+      } and ${data.coursesCreated ?? 0} course${
+        (data.coursesCreated ?? 0) === 1 ? "" : "s"
+      }.`;
       setSeedResult(
-        `Created ${data.tracksCreated ?? 0} track${
-          (data.tracksCreated ?? 0) === 1 ? "" : "s"
-        } and ${data.coursesCreated ?? 0} course${
-          (data.coursesCreated ?? 0) === 1 ? "" : "s"
-        }.`
+        failures.length === 0
+          ? base
+          : `${base} ${failures.length} failed: ${failures
+              .map((f) => `${f.title} (${f.error})`)
+              .join("; ")}`
       );
       if (typeof window !== "undefined") {
         window.dispatchEvent(new Event("heartwire:tracks-changed"));
