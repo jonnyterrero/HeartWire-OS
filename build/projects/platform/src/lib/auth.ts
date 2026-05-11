@@ -47,10 +47,34 @@ export async function getAuthenticatedUser() {
   } else {
     // Refresh metadata on every login but never overwrite the email with
     // one that's already taken by a different row.
-    user = await prisma.user.update({
-      where: { id: user.id },
-      data: { email, name, avatarUrl },
-    });
+    const desiredEmail = email;
+    const currentEmail = user.email;
+
+    if (desiredEmail !== currentEmail) {
+      const emailOwner = await prisma.user.findUnique({
+        where: { email: desiredEmail },
+        select: { id: true },
+      });
+
+      // If another row already owns this email, keep the existing email to
+      // avoid violating the unique constraint (and breaking login).
+      if (emailOwner && emailOwner.id !== user.id) {
+        user = await prisma.user.update({
+          where: { id: user.id },
+          data: { name, avatarUrl },
+        });
+      } else {
+        user = await prisma.user.update({
+          where: { id: user.id },
+          data: { email: desiredEmail, name, avatarUrl },
+        });
+      }
+    } else {
+      user = await prisma.user.update({
+        where: { id: user.id },
+        data: { name, avatarUrl },
+      });
+    }
   }
 
   return { user, error: null };
