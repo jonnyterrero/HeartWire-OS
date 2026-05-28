@@ -29,6 +29,16 @@ Agents should:
 - prefer lowercase kebab-case for new files and folders
 - never write into `archive/legacy-snapshots/` — that is a read-only quarantine for old structures
 
+## Git safety (OneDrive + GitHub)
+
+Run once per clone:
+
+```powershell
+pwsh -File scripts/git/setup-onedrive-guards.ps1
+```
+
+See [`scripts/git/README.md`](../scripts/git/README.md) for hooks, health checks, and OneDrive recovery steps.
+
 ## Philosophy
 
 Everything in HeartWire OS should be:

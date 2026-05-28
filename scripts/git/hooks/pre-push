@@ -1,0 +1,29 @@
+#!/bin/sh
+# Blocks force-push to protected branches (stdin-safe shell implementation).
+remote="$1"
+url="$2"
+
+if [ "$HEARTWIRE_GIT_GUARD_SKIP" = "1" ]; then
+  exit 0
+fi
+
+while read local_ref local_sha remote_ref remote_sha; do
+  case "$remote_ref" in
+    refs/heads/main|refs/heads/master)
+      if [ "$remote_sha" != "0000000000000000000000000000000000000000" ]; then
+        if ! git merge-base --is-ancestor "$remote_sha" "$local_sha" 2>/dev/null; then
+          echo ""
+          echo "HEARTWIRE GIT GUARD: Force-push to protected branch is blocked."
+          echo "  Remote: $remote ($url)"
+          echo "  Ref: $remote_ref"
+          echo "  Use a feature branch + pull request instead."
+          echo "  Bypass once with: HEARTWIRE_GIT_GUARD_SKIP=1"
+          echo ""
+          exit 1
+        fi
+      fi
+      ;;
+  esac
+done
+
+exit 0

@@ -206,6 +206,21 @@ tmp/
 
 # ------------------------------
 
+# OneDrive / cloud sync artifacts
+
+# ------------------------------
+
+# Office lock files and OneDrive conflict copies must never enter git.
+~$*
+*.sync-conflict-*
+* (Conflicted copy)*
+* (conflicted copy)*
+*.tmp.driveupload
+*.tmp.drivedownload
+.~lock.*
+
+# ------------------------------
+
 # HeartWire OS — restructure overrides
 
 # ------------------------------
