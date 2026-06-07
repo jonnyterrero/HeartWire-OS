@@ -235,7 +235,7 @@ export default function Dashboard() {
                     >
                       <div className="min-w-0">
                         <Link
-                          href={`/courses?highlight=${c.id}`}
+                          href={`/courses/${c.id}`}
                           className="text-gray-900 dark:text-white hover:text-primary truncate block"
                         >
                           {c.code && (
