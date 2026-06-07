@@ -10,6 +10,9 @@ import {
   Library,
   PenLine,
   Calendar as CalendarIcon,
+  BookOpen,
+  FolderKanban,
+  Settings2,
 } from "lucide-react";
 
 type SessionStats = {
@@ -40,9 +43,31 @@ type CalendarEvent = {
   startTime: string | null;
   eventType: string;
 };
+type FocusCourse = {
+  id: string;
+  title: string;
+  code: string | null;
+  status: string;
+  track: { title: string; color: string };
+  studyHours7d: number;
+  taskCount: number;
+};
+type FocusProject = {
+  id: string;
+  title: string;
+  status: string;
+  priority: string;
+  course?: {
+    title: string;
+    code: string | null;
+    track?: { title: string; color: string };
+  } | null;
+};
 
 export default function Dashboard() {
   const [sessionStats, setSessionStats] = useState<SessionStats | null>(null);
+  const [focusCourses, setFocusCourses] = useState<FocusCourse[]>([]);
+  const [focusProjects, setFocusProjects] = useState<FocusProject[]>([]);
   const [tasks, setTasks] = useState<Task[]>([]);
   const [habits, setHabits] = useState<Habit[]>([]);
   const [examStats, setExamStats] = useState<ExamStats | null>(null);
@@ -59,6 +84,7 @@ export default function Dashboard() {
 
       const [
         sessionsRes,
+        focusRes,
         tasksRes,
         habitsRes,
         examRes,
@@ -67,6 +93,7 @@ export default function Dashboard() {
         eventsRes,
       ] = await Promise.all([
         fetch("/api/sessions?days=7"),
+        fetch("/api/focus"),
         fetch("/api/tasks"),
         fetch("/api/habits"),
         fetch("/api/exam-practice"),
@@ -79,6 +106,11 @@ export default function Dashboard() {
 
       if (sessionsRes.ok)
         setSessionStats((await sessionsRes.json()).stats);
+      if (focusRes.ok) {
+        const focus = await focusRes.json();
+        setFocusCourses(focus.courses ?? []);
+        setFocusProjects(focus.projects ?? []);
+      }
       if (tasksRes.ok) setTasks(await tasksRes.json());
       if (habitsRes.ok) setHabits(await habitsRes.json());
       if (examRes.ok) setExamStats((await examRes.json()).stats);
@@ -98,6 +130,21 @@ export default function Dashboard() {
       setLoading(false);
     }
     load().catch(() => setLoading(false));
+
+    function onFocusChanged() {
+      fetch("/api/focus")
+        .then((r) => (r.ok ? r.json() : null))
+        .then((focus) => {
+          if (focus) {
+            setFocusCourses(focus.courses ?? []);
+            setFocusProjects(focus.projects ?? []);
+          }
+        })
+        .catch(() => {});
+    }
+    window.addEventListener("heartwire:focus-changed", onFocusChanged);
+    return () =>
+      window.removeEventListener("heartwire:focus-changed", onFocusChanged);
   }, []);
 
   const openTasks = tasks.filter((t) => t.status !== "DONE").length;
@@ -164,6 +211,103 @@ export default function Dashboard() {
               }
               icon={<ClipboardCheck className="w-4 h-4" />}
             />
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+            <Section
+              title="Focus courses"
+              icon={<BookOpen className="w-4 h-4" />}
+              link={{ href: "/settings", label: "Edit focus" }}
+            >
+              {focusCourses.length === 0 ? (
+                <Empty>
+                  No courses selected.{" "}
+                  <Link href="/settings" className="text-primary hover:underline">
+                    Pick your focus
+                  </Link>
+                </Empty>
+              ) : (
+                <ul className="space-y-2">
+                  {focusCourses.map((c) => (
+                    <li
+                      key={c.id}
+                      className="flex items-center justify-between gap-2 text-sm"
+                    >
+                      <div className="min-w-0">
+                        <Link
+                          href={`/courses?highlight=${c.id}`}
+                          className="text-gray-900 dark:text-white hover:text-primary truncate block"
+                        >
+                          {c.code && (
+                            <span className="text-gray-400 mr-1">{c.code}</span>
+                          )}
+                          {c.title}
+                        </Link>
+                        <span className="text-[11px] text-gray-500">
+                          {c.track.title} · {c.status.replace(/_/g, " ").toLowerCase()}
+                        </span>
+                      </div>
+                      <span className="text-xs tabular-nums text-primary shrink-0">
+                        {c.studyHours7d}h
+                      </span>
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </Section>
+
+            <Section
+              title="Focus projects"
+              icon={<FolderKanban className="w-4 h-4" />}
+              link={{ href: "/projects", label: "All projects" }}
+            >
+              {focusProjects.length === 0 ? (
+                <Empty>
+                  No projects selected.{" "}
+                  <Link href="/settings" className="text-primary hover:underline">
+                    Pick your focus
+                  </Link>
+                </Empty>
+              ) : (
+                <ul className="space-y-2">
+                  {focusProjects.map((p) => (
+                    <li
+                      key={p.id}
+                      className="flex items-center justify-between gap-2 text-sm"
+                    >
+                      <div className="min-w-0">
+                        <Link
+                          href="/projects"
+                          className="text-gray-900 dark:text-white hover:text-primary truncate block"
+                        >
+                          {p.title}
+                        </Link>
+                        {p.course && (
+                          <span className="text-[11px] text-gray-500">
+                            {p.course.code || p.course.title}
+                          </span>
+                        )}
+                      </div>
+                      <span
+                        className={`text-[10px] font-semibold px-1.5 py-0.5 rounded shrink-0 ${
+                          p.status === "IN_PROGRESS"
+                            ? "bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300"
+                            : p.status === "DONE"
+                            ? "bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-300"
+                            : "bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400"
+                        }`}
+                      >
+                        {p.status === "IN_PROGRESS"
+                          ? "Active"
+                          : p.status === "DONE"
+                          ? "Done"
+                          : "To do"}
+                      </span>
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </Section>
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
@@ -252,12 +396,19 @@ export default function Dashboard() {
             </Section>
           </div>
 
-          <div className="flex gap-2">
+          <div className="flex flex-wrap gap-2">
             <Link
               href="/tracking/study-hours"
               className="px-3 py-1.5 text-sm rounded border border-gray-200 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-800"
             >
               Log study session
+            </Link>
+            <Link
+              href="/tracking/study-hours?retro=1"
+              className="px-3 py-1.5 text-sm rounded border border-gray-200 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-800 inline-flex items-center gap-1.5"
+            >
+              <Settings2 className="w-3.5 h-3.5" />
+              Log past session
             </Link>
             <Link
               href="/tracking/fe-pe"

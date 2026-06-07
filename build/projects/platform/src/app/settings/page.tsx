@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import { createSupabaseBrowserClient } from "@/lib/supabase-browser";
+import FocusPicker from "@/components/focus/FocusPicker";
 
 export default function SettingsPage() {
   const [email, setEmail] = useState<string | null>(null);
@@ -94,6 +95,16 @@ export default function SettingsPage() {
         >
           Sign out
         </button>
+      </section>
+
+      <section className="border border-gray-200 dark:border-gray-800 rounded-md p-4 bg-white dark:bg-darkSurface space-y-3">
+        <h2 className="text-sm font-semibold text-gray-700 dark:text-gray-300">
+          Current focus
+        </h2>
+        <p className="text-xs text-gray-500">
+          Pick up to 5 courses and 3 projects to highlight on your dashboard.
+        </p>
+        <FocusPicker />
       </section>
 
       <section className="border border-gray-200 dark:border-gray-800 rounded-md p-4 bg-white dark:bg-darkSurface space-y-3">

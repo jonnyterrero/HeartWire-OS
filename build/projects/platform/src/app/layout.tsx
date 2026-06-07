@@ -1,11 +1,18 @@
 import { Suspense } from "react";
 import { createSupabaseServerClient } from "@/lib/supabase-server";
 import Sidebar from "@/components/layout/Sidebar";
+import PwaUpdater from "@/components/pwa/PwaUpdater";
 import "./globals.css";
 
 export const metadata = {
   title: "HeartWire OS",
   description: "Engineering study tracker and knowledge OS",
+  manifest: "/manifest.json",
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: "black-translucent",
+    title: "HeartWire",
+  },
 };
 
 export default async function RootLayout({
@@ -20,7 +27,12 @@ export default async function RootLayout({
 
   return (
     <html lang="en" className="dark">
+      <head>
+        <meta name="theme-color" content="#2eaadc" />
+        <link rel="apple-touch-icon" href="/icon.svg" />
+      </head>
       <body className="flex h-screen overflow-hidden bg-slate-50 dark:bg-darkBg text-slate-900 dark:text-slate-100">
+        <PwaUpdater />
         {user ? (
           <>
             <Suspense fallback={<aside className="w-64 hidden md:block" />}>

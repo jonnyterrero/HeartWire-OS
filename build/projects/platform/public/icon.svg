@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="HeartWire">
+  <rect width="512" height="512" rx="96" fill="#191919"/>
+  <path d="M256 392c-8-6-96-72-96-152 0-44 36-80 80-80 24 0 46 11 60 28 14-17 36-28 60-28 44 0 80 36 80 80 0 80-88 146-96 152-4 3-10 3-14 0z" fill="#2eaadc"/>
+  <path d="M180 120h152v24c0 22-18 40-40 40h-72c-22 0-40-18-40-40v-24z" fill="#2eaadc" opacity="0.85"/>
+</svg>

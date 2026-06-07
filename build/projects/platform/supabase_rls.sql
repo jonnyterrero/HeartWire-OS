@@ -20,6 +20,8 @@ alter table resources           enable row level security;
 alter table tasks               enable row level security;
 alter table notes               enable row level security;
 alter table study_sessions      enable row level security;
+alter table user_focus_courses  enable row level security;
+alter table user_focus_tasks    enable row level security;
 alter table habits              enable row level security;
 alter table habit_completions   enable row level security;
 
@@ -220,3 +222,38 @@ create policy "habit_completions_delete_own" on habit_completions
   for delete using (
     exists (select 1 from habits h where h.id = habit_completions.habit_id and h.user_id = auth.uid()::text)
   );
+
+-- ─── USER FOCUS ────────────────────────────────────────────
+drop policy if exists "user_focus_courses_select_own" on user_focus_courses;
+create policy "user_focus_courses_select_own" on user_focus_courses
+  for select using (auth.uid()::text = user_id);
+
+drop policy if exists "user_focus_courses_insert_own" on user_focus_courses;
+create policy "user_focus_courses_insert_own" on user_focus_courses
+  for insert with check (auth.uid()::text = user_id);
+
+drop policy if exists "user_focus_courses_update_own" on user_focus_courses;
+create policy "user_focus_courses_update_own" on user_focus_courses
+  for update using (auth.uid()::text = user_id)
+  with check (auth.uid()::text = user_id);
+
+drop policy if exists "user_focus_courses_delete_own" on user_focus_courses;
+create policy "user_focus_courses_delete_own" on user_focus_courses
+  for delete using (auth.uid()::text = user_id);
+
+drop policy if exists "user_focus_tasks_select_own" on user_focus_tasks;
+create policy "user_focus_tasks_select_own" on user_focus_tasks
+  for select using (auth.uid()::text = user_id);
+
+drop policy if exists "user_focus_tasks_insert_own" on user_focus_tasks;
+create policy "user_focus_tasks_insert_own" on user_focus_tasks
+  for insert with check (auth.uid()::text = user_id);
+
+drop policy if exists "user_focus_tasks_update_own" on user_focus_tasks;
+create policy "user_focus_tasks_update_own" on user_focus_tasks
+  for update using (auth.uid()::text = user_id)
+  with check (auth.uid()::text = user_id);
+
+drop policy if exists "user_focus_tasks_delete_own" on user_focus_tasks;
+create policy "user_focus_tasks_delete_own" on user_focus_tasks
+  for delete using (auth.uid()::text = user_id);

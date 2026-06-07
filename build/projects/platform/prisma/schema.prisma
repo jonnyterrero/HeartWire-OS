@@ -40,6 +40,8 @@ model User {
   examSessions   ExamPracticeSession[]
   tags           Tag[]
   calendarEvents CalendarEvent[]
+  focusCourses   UserFocusCourse[]
+  focusTasks     UserFocusTask[]
 
   @@map("users")
 }
@@ -82,6 +84,7 @@ model Course {
   tasks          Task[]
   studySessions  StudySession[]
   calendarEvents CalendarEvent[]
+  focusEntries   UserFocusCourse[]
 
   @@index([trackId])
   @@map("courses")
@@ -144,6 +147,7 @@ model Task {
 
   tags           TaskTag[]
   calendarEvents CalendarEvent[]
+  focusEntries   UserFocusTask[]
 
   @@index([userId])
   @@index([courseId])
@@ -365,4 +369,33 @@ model CalendarEvent {
   @@index([eventType])
   @@index([deletedAt])
   @@map("calendar_events")
+}
+
+// ─── User Focus (dashboard priorities) ─────────────────────
+model UserFocusCourse {
+  id        String   @id @default(uuid())
+  userId    String   @map("user_id")
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  courseId  String   @map("course_id")
+  course    Course   @relation(fields: [courseId], references: [id], onDelete: Cascade)
+  sortOrder Int      @default(0) @map("sort_order")
+  createdAt DateTime @default(now()) @map("created_at")
+
+  @@unique([userId, courseId])
+  @@index([userId])
+  @@map("user_focus_courses")
+}
+
+model UserFocusTask {
+  id        String   @id @default(uuid())
+  userId    String   @map("user_id")
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  taskId    String   @map("task_id")
+  task      Task     @relation(fields: [taskId], references: [id], onDelete: Cascade)
+  sortOrder Int      @default(0) @map("sort_order")
+  createdAt DateTime @default(now()) @map("created_at")
+
+  @@unique([userId, taskId])
+  @@index([userId])
+  @@map("user_focus_tasks")
 }
