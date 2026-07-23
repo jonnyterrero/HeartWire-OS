@@ -44,7 +44,14 @@ export async function GET(request: Request) {
         where: {
           userId: user!.id,
           deletedAt: null,
-          startTime: { gte: from, lte: to },
+          OR: [
+            // One-off events (and recurring anchors) inside the window.
+            { startTime: { gte: from, lte: to } },
+            // Recurring events anchored before the window — their later
+            // occurrences may still land in range. The client expands the
+            // RRULE and drops any that fall outside [from, to].
+            { recurrenceRule: { not: null }, startTime: { lte: to } },
+          ],
         },
         orderBy: { startTime: "asc" },
       }),

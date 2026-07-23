@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { ChevronLeft, ChevronRight, Plus } from "lucide-react";
 import clsx from "clsx";
+import { expandOccurrences } from "@/lib/recurrence";
 
 type Aggregated = {
   tasks: {
@@ -19,6 +20,7 @@ type Aggregated = {
     startTime: string | null;
     endTime: string | null;
     allDay: boolean;
+    recurrenceRule: string | null;
   }[];
   studySessions: {
     id: string;
@@ -99,13 +101,18 @@ export default function CalendarPage() {
         });
       }
     }
+    const rangeStart = startOfMonth(cursor);
+    const rangeEnd = endOfMonth(cursor);
     for (const e of data.events) {
-      if (e.startTime) {
+      // Expand recurring events (weekly study blocks) into per-day
+      // occurrences within the visible month; one-off events yield their
+      // single anchor. Keys stay unique via the occurrence timestamp.
+      for (const ts of expandOccurrences(e, rangeStart, rangeEnd)) {
         out.push({
           kind: "event",
-          id: e.id,
+          id: `${e.id}:${ts.getTime()}`,
           title: e.title,
-          ts: new Date(e.startTime),
+          ts,
           allDay: e.allDay,
         });
       }
@@ -130,7 +137,7 @@ export default function CalendarPage() {
       }
     }
     return out;
-  }, [data]);
+  }, [data, cursor]);
 
   const grid = useMemo(() => {
     const first = startOfMonth(cursor);
