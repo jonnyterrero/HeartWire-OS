@@ -13,6 +13,7 @@
     "db:push": "prisma db push",
     "db:studio": "prisma studio",
     "db:seed": "tsx prisma/seed.ts",
+    "db:seed:plan": "tsx scripts/seed-plan.ts scripts/heartwire-plan-seed.json",
     "db:reset": "prisma migrate reset",
     "postinstall": "(node scripts/patch-ts-paths.js || true) && (node scripts/patch-tailwind-read.js || true)"
   },
