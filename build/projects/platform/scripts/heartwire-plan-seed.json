@@ -1,0 +1,73 @@
+{
+  "_meta": {
+    "plan": "CSWA + FE Electrical + ML/Hardware Master Plan",
+    "generatedFor": "BME senior, FGCU, grad Spring 2027 (FE sitting May 2027)",
+    "timezone": "America/New_York",
+    "dateNote": "All startTime/endTime/sessionDate are LOCAL wall-clock (ET). Loader converts with the America/New_York offset in effect on that date.",
+    "resolution": "Rows are keyed by trackTitle (and optional courseTitle). The loader resolves these to the current user's Track/Course UUIDs. trackTitle must match seeded titles in default-tracks.ts.",
+    "trackTitles": [
+      "Mathematics",
+      "Physics + Chemistry",
+      "Electrical Engineering",
+      "Biomedical + Mechanical Engineering",
+      "Software Engineering + Computer Science"
+    ],
+    "maps": {
+      "milestones": "CalendarEvent (eventType=DEADLINE, allDay=true)",
+      "studyBlocks": "CalendarEvent (eventType=STUDY_SESSION | FE_PE_PRACTICE, recurring via RRULE)",
+      "habits": "Habit (targetDays 0=Sun..6=Sat)",
+      "examTargets": "ExamPracticeSession (examType=FE, discipline=ELECTRICAL)"
+    }
+  },
+
+  "milestones": [
+    { "title": "Resume v1 + GitHub cleaned", "eventType": "DEADLINE", "startTime": "2026-08-31T09:00:00", "allDay": true, "color": "cyan", "trackTitle": "Software Engineering + Computer Science", "reminderMinutesBefore": 1440, "description": "Job-funnel prerequisite. Resume v1, clean GitHub READMEs, LinkedIn open-to-work." },
+    { "title": "Job apps OPEN — new-grad 2027 ML/Hardware", "eventType": "DEADLINE", "startTime": "2026-09-15T09:00:00", "allDay": true, "color": "cyan", "trackTitle": "Software Engineering + Computer Science", "reminderMinutesBefore": 1440, "description": "Begin applying to early new-grad cohorts (NVIDIA, AMD, Qualcomm, ADI, TI, Apple HW, MedTech). Cycles fill fast." },
+    { "title": "CSWA Practice Test #1 (benchmark)", "eventType": "DEADLINE", "startTime": "2026-09-28T05:00:00", "allDay": true, "color": "blue", "trackTitle": "Biomedical + Mechanical Engineering", "reminderMinutesBefore": 1440, "description": "Official CSWA sample exam. GATE: need >=80% before scheduling the real exam (margin over 70% bar)." },
+    { "title": "CSWA EXAM — SIT", "eventType": "DEADLINE", "startTime": "2026-10-14T09:00:00", "allDay": true, "color": "blue", "trackTitle": "Biomedical + Mechanical Engineering", "reminderMinutesBefore": 2880, "description": "Sit CSWA once mock >=80%. HARD GATE: CSWP content forbidden until this is PASSED." },
+    { "title": "Portfolio P1 shipped — Wearable Biosignal Classifier", "eventType": "DEADLINE", "startTime": "2026-11-30T21:00:00", "allDay": true, "color": "cyan", "trackTitle": "Software Engineering + Computer Science", "reminderMinutesBefore": 1440, "description": "ESP32 + AD8232/MyoWare -> on-device DSP filter -> serial/BLE stream. Build-log + demo clip." },
+    { "title": "CSWP Segment 1 — Part Modeling", "eventType": "DEADLINE", "startTime": "2026-11-14T09:00:00", "allDay": true, "color": "blue", "trackTitle": "Biomedical + Mechanical Engineering", "reminderMinutesBefore": 2880, "description": "~70 min, 75/105 pts. Attempt when timed drills are consistent. 14-day retake rule applies." },
+    { "title": "CSWP Segment 2 — Configurations & Design Tables", "eventType": "DEADLINE", "startTime": "2026-11-30T09:00:00", "allDay": true, "color": "blue", "trackTitle": "Biomedical + Mechanical Engineering", "reminderMinutesBefore": 2880, "description": "~50 min, 77/104 pts. ZERO CSWA overlap — dedicated 2-3 week study block." },
+    { "title": "FE Reference Handbook + FE MOC seeded", "eventType": "DEADLINE", "startTime": "2026-12-15T05:00:00", "allDay": true, "color": "yellow", "trackTitle": "Electrical Engineering", "reminderMinutesBefore": 1440, "description": "Download NCEES FE Reference Handbook, build navigation map, create FE MOC. Triple-overlap on-ramp only." },
+    { "title": "CSWP Segment 3 — Assemblies & Interference", "eventType": "DEADLINE", "startTime": "2027-01-14T09:00:00", "allDay": true, "color": "blue", "trackTitle": "Biomedical + Mechanical Engineering", "reminderMinutesBefore": 2880, "description": "~80 min, 77/109 pts. Longest segment. On pass -> CSWP COMPLETE, CAD track closed." },
+    { "title": "FE REGISTRATION via MyNCEES", "eventType": "DEADLINE", "startTime": "2027-01-15T09:00:00", "allDay": true, "color": "yellow", "trackTitle": "Electrical Engineering", "reminderMinutesBefore": 4320, "description": "Do NOT defer to April. Register + get authorization, schedule Pearson VUE seat for mid-May." },
+    { "title": "Portfolio P2 shipped — ECG Arrhythmia ML Pipeline", "eventType": "DEADLINE", "startTime": "2027-02-14T21:00:00", "allDay": true, "color": "cyan", "trackTitle": "Software Engineering + Computer Science", "reminderMinutesBefore": 1440, "description": "PyTorch 1D-CNN on PhysioNet MIT-BIH -> ONNX/TFLite export -> Next.js/RN dashboard." },
+    { "title": "FE Practice Exam #1 (NCEES official, timed)", "eventType": "DEADLINE", "startTime": "2027-03-31T08:00:00", "allDay": true, "color": "yellow", "trackTitle": "Electrical Engineering", "reminderMinutesBefore": 1440, "description": "First full-length. Log score + per-domain gap map in FE/PE tracker." },
+    { "title": "Portfolio P3 shipped — HW Accelerator (FPGA/MCU)", "eventType": "DEADLINE", "startTime": "2027-04-30T21:00:00", "allDay": true, "color": "yellow", "trackTitle": "Electrical Engineering", "reminderMinutesBefore": 1440, "description": "FIR filter or NN inference on FPGA (Verilog, Tang Nano) or quantized model on STM32; benchmark vs CPU." },
+    { "title": "FE Full-length #2 (PrepFE, 5.5h sim)", "eventType": "DEADLINE", "startTime": "2027-04-30T08:00:00", "allDay": true, "color": "yellow", "trackTitle": "Electrical Engineering", "reminderMinutesBefore": 1440, "description": "Weekend simulation. Target >=70% before sitting the real FE." },
+    { "title": "FE ELECTRICAL & COMPUTER EXAM — SIT", "eventType": "DEADLINE", "startTime": "2027-05-14T08:00:00", "allDay": true, "color": "yellow", "trackTitle": "Electrical Engineering", "reminderMinutesBefore": 4320, "description": "5.5-hour Pearson VUE exam. Taper week prior. CONFIRM exact date at registration and snap the taper to it." }
+  ],
+
+  "habits": [
+    { "name": "SOLIDWORKS daily drill", "color": "blue", "targetDays": [1, 2, 3, 4, 5], "activeWindow": "2026-07-21 -> 2027-01-14 (archive after CSWP complete)" },
+    { "name": "Triple-overlap concept rep (circuits/DSP/linalg)", "color": "purple", "targetDays": [1, 3, 5], "activeWindow": "2026-07-21 -> 2027-05-14" },
+    { "name": "ML/PyTorch build session", "color": "cyan", "targetDays": [2, 4, 6], "activeWindow": "2026-10-01 -> 2027-04-30" },
+    { "name": "FE spaced-repetition review (Anki/Obsidian SR)", "color": "yellow", "targetDays": [0, 1, 2, 3, 4, 5, 6], "activeWindow": "2026-12-15 -> 2027-05-14" },
+    { "name": "Obsidian atomic note (>=1/day)", "color": "green", "targetDays": [0, 1, 2, 3, 4, 5, 6], "activeWindow": "2026-07-21 -> 2027-05-14" }
+  ],
+
+  "studyBlocks": [
+    { "title": "CSWA part-modeling drill (AM)", "eventType": "STUDY_SESSION", "startTime": "2026-07-27T05:00:00", "endTime": "2026-07-27T07:30:00", "recurrenceRule": "FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR;UNTIL=20261014T120000Z", "color": "blue", "trackTitle": "Biomedical + Mechanical Engineering", "description": "Phase 1 core. Sketch relations, extrude/revolve/sweep/loft, patterns, fillets. 14/23 CSWA Q live here." },
+    { "title": "Overlap: Linear Algebra (3B1B) (PM)", "eventType": "STUDY_SESSION", "startTime": "2026-07-28T21:00:00", "endTime": "2026-07-28T22:30:00", "recurrenceRule": "FREQ=WEEKLY;BYDAY=TU;UNTIL=20260930T120000Z", "color": "purple", "trackTitle": "Mathematics", "description": "Triple-overlap seed. 3Blue1Brown Essence of Linear Algebra -> atomic notes." },
+    { "title": "Overlap: Circuit Analysis (Khan) (PM)", "eventType": "STUDY_SESSION", "startTime": "2026-07-30T21:00:00", "endTime": "2026-07-30T22:30:00", "recurrenceRule": "FREQ=WEEKLY;BYDAY=TH;UNTIL=20260930T120000Z", "color": "yellow", "trackTitle": "Electrical Engineering", "description": "Triple-overlap seed. DC then AC (phasors/impedance). Links to Instrumentation MOC." },
+    { "title": "ML foundation: Andrew Ng ML Spec (PM)", "eventType": "STUDY_SESSION", "startTime": "2026-08-22T21:00:00", "endTime": "2026-08-22T23:00:00", "recurrenceRule": "FREQ=WEEKLY;BYDAY=SA;UNTIL=20260930T120000Z", "color": "cyan", "trackTitle": "Software Engineering + Computer Science", "description": "Phase 1 ML. Ng ML Specialization C1 (regression, gradient descent)." },
+    { "title": "CSWP bridge + segment drills (AM)", "eventType": "STUDY_SESSION", "startTime": "2026-10-15T05:00:00", "endTime": "2026-10-15T07:00:00", "recurrenceRule": "FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR;UNTIL=20270114T120000Z", "color": "blue", "trackTitle": "Biomedical + Mechanical Engineering", "description": "Phase 2-3. Link values/equations, multi-body, hole wizard, ribs, draft; then Seg1/2/3 timed drills." },
+    { "title": "ML ramp: DL Spec + PyTorch (PM)", "eventType": "STUDY_SESSION", "startTime": "2026-10-13T21:00:00", "endTime": "2026-10-13T23:00:00", "recurrenceRule": "FREQ=WEEKLY;BYDAY=TU,TH;UNTIL=20261231T120000Z", "color": "cyan", "trackTitle": "Software Engineering + Computer Science", "description": "Phase 2. Ng DL Spec C1-C2 + PyTorch tensors/autograd + 1D-CNN on biosignal." },
+    { "title": "Overlap keep-warm: Fourier/DSP (Brunton) (PM)", "eventType": "STUDY_SESSION", "startTime": "2026-10-17T21:00:00", "endTime": "2026-10-17T22:30:00", "recurrenceRule": "FREQ=WEEKLY;BYDAY=SA;UNTIL=20261231T120000Z", "color": "purple", "trackTitle": "Electrical Engineering", "description": "Phase 2. Steve Brunton FFT/convolution -> atomic notes." },
+    { "title": "FE Circuit Analysis (AM+PM)", "eventType": "FE_PE_PRACTICE", "startTime": "2027-01-15T05:00:00", "endTime": "2027-01-15T07:30:00", "recurrenceRule": "FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR;UNTIL=20270131T120000Z", "color": "yellow", "trackTitle": "Electrical Engineering", "description": "Phase 3 highest-weight FE domain. Asghar Circuits + 40+ PrepFE problems, timed." },
+    { "title": "FE Linear Systems + Signal Processing", "eventType": "FE_PE_PRACTICE", "startTime": "2027-02-02T05:00:00", "endTime": "2027-02-02T07:00:00", "recurrenceRule": "FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR;UNTIL=20270214T120000Z", "color": "yellow", "trackTitle": "Electrical Engineering", "description": "Phase 3 triple-overlap. Laplace, transfer functions, Fourier. Asghar + PrepFE." },
+    { "title": "FE Electronics + Digital Systems", "eventType": "FE_PE_PRACTICE", "startTime": "2027-02-16T05:00:00", "endTime": "2027-02-16T07:00:00", "recurrenceRule": "FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR;UNTIL=20270228T120000Z", "color": "yellow", "trackTitle": "Electrical Engineering", "description": "Phase 3 triple-overlap. Diodes/BJT/op-amps, logic/FSM/K-maps. Asghar + PrepFE." },
+    { "title": "FE Power + EM + Control", "eventType": "FE_PE_PRACTICE", "startTime": "2027-03-02T05:00:00", "endTime": "2027-03-02T07:30:00", "recurrenceRule": "FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR;UNTIL=20270314T120000Z", "color": "yellow", "trackTitle": "Electrical Engineering", "description": "Phase 3 low-BME-overlap domains — need the reps most. Asghar Power/EM/Controls." },
+    { "title": "FE Comms + Networks + Computer/Software", "eventType": "FE_PE_PRACTICE", "startTime": "2027-03-16T05:00:00", "endTime": "2027-03-16T07:00:00", "recurrenceRule": "FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR;UNTIL=20270331T120000Z", "color": "yellow", "trackTitle": "Software Engineering + Computer Science", "description": "Phase 3 remaining domains. Then NCEES full practice exam." },
+    { "title": "FE weak-domain repair + full-length sims (AM+PM)", "eventType": "FE_PE_PRACTICE", "startTime": "2027-04-01T05:00:00", "endTime": "2027-04-01T07:30:00", "recurrenceRule": "FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR,SA;UNTIL=20270512T120000Z", "color": "yellow", "trackTitle": "Electrical Engineering", "description": "Phase 4 peak. Target lowest 4 domains from gap map; PrepFE full-lengths; handbook speed-drills." }
+  ],
+
+  "examTargets": [
+    { "examType": "FE", "discipline": "ELECTRICAL", "topic": "Circuit Analysis (DC/AC/Transient)", "source": "Wasim Asghar Practice Problems + PrepFE", "sessionDate": "2027-01-31", "durationMinutes": 120, "questionsAttempted": 40, "questionsCorrect": null, "trackTitle": "Electrical Engineering", "notes": "TARGET benchmark row — fill questionsCorrect after the set. Highest-weight FE domain (10-15 Q)." },
+    { "examType": "FE", "discipline": "ELECTRICAL", "topic": "Linear Systems + Signal Processing", "source": "Wasim Asghar + PrepFE", "sessionDate": "2027-02-14", "durationMinutes": 90, "questionsAttempted": 30, "questionsCorrect": null, "trackTitle": "Electrical Engineering", "notes": "Triple-overlap. Transfer functions, Laplace, Fourier." },
+    { "examType": "FE", "discipline": "ELECTRICAL", "topic": "Electronics + Digital Systems", "source": "Wasim Asghar + PrepFE", "sessionDate": "2027-02-28", "durationMinutes": 90, "questionsAttempted": 30, "questionsCorrect": null, "trackTitle": "Electrical Engineering", "notes": "Op-amps, BJT/diodes, logic/FSM." },
+    { "examType": "FE", "discipline": "ELECTRICAL", "topic": "Power + Electromagnetics + Control", "source": "Wasim Asghar + PrepFE", "sessionDate": "2027-03-14", "durationMinutes": 120, "questionsAttempted": 35, "questionsCorrect": null, "trackTitle": "Electrical Engineering", "notes": "Lowest BME overlap — watch accuracy here." },
+    { "examType": "FE", "discipline": "ELECTRICAL", "topic": "FULL PRACTICE EXAM #1 (NCEES official)", "source": "NCEES FE Electrical & Computer Practice Exam", "sessionDate": "2027-03-31", "durationMinutes": 330, "questionsAttempted": 110, "questionsCorrect": null, "trackTitle": "Electrical Engineering", "notes": "First full-length. Produces the per-domain gap map that drives Phase 4." },
+    { "examType": "FE", "discipline": "ELECTRICAL", "topic": "FULL-LENGTH #2 (PrepFE simulation)", "source": "PrepFE full-length", "sessionDate": "2027-04-30", "durationMinutes": 330, "questionsAttempted": 110, "questionsCorrect": null, "trackTitle": "Electrical Engineering", "notes": "Go/no-go gauge. Target >=70% before sitting the real FE on 2027-05-14." }
+  ]
+}
