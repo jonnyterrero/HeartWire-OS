@@ -10,12 +10,15 @@
    - **Build Command**: leave default (`vercel.json` already sets `prisma migrate deploy && prisma generate && next build`)
    - **Install Command**: leave default (`vercel.json` sets `npm install --no-audit --no-fund`)
    - **Output Directory**: leave default (`.next`)
-4. **Environment Variables** — add all 5 (paste from `.env` or your password manager):
+4. **Environment Variables** — add all of these (paste from `.env` or your password manager):
    - `DATABASE_URL`
    - `DIRECT_URL`
    - `NEXT_PUBLIC_SUPABASE_URL`
    - `NEXT_PUBLIC_SUPABASE_ANON_KEY`
-   - `SUPABASE_SERVICE_ROLE_KEY`
+   - `NEXT_PUBLIC_APP_URL` (production origin, used for Open Graph URLs)
+   - `SUPABASE_SERVICE_ROLE_KEY` (required for Settings → Delete account)
+
+Also in **Supabase → Authentication → Attack Protection**, enable **Leaked password protection**. Add production `/auth/callback` and `/auth/callback?next=/reset-password` to Redirect URLs.
 5. Set the deploy branch to `Backend-development` (or merge it to `main` and deploy from there).
 6. Click **Deploy**. First build will:
    - install deps

@@ -24,7 +24,7 @@ export async function GET() {
       {
         status: "degraded",
         db: "down",
-        error: err instanceof Error ? err.message : "unknown",
+        error: process.env.NODE_ENV === "production" ? "unavailable" : err instanceof Error ? err.message : "unknown",
         ts: new Date().toISOString(),
       },
       { status: 503 }

@@ -1,15 +1,40 @@
 import { createServerClient } from "@supabase/ssr";
 import { NextResponse, type NextRequest } from "next/server";
+import { clientIp, rateLimit } from "@/lib/rate-limit";
 
 type CookieToSet = {
   name: string;
   value: string;
-  // NextResponse cookies options type isn't exported cleanly.
-  // Keep this loose to avoid brittle typing across Next.js versions.
   options?: Record<string, unknown>;
 };
 
+const PUBLIC_PREFIXES = ["/login", "/auth", "/privacy"];
+
+function isPublicPath(pathname: string) {
+  return PUBLIC_PREFIXES.some(
+    (p) => pathname === p || pathname.startsWith(`${p}/`)
+  );
+}
+
 export async function middleware(request: NextRequest) {
+  const { pathname } = request.nextUrl;
+
+  if (pathname.startsWith("/api/")) {
+    if (pathname !== "/api/health" && request.method !== "GET" && request.method !== "HEAD") {
+      const limited = rateLimit(`api:${clientIp(request)}`, 80, 60_000);
+      if (!limited.ok) {
+        return NextResponse.json(
+          { error: "Too many requests" },
+          {
+            status: 429,
+            headers: { "Retry-After": String(limited.retryAfterSec) },
+          }
+        );
+      }
+    }
+    return NextResponse.next();
+  }
+
   let supabaseResponse = NextResponse.next({ request });
 
   const supabase = createServerClient(
@@ -33,21 +58,22 @@ export async function middleware(request: NextRequest) {
     }
   );
 
-  const {
-    data: { user },
-  } = await supabase.auth.getUser();
+  let user = null;
+  try {
+    const { data } = await supabase.auth.getUser();
+    user = data.user;
+  } catch (err) {
+    console.warn("[middleware] auth lookup failed", err);
+    user = null;
+  }
 
-  const isAuthRoute =
-    request.nextUrl.pathname.startsWith("/login") ||
-    request.nextUrl.pathname.startsWith("/auth");
-
-  if (!user && !isAuthRoute) {
+  if (!user && !isPublicPath(pathname)) {
     const url = request.nextUrl.clone();
     url.pathname = "/login";
     return NextResponse.redirect(url);
   }
 
-  if (user && isAuthRoute) {
+  if (user && (pathname === "/login" || pathname.startsWith("/login/"))) {
     const url = request.nextUrl.clone();
     url.pathname = "/";
     return NextResponse.redirect(url);
@@ -57,9 +83,7 @@ export async function middleware(request: NextRequest) {
 }
 
 export const config = {
-  // Skip Next internals, static assets, and /api/* (route handlers enforce
-  // their own auth and must return JSON 401, not an HTML redirect).
   matcher: [
-    "/((?!api|_next/static|_next/image|favicon.ico|manifest.json|robots.txt|sw.js|workbox-.*|worker-.*|fallback-.*|.*\\.(?:svg|png|jpg|jpeg|gif|webp|ico)$).*)",
+    "/((?!_next/static|_next/image|favicon.ico|manifest.json|robots.txt|sw.js|workbox-.*|worker-.*|fallback-.*|.*\\.(?:svg|png|jpg|jpeg|gif|webp|ico)$).*)",
   ],
 };

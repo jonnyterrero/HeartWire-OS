@@ -9,6 +9,7 @@ export default function SettingsPage() {
   const [email, setEmail] = useState<string | null>(null);
   const [seedResult, setSeedResult] = useState<string | null>(null);
   const [seeding, setSeeding] = useState(false);
+  const [deleting, setDeleting] = useState(false);
   const router = useRouter();
 
   useEffect(() => {
@@ -73,6 +74,29 @@ export default function SettingsPage() {
     router.refresh();
   }
 
+  async function deleteAccount() {
+    const confirmed = window.prompt(
+      'This permanently deletes your workspace and login. Type DELETE to confirm.'
+    );
+    if (confirmed !== "DELETE") return;
+    setDeleting(true);
+    const res = await fetch("/api/account", { method: "DELETE" });
+    setDeleting(false);
+    if (!res.ok) {
+      let detail = "Could not delete account.";
+      try {
+        const data = await res.json();
+        if (data?.error) detail = data.error;
+      } catch {}
+      setSeedResult(detail);
+      return;
+    }
+    const supabase = createSupabaseBrowserClient();
+    await supabase.auth.signOut();
+    router.push("/login");
+    router.refresh();
+  }
+
   return (
     <div className="max-w-2xl space-y-8">
       <header>
@@ -94,6 +118,23 @@ export default function SettingsPage() {
           className="px-3 py-1.5 text-sm rounded border border-gray-200 dark:border-gray-700 text-gray-700 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800"
         >
           Sign out
+        </button>
+      </section>
+
+      <section className="border border-red-200 dark:border-red-900/50 rounded-md p-4 bg-white dark:bg-darkSurface space-y-3">
+        <h2 className="text-sm font-semibold text-red-700 dark:text-red-400">
+          Delete account
+        </h2>
+        <p className="text-xs text-gray-500">
+          Permanently removes your tracks, notes, journal, and login. This
+          cannot be undone.
+        </p>
+        <button
+          onClick={deleteAccount}
+          disabled={deleting}
+          className="px-3 py-1.5 text-sm rounded border border-red-300 dark:border-red-800 text-red-700 dark:text-red-400 hover:bg-red-50 dark:hover:bg-red-950/40 disabled:opacity-50"
+        >
+          {deleting ? "Deleting…" : "Delete my account"}
         </button>
       </section>
 

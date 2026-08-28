@@ -25,11 +25,14 @@ cp .env.example .env.local
 npm run db:deploy   # runs prisma migrate deploy against DATABASE_URL/DIRECT_URL
 ```
 
-### 4. (Optional) Apply RLS as defense-in-depth
-The Next.js API uses Prisma with the postgres role and bypasses RLS. The
-policies in `supabase_rls.sql` are a safety net for anything that ever queries
-Supabase directly.
+### 4. RLS is applied by Prisma now
+Policies live in `supabase_rls.sql` and ship via
+`prisma/migrations/20260828000000_lock_postgrest_and_rls`. `npm run db:deploy`
+(and the Vercel build) applies them. The Next.js API still uses Prisma with
+the postgres role (bypasses RLS). PostgREST table grants for `anon` /
+`authenticated` are revoked because the app only uses supabase-js for Auth.
 
+Optional manual re-apply:
 ```bash
 psql "$DIRECT_URL" -f supabase_rls.sql
 ```
@@ -114,6 +117,6 @@ Every Prisma query is scoped by `userId` (or by `track.userId` for transitive re
 `GET /api/health` returns `{status,db,latencyMs,ts}` with a 200/503. Wire it into Vercel Monitoring or any uptime probe.
 
 ### Known trade-offs
-- **Prisma uses the postgres role**, so RLS in `supabase_rls.sql` is defense-in-depth, not the primary control. App-level checks in route handlers are the source of truth.
-- **No request rate limiting.** Fine for personal use. If you ever expose this publicly, add `@upstash/ratelimit` or Vercel's `@vercel/firewall` rules.
+- **Prisma uses the postgres role**, so RLS is defense-in-depth, not the primary control. App-level `userId` checks in route handlers are the source of truth. PostgREST access for the anon key is revoked.
+- **API write rate limiting is in-memory** (per Vercel instance). Enable [Vercel WAF](https://vercel.com/docs/security/vercel-waf) and Supabase Auth [leaked-password protection](https://supabase.com/docs/guides/auth/password-security#password-strength-and-leaked-password-protection) before a busy public launch.
 - **No Zod.** Validation is done by hand-rolled helpers in `src/lib/api.ts` to keep the dep list lean. Swap in Zod if the API grows.

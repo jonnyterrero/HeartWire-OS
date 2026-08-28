@@ -1,13 +1,16 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import { createSupabaseBrowserClient } from "@/lib/supabase-browser";
 import { useRouter } from "next/navigation";
+
+type Mode = "signin" | "signup" | "forgot";
 
 export default function LoginPage() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [isSignUp, setIsSignUp] = useState(false);
+  const [mode, setMode] = useState<Mode>("signin");
   const [loading, setLoading] = useState(false);
   const [message, setMessage] = useState<{ type: "error" | "success"; text: string } | null>(null);
   const router = useRouter();
@@ -18,7 +21,23 @@ export default function LoginPage() {
     setLoading(true);
     setMessage(null);
 
-    if (isSignUp) {
+    if (mode === "forgot") {
+      const { error } = await supabase.auth.resetPasswordForEmail(email, {
+        redirectTo: `${window.location.origin}/auth/callback?next=/reset-password`,
+      });
+      setLoading(false);
+      if (error) {
+        setMessage({ type: "error", text: error.message });
+      } else {
+        setMessage({
+          type: "success",
+          text: "If that email is registered, a reset link is on its way.",
+        });
+      }
+      return;
+    }
+
+    if (mode === "signup") {
       const { data, error } = await supabase.auth.signUp({
         email,
         password,
@@ -30,13 +49,12 @@ export default function LoginPage() {
       if (error) {
         setMessage({ type: "error", text: error.message });
       } else if (data.session) {
-        // Email confirmation is disabled — Supabase issued a session right away.
         router.push("/");
         router.refresh();
       } else {
         setMessage({
           type: "success",
-          text: "Account created. If email confirmation is enabled, check your inbox.",
+          text: "Account created. Check your inbox to confirm, then sign in.",
         });
       }
     } else {
@@ -57,23 +75,35 @@ export default function LoginPage() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-[#191919] px-4">
+    <div className="min-h-screen flex items-center justify-center bg-[#191919] px-4 py-10">
       <div className="w-full max-w-sm">
-        <div className="flex items-center justify-center gap-3 mb-10">
+        <div className="flex items-center justify-center gap-3 mb-6">
           <div className="w-10 h-10 bg-white text-black rounded-lg flex items-center justify-center font-bold text-xl">
             H
           </div>
           <span className="text-2xl font-bold text-white">HeartWire OS</span>
         </div>
 
+        <p className="text-center text-sm text-gray-400 mb-6 leading-relaxed">
+          Personal engineering study OS — tracks, courses, a timer, and a
+          library. Public beta: expect sharp edges, and don&apos;t store
+          anything you can&apos;t afford to lose.
+        </p>
+
         <div className="bg-[#2F3437] border border-gray-700 rounded-xl p-8">
           <h2 className="text-lg font-semibold text-white mb-1">
-            {isSignUp ? "Create your account" : "Welcome back"}
+            {mode === "signup"
+              ? "Create your account"
+              : mode === "forgot"
+                ? "Reset your password"
+                : "Welcome back"}
           </h2>
           <p className="text-sm text-gray-400 mb-6">
-            {isSignUp
-              ? "Start tracking your engineering journey."
-              : "Sign in to your workspace."}
+            {mode === "signup"
+              ? "We'll seed starter tracks so the dashboard isn't empty."
+              : mode === "forgot"
+                ? "We'll email a link if that account exists."
+                : "Sign in to your workspace."}
           </p>
 
           <form onSubmit={handleEmailAuth} className="space-y-3">
@@ -83,17 +113,21 @@ export default function LoginPage() {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required
+              autoComplete="email"
               className="w-full px-4 py-2.5 bg-[#191919] border border-gray-600 rounded-lg text-white text-sm placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
             />
-            <input
-              type="password"
-              placeholder="Password"
-              value={password}
-              onChange={(e) => setPassword(e.target.value)}
-              required
-              minLength={6}
-              className="w-full px-4 py-2.5 bg-[#191919] border border-gray-600 rounded-lg text-white text-sm placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-            />
+            {mode !== "forgot" && (
+              <input
+                type="password"
+                placeholder="Password"
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+                required
+                minLength={6}
+                autoComplete={mode === "signup" ? "new-password" : "current-password"}
+                className="w-full px-4 py-2.5 bg-[#191919] border border-gray-600 rounded-lg text-white text-sm placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+              />
+            )}
 
             {message && (
               <div
@@ -112,23 +146,71 @@ export default function LoginPage() {
               disabled={loading}
               className="w-full px-4 py-2.5 bg-blue-600 hover:bg-blue-700 disabled:opacity-50 disabled:cursor-not-allowed text-white rounded-lg font-medium text-sm transition-colors"
             >
-              {loading ? "…" : isSignUp ? "Create Account" : "Sign In"}
+              {loading
+                ? "…"
+                : mode === "signup"
+                  ? "Create Account"
+                  : mode === "forgot"
+                    ? "Send reset link"
+                    : "Sign In"}
             </button>
           </form>
 
-          <p className="text-center text-sm text-gray-400 mt-5">
-            {isSignUp ? "Already have an account?" : "Don't have an account?"}{" "}
-            <button
-              onClick={() => {
-                setIsSignUp(!isSignUp);
-                setMessage(null);
-              }}
-              className="text-blue-400 hover:text-blue-300 font-medium"
-            >
-              {isSignUp ? "Sign in" : "Sign up"}
-            </button>
-          </p>
+          <div className="text-center text-sm text-gray-400 mt-5 space-y-2">
+            {mode === "signin" && (
+              <>
+                <p>
+                  Don&apos;t have an account?{" "}
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setMode("signup");
+                      setMessage(null);
+                    }}
+                    className="text-blue-400 hover:text-blue-300 font-medium"
+                  >
+                    Sign up
+                  </button>
+                </p>
+                <p>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setMode("forgot");
+                      setMessage(null);
+                    }}
+                    className="text-blue-400 hover:text-blue-300 font-medium"
+                  >
+                    Forgot password?
+                  </button>
+                </p>
+              </>
+            )}
+            {mode !== "signin" && (
+              <p>
+                <button
+                  type="button"
+                  onClick={() => {
+                    setMode("signin");
+                    setMessage(null);
+                  }}
+                  className="text-blue-400 hover:text-blue-300 font-medium"
+                >
+                  Back to sign in
+                </button>
+              </p>
+            )}
+          </div>
         </div>
+
+        <p className="text-center text-xs text-gray-500 mt-6 leading-relaxed">
+          iPhone: Share → Add to Home Screen. Android: Chrome menu → Install app.
+        </p>
+        <p className="text-center text-xs text-gray-600 mt-2">
+          <Link href="/privacy" className="hover:text-gray-400 underline underline-offset-2">
+            Privacy
+          </Link>
+        </p>
       </div>
     </div>
   );

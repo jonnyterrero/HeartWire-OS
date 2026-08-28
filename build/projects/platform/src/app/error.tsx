@@ -20,7 +20,7 @@ export default function GlobalError({
           Something went wrong
         </h1>
         <p className="text-sm text-gray-500 dark:text-gray-400">
-          {error.message || "An unexpected error occurred."}
+          Please try again. If it keeps happening, sign out and sign back in.
           {error.digest ? (
             <span className="block mt-2 text-xs opacity-70">
               ref: {error.digest}

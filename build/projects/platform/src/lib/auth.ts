@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import { createSupabaseServerClient } from "@/lib/supabase-server";
 import prisma from "@/lib/prisma";
+import { seedDefaultTracksForUser } from "@/lib/seed-defaults";
 
 /**
  * Gets the authenticated user from Supabase session.
@@ -40,9 +41,22 @@ export async function getAuthenticatedUser() {
         data: { name, avatarUrl },
       });
     } else {
-      user = await prisma.user.create({
-        data: { id: authUser.id, email, name, avatarUrl },
-      });
+      try {
+        user = await prisma.user.create({
+          data: { id: authUser.id, email, name, avatarUrl },
+        });
+        try {
+          await seedDefaultTracksForUser(user.id);
+        } catch (err) {
+          console.error("[auth] first-login seed failed", err);
+        }
+      } catch (err) {
+        const winner =
+          (await prisma.user.findUnique({ where: { id: authUser.id } })) ??
+          (await prisma.user.findUnique({ where: { email } }));
+        if (!winner) throw err;
+        user = winner;
+      }
     }
   } else {
     // Refresh metadata on every login but never overwrite the email with
