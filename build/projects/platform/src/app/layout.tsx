@@ -6,11 +6,19 @@ import Sidebar from "@/components/layout/Sidebar";
 import PwaUpdater from "@/components/pwa/PwaUpdater";
 import "./globals.css";
 
-const appUrl =
-  process.env.NEXT_PUBLIC_APP_URL ||
-  (process.env.VERCEL_ENV === "production"
-    ? "https://heart-wire-os.vercel.app"
-    : "http://localhost:3000");
+function resolveAppUrl(): string {
+  const configured = process.env.NEXT_PUBLIC_APP_URL;
+  const productionDefault = "https://heart-wire-os.vercel.app";
+  if (process.env.VERCEL_ENV === "production") {
+    if (!configured || configured.includes("localhost")) {
+      return productionDefault;
+    }
+    return configured;
+  }
+  return configured || "http://localhost:3000";
+}
+
+const appUrl = resolveAppUrl();
 const description =
   "Personal engineering study OS — tracks, courses, a timer, and a library. Public beta.";
 
