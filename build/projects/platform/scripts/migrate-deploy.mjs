@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 /**
- * Retry prisma migrate deploy — Supabase pooler advisory locks can time out
- * when concurrent builds run or the DB is briefly busy.
+ * Run prisma migrate deploy only when pending migrations exist.
+ * Skips the advisory lock when the schema is already current (common on Vercel).
+ * Retries on transient Supabase pooler lock timeouts when deploy is needed.
  */
 import { execSync } from "node:child_process";
 
@@ -12,12 +13,28 @@ function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
+function migrationsPending() {
+  try {
+    execSync("npx prisma migrate status", { stdio: "pipe" });
+    return false;
+  } catch {
+    return true;
+  }
+}
+
 async function main() {
+  if (!migrationsPending()) {
+    console.log("[migrate-deploy] database schema is up to date — skipping deploy");
+    return;
+  }
+
+  console.log("[migrate-deploy] pending migrations detected — running deploy");
+
   for (let i = 1; i <= attempts; i++) {
     try {
       execSync("npx prisma migrate deploy", { stdio: "inherit" });
       return;
-    } catch (err) {
+    } catch {
       if (i === attempts) {
         console.error("[migrate-deploy] all attempts failed");
         process.exit(1);
