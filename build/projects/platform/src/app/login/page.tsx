@@ -140,6 +140,20 @@ export default function LoginPage() {
               />
             )}
 
+            {mode === "signup" && (
+              <p className="text-xs text-slate-500 dark:text-hw-lavender/70 leading-relaxed">
+                By creating an account, you agree to the{" "}
+                <Link href="/terms" className="text-hw-sky hover:text-hw-lavender underline underline-offset-2">
+                  Terms of Use
+                </Link>{" "}
+                and acknowledge the{" "}
+                <Link href="/privacy" className="text-hw-sky hover:text-hw-lavender underline underline-offset-2">
+                  Privacy Policy
+                </Link>
+                .
+              </p>
+            )}
+
             {message && (
               <div
                 className={`text-sm px-3 py-2 rounded-lg ${

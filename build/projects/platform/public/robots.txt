@@ -1,5 +1,8 @@
 User-agent: *
 Allow: /login
 Allow: /privacy
+Allow: /terms
 Disallow: /api/
 Disallow: /auth/
+
+Sitemap: https://heart-wire-os.vercel.app/sitemap.xml

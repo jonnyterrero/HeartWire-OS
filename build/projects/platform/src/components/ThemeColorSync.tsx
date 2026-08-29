@@ -1,11 +1,14 @@
 "use client";
 
 import { useEffect } from "react";
+import { useTheme } from "next-themes";
 
 const LIGHT = "#F8F7FF";
 const DARK = "#0a0a12";
 
 export default function ThemeColorSync() {
+  const { resolvedTheme } = useTheme();
+
   useEffect(() => {
     const meta =
       document.querySelector('meta[name="theme-color"]:not([media])') ??
@@ -16,21 +19,8 @@ export default function ThemeColorSync() {
         return el;
       })();
 
-    const sync = () => {
-      meta.setAttribute(
-        "content",
-        document.documentElement.classList.contains("dark") ? DARK : LIGHT
-      );
-    };
-
-    sync();
-    const observer = new MutationObserver(sync);
-    observer.observe(document.documentElement, {
-      attributes: true,
-      attributeFilter: ["class"],
-    });
-    return () => observer.disconnect();
-  }, []);
+    meta.setAttribute("content", resolvedTheme === "dark" ? DARK : LIGHT);
+  }, [resolvedTheme]);
 
   return null;
 }
