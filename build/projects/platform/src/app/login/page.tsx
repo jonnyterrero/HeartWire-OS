@@ -75,7 +75,7 @@ export default function LoginPage() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-[#191919] px-4 py-10">
+    <div className="min-h-screen flex items-center justify-center hw-glow-bg px-4 py-10">
       <div className="w-full max-w-sm">
         <div className="flex flex-col items-center gap-2 mb-6">
           <img
@@ -85,27 +85,31 @@ export default function LoginPage() {
             height={56}
             className="h-14 w-14 rounded-xl"
           />
-          <span className="text-2xl font-bold text-white">HeartWire OS</span>
-          <span className="text-[10px] uppercase tracking-[0.35em] text-teal-400/80">
-            Intelligent Learning
+          <span className="text-2xl font-bold">
+            <span className="text-slate-900 dark:text-hw-ghost">Heart</span>
+            <span className="hw-gradient-text">Wire</span>
+            <span className="text-slate-900 dark:text-hw-ghost"> OS</span>
+          </span>
+          <span className="text-[10px] uppercase tracking-[0.35em] text-hw-sky dark:text-hw-lavender">
+            Intelligent Study Systems
           </span>
         </div>
 
-        <p className="text-center text-sm text-gray-400 mb-6 leading-relaxed">
+        <p className="text-center text-sm text-slate-600 dark:text-hw-lavender/80 mb-6 leading-relaxed">
           Personal engineering study OS — tracks, courses, a timer, and a
           library. Public beta: expect sharp edges, and don&apos;t store
           anything you can&apos;t afford to lose.
         </p>
 
-        <div className="bg-[#2F3437] border border-gray-700 rounded-xl p-8">
-          <h2 className="text-lg font-semibold text-white mb-1">
+        <div className="bg-white dark:bg-darkSurface border border-[color:var(--hw-border)] rounded-xl p-8 shadow-sm dark:shadow-none">
+          <h2 className="text-lg font-semibold mb-1">
             {mode === "signup"
               ? "Create your account"
               : mode === "forgot"
                 ? "Reset your password"
                 : "Welcome back"}
           </h2>
-          <p className="text-sm text-gray-400 mb-6">
+          <p className="text-sm text-slate-500 dark:text-hw-lavender/70 mb-6">
             {mode === "signup"
               ? "We'll seed starter tracks so the dashboard isn't empty."
               : mode === "forgot"
@@ -121,7 +125,7 @@ export default function LoginPage() {
               onChange={(e) => setEmail(e.target.value)}
               required
               autoComplete="email"
-              className="w-full px-4 py-2.5 bg-[#191919] border border-gray-600 rounded-lg text-white text-sm placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+              className="w-full px-4 py-2.5 bg-hw-ghost dark:bg-darkBg border border-[color:var(--hw-border)] rounded-lg text-sm placeholder-slate-400 dark:placeholder-hw-lavender/50 focus:outline-none focus:ring-2 focus:ring-hw-sky focus:border-transparent"
             />
             {mode !== "forgot" && (
               <input
@@ -132,7 +136,7 @@ export default function LoginPage() {
                 required
                 minLength={6}
                 autoComplete={mode === "signup" ? "new-password" : "current-password"}
-                className="w-full px-4 py-2.5 bg-[#191919] border border-gray-600 rounded-lg text-white text-sm placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                className="w-full px-4 py-2.5 bg-hw-ghost dark:bg-darkBg border border-[color:var(--hw-border)] rounded-lg text-sm placeholder-slate-400 dark:placeholder-hw-lavender/50 focus:outline-none focus:ring-2 focus:ring-hw-sky focus:border-transparent"
               />
             )}
 
@@ -140,8 +144,8 @@ export default function LoginPage() {
               <div
                 className={`text-sm px-3 py-2 rounded-lg ${
                   message.type === "error"
-                    ? "bg-red-900/30 text-red-400 border border-red-800"
-                    : "bg-green-900/30 text-green-400 border border-green-800"
+                    ? "bg-hw-coral/15 text-red-600 dark:text-hw-coral border border-hw-coral/30"
+                    : "bg-hw-sky/10 text-hw-sky border border-hw-sky/30"
                 }`}
               >
                 {message.text}
@@ -151,7 +155,7 @@ export default function LoginPage() {
             <button
               type="submit"
               disabled={loading}
-              className="w-full px-4 py-2.5 bg-blue-600 hover:bg-blue-700 disabled:opacity-50 disabled:cursor-not-allowed text-white rounded-lg font-medium text-sm transition-colors"
+              className="w-full px-4 py-2.5 bg-hw-sky hover:bg-blue-700 disabled:opacity-50 disabled:cursor-not-allowed text-white rounded-lg font-medium text-sm transition-colors"
             >
               {loading
                 ? "…"
@@ -163,7 +167,7 @@ export default function LoginPage() {
             </button>
           </form>
 
-          <div className="text-center text-sm text-gray-400 mt-5 space-y-2">
+          <div className="text-center text-sm text-slate-500 dark:text-hw-lavender/70 mt-5 space-y-2">
             {mode === "signin" && (
               <>
                 <p>
@@ -174,7 +178,7 @@ export default function LoginPage() {
                       setMode("signup");
                       setMessage(null);
                     }}
-                    className="text-blue-400 hover:text-blue-300 font-medium"
+                    className="text-hw-sky hover:text-hw-lavender font-medium"
                   >
                     Sign up
                   </button>
@@ -186,7 +190,7 @@ export default function LoginPage() {
                       setMode("forgot");
                       setMessage(null);
                     }}
-                    className="text-blue-400 hover:text-blue-300 font-medium"
+                    className="text-hw-sky hover:text-hw-lavender font-medium"
                   >
                     Forgot password?
                   </button>
@@ -201,7 +205,7 @@ export default function LoginPage() {
                     setMode("signin");
                     setMessage(null);
                   }}
-                  className="text-blue-400 hover:text-blue-300 font-medium"
+                  className="text-hw-sky hover:text-hw-lavender font-medium"
                 >
                   Back to sign in
                 </button>
@@ -210,14 +214,14 @@ export default function LoginPage() {
           </div>
         </div>
 
-        <p className="text-center text-xs text-gray-500 mt-6 leading-relaxed">
+        <p className="text-center text-xs text-slate-500 dark:text-hw-lavender/60 mt-6 leading-relaxed">
           iPhone: Share → Add to Home Screen. Android: Chrome menu → Install app.
         </p>
-        <p className="text-center text-xs text-gray-600 mt-2 space-x-3">
-          <Link href="/privacy" className="hover:text-gray-400 underline underline-offset-2">
+        <p className="text-center text-xs text-slate-400 dark:text-hw-lavender/50 mt-2 space-x-3">
+          <Link href="/privacy" className="hover:text-hw-sky underline underline-offset-2">
             Privacy
           </Link>
-          <Link href="/terms" className="hover:text-gray-400 underline underline-offset-2">
+          <Link href="/terms" className="hover:text-hw-sky underline underline-offset-2">
             Terms
           </Link>
         </p>

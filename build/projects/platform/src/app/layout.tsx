@@ -4,6 +4,7 @@ import { Analytics } from "@vercel/analytics/next";
 import { createSupabaseServerClient } from "@/lib/supabase-server";
 import Sidebar from "@/components/layout/Sidebar";
 import PwaUpdater from "@/components/pwa/PwaUpdater";
+import ThemeColorSync from "@/components/ThemeColorSync";
 import "./globals.css";
 
 function resolveAppUrl(): string {
@@ -70,9 +71,11 @@ export default async function RootLayout({
   return (
     <html lang="en" className="dark">
       <head>
-        <meta name="theme-color" content="#0b1411" />
+        <meta name="theme-color" content="#F8F7FF" media="(prefers-color-scheme: light)" />
+        <meta name="theme-color" content="#0a0a12" media="(prefers-color-scheme: dark)" />
       </head>
-      <body className="flex h-screen overflow-hidden bg-slate-50 dark:bg-darkBg text-slate-900 dark:text-slate-100">
+      <body className="flex h-screen overflow-hidden hw-glow-bg text-[color:var(--hw-text)]">
+        <ThemeColorSync />
         <PwaUpdater />
         {user ? (
           <>

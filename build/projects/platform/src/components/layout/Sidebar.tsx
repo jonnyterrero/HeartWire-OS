@@ -153,23 +153,30 @@ export default function Sidebar() {
     pathname === "/calendar" || pathname === "/planner";
 
   return (
-    <aside className="fixed inset-y-0 left-0 w-64 bg-[#F7F7F5] dark:bg-[#202020] border-r border-gray-200 dark:border-gray-800 flex flex-col z-40 transition-colors duration-300 hidden md:flex">
-      <div className="p-4 flex justify-between items-center border-b border-gray-200 dark:border-gray-800/50">
+    <aside className="fixed inset-y-0 left-0 w-64 bg-hw-ghost dark:bg-darkSurface border-r border-[color:var(--hw-border)] flex flex-col z-40 transition-colors duration-300 hidden md:flex">
+      <div className="p-4 flex justify-between items-center border-b border-[color:var(--hw-border)]">
         <div className="flex items-center gap-2">
           <img
             src="/favicon-32.png"
             alt=""
             width={24}
             height={24}
-            className="h-6 w-6 rounded"
+            className="h-6 w-6 rounded dark:block hidden"
           />
-          <span className="font-bold text-sm text-gray-900 dark:text-gray-100">
+          <img
+            src="/icon-light-512.png"
+            alt=""
+            width={24}
+            height={24}
+            className="h-6 w-6 rounded block dark:hidden"
+          />
+          <span className="font-bold text-sm">
             HeartWire OS
           </span>
         </div>
         <button
           onClick={toggleDarkMode}
-          className="text-gray-500 hover:text-black dark:hover:text-white transition-colors"
+          className="text-slate-500 hover:text-hw-sky dark:text-hw-lavender/70 dark:hover:text-hw-ghost transition-colors"
           aria-label="Toggle theme"
         >
           {isDark ? <Sun className="w-4 h-4" /> : <Moon className="w-4 h-4" />}
@@ -354,8 +361,8 @@ function NavLink({
       className={clsx(
         "w-full flex items-center gap-2 px-2 py-1.5 rounded text-sm transition-colors",
         isActive
-          ? "bg-gray-200 dark:bg-gray-700 text-gray-900 dark:text-white font-medium"
-          : "text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800"
+          ? "bg-hw-sky/10 dark:bg-hw-lavender/15 text-hw-sky dark:text-hw-ghost font-medium border border-hw-sky/20 dark:border-hw-lavender/20"
+          : "text-slate-600 dark:text-hw-lavender/70 hover:bg-hw-sky/5 dark:hover:bg-hw-lavender/10"
       )}
     >
       <Icon className="w-4 h-4" />
