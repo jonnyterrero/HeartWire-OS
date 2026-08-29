@@ -1,11 +1,22 @@
-const CACHE_NAME = '5am-club-v6.1.1';
-const RUNTIME_CACHE = '5am-club-runtime-v1';
+const CACHE_NAME = 'heartwire-v8.0.0';
+const RUNTIME_CACHE = 'heartwire-runtime-v1';
 
-// Assets to cache on install
-const ASSETS = [
+// App shell (local) — cached first; CDN assets are optional runtime cache
+const SHELL_ASSETS = [
   '/',
   '/index.html',
   '/sw.js',
+  '/manifest.json',
+  '/version.json',
+  '/icon-192.png',
+  '/icon-512.png',
+  '/icon-512-maskable.png',
+  '/apple-touch-icon.png',
+  '/og.png',
+  '/favicon-32.png'
+];
+
+const CDN_ASSETS = [
   'https://cdn.tailwindcss.com',
   'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap',
   'https://unpkg.com/lucide@latest',
@@ -19,13 +30,18 @@ self.addEventListener('install', (event) => {
   console.log('[SW] Installing service worker...');
   self.skipWaiting(); // Activate immediately
   event.waitUntil(
-    caches.open(CACHE_NAME).then((cache) => {
+    caches.open(CACHE_NAME).then(async (cache) => {
       console.log('[SW] Caching app shell');
-      return cache.addAll(ASSETS).catch(err => {
-        console.warn('[SW] Some assets failed to cache:', err);
-        // Continue even if some assets fail
-        return Promise.resolve();
+      await cache.addAll(SHELL_ASSETS).catch(err => {
+        console.warn('[SW] Some shell assets failed to cache:', err);
       });
+      for (const url of CDN_ASSETS) {
+        try {
+          await cache.add(url);
+        } catch (err) {
+          console.warn('[SW] Optional CDN asset failed:', url, err);
+        }
+      }
     })
   );
 });

@@ -178,13 +178,36 @@ def render_og(w: int = 1200, h: int = 630) -> bytes:
     return bytes(px)
 
 
+def render_icon_maskable(size: int = 512) -> bytes:
+    """Maskable icon: logo in the center 80% safe zone on brand background."""
+    px = bytearray([0x19, 0x19, 0x19] * (size * size))
+    inner = int(size * 0.72)
+    icon = render_icon(inner)
+    ox = (size - inner) // 2
+    oy = (size - inner) // 2
+    for y in range(inner):
+        for x in range(inner):
+            src = (y * inner + x) * 3
+            dst = ((oy + y) * size + (ox + x)) * 3
+            px[dst : dst + 3] = icon[src : src + 3]
+    return bytes(px)
+
+
 def main() -> None:
     OUT.mkdir(parents=True, exist_ok=True)
     write_png(OUT / "icon-192.png", 192, 192, render_icon(192))
     write_png(OUT / "icon-512.png", 512, 512, render_icon(512))
+    write_png(OUT / "icon-512-maskable.png", 512, 512, render_icon_maskable(512))
     write_png(OUT / "apple-touch-icon.png", 180, 180, render_icon(180))
     write_png(OUT / "og.png", 1200, 630, render_og())
-    print("wrote", OUT / "icon-192.png", OUT / "icon-512.png", OUT / "apple-touch-icon.png", OUT / "og.png")
+    print(
+        "wrote",
+        OUT / "icon-192.png",
+        OUT / "icon-512.png",
+        OUT / "icon-512-maskable.png",
+        OUT / "apple-touch-icon.png",
+        OUT / "og.png",
+    )
 
 
 if __name__ == "__main__":

@@ -6,7 +6,11 @@ import Sidebar from "@/components/layout/Sidebar";
 import PwaUpdater from "@/components/pwa/PwaUpdater";
 import "./globals.css";
 
-const appUrl = process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000";
+const appUrl =
+  process.env.NEXT_PUBLIC_APP_URL ||
+  (process.env.VERCEL_ENV === "production"
+    ? "https://heart-wire-os.vercel.app"
+    : "http://localhost:3000");
 const description =
   "Personal engineering study OS — tracks, courses, a timer, and a library. Public beta.";
 
@@ -59,7 +63,6 @@ export default async function RootLayout({
     <html lang="en" className="dark">
       <head>
         <meta name="theme-color" content="#2eaadc" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
       </head>
       <body className="flex h-screen overflow-hidden bg-slate-50 dark:bg-darkBg text-slate-900 dark:text-slate-100">
         <PwaUpdater />

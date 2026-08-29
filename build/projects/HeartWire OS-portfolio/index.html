@@ -3,12 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>5amClub OS v6.1.1</title>
+    <title>HeartWire OS v8.0.0</title>
+    <meta name="description" content="Archived local-first demo of HeartWire OS. Production app: heart-wire-os.vercel.app">
     <link rel="manifest" href="./manifest.json">
+    <link rel="apple-touch-icon" href="./apple-touch-icon.png">
     <meta name="theme-color" content="#2eaadc">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
-    <meta name="apple-mobile-web-app-title" content="5amClub">
+    <meta name="apple-mobile-web-app-title" content="HeartWire">
+    <link rel="canonical" href="https://heart-wire-os.vercel.app/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="HeartWire OS">
+    <meta property="og:description" content="Engineering study OS — tracks, courses, and a library.">
+    <meta property="og:url" content="https://heart-wire-os.vercel.app/">
+    <meta property="og:image" content="https://heart-wire-os.vercel.app/og.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="HeartWire OS">
+    <meta name="twitter:description" content="Engineering study OS — tracks, courses, and a library.">
+    <meta name="twitter:image" content="https://heart-wire-os.vercel.app/og.png">
     
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -34,121 +46,6 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.15.0/Sortable.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-    <script>
-      const SUPABASE_URL = "https://opappznvhjtalcelcrta.supabase.co";
-      const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9wYXBwem52aGp0YWxjZWxjcnRhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjUyMjc1ODksImV4cCI6MjA4MDgwMzU4OX0.A3FB5QdN10OkPu-J6SbcF_usSt7SAmffBn4XjC2Tkyw";
-      
-      const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY, {
-        auth: {
-          autoRefreshToken: true,
-          persistSession: true,
-          detectSessionInUrl: true,
-        },
-      });
-
-      // Simple app state
-      const AppAuth = {
-        user: null, // <- your toggleTask code can read from here
-      };
-
-      // UI elements
-      const connectBtn = document.getElementById('connectCloudBtn');
-      const logoutBtn = document.getElementById('logoutBtn');
-      const userStatus = document.getElementById('userStatus');
-      const loginModal = document.getElementById('loginModal');
-      const loginEmail = document.getElementById('loginEmail');
-      const sendMagicLink = document.getElementById('sendMagicLink');
-      const cancelLogin = document.getElementById('cancelLogin');
-      const loginMsg = document.getElementById('loginMsg');
-
-      // Helpers
-      function show(el) { if(el) el.classList.remove('hidden'); }
-      function hide(el) { if(el) el.classList.add('hidden'); }
-      function openModal() { if(loginModal) { loginModal.classList.remove('hidden'); loginModal.classList.add('flex'); } }
-      function closeModal() { if(loginModal) { loginModal.classList.add('hidden'); loginModal.classList.remove('flex'); } if(loginMsg) loginMsg.textContent = ''; }
-
-      // Reflect user in the UI
-      function setAuthedUI(user) {
-        AppAuth.user = user;
-        // Also update the main App object user if it exists
-        if (typeof app !== 'undefined') app.user = user;
-        
-        if (user) {
-          if(userStatus) userStatus.textContent = user.email ?? 'Signed in';
-          hide(connectBtn);
-          show(logoutBtn);
-          
-          // After login: kick off cloud sync
-          // These methods might be on the 'app' object
-          if (typeof app !== 'undefined') {
-              if (app.syncDown) app.syncDown();
-              if (app.syncDownNotes) app.syncDownNotes();
-          } else {
-              // Fallback if 'app' isn't ready yet (race condition)
-              window.pendingSync = true;
-          }
-        } else {
-          if(userStatus) userStatus.textContent = 'Not connected';
-          show(connectBtn);
-          hide(logoutBtn);
-        }
-      }
-
-      // On page load, try to restore the session
-      (async function initAuth(){
-        const { data: { session } } = await supabase.auth.getSession();
-        setAuthedUI(session?.user ?? null);
-      })();
-
-      // Listen for auth state changes (new login via magic link)
-      supabase.auth.onAuthStateChange(async (event, session) => {
-        if (event === 'SIGNED_IN') {
-          setAuthedUI(session?.user ?? null);
-          closeModal();
-        }
-        if (event === 'SIGNED_OUT') {
-          setAuthedUI(null);
-        }
-      });
-
-      // Open modal
-      connectBtn?.addEventListener('click', () => {
-        openModal();
-        if(loginEmail) loginEmail.focus();
-      });
-
-      // Cancel modal
-      cancelLogin?.addEventListener('click', () => closeModal());
-
-      // Send magic link
-      sendMagicLink?.addEventListener('click', async () => {
-        if(loginMsg) loginMsg.textContent = '';
-        const email = (loginEmail?.value || '').trim();
-        if (!email) {
-          if(loginMsg) loginMsg.textContent = 'Please enter a valid email.';
-          return;
-        }
-        // Use email magic link
-        const { error } = await supabase.auth.signInWithOtp({
-          email,
-          options: {
-            emailRedirectTo: window.location.origin, // after clicking the email link, user returns here and session is detected
-          },
-        });
-        if (error) {
-          if(loginMsg) loginMsg.textContent = 'Error: ' + error.message;
-        } else {
-          if(loginMsg) loginMsg.textContent = 'Check your email for the sign-in link.';
-        }
-      });
-
-      // Logout
-      logoutBtn?.addEventListener('click', async () => {
-        await supabase.auth.signOut();
-        setAuthedUI(null);
-      });
-    </script>
     <style>
         body { font-family: 'Inter', sans-serif; }
         ::-webkit-scrollbar { width: 6px; height: 6px; }
@@ -189,61 +86,18 @@
     <!-- MOBILE HEADER -->
     <div class="md:hidden fixed top-0 left-0 right-0 h-16 bg-white dark:bg-darkSurface border-b border-slate-200 dark:border-slate-700 z-30 flex items-center justify-between px-4">
         <div class="flex items-center gap-3">
-            <button onclick="app.toggleSidebar()" class="text-slate-600 dark:text-slate-300"><i data-lucide="menu" class="w-6 h-6"></i></button>
-            <h1 class="text-lg font-bold tracking-tight">5amClub</h1>
+            <button onclick="app.toggleSidebar()" aria-label="Open menu" class="text-slate-600 dark:text-slate-300"><i data-lucide="menu" class="w-6 h-6"></i></button>
+            <h1 class="text-lg font-bold tracking-tight">HeartWire OS</h1>
         </div>
-        <button onclick="app.toggleDarkMode()" class="text-slate-400 hover:text-indigo-500"><i data-lucide="moon" class="w-5 h-5 block dark:hidden"></i><i data-lucide="sun" class="w-5 h-5 hidden dark:block"></i></button>
+        <button onclick="app.toggleDarkMode()" aria-label="Toggle dark mode" class="text-slate-400 hover:text-indigo-500"><i data-lucide="moon" class="w-5 h-5 block dark:hidden"></i><i data-lucide="sun" class="w-5 h-5 hidden dark:block"></i></button>
     </div>
 
-    <!-- AUTH UI -->
-    <div class="hidden md:flex fixed top-4 right-4 z-50 items-center gap-3">
-      <button id="connectCloudBtn" class="px-3 py-1 rounded bg-indigo-600 text-white text-sm font-medium hover:bg-indigo-700 transition-colors shadow-sm">
-        Connect Cloud
-      </button>
-      <span id="userStatus" class="text-xs font-medium text-slate-500 dark:text-slate-400 bg-slate-100 dark:bg-slate-800 px-2 py-1 rounded"></span>
-      <button id="logoutBtn" class="px-3 py-1 rounded bg-slate-200 dark:bg-slate-700 text-slate-700 dark:text-white text-sm font-medium hover:bg-slate-300 dark:hover:bg-slate-600 transition-colors hidden">
-        Logout
-      </button>
-    </div>
-
-    <!-- Email login modal -->
-    <div id="loginModal" class="fixed inset-0 bg-black/50 hidden items-center justify-center z-[100] backdrop-blur-sm">
-      <div class="bg-white dark:bg-[#1E1E1E] dark:text-white rounded-xl p-6 w-[320px] shadow-2xl border border-slate-200 dark:border-slate-700 transform scale-100 transition-transform">
-        <h3 class="font-bold mb-2 text-lg">Sign in to 5amClub</h3>
-        <p class="text-sm mb-4 text-slate-500 dark:text-slate-400">Enter your email to receive a login link.</p>
-        <input id="loginEmail" type="email" placeholder="you@example.com"
-               class="w-full border border-slate-200 dark:border-slate-700 rounded-lg px-3 py-2 mb-4 bg-slate-50 dark:bg-black/20 focus:outline-none focus:ring-2 focus:ring-indigo-500 transition-all" />
-        <div class="flex justify-end gap-2">
-          <button id="cancelLogin" class="px-3 py-1.5 border border-slate-200 dark:border-slate-700 rounded-lg text-sm hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors">Cancel</button>
-          <button id="sendMagicLink" class="px-3 py-1.5 bg-indigo-600 hover:bg-indigo-700 text-white rounded-lg text-sm font-medium transition-colors shadow-sm">Send link</button>
-        </div>
-        <p id="loginMsg" class="text-xs mt-3 text-center text-slate-500"></p>
-      </div>
-    </div>
-    <!-- Top bar -->
-    <div class="flex items-center gap-3">
-      <button id="connectCloudBtn" class="px-3 py-1 rounded bg-indigo-600 text-white text-sm font-medium hover:bg-indigo-700 transition-colors">
-        Connect Cloud
-      </button>
-      <span id="userStatus" class="text-sm text-slate-500 dark:text-slate-400"></span>
-      <button id="logoutBtn" class="px-3 py-1 rounded bg-slate-200 dark:bg-slate-700 text-slate-700 dark:text-white text-sm font-medium hover:bg-slate-300 dark:hover:bg-slate-600 transition-colors hidden">
-        Logout
-      </button>
-    </div>
-
-    <!-- Email login modal -->
-    <div id="loginModal" class="fixed inset-0 bg-black/50 hidden items-center justify-center z-[100]">
-      <div class="bg-white dark:bg-darkSurface dark:text-white rounded-lg p-6 w-[320px] shadow-xl border border-slate-200 dark:border-slate-700">
-        <h3 class="font-bold mb-2 text-lg">Sign in to 5amClub</h3>
-        <p class="text-sm mb-4 text-slate-500 dark:text-slate-400">Enter your email to receive a login link.</p>
-        <input id="loginEmail" type="email" placeholder="you@example.com"
-               class="w-full border dark:border-slate-600 rounded px-3 py-2 mb-4 bg-slate-50 dark:bg-slate-800 focus:outline-none focus:ring-2 focus:ring-indigo-500" />
-        <div class="flex justify-end gap-2">
-          <button id="cancelLogin" class="px-3 py-1.5 border dark:border-slate-600 rounded text-sm hover:bg-slate-50 dark:hover:bg-slate-700 transition-colors">Cancel</button>
-          <button id="sendMagicLink" class="px-3 py-1.5 bg-indigo-600 hover:bg-indigo-700 text-white rounded text-sm font-medium transition-colors">Send link</button>
-        </div>
-        <p id="loginMsg" class="text-xs mt-3 text-center text-slate-500"></p>
-      </div>
+    <!-- Local demo banner (cloud sync disabled — use the live Next.js app) -->
+    <div class="hidden md:flex fixed top-4 right-4 z-50 items-center gap-3 max-w-sm">
+      <span class="text-xs font-medium text-slate-500 dark:text-slate-400 bg-slate-100 dark:bg-slate-800 px-2 py-1 rounded">
+        Local demo — data stays in this browser
+      </span>
+      <a href="https://heart-wire-os.vercel.app/login" class="text-xs text-blue-500 hover:text-blue-700 underline whitespace-nowrap">Live app →</a>
     </div>
 
     <!-- SIDEBAR -->
@@ -251,10 +105,10 @@
     <aside id="sidebar" class="fixed md:static inset-y-0 left-0 w-64 bg-[#F7F7F5] dark:bg-[#202020] border-r border-gray-200 dark:border-gray-800 flex flex-col z-40 transform -translate-x-full md:translate-x-0 h-full transition-transform duration-300 pt-14 md:pt-0">
         <div class="p-4 flex justify-between items-center">
             <div class="flex items-center gap-2">
-                <div class="w-6 h-6 bg-black dark:bg-white text-white dark:text-black rounded flex items-center justify-center font-bold text-xs">5</div>
-                <span class="font-bold text-sm">5amClub</span>
+                <div class="w-6 h-6 bg-black dark:bg-white text-white dark:text-black rounded flex items-center justify-center font-bold text-xs">H</div>
+                <span class="font-bold text-sm">HeartWire</span>
             </div>
-            <button onclick="app.toggleDarkMode()" class="text-gray-500 hover:text-black dark:hover:text-white"><i data-lucide="moon" class="w-4 h-4 block dark:hidden"></i><i data-lucide="sun" class="w-4 h-4 hidden dark:block"></i></button>
+            <button onclick="app.toggleDarkMode()" aria-label="Toggle dark mode" class="text-gray-500 hover:text-black dark:hover:text-white"><i data-lucide="moon" class="w-4 h-4 block dark:hidden"></i><i data-lucide="sun" class="w-4 h-4 hidden dark:block"></i></button>
         </div>
         <nav class="flex-1 overflow-y-auto px-2 py-2 space-y-1">
             <p class="px-2 mt-4 mb-1 text-[10px] font-bold text-gray-400 uppercase tracking-wider">Workspace</p>
@@ -309,82 +163,14 @@
         </div>
     </div>
     <!-- APP LOGIC -->
-    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <script>
-        // --- SUPABASE & AUTH CONFIG ---
-        const SUPABASE_URL = 'https://opappznvhjtalcelcrta.supabase.co';
-        const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9wYXBwem52aGp0YWxjZWxjcnRhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjUyMjc1ODksImV4cCI6MjA4MDgwMzU4OX0.A3FB5QdN10OkPu-J6SbcF_usSt7SAmffBn4XjC2Tkyw';
-        
-        const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY, {
-            auth: { autoRefreshToken: true, persistSession: true, detectSessionInUrl: true }
-        });
-
+        // Local-only demo — cloud sync disabled (production app: heart-wire-os.vercel.app)
+        const supabase = null;
         const AppAuth = { user: null };
-
-        // Auth Logic (Wait for DOM)
-        window.addEventListener('DOMContentLoaded', () => {
-            const connectBtn = document.getElementById('connectCloudBtn');
-            const logoutBtn = document.getElementById('logoutBtn');
-            const userStatus = document.getElementById('userStatus');
-            const loginModal = document.getElementById('loginModal');
-            const loginEmail = document.getElementById('loginEmail');
-            const sendMagicLink = document.getElementById('sendMagicLink');
-            const cancelLogin = document.getElementById('cancelLogin');
-            const loginMsg = document.getElementById('loginMsg');
-
-            function show(el) { if(el) el.classList.remove('hidden'); }
-            function hide(el) { if(el) el.classList.add('hidden'); }
-            function openModal() { if(loginModal) { loginModal.classList.remove('hidden'); loginModal.classList.add('flex'); } }
-            function closeModal() { if(loginModal) { loginModal.classList.add('hidden'); loginModal.classList.remove('flex'); } if(loginMsg) loginMsg.textContent = ''; }
-
-            window.setAuthedUI = function(user) {
-                AppAuth.user = user;
-                if (typeof app !== 'undefined') app.user = user;
-                
-                if (user) {
-                    if(userStatus) userStatus.textContent = user.email;
-                    hide(connectBtn);
-                    show(logoutBtn);
-                    if (typeof app !== 'undefined' && app.syncDown) app.syncDown();
-                } else {
-                    if(userStatus) userStatus.textContent = '';
-                    show(connectBtn);
-                    hide(logoutBtn);
-                }
-            };
-
-            // Init Auth
-            (async function initAuth(){
-                const { data: { session } } = await supabase.auth.getSession();
-                window.setAuthedUI(session?.user ?? null);
-            })();
-
-            supabase.auth.onAuthStateChange(async (event, session) => {
-                if (event === 'SIGNED_IN') {
-                    window.setAuthedUI(session?.user ?? null);
-                    closeModal();
-                }
-                if (event === 'SIGNED_OUT') {
-                    window.setAuthedUI(null);
-                }
-            });
-
-            if(connectBtn) connectBtn.addEventListener('click', () => { openModal(); if(loginEmail) loginEmail.focus(); });
-            if(cancelLogin) cancelLogin.addEventListener('click', closeModal);
-            if(logoutBtn) logoutBtn.addEventListener('click', async () => { await supabase.auth.signOut(); window.setAuthedUI(null); });
-            
-            if(sendMagicLink) sendMagicLink.addEventListener('click', async () => {
-                if(loginMsg) loginMsg.textContent = 'Sending...';
-                const email = (loginEmail?.value || '').trim();
-                if (!email) { if(loginMsg) loginMsg.textContent = 'Please enter a valid email.'; return; }
-                const { error } = await supabase.auth.signInWithOtp({
-                    email,
-                    options: { emailRedirectTo: window.location.origin }
-                });
-                if (error) { if(loginMsg) loginMsg.textContent = 'Error: ' + error.message; } 
-                else { if(loginMsg) loginMsg.textContent = 'Check your email for the sign-in link!'; }
-            });
-        });
+        window.setAuthedUI = function(user) {
+            AppAuth.user = user;
+            if (typeof app !== 'undefined') app.user = user;
+        };
 
         const CURRENT_VERSION = '8.0.0';
         const STORAGE_KEY = '5amClub_v8';

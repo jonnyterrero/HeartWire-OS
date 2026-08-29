@@ -206,9 +206,12 @@ export default function LoginPage() {
         <p className="text-center text-xs text-gray-500 mt-6 leading-relaxed">
           iPhone: Share → Add to Home Screen. Android: Chrome menu → Install app.
         </p>
-        <p className="text-center text-xs text-gray-600 mt-2">
+        <p className="text-center text-xs text-gray-600 mt-2 space-x-3">
           <Link href="/privacy" className="hover:text-gray-400 underline underline-offset-2">
             Privacy
+          </Link>
+          <Link href="/terms" className="hover:text-gray-400 underline underline-offset-2">
+            Terms
           </Link>
         </p>
       </div>

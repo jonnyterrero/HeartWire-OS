@@ -32,7 +32,7 @@ Branch: `feat/heartwire-upgrade`
 
 ### Blocked
 - **`npx prisma migrate dev` failed with P1000 (auth)**. The host `db.opappznvhjtalcelcrta.supabase.co` resolves and accepts the connection, but the `postgres` user / password combination provided is rejected. Possible causes:
-  1. Password typo in chat (the user said `Q6371895nycj108!2937?`).
+  1. Password typo in chat (credentials were pasted in plaintext — rotate if still in use).
   2. Supabase auto-rotated credentials after keys were pasted in plaintext.
   3. Direct-connection user format may have changed (some Supabase projects now require `postgres.<ref>` even for direct).
 - **Action needed from user**: rotate keys in Supabase dashboard, then put the new `DATABASE_URL` and `DIRECT_URL` in `.env` (URL-encode any special chars). Then run `npx prisma migrate dev --name heartwire_upgrade_v1`.

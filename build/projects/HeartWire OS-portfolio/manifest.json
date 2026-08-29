@@ -1,8 +1,9 @@
 {
   "name": "HeartWire OS",
   "short_name": "HeartWire",
-  "description": "Engineering study tracker and knowledge OS",
+  "description": "Archived local-first demo — production app at heart-wire-os.vercel.app",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "background_color": "#191919",
   "theme_color": "#2eaadc",

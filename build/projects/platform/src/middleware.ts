@@ -8,7 +8,7 @@ type CookieToSet = {
   options?: Record<string, unknown>;
 };
 
-const PUBLIC_PREFIXES = ["/login", "/auth", "/privacy"];
+const PUBLIC_PREFIXES = ["/login", "/auth", "/privacy", "/terms", "/reset-password"];
 
 function isPublicPath(pathname: string) {
   return PUBLIC_PREFIXES.some(
