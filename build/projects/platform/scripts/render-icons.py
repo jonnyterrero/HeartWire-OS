@@ -1,4 +1,4 @@
-"""Rasterize HeartWire icons from the brand SVG geometry. No extra deps."""
+"""Legacy procedural icons — prefer scripts/brand-icons.py when brand PNGs exist."""
 from __future__ import annotations
 
 import math

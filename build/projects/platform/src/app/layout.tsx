@@ -70,7 +70,7 @@ export default async function RootLayout({
   return (
     <html lang="en" className="dark">
       <head>
-        <meta name="theme-color" content="#2eaadc" />
+        <meta name="theme-color" content="#0b1411" />
       </head>
       <body className="flex h-screen overflow-hidden bg-slate-50 dark:bg-darkBg text-slate-900 dark:text-slate-100">
         <PwaUpdater />

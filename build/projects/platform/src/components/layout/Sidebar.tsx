@@ -156,9 +156,13 @@ export default function Sidebar() {
     <aside className="fixed inset-y-0 left-0 w-64 bg-[#F7F7F5] dark:bg-[#202020] border-r border-gray-200 dark:border-gray-800 flex flex-col z-40 transition-colors duration-300 hidden md:flex">
       <div className="p-4 flex justify-between items-center border-b border-gray-200 dark:border-gray-800/50">
         <div className="flex items-center gap-2">
-          <div className="w-6 h-6 bg-black dark:bg-white text-white dark:text-black rounded flex items-center justify-center font-bold text-xs">
-            H
-          </div>
+          <img
+            src="/favicon-32.png"
+            alt=""
+            width={24}
+            height={24}
+            className="h-6 w-6 rounded"
+          />
           <span className="font-bold text-sm text-gray-900 dark:text-gray-100">
             HeartWire OS
           </span>

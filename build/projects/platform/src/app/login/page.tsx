@@ -77,11 +77,18 @@ export default function LoginPage() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-[#191919] px-4 py-10">
       <div className="w-full max-w-sm">
-        <div className="flex items-center justify-center gap-3 mb-6">
-          <div className="w-10 h-10 bg-white text-black rounded-lg flex items-center justify-center font-bold text-xl">
-            H
-          </div>
+        <div className="flex flex-col items-center gap-2 mb-6">
+          <img
+            src="/icon-512.png"
+            alt=""
+            width={56}
+            height={56}
+            className="h-14 w-14 rounded-xl"
+          />
           <span className="text-2xl font-bold text-white">HeartWire OS</span>
+          <span className="text-[10px] uppercase tracking-[0.35em] text-teal-400/80">
+            Intelligent Learning
+          </span>
         </div>
 
         <p className="text-center text-sm text-gray-400 mb-6 leading-relaxed">
