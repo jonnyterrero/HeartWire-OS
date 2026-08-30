@@ -3,7 +3,10 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import { createSupabaseBrowserClient } from "@/lib/supabase-browser";
+import { clearRuntimeCaches } from "@/lib/pwa-cache";
 import FocusPicker from "@/components/focus/FocusPicker";
+import ThemeToggle from "@/components/settings/ThemeToggle";
+import FeedbackSection from "@/components/settings/FeedbackSection";
 
 export default function SettingsPage() {
   const [email, setEmail] = useState<string | null>(null);
@@ -70,6 +73,7 @@ export default function SettingsPage() {
   async function signOut() {
     const supabase = createSupabaseBrowserClient();
     await supabase.auth.signOut();
+    await clearRuntimeCaches();
     router.push("/login");
     router.refresh();
   }
@@ -93,6 +97,7 @@ export default function SettingsPage() {
     }
     const supabase = createSupabaseBrowserClient();
     await supabase.auth.signOut();
+    await clearRuntimeCaches();
     router.push("/login");
     router.refresh();
   }
@@ -100,59 +105,71 @@ export default function SettingsPage() {
   return (
     <div className="max-w-2xl space-y-8">
       <header>
-        <h1 className="text-2xl font-bold text-gray-900 dark:text-white">
+        <h1 className="text-2xl font-bold text-[color:var(--hw-text)]">
           Settings
         </h1>
       </header>
 
-      <section className="border border-gray-200 dark:border-gray-800 rounded-md p-4 bg-white dark:bg-darkSurface space-y-3">
-        <h2 className="text-sm font-semibold text-gray-700 dark:text-gray-300">
+      <section className="border border-[color:var(--hw-border)] rounded-lg p-4 bg-[color:var(--hw-surface)] space-y-3">
+        <h2 className="text-sm font-semibold text-[color:var(--hw-text)]">
+          Appearance
+        </h2>
+        <p className="text-xs text-[color:var(--hw-muted)]">
+          Choose light, dark, or match your system.
+        </p>
+        <ThemeToggle />
+      </section>
+
+      <section className="border border-[color:var(--hw-border)] rounded-lg p-4 bg-[color:var(--hw-surface)] space-y-3">
+        <h2 className="text-sm font-semibold text-[color:var(--hw-text)]">
           Account
         </h2>
         <div className="text-sm">
-          <p className="text-gray-500">Signed in as</p>
-          <p className="text-gray-900 dark:text-white">{email ?? "—"}</p>
+          <p className="text-[color:var(--hw-muted)]">Signed in as</p>
+          <p className="text-[color:var(--hw-text)]">{email ?? "—"}</p>
         </div>
         <button
           onClick={signOut}
-          className="px-3 py-1.5 text-sm rounded border border-gray-200 dark:border-gray-700 text-gray-700 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800"
+          className="px-3 py-2 text-sm rounded-lg border border-[color:var(--hw-border)] text-[color:var(--hw-text)] hover:bg-hw-sky/5 min-h-[44px]"
         >
           Sign out
         </button>
       </section>
 
-      <section className="border border-red-200 dark:border-red-900/50 rounded-md p-4 bg-white dark:bg-darkSurface space-y-3">
+      <FeedbackSection />
+
+      <section className="border border-red-200 dark:border-red-900/50 rounded-lg p-4 bg-[color:var(--hw-surface)] space-y-3">
         <h2 className="text-sm font-semibold text-red-700 dark:text-red-400">
           Delete account
         </h2>
-        <p className="text-xs text-gray-500">
+        <p className="text-xs text-[color:var(--hw-muted)]">
           Permanently removes your tracks, notes, journal, and login. This
           cannot be undone.
         </p>
         <button
           onClick={deleteAccount}
           disabled={deleting}
-          className="px-3 py-1.5 text-sm rounded border border-red-300 dark:border-red-800 text-red-700 dark:text-red-400 hover:bg-red-50 dark:hover:bg-red-950/40 disabled:opacity-50"
+          className="px-3 py-2 text-sm rounded-lg border border-red-300 dark:border-red-800 text-red-700 dark:text-red-400 hover:bg-red-50 dark:hover:bg-red-950/40 disabled:opacity-50 min-h-[44px]"
         >
           {deleting ? "Deleting…" : "Delete my account"}
         </button>
       </section>
 
-      <section className="border border-gray-200 dark:border-gray-800 rounded-md p-4 bg-white dark:bg-darkSurface space-y-3">
-        <h2 className="text-sm font-semibold text-gray-700 dark:text-gray-300">
+      <section className="border border-[color:var(--hw-border)] rounded-lg p-4 bg-[color:var(--hw-surface)] space-y-3">
+        <h2 className="text-sm font-semibold text-[color:var(--hw-text)]">
           Current focus
         </h2>
-        <p className="text-xs text-gray-500">
+        <p className="text-xs text-[color:var(--hw-muted)]">
           Pick up to 5 courses and 3 projects to highlight on your dashboard.
         </p>
         <FocusPicker />
       </section>
 
-      <section className="border border-gray-200 dark:border-gray-800 rounded-md p-4 bg-white dark:bg-darkSurface space-y-3">
-        <h2 className="text-sm font-semibold text-gray-700 dark:text-gray-300">
+      <section className="border border-[color:var(--hw-border)] rounded-lg p-4 bg-[color:var(--hw-surface)] space-y-3">
+        <h2 className="text-sm font-semibold text-[color:var(--hw-text)]">
           Default tracks
         </h2>
-        <p className="text-xs text-gray-500">
+        <p className="text-xs text-[color:var(--hw-muted)]">
           Seeds the 6 HeartWire-OS default tracks (Math, Physics & Chemistry,
           Neuroscience, SE, Mech, EE) for your account. Skips ones you already
           have.
@@ -160,18 +177,18 @@ export default function SettingsPage() {
         <button
           onClick={seedDefaults}
           disabled={seeding}
-          className="px-3 py-1.5 bg-primary text-white text-sm rounded hover:opacity-90 disabled:opacity-50"
+          className="px-3 py-2 bg-hw-sky text-white text-sm rounded-lg hover:opacity-90 disabled:opacity-50 min-h-[44px]"
         >
           {seeding ? "Seeding…" : "Seed default tracks"}
         </button>
         <button
           onClick={addTrack}
-          className="ml-2 px-3 py-1.5 text-sm rounded border border-gray-200 dark:border-gray-700 text-gray-700 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800"
+          className="ml-2 px-3 py-2 text-sm rounded-lg border border-[color:var(--hw-border)] text-[color:var(--hw-text)] hover:bg-hw-sky/5 min-h-[44px]"
         >
           Add custom track
         </button>
         {seedResult && (
-          <p className="text-xs text-gray-500">{seedResult}</p>
+          <p className="text-xs text-[color:var(--hw-muted)]">{seedResult}</p>
         )}
       </section>
     </div>

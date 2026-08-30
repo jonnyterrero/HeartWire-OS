@@ -10,7 +10,7 @@ export default function HeartWireThemeProvider({
   return (
     <ThemeProvider
       attribute="class"
-      defaultTheme="dark"
+      defaultTheme="system"
       enableSystem
       storageKey="heartwire-theme"
       disableTransitionOnChange

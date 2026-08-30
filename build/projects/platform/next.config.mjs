@@ -6,7 +6,7 @@ const pwaConfig = {
   disable: process.env.NODE_ENV === "development",
   register: true,
   skipWaiting: true,
-  cacheId: "heartwire-v2026-08",
+  cacheId: "heartwire-v2026-08-beta1",
   runtimeCaching: [
     // Never cache authenticated API JSON — URL-only cache keys can leak between users.
     {
@@ -68,6 +68,10 @@ const pwaConfig = {
         cacheName: "static-style-assets",
         expiration: { maxEntries: 32, maxAgeSeconds: 24 * 60 * 60 },
       },
+    },
+    {
+      urlPattern: ({ request }) => request.mode === "navigate",
+      handler: "NetworkOnly",
     },
     {
       urlPattern: /^https?.*/,

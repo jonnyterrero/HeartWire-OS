@@ -1,9 +1,11 @@
 "use client";
 
 import { DragDropContext, Droppable, Draggable, DropResult } from "@hello-pangea/dnd";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 import { Plus, Trash2 } from "lucide-react";
 import clsx from "clsx";
+import { KanbanSkeleton } from "@/components/ui/LoadingSkeleton";
+import FetchErrorBanner from "@/components/ui/FetchErrorBanner";
 
 type Task = {
   id: string;
@@ -32,12 +34,18 @@ export default function KanbanBoard() {
     COLUMNS.map((id) => ({ id, title: COLUMN_TITLES[id], tasks: [] }))
   );
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
   const [addingTo, setAddingTo] = useState<string | null>(null);
   const [newTaskTitle, setNewTaskTitle] = useState("");
 
-  useEffect(() => {
+  const loadTasks = useCallback(() => {
+    setLoading(true);
+    setError(null);
     fetch("/api/tasks")
-      .then((r) => r.json())
+      .then((r) => {
+        if (!r.ok) throw new Error("fetch failed");
+        return r.json();
+      })
       .then((tasks: Task[]) => {
         setColumns(
           COLUMNS.map((id) => ({
@@ -47,8 +55,13 @@ export default function KanbanBoard() {
           }))
         );
       })
+      .catch(() => setError("Could not load tasks."))
       .finally(() => setLoading(false));
   }, []);
+
+  useEffect(() => {
+    loadTasks();
+  }, [loadTasks]);
 
   const onDragEnd = async (result: DropResult) => {
     const { source, destination } = result;
@@ -118,8 +131,9 @@ export default function KanbanBoard() {
     LOW: "bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300",
   };
 
-  if (loading) {
-    return <div className="flex items-center justify-center h-64 text-gray-500">Loading tasks...</div>;
+  if (loading) return <KanbanSkeleton />;
+  if (error) {
+    return <FetchErrorBanner message={error} onRetry={loadTasks} />;
   }
 
   return (

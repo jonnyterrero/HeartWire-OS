@@ -40,7 +40,6 @@ export default function PwaUpdater() {
             navigator.serviceWorker.controller
           ) {
             setUpdateReady(true);
-            worker.postMessage({ type: "SKIP_WAITING" });
           }
         });
       });
@@ -83,8 +82,13 @@ export default function PwaUpdater() {
       </p>
       <button
         type="button"
-        onClick={() => window.location.reload()}
-        className="w-full px-3 py-1.5 bg-primary text-white rounded text-sm hover:opacity-90"
+        onClick={() => {
+          navigator.serviceWorker.ready.then((reg) => {
+            reg.waiting?.postMessage({ type: "SKIP_WAITING" });
+          });
+          window.location.reload();
+        }}
+        className="w-full px-3 py-1.5 bg-hw-sky text-white rounded text-sm hover:opacity-90"
       >
         Reload now
       </button>

@@ -4,6 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { createSupabaseBrowserClient } from "@/lib/supabase-browser";
 import { useRouter } from "next/navigation";
+import BrandLogo from "@/components/BrandLogo";
 
 type Mode = "signin" | "signup" | "forgot";
 
@@ -54,8 +55,9 @@ export default function LoginPage() {
       } else {
         setMessage({
           type: "success",
-          text: "Account created. Check your inbox to confirm, then sign in.",
+          text: "Account created! Check your inbox for a confirmation link — you must verify before signing in. Check spam if it doesn't arrive in a few minutes.",
         });
+        setMode("signin");
       }
     } else {
       const { error } = await supabase.auth.signInWithPassword({
@@ -78,13 +80,7 @@ export default function LoginPage() {
     <div className="min-h-screen flex items-center justify-center hw-glow-bg px-4 py-10">
       <div className="w-full max-w-sm">
         <div className="flex flex-col items-center gap-2 mb-6">
-          <img
-            src="/icon-512.png"
-            alt=""
-            width={56}
-            height={56}
-            className="h-14 w-14 rounded-xl"
-          />
+          <BrandLogo size={56} className="h-14 w-14" />
           <span className="text-2xl font-bold">
             <span className="text-slate-900 dark:text-hw-ghost">Heart</span>
             <span className="hw-gradient-text">Wire</span>

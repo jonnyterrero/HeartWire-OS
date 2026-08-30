@@ -9,6 +9,7 @@ import { createSupabaseBrowserClient } from "@/lib/supabase-browser";
 import { clearRuntimeCaches } from "@/lib/pwa-cache";
 import { useTrackGroups } from "@/hooks/useTrackGroups";
 import NavigationPanel from "./NavigationPanel";
+import BrandLogo from "@/components/BrandLogo";
 
 export default function Sidebar() {
   const pathname = usePathname();
@@ -46,20 +47,7 @@ export default function Sidebar() {
     <aside className="fixed inset-y-0 left-0 w-64 bg-hw-ghost dark:bg-darkSurface border-r border-[color:var(--hw-border)] flex flex-col z-40 transition-colors duration-300 hidden md:flex">
       <div className="p-4 flex justify-between items-center border-b border-[color:var(--hw-border)]">
         <Link href="/" className="flex items-center gap-2">
-          <img
-            src="/favicon-32.png"
-            alt=""
-            width={24}
-            height={24}
-            className="h-6 w-6 rounded dark:block hidden"
-          />
-          <img
-            src="/icon-light-512.png"
-            alt=""
-            width={24}
-            height={24}
-            className="h-6 w-6 rounded block dark:hidden"
-          />
+          <BrandLogo size={24} className="h-6 w-6" />
           <span className="font-bold text-sm">HeartWire OS</span>
         </Link>
         <button

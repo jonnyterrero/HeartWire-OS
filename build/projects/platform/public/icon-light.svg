@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="HeartWire">
+  <rect width="512" height="512" fill="#F8F7FF"/>
+  <g transform="translate(256 280) scale(5.5) translate(-32 -30)">
+    <defs>
+      <linearGradient id="hw-stroke" x1="8" y1="10" x2="56" y2="54" gradientUnits="userSpaceOnUse">
+        <stop offset="0%" stop-color="#0EA5E9"/>
+        <stop offset="45%" stop-color="#A5B4FC"/>
+        <stop offset="100%" stop-color="#E879F9"/>
+      </linearGradient>
+    </defs>
+    <path
+      d="M32 52 C18 40 8 32 8 22 C8 14 14 8 22 8 C26 8 30 10 32 14 C34 10 38 8 42 8 C50 8 56 14 56 22 C56 32 46 40 32 52 Z"
+      fill="none"
+      stroke="url(#hw-stroke)"
+      stroke-width="3.2"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M14 30 H22 L26 22 L30 38 L34 26 H50"
+      fill="none"
+      stroke="url(#hw-stroke)"
+      stroke-width="2.4"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <circle cx="14" cy="30" r="2.2" fill="#0EA5E9"/>
+    <circle cx="26" cy="22" r="2.2" fill="#A5B4FC"/>
+    <circle cx="30" cy="38" r="2.2" fill="#E879F9"/>
+    <circle cx="34" cy="26" r="2.2" fill="#FCA5A5"/>
+    <circle cx="50" cy="26" r="2.2" fill="#E879F9"/>
+  </g>
+</svg>

@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import Link from "next/link";
 import {
   Clock,
@@ -14,6 +14,9 @@ import {
   FolderKanban,
   Settings2,
 } from "lucide-react";
+import EmptyState from "@/components/ui/EmptyState";
+import FetchErrorBanner from "@/components/ui/FetchErrorBanner";
+import { DashboardSkeleton } from "@/components/ui/LoadingSkeleton";
 
 type SessionStats = {
   totalSessions: number;
@@ -75,9 +78,12 @@ export default function Dashboard() {
   const [lastJournal, setLastJournal] = useState<Note | null>(null);
   const [upcomingEvents, setUpcomingEvents] = useState<CalendarEvent[]>([]);
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
 
-  useEffect(() => {
-    async function load() {
+  const load = useCallback(async () => {
+    setLoading(true);
+    setError(null);
+    try {
       const now = new Date();
       const horizon = new Date();
       horizon.setDate(horizon.getDate() + 14);
@@ -104,6 +110,24 @@ export default function Dashboard() {
         ),
       ]);
 
+      const failed = [
+        sessionsRes,
+        focusRes,
+        tasksRes,
+        habitsRes,
+        examRes,
+        resourcesRes,
+        notesRes,
+        eventsRes,
+      ].filter((r) => !r.ok);
+      if (failed.length === 8) {
+        setError("Could not reach the server. Check your connection and sign in again.");
+        return;
+      }
+      if (failed.length > 0) {
+        setError("Some dashboard data could not be loaded. Showing partial results.");
+      }
+
       if (sessionsRes.ok)
         setSessionStats((await sessionsRes.json()).stats);
       if (focusRes.ok) {
@@ -127,9 +151,15 @@ export default function Dashboard() {
         const evs: CalendarEvent[] = await eventsRes.json();
         setUpcomingEvents(evs.slice(0, 3));
       }
+    } catch {
+      setError("Could not load dashboard. Check your connection and try again.");
+    } finally {
       setLoading(false);
     }
-    load().catch(() => setLoading(false));
+  }, []);
+
+  useEffect(() => {
+    load();
 
     function onFocusChanged() {
       fetch("/api/focus")
@@ -145,7 +175,7 @@ export default function Dashboard() {
     window.addEventListener("heartwire:focus-changed", onFocusChanged);
     return () =>
       window.removeEventListener("heartwire:focus-changed", onFocusChanged);
-  }, []);
+  }, [load]);
 
   const openTasks = tasks.filter((t) => t.status !== "DONE").length;
   const dueToday = tasks.filter((t) => {
@@ -161,14 +191,21 @@ export default function Dashboard() {
     );
   }).length;
   const habitCompletion = computeHabitWeekRate(habits);
+  const isEmptyWorkspace =
+    !loading &&
+    !error &&
+    (sessionStats?.totalSessions ?? 0) === 0 &&
+    habits.length === 0 &&
+    tasks.length === 0 &&
+    focusCourses.length === 0;
 
   return (
     <div className="max-w-6xl space-y-6">
       <header>
-        <h1 className="text-2xl font-bold text-gray-900 dark:text-white">
+        <h1 className="text-2xl font-bold text-[color:var(--hw-text)]">
           Dashboard
         </h1>
-        <p className="text-sm text-gray-500 dark:text-gray-400">
+        <p className="text-sm text-[color:var(--hw-muted)]">
           {new Date().toLocaleDateString("en-US", {
             weekday: "long",
             month: "long",
@@ -177,10 +214,38 @@ export default function Dashboard() {
         </p>
       </header>
 
+      {error && (
+        <FetchErrorBanner message={error} onRetry={load} />
+      )}
+
       {loading ? (
-        <p className="text-sm text-gray-500">Loading…</p>
-      ) : (
+        <DashboardSkeleton />
+      ) : error && (sessionStats === null && tasks.length === 0) ? null : (
         <>
+          {isEmptyWorkspace && (
+            <div className="border border-hw-sky/30 rounded-lg p-6 bg-hw-sky/5">
+              <EmptyState
+                icon={Clock}
+                title="Welcome — let's get studying"
+                description="Log your first session or add a habit to start building momentum."
+                action={{ href: "/tracking/study-hours", label: "Start a study session" }}
+              />
+              <div className="flex flex-wrap justify-center gap-2 mt-2">
+                <Link
+                  href="/habits"
+                  className="px-3 py-2 text-sm rounded-lg border border-[color:var(--hw-border)] hover:bg-hw-sky/5"
+                >
+                  Add a habit
+                </Link>
+                <Link
+                  href="/settings"
+                  className="px-3 py-2 text-sm rounded-lg border border-[color:var(--hw-border)] hover:bg-hw-sky/5"
+                >
+                  Pick focus courses
+                </Link>
+              </div>
+            </div>
+          )}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
             <Stat
               label="Study (7d)"
@@ -200,7 +265,8 @@ export default function Dashboard() {
             />
             <Stat
               label="Habits this week"
-              value={`${habitCompletion}%`}
+              value={habits.length === 0 ? "—" : `${habitCompletion}%`}
+              hint={habits.length === 0 ? "Add a habit" : undefined}
               icon={<Target className="w-4 h-4" />}
             />
             <Stat
@@ -220,12 +286,12 @@ export default function Dashboard() {
               link={{ href: "/settings", label: "Edit focus" }}
             >
               {focusCourses.length === 0 ? (
-                <Empty>
-                  No courses selected.{" "}
-                  <Link href="/settings" className="text-primary hover:underline">
-                    Pick your focus
-                  </Link>
-                </Empty>
+                <EmptyState
+                  icon={BookOpen}
+                  title="No focus courses yet"
+                  description="Highlight up to 5 courses on your dashboard."
+                  action={{ href: "/settings", label: "Pick your focus" }}
+                />
               ) : (
                 <ul className="space-y-2">
                   {focusCourses.map((c) => (
@@ -262,12 +328,12 @@ export default function Dashboard() {
               link={{ href: "/projects", label: "All projects" }}
             >
               {focusProjects.length === 0 ? (
-                <Empty>
-                  No projects selected.{" "}
-                  <Link href="/settings" className="text-primary hover:underline">
-                    Pick your focus
-                  </Link>
-                </Empty>
+                <EmptyState
+                  icon={FolderKanban}
+                  title="No focus projects"
+                  description="Pin active projects to track progress here."
+                  action={{ href: "/settings", label: "Pick your focus" }}
+                />
               ) : (
                 <ul className="space-y-2">
                   {focusProjects.map((p) => (
@@ -317,7 +383,12 @@ export default function Dashboard() {
               link={{ href: "/resources", label: "All resources" }}
             >
               {recentResources.length === 0 ? (
-                <Empty>No resources yet.</Empty>
+                <EmptyState
+                  icon={Library}
+                  title="No resources saved"
+                  description="Bookmark repos, PDFs, and links as you study."
+                  action={{ href: "/resources", label: "Browse resources" }}
+                />
               ) : (
                 <ul className="divide-y divide-gray-100 dark:divide-gray-800">
                   {recentResources.map((r) => (
@@ -351,7 +422,12 @@ export default function Dashboard() {
               link={{ href: "/tracking/journal", label: "All entries" }}
             >
               {!lastJournal ? (
-                <Empty>No journal entries yet.</Empty>
+                <EmptyState
+                  icon={PenLine}
+                  title="No journal entries"
+                  description="Reflect on what you learned today."
+                  action={{ href: "/tracking/journal", label: "Write an entry" }}
+                />
               ) : (
                 <div>
                   <p className="text-sm font-semibold text-gray-900 dark:text-white">
@@ -373,7 +449,12 @@ export default function Dashboard() {
               link={{ href: "/calendar", label: "Open calendar" }}
             >
               {upcomingEvents.length === 0 ? (
-                <Empty>Nothing scheduled.</Empty>
+                <EmptyState
+                  icon={CalendarIcon}
+                  title="Nothing scheduled"
+                  description="Add exams, deadlines, and study blocks."
+                  action={{ href: "/calendar", label: "Open calendar" }}
+                />
               ) : (
                 <ul className="space-y-1.5">
                   {upcomingEvents.map((e) => (
@@ -399,26 +480,32 @@ export default function Dashboard() {
           <div className="flex flex-wrap gap-2">
             <Link
               href="/tracking/study-hours"
-              className="px-3 py-1.5 text-sm rounded border border-gray-200 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-800"
+              className="px-3 py-2 text-sm rounded-lg border border-[color:var(--hw-border)] hover:bg-hw-sky/5 min-h-[44px] inline-flex items-center"
             >
               Log study session
             </Link>
             <Link
               href="/tracking/study-hours?retro=1"
-              className="px-3 py-1.5 text-sm rounded border border-gray-200 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-800 inline-flex items-center gap-1.5"
+              className="px-3 py-2 text-sm rounded-lg border border-[color:var(--hw-border)] hover:bg-hw-sky/5 inline-flex items-center gap-1.5 min-h-[44px]"
             >
-              <Settings2 className="w-3.5 h-3.5" />
+              <Settings2 className="w-3.5 h-3.5" aria-hidden />
               Log past session
             </Link>
             <Link
+              href="/habits"
+              className="px-3 py-2 text-sm rounded-lg border border-[color:var(--hw-border)] hover:bg-hw-sky/5 min-h-[44px] inline-flex items-center"
+            >
+              Add a habit
+            </Link>
+            <Link
               href="/tracking/fe-pe"
-              className="px-3 py-1.5 text-sm rounded border border-gray-200 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-800"
+              className="px-3 py-2 text-sm rounded-lg border border-[color:var(--hw-border)] hover:bg-hw-sky/5 min-h-[44px] inline-flex items-center"
             >
               Log FE/PE practice
             </Link>
             <Link
               href="/tracking/journal"
-              className="px-3 py-1.5 text-sm rounded border border-gray-200 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-800"
+              className="px-3 py-2 text-sm rounded-lg border border-[color:var(--hw-border)] hover:bg-hw-sky/5 min-h-[44px] inline-flex items-center"
             >
               New journal entry
             </Link>
@@ -465,15 +552,15 @@ function Stat({
   icon: React.ReactNode;
 }) {
   return (
-    <div className="border border-gray-200 dark:border-gray-800 rounded-md p-3 bg-white dark:bg-darkSurface">
-      <div className="flex items-center gap-2 text-xs text-gray-500 mb-1">
+    <div className="border border-[color:var(--hw-border)] rounded-lg p-3 bg-[color:var(--hw-surface)]">
+      <div className="flex items-center gap-2 text-xs text-[color:var(--hw-muted)] mb-1">
         {icon}
         {label}
       </div>
-      <p className="text-xl font-bold text-gray-900 dark:text-white tabular-nums">
+      <p className="text-xl font-bold text-[color:var(--hw-text)] tabular-nums">
         {value}
       </p>
-      {hint && <p className="text-[11px] text-gray-500 mt-0.5">{hint}</p>}
+      {hint && <p className="text-[11px] text-[color:var(--hw-muted)] mt-0.5">{hint}</p>}
     </div>
   );
 }
@@ -490,16 +577,16 @@ function Section({
   children: React.ReactNode;
 }) {
   return (
-    <section className="border border-gray-200 dark:border-gray-800 rounded-md p-3 bg-white dark:bg-darkSurface">
+    <section className="border border-[color:var(--hw-border)] rounded-lg p-3 bg-[color:var(--hw-surface)]">
       <header className="flex items-center justify-between mb-2">
-        <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wide text-gray-500">
+        <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wide text-[color:var(--hw-muted)]">
           {icon}
           {title}
         </div>
         {link && (
           <Link
             href={link.href}
-            className="text-[11px] text-primary hover:underline"
+            className="text-[11px] text-hw-sky hover:underline"
           >
             {link.label}
           </Link>
@@ -508,8 +595,4 @@ function Section({
       {children}
     </section>
   );
-}
-
-function Empty({ children }: { children: React.ReactNode }) {
-  return <p className="text-sm text-gray-500">{children}</p>;
 }

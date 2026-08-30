@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0a12"/>
+      <stop offset="100%" stop-color="#14141f"/>
+    </linearGradient>
+    <linearGradient id="hw" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0EA5E9"/>
+      <stop offset="50%" stop-color="#A5B4FC"/>
+      <stop offset="100%" stop-color="#E879F9"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1200" height="630" fill="url(#bg)" opacity="0.9"/>
+  <circle cx="200" cy="120" r="280" fill="#0EA5E9" opacity="0.08"/>
+  <circle cx="1000" cy="500" r="320" fill="#E879F9" opacity="0.06"/>
+  <!-- logo mark -->
+  <g transform="translate(120 200) scale(3.2)">
+    <path d="M32 52 C18 40 8 32 8 22 C8 14 14 8 22 8 C26 8 30 10 32 14 C34 10 38 8 42 8 C50 8 56 14 56 22 C56 32 46 40 32 52 Z" fill="none" stroke="url(#hw)" stroke-width="3.2" stroke-linejoin="round"/>
+    <path d="M14 30 H22 L26 22 L30 38 L34 26 H50" fill="none" stroke="url(#hw)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="320" y="280" fill="#F8F7FF" font-family="system-ui,sans-serif" font-size="72" font-weight="700">HeartWire OS</text>
+  <text x="320" y="340" fill="#A5B4FC" font-family="system-ui,sans-serif" font-size="28" letter-spacing="8">PUBLIC BETA</text>
+  <text x="320" y="400" fill="#99E6FF" font-family="system-ui,sans-serif" font-size="24">Engineering study tracker &amp; knowledge OS</text>
+  <text x="320" y="480" fill="#64748b" font-family="system-ui,sans-serif" font-size="20">heart-wire-os.vercel.app</text>
+</svg>

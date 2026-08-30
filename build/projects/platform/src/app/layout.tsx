@@ -5,7 +5,10 @@ import { createSupabaseServerClient } from "@/lib/supabase-server";
 import Sidebar from "@/components/layout/Sidebar";
 import MobileNav from "@/components/layout/MobileNav";
 import PwaUpdater from "@/components/pwa/PwaUpdater";
+import InstallPrompt from "@/components/pwa/InstallPrompt";
+import OnboardingModal from "@/components/onboarding/OnboardingModal";
 import ThemeColorSync from "@/components/ThemeColorSync";
+import FaviconSync from "@/components/FaviconSync";
 import HeartWireThemeProvider from "@/components/ThemeProvider";
 import "./globals.css";
 
@@ -33,11 +36,16 @@ export const metadata: Metadata = {
   applicationName: "HeartWire OS",
   icons: {
     icon: [
-      { url: "/icon.svg", type: "image/svg+xml" },
-      { url: "/icon-192.png", sizes: "192x192", type: "image/png" },
-      { url: "/icon-512.png", sizes: "512x512", type: "image/png" },
+      { url: "/logo-mark.svg", type: "image/svg+xml" },
+      { url: "/favicon-light-32.png", sizes: "32x32", type: "image/png" },
+      { url: "/favicon-32.png", sizes: "32x32", type: "image/png", media: "(prefers-color-scheme: dark)" },
+      { url: "/icon-light-192.png", sizes: "192x192", type: "image/png" },
+      { url: "/icon-192.png", sizes: "192x192", type: "image/png", media: "(prefers-color-scheme: dark)" },
     ],
-    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180" }],
+    apple: [
+      { url: "/apple-touch-icon-light.png", sizes: "180x180" },
+      { url: "/apple-touch-icon.png", sizes: "180x180", media: "(prefers-color-scheme: dark)" },
+    ],
   },
   appleWebApp: {
     capable: true,
@@ -79,9 +87,12 @@ export default async function RootLayout({
       <body className="flex h-screen overflow-hidden hw-glow-bg text-[color:var(--hw-text)]">
         <HeartWireThemeProvider>
           <ThemeColorSync />
+          <FaviconSync />
           <PwaUpdater />
+          <InstallPrompt />
           {user ? (
             <>
+              <OnboardingModal />
               <MobileNav />
               <Suspense fallback={<aside className="w-64 hidden md:block" />}>
                 <Sidebar />

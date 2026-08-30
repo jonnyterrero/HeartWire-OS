@@ -9,6 +9,7 @@ import { createSupabaseBrowserClient } from "@/lib/supabase-browser";
 import { clearRuntimeCaches } from "@/lib/pwa-cache";
 import { useTrackGroups } from "@/hooks/useTrackGroups";
 import NavigationPanel from "./NavigationPanel";
+import BrandLogo from "@/components/BrandLogo";
 
 export default function MobileNav() {
   const pathname = usePathname();
@@ -46,7 +47,24 @@ export default function MobileNav() {
     firstFocusRef.current?.focus();
 
     const onKeyDown = (e: KeyboardEvent) => {
-      if (e.key === "Escape") setOpen(false);
+      if (e.key === "Escape") {
+        setOpen(false);
+        return;
+      }
+      if (e.key !== "Tab" || !drawerRef.current) return;
+      const focusable = drawerRef.current.querySelectorAll<HTMLElement>(
+        'a[href], button:not([disabled]), input, textarea, select, [tabindex]:not([tabindex="-1"])'
+      );
+      if (focusable.length === 0) return;
+      const first = focusable[0];
+      const last = focusable[focusable.length - 1];
+      if (e.shiftKey && document.activeElement === first) {
+        e.preventDefault();
+        last.focus();
+      } else if (!e.shiftKey && document.activeElement === last) {
+        e.preventDefault();
+        first.focus();
+      }
     };
     window.addEventListener("keydown", onKeyDown);
     return () => {
@@ -72,20 +90,7 @@ export default function MobileNav() {
     <>
       <header className="md:hidden fixed top-0 inset-x-0 z-50 h-14 bg-hw-ghost/95 dark:bg-darkSurface/95 backdrop-blur border-b border-[color:var(--hw-border)] flex items-center justify-between px-4">
         <Link href="/" className="flex items-center gap-2 min-h-[44px]">
-          <img
-            src="/favicon-32.png"
-            alt=""
-            width={24}
-            height={24}
-            className="h-6 w-6 rounded dark:block hidden"
-          />
-          <img
-            src="/icon-light-512.png"
-            alt=""
-            width={24}
-            height={24}
-            className="h-6 w-6 rounded block dark:hidden"
-          />
+          <BrandLogo size={24} className="h-6 w-6" />
           <span className="font-bold text-sm">HeartWire OS</span>
         </Link>
         <div className="flex items-center gap-1">
