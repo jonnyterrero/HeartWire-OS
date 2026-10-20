@@ -3,6 +3,12 @@
   "framework": "nextjs",
   "buildCommand": "node scripts/migrate-deploy.mjs && prisma generate && next build",
   "installCommand": "npm install --no-audit --no-fund",
+  "crons": [
+    {
+      "path": "/api/health",
+      "schedule": "0 12 * * *"
+    }
+  ],
   "headers": [
     {
       "source": "/(.*)",
